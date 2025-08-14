@@ -1,0 +1,47 @@
+{
+    "webhooks": [
+        {
+            "url": "https:\/\/discord.com\/api\/webhooks\/1368565340660957214\/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy",
+            "name": "テスト(1)",
+            "enabled": true,
+            "created_at": "2025-05-04 21:30:27"
+        }
+    ],
+    "templates": {
+        "order_added": {
+            "title": "新規注文通知",
+            "description": "新しい注文が追加されました",
+            "color": "5763719",
+            "fields": [
+                {
+                    "name": "注文ID",
+                    "value": "{{order_id}}",
+                    "inline": true
+                },
+                {
+                    "name": "部屋番号",
+                    "value": "{{room_number}}",
+                    "inline": true
+                },
+                {
+                    "name": "金額",
+                    "value": "{{amount}}円",
+                    "inline": true
+                },
+                {
+                    "name": "ステータス",
+                    "value": "{{status}}",
+                    "inline": true
+                },
+                {
+                    "name": "商品",
+                    "value": "{{products}}",
+                    "inline": false
+                }
+            ],
+            "footer": {
+                "text": "FG Square 販売情報モニター"
+            }
+        }
+    }
+}

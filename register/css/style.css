@@ -1,0 +1,675 @@
+/* リセットCSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #FEFAFC;
+    color: #333;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ローディング */
+#loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 4px solid rgba(76, 175, 80, 0.2);
+    border-radius: 50%;
+    border-top-color: #4CAF50;
+    animation: spin 1s ease-in-out infinite;
+    margin-bottom: 15px;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* エラー表示 */
+#error-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9000;
+}
+
+.error-content {
+    text-align: center;
+    padding: 30px;
+    max-width: 90%;
+}
+
+.error-content i {
+    font-size: 60px;
+    color: #f44336;
+    margin-bottom: 20px;
+}
+
+.error-content h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.error-content p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+#retry-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#retry-button:hover {
+    background-color: #388E3C;
+}
+
+/* ヘッダー */
+header {
+    background-color: #658BC1;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    height: 28px;
+    margin-right: 10px;
+}
+
+.header-title {
+    height: 22px;
+}
+
+.user-info-badge {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    padding: 5px 15px 5px 5px;
+}
+
+#profile-image-small {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+    margin-right: 8px;
+}
+
+#user-name-small {
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    max-width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* メインコンテナ */
+#content-container {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    min-height: 100vh;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+}
+
+.register-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    overflow: hidden;
+}
+
+.register-header {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #eee;
+}
+
+.register-header h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.register-header p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* ユーザー情報 */
+.user-info {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.profile-image {
+    margin-right: 15px;
+}
+
+#profile-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #4CAF50;
+}
+
+.profile-name {
+    flex: 1;
+}
+
+#user-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* フォームスタイル */
+.form-section {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-control:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.2);
+}
+
+.form-text {
+    font-size: 12px;
+    color: #777;
+    margin-top: 5px;
+}
+
+/* 部屋番号選択 */
+.room-select-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: left;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: 600;
+}
+
+/* 部屋番号選択後、ドロップダウン全体を非表示 */
+.room-number-container.has-selection .room-select-button {
+    display: none;
+}
+
+.room-select-button::after {
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    font-size: 24px;
+}
+
+.room-select-button:hover {
+    background-color: #eef7ef;
+    border-color: #4CAF50;
+}
+
+/* 選択済み部屋番号のスタイル - 選択後は特に強調 */
+.room-select-button.selected {
+    background-color: #e8f5e9;
+    border: 3px solid #4CAF50;
+    color: #333;
+    font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+    font-size: clamp(24px, 8vw, 32px); /* 画面幅に応じて可変（最小24px、最大32px） */
+    font-weight: 900;
+    text-align: center;
+    padding: 18px 15px;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    word-break: break-all; /* 長い文字列の折り返し */
+    overflow-wrap: break-word; /* 文字の折り返し */
+}
+
+/* 選択表示部分は非表示に */
+.selected-room-display {
+    display: none; /* 不要な表示なので非表示に */
+}
+
+/* モーダル内の部屋番号表示も強調 */
+#registered-room-number {
+    font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    color: #333;
+}
+
+/* 確認用バナー - 設定ボタンを押す前に表示 */
+.room-confirmation-banner {
+    background-color: #658BC1;
+    color: white;
+    padding: 20px 15px;
+    border-radius: 8px;
+    margin: 25px 0;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    transform: scale(1);
+    transition: transform 0.3s;
+    display: none;
+    cursor: pointer; /* クリック可能に */
+    position: relative;
+    overflow: hidden; /* はみ出し防止 */
+}
+
+/* バナー上にホバーしたときの効果 */
+.room-confirmation-banner:hover {
+    background-color: #5477AB;
+}
+
+/* バナーに変更ボタンのアイコンを追加 */
+.room-confirmation-banner::after {
+    content: "\f044"; /* 編集アイコン */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* QRコードからのアクセスの場合、編集ボタンを非表示 */
+.room-confirmation-banner.no-edit::after {
+    display: none;
+}
+
+.room-confirmation-banner.visible {
+    display: block;
+    animation: pulse 1.5s infinite alternate;
+}
+
+.room-confirmation-banner .room-number-display {
+    font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+    font-size: clamp(48px, 20vw, 94px); /* 画面幅に応じて可変（最小48px、最大94px） */
+    font-weight: 900;
+    margin: 15px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    letter-spacing: 3px;
+    line-height: 1.2;
+    word-break: break-all; /* 長い文字列の折り返し */
+    overflow-wrap: break-word; /* 文字の折り返し */
+}
+
+.room-confirmation-banner .confirmation-text {
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.room-confirmation-banner .confirmation-text:last-child {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+@keyframes pulse {
+    from { transform: scale(1); }
+    to { transform: scale(1.05); }
+}
+
+/* チェックイン日の表示 - フィールドではなくテキスト表示に */
+.checkin-display {
+    padding: 8px 0;
+    font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+    font-size: 22px;
+    color: #333;
+    font-weight: 900;
+    margin-top: 5px;
+}
+
+/* チェックアウト時間コンテナ */
+.checkout-time-container {
+    display: flex;
+    gap: 10px;
+}
+
+.checkout-time-container .form-control:first-child {
+    flex: 2;
+}
+
+.checkout-time-container .form-control:last-child {
+    flex: 1;
+}
+
+/* 登録ボタン */
+.register-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #658BC1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-button:hover {
+    background-color: #5477AB;
+}
+
+.register-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* モーダル */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+    animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 0;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    animation: slideUp 0.3s;
+}
+
+@keyframes slideUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.modal-header {
+    padding: 15px 20px;
+    background-color: #658BC1;
+    color: white;
+    border-radius: 12px 12px 0 0;
+    text-align: center;
+}
+
+.modal-header h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.register-complete-message {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.register-complete-message i {
+    font-size: 50px;
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+.register-complete-message p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.room-info {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.room-info p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.room-info p:last-child {
+    margin-bottom: 0;
+}
+
+.room-info span {
+    font-weight: 600;
+    color: #333;
+}
+
+.modal-footer {
+    padding: 15px 20px;
+    text-align: center;
+    border-top: 1px solid #eee;
+}
+
+.checkout-button {
+    background-color: #658BC1;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.checkout-button:hover {
+    background-color: #5477AB;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 480px) {
+    .header-content {
+        padding: 10px 15px;
+    }
+    
+    .header-logo {
+        height: 24px;
+    }
+    
+    .header-title {
+        height: 18px;
+    }
+    
+    #profile-image-small {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .modal-content {
+        margin: 30% auto;
+        width: 95%;
+    }
+    
+    /* 狭い画面での部屋番号表示調整 */
+    .room-confirmation-banner {
+        padding: 15px 10px;
+    }
+    
+    .room-confirmation-banner .room-number-display {
+        font-size: clamp(36px, 18vw, 72px); /* より小さめに調整 */
+        letter-spacing: 1px; /* 文字間隔も狭める */
+    }
+}
+
+/* 特に狭い画面（380px以下）への対応 */
+@media (max-width: 380px) {
+    .room-confirmation-banner .room-number-display {
+        font-size: clamp(32px, 16vw, 60px); /* さらに小さく */
+        letter-spacing: 0; /* 文字間隔をなくす */
+    }
+    
+    .room-select-button.selected {
+        font-size: clamp(20px, 7vw, 28px); /* ボタンも小さく */
+        padding: 15px 10px;
+    }
+}
+
+/* ドラムロールのパフォーマンス改善用のスタイル追加 */
+.picker-item {
+    will-change: transform;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: relative;
+    padding: 10px 0;
+}
+
+.picker-scroller {
+    will-change: transform;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+}
+
+/* 選択領域を強調表示する固定マスク */
+.picker-mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.95) 0%,
+        rgba(255, 255, 255, 0.6) 30%,
+        rgba(255, 255, 255, 0) 40%,
+        rgba(255, 255, 255, 0) 60%,
+        rgba(255, 255, 255, 0.6) 70%,
+        rgba(255, 255, 255, 0.95) 100%
+    );
+}
+
+/* 選択項目の強調表示 */
+.picker-center-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 40px;
+    top: 50%;
+    margin-top: -20px;
+    background-color: rgba(240, 255, 240, 0.4);
+    border-top: 1px solid rgba(100, 180, 100, 0.3);
+    border-bottom: 1px solid rgba(100, 180, 100, 0.3);
+    pointer-events: none;
+} 

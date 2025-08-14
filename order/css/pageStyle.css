@@ -1,0 +1,95 @@
+/* ===== ページレイアウト ===== */
+/* メインコンテンツのレイアウトや配置に関するスタイル */
+
+/* v20240523: サイドバー幅を拡大 (clamp 60px-90px) & 余白調整 */
+
+/* 全体レイアウト */
+#app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* メインコンテンツ全体を中央に配置するためのラッパー */
+main {
+    display: flex;
+    margin-top: var(--header-height);
+    margin-bottom: var(--footer-height);
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    justify-content: flex-start; /* 左寄せに変更 */
+    position: relative; /* サイドバーの配置基準 */
+    width: 100%; /* 幅を明示的に設定 */
+    overflow-x: hidden; /* 横スクロールを防止 */
+}
+
+/* カテゴリサイドバー */
+/* サイドバーを左端に固定 */
+.category-sidebar {
+    /* 幅 60px〜90px, 基準18% */
+    width: clamp(60px, 18%, 90px);
+    overflow-x: hidden; /* 横スクロール禁止 */
+    font-size: 0.8rem; /* 文字サイズを15%縮小 */
+    border-right: 1px solid #eee;
+    background-color: #f9f9f9;
+    overflow-y: auto; /* 縦スクロールのみ許可 */
+    height: calc(100vh - var(--header-height) - var(--footer-height)); /* 独立スクロール用に高さ固定 */
+    position: fixed; /* サイドバーを画面左に固定 */
+    top: var(--header-height);
+    left: 0;
+}
+
+#category-list {
+    padding: 16px 0;
+}
+
+.category-item {
+    padding: 15px 10px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+.category-item:hover {
+    background-color: #f0f0f0;
+}
+
+.category-item.active {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: 500;
+}
+
+.category-item img {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 8px;
+    object-fit: cover;
+}
+
+/* 商品リスト表示エリアを中央に配置 */
+.product-content {
+    flex: 0 1 620px; /* grow 0, shrink 1, basis 620px */
+    overflow-y: auto;
+    max-width: 620px;
+    margin: 0;
+    padding-left: var(--grid-gap);
+    padding-right: var(--grid-gap);
+    background-color: #ffffff;
+    height: calc(100vh - var(--header-height) - var(--footer-height)); /* 独立スクロール用に高さ固定 */
+    margin-left: clamp(60px, 18%, 90px); /* サイドバー幅分の余白を確保 */
+}
+
+#product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--grid-gap);
+    padding-bottom: 16px;
+    width: 100%;
+}
+
+/* ページ外側余白用にbody背景を設定 */
+body {
+    background-color: #f5f5f5;
+} 

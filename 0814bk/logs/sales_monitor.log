@@ -1,0 +1,2558 @@
+ity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:17:40] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:17:40] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:17:40] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:17:40] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:18:40] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:18:40] [INFO] データベース接続成功
+[2025-08-14 09:18:40] [INFO] 注文データ取得開始
+[2025-08-14 09:18:40] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:18:40] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:18:40] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:18:40] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:18:40] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:18:40] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:18:40] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:18:40] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:18:40] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:19:40] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:19:40] [INFO] データベース接続成功
+[2025-08-14 09:19:40] [INFO] 注文データ取得開始
+[2025-08-14 09:19:40] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:19:40] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:19:40] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:19:40] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:19:40] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:19:40] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:19:40] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:19:40] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:19:40] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:20:40] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:20:40] [INFO] データベース接続成功
+[2025-08-14 09:20:40] [INFO] 注文データ取得開始
+[2025-08-14 09:20:40] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:20:40] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:20:40] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:20:40] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:20:40] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:20:40] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:20:40] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:20:40] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:20:40] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:21:41] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:21:41] [INFO] データベース接続成功
+[2025-08-14 09:21:41] [INFO] 注文データ取得開始
+[2025-08-14 09:21:41] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:21:41] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:21:41] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:21:41] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:21:41] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:21:41] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:21:41] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:21:41] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:21:41] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:22:41] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:22:41] [INFO] データベース接続成功
+[2025-08-14 09:22:41] [INFO] 注文データ取得開始
+[2025-08-14 09:22:41] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:22:41] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:22:41] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:22:41] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:22:41] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:22:41] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:22:41] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:22:41] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:22:41] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:23:41] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:23:41] [INFO] データベース接続成功
+[2025-08-14 09:23:41] [INFO] 注文データ取得開始
+[2025-08-14 09:23:41] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:23:41] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:23:41] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:23:41] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:23:41] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:23:41] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:23:41] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:23:41] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:23:41] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:24:41] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:24:41] [INFO] データベース接続成功
+[2025-08-14 09:24:41] [INFO] 注文データ取得開始
+[2025-08-14 09:24:41] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:24:41] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:24:41] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:24:41] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:24:41] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:24:41] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:24:41] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:24:41] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:24:41] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:25:42] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:25:42] [INFO] データベース接続成功
+[2025-08-14 09:25:42] [INFO] 注文データ取得開始
+[2025-08-14 09:25:42] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:25:42] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:25:42] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:25:42] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:25:42] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:25:42] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:25:42] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:25:42] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:25:42] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:26:42] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:26:42] [INFO] データベース接続成功
+[2025-08-14 09:26:42] [INFO] 注文データ取得開始
+[2025-08-14 09:26:42] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:26:42] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:26:42] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:26:42] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:26:42] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:26:42] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:26:42] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:26:42] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:26:42] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:27:42] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:27:42] [INFO] データベース接続成功
+[2025-08-14 09:27:42] [INFO] 注文データ取得開始
+[2025-08-14 09:27:42] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:27:42] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:27:42] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:27:42] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:27:42] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:27:42] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:27:42] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:27:42] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:27:42] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:28:42] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:28:42] [INFO] データベース接続成功
+[2025-08-14 09:28:42] [INFO] 注文データ取得開始
+[2025-08-14 09:28:42] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:28:42] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:28:42] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:28:42] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:28:42] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:28:42] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:28:42] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:28:42] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:28:42] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:29:42] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:29:42] [INFO] データベース接続成功
+[2025-08-14 09:29:42] [INFO] 注文データ取得開始
+[2025-08-14 09:29:42] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:29:42] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:29:42] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:29:42] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:29:42] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:29:42] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:29:42] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:29:42] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:29:42] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:30:43] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:30:43] [INFO] データベース接続成功
+[2025-08-14 09:30:43] [INFO] 注文データ取得開始
+[2025-08-14 09:30:43] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:30:43] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:30:43] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:30:43] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:30:43] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:30:43] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:30:43] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:30:43] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:30:43] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:31:43] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:31:43] [INFO] データベース接続成功
+[2025-08-14 09:31:43] [INFO] 注文データ取得開始
+[2025-08-14 09:31:43] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:31:43] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:31:43] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:31:43] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:31:43] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:31:43] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:31:43] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:31:43] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:31:43] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:32:43] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:32:43] [INFO] データベース接続成功
+[2025-08-14 09:32:43] [INFO] 注文データ取得開始
+[2025-08-14 09:32:43] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:32:43] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:32:43] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:32:43] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:32:43] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:32:43] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:32:43] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:32:43] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:32:43] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:33:43] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:33:43] [INFO] データベース接続成功
+[2025-08-14 09:33:43] [INFO] 注文データ取得開始
+[2025-08-14 09:33:43] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:33:43] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:33:43] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:33:43] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:33:43] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:33:43] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:33:43] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:33:43] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:33:43] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:34:43] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:34:43] [INFO] データベース接続成功
+[2025-08-14 09:34:43] [INFO] 注文データ取得開始
+[2025-08-14 09:34:43] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:34:43] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:34:43] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:34:43] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:34:43] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:34:43] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:34:43] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:34:43] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:34:43] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:35:44] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:35:44] [INFO] データベース接続成功
+[2025-08-14 09:35:44] [INFO] 注文データ取得開始
+[2025-08-14 09:35:44] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:35:44] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:35:44] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:35:44] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:35:44] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:35:44] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:35:44] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:35:44] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:35:44] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:36:44] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:36:44] [INFO] データベース接続成功
+[2025-08-14 09:36:44] [INFO] 注文データ取得開始
+[2025-08-14 09:36:44] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:36:44] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:36:44] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:36:44] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:36:44] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:36:44] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:36:44] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:36:44] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:36:44] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:37:44] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:37:44] [INFO] データベース接続成功
+[2025-08-14 09:37:44] [INFO] 注文データ取得開始
+[2025-08-14 09:37:44] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:37:44] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:37:44] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:37:44] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:37:44] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:37:44] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:37:44] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:37:44] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:37:44] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:38:44] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:38:44] [INFO] データベース接続成功
+[2025-08-14 09:38:44] [INFO] 注文データ取得開始
+[2025-08-14 09:38:44] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:38:44] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:38:44] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:38:44] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:38:44] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:38:44] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:38:44] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:38:44] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:38:44] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:39:45] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:39:45] [INFO] データベース接続成功
+[2025-08-14 09:39:45] [INFO] 注文データ取得開始
+[2025-08-14 09:39:45] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:39:45] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:39:45] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:39:45] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:39:45] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:39:45] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:39:45] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:39:45] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:39:45] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:40:45] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:40:45] [INFO] データベース接続成功
+[2025-08-14 09:40:45] [INFO] 注文データ取得開始
+[2025-08-14 09:40:45] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:40:45] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:40:45] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:40:45] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:40:45] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:40:45] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:40:45] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:40:45] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:40:45] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:41:45] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:41:45] [INFO] データベース接続成功
+[2025-08-14 09:41:45] [INFO] 注文データ取得開始
+[2025-08-14 09:41:45] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:41:45] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:41:45] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:41:45] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:41:45] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:41:45] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:41:45] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:41:45] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:41:45] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:42:45] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:42:45] [INFO] データベース接続成功
+[2025-08-14 09:42:45] [INFO] 注文データ取得開始
+[2025-08-14 09:42:45] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:42:45] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:42:45] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:42:45] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:42:45] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:42:45] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:42:45] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:42:45] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:42:45] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:43:45] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:43:45] [INFO] データベース接続成功
+[2025-08-14 09:43:45] [INFO] 注文データ取得開始
+[2025-08-14 09:43:45] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:43:45] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:43:45] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:43:45] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:43:45] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:43:45] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:43:45] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:43:45] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:43:45] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:44:46] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:44:46] [INFO] データベース接続成功
+[2025-08-14 09:44:46] [INFO] 注文データ取得開始
+[2025-08-14 09:44:46] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:44:46] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:44:46] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:44:46] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:44:46] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:44:46] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:44:46] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:44:46] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:44:46] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:45:46] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:45:46] [INFO] データベース接続成功
+[2025-08-14 09:45:46] [INFO] 注文データ取得開始
+[2025-08-14 09:45:46] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:45:46] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:45:46] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:45:46] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:45:46] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:45:46] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:45:46] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:45:46] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:45:46] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:46:46] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:46:46] [INFO] データベース接続成功
+[2025-08-14 09:46:46] [INFO] 注文データ取得開始
+[2025-08-14 09:46:46] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:46:46] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:46:46] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:46:46] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:46:46] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:46:46] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:46:46] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:46:46] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:46:46] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:47:46] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:47:46] [INFO] データベース接続成功
+[2025-08-14 09:47:46] [INFO] 注文データ取得開始
+[2025-08-14 09:47:46] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:47:46] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:47:46] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:47:46] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:47:46] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:47:46] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:47:46] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:47:46] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:47:46] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:48:46] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:48:46] [INFO] データベース接続成功
+[2025-08-14 09:48:46] [INFO] 注文データ取得開始
+[2025-08-14 09:48:46] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:48:46] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:48:46] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:48:46] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:48:46] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:48:46] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:48:46] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:48:46] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:48:46] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:49:47] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:49:47] [INFO] データベース接続成功
+[2025-08-14 09:49:47] [INFO] 注文データ取得開始
+[2025-08-14 09:49:47] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:49:47] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:49:47] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:49:47] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:49:47] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:49:47] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:49:47] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:49:47] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:49:47] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:50:47] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:50:47] [INFO] データベース接続成功
+[2025-08-14 09:50:47] [INFO] 注文データ取得開始
+[2025-08-14 09:50:47] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:50:47] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:50:47] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:50:47] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:50:47] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:50:47] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:50:47] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:50:47] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:50:47] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:51:47] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:51:47] [INFO] データベース接続成功
+[2025-08-14 09:51:47] [INFO] 注文データ取得開始
+[2025-08-14 09:51:47] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:51:47] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:51:47] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:51:47] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:51:47] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:51:47] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:51:47] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:51:47] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:51:47] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:52:36] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:52:36] [INFO] データベース接続成功
+[2025-08-14 09:52:36] [INFO] 注文データ取得開始
+[2025-08-14 09:52:36] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:52:36] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:52:36] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:52:36] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:52:36] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:52:36] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:52:36] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:52:36] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:52:36] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:53:36] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:53:36] [INFO] データベース接続成功
+[2025-08-14 09:53:36] [INFO] 注文データ取得開始
+[2025-08-14 09:53:36] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:53:36] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:53:36] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:53:36] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:53:36] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:53:36] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:53:36] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:53:36] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:53:36] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:54:37] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:54:37] [INFO] データベース接続成功
+[2025-08-14 09:54:37] [INFO] 注文データ取得開始
+[2025-08-14 09:54:37] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:54:37] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:54:37] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:54:37] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:54:37] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:54:37] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:54:37] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:54:37] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:54:37] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:55:37] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:55:37] [INFO] データベース接続成功
+[2025-08-14 09:55:37] [INFO] 注文データ取得開始
+[2025-08-14 09:55:37] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:55:37] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:55:37] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:55:37] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:55:37] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:55:37] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:55:37] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:55:37] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:55:37] [INFO] アクティブな部屋情報取得成功: 10件
+[2025-08-14 09:56:14] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:56:14] [INFO] データベース接続成功
+[2025-08-14 09:56:14] [INFO] 注文データ取得開始
+[2025-08-14 09:56:14] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:56:14] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:56:14] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:56:14] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:56:14] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:56:14] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:56:14] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:56:14] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:56:14] [INFO] アクティブな部屋情報取得成功: 9件
+[2025-08-14 09:56:31] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:56:31] [INFO] データベース接続成功
+[2025-08-14 09:56:31] [INFO] 注文データ取得開始
+[2025-08-14 09:56:31] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:56:31] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:56:31] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:56:31] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:56:31] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:56:31] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:56:31] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:56:31] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:56:31] [INFO] アクティブな部屋情報取得成功: 9件
+[2025-08-14 09:56:35] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:56:35] [INFO] データベース接続成功
+[2025-08-14 09:56:35] [INFO] 注文データ取得開始
+[2025-08-14 09:56:35] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:56:35] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:56:35] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:56:35] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:56:35] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:56:35] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:56:35] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:56:35] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:56:35] [INFO] アクティブな部屋情報取得成功: 9件
+[2025-08-14 09:56:45] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:56:45] [INFO] データベース接続成功
+[2025-08-14 09:56:45] [INFO] 注文データ取得開始
+[2025-08-14 09:56:45] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:56:45] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:56:45] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:56:45] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:56:45] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:56:45] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:56:45] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:56:45] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:56:45] [INFO] アクティブな部屋情報取得成功: 8件
+[2025-08-14 09:56:53] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:56:53] [INFO] データベース接続成功
+[2025-08-14 09:56:53] [INFO] 注文データ取得開始
+[2025-08-14 09:56:53] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:56:53] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:56:53] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:56:53] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:56:53] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:56:53] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:56:53] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:56:53] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:56:53] [INFO] アクティブな部屋情報取得成功: 7件
+[2025-08-14 09:57:53] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:57:53] [INFO] データベース接続成功
+[2025-08-14 09:57:53] [INFO] 注文データ取得開始
+[2025-08-14 09:57:53] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:57:53] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:57:53] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:57:53] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:57:53] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:57:53] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:57:53] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:57:53] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:57:53] [INFO] アクティブな部屋情報取得成功: 7件
+[2025-08-14 09:58:56] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:58:56] [INFO] データベース接続成功
+[2025-08-14 09:58:56] [INFO] 注文データ取得開始
+[2025-08-14 09:58:56] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:58:56] [INFO] 注文データ取得成功: 64件
+[2025-08-14 09:58:56] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:58:56] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 09:58:56] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,344,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:58:56] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 09:58:56] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:58:56] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:58:56] [INFO] アクティブな部屋情報取得成功: 6件
+[2025-08-14 09:59:53] [INFO] ユーザー fabula がログイン中
+[2025-08-14 09:59:53] [INFO] データベース接続成功
+[2025-08-14 09:59:53] [INFO] 注文データ取得開始
+[2025-08-14 09:59:53] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 09:59:53] [INFO] 注文データ取得成功: 63件
+[2025-08-14 09:59:53] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 09:59:53] [INFO] 注文詳細データ取得開始: オーダーID 63件
+[2025-08-14 09:59:53] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 09:59:53] [INFO] 注文詳細データ取得成功: 142件
+[2025-08-14 09:59:53] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 09:59:53] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 09:59:53] [INFO] アクティブな部屋情報取得成功: 6件
+[2025-08-14 10:00:53] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:00:53] [INFO] データベース接続成功
+[2025-08-14 10:00:53] [INFO] 注文データ取得開始
+[2025-08-14 10:00:53] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:00:53] [INFO] 注文データ取得成功: 63件
+[2025-08-14 10:00:53] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 10:00:53] [INFO] 注文詳細データ取得開始: オーダーID 63件
+[2025-08-14 10:00:53] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:00:53] [INFO] 注文詳細データ取得成功: 142件
+[2025-08-14 10:00:53] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:00:53] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:00:53] [INFO] アクティブな部屋情報取得成功: 6件
+[2025-08-14 10:01:54] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:01:54] [INFO] データベース接続成功
+[2025-08-14 10:01:54] [INFO] 注文データ取得開始
+[2025-08-14 10:01:54] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:01:54] [INFO] 注文データ取得成功: 63件
+[2025-08-14 10:01:54] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 10:01:54] [INFO] 注文詳細データ取得開始: オーダーID 63件
+[2025-08-14 10:01:54] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:01:54] [INFO] 注文詳細データ取得成功: 142件
+[2025-08-14 10:01:54] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:01:54] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:01:54] [INFO] アクティブな部屋情報取得成功: 6件
+[2025-08-14 10:02:54] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:02:54] [INFO] データベース接続成功
+[2025-08-14 10:02:54] [INFO] 注文データ取得開始
+[2025-08-14 10:02:54] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:02:54] [INFO] 注文データ取得成功: 63件
+[2025-08-14 10:02:54] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 10:02:54] [INFO] 注文詳細データ取得開始: オーダーID 63件
+[2025-08-14 10:02:54] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:02:54] [INFO] 注文詳細データ取得成功: 142件
+[2025-08-14 10:02:54] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:02:54] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:02:54] [INFO] アクティブな部屋情報取得成功: 6件
+[2025-08-14 10:03:54] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:03:54] [INFO] データベース接続成功
+[2025-08-14 10:03:54] [INFO] 注文データ取得開始
+[2025-08-14 10:03:54] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:03:54] [INFO] 注文データ取得成功: 63件
+[2025-08-14 10:03:54] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 10:03:54] [INFO] 注文詳細データ取得開始: オーダーID 63件
+[2025-08-14 10:03:54] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:03:54] [INFO] 注文詳細データ取得成功: 142件
+[2025-08-14 10:03:54] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:03:54] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:03:54] [INFO] アクティブな部屋情報取得成功: 6件
+[2025-08-14 10:04:54] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:04:54] [INFO] データベース接続成功
+[2025-08-14 10:04:54] [INFO] 注文データ取得開始
+[2025-08-14 10:04:54] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:04:54] [INFO] 注文データ取得成功: 63件
+[2025-08-14 10:04:54] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 10:04:54] [INFO] 注文詳細データ取得開始: オーダーID 63件
+[2025-08-14 10:04:54] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:04:54] [INFO] 注文詳細データ取得成功: 142件
+[2025-08-14 10:04:54] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:04:54] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:04:54] [INFO] アクティブな部屋情報取得成功: 6件
+[2025-08-14 10:05:54] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:05:54] [INFO] データベース接続成功
+[2025-08-14 10:05:54] [INFO] 注文データ取得開始
+[2025-08-14 10:05:54] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:05:54] [INFO] 注文データ取得成功: 63件
+[2025-08-14 10:05:54] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 10:05:54] [INFO] 注文詳細データ取得開始: オーダーID 63件
+[2025-08-14 10:05:54] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:05:54] [INFO] 注文詳細データ取得成功: 142件
+[2025-08-14 10:05:54] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:05:54] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:05:54] [INFO] アクティブな部屋情報取得成功: 6件
+[2025-08-14 10:06:55] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:06:55] [INFO] データベース接続成功
+[2025-08-14 10:06:55] [INFO] 注文データ取得開始
+[2025-08-14 10:06:55] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:06:55] [INFO] 注文データ取得成功: 63件
+[2025-08-14 10:06:55] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 10:06:55] [INFO] 注文詳細データ取得開始: オーダーID 63件
+[2025-08-14 10:06:55] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:06:55] [INFO] 注文詳細データ取得成功: 142件
+[2025-08-14 10:06:55] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:06:55] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:06:55] [INFO] アクティブな部屋情報取得成功: 6件
+[2025-08-14 10:07:55] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:07:55] [INFO] データベース接続成功
+[2025-08-14 10:07:55] [INFO] 注文データ取得開始
+[2025-08-14 10:07:55] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:07:55] [INFO] 注文データ取得成功: 63件
+[2025-08-14 10:07:55] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 10:07:55] [INFO] 注文詳細データ取得開始: オーダーID 63件
+[2025-08-14 10:07:55] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:07:55] [INFO] 注文詳細データ取得成功: 142件
+[2025-08-14 10:07:55] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:07:55] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:07:55] [INFO] アクティブな部屋情報取得成功: 6件
+[2025-08-14 10:08:55] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:08:55] [INFO] データベース接続成功
+[2025-08-14 10:08:55] [INFO] 注文データ取得開始
+[2025-08-14 10:08:55] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:08:55] [INFO] 注文データ取得成功: 63件
+[2025-08-14 10:08:55] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 10:08:55] [INFO] 注文詳細データ取得開始: オーダーID 63件
+[2025-08-14 10:08:55] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:08:55] [INFO] 注文詳細データ取得成功: 142件
+[2025-08-14 10:08:55] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:08:55] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:08:55] [INFO] アクティブな部屋情報取得成功: 6件
+[2025-08-14 10:09:55] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:09:55] [INFO] データベース接続成功
+[2025-08-14 10:09:55] [INFO] 注文データ取得開始
+[2025-08-14 10:09:55] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:09:55] [INFO] 注文データ取得成功: 63件
+[2025-08-14 10:09:55] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 10:09:55] [INFO] 注文詳細データ取得開始: オーダーID 63件
+[2025-08-14 10:09:55] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:09:55] [INFO] 注文詳細データ取得成功: 142件
+[2025-08-14 10:09:55] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:09:55] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:09:55] [INFO] アクティブな部屋情報取得成功: 6件
+[2025-08-14 10:10:06] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:10:06] [INFO] データベース接続成功
+[2025-08-14 10:10:06] [INFO] 注文データ取得開始
+[2025-08-14 10:10:06] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:10:06] [INFO] 注文データ取得成功: 63件
+[2025-08-14 10:10:06] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 10:10:06] [INFO] 注文詳細データ取得開始: オーダーID 63件
+[2025-08-14 10:10:06] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:10:06] [INFO] 注文詳細データ取得成功: 142件
+[2025-08-14 10:10:06] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:10:06] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:10:06] [INFO] アクティブな部屋情報取得成功: 5件
+[2025-08-14 10:10:18] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:10:18] [INFO] データベース接続成功
+[2025-08-14 10:10:18] [INFO] 注文データ取得開始
+[2025-08-14 10:10:18] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:10:18] [INFO] 注文データ取得成功: 63件
+[2025-08-14 10:10:18] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 10:10:18] [INFO] 注文詳細データ取得開始: オーダーID 63件
+[2025-08-14 10:10:18] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:10:18] [INFO] 注文詳細データ取得成功: 142件
+[2025-08-14 10:10:18] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:10:18] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:10:18] [INFO] アクティブな部屋情報取得成功: 4件
+[2025-08-14 10:11:18] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:11:18] [INFO] データベース接続成功
+[2025-08-14 10:11:18] [INFO] 注文データ取得開始
+[2025-08-14 10:11:18] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:11:18] [INFO] 注文データ取得成功: 63件
+[2025-08-14 10:11:18] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 10:11:18] [INFO] 注文詳細データ取得開始: オーダーID 63件
+[2025-08-14 10:11:18] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:11:18] [INFO] 注文詳細データ取得成功: 142件
+[2025-08-14 10:11:18] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:11:18] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:11:18] [INFO] アクティブな部屋情報取得成功: 4件
+[2025-08-14 10:12:19] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:12:19] [INFO] データベース接続成功
+[2025-08-14 10:12:19] [INFO] 注文データ取得開始
+[2025-08-14 10:12:19] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:12:19] [INFO] 注文データ取得成功: 63件
+[2025-08-14 10:12:19] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 10:12:19] [INFO] 注文詳細データ取得開始: オーダーID 63件
+[2025-08-14 10:12:19] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:12:19] [INFO] 注文詳細データ取得成功: 142件
+[2025-08-14 10:12:19] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:12:19] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:12:19] [INFO] アクティブな部屋情報取得成功: 4件
+[2025-08-14 10:13:20] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:13:20] [INFO] データベース接続成功
+[2025-08-14 10:13:20] [INFO] 注文データ取得開始
+[2025-08-14 10:13:20] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:13:20] [INFO] 注文データ取得成功: 63件
+[2025-08-14 10:13:20] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 10:13:20] [INFO] 注文詳細データ取得開始: オーダーID 63件
+[2025-08-14 10:13:20] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:13:20] [INFO] 注文詳細データ取得成功: 142件
+[2025-08-14 10:13:20] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:13:20] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:13:20] [INFO] アクティブな部屋情報取得成功: 4件
+[2025-08-14 10:14:21] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:14:21] [INFO] データベース接続成功
+[2025-08-14 10:14:21] [INFO] 注文データ取得開始
+[2025-08-14 10:14:21] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:14:21] [INFO] 注文データ取得成功: 63件
+[2025-08-14 10:14:21] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 10:14:21] [INFO] 注文詳細データ取得開始: オーダーID 63件
+[2025-08-14 10:14:21] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:14:21] [INFO] 注文詳細データ取得成功: 142件
+[2025-08-14 10:14:21] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:14:21] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:14:21] [INFO] アクティブな部屋情報取得成功: 4件
+[2025-08-14 10:15:22] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:15:22] [INFO] データベース接続成功
+[2025-08-14 10:15:22] [INFO] 注文データ取得開始
+[2025-08-14 10:15:22] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:15:22] [INFO] 注文データ取得成功: 63件
+[2025-08-14 10:15:22] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 10:15:22] [INFO] 注文詳細データ取得開始: オーダーID 63件
+[2025-08-14 10:15:22] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:15:22] [INFO] 注文詳細データ取得成功: 142件
+[2025-08-14 10:15:22] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:15:22] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:15:22] [INFO] アクティブな部屋情報取得成功: 4件
+[2025-08-14 10:16:23] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:16:23] [INFO] データベース接続成功
+[2025-08-14 10:16:23] [INFO] 注文データ取得開始
+[2025-08-14 10:16:23] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:16:23] [INFO] 注文データ取得成功: 63件
+[2025-08-14 10:16:23] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 10:16:23] [INFO] 注文詳細データ取得開始: オーダーID 63件
+[2025-08-14 10:16:23] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:16:23] [INFO] 注文詳細データ取得成功: 142件
+[2025-08-14 10:16:23] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:16:23] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:16:23] [INFO] アクティブな部屋情報取得成功: 4件
+[2025-08-14 10:17:25] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:17:25] [INFO] データベース接続成功
+[2025-08-14 10:17:25] [INFO] 注文データ取得開始
+[2025-08-14 10:17:25] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:17:25] [INFO] 注文データ取得成功: 64件
+[2025-08-14 10:17:25] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 10:17:25] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 10:17:25] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,381,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:17:25] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 10:17:25] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:17:25] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:17:25] [INFO] アクティブな部屋情報取得成功: 4件
+[2025-08-14 10:18:25] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:18:25] [INFO] データベース接続成功
+[2025-08-14 10:18:25] [INFO] 注文データ取得開始
+[2025-08-14 10:18:25] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:18:25] [INFO] 注文データ取得成功: 64件
+[2025-08-14 10:18:25] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 10:18:25] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 10:18:25] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,381,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:18:25] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 10:18:25] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:18:25] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:18:25] [INFO] アクティブな部屋情報取得成功: 4件
+[2025-08-14 10:19:26] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:19:26] [INFO] データベース接続成功
+[2025-08-14 10:19:26] [INFO] 注文データ取得開始
+[2025-08-14 10:19:26] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:19:26] [INFO] 注文データ取得成功: 64件
+[2025-08-14 10:19:26] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 10:19:26] [INFO] 注文詳細データ取得開始: オーダーID 64件
+[2025-08-14 10:19:26] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,381,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:19:26] [INFO] 注文詳細データ取得成功: 143件
+[2025-08-14 10:19:26] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:19:26] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:19:26] [INFO] アクティブな部屋情報取得成功: 3件
+[2025-08-14 10:20:27] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:20:27] [INFO] データベース接続成功
+[2025-08-14 10:20:27] [INFO] 注文データ取得開始
+[2025-08-14 10:20:27] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:20:27] [INFO] 注文データ取得成功: 65件
+[2025-08-14 10:20:27] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 10:20:27] [INFO] 注文詳細データ取得開始: オーダーID 65件
+[2025-08-14 10:20:27] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,382,381,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:20:27] [INFO] 注文詳細データ取得成功: 144件
+[2025-08-14 10:20:27] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:20:27] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:20:27] [INFO] アクティブな部屋情報取得成功: 4件
+[2025-08-14 10:21:28] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:21:28] [INFO] データベース接続成功
+[2025-08-14 10:21:28] [INFO] 注文データ取得開始
+[2025-08-14 10:21:28] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:21:28] [INFO] 注文データ取得成功: 65件
+[2025-08-14 10:21:28] [INFO] 部屋ごとのデータグループ化完了: 11部屋
+[2025-08-14 10:21:28] [INFO] 注文詳細データ取得開始: オーダーID 65件
+[2025-08-14 10:21:28] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,296,295,294,293,223,222,382,381,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:21:28] [INFO] 注文詳細データ取得成功: 144件
+[2025-08-14 10:21:28] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:21:28] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:21:28] [INFO] アクティブな部屋情報取得成功: 3件
+[2025-08-14 10:22:29] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:22:29] [INFO] データベース接続成功
+[2025-08-14 10:22:29] [INFO] 注文データ取得開始
+[2025-08-14 10:22:29] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:22:29] [INFO] 注文データ取得成功: 66件
+[2025-08-14 10:22:29] [INFO] 部屋ごとのデータグループ化完了: 12部屋
+[2025-08-14 10:22:29] [INFO] 注文詳細データ取得開始: オーダーID 66件
+[2025-08-14 10:22:29] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,383,296,295,294,293,223,222,382,381,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:22:29] [INFO] 注文詳細データ取得成功: 145件
+[2025-08-14 10:22:29] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:22:29] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:22:29] [INFO] アクティブな部屋情報取得成功: 4件
+[2025-08-14 10:23:30] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:23:30] [INFO] データベース接続成功
+[2025-08-14 10:23:30] [INFO] 注文データ取得開始
+[2025-08-14 10:23:30] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:23:30] [INFO] 注文データ取得成功: 66件
+[2025-08-14 10:23:30] [INFO] 部屋ごとのデータグループ化完了: 12部屋
+[2025-08-14 10:23:30] [INFO] 注文詳細データ取得開始: オーダーID 66件
+[2025-08-14 10:23:30] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,383,296,295,294,293,223,222,382,381,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:23:30] [INFO] 注文詳細データ取得成功: 145件
+[2025-08-14 10:23:30] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:23:30] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:23:30] [INFO] アクティブな部屋情報取得成功: 3件
+[2025-08-14 10:24:31] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:24:31] [INFO] データベース接続成功
+[2025-08-14 10:24:31] [INFO] 注文データ取得開始
+[2025-08-14 10:24:31] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:24:31] [INFO] 注文データ取得成功: 66件
+[2025-08-14 10:24:31] [INFO] 部屋ごとのデータグループ化完了: 12部屋
+[2025-08-14 10:24:31] [INFO] 注文詳細データ取得開始: オーダーID 66件
+[2025-08-14 10:24:31] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,383,296,295,294,293,223,222,382,381,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:24:31] [INFO] 注文詳細データ取得成功: 145件
+[2025-08-14 10:24:31] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:24:31] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:24:31] [INFO] アクティブな部屋情報取得成功: 3件
+[2025-08-14 10:25:32] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:25:32] [INFO] データベース接続成功
+[2025-08-14 10:25:32] [INFO] 注文データ取得開始
+[2025-08-14 10:25:32] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:25:32] [INFO] 注文データ取得成功: 66件
+[2025-08-14 10:25:32] [INFO] 部屋ごとのデータグループ化完了: 12部屋
+[2025-08-14 10:25:32] [INFO] 注文詳細データ取得開始: オーダーID 66件
+[2025-08-14 10:25:32] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,383,296,295,294,293,223,222,382,381,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:25:32] [INFO] 注文詳細データ取得成功: 145件
+[2025-08-14 10:25:32] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:25:32] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:25:32] [INFO] アクティブな部屋情報取得成功: 3件
+[2025-08-14 10:26:33] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:26:33] [INFO] データベース接続成功
+[2025-08-14 10:26:33] [INFO] 注文データ取得開始
+[2025-08-14 10:26:33] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:26:33] [INFO] 注文データ取得成功: 66件
+[2025-08-14 10:26:33] [INFO] 部屋ごとのデータグループ化完了: 12部屋
+[2025-08-14 10:26:33] [INFO] 注文詳細データ取得開始: オーダーID 66件
+[2025-08-14 10:26:33] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,383,296,295,294,293,223,222,382,381,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:26:33] [INFO] 注文詳細データ取得成功: 145件
+[2025-08-14 10:26:33] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:26:33] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:26:33] [INFO] アクティブな部屋情報取得成功: 3件
+[2025-08-14 10:27:34] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:27:34] [INFO] データベース接続成功
+[2025-08-14 10:27:34] [INFO] 注文データ取得開始
+[2025-08-14 10:27:34] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:27:35] [INFO] 注文データ取得成功: 66件
+[2025-08-14 10:27:35] [INFO] 部屋ごとのデータグループ化完了: 12部屋
+[2025-08-14 10:27:35] [INFO] 注文詳細データ取得開始: オーダーID 66件
+[2025-08-14 10:27:35] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,383,296,295,294,293,223,222,382,381,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:27:35] [INFO] 注文詳細データ取得成功: 145件
+[2025-08-14 10:27:35] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:27:35] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:27:35] [INFO] アクティブな部屋情報取得成功: 3件
+[2025-08-14 10:28:35] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:28:35] [INFO] データベース接続成功
+[2025-08-14 10:28:35] [INFO] 注文データ取得開始
+[2025-08-14 10:28:35] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:28:35] [INFO] 注文データ取得成功: 66件
+[2025-08-14 10:28:35] [INFO] 部屋ごとのデータグループ化完了: 12部屋
+[2025-08-14 10:28:35] [INFO] 注文詳細データ取得開始: オーダーID 66件
+[2025-08-14 10:28:35] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,383,296,295,294,293,223,222,382,381,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:28:35] [INFO] 注文詳細データ取得成功: 145件
+[2025-08-14 10:28:35] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:28:35] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:28:35] [INFO] アクティブな部屋情報取得成功: 3件
+[2025-08-14 10:29:36] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:29:36] [INFO] データベース接続成功
+[2025-08-14 10:29:36] [INFO] 注文データ取得開始
+[2025-08-14 10:29:36] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:29:36] [INFO] 注文データ取得成功: 66件
+[2025-08-14 10:29:36] [INFO] 部屋ごとのデータグループ化完了: 12部屋
+[2025-08-14 10:29:36] [INFO] 注文詳細データ取得開始: オーダーID 66件
+[2025-08-14 10:29:36] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,383,296,295,294,293,223,222,382,381,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:29:36] [INFO] 注文詳細データ取得成功: 145件
+[2025-08-14 10:29:36] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:29:36] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:29:36] [INFO] アクティブな部屋情報取得成功: 3件
+[2025-08-14 10:30:37] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:30:37] [INFO] データベース接続成功
+[2025-08-14 10:30:37] [INFO] 注文データ取得開始
+[2025-08-14 10:30:37] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:30:37] [INFO] 注文データ取得成功: 66件
+[2025-08-14 10:30:37] [INFO] 部屋ごとのデータグループ化完了: 12部屋
+[2025-08-14 10:30:37] [INFO] 注文詳細データ取得開始: オーダーID 66件
+[2025-08-14 10:30:37] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,383,296,295,294,293,223,222,382,381,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:30:37] [INFO] 注文詳細データ取得成功: 145件
+[2025-08-14 10:30:37] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:30:37] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:30:37] [INFO] アクティブな部屋情報取得成功: 4件
+[2025-08-14 10:31:38] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:31:38] [INFO] データベース接続成功
+[2025-08-14 10:31:38] [INFO] 注文データ取得開始
+[2025-08-14 10:31:38] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:31:38] [INFO] 注文データ取得成功: 67件
+[2025-08-14 10:31:38] [INFO] 部屋ごとのデータグループ化完了: 12部屋
+[2025-08-14 10:31:38] [INFO] 注文詳細データ取得開始: オーダーID 67件
+[2025-08-14 10:31:38] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,384,383,296,295,294,293,223,222,382,381,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:31:38] [INFO] 注文詳細データ取得成功: 146件
+[2025-08-14 10:31:38] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:31:38] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:31:38] [INFO] アクティブな部屋情報取得成功: 4件
+[2025-08-14 10:32:39] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:32:39] [INFO] データベース接続成功
+[2025-08-14 10:32:39] [INFO] 注文データ取得開始
+[2025-08-14 10:32:39] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:32:39] [INFO] 注文データ取得成功: 67件
+[2025-08-14 10:32:39] [INFO] 部屋ごとのデータグループ化完了: 12部屋
+[2025-08-14 10:32:39] [INFO] 注文詳細データ取得開始: オーダーID 67件
+[2025-08-14 10:32:39] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,384,383,296,295,294,293,223,222,382,381,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:32:39] [INFO] 注文詳細データ取得成功: 146件
+[2025-08-14 10:32:39] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:32:39] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:32:39] [INFO] アクティブな部屋情報取得成功: 4件
+[2025-08-14 10:33:40] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:33:40] [INFO] データベース接続成功
+[2025-08-14 10:33:40] [INFO] 注文データ取得開始
+[2025-08-14 10:33:40] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:33:40] [INFO] 注文データ取得成功: 67件
+[2025-08-14 10:33:40] [INFO] 部屋ごとのデータグループ化完了: 12部屋
+[2025-08-14 10:33:40] [INFO] 注文詳細データ取得開始: オーダーID 67件
+[2025-08-14 10:33:40] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,384,383,296,295,294,293,223,222,382,381,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:33:40] [INFO] 注文詳細データ取得成功: 146件
+[2025-08-14 10:33:40] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:33:40] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:33:40] [INFO] アクティブな部屋情報取得成功: 4件
+[2025-08-14 10:34:41] [INFO] ユーザー fabula がログイン中
+[2025-08-14 10:34:41] [INFO] データベース接続成功
+[2025-08-14 10:34:41] [INFO] 注文データ取得開始
+[2025-08-14 10:34:41] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-08-14 10:34:41] [INFO] 注文データ取得成功: 67件
+[2025-08-14 10:34:41] [INFO] 部屋ごとのデータグループ化完了: 12部屋
+[2025-08-14 10:34:41] [INFO] 注文詳細データ取得開始: オーダーID 67件
+[2025-08-14 10:34:41] [DEBUG] 実行クエリ: 
+                SELECT id, order_id, square_item_id, product_name, unit_price, quantity, subtotal, note 
+                FROM order_details 
+                WHERE order_id IN (349,338,364,362,353,359,363,357,356,355,351,365,354,352,348,368,367,366,358,350,347,345,361,346,237,236,229,384,383,296,295,294,293,223,222,382,381,380,379,378,377,376,375,374,373,372,371,370,369,319,318,317,316,315,314,313,312,311,310,309,308,307,306,305,228,227,253)
+                ORDER BY order_id, id ASC
+            
+[2025-08-14 10:34:41] [INFO] 注文詳細データ取得成功: 146件
+[2025-08-14 10:34:41] [INFO] アクティブな部屋情報取得開始
+[2025-08-14 10:34:41] [DEBUG] アクティブな部屋情報クエリ: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+            
+[2025-08-14 10:34:41] [INFO] アクティブな部屋情報取得成功: 4件

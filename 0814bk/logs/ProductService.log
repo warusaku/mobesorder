@@ -1,0 +1,630 @@
+--- ログローテーション実行 2025-08-14 10:35:03 ---
+��: 250
+[2025-08-14 10:34:54] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID FPRKDGR4XUPARHRXSA3GWLJY 'ココア' の価格: 250円 (直接指定)
+[2025-08-14 10:34:54] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID FPRKDGR4XUPARHRXSA3GWLJY 'ココア' の処理後の価格: 250円
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID COOO5CRUTILYTLLZRTMBXKD3 の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/258325cc8504651fddd83cb5f04389d59098e5ec/original.png
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'マルゲリータ(セルフ)' (ID: COOO5CRUTILYTLLZRTMBXKD3) の処理結果: 価格=1300円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID NYCHCBG4CADNLNHM5QLC6SZZ 'トマトクリームピザ(セルフ)' の価格情報構造: 1500
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID NYCHCBG4CADNLNHM5QLC6SZZ 'トマトクリームピザ(セルフ)' の価格: 1500円 (直接指定)
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID NYCHCBG4CADNLNHM5QLC6SZZ 'トマトクリームピザ(セルフ)' の処理後の価格: 1500円
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID FPRKDGR4XUPARHRXSA3GWLJY の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/0ab4ddd62f72511a38dd855da57f1f4db0a0e15e/original.png
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'ココア' (ID: FPRKDGR4XUPARHRXSA3GWLJY) の処理結果: 価格=250円, カテゴリ=MRZ2GMJMQL5HQQCILIN6KR5A
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID UD4CFCI7AWLRU45ULMNNAVHA 'ジャスミン茶' の価格情報構造: 250
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID UD4CFCI7AWLRU45ULMNNAVHA 'ジャスミン茶' の価格: 250円 (直接指定)
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID UD4CFCI7AWLRU45ULMNNAVHA 'ジャスミン茶' の処理後の価格: 250円
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID NYCHCBG4CADNLNHM5QLC6SZZ の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/a3496fce6d0c18a326cecc939d031273c1000092/original.png
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'トマトクリームピザ(セルフ)' (ID: NYCHCBG4CADNLNHM5QLC6SZZ) の処理結果: 価格=1500円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID HVQOY646MY3MHMOKZJCRYDUH 'ジェノベーゼピザ(セルフ)' の価格情報構造: 1400
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID HVQOY646MY3MHMOKZJCRYDUH 'ジェノベーゼピザ(セルフ)' の価格: 1400円 (直接指定)
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID HVQOY646MY3MHMOKZJCRYDUH 'ジェノベーゼピザ(セルフ)' の処理後の価格: 1400円
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID HVQOY646MY3MHMOKZJCRYDUH の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/92a1aa84f292518322b43d3994e9b1c21d3d6f43/original.png
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'ジェノベーゼピザ(セルフ)' (ID: HVQOY646MY3MHMOKZJCRYDUH) の処理結果: 価格=1400円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID MZDEJLLGY5GPV2SLR6CLC3QD '花火' の価格情報構造: 1300
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID MZDEJLLGY5GPV2SLR6CLC3QD '花火' の価格: 1300円 (直接指定)
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID MZDEJLLGY5GPV2SLR6CLC3QD '花火' の処理後の価格: 1300円
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID MZDEJLLGY5GPV2SLR6CLC3QD の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/1c4483d837ee710fa89ba0528c1e73a7b3bc066b/original.png
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '花火' (ID: MZDEJLLGY5GPV2SLR6CLC3QD) の処理結果: 価格=1300円, カテゴリ=物販・レンタル
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID RRIDDFF2SFDA2RHY4J5MIM3H 'ジェノベーゼピザ' の価格情報構造: 1400
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID RRIDDFF2SFDA2RHY4J5MIM3H 'ジェノベーゼピザ' の価格: 1400円 (直接指定)
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID RRIDDFF2SFDA2RHY4J5MIM3H 'ジェノベーゼピザ' の処理後の価格: 1400円
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID UD4CFCI7AWLRU45ULMNNAVHA の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/8dfed8179924d41ad9f3cbf79c4ecfcf6c8edaef/original.png
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'ジャスミン茶' (ID: UD4CFCI7AWLRU45ULMNNAVHA) の処理結果: 価格=250円, カテゴリ=MRZ2GMJMQL5HQQCILIN6KR5A
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID QQMQIARQECHRDJOHM2XDCASI 'タピオカ抹茶ミルクティー' の価格情報構造: 800
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID QQMQIARQECHRDJOHM2XDCASI 'タピオカ抹茶ミルクティー' の価格: 800円 (直接指定)
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID QQMQIARQECHRDJOHM2XDCASI 'タピオカ抹茶ミルクティー' の処理後の価格: 800円
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID RRIDDFF2SFDA2RHY4J5MIM3H の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/61c020b8701a08c37d4447d1adcf35e75ad3a6f4/original.png
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'ジェノベーゼピザ' (ID: RRIDDFF2SFDA2RHY4J5MIM3H) の処理結果: 価格=1400円, カテゴリ=ピザ
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID GCLPY5S65O3JQXXFH7PXS6YQ '4種のチーズピザ' の価格情報構造: 1500
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID GCLPY5S65O3JQXXFH7PXS6YQ '4種のチーズピザ' の価格: 1500円 (直接指定)
+[2025-08-14 10:34:55] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID GCLPY5S65O3JQXXFH7PXS6YQ '4種のチーズピザ' の処理後の価格: 1500円
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID QQMQIARQECHRDJOHM2XDCASI の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/9964805c0bb9629d6ecfb2cd84fd0e313e12c3cf/original.png
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'タピオカ抹茶ミルクティー' (ID: QQMQIARQECHRDJOHM2XDCASI) の処理結果: 価格=800円, カテゴリ=ソフトドリンク
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID QJPT3DMX6TNAS4DRHTULGVHA 'チーズケーキ' の価格情報構造: 700
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID QJPT3DMX6TNAS4DRHTULGVHA 'チーズケーキ' の価格: 700円 (直接指定)
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID QJPT3DMX6TNAS4DRHTULGVHA 'チーズケーキ' の処理後の価格: 700円
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID GCLPY5S65O3JQXXFH7PXS6YQ の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/ce6bc0d5df609eed8178a52b8c77804a3254d631/original.png
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '4種のチーズピザ' (ID: GCLPY5S65O3JQXXFH7PXS6YQ) の処理結果: 価格=1500円, カテゴリ=ピザ
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID OHWHG5OXWKDJSWPUGI3LPSWW 'ペパロニピザ' の価格情報構造: 1200
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID OHWHG5OXWKDJSWPUGI3LPSWW 'ペパロニピザ' の価格: 1200円 (直接指定)
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID OHWHG5OXWKDJSWPUGI3LPSWW 'ペパロニピザ' の処理後の価格: 1200円
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID QJPT3DMX6TNAS4DRHTULGVHA の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/57853f4525fc005121a802f72745a3ff07999bcd/original.png
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'チーズケーキ' (ID: QJPT3DMX6TNAS4DRHTULGVHA) の処理結果: 価格=700円, カテゴリ=スイーツ
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID AYITTTV5QN3TBDJWB2ZYOYQG 'ミルキーシェイク（バニラ）' の価格情報構造: 600
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID AYITTTV5QN3TBDJWB2ZYOYQG 'ミルキーシェイク（バニラ）' の価格: 600円 (直接指定)
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID AYITTTV5QN3TBDJWB2ZYOYQG 'ミルキーシェイク（バニラ）' の処理後の価格: 600円
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID OHWHG5OXWKDJSWPUGI3LPSWW の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/31af4aab715f2b25f57811fffea7866a4e1d2560/original.png
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'ペパロニピザ' (ID: OHWHG5OXWKDJSWPUGI3LPSWW) の処理結果: 価格=1200円, カテゴリ=ピザ
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID CWD4L2CCP4BHCRFTRE6ZCM23 '燻製チーズピザ' の価格情報構造: 1300
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID CWD4L2CCP4BHCRFTRE6ZCM23 '燻製チーズピザ' の価格: 1300円 (直接指定)
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID CWD4L2CCP4BHCRFTRE6ZCM23 '燻製チーズピザ' の処理後の価格: 1300円
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID AYITTTV5QN3TBDJWB2ZYOYQG の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/87aed4bc70ce51f10bbd42c9069727710749c86c/original.png
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'ミルキーシェイク（バニラ）' (ID: AYITTTV5QN3TBDJWB2ZYOYQG) の処理結果: 価格=600円, カテゴリ=スイーツ
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID XF44S34ZZSZDJW3LKBUYHOLJ 'ミルキーシェイク（イチゴ）' の価格情報構造: 600
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID XF44S34ZZSZDJW3LKBUYHOLJ 'ミルキーシェイク（イチゴ）' の価格: 600円 (直接指定)
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID XF44S34ZZSZDJW3LKBUYHOLJ 'ミルキーシェイク（イチゴ）' の処理後の価格: 600円
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID CWD4L2CCP4BHCRFTRE6ZCM23 の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/847d57ace6a3957da37876eae580c4f57b9d3c85/original.png
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '燻製チーズピザ' (ID: CWD4L2CCP4BHCRFTRE6ZCM23) の処理結果: 価格=1300円, カテゴリ=ピザ
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID JPQN75TQGE53HMICMBXAMTO6 'マルゲリータ' の価格情報構造: 1300
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID JPQN75TQGE53HMICMBXAMTO6 'マルゲリータ' の価格: 1300円 (直接指定)
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID JPQN75TQGE53HMICMBXAMTO6 'マルゲリータ' の処理後の価格: 1300円
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID XF44S34ZZSZDJW3LKBUYHOLJ の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/1cd4e198cb77d20aa3d9c2deaaaeeba527bb4977/original.png
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'ミルキーシェイク（イチゴ）' (ID: XF44S34ZZSZDJW3LKBUYHOLJ) の処理結果: 価格=600円, カテゴリ=スイーツ
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID ELLVXKZQKMMHMLQYRI7GL4TJ 'ミルキーシェイク（チョコ）' の価格情報構造: 600
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID ELLVXKZQKMMHMLQYRI7GL4TJ 'ミルキーシェイク（チョコ）' の価格: 600円 (直接指定)
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID ELLVXKZQKMMHMLQYRI7GL4TJ 'ミルキーシェイク（チョコ）' の処理後の価格: 600円
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID ELLVXKZQKMMHMLQYRI7GL4TJ の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/6d7549fc7c0e56238135e5feaae041864028e99e/original.png
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'ミルキーシェイク（チョコ）' (ID: ELLVXKZQKMMHMLQYRI7GL4TJ) の処理結果: 価格=600円, カテゴリ=スイーツ
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID 6OQ5HVLKVMGKRP3YUY3VXNW3 'ハーゲンダッツ バニラ' の価格情報構造: 500
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID 6OQ5HVLKVMGKRP3YUY3VXNW3 'ハーゲンダッツ バニラ' の価格: 500円 (直接指定)
+[2025-08-14 10:34:56] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID 6OQ5HVLKVMGKRP3YUY3VXNW3 'ハーゲンダッツ バニラ' の処理後の価格: 500円
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID 6OQ5HVLKVMGKRP3YUY3VXNW3 の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/266ab71f25c1cbf0654727af111df92274faa39a/original.png
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'ハーゲンダッツ バニラ' (ID: 6OQ5HVLKVMGKRP3YUY3VXNW3) の処理結果: 価格=500円, カテゴリ=スイーツ
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID 65WEC3TSJZZAYABKWJ4S47U7 'ハーゲンダッツ ストロベリー' の価格情報構造: 500
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID 65WEC3TSJZZAYABKWJ4S47U7 'ハーゲンダッツ ストロベリー' の価格: 500円 (直接指定)
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID 65WEC3TSJZZAYABKWJ4S47U7 'ハーゲンダッツ ストロベリー' の処理後の価格: 500円
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID JPQN75TQGE53HMICMBXAMTO6 の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/d84cc9b98ac7049ef04afade441dd104549e29e1/original.png
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'マルゲリータ' (ID: JPQN75TQGE53HMICMBXAMTO6) の処理結果: 価格=1300円, カテゴリ=ピザ
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID ADDT7HNZMOJAWUXO7KQBFZ4W '海老とほうれん草のトマトクリームピザ' の価格情報構造: 1500
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID ADDT7HNZMOJAWUXO7KQBFZ4W '海老とほうれん草のトマトクリームピザ' の価格: 1500円 (直接指定)
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID ADDT7HNZMOJAWUXO7KQBFZ4W '海老とほうれん草のトマトクリームピザ' の処理後の価格: 1500円
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID 65WEC3TSJZZAYABKWJ4S47U7 の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/6ec3ff05e410a46b3979948a941a1c23f7bef8a9/original.png
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'ハーゲンダッツ ストロベリー' (ID: 65WEC3TSJZZAYABKWJ4S47U7) の処理結果: 価格=500円, カテゴリ=スイーツ
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID 7G4W5WIPLBRHSVAYJYCTFRAQ 'ハーゲンダッツ 抹茶' の価格情報構造: 500
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID 7G4W5WIPLBRHSVAYJYCTFRAQ 'ハーゲンダッツ 抹茶' の価格: 500円 (直接指定)
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID 7G4W5WIPLBRHSVAYJYCTFRAQ 'ハーゲンダッツ 抹茶' の処理後の価格: 500円
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID ADDT7HNZMOJAWUXO7KQBFZ4W の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/703cd747acc59c997bb811bb606b5721799d14ad/original.png
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '海老とほうれん草のトマトクリームピザ' (ID: ADDT7HNZMOJAWUXO7KQBFZ4W) の処理結果: 価格=1500円, カテゴリ=ピザ
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID A6VEQLSSUSRSIZ35IX3PXTEO '薪' の価格情報構造: 1500
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID A6VEQLSSUSRSIZ35IX3PXTEO '薪' の価格: 1500円 (直接指定)
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID A6VEQLSSUSRSIZ35IX3PXTEO '薪' の処理後の価格: 1500円
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID 7G4W5WIPLBRHSVAYJYCTFRAQ の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/5e1cb23f4c8ef9cef7abc9293dbb9e3ff091e6bc/original.png
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'ハーゲンダッツ 抹茶' (ID: 7G4W5WIPLBRHSVAYJYCTFRAQ) の処理結果: 価格=500円, カテゴリ=スイーツ
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID QFCRL67GJ45MYABXFGTUPLCL 'アイスアフォガード' の価格情報構造: 700
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID QFCRL67GJ45MYABXFGTUPLCL 'アイスアフォガード' の価格: 700円 (直接指定)
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID QFCRL67GJ45MYABXFGTUPLCL 'アイスアフォガード' の処理後の価格: 700円
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID A6VEQLSSUSRSIZ35IX3PXTEO の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/d23a7a36e4c9362900ad62d64a46bc101a60b777/original.png
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '薪' (ID: A6VEQLSSUSRSIZ35IX3PXTEO) の処理結果: 価格=1500円, カテゴリ=薪
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID RSR47XH3BR6UQZYYMO4YQLUG '焚き火パン' の価格情報構造: 600
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID RSR47XH3BR6UQZYYMO4YQLUG '焚き火パン' の価格: 600円 (直接指定)
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID RSR47XH3BR6UQZYYMO4YQLUG '焚き火パン' の処理後の価格: 600円
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID RSR47XH3BR6UQZYYMO4YQLUG の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/0145cae716499c3d6e41741b69f6e70e24c69a39/original.png
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '焚き火パン' (ID: RSR47XH3BR6UQZYYMO4YQLUG) の処理結果: 価格=600円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID EGZEYEYJBVGUK5ZPPR46GSVV 'コーンバター醤油' の価格情報構造: 500
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID EGZEYEYJBVGUK5ZPPR46GSVV 'コーンバター醤油' の価格: 500円 (直接指定)
+[2025-08-14 10:34:57] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID EGZEYEYJBVGUK5ZPPR46GSVV 'コーンバター醤油' の処理後の価格: 500円
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID EGZEYEYJBVGUK5ZPPR46GSVV の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/8ecbb1fd620e054da3782d493615e919a181ead4/original.png
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'コーンバター醤油' (ID: EGZEYEYJBVGUK5ZPPR46GSVV) の処理結果: 価格=500円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID FOPCGOZ72YMLDIUQNSF6TC2A '厚焼きパンケーキ' の価格情報構造: 700
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID FOPCGOZ72YMLDIUQNSF6TC2A '厚焼きパンケーキ' の価格: 700円 (直接指定)
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID FOPCGOZ72YMLDIUQNSF6TC2A '厚焼きパンケーキ' の処理後の価格: 700円
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID QFCRL67GJ45MYABXFGTUPLCL の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/cf3cc73a0ebd49a64bbb670220545295eb286c81/original.png
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'アイスアフォガード' (ID: QFCRL67GJ45MYABXFGTUPLCL) の処理結果: 価格=700円, カテゴリ=スイーツ
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID RBMOYKKGJVIHCOUXPNRA625A 'MOËT&CHANDON MOËT IMPERIAL' の価格情報構造: 12000
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID RBMOYKKGJVIHCOUXPNRA625A 'MOËT&CHANDON MOËT IMPERIAL' の価格: 12000円 (直接指定)
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID RBMOYKKGJVIHCOUXPNRA625A 'MOËT&CHANDON MOËT IMPERIAL' の処理後の価格: 12000円
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID RBMOYKKGJVIHCOUXPNRA625A の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/64717dd0ebb62e601f6c6b353e6f0ee85adc16c3/original.png
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'MOËT&CHANDON MOËT IMPERIAL' (ID: RBMOYKKGJVIHCOUXPNRA625A) の処理結果: 価格=12000円, カテゴリ=シャンパン
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID NABWWJ6UMBP32WLZCPEEPGRC 'fabulaブラックシェイク' の価格情報構造: 600
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID NABWWJ6UMBP32WLZCPEEPGRC 'fabulaブラックシェイク' の価格: 600円 (直接指定)
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID NABWWJ6UMBP32WLZCPEEPGRC 'fabulaブラックシェイク' の処理後の価格: 600円
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID FOPCGOZ72YMLDIUQNSF6TC2A の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/3f925d5e59b35cd7c6d5fa88c5b9e7e42f083335/original.png
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '厚焼きパンケーキ' (ID: FOPCGOZ72YMLDIUQNSF6TC2A) の処理結果: 価格=700円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID 6BSR5NBGAGD7F5JEZ6CSBLMK 'バター醤油きのこのホイル焼き' の価格情報構造: 800
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID 6BSR5NBGAGD7F5JEZ6CSBLMK 'バター醤油きのこのホイル焼き' の価格: 800円 (直接指定)
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID 6BSR5NBGAGD7F5JEZ6CSBLMK 'バター醤油きのこのホイル焼き' の処理後の価格: 800円
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID NABWWJ6UMBP32WLZCPEEPGRC の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/7ce70d00cbfc7d69cffacf0e6c7488cfd0f5ca1f/original.png
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fabulaブラックシェイク' (ID: NABWWJ6UMBP32WLZCPEEPGRC) の処理結果: 価格=600円, カテゴリ=スイーツ
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID E5EWYMQFGKSU4KUXFFV36FP3 '4種のチーズピザ(セルフ)' の価格情報構造: 1500
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID E5EWYMQFGKSU4KUXFFV36FP3 '4種のチーズピザ(セルフ)' の価格: 1500円 (直接指定)
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID E5EWYMQFGKSU4KUXFFV36FP3 '4種のチーズピザ(セルフ)' の処理後の価格: 1500円
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID 6BSR5NBGAGD7F5JEZ6CSBLMK の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/bd4a5943135127e315ae6502645a96a764c668b2/original.png
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'バター醤油きのこのホイル焼き' (ID: 6BSR5NBGAGD7F5JEZ6CSBLMK) の処理結果: 価格=800円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID KZPHTBTY3BFZXB4ANM6J2S3H 'さつま芋のブリュレ' の価格情報構造: 300
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID KZPHTBTY3BFZXB4ANM6J2S3H 'さつま芋のブリュレ' の価格: 300円 (直接指定)
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID KZPHTBTY3BFZXB4ANM6J2S3H 'さつま芋のブリュレ' の処理後の価格: 300円
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID E5EWYMQFGKSU4KUXFFV36FP3 の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/7f357ec21f51c17515d47aad93b8103b9d9b055d/original.png
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '4種のチーズピザ(セルフ)' (ID: E5EWYMQFGKSU4KUXFFV36FP3) の処理結果: 価格=1500円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID QGBFWD7XXBLBU5DE3BJN7JZH '燻製チーズピザ(セルフ)' の価格情報構造: 1300
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID QGBFWD7XXBLBU5DE3BJN7JZH '燻製チーズピザ(セルフ)' の価格: 1300円 (直接指定)
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID QGBFWD7XXBLBU5DE3BJN7JZH '燻製チーズピザ(セルフ)' の処理後の価格: 1300円
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID KZPHTBTY3BFZXB4ANM6J2S3H の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/19affa0162d89dfcc3fc3fea36081ee59bf402e3/original.png
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'さつま芋のブリュレ' (ID: KZPHTBTY3BFZXB4ANM6J2S3H) の処理結果: 価格=300円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID 2XHJMXGRUOBBCUHFZVL2CSPN 'ブルーベリーのスキレットスモア' の価格情報構造: 900
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID 2XHJMXGRUOBBCUHFZVL2CSPN 'ブルーベリーのスキレットスモア' の価格: 900円 (直接指定)
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID 2XHJMXGRUOBBCUHFZVL2CSPN 'ブルーベリーのスキレットスモア' の処理後の価格: 900円
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID 2XHJMXGRUOBBCUHFZVL2CSPN の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/e6650c478a9ebece9c66eb5d1df5d883706f4996/original.png
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'ブルーベリーのスキレットスモア' (ID: 2XHJMXGRUOBBCUHFZVL2CSPN) の処理結果: 価格=900円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID EYS5FTVX22MG4UFSWHGLLUQ2 'ブルーベリーのスキレットスモア（アイス添え）' の価格情報構造: 1020
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID EYS5FTVX22MG4UFSWHGLLUQ2 'ブルーベリーのスキレットスモア（アイス添え）' の価格: 1020円 (直接指定)
+[2025-08-14 10:34:58] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID EYS5FTVX22MG4UFSWHGLLUQ2 'ブルーベリーのスキレットスモア（アイス添え）' の処理後の価格: 1020円
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID EYS5FTVX22MG4UFSWHGLLUQ2 の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/d83ec5af6a1d029cb0b2a59095b6ba4c4120e3e3/original.png
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'ブルーベリーのスキレットスモア（アイス添え）' (ID: EYS5FTVX22MG4UFSWHGLLUQ2) の処理結果: 価格=1020円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID 2HZEC733J7LTVOFJ2NRUPXKW 'ダッチオーブンの焼き餃子' の価格情報構造: 800
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID 2HZEC733J7LTVOFJ2NRUPXKW 'ダッチオーブンの焼き餃子' の価格: 800円 (直接指定)
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID 2HZEC733J7LTVOFJ2NRUPXKW 'ダッチオーブンの焼き餃子' の処理後の価格: 800円
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID QGBFWD7XXBLBU5DE3BJN7JZH の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/847d57ace6a3957da37876eae580c4f57b9d3c85/original.png
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '燻製チーズピザ(セルフ)' (ID: QGBFWD7XXBLBU5DE3BJN7JZH) の処理結果: 価格=1300円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID COOO5CRUTILYTLLZRTMBXKD3 'マルゲリータ(セルフ)' の価格情報構造: 1300
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID COOO5CRUTILYTLLZRTMBXKD3 'マルゲリータ(セルフ)' の価格: 1300円 (直接指定)
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID COOO5CRUTILYTLLZRTMBXKD3 'マルゲリータ(セルフ)' の処理後の価格: 1300円
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID 2HZEC733J7LTVOFJ2NRUPXKW の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/d8c304da0693507489854b6339131fb35fce3522/original.png
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'ダッチオーブンの焼き餃子' (ID: 2HZEC733J7LTVOFJ2NRUPXKW) の処理結果: 価格=800円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID G5RNQRU4XMQC7QPCURAUNLVU 'ココア（HOT）' の価格情報構造: 500
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID G5RNQRU4XMQC7QPCURAUNLVU 'ココア（HOT）' の価格: 500円 (直接指定)
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID G5RNQRU4XMQC7QPCURAUNLVU 'ココア（HOT）' の処理後の価格: 500円
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID G5RNQRU4XMQC7QPCURAUNLVU の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/9e4a2486feb2892a3c9756950c5d9609acb36971/original.png
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'ココア（HOT）' (ID: G5RNQRU4XMQC7QPCURAUNLVU) の処理結果: 価格=500円, カテゴリ=ソフトドリンク
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID XW5DYHD5PX6BO5BUYIE4NFUB '紅茶（ICE）' の価格情報構造: 500
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID XW5DYHD5PX6BO5BUYIE4NFUB '紅茶（ICE）' の価格: 500円 (直接指定)
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID XW5DYHD5PX6BO5BUYIE4NFUB '紅茶（ICE）' の処理後の価格: 500円
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID XW5DYHD5PX6BO5BUYIE4NFUB の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/bafc1587ac5e79d7b045cc625245ec43f1001114/original.png
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '紅茶（ICE）' (ID: XW5DYHD5PX6BO5BUYIE4NFUB) の処理結果: 価格=500円, カテゴリ=ソフトドリンク
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID OZYWDDYBARHJNT7JBIW3SATD '貸出用ダッチオーブン' の価格情報構造: 200
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID OZYWDDYBARHJNT7JBIW3SATD '貸出用ダッチオーブン' の価格: 200円 (直接指定)
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID OZYWDDYBARHJNT7JBIW3SATD '貸出用ダッチオーブン' の処理後の価格: 200円
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID COOO5CRUTILYTLLZRTMBXKD3 の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/258325cc8504651fddd83cb5f04389d59098e5ec/original.png
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'マルゲリータ(セルフ)' (ID: COOO5CRUTILYTLLZRTMBXKD3) の処理結果: 価格=1300円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID NYCHCBG4CADNLNHM5QLC6SZZ 'トマトクリームピザ(セルフ)' の価格情報構造: 1500
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID NYCHCBG4CADNLNHM5QLC6SZZ 'トマトクリームピザ(セルフ)' の価格: 1500円 (直接指定)
+[2025-08-14 10:34:59] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID NYCHCBG4CADNLNHM5QLC6SZZ 'トマトクリームピザ(セルフ)' の処理後の価格: 1500円
+[2025-08-14 10:35:00] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID OZYWDDYBARHJNT7JBIW3SATD の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/f3ac7a07f9454193991f090ee504df04a9a9b909/original.png
+[2025-08-14 10:35:00] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '貸出用ダッチオーブン' (ID: OZYWDDYBARHJNT7JBIW3SATD) の処理結果: 価格=200円, カテゴリ=物販・レンタル
+[2025-08-14 10:35:00] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID 3KKLINLS6LSJEUPWJZGUHRPI '紅茶（HOT）' の価格情報構造: 500
+[2025-08-14 10:35:00] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID 3KKLINLS6LSJEUPWJZGUHRPI '紅茶（HOT）' の価格: 500円 (直接指定)
+[2025-08-14 10:35:00] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID 3KKLINLS6LSJEUPWJZGUHRPI '紅茶（HOT）' の処理後の価格: 500円
+[2025-08-14 10:35:00] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID NYCHCBG4CADNLNHM5QLC6SZZ の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/a3496fce6d0c18a326cecc939d031273c1000092/original.png
+[2025-08-14 10:35:00] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'トマトクリームピザ(セルフ)' (ID: NYCHCBG4CADNLNHM5QLC6SZZ) の処理結果: 価格=1500円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:35:00] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID HVQOY646MY3MHMOKZJCRYDUH 'ジェノベーゼピザ(セルフ)' の価格情報構造: 1400
+[2025-08-14 10:35:00] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID HVQOY646MY3MHMOKZJCRYDUH 'ジェノベーゼピザ(セルフ)' の価格: 1400円 (直接指定)
+[2025-08-14 10:35:00] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID HVQOY646MY3MHMOKZJCRYDUH 'ジェノベーゼピザ(セルフ)' の処理後の価格: 1400円
+[2025-08-14 10:35:00] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID HVQOY646MY3MHMOKZJCRYDUH の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/92a1aa84f292518322b43d3994e9b1c21d3d6f43/original.png
+[2025-08-14 10:35:00] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'ジェノベーゼピザ(セルフ)' (ID: HVQOY646MY3MHMOKZJCRYDUH) の処理結果: 価格=1400円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:35:00] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID MZDEJLLGY5GPV2SLR6CLC3QD '花火' の価格情報構造: 1300
+[2025-08-14 10:35:00] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID MZDEJLLGY5GPV2SLR6CLC3QD '花火' の価格: 1300円 (直接指定)
+[2025-08-14 10:35:00] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID MZDEJLLGY5GPV2SLR6CLC3QD '花火' の処理後の価格: 1300円
+[2025-08-14 10:35:00] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID MZDEJLLGY5GPV2SLR6CLC3QD の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/1c4483d837ee710fa89ba0528c1e73a7b3bc066b/original.png
+[2025-08-14 10:35:00] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '花火' (ID: MZDEJLLGY5GPV2SLR6CLC3QD) の処理結果: 価格=1300円, カテゴリ=物販・レンタル
+[2025-08-14 10:35:00] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID RRIDDFF2SFDA2RHY4J5MIM3H 'ジェノベーゼピザ' の価格情報構造: 1400
+[2025-08-14 10:35:00] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID RRIDDFF2SFDA2RHY4J5MIM3H 'ジェノベーゼピザ' の価格: 1400円 (直接指定)
+[2025-08-14 10:35:00] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID RRIDDFF2SFDA2RHY4J5MIM3H 'ジェノベーゼピザ' の処理後の価格: 1400円
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID 3KKLINLS6LSJEUPWJZGUHRPI の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/edc67687a9c24870917b8e2f15e3c6162e689030/original.png
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '紅茶（HOT）' (ID: 3KKLINLS6LSJEUPWJZGUHRPI) の処理結果: 価格=500円, カテゴリ=ソフトドリンク
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID E5LCY5RDRH7FVFXDHRBZLMAB 'レイトチェックアウト(1時間)' の価格情報構造: 2000
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID E5LCY5RDRH7FVFXDHRBZLMAB 'レイトチェックアウト(1時間)' の価格: 2000円 (直接指定)
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID E5LCY5RDRH7FVFXDHRBZLMAB 'レイトチェックアウト(1時間)' の処理後の価格: 2000円
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID RRIDDFF2SFDA2RHY4J5MIM3H の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/61c020b8701a08c37d4447d1adcf35e75ad3a6f4/original.png
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'ジェノベーゼピザ' (ID: RRIDDFF2SFDA2RHY4J5MIM3H) の処理結果: 価格=1400円, カテゴリ=ピザ
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID GCLPY5S65O3JQXXFH7PXS6YQ '4種のチーズピザ' の価格情報構造: 1500
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID GCLPY5S65O3JQXXFH7PXS6YQ '4種のチーズピザ' の価格: 1500円 (直接指定)
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID GCLPY5S65O3JQXXFH7PXS6YQ '4種のチーズピザ' の処理後の価格: 1500円
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID E5LCY5RDRH7FVFXDHRBZLMAB の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/338045ef795f829c4c4dcec75f0c13937e5d7e7f/original.png
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'レイトチェックアウト(1時間)' (ID: E5LCY5RDRH7FVFXDHRBZLMAB) の処理結果: 価格=2000円, カテゴリ=物販・レンタル
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID YJ24J6IED5GESTLYGD5GUEFV '肉巻きスキレットおにぎり' の価格情報構造: 800
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID YJ24J6IED5GESTLYGD5GUEFV '肉巻きスキレットおにぎり' の価格: 800円 (直接指定)
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID YJ24J6IED5GESTLYGD5GUEFV '肉巻きスキレットおにぎり' の処理後の価格: 800円
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID GCLPY5S65O3JQXXFH7PXS6YQ の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/ce6bc0d5df609eed8178a52b8c77804a3254d631/original.png
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '4種のチーズピザ' (ID: GCLPY5S65O3JQXXFH7PXS6YQ) の処理結果: 価格=1500円, カテゴリ=ピザ
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID OHWHG5OXWKDJSWPUGI3LPSWW 'ペパロニピザ' の価格情報構造: 1200
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID OHWHG5OXWKDJSWPUGI3LPSWW 'ペパロニピザ' の価格: 1200円 (直接指定)
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID OHWHG5OXWKDJSWPUGI3LPSWW 'ペパロニピザ' の処理後の価格: 1200円
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID YJ24J6IED5GESTLYGD5GUEFV の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/84732a1efd32175327b4a0d8998b26b0b53d89ab/original.png
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '肉巻きスキレットおにぎり' (ID: YJ24J6IED5GESTLYGD5GUEFV) の処理結果: 価格=800円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID 244ZDIIZFR67AIBEOOKC7L5B 'BBQレンタルBOX' の価格情報構造: 700
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID 244ZDIIZFR67AIBEOOKC7L5B 'BBQレンタルBOX' の価格: 700円 (直接指定)
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID 244ZDIIZFR67AIBEOOKC7L5B 'BBQレンタルBOX' の処理後の価格: 700円
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID OHWHG5OXWKDJSWPUGI3LPSWW の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/31af4aab715f2b25f57811fffea7866a4e1d2560/original.png
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'ペパロニピザ' (ID: OHWHG5OXWKDJSWPUGI3LPSWW) の処理結果: 価格=1200円, カテゴリ=ピザ
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID CWD4L2CCP4BHCRFTRE6ZCM23 '燻製チーズピザ' の価格情報構造: 1300
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID CWD4L2CCP4BHCRFTRE6ZCM23 '燻製チーズピザ' の価格: 1300円 (直接指定)
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID CWD4L2CCP4BHCRFTRE6ZCM23 '燻製チーズピザ' の処理後の価格: 1300円
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID 244ZDIIZFR67AIBEOOKC7L5B の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/15d693e7b1140529676d2fa6d4ab3f3e01ebb2ad/original.png
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'BBQレンタルBOX' (ID: 244ZDIIZFR67AIBEOOKC7L5B) の処理結果: 価格=700円, カテゴリ=物販・レンタル
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID KENANQO2UAGUVBC4H5WZJ3ZX 'アルミトレー　大' の価格情報構造: 200
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID KENANQO2UAGUVBC4H5WZJ3ZX 'アルミトレー　大' の価格: 200円 (直接指定)
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID KENANQO2UAGUVBC4H5WZJ3ZX 'アルミトレー　大' の処理後の価格: 200円
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID CWD4L2CCP4BHCRFTRE6ZCM23 の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/847d57ace6a3957da37876eae580c4f57b9d3c85/original.png
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '燻製チーズピザ' (ID: CWD4L2CCP4BHCRFTRE6ZCM23) の処理結果: 価格=1300円, カテゴリ=ピザ
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID JPQN75TQGE53HMICMBXAMTO6 'マルゲリータ' の価格情報構造: 1300
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID JPQN75TQGE53HMICMBXAMTO6 'マルゲリータ' の価格: 1300円 (直接指定)
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID JPQN75TQGE53HMICMBXAMTO6 'マルゲリータ' の処理後の価格: 1300円
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID KENANQO2UAGUVBC4H5WZJ3ZX の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/7fdf4abb0ac1aa94becac3079fbcec3ad308f052/original.png
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'アルミトレー　大' (ID: KENANQO2UAGUVBC4H5WZJ3ZX) の処理結果: 価格=200円, カテゴリ=物販・レンタル
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID PMI472ZFZFOVH2Z2ZPJPXP73 'アルミトレー　小' の価格情報構造: 200
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID PMI472ZFZFOVH2Z2ZPJPXP73 'アルミトレー　小' の価格: 200円 (直接指定)
+[2025-08-14 10:35:01] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID PMI472ZFZFOVH2Z2ZPJPXP73 'アルミトレー　小' の処理後の価格: 200円
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID PMI472ZFZFOVH2Z2ZPJPXP73 の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/71060e781a9f152c5533326fc1cd753fd830c656/original.png
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'アルミトレー　小' (ID: PMI472ZFZFOVH2Z2ZPJPXP73) の処理結果: 価格=200円, カテゴリ=物販・レンタル
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID 53MHHBHBJJR2A6JGW5E3SX5L '紙皿・割り箸4人前セット' の価格情報構造: 100
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID 53MHHBHBJJR2A6JGW5E3SX5L '紙皿・割り箸4人前セット' の価格: 100円 (直接指定)
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID 53MHHBHBJJR2A6JGW5E3SX5L '紙皿・割り箸4人前セット' の処理後の価格: 100円
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID 53MHHBHBJJR2A6JGW5E3SX5L の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/b91d3069b769a2b2442547fb8f4b3b71d870dabe/original.png
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '紙皿・割り箸4人前セット' (ID: 53MHHBHBJJR2A6JGW5E3SX5L) の処理結果: 価格=100円, カテゴリ=物販・レンタル
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID C6QU5VICRSSGSN4O6YNQUNTU 'アーリーチェックイン' の価格情報構造: 2000
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID C6QU5VICRSSGSN4O6YNQUNTU 'アーリーチェックイン' の価格: 2000円 (直接指定)
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID C6QU5VICRSSGSN4O6YNQUNTU 'アーリーチェックイン' の処理後の価格: 2000円
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID JPQN75TQGE53HMICMBXAMTO6 の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/d84cc9b98ac7049ef04afade441dd104549e29e1/original.png
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'マルゲリータ' (ID: JPQN75TQGE53HMICMBXAMTO6) の処理結果: 価格=1300円, カテゴリ=ピザ
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID ADDT7HNZMOJAWUXO7KQBFZ4W '海老とほうれん草のトマトクリームピザ' の価格情報構造: 1500
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID ADDT7HNZMOJAWUXO7KQBFZ4W '海老とほうれん草のトマトクリームピザ' の価格: 1500円 (直接指定)
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID ADDT7HNZMOJAWUXO7KQBFZ4W '海老とほうれん草のトマトクリームピザ' の処理後の価格: 1500円
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID C6QU5VICRSSGSN4O6YNQUNTU の画像URL: 取得できませんでした
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'アーリーチェックイン' (ID: C6QU5VICRSSGSN4O6YNQUNTU) の処理結果: 価格=2000円, カテゴリ=物販・レンタル
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID GMQOSXGB6JCIYWYTQUKM2JEN 'fg#06-250720170713493856967' の価格情報構造: 2600
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID GMQOSXGB6JCIYWYTQUKM2JEN 'fg#06-250720170713493856967' の価格: 2600円 (直接指定)
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID GMQOSXGB6JCIYWYTQUKM2JEN 'fg#06-250720170713493856967' の処理後の価格: 2600円
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID ADDT7HNZMOJAWUXO7KQBFZ4W の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/703cd747acc59c997bb811bb606b5721799d14ad/original.png
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '海老とほうれん草のトマトクリームピザ' (ID: ADDT7HNZMOJAWUXO7KQBFZ4W) の処理結果: 価格=1500円, カテゴリ=ピザ
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID A6VEQLSSUSRSIZ35IX3PXTEO '薪' の価格情報構造: 1500
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID A6VEQLSSUSRSIZ35IX3PXTEO '薪' の価格: 1500円 (直接指定)
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID A6VEQLSSUSRSIZ35IX3PXTEO '薪' の処理後の価格: 1500円
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID GMQOSXGB6JCIYWYTQUKM2JEN の画像URL: 取得できませんでした
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#06-250720170713493856967' (ID: GMQOSXGB6JCIYWYTQUKM2JEN) の処理結果: 価格=2600円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID FR6TT7UOHV6MRYPAKCHER7UD 'fg#06-250720170713493856967' の価格情報構造: 4500
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID FR6TT7UOHV6MRYPAKCHER7UD 'fg#06-250720170713493856967' の価格: 4500円 (直接指定)
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID FR6TT7UOHV6MRYPAKCHER7UD 'fg#06-250720170713493856967' の処理後の価格: 4500円
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID FR6TT7UOHV6MRYPAKCHER7UD の画像URL: 取得できませんでした
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#06-250720170713493856967' (ID: FR6TT7UOHV6MRYPAKCHER7UD) の処理結果: 価格=4500円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID HOSS5BJ4JSAYEQIIV2B57RK6 'fg#03-250720190824698731410' の価格情報構造: 8700
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID HOSS5BJ4JSAYEQIIV2B57RK6 'fg#03-250720190824698731410' の価格: 8700円 (直接指定)
+[2025-08-14 10:35:02] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID HOSS5BJ4JSAYEQIIV2B57RK6 'fg#03-250720190824698731410' の処理後の価格: 8700円
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID HOSS5BJ4JSAYEQIIV2B57RK6 の画像URL: 取得できませんでした
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#03-250720190824698731410' (ID: HOSS5BJ4JSAYEQIIV2B57RK6) の処理結果: 価格=8700円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID M2ZHH6KQXNLMB36YKF35RHYI 'fg#06-250720170713493856967' の価格情報構造: 6000
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID M2ZHH6KQXNLMB36YKF35RHYI 'fg#06-250720170713493856967' の価格: 6000円 (直接指定)
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID M2ZHH6KQXNLMB36YKF35RHYI 'fg#06-250720170713493856967' の処理後の価格: 6000円
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID A6VEQLSSUSRSIZ35IX3PXTEO の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/d23a7a36e4c9362900ad62d64a46bc101a60b777/original.png
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '薪' (ID: A6VEQLSSUSRSIZ35IX3PXTEO) の処理結果: 価格=1500円, カテゴリ=薪
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID RSR47XH3BR6UQZYYMO4YQLUG '焚き火パン' の価格情報構造: 600
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID RSR47XH3BR6UQZYYMO4YQLUG '焚き火パン' の価格: 600円 (直接指定)
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID RSR47XH3BR6UQZYYMO4YQLUG '焚き火パン' の処理後の価格: 600円
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID M2ZHH6KQXNLMB36YKF35RHYI の画像URL: 取得できませんでした
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#06-250720170713493856967' (ID: M2ZHH6KQXNLMB36YKF35RHYI) の処理結果: 価格=6000円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID XWRC7U6YMTGRRNIZPFBIFUGJ 'fg#03-250720190824698731410' の価格情報構造: 10500
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID XWRC7U6YMTGRRNIZPFBIFUGJ 'fg#03-250720190824698731410' の価格: 10500円 (直接指定)
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID XWRC7U6YMTGRRNIZPFBIFUGJ 'fg#03-250720190824698731410' の処理後の価格: 10500円
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID RSR47XH3BR6UQZYYMO4YQLUG の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/0145cae716499c3d6e41741b69f6e70e24c69a39/original.png
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '焚き火パン' (ID: RSR47XH3BR6UQZYYMO4YQLUG) の処理結果: 価格=600円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID EGZEYEYJBVGUK5ZPPR46GSVV 'コーンバター醤油' の価格情報構造: 500
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID EGZEYEYJBVGUK5ZPPR46GSVV 'コーンバター醤油' の価格: 500円 (直接指定)
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID EGZEYEYJBVGUK5ZPPR46GSVV 'コーンバター醤油' の処理後の価格: 500円
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID XWRC7U6YMTGRRNIZPFBIFUGJ の画像URL: 取得できませんでした
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#03-250720190824698731410' (ID: XWRC7U6YMTGRRNIZPFBIFUGJ) の処理結果: 価格=10500円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID HJ46T7K6IDQ7FXMJR5JSH3GF 'fg#05-250720200341809513595' の価格情報構造: 4500
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID HJ46T7K6IDQ7FXMJR5JSH3GF 'fg#05-250720200341809513595' の価格: 4500円 (直接指定)
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID HJ46T7K6IDQ7FXMJR5JSH3GF 'fg#05-250720200341809513595' の処理後の価格: 4500円
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID EGZEYEYJBVGUK5ZPPR46GSVV の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/8ecbb1fd620e054da3782d493615e919a181ead4/original.png
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'コーンバター醤油' (ID: EGZEYEYJBVGUK5ZPPR46GSVV) の処理結果: 価格=500円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID FOPCGOZ72YMLDIUQNSF6TC2A '厚焼きパンケーキ' の価格情報構造: 700
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID FOPCGOZ72YMLDIUQNSF6TC2A '厚焼きパンケーキ' の価格: 700円 (直接指定)
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID FOPCGOZ72YMLDIUQNSF6TC2A '厚焼きパンケーキ' の処理後の価格: 700円
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID HJ46T7K6IDQ7FXMJR5JSH3GF の画像URL: 取得できませんでした
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#05-250720200341809513595' (ID: HJ46T7K6IDQ7FXMJR5JSH3GF) の処理結果: 価格=4500円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID TUPJENENW7D7VXDFETRWNZ55 'fg#03-250720190824698731410' の価格情報構造: 700
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID TUPJENENW7D7VXDFETRWNZ55 'fg#03-250720190824698731410' の価格: 700円 (直接指定)
+[2025-08-14 10:35:03] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID TUPJENENW7D7VXDFETRWNZ55 'fg#03-250720190824698731410' の処理後の価格: 700円
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID TUPJENENW7D7VXDFETRWNZ55 の画像URL: 取得できませんでした
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#03-250720190824698731410' (ID: TUPJENENW7D7VXDFETRWNZ55) の処理結果: 価格=700円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID PXNRZ6MLLOJSELJUHMZO2XV4 'fg#01-250707165337647099096' の価格情報構造: 500
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID PXNRZ6MLLOJSELJUHMZO2XV4 'fg#01-250707165337647099096' の価格: 500円 (直接指定)
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID PXNRZ6MLLOJSELJUHMZO2XV4 'fg#01-250707165337647099096' の処理後の価格: 500円
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID PXNRZ6MLLOJSELJUHMZO2XV4 の画像URL: 取得できませんでした
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#01-250707165337647099096' (ID: PXNRZ6MLLOJSELJUHMZO2XV4) の処理結果: 価格=500円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID 42MOKDMSQJTFLOTBA7XSARGU 'fg#03-250720190824698731410' の価格情報構造: 900
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID 42MOKDMSQJTFLOTBA7XSARGU 'fg#03-250720190824698731410' の価格: 900円 (直接指定)
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID 42MOKDMSQJTFLOTBA7XSARGU 'fg#03-250720190824698731410' の処理後の価格: 900円
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID FOPCGOZ72YMLDIUQNSF6TC2A の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/3f925d5e59b35cd7c6d5fa88c5b9e7e42f083335/original.png
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '厚焼きパンケーキ' (ID: FOPCGOZ72YMLDIUQNSF6TC2A) の処理結果: 価格=700円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID 6BSR5NBGAGD7F5JEZ6CSBLMK 'バター醤油きのこのホイル焼き' の価格情報構造: 800
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID 6BSR5NBGAGD7F5JEZ6CSBLMK 'バター醤油きのこのホイル焼き' の価格: 800円 (直接指定)
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID 6BSR5NBGAGD7F5JEZ6CSBLMK 'バター醤油きのこのホイル焼き' の処理後の価格: 800円
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID 42MOKDMSQJTFLOTBA7XSARGU の画像URL: 取得できませんでした
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#03-250720190824698731410' (ID: 42MOKDMSQJTFLOTBA7XSARGU) の処理結果: 価格=900円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID 4RSY4EQSVBKFXRGFEMFHTZ5K 'fg#02-250804172553620987104' の価格情報構造: 3800
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID 4RSY4EQSVBKFXRGFEMFHTZ5K 'fg#02-250804172553620987104' の価格: 3800円 (直接指定)
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID 4RSY4EQSVBKFXRGFEMFHTZ5K 'fg#02-250804172553620987104' の処理後の価格: 3800円
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID 6BSR5NBGAGD7F5JEZ6CSBLMK の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/bd4a5943135127e315ae6502645a96a764c668b2/original.png
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'バター醤油きのこのホイル焼き' (ID: 6BSR5NBGAGD7F5JEZ6CSBLMK) の処理結果: 価格=800円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID KZPHTBTY3BFZXB4ANM6J2S3H 'さつま芋のブリュレ' の価格情報構造: 300
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID KZPHTBTY3BFZXB4ANM6J2S3H 'さつま芋のブリュレ' の価格: 300円 (直接指定)
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID KZPHTBTY3BFZXB4ANM6J2S3H 'さつま芋のブリュレ' の処理後の価格: 300円
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID KZPHTBTY3BFZXB4ANM6J2S3H の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/19affa0162d89dfcc3fc3fea36081ee59bf402e3/original.png
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'さつま芋のブリュレ' (ID: KZPHTBTY3BFZXB4ANM6J2S3H) の処理結果: 価格=300円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID 2XHJMXGRUOBBCUHFZVL2CSPN 'ブルーベリーのスキレットスモア' の価格情報構造: 900
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID 2XHJMXGRUOBBCUHFZVL2CSPN 'ブルーベリーのスキレットスモア' の価格: 900円 (直接指定)
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID 2XHJMXGRUOBBCUHFZVL2CSPN 'ブルーベリーのスキレットスモア' の処理後の価格: 900円
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID 2XHJMXGRUOBBCUHFZVL2CSPN の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/e6650c478a9ebece9c66eb5d1df5d883706f4996/original.png
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'ブルーベリーのスキレットスモア' (ID: 2XHJMXGRUOBBCUHFZVL2CSPN) の処理結果: 価格=900円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID EYS5FTVX22MG4UFSWHGLLUQ2 'ブルーベリーのスキレットスモア（アイス添え）' の価格情報構造: 1020
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID EYS5FTVX22MG4UFSWHGLLUQ2 'ブルーベリーのスキレットスモア（アイス添え）' の価格: 1020円 (直接指定)
+[2025-08-14 10:35:04] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID EYS5FTVX22MG4UFSWHGLLUQ2 'ブルーベリーのスキレットスモア（アイス添え）' の処理後の価格: 1020円
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID 4RSY4EQSVBKFXRGFEMFHTZ5K の画像URL: 取得できませんでした
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#02-250804172553620987104' (ID: 4RSY4EQSVBKFXRGFEMFHTZ5K) の処理結果: 価格=3800円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID HTENAP7IC5QEHN63WUZR6SNN 'fg#04-250804182523577578304' の価格情報構造: 3700
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID HTENAP7IC5QEHN63WUZR6SNN 'fg#04-250804182523577578304' の価格: 3700円 (直接指定)
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID HTENAP7IC5QEHN63WUZR6SNN 'fg#04-250804182523577578304' の処理後の価格: 3700円
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID EYS5FTVX22MG4UFSWHGLLUQ2 の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/d83ec5af6a1d029cb0b2a59095b6ba4c4120e3e3/original.png
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'ブルーベリーのスキレットスモア（アイス添え）' (ID: EYS5FTVX22MG4UFSWHGLLUQ2) の処理結果: 価格=1020円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID 2HZEC733J7LTVOFJ2NRUPXKW 'ダッチオーブンの焼き餃子' の価格情報構造: 800
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID 2HZEC733J7LTVOFJ2NRUPXKW 'ダッチオーブンの焼き餃子' の価格: 800円 (直接指定)
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID 2HZEC733J7LTVOFJ2NRUPXKW 'ダッチオーブンの焼き餃子' の処理後の価格: 800円
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID HTENAP7IC5QEHN63WUZR6SNN の画像URL: 取得できませんでした
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#04-250804182523577578304' (ID: HTENAP7IC5QEHN63WUZR6SNN) の処理結果: 価格=3700円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID KV5KX3FTHAKWWOBPEIJVAD5S '朝食（1名様分）' の価格情報構造: 1500
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID KV5KX3FTHAKWWOBPEIJVAD5S '朝食（1名様分）' の価格: 1500円 (直接指定)
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID KV5KX3FTHAKWWOBPEIJVAD5S '朝食（1名様分）' の処理後の価格: 1500円
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID 2HZEC733J7LTVOFJ2NRUPXKW の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/d8c304da0693507489854b6339131fb35fce3522/original.png
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'ダッチオーブンの焼き餃子' (ID: 2HZEC733J7LTVOFJ2NRUPXKW) の処理結果: 価格=800円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID G5RNQRU4XMQC7QPCURAUNLVU 'ココア（HOT）' の価格情報構造: 500
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID G5RNQRU4XMQC7QPCURAUNLVU 'ココア（HOT）' の価格: 500円 (直接指定)
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID G5RNQRU4XMQC7QPCURAUNLVU 'ココア（HOT）' の処理後の価格: 500円
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID KV5KX3FTHAKWWOBPEIJVAD5S の画像URL: 取得できませんでした
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '朝食（1名様分）' (ID: KV5KX3FTHAKWWOBPEIJVAD5S) の処理結果: 価格=1500円, カテゴリ=物販・レンタル
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID 6SVAN5XJIMJTD33E3XX5SH7Q 'コースディナー（1名様分）' の価格情報構造: 15000
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID 6SVAN5XJIMJTD33E3XX5SH7Q 'コースディナー（1名様分）' の価格: 15000円 (直接指定)
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID 6SVAN5XJIMJTD33E3XX5SH7Q 'コースディナー（1名様分）' の処理後の価格: 15000円
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID 6SVAN5XJIMJTD33E3XX5SH7Q の画像URL: 取得できませんでした
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'コースディナー（1名様分）' (ID: 6SVAN5XJIMJTD33E3XX5SH7Q) の処理結果: 価格=15000円, カテゴリ=物販・レンタル
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID SX4PJMDOI3LEZE3VS4KXO5OR 'fg#04-250804182523577578304' の価格情報構造: 7700
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID SX4PJMDOI3LEZE3VS4KXO5OR 'fg#04-250804182523577578304' の価格: 7700円 (直接指定)
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID SX4PJMDOI3LEZE3VS4KXO5OR 'fg#04-250804182523577578304' の処理後の価格: 7700円
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID G5RNQRU4XMQC7QPCURAUNLVU の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/9e4a2486feb2892a3c9756950c5d9609acb36971/original.png
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'ココア（HOT）' (ID: G5RNQRU4XMQC7QPCURAUNLVU) の処理結果: 価格=500円, カテゴリ=ソフトドリンク
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID XW5DYHD5PX6BO5BUYIE4NFUB '紅茶（ICE）' の価格情報構造: 500
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID XW5DYHD5PX6BO5BUYIE4NFUB '紅茶（ICE）' の価格: 500円 (直接指定)
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID XW5DYHD5PX6BO5BUYIE4NFUB '紅茶（ICE）' の処理後の価格: 500円
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID XW5DYHD5PX6BO5BUYIE4NFUB の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/bafc1587ac5e79d7b045cc625245ec43f1001114/original.png
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '紅茶（ICE）' (ID: XW5DYHD5PX6BO5BUYIE4NFUB) の処理結果: 価格=500円, カテゴリ=ソフトドリンク
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID OZYWDDYBARHJNT7JBIW3SATD '貸出用ダッチオーブン' の価格情報構造: 200
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID OZYWDDYBARHJNT7JBIW3SATD '貸出用ダッチオーブン' の価格: 200円 (直接指定)
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID OZYWDDYBARHJNT7JBIW3SATD '貸出用ダッチオーブン' の処理後の価格: 200円
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID SX4PJMDOI3LEZE3VS4KXO5OR の画像URL: 取得できませんでした
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#04-250804182523577578304' (ID: SX4PJMDOI3LEZE3VS4KXO5OR) の処理結果: 価格=7700円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID KY72ZGV2C6ZUOCBAHF7XHHA3 'fg#11-250807173614014387973' の価格情報構造: 22000
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID KY72ZGV2C6ZUOCBAHF7XHHA3 'fg#11-250807173614014387973' の価格: 22000円 (直接指定)
+[2025-08-14 10:35:05] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID KY72ZGV2C6ZUOCBAHF7XHHA3 'fg#11-250807173614014387973' の処理後の価格: 22000円
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID OZYWDDYBARHJNT7JBIW3SATD の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/f3ac7a07f9454193991f090ee504df04a9a9b909/original.png
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '貸出用ダッチオーブン' (ID: OZYWDDYBARHJNT7JBIW3SATD) の処理結果: 価格=200円, カテゴリ=物販・レンタル
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID 3KKLINLS6LSJEUPWJZGUHRPI '紅茶（HOT）' の価格情報構造: 500
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID 3KKLINLS6LSJEUPWJZGUHRPI '紅茶（HOT）' の価格: 500円 (直接指定)
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID 3KKLINLS6LSJEUPWJZGUHRPI '紅茶（HOT）' の処理後の価格: 500円
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID KY72ZGV2C6ZUOCBAHF7XHHA3 の画像URL: 取得できませんでした
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#11-250807173614014387973' (ID: KY72ZGV2C6ZUOCBAHF7XHHA3) の処理結果: 価格=22000円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID Y47L3E2XJ2B5LTBQZOWXEKPO 'fg#11-250807173614014387973' の価格情報構造: 40000
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID Y47L3E2XJ2B5LTBQZOWXEKPO 'fg#11-250807173614014387973' の価格: 40000円 (直接指定)
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID Y47L3E2XJ2B5LTBQZOWXEKPO 'fg#11-250807173614014387973' の処理後の価格: 40000円
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID Y47L3E2XJ2B5LTBQZOWXEKPO の画像URL: 取得できませんでした
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#11-250807173614014387973' (ID: Y47L3E2XJ2B5LTBQZOWXEKPO) の処理結果: 価格=40000円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID JYRKC7BC4DCSDKQMNMMSA54T 'fg#01-250808171924393068826' の価格情報構造: 3600
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID JYRKC7BC4DCSDKQMNMMSA54T 'fg#01-250808171924393068826' の価格: 3600円 (直接指定)
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID JYRKC7BC4DCSDKQMNMMSA54T 'fg#01-250808171924393068826' の処理後の価格: 3600円
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID 3KKLINLS6LSJEUPWJZGUHRPI の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/edc67687a9c24870917b8e2f15e3c6162e689030/original.png
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '紅茶（HOT）' (ID: 3KKLINLS6LSJEUPWJZGUHRPI) の処理結果: 価格=500円, カテゴリ=ソフトドリンク
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID E5LCY5RDRH7FVFXDHRBZLMAB 'レイトチェックアウト(1時間)' の価格情報構造: 2000
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID E5LCY5RDRH7FVFXDHRBZLMAB 'レイトチェックアウト(1時間)' の価格: 2000円 (直接指定)
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID E5LCY5RDRH7FVFXDHRBZLMAB 'レイトチェックアウト(1時間)' の処理後の価格: 2000円
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID JYRKC7BC4DCSDKQMNMMSA54T の画像URL: 取得できませんでした
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#01-250808171924393068826' (ID: JYRKC7BC4DCSDKQMNMMSA54T) の処理結果: 価格=3600円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID MBMU4B625ZIY65IJM75XHRNI 'fg#02-250808205320426100328' の価格情報構造: 5300
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID MBMU4B625ZIY65IJM75XHRNI 'fg#02-250808205320426100328' の価格: 5300円 (直接指定)
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID MBMU4B625ZIY65IJM75XHRNI 'fg#02-250808205320426100328' の処理後の価格: 5300円
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID E5LCY5RDRH7FVFXDHRBZLMAB の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/338045ef795f829c4c4dcec75f0c13937e5d7e7f/original.png
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'レイトチェックアウト(1時間)' (ID: E5LCY5RDRH7FVFXDHRBZLMAB) の処理結果: 価格=2000円, カテゴリ=物販・レンタル
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID YJ24J6IED5GESTLYGD5GUEFV '肉巻きスキレットおにぎり' の価格情報構造: 800
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID YJ24J6IED5GESTLYGD5GUEFV '肉巻きスキレットおにぎり' の価格: 800円 (直接指定)
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID YJ24J6IED5GESTLYGD5GUEFV '肉巻きスキレットおにぎり' の処理後の価格: 800円
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID YJ24J6IED5GESTLYGD5GUEFV の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/84732a1efd32175327b4a0d8998b26b0b53d89ab/original.png
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '肉巻きスキレットおにぎり' (ID: YJ24J6IED5GESTLYGD5GUEFV) の処理結果: 価格=800円, カテゴリ=セルフメイドメニュー
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID 244ZDIIZFR67AIBEOOKC7L5B 'BBQレンタルBOX' の価格情報構造: 700
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID 244ZDIIZFR67AIBEOOKC7L5B 'BBQレンタルBOX' の価格: 700円 (直接指定)
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID 244ZDIIZFR67AIBEOOKC7L5B 'BBQレンタルBOX' の処理後の価格: 700円
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID 244ZDIIZFR67AIBEOOKC7L5B の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/15d693e7b1140529676d2fa6d4ab3f3e01ebb2ad/original.png
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'BBQレンタルBOX' (ID: 244ZDIIZFR67AIBEOOKC7L5B) の処理結果: 価格=700円, カテゴリ=物販・レンタル
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID KENANQO2UAGUVBC4H5WZJ3ZX 'アルミトレー　大' の価格情報構造: 200
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID KENANQO2UAGUVBC4H5WZJ3ZX 'アルミトレー　大' の価格: 200円 (直接指定)
+[2025-08-14 10:35:06] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID KENANQO2UAGUVBC4H5WZJ3ZX 'アルミトレー　大' の処理後の価格: 200円
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID MBMU4B625ZIY65IJM75XHRNI の画像URL: 取得できませんでした
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#02-250808205320426100328' (ID: MBMU4B625ZIY65IJM75XHRNI) の処理結果: 価格=5300円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID G5YIMDKSP4CDH77JX7IFO6DL 'fg#13-250809175800890718850' の価格情報構造: 800
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID G5YIMDKSP4CDH77JX7IFO6DL 'fg#13-250809175800890718850' の価格: 800円 (直接指定)
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID G5YIMDKSP4CDH77JX7IFO6DL 'fg#13-250809175800890718850' の処理後の価格: 800円
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID KENANQO2UAGUVBC4H5WZJ3ZX の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/7fdf4abb0ac1aa94becac3079fbcec3ad308f052/original.png
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'アルミトレー　大' (ID: KENANQO2UAGUVBC4H5WZJ3ZX) の処理結果: 価格=200円, カテゴリ=物販・レンタル
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID PMI472ZFZFOVH2Z2ZPJPXP73 'アルミトレー　小' の価格情報構造: 200
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID PMI472ZFZFOVH2Z2ZPJPXP73 'アルミトレー　小' の価格: 200円 (直接指定)
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID PMI472ZFZFOVH2Z2ZPJPXP73 'アルミトレー　小' の処理後の価格: 200円
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID G5YIMDKSP4CDH77JX7IFO6DL の画像URL: 取得できませんでした
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#13-250809175800890718850' (ID: G5YIMDKSP4CDH77JX7IFO6DL) の処理結果: 価格=800円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID T2ZUHS6JOHMLANTZ4XJMJMCH 'fg#02-250809180133962345651' の価格情報構造: 3800
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID T2ZUHS6JOHMLANTZ4XJMJMCH 'fg#02-250809180133962345651' の価格: 3800円 (直接指定)
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID T2ZUHS6JOHMLANTZ4XJMJMCH 'fg#02-250809180133962345651' の処理後の価格: 3800円
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID PMI472ZFZFOVH2Z2ZPJPXP73 の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/71060e781a9f152c5533326fc1cd753fd830c656/original.png
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'アルミトレー　小' (ID: PMI472ZFZFOVH2Z2ZPJPXP73) の処理結果: 価格=200円, カテゴリ=物販・レンタル
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID 53MHHBHBJJR2A6JGW5E3SX5L '紙皿・割り箸4人前セット' の価格情報構造: 100
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID 53MHHBHBJJR2A6JGW5E3SX5L '紙皿・割り箸4人前セット' の価格: 100円 (直接指定)
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID 53MHHBHBJJR2A6JGW5E3SX5L '紙皿・割り箸4人前セット' の処理後の価格: 100円
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID T2ZUHS6JOHMLANTZ4XJMJMCH の画像URL: 取得できませんでした
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#02-250809180133962345651' (ID: T2ZUHS6JOHMLANTZ4XJMJMCH) の処理結果: 価格=3800円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID 736AV72ALUIX776VOGGEEEOH 'fg#05-250809190840511462387' の価格情報構造: 700
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID 736AV72ALUIX776VOGGEEEOH 'fg#05-250809190840511462387' の価格: 700円 (直接指定)
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID 736AV72ALUIX776VOGGEEEOH 'fg#05-250809190840511462387' の処理後の価格: 700円
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID 53MHHBHBJJR2A6JGW5E3SX5L の画像URL: https://items-images-production.s3.us-west-2.amazonaws.com/files/b91d3069b769a2b2442547fb8f4b3b71d870dabe/original.png
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '紙皿・割り箸4人前セット' (ID: 53MHHBHBJJR2A6JGW5E3SX5L) の処理結果: 価格=100円, カテゴリ=物販・レンタル
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID C6QU5VICRSSGSN4O6YNQUNTU 'アーリーチェックイン' の価格情報構造: 2000
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID C6QU5VICRSSGSN4O6YNQUNTU 'アーリーチェックイン' の価格: 2000円 (直接指定)
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID C6QU5VICRSSGSN4O6YNQUNTU 'アーリーチェックイン' の処理後の価格: 2000円
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID 736AV72ALUIX776VOGGEEEOH の画像URL: 取得できませんでした
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#05-250809190840511462387' (ID: 736AV72ALUIX776VOGGEEEOH) の処理結果: 価格=700円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID FOVXJMKNW23XSASH4GSQWA7Z 'fg#03-250809200052325557887' の価格情報構造: 2500
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID FOVXJMKNW23XSASH4GSQWA7Z 'fg#03-250809200052325557887' の価格: 2500円 (直接指定)
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID FOVXJMKNW23XSASH4GSQWA7Z 'fg#03-250809200052325557887' の処理後の価格: 2500円
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID C6QU5VICRSSGSN4O6YNQUNTU の画像URL: 取得できませんでした
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'アーリーチェックイン' (ID: C6QU5VICRSSGSN4O6YNQUNTU) の処理結果: 価格=2000円, カテゴリ=物販・レンタル
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID GMQOSXGB6JCIYWYTQUKM2JEN 'fg#06-250720170713493856967' の価格情報構造: 2600
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID GMQOSXGB6JCIYWYTQUKM2JEN 'fg#06-250720170713493856967' の価格: 2600円 (直接指定)
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID GMQOSXGB6JCIYWYTQUKM2JEN 'fg#06-250720170713493856967' の処理後の価格: 2600円
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID FOVXJMKNW23XSASH4GSQWA7Z の画像URL: 取得できませんでした
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#03-250809200052325557887' (ID: FOVXJMKNW23XSASH4GSQWA7Z) の処理結果: 価格=2500円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID ANHFXQGBHCNOOBAPIOWJ6TQU 'fg#06-250809203951609581242' の価格情報構造: 700
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID ANHFXQGBHCNOOBAPIOWJ6TQU 'fg#06-250809203951609581242' の価格: 700円 (直接指定)
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID ANHFXQGBHCNOOBAPIOWJ6TQU 'fg#06-250809203951609581242' の処理後の価格: 700円
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID GMQOSXGB6JCIYWYTQUKM2JEN の画像URL: 取得できませんでした
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#06-250720170713493856967' (ID: GMQOSXGB6JCIYWYTQUKM2JEN) の処理結果: 価格=2600円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID FR6TT7UOHV6MRYPAKCHER7UD 'fg#06-250720170713493856967' の価格情報構造: 4500
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID FR6TT7UOHV6MRYPAKCHER7UD 'fg#06-250720170713493856967' の価格: 4500円 (直接指定)
+[2025-08-14 10:35:07] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID FR6TT7UOHV6MRYPAKCHER7UD 'fg#06-250720170713493856967' の処理後の価格: 4500円
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID ANHFXQGBHCNOOBAPIOWJ6TQU の画像URL: 取得できませんでした
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#06-250809203951609581242' (ID: ANHFXQGBHCNOOBAPIOWJ6TQU) の処理結果: 価格=700円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID SLX3YI7SQSIKL557ZMXCDZTN 'fg#12-250810055452057421794' の価格情報構造: 32000
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID SLX3YI7SQSIKL557ZMXCDZTN 'fg#12-250810055452057421794' の価格: 32000円 (直接指定)
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID SLX3YI7SQSIKL557ZMXCDZTN 'fg#12-250810055452057421794' の処理後の価格: 32000円
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID FR6TT7UOHV6MRYPAKCHER7UD の画像URL: 取得できませんでした
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#06-250720170713493856967' (ID: FR6TT7UOHV6MRYPAKCHER7UD) の処理結果: 価格=4500円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID HOSS5BJ4JSAYEQIIV2B57RK6 'fg#03-250720190824698731410' の価格情報構造: 8700
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID HOSS5BJ4JSAYEQIIV2B57RK6 'fg#03-250720190824698731410' の価格: 8700円 (直接指定)
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID HOSS5BJ4JSAYEQIIV2B57RK6 'fg#03-250720190824698731410' の処理後の価格: 8700円
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID SLX3YI7SQSIKL557ZMXCDZTN の画像URL: 取得できませんでした
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#12-250810055452057421794' (ID: SLX3YI7SQSIKL557ZMXCDZTN) の処理結果: 価格=32000円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID LLV37JJ2WXD33RFVS7PJ7NKR 'fg#12-250810055452057421794' の価格情報構造: 64000
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID LLV37JJ2WXD33RFVS7PJ7NKR 'fg#12-250810055452057421794' の価格: 64000円 (直接指定)
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID LLV37JJ2WXD33RFVS7PJ7NKR 'fg#12-250810055452057421794' の処理後の価格: 64000円
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID HOSS5BJ4JSAYEQIIV2B57RK6 の画像URL: 取得できませんでした
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#03-250720190824698731410' (ID: HOSS5BJ4JSAYEQIIV2B57RK6) の処理結果: 価格=8700円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID M2ZHH6KQXNLMB36YKF35RHYI 'fg#06-250720170713493856967' の価格情報構造: 6000
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID M2ZHH6KQXNLMB36YKF35RHYI 'fg#06-250720170713493856967' の価格: 6000円 (直接指定)
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID M2ZHH6KQXNLMB36YKF35RHYI 'fg#06-250720170713493856967' の処理後の価格: 6000円
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID LLV37JJ2WXD33RFVS7PJ7NKR の画像URL: 取得できませんでした
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#12-250810055452057421794' (ID: LLV37JJ2WXD33RFVS7PJ7NKR) の処理結果: 価格=64000円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID CI5VCPE2MFKHRKNVCDMUGHL7 'fg#12-250810055452057421794' の価格情報構造: 96000
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID CI5VCPE2MFKHRKNVCDMUGHL7 'fg#12-250810055452057421794' の価格: 96000円 (直接指定)
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID CI5VCPE2MFKHRKNVCDMUGHL7 'fg#12-250810055452057421794' の処理後の価格: 96000円
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID CI5VCPE2MFKHRKNVCDMUGHL7 の画像URL: 取得できませんでした
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#12-250810055452057421794' (ID: CI5VCPE2MFKHRKNVCDMUGHL7) の処理結果: 価格=96000円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID H4OHNQBADBK4LGSOVQD6PZFC 'fg#12-250810055452057421794' の価格情報構造: 112000
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID H4OHNQBADBK4LGSOVQD6PZFC 'fg#12-250810055452057421794' の価格: 112000円 (直接指定)
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID H4OHNQBADBK4LGSOVQD6PZFC 'fg#12-250810055452057421794' の処理後の価格: 112000円
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID H4OHNQBADBK4LGSOVQD6PZFC の画像URL: 取得できませんでした
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#12-250810055452057421794' (ID: H4OHNQBADBK4LGSOVQD6PZFC) の処理結果: 価格=112000円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID W2F7T5NPBI6SIHFPHVEMSYNQ 'fg#12-250810084419324851493' の価格情報構造: 32000
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID W2F7T5NPBI6SIHFPHVEMSYNQ 'fg#12-250810084419324851493' の価格: 32000円 (直接指定)
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID W2F7T5NPBI6SIHFPHVEMSYNQ 'fg#12-250810084419324851493' の処理後の価格: 32000円
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID M2ZHH6KQXNLMB36YKF35RHYI の画像URL: 取得できませんでした
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#06-250720170713493856967' (ID: M2ZHH6KQXNLMB36YKF35RHYI) の処理結果: 価格=6000円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID XWRC7U6YMTGRRNIZPFBIFUGJ 'fg#03-250720190824698731410' の価格情報構造: 10500
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID XWRC7U6YMTGRRNIZPFBIFUGJ 'fg#03-250720190824698731410' の価格: 10500円 (直接指定)
+[2025-08-14 10:35:08] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID XWRC7U6YMTGRRNIZPFBIFUGJ 'fg#03-250720190824698731410' の処理後の価格: 10500円
+[2025-08-14 10:35:09] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID W2F7T5NPBI6SIHFPHVEMSYNQ の画像URL: 取得できませんでした
+[2025-08-14 10:35:09] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#12-250810084419324851493' (ID: W2F7T5NPBI6SIHFPHVEMSYNQ) の処理結果: 価格=32000円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:09] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID FHDPEHZZEQRRPM56GCO6FXDW 'fg#12-250810084419324851493' の価格情報構造: 76000
+[2025-08-14 10:35:09] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID FHDPEHZZEQRRPM56GCO6FXDW 'fg#12-250810084419324851493' の価格: 76000円 (直接指定)
+[2025-08-14 10:35:09] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID FHDPEHZZEQRRPM56GCO6FXDW 'fg#12-250810084419324851493' の処理後の価格: 76000円
+[2025-08-14 10:35:09] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID FHDPEHZZEQRRPM56GCO6FXDW の画像URL: 取得できませんでした
+[2025-08-14 10:35:09] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#12-250810084419324851493' (ID: FHDPEHZZEQRRPM56GCO6FXDW) の処理結果: 価格=76000円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:09] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID KKF5QCR7YDQ5UHNALDM7ICL2 'fg#12-250810084419324851493' の価格情報構造: 104000
+[2025-08-14 10:35:09] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID KKF5QCR7YDQ5UHNALDM7ICL2 'fg#12-250810084419324851493' の価格: 104000円 (直接指定)
+[2025-08-14 10:35:09] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID KKF5QCR7YDQ5UHNALDM7ICL2 'fg#12-250810084419324851493' の処理後の価格: 104000円
+[2025-08-14 10:35:09] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID XWRC7U6YMTGRRNIZPFBIFUGJ の画像URL: 取得できませんでした
+[2025-08-14 10:35:09] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#03-250720190824698731410' (ID: XWRC7U6YMTGRRNIZPFBIFUGJ) の処理結果: 価格=10500円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:09] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID HJ46T7K6IDQ7FXMJR5JSH3GF 'fg#05-250720200341809513595' の価格情報構造: 4500
+[2025-08-14 10:35:09] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID HJ46T7K6IDQ7FXMJR5JSH3GF 'fg#05-250720200341809513595' の価格: 4500円 (直接指定)
+[2025-08-14 10:35:09] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID HJ46T7K6IDQ7FXMJR5JSH3GF 'fg#05-250720200341809513595' の処理後の価格: 4500円
+[2025-08-14 10:35:09] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID KKF5QCR7YDQ5UHNALDM7ICL2 の画像URL: 取得できませんでした
+[2025-08-14 10:35:09] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#12-250810084419324851493' (ID: KKF5QCR7YDQ5UHNALDM7ICL2) の処理結果: 価格=104000円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:09] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID J2XRGE6KS2XYR4TXPQ53EOWQ 'fg#12-250810092251124639899' の価格情報構造: 7600
+[2025-08-14 10:35:09] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID J2XRGE6KS2XYR4TXPQ53EOWQ 'fg#12-250810092251124639899' の価格: 7600円 (直接指定)
+[2025-08-14 10:35:09] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID J2XRGE6KS2XYR4TXPQ53EOWQ 'fg#12-250810092251124639899' の処理後の価格: 7600円
+[2025-08-14 10:35:09] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID HJ46T7K6IDQ7FXMJR5JSH3GF の画像URL: 取得できませんでした
+[2025-08-14 10:35:09] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#05-250720200341809513595' (ID: HJ46T7K6IDQ7FXMJR5JSH3GF) の処理結果: 価格=4500円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:09] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID TUPJENENW7D7VXDFETRWNZ55 'fg#03-250720190824698731410' の価格情報構造: 700
+[2025-08-14 10:35:09] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID TUPJENENW7D7VXDFETRWNZ55 'fg#03-250720190824698731410' の価格: 700円 (直接指定)
+[2025-08-14 10:35:09] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID TUPJENENW7D7VXDFETRWNZ55 'fg#03-250720190824698731410' の処理後の価格: 700円
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID J2XRGE6KS2XYR4TXPQ53EOWQ の画像URL: 取得できませんでした
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#12-250810092251124639899' (ID: J2XRGE6KS2XYR4TXPQ53EOWQ) の処理結果: 価格=7600円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID CKJJ4LBTDOHQMM3QQN7FKJPU 'fg#06-250810153948988196384' の価格情報構造: 5300
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID CKJJ4LBTDOHQMM3QQN7FKJPU 'fg#06-250810153948988196384' の価格: 5300円 (直接指定)
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID CKJJ4LBTDOHQMM3QQN7FKJPU 'fg#06-250810153948988196384' の処理後の価格: 5300円
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID TUPJENENW7D7VXDFETRWNZ55 の画像URL: 取得できませんでした
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#03-250720190824698731410' (ID: TUPJENENW7D7VXDFETRWNZ55) の処理結果: 価格=700円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID PXNRZ6MLLOJSELJUHMZO2XV4 'fg#01-250707165337647099096' の価格情報構造: 500
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID PXNRZ6MLLOJSELJUHMZO2XV4 'fg#01-250707165337647099096' の価格: 500円 (直接指定)
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID PXNRZ6MLLOJSELJUHMZO2XV4 'fg#01-250707165337647099096' の処理後の価格: 500円
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID PXNRZ6MLLOJSELJUHMZO2XV4 の画像URL: 取得できませんでした
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#01-250707165337647099096' (ID: PXNRZ6MLLOJSELJUHMZO2XV4) の処理結果: 価格=500円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID 42MOKDMSQJTFLOTBA7XSARGU 'fg#03-250720190824698731410' の価格情報構造: 900
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID 42MOKDMSQJTFLOTBA7XSARGU 'fg#03-250720190824698731410' の価格: 900円 (直接指定)
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID 42MOKDMSQJTFLOTBA7XSARGU 'fg#03-250720190824698731410' の処理後の価格: 900円
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID 42MOKDMSQJTFLOTBA7XSARGU の画像URL: 取得できませんでした
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#03-250720190824698731410' (ID: 42MOKDMSQJTFLOTBA7XSARGU) の処理結果: 価格=900円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID 4RSY4EQSVBKFXRGFEMFHTZ5K 'fg#02-250804172553620987104' の価格情報構造: 3800
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID 4RSY4EQSVBKFXRGFEMFHTZ5K 'fg#02-250804172553620987104' の価格: 3800円 (直接指定)
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID 4RSY4EQSVBKFXRGFEMFHTZ5K 'fg#02-250804172553620987104' の処理後の価格: 3800円
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID CKJJ4LBTDOHQMM3QQN7FKJPU の画像URL: 取得できませんでした
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#06-250810153948988196384' (ID: CKJJ4LBTDOHQMM3QQN7FKJPU) の処理結果: 価格=5300円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID DUEGE7U5IW64FUX5LR6HOJLA 'fg#02-250810155421340724588' の価格情報構造: 6200
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID DUEGE7U5IW64FUX5LR6HOJLA 'fg#02-250810155421340724588' の価格: 6200円 (直接指定)
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID DUEGE7U5IW64FUX5LR6HOJLA 'fg#02-250810155421340724588' の処理後の価格: 6200円
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID 4RSY4EQSVBKFXRGFEMFHTZ5K の画像URL: 取得できませんでした
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#02-250804172553620987104' (ID: 4RSY4EQSVBKFXRGFEMFHTZ5K) の処理結果: 価格=3800円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID HTENAP7IC5QEHN63WUZR6SNN 'fg#04-250804182523577578304' の価格情報構造: 3700
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID HTENAP7IC5QEHN63WUZR6SNN 'fg#04-250804182523577578304' の価格: 3700円 (直接指定)
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID HTENAP7IC5QEHN63WUZR6SNN 'fg#04-250804182523577578304' の処理後の価格: 3700円
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID DUEGE7U5IW64FUX5LR6HOJLA の画像URL: 取得できませんでした
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#02-250810155421340724588' (ID: DUEGE7U5IW64FUX5LR6HOJLA) の処理結果: 価格=6200円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:10] [INFO] [ProductService.php:467->syncProductsFromSquare] Square APIから取得した商品ID数: 200件
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID HTENAP7IC5QEHN63WUZR6SNN の画像URL: 取得できませんでした
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#04-250804182523577578304' (ID: HTENAP7IC5QEHN63WUZR6SNN) の処理結果: 価格=3700円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID KV5KX3FTHAKWWOBPEIJVAD5S '朝食（1名様分）' の価格情報構造: 1500
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID KV5KX3FTHAKWWOBPEIJVAD5S '朝食（1名様分）' の価格: 1500円 (直接指定)
+[2025-08-14 10:35:10] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID KV5KX3FTHAKWWOBPEIJVAD5S '朝食（1名様分）' の処理後の価格: 1500円
+[2025-08-14 10:35:11] [INFO] [ProductService.php:546->syncProductsFromSquare] Square上に存在する商品のタイムスタンプ更新処理を開始します（対象: 200件）
+[2025-08-14 10:35:11] [INFO] [ProductService.php:559->syncProductsFromSquare] Square上に存在する全商品のタイムスタンプを更新: 189件
+[2025-08-14 10:35:11] [INFO] [ProductService.php:580->syncProductsFromSquare] Squareに存在しない商品のpresenceを0に設定: 0件
+[2025-08-14 10:35:11] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID KV5KX3FTHAKWWOBPEIJVAD5S の画像URL: 取得できませんでした
+[2025-08-14 10:35:11] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 '朝食（1名様分）' (ID: KV5KX3FTHAKWWOBPEIJVAD5S) の処理結果: 価格=1500円, カテゴリ=物販・レンタル
+[2025-08-14 10:35:11] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID 6SVAN5XJIMJTD33E3XX5SH7Q 'コースディナー（1名様分）' の価格情報構造: 15000
+[2025-08-14 10:35:11] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID 6SVAN5XJIMJTD33E3XX5SH7Q 'コースディナー（1名様分）' の価格: 15000円 (直接指定)
+[2025-08-14 10:35:11] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID 6SVAN5XJIMJTD33E3XX5SH7Q 'コースディナー（1名様分）' の処理後の価格: 15000円
+[2025-08-14 10:35:11] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID 6SVAN5XJIMJTD33E3XX5SH7Q の画像URL: 取得できませんでした
+[2025-08-14 10:35:11] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'コースディナー（1名様分）' (ID: 6SVAN5XJIMJTD33E3XX5SH7Q) の処理結果: 価格=15000円, カテゴリ=物販・レンタル
+[2025-08-14 10:35:11] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID SX4PJMDOI3LEZE3VS4KXO5OR 'fg#04-250804182523577578304' の価格情報構造: 7700
+[2025-08-14 10:35:11] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID SX4PJMDOI3LEZE3VS4KXO5OR 'fg#04-250804182523577578304' の価格: 7700円 (直接指定)
+[2025-08-14 10:35:11] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID SX4PJMDOI3LEZE3VS4KXO5OR 'fg#04-250804182523577578304' の処理後の価格: 7700円
+[2025-08-14 10:35:12] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID SX4PJMDOI3LEZE3VS4KXO5OR の画像URL: 取得できませんでした
+[2025-08-14 10:35:12] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#04-250804182523577578304' (ID: SX4PJMDOI3LEZE3VS4KXO5OR) の処理結果: 価格=7700円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:12] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID KY72ZGV2C6ZUOCBAHF7XHHA3 'fg#11-250807173614014387973' の価格情報構造: 22000
+[2025-08-14 10:35:12] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID KY72ZGV2C6ZUOCBAHF7XHHA3 'fg#11-250807173614014387973' の価格: 22000円 (直接指定)
+[2025-08-14 10:35:12] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID KY72ZGV2C6ZUOCBAHF7XHHA3 'fg#11-250807173614014387973' の処理後の価格: 22000円
+[2025-08-14 10:35:12] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID KY72ZGV2C6ZUOCBAHF7XHHA3 の画像URL: 取得できませんでした
+[2025-08-14 10:35:12] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#11-250807173614014387973' (ID: KY72ZGV2C6ZUOCBAHF7XHHA3) の処理結果: 価格=22000円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:12] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID Y47L3E2XJ2B5LTBQZOWXEKPO 'fg#11-250807173614014387973' の価格情報構造: 40000
+[2025-08-14 10:35:12] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID Y47L3E2XJ2B5LTBQZOWXEKPO 'fg#11-250807173614014387973' の価格: 40000円 (直接指定)
+[2025-08-14 10:35:12] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID Y47L3E2XJ2B5LTBQZOWXEKPO 'fg#11-250807173614014387973' の処理後の価格: 40000円
+[2025-08-14 10:35:12] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID Y47L3E2XJ2B5LTBQZOWXEKPO の画像URL: 取得できませんでした
+[2025-08-14 10:35:12] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#11-250807173614014387973' (ID: Y47L3E2XJ2B5LTBQZOWXEKPO) の処理結果: 価格=40000円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:12] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID JYRKC7BC4DCSDKQMNMMSA54T 'fg#01-250808171924393068826' の価格情報構造: 3600
+[2025-08-14 10:35:12] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID JYRKC7BC4DCSDKQMNMMSA54T 'fg#01-250808171924393068826' の価格: 3600円 (直接指定)
+[2025-08-14 10:35:12] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID JYRKC7BC4DCSDKQMNMMSA54T 'fg#01-250808171924393068826' の処理後の価格: 3600円
+[2025-08-14 10:35:12] [DEBUG] [ProductService.php:787->processSquareItemArray] 商品ID JYRKC7BC4DCSDKQMNMMSA54T の画像URL: 取得できませんでした
+[2025-08-14 10:35:12] [DEBUG] [ProductService.php:807->processSquareItemArray] 商品 'fg#01-250808171924393068826' (ID: JYRKC7BC4DCSDKQMNMMSA54T) の処理結果: 価格=3600円, カテゴリ=PY3PWGZFOUB425QHPQRXI5TH
+[2025-08-14 10:35:12] [DEBUG] [ProductService.php:728->processSquareItemArray] 商品ID MBMU4B625ZIY65IJM75XHRNI 'fg#02-250808205320426100328' の価格情報構造: 5300
+[2025-08-14 10:35:12] [DEBUG] [ProductService.php:733->processSquareItemArray] 商品ID MBMU4B625ZIY65IJM75XHRNI 'fg#02-250808205320426100328' の価格: 5300円 (直接指定)
+[2025-08-14 10:35:12] [DEBUG] [ProductService.php:778->processSquareItemArray] 商品ID MBMU4B625ZIY65IJM75XHRNI 'fg#02-250808205320426100328' の処理後の価格: 5300円

@@ -1,0 +1,372 @@
+/* ===== レスポンシブスタイル ===== */
+/* 画面サイズに応じたスタイル調整 */
+
+/* スマートフォン向け調整 - 大 */
+@media (max-width: 620px) {
+    header {
+        height: var(--header-height); /* 高さを元に戻す */
+    }
+    
+    .header-content {
+        padding-right: var(--side-padding);
+        padding-left: var(--side-padding);
+    }
+    
+    .header-left {
+        max-width: 85%; /* 広めにスペースを確保 */
+        margin-right: 15px; /* 元の値に戻す */
+    }
+    
+    .header-logo {
+        height: 50px; /* 元のサイズに戻す */
+    }
+    
+    .header-title {
+        height: 40px; /* 元のサイズに戻す */
+        margin-left: 15px; /* 元の値に戻す */
+    }
+    
+    .room-info {
+        min-width: 80px; /* 元の値に戻す */
+    }
+    
+    #room-number {
+        font-size: 0.9rem;
+    }
+    
+    .refresh-button {
+        width: 32px;
+        height: 32px;
+        font-size: 16px;
+    }
+    
+    /* 商品コンテンツの最大幅を調整 */
+    .product-content {
+        max-width: 620px; /* 画面最大幅に合わせる */
+    }
+}
+
+/* タブレット・小型デバイス向け調整 */
+@media (max-width: 580px) {
+    /* ヘッダーの調整 */
+    .header-left {
+        max-width: 75%;
+    }
+    
+    .header-logo {
+        height: 34px;
+    }
+    
+    .header-title {
+        height: 28px;
+        margin-left: 8px;
+    }
+    
+    .room-info {
+        min-width: 65px;
+    }
+    
+    /* サイドバー幅は clamp で自動調整するため明示指定を削除 */
+    .category-sidebar {
+        font-size: 0.9rem;
+    }
+    
+    /* 商品コンテンツのパディングを調整 */
+    :root {
+        --grid-gap: 10px;
+    }
+    .product-content {
+        padding-left: var(--grid-gap);
+        padding-right: var(--grid-gap);
+        max-width: 500px;
+    }
+    
+    /* 商品リストを調整 */
+    #product-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2列を維持 */
+        gap: 10px;
+    }
+    
+    /* 商品カードの調整 */
+    .product-item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    /* フッターを調整 */
+    footer {
+        padding: 0 8px;
+    }
+    
+    /* モーダル関連の調整 */
+    .modal-content {
+        width: 95%;
+        margin: 5vh auto;
+    }
+    
+    .modal-footer {
+        flex-direction: column;
+    }
+    
+    .checkout-button, .back-button {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+}
+
+/* スマートフォン向け調整 - 中 (iPhone幅対応) */
+@media (max-width: 480px) and (min-width: 421px) {
+    header {
+        height: calc(var(--header-height) * 0.9);
+    }
+    
+    .header-content {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    
+    .header-left {
+        max-width: 70%;
+        margin-right: 8px;
+    }
+    
+    .header-logo {
+        height: 32px;
+    }
+    
+    .header-title {
+        height: 26px;
+        margin-left: 8px;
+    }
+    
+    .room-info {
+        min-width: 65px;
+    }
+    
+    #room-number {
+        font-size: 0.8rem;
+    }
+    
+    /* サイドバーを縮小 */
+    .category-sidebar {
+        font-size: 0.85rem;
+    }
+    
+    /* コンテンツエリアを調整 */
+    :root {
+        --grid-gap: 10px;
+    }
+    .product-content {
+        padding-left: var(--grid-gap);
+        padding-right: var(--grid-gap);
+        max-width: 400px;
+    }
+    
+    /* 商品リストを2列で表示 */
+    #product-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    
+    /* 商品カードの余白調整 */
+    .product-item {
+        margin-bottom: 8px;
+    }
+    
+    .product-info {
+        padding: 8px;
+    }
+    
+    /* プロダクト名を1行に制限 */
+    .product-name {
+        -webkit-line-clamp: 1;
+        max-height: 1.6rem;
+    }
+    
+    /* フッターの調整 */
+    footer {
+        height: calc(var(--footer-height) * 0.9);
+    }
+    
+    .cart-summary {
+        font-size: 0.875rem;
+    }
+    
+    .order-button {
+        padding: 8px 12px;
+        font-size: 0.875rem;
+    }
+}
+
+/* iPhone向け調整（420px以下） */
+@media (max-width: 420px) {
+    header {
+        height: calc(var(--header-height) * 0.9);
+    }
+    
+    /* サイドバーをさらに縮小 */
+    .category-sidebar {
+        font-size: 0.8rem;
+    }
+    
+    /* コンテンツエリアを調整 */
+    :root {
+        --grid-gap: 8px;
+    }
+    .product-content {
+        padding-left: var(--grid-gap);
+        padding-right: var(--grid-gap);
+        max-width: 360px;
+    }
+    
+    /* 2列表示を維持するために個別のカードサイズを調整 */
+    #product-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+    
+    /* 商品情報の表示調整 */
+    .product-info {
+        padding: 6px;
+    }
+    
+    .product-name {
+        font-size: 0.9rem;
+    }
+    
+    .product-price {
+        font-size: 0.85rem;
+    }
+}
+
+/* スマートフォン向け調整 - 極小 */
+@media (max-width: 360px) {
+    header {
+        height: calc(var(--header-height) * 0.9);
+    }
+    
+    .header-left {
+        max-width: 65%;
+        margin-right: 5px;
+    }
+    
+    .header-logo {
+        height: 28px;
+    }
+    
+    .header-title {
+        height: 22px;
+        margin-left: 6px;
+    }
+    
+    .room-info {
+        min-width: 60px;
+    }
+    
+    #room-number {
+        font-size: 0.8rem;
+    }
+    
+    /* サイドバーをさらに縮小 */
+    .category-sidebar {
+        font-size: 0.7rem;
+    }
+    
+    /* コンテンツエリアを調整 */
+    :root {
+        --grid-gap: 6px;
+    }
+    .product-content {
+        padding-left: var(--grid-gap);
+        padding-right: var(--grid-gap);
+        max-width: 304px;
+    }
+    
+    /* 商品カードのさらなる調整 */
+    .product-info {
+        padding: 6px;
+    }
+    
+    /* 価格表示のサイズ調整 */
+    .product-price {
+        font-size: 0.8rem;
+    }
+}
+
+/* 画像の遅延読み込み */
+.lazy-image {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.lazy-image.fade-in {
+    opacity: 1;
+}
+
+/* レスポンシブ対応 - 商品グリッド */
+@media (min-width: 319px) {
+    #product-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+}
+
+/* 319px未満では1列表示に切り替え */
+@media (max-width: 318px) {
+    #product-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* 営業時間外モーダルのレスポンシブ対応 */
+@media (max-width: 500px) {
+    .closed-time-modal-content {
+        width: 60%;
+        min-width: 250px;
+    }
+    
+    .closed-message-modal i {
+        font-size: 3rem;
+    }
+    
+    .closed-message-modal p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .closed-time-modal-content {
+        width: 60%;
+        min-width: 180px;
+    }
+    
+    .closed-message-modal i {
+        font-size: 2.5rem;
+    }
+    
+    .closed-message-modal p {
+        font-size: 0.9rem;
+    }
+}
+
+/* ===== 共通オーバーライド ===== */
+.product-item .view-detail-btn{
+    padding:4px 8px !important;
+    font-size:0.75rem !important;
+}
+
+/* レスポンシブ対応 - 商品グリッド */
+@media (min-width: 900px) {
+    main {
+        justify-content: center; /* 本文を中央に */
+    }
+    .product-content{
+        margin-left: clamp(60px,18%,90px); /* sidebar offset */
+    }
+    /* サイドバーをコンテンツに追随させて中央寄せ */
+    .category-sidebar{
+        left: calc(50% - ((var(--content-max-width) + clamp(60px,18%,90px)) / 2));
+    }
+} 

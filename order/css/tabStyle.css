@@ -1,0 +1,45 @@
+/* ===== タブスタイル ===== */
+/* タブとタブコンテンツに関するスタイル定義 */
+
+/* タブ関連のスタイル */
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    position: fixed;
+    top: var(--header-height);
+    width: 100%;
+    z-index: 90;
+}
+
+.tab {
+    flex: 1;
+    padding: 12px 0;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--text-secondary);
+    border: none;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.tab i {
+    margin-right: 8px;
+}
+
+.tab.active {
+    color: var(--primary-color);
+    border-bottom-color: var(--primary-color);
+}
+
+/* タブコンテンツのスタイル */
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+} 

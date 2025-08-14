@@ -1,0 +1,666 @@
+[2025-08-13 09:33:27] [INFO] log rotated
+tps://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=394.378ms resp_len=0 body=''
+[2025-08-10 09:10:19] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-10 09:10:20] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=867.876ms resp_len=0 body=''
+[2025-08-10 09:13:45] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-10 09:13:45] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-10 09:13:46] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 09:13:46] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-10 09:13:46] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-10 09:13:47] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=364.45ms resp_len=0 body=''
+[2025-08-10 09:13:47] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-10 09:13:47] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=332.345ms resp_len=0 body=''
+[2025-08-10 09:15:23] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-10 09:15:23] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-10 09:15:23] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250810084419324851493 type=Force_closed
+[2025-08-10 09:15:23] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 09:22:51] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-10 09:22:51] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-10 09:22:52] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 09:22:52] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-10 09:22:52] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-10 09:22:53] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=558.455ms resp_len=0 body=''
+[2025-08-10 09:22:53] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-10 09:22:53] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=329.02ms resp_len=0 body=''
+[2025-08-10 09:23:17] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-10 09:23:17] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-10 09:23:22] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-10 09:23:22] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-10 09:23:23] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 09:23:23] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-10 09:23:23] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-10 09:23:23] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=269.723ms resp_len=0 body=''
+[2025-08-10 09:23:23] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-10 09:23:24] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=357.756ms resp_len=0 body=''
+[2025-08-10 09:41:13] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-10 09:41:13] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-10 09:41:13] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250809180133962345651 type=Completed
+[2025-08-10 09:41:13] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 09:51:23] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-10 09:51:23] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-10 09:51:23] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250809175800890718850 type=Completed
+[2025-08-10 09:51:23] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 09:59:18] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-10 09:59:18] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-10 09:59:18] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250809200052325557887 type=Completed
+[2025-08-10 09:59:18] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 10:12:00] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-10 10:12:00] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-10 10:12:00] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250809190840511462387 type=Completed
+[2025-08-10 10:12:00] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 10:55:41] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-10 10:55:41] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-10 10:55:41] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250809203951609581242 type=Completed
+[2025-08-10 10:55:41] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 15:39:48] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-10 15:39:48] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-10 15:39:50] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 15:39:50] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-10 15:39:50] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-10 15:39:51] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=503.53ms resp_len=0 body=''
+[2025-08-10 15:39:51] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-10 15:39:51] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=478.255ms resp_len=0 body=''
+[2025-08-10 15:54:21] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-10 15:54:21] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-10 15:54:22] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 15:54:22] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-10 15:54:22] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-10 15:54:22] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=432.064ms resp_len=0 body=''
+[2025-08-10 15:54:22] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-10 15:54:23] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=363.369ms resp_len=0 body=''
+[2025-08-10 16:48:36] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-10 16:48:36] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-10 16:48:36] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250810092251124639899 type=Force_closed
+[2025-08-10 16:48:36] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 17:01:08] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-10 17:01:08] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-10 17:01:10] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 17:01:10] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-10 17:01:10] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-10 17:01:10] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=597.303ms resp_len=0 body=''
+[2025-08-10 17:01:10] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-10 17:01:11] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=569.551ms resp_len=0 body=''
+[2025-08-10 17:12:05] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-10 17:12:05] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-10 17:12:06] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 17:12:06] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-10 17:12:06] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-10 17:12:06] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=377.448ms resp_len=0 body=''
+[2025-08-10 17:12:06] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-10 17:12:07] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=419.203ms resp_len=0 body=''
+[2025-08-10 18:53:39] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-10 18:53:39] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-10 18:53:40] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 18:53:40] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-10 18:53:40] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-10 18:53:40] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=293.393ms resp_len=0 body=''
+[2025-08-10 18:53:40] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-10 18:53:41] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=376.634ms resp_len=0 body=''
+[2025-08-10 20:16:47] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-10 20:16:47] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-10 20:16:49] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 20:16:49] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-10 20:16:49] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-10 20:16:49] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=421.906ms resp_len=0 body=''
+[2025-08-10 20:16:49] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-10 20:16:50] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=519.341ms resp_len=0 body=''
+[2025-08-10 20:44:34] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-10 20:44:34] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-10 20:44:36] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 20:44:36] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-10 20:44:36] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-10 20:44:37] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=374.507ms resp_len=0 body=''
+[2025-08-10 20:44:37] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-10 20:44:37] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=435.048ms resp_len=0 body=''
+[2025-08-10 21:13:13] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-10 21:13:13] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-10 21:13:14] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 21:13:14] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-10 21:13:14] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-10 21:13:14] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=381.044ms resp_len=0 body=''
+[2025-08-10 21:13:14] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-10 21:13:15] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=425.473ms resp_len=0 body=''
+[2025-08-11 09:22:14] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-11 09:22:14] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-11 09:22:14] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250810211313549781071 type=Completed
+[2025-08-11 09:22:14] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-11 09:59:24] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-11 09:59:24] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-11 09:59:24] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250810170108615003981 type=Completed
+[2025-08-11 09:59:24] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-11 10:07:15] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-11 10:07:15] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-11 10:07:15] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250810153948988196384 type=Completed
+[2025-08-11 10:07:15] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-11 10:10:58] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-11 10:10:58] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-11 10:10:58] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250810185339794941032 type=Completed
+[2025-08-11 10:10:58] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-11 11:08:54] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-11 11:08:54] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-11 11:08:54] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250810155421340724588 type=Completed
+[2025-08-11 11:08:54] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-11 16:30:30] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-11 16:30:30] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-11 16:30:30] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250810153948988196384 type=Force_closed
+[2025-08-11 16:30:30] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-11 16:30:34] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-11 16:30:34] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-11 16:30:34] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250810153948988196384 type=Force_closed
+[2025-08-11 16:30:34] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-11 17:02:24] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-11 17:02:24] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-11 17:02:26] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-11 17:02:26] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-11 17:02:26] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-11 17:02:26] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=470.472ms resp_len=0 body=''
+[2025-08-11 17:02:26] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-11 17:02:27] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=467.709ms resp_len=0 body=''
+[2025-08-11 17:17:54] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-11 17:17:54] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-11 17:17:55] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-11 17:17:55] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-11 17:17:55] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-11 17:17:56] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=590.997ms resp_len=0 body=''
+[2025-08-11 17:17:56] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-11 17:17:56] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=439.426ms resp_len=0 body=''
+[2025-08-11 18:06:24] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-11 18:06:24] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-11 18:06:26] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-11 18:06:26] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-11 18:06:26] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-11 18:06:26] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=570.799ms resp_len=0 body=''
+[2025-08-11 18:06:26] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-11 18:06:28] [ERROR] [OrderWebhook.php:292->queueOrderWebhook] Webhook 送信失敗: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh errno=28 message=Operation timed out after 1502 milliseconds with 0 bytes received
+[2025-08-11 19:37:40] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-11 19:37:40] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-11 19:37:41] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-11 19:37:41] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-11 19:37:41] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-11 19:37:42] [ERROR] [OrderWebhook.php:292->queueOrderWebhook] Webhook 送信失敗: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy errno=28 message=Operation timed out after 1502 milliseconds with 0 bytes received
+[2025-08-11 19:37:42] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-11 19:37:43] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=404.697ms resp_len=0 body=''
+[2025-08-11 19:50:36] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-11 19:50:36] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-11 19:50:38] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-11 19:50:38] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-11 19:50:38] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-11 19:50:38] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=504.332ms resp_len=0 body=''
+[2025-08-11 19:50:38] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-11 19:50:39] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=410.056ms resp_len=0 body=''
+[2025-08-12 08:39:44] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-12 08:39:44] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-12 08:39:44] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250811180624499622299 type=Completed
+[2025-08-12 08:39:44] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 09:54:06] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-12 09:54:06] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-12 09:54:06] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250811195036839661744 type=Completed
+[2025-08-12 09:54:06] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 10:06:17] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-12 10:06:17] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-12 10:06:17] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250811171754501401115 type=Completed
+[2025-08-12 10:06:17] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 14:58:24] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-12 14:58:24] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-12 14:58:24] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250811193740032566400 type=Force_closed
+[2025-08-12 14:58:24] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 15:05:08] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-12 15:05:08] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-12 15:05:08] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250808171924393068826 type=Force_closed
+[2025-08-12 15:05:08] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 17:06:07] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-12 17:06:07] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-12 17:06:09] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 17:06:09] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-12 17:06:09] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-12 17:06:09] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=483.895ms resp_len=0 body=''
+[2025-08-12 17:06:09] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-12 17:06:10] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=541.954ms resp_len=0 body=''
+[2025-08-12 17:08:46] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-12 17:08:46] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-12 17:08:47] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 17:08:47] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-12 17:08:47] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-12 17:08:48] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=366.755ms resp_len=0 body=''
+[2025-08-12 17:08:48] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-12 17:08:48] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=439.188ms resp_len=0 body=''
+[2025-08-12 17:51:24] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-12 17:51:24] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-12 17:51:25] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 17:51:25] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-12 17:51:25] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-12 17:51:26] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=385.027ms resp_len=0 body=''
+[2025-08-12 17:51:26] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-12 17:51:26] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=452.368ms resp_len=0 body=''
+[2025-08-12 18:00:43] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-12 18:00:43] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-12 18:00:44] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 18:00:44] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-12 18:00:44] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-12 18:00:45] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=549.372ms resp_len=0 body=''
+[2025-08-12 18:00:45] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-12 18:00:45] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=365.661ms resp_len=0 body=''
+[2025-08-12 18:21:41] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-12 18:21:41] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-12 18:21:43] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 18:21:43] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-12 18:21:43] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-12 18:21:43] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=483.837ms resp_len=0 body=''
+[2025-08-12 18:21:43] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-12 18:21:44] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=660.393ms resp_len=0 body=''
+[2025-08-12 18:48:50] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-12 18:48:50] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-12 18:48:51] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 18:48:51] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-12 18:48:51] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-12 18:48:51] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=605.275ms resp_len=0 body=''
+[2025-08-12 18:48:51] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-12 18:48:52] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=691.564ms resp_len=0 body=''
+[2025-08-12 19:01:12] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-12 19:01:12] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-12 19:01:14] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 19:01:14] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-12 19:01:14] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-12 19:01:15] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=470.691ms resp_len=0 body=''
+[2025-08-12 19:01:15] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-12 19:01:15] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=533.713ms resp_len=0 body=''
+[2025-08-12 19:40:55] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-12 19:40:55] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-12 19:40:56] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 19:40:56] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-12 19:40:56] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-12 19:40:58] [ERROR] [OrderWebhook.php:292->queueOrderWebhook] Webhook 送信失敗: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy errno=28 message=Operation timed out after 1502 milliseconds with 0 bytes received
+[2025-08-12 19:40:58] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-12 19:40:59] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=610.373ms resp_len=0 body=''
+[2025-08-12 19:42:13] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-12 19:42:13] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-12 19:42:14] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 19:42:14] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-12 19:42:14] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-12 19:42:14] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=301.662ms resp_len=0 body=''
+[2025-08-12 19:42:14] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-12 19:42:14] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=372.504ms resp_len=0 body=''
+[2025-08-12 19:43:36] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-12 19:43:36] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-12 19:43:38] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 19:43:38] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-12 19:43:38] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-12 19:43:38] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=288.169ms resp_len=0 body=''
+[2025-08-12 19:43:38] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-12 19:43:38] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=448.253ms resp_len=0 body=''
+[2025-08-12 20:45:06] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-12 20:45:06] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-12 20:45:07] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 20:45:07] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-12 20:45:07] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-12 20:45:08] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=539.623ms resp_len=0 body=''
+[2025-08-12 20:45:08] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-12 20:45:08] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=403.94ms resp_len=0 body=''
+[2025-08-12 21:35:21] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-12 21:35:21] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-12 21:35:22] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 21:35:22] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-12 21:35:22] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-12 21:35:23] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=438.909ms resp_len=0 body=''
+[2025-08-12 21:35:23] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-12 21:35:23] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=624.93ms resp_len=0 body=''
+[2025-08-13 09:33:27] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 09:33:27] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 09:33:27] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250812184850193538181 type=Completed
+[2025-08-13 09:33:27] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 10:02:09] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 10:02:09] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 10:02:09] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250812170607470302866 type=Completed
+[2025-08-13 10:02:09] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 15:55:38] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 15:55:38] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 15:55:40] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 15:55:40] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 15:55:40] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-13 15:55:40] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=433.168ms resp_len=0 body=''
+[2025-08-13 15:55:40] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 15:55:40] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=539.308ms resp_len=0 body=''
+[2025-08-13 16:10:59] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 16:10:59] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 16:11:01] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 16:11:01] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 16:11:01] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-13 16:11:02] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=479.254ms resp_len=0 body=''
+[2025-08-13 16:11:02] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 16:11:02] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=411.147ms resp_len=0 body=''
+[2025-08-13 16:11:34] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 16:11:34] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 16:11:35] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 16:11:35] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 16:11:35] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-13 16:11:35] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=386.436ms resp_len=0 body=''
+[2025-08-13 16:11:35] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 16:11:36] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=493.756ms resp_len=0 body=''
+[2025-08-13 16:33:04] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 16:33:04] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 16:33:06] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 16:33:06] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 16:33:06] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-13 16:33:06] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=599.976ms resp_len=0 body=''
+[2025-08-13 16:33:06] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 16:33:07] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=587.331ms resp_len=0 body=''
+[2025-08-13 17:53:36] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 17:53:36] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 17:53:37] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 17:53:37] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 17:53:37] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-13 17:53:38] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=479.357ms resp_len=0 body=''
+[2025-08-13 17:53:38] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 17:53:38] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=369.731ms resp_len=0 body=''
+[2025-08-13 18:00:35] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 18:00:35] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 18:00:36] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 18:00:36] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 18:00:36] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-13 18:00:37] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=478.594ms resp_len=0 body=''
+[2025-08-13 18:00:37] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 18:00:38] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=623.948ms resp_len=0 body=''
+[2025-08-13 18:20:15] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 18:20:15] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 18:20:16] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 18:20:16] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 18:20:16] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-13 18:20:16] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=438.412ms resp_len=0 body=''
+[2025-08-13 18:20:16] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 18:20:16] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=348.856ms resp_len=0 body=''
+[2025-08-13 18:27:21] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 18:27:21] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 18:27:22] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 18:27:22] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 18:27:22] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-13 18:27:22] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=319.8ms resp_len=0 body=''
+[2025-08-13 18:27:22] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 18:27:23] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=357.357ms resp_len=0 body=''
+[2025-08-13 18:51:40] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 18:51:40] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 18:51:41] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 18:51:41] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 18:51:41] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-13 18:51:42] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=477.142ms resp_len=0 body=''
+[2025-08-13 18:51:42] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 18:51:42] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=511.719ms resp_len=0 body=''
+[2025-08-13 18:52:28] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 18:52:28] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 18:52:29] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 18:52:29] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 18:52:29] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-13 18:52:29] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=334.993ms resp_len=0 body=''
+[2025-08-13 18:52:29] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 18:52:30] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=457.731ms resp_len=0 body=''
+[2025-08-13 18:53:01] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 18:53:01] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 18:53:17] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 18:53:17] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 18:53:19] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 18:53:19] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 18:53:19] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-13 18:53:19] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=305.353ms resp_len=0 body=''
+[2025-08-13 18:53:19] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 18:53:20] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=839.672ms resp_len=0 body=''
+[2025-08-13 18:55:33] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 18:55:33] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 18:55:35] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 18:55:35] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 18:55:35] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-13 18:55:35] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=361.832ms resp_len=0 body=''
+[2025-08-13 18:55:35] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 18:55:36] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=488.088ms resp_len=0 body=''
+[2025-08-13 19:01:44] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 19:01:44] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 19:01:45] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 19:01:45] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 19:01:45] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-13 19:01:45] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=446.37ms resp_len=0 body=''
+[2025-08-13 19:01:45] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 19:01:46] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=377.498ms resp_len=0 body=''
+[2025-08-13 19:05:37] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 19:05:37] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 19:05:39] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 19:05:39] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 19:05:39] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-13 19:05:39] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=447.065ms resp_len=0 body=''
+[2025-08-13 19:05:39] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 19:05:39] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=361.408ms resp_len=0 body=''
+[2025-08-13 19:09:11] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 19:09:11] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 19:09:12] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 19:09:12] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 19:09:12] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-13 19:09:13] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=408.814ms resp_len=0 body=''
+[2025-08-13 19:09:13] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 19:09:13] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=409.851ms resp_len=0 body=''
+[2025-08-13 19:27:49] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 19:27:49] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 19:27:50] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 19:27:50] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 19:27:50] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-13 19:27:51] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=297.759ms resp_len=0 body=''
+[2025-08-13 19:27:51] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 19:27:51] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=370.287ms resp_len=0 body=''
+[2025-08-13 19:48:16] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 19:48:16] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 19:48:18] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 19:48:18] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 19:48:18] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-13 19:48:18] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=341.936ms resp_len=0 body=''
+[2025-08-13 19:48:18] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 19:48:19] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=387.947ms resp_len=0 body=''
+[2025-08-13 19:50:08] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 19:50:08] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 19:50:10] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 19:50:10] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 19:50:10] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-13 19:50:10] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=319.62ms resp_len=0 body=''
+[2025-08-13 19:50:10] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 19:50:11] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=566.128ms resp_len=0 body=''
+[2025-08-13 19:57:25] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 19:57:25] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 19:57:26] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 19:57:26] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 19:57:26] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-13 19:57:26] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=378.839ms resp_len=0 body=''
+[2025-08-13 19:57:26] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 19:57:27] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=375.198ms resp_len=0 body=''
+[2025-08-13 20:16:40] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 20:16:40] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 20:16:42] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 20:16:42] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 20:16:42] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-13 20:16:42] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=301.185ms resp_len=0 body=''
+[2025-08-13 20:16:42] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 20:16:43] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=396.501ms resp_len=0 body=''
+[2025-08-13 20:19:02] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 20:19:02] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 20:19:04] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 20:19:04] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 20:19:04] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-13 20:19:04] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=370.49ms resp_len=0 body=''
+[2025-08-13 20:19:04] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 20:19:05] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=401.067ms resp_len=0 body=''
+[2025-08-13 20:28:57] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 20:28:57] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 20:28:58] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 20:28:58] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 20:28:58] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-13 20:28:59] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=573.499ms resp_len=0 body=''
+[2025-08-13 20:28:59] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 20:28:59] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=463.664ms resp_len=0 body=''
+[2025-08-13 20:44:35] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 20:44:35] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 20:44:36] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 20:44:36] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 20:44:36] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-13 20:44:37] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=433.812ms resp_len=0 body=''
+[2025-08-13 20:44:37] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 20:44:37] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=340.7ms resp_len=0 body=''
+[2025-08-13 21:09:47] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-13 21:09:47] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-13 21:09:48] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 21:09:48] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 21:09:48] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-13 21:09:49] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=380.525ms resp_len=0 body=''
+[2025-08-13 21:09:49] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-13 21:09:49] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=577.822ms resp_len=0 body=''
+[2025-08-14 05:19:37] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-14 05:19:37] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-14 05:19:38] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 05:19:38] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 05:19:38] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-14 05:19:39] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=494.641ms resp_len=0 body=''
+[2025-08-14 05:19:39] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 05:19:39] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=824.382ms resp_len=0 body=''
+[2025-08-14 07:07:13] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-14 07:07:13] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-14 07:07:17] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-14 07:07:17] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-14 07:07:20] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-14 07:07:20] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-14 07:13:02] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-14 07:13:02] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-14 07:13:03] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:13:03] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 07:13:03] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-14 07:13:04] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=411.413ms resp_len=0 body=''
+[2025-08-14 07:13:04] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 07:13:04] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=448.733ms resp_len=0 body=''
+[2025-08-14 07:14:10] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-14 07:14:10] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-14 07:14:11] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:14:11] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 07:14:11] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-14 07:14:11] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=304.615ms resp_len=0 body=''
+[2025-08-14 07:14:11] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 07:14:12] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=491.589ms resp_len=0 body=''
+[2025-08-14 07:14:40] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-14 07:14:40] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-14 07:14:41] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:14:41] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 07:14:41] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-14 07:14:41] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=405.932ms resp_len=0 body=''
+[2025-08-14 07:14:41] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 07:14:42] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=349.189ms resp_len=0 body=''
+[2025-08-14 07:19:33] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-14 07:19:33] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-14 07:19:34] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:19:34] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 07:19:34] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-14 07:19:35] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=465.244ms resp_len=0 body=''
+[2025-08-14 07:19:35] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 07:19:35] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=462.215ms resp_len=0 body=''
+[2025-08-14 07:20:58] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-14 07:20:58] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-14 07:20:58] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:20:58] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 07:20:58] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-14 07:20:59] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=282.114ms resp_len=0 body=''
+[2025-08-14 07:20:59] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 07:20:59] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=681.227ms resp_len=0 body=''
+[2025-08-14 07:27:51] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-14 07:27:51] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-14 07:27:53] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:27:53] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 07:27:53] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-14 07:27:54] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=583.542ms resp_len=0 body=''
+[2025-08-14 07:27:54] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 07:27:54] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=396.315ms resp_len=0 body=''
+[2025-08-14 07:28:54] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-14 07:28:54] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-14 07:28:55] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:28:55] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 07:28:55] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-14 07:28:55] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=367.564ms resp_len=0 body=''
+[2025-08-14 07:28:55] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 07:28:56] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=461.327ms resp_len=0 body=''
+[2025-08-14 07:31:01] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-14 07:31:01] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-14 07:31:02] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:31:02] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 07:31:02] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-14 07:31:02] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=330.993ms resp_len=0 body=''
+[2025-08-14 07:31:02] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 07:31:03] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=483.557ms resp_len=0 body=''
+[2025-08-14 07:49:17] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-14 07:49:17] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-14 07:49:18] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:49:18] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 07:49:18] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-14 07:49:19] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=474.664ms resp_len=0 body=''
+[2025-08-14 07:49:19] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 07:49:19] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=392.137ms resp_len=0 body=''
+[2025-08-14 07:55:24] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-14 07:55:24] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-14 07:55:25] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:55:25] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 07:55:25] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-14 07:55:25] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=321.737ms resp_len=0 body=''
+[2025-08-14 07:55:25] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 07:55:26] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=367.914ms resp_len=0 body=''
+[2025-08-14 07:56:03] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-14 07:56:03] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-14 07:56:04] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:56:04] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 07:56:04] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-14 07:56:04] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=309.684ms resp_len=0 body=''
+[2025-08-14 07:56:04] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 07:56:06] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=1249.103ms resp_len=0 body=''
+[2025-08-14 09:53:31] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-14 09:53:31] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-14 09:53:31] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250812204506720358723 type=Completed
+[2025-08-14 09:53:31] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 09:56:43] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-14 09:56:43] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-14 09:56:43] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250812204506720358723 type=Force_closed
+[2025-08-14 09:56:43] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 09:58:54] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-14 09:58:54] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-14 09:58:54] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250813182015138244729 type=Force_closed
+[2025-08-14 09:58:54] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 10:07:41] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-14 10:07:41] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-14 10:07:41] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250812170846933239129 type=Completed
+[2025-08-14 10:07:41] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 10:10:05] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-14 10:10:05] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-14 10:10:05] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250812170846933239129 type=Force_closed
+[2025-08-14 10:10:05] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 10:10:16] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-14 10:10:16] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-14 10:10:16] [INFO] [OrderWebhook.php:317->sendSessionCloseWebhook] sendSessionCloseWebhook start: session=250812213521676699650 type=Force_closed
+[2025-08-14 10:10:16] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 10:16:56] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-14 10:16:56] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-14 10:16:57] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 10:16:57] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 10:16:57] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-14 10:16:58] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=575.518ms resp_len=0 body=''
+[2025-08-14 10:16:58] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 10:16:58] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=459.517ms resp_len=0 body=''
+[2025-08-14 10:20:17] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-14 10:20:17] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-14 10:20:18] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 10:20:18] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 10:20:18] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-14 10:20:19] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=288.647ms resp_len=0 body=''
+[2025-08-14 10:20:19] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 10:20:19] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=481.847ms resp_len=0 body=''
+[2025-08-14 10:22:22] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-14 10:22:22] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-14 10:22:23] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 10:22:23] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 10:22:23] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-14 10:22:24] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=418.291ms resp_len=0 body=''
+[2025-08-14 10:22:24] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 10:22:24] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=365.716ms resp_len=0 body=''
+[2025-08-14 10:30:45] [INFO] [OrderWebhook.php:19->__construct] OrderWebhook::__construct - Webhookサービス初期化開始
+[2025-08-14 10:30:45] [INFO] [OrderWebhook.php:21->__construct] OrderWebhook::__construct - Webhookサービス初期化完了
+[2025-08-14 10:30:46] [INFO] [OrderWebhook.php:125->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 10:30:46] [INFO] [OrderWebhook.php:169->queueOrderWebhook] Webhook 送信先 URL 一覧: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy, https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 10:30:46] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy
+[2025-08-14 10:30:46] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1368565340660957214/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy http_code=204 time=387.369ms resp_len=0 body=''
+[2025-08-14 10:30:46] [INFO] [OrderWebhook.php:263->queueOrderWebhook] Webhook 送信開始: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh
+[2025-08-14 10:30:47] [INFO] [OrderWebhook.php:296->queueOrderWebhook] Webhook 送信完了: https://discord.com/api/webhooks/1371892275252166666/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh http_code=204 time=369.319ms resp_len=0 body=''

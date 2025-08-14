@@ -1,0 +1,8 @@
+{
+    "success": true,
+    "room_info": {
+        "room_number": "101",
+        "access_token": "MobileOrderTestToken20250504",
+        "square_order_id": "order_123456789"
+    }
+} 

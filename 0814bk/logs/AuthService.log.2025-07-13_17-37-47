@@ -1,0 +1,6 @@
+[2025-07-13 16:13:33] [INFO] ログファイル作成開始 - ローテーション実行（前回ログ: 
+[2025-07-13 16:13:33] [INFO] [AuthService.php:18->__construct] AuthService::__construct - 認証サービス初期化
+[2025-07-13 16:14:26] [INFO] [AuthService.php:18->__construct] AuthService::__construct - 認証サービス初期化
+[2025-07-13 17:17:04] [INFO] [AuthService.php:18->__construct] AuthService::__construct - 認証サービス初期化
+[2025-07-13 17:25:55] [INFO] [AuthService.php:18->__construct] AuthService::__construct - 認証サービス初期化
+[2025-07-13 17:37:47] [INFO] [AuthService.php:18->__construct] AuthService::__construct - 認証サービス初期化

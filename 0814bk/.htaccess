@@ -1,0 +1,41 @@
+# ブラウザキャッシュを無効化 - グローバル設定
+
+# キャッシュ関連のヘッダー設定
+<IfModule mod_headers.c>
+    # JavaScriptとCSSファイルに対する設定
+    <FilesMatch ".(js|css)$">
+        Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+        Header set Pragma "no-cache"
+        Header set Expires "0"
+    </FilesMatch>
+    
+    # LINE LIFF関連ファイルのキャッシュ制御
+    <FilesMatch "(index\.php|liff\.php)$">
+        Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+        Header set Pragma "no-cache"
+        Header set Expires "0"
+    </FilesMatch>
+    
+    # 画像などの静的ファイルは適度にキャッシュ（24時間）
+    <FilesMatch ".(jpg|jpeg|png|gif|svg|ico)$">
+        Header set Cache-Control "max-age=86400, public"
+    </FilesMatch>
+</IfModule>
+
+# ETags無効化
+<IfModule mod_headers.c>
+    Header unset ETag
+</IfModule>
+FileETag None
+
+# PHPのキャッシュコントロール
+<IfModule mod_php.c>
+    # PHPのキャッシュ無効化設定
+    php_value session.cache_limiter "nocache"
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # /order または /order/ でアクセスされた場合、クエリを保ったまま /order/index.php を処理
+    RewriteRule ^order/?$ /order/index.php [L,QSA]
+</IfModule> 

@@ -1,0 +1,1428 @@
+�回
+[2025-08-14 10:22:31] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:22:31] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:22:31] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:22:31] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:22:31] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"b4d3b851-ff23-3c0c-956a-30127454327d\",\"created_at\":\"2025-08-14T01:20:20.492224977Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-14T01:20:18.334Z\"}}}}"}
+[2025-08-14 10:22:31] [INFO] [SquareWebhook] square_webhooks inserted id=7076
+[2025-08-14 10:22:32] [DEBUG] [SquareService] Square API 商品取得: ページ 1 で 100件取得
+[2025-08-14 10:22:32] [DEBUG] [SquareService] Square API 商品取得: ページ 2 カーソル: CAASGwoTMTIyMDgzODUyOjI3NjczNTY1ORIEEAE4ZA
+[2025-08-14 10:22:32] [DEBUG] [SquareService] Square API 商品取得: ページ 2 で 100件取得
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: ご宿泊代金
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: 体験コンテンツ
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: welcome セット
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: アーリーチェックイン
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#05-250720200341809513595
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#01-250707165337647099096
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#02-250804172553620987104
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: 朝食（1名様分）
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: コースディナー（1名様分）
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#01-250808171924393068826
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#02-250808205320426100328
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#13-250809175800890718850
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 10:22:32] [DEBUG] [SquareService] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 10:22:32] [DEBUG] [SquareService] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 10:23:15] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:23:15] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:23:15] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:23:15] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:23:15] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"ffebcf8b-afda-34f0-8827-f69cd014418d\",\"created_at\":\"2025-08-14T01:22:25.369808456Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-14T01:22:23.198Z\"}}}}"}
+[2025-08-14 10:23:15] [INFO] [SquareWebhook] square_webhooks inserted id=7077
+[2025-08-14 10:23:19] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:23:19] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:23:19] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:23:19] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:23:19] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"ffebcf8b-afda-34f0-8827-f69cd014418d\",\"created_at\":\"2025-08-14T01:22:25.369808456Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-14T01:22:23.198Z\"}}}}"}
+[2025-08-14 10:23:19] [INFO] [SquareWebhook] square_webhooks inserted id=7078
+[2025-08-14 10:23:42] ----- Webhook Received -----
+Headers: {"Host":"mobes.online","Connection":"close","Content-Length":"273","X-Forwarded-Host":"mobes.online","X-Forwarded-For":"54.245.1.154","X-Forwarded-Proto":"https","X-Backend":"spd110.phy.lolipop.lan","square-version":"2025-04-16","Content-Type":"application\/json","x-square-signature":"NonLaaXCEj857gaAVCsxLzmbJW8=","x-square-hmacsha256-signature":"tv4Ypw+vajxQZS9ziBDuAbKHzAU9XKPFS2AwGDW5oo8=","square-retry-reason":"http_error","square-subscription-id":"wbhk_13409f60ab3c47e5b120a0258fd370c6","User-Agent":"Square Connect v2","Accept":"*\/*","square-initial-delivery-timestamp":"2025-08-14T01:22:27Z","square-environment":"Production","square-retry-number":"1","Accept-Encoding":"gzip"}
+Body: {"merchant_id":"MLFP5X4SFQ4VD","type":"catalog.version.updated","event_id":"ffebcf8b-afda-34f0-8827-f69cd014418d","created_at":"2025-08-14T01:22:25.369808456Z","data":{"type":"catalog_version","id":"","object":{"catalog_version":{"updated_at":"2025-08-14T01:22:23.198Z"}}}}
+
+[2025-08-14 10:23:42] [INFO] [SquareWebhook] 署名検証開始 headerTypes=HMAC256|SHA1 key=CeWJJu...
+[2025-08-14 10:23:42] [INFO] [SquareWebhook] SigCheck SHA256 recv=tv4Ypw+vajxQZS9ziBDuAbKHzAU9XKPFS2AwGDW5oo8= calcRaw=tv4Ypw+vajxQZS9ziBDuAbKHzAU9XKPFS2AwGDW5oo8= calcDec=8lVc6+esDSYp+7uDZ+6QtMmRuaxdiB9CRBm3S2P8I/Q=
+[2025-08-14 10:23:42] [INFO] [SquareWebhook] Webhook dispatch event=catalog.version.updated
+[2025-08-14 10:23:42] [INFO] [SquareWebhook] Received Square webhook: catalog.version.updated
+[2025-08-14 10:23:42] [INFO] [SquareWebhook] enter handleCatalogUpdate
+[2025-08-14 10:23:42] [DEBUG] [SquareService] Square API 商品取得: ページ 1 カーソル: 初回
+[2025-08-14 10:23:43] [DEBUG] [SquareService] Square API 商品取得: ページ 1 で 100件取得
+[2025-08-14 10:23:43] [DEBUG] [SquareService] Square API 商品取得: ページ 2 カーソル: CAASGwoTMTIyMDgzODUyOjI3NjczNTY1ORIEEAE4ZA
+[2025-08-14 10:23:43] [DEBUG] [SquareService] Square API 商品取得: ページ 2 で 100件取得
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: ご宿泊代金
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: 体験コンテンツ
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: welcome セット
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: アーリーチェックイン
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#05-250720200341809513595
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#01-250707165337647099096
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#02-250804172553620987104
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: 朝食（1名様分）
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: コースディナー（1名様分）
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#01-250808171924393068826
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#02-250808205320426100328
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#13-250809175800890718850
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 10:23:43] [DEBUG] [SquareService] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 10:23:43] [DEBUG] [SquareService] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 10:23:46] ----- Webhook Received -----
+Headers: {"Host":"mobes.online","Connection":"close","Content-Length":"273","X-Forwarded-Host":"mobes.online","X-Forwarded-For":"54.245.1.154","X-Forwarded-Proto":"https","X-Backend":"spd110.phy.lolipop.lan","square-version":"2025-04-16","Content-Type":"application\/json","square-initial-delivery-timestamp":"2025-08-14T01:22:27Z","square-environment":"Production","x-square-signature":"NonLaaXCEj857gaAVCsxLzmbJW8=","square-subscription-id":"wbhk_13409f60ab3c47e5b120a0258fd370c6","User-Agent":"Square Connect v2","Accept":"*\/*","x-square-hmacsha256-signature":"tv4Ypw+vajxQZS9ziBDuAbKHzAU9XKPFS2AwGDW5oo8=","square-retry-number":"1","square-retry-reason":"http_error","Accept-Encoding":"gzip"}
+Body: {"merchant_id":"MLFP5X4SFQ4VD","type":"catalog.version.updated","event_id":"ffebcf8b-afda-34f0-8827-f69cd014418d","created_at":"2025-08-14T01:22:25.369808456Z","data":{"type":"catalog_version","id":"","object":{"catalog_version":{"updated_at":"2025-08-14T01:22:23.198Z"}}}}
+
+[2025-08-14 10:23:46] [INFO] [SquareWebhook] 署名検証開始 headerTypes=HMAC256|SHA1 key=CeWJJu...
+[2025-08-14 10:23:46] [INFO] [SquareWebhook] SigCheck SHA256 recv=tv4Ypw+vajxQZS9ziBDuAbKHzAU9XKPFS2AwGDW5oo8= calcRaw=tv4Ypw+vajxQZS9ziBDuAbKHzAU9XKPFS2AwGDW5oo8= calcDec=8lVc6+esDSYp+7uDZ+6QtMmRuaxdiB9CRBm3S2P8I/Q=
+[2025-08-14 10:23:46] [INFO] [SquareWebhook] Webhook dispatch event=catalog.version.updated
+[2025-08-14 10:23:46] [INFO] [SquareWebhook] Received Square webhook: catalog.version.updated
+[2025-08-14 10:23:46] [INFO] [SquareWebhook] enter handleCatalogUpdate
+[2025-08-14 10:23:46] [DEBUG] [SquareService] Square API 商品取得: ページ 1 カーソル: 初回
+[2025-08-14 10:23:47] [DEBUG] [SquareService] Square API 商品取得: ページ 1 で 100件取得
+[2025-08-14 10:23:47] [DEBUG] [SquareService] Square API 商品取得: ページ 2 カーソル: CAASGwoTMTIyMDgzODUyOjI3NjczNTY1ORIEEAE4ZA
+[2025-08-14 10:23:47] [DEBUG] [SquareService] Square API 商品取得: ページ 2 で 100件取得
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: ご宿泊代金
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: 体験コンテンツ
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: welcome セット
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: アーリーチェックイン
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#05-250720200341809513595
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#01-250707165337647099096
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#02-250804172553620987104
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: 朝食（1名様分）
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: コースディナー（1名様分）
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#01-250808171924393068826
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#02-250808205320426100328
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#13-250809175800890718850
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 10:23:47] [DEBUG] [SquareService] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 10:23:47] [DEBUG] [SquareService] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 10:23:52] ----- Webhook Received -----
+Headers: {"Host":"mobes.online","Connection":"close","Content-Length":"273","X-Forwarded-Host":"mobes.online","X-Forwarded-For":"54.245.1.154","X-Forwarded-Proto":"https","X-Backend":"spd110.phy.lolipop.lan","square-initial-delivery-timestamp":"2025-08-14T01:20:21Z","x-square-signature":"oxjBADS198q3pt\/Ly62V42iv2F8=","square-retry-reason":"http_error","square-retry-number":"2","square-subscription-id":"wbhk_13409f60ab3c47e5b120a0258fd370c6","square-version":"2025-04-16","User-Agent":"Square Connect v2","Accept":"*\/*","Content-Type":"application\/json","square-environment":"Production","x-square-hmacsha256-signature":"QSBAoSUQxaShkS0yaqllq+UncjRn5MxwRZobCcolgbs=","Accept-Encoding":"gzip"}
+Body: {"merchant_id":"MLFP5X4SFQ4VD","type":"catalog.version.updated","event_id":"b4d3b851-ff23-3c0c-956a-30127454327d","created_at":"2025-08-14T01:20:20.492224977Z","data":{"type":"catalog_version","id":"","object":{"catalog_version":{"updated_at":"2025-08-14T01:20:18.334Z"}}}}
+
+[2025-08-14 10:23:52] [INFO] [SquareWebhook] 署名検証開始 headerTypes=HMAC256|SHA1 key=CeWJJu...
+[2025-08-14 10:23:52] [INFO] [SquareWebhook] SigCheck SHA256 recv=QSBAoSUQxaShkS0yaqllq+UncjRn5MxwRZobCcolgbs= calcRaw=QSBAoSUQxaShkS0yaqllq+UncjRn5MxwRZobCcolgbs= calcDec=zpcSoy6kZ6rBBKaltbpP4/CxYClez3Q0m0WKZ2q5LZ0=
+[2025-08-14 10:23:52] [INFO] [SquareWebhook] Webhook dispatch event=catalog.version.updated
+[2025-08-14 10:23:52] [INFO] [SquareWebhook] Received Square webhook: catalog.version.updated
+[2025-08-14 10:23:52] [INFO] [SquareWebhook] enter handleCatalogUpdate
+[2025-08-14 10:23:52] [DEBUG] [SquareService] Square API 商品取得: ページ 1 カーソル: 初回
+[2025-08-14 10:23:53] [DEBUG] [SquareService] Square API 商品取得: ページ 1 で 100件取得
+[2025-08-14 10:23:53] [DEBUG] [SquareService] Square API 商品取得: ページ 2 カーソル: CAASGwoTMTIyMDgzODUyOjI3NjczNTY1ORIEEAE4ZA
+[2025-08-14 10:23:53] [DEBUG] [SquareService] Square API 商品取得: ページ 2 で 100件取得
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: ご宿泊代金
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: 体験コンテンツ
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: welcome セット
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: アーリーチェックイン
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#05-250720200341809513595
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#01-250707165337647099096
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#02-250804172553620987104
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: 朝食（1名様分）
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: コースディナー（1名様分）
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#01-250808171924393068826
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#02-250808205320426100328
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#13-250809175800890718850
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 10:23:53] [DEBUG] [SquareService] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 10:23:53] [DEBUG] [SquareService] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 10:23:57] ----- Webhook Received -----
+Headers: {"Host":"mobes.online","Connection":"close","Content-Length":"273","X-Forwarded-Host":"mobes.online","X-Forwarded-For":"54.245.1.154","X-Forwarded-Proto":"https","X-Backend":"spd110.phy.lolipop.lan","square-version":"2025-04-16","User-Agent":"Square Connect v2","Accept":"*\/*","x-square-signature":"oxjBADS198q3pt\/Ly62V42iv2F8=","square-retry-reason":"http_error","Content-Type":"application\/json","square-initial-delivery-timestamp":"2025-08-14T01:20:21Z","square-environment":"Production","x-square-hmacsha256-signature":"QSBAoSUQxaShkS0yaqllq+UncjRn5MxwRZobCcolgbs=","square-retry-number":"2","square-subscription-id":"wbhk_13409f60ab3c47e5b120a0258fd370c6","Accept-Encoding":"gzip"}
+Body: {"merchant_id":"MLFP5X4SFQ4VD","type":"catalog.version.updated","event_id":"b4d3b851-ff23-3c0c-956a-30127454327d","created_at":"2025-08-14T01:20:20.492224977Z","data":{"type":"catalog_version","id":"","object":{"catalog_version":{"updated_at":"2025-08-14T01:20:18.334Z"}}}}
+
+[2025-08-14 10:23:57] [INFO] [SquareWebhook] 署名検証開始 headerTypes=HMAC256|SHA1 key=CeWJJu...
+[2025-08-14 10:23:57] [INFO] [SquareWebhook] SigCheck SHA256 recv=QSBAoSUQxaShkS0yaqllq+UncjRn5MxwRZobCcolgbs= calcRaw=QSBAoSUQxaShkS0yaqllq+UncjRn5MxwRZobCcolgbs= calcDec=zpcSoy6kZ6rBBKaltbpP4/CxYClez3Q0m0WKZ2q5LZ0=
+[2025-08-14 10:23:57] [INFO] [SquareWebhook] Webhook dispatch event=catalog.version.updated
+[2025-08-14 10:23:57] [INFO] [SquareWebhook] Received Square webhook: catalog.version.updated
+[2025-08-14 10:23:57] [INFO] [SquareWebhook] enter handleCatalogUpdate
+[2025-08-14 10:23:57] [DEBUG] [SquareService] Square API 商品取得: ページ 1 カーソル: 初回
+[2025-08-14 10:23:57] [DEBUG] [SquareService] Square API 商品取得: ページ 1 で 100件取得
+[2025-08-14 10:23:57] [DEBUG] [SquareService] Square API 商品取得: ページ 2 カーソル: CAASGwoTMTIyMDgzODUyOjI3NjczNTY1ORIEEAE4ZA
+[2025-08-14 10:23:57] [DEBUG] [SquareService] Square API 商品取得: ページ 2 で 100件取得
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: ご宿泊代金
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: 体験コンテンツ
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: welcome セット
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: アーリーチェックイン
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#05-250720200341809513595
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#01-250707165337647099096
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#02-250804172553620987104
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: 朝食（1名様分）
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: コースディナー（1名様分）
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#01-250808171924393068826
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#02-250808205320426100328
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#13-250809175800890718850
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 10:23:57] [DEBUG] [SquareService] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 10:23:57] [DEBUG] [SquareService] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 10:24:32] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:24:32] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:24:32] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:24:32] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:24:32] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"ffebcf8b-afda-34f0-8827-f69cd014418d\",\"created_at\":\"2025-08-14T01:22:25.369808456Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-14T01:22:23.198Z\"}}}}"}
+[2025-08-14 10:24:32] [INFO] [SquareWebhook] square_webhooks inserted id=7079
+[2025-08-14 10:24:36] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:24:36] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:24:36] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:24:36] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:24:36] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"ffebcf8b-afda-34f0-8827-f69cd014418d\",\"created_at\":\"2025-08-14T01:22:25.369808456Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-14T01:22:23.198Z\"}}}}"}
+[2025-08-14 10:24:36] [INFO] [SquareWebhook] square_webhooks inserted id=7080
+[2025-08-14 10:24:37] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:24:37] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:24:37] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:24:37] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:24:37] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"b4d3b851-ff23-3c0c-956a-30127454327d\",\"created_at\":\"2025-08-14T01:20:20.492224977Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-14T01:20:18.334Z\"}}}}"}
+[2025-08-14 10:24:37] [INFO] [SquareWebhook] square_webhooks inserted id=7081
+[2025-08-14 10:24:45] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:24:46] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:24:46] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:24:46] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:24:46] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"b4d3b851-ff23-3c0c-956a-30127454327d\",\"created_at\":\"2025-08-14T01:20:20.492224977Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-14T01:20:18.334Z\"}}}}"}
+[2025-08-14 10:24:46] [INFO] [SquareWebhook] square_webhooks inserted id=7082
+[2025-08-14 10:24:48] ----- Webhook Received -----
+Headers: {"Host":"mobes.online","Connection":"close","Content-Length":"273","X-Forwarded-Host":"mobes.online","X-Forwarded-For":"54.245.1.154","X-Forwarded-Proto":"https","X-Backend":"spd110.phy.lolipop.lan","x-square-signature":"otGv\/nEbxVqxSRhmOFTp9jHNkaI=","x-square-hmacsha256-signature":"gf2NR3bp44ytgQCZztv1X32ARwDueZcX0\/DezhkFOfE=","square-retry-reason":"http_error","square-subscription-id":"wbhk_13409f60ab3c47e5b120a0258fd370c6","square-version":"2025-04-16","Accept":"*\/*","Content-Type":"application\/json","square-initial-delivery-timestamp":"2025-08-14T01:17:00Z","square-environment":"Production","square-retry-number":"3","User-Agent":"Square Connect v2","Accept-Encoding":"gzip"}
+Body: {"merchant_id":"MLFP5X4SFQ4VD","type":"catalog.version.updated","event_id":"e8e22720-3943-3955-86b9-313ad33bff6d","created_at":"2025-08-14T01:16:59.170994631Z","data":{"type":"catalog_version","id":"","object":{"catalog_version":{"updated_at":"2025-08-14T01:16:56.942Z"}}}}
+
+[2025-08-14 10:24:48] [INFO] [SquareWebhook] 署名検証開始 headerTypes=HMAC256|SHA1 key=CeWJJu...
+[2025-08-14 10:24:48] [INFO] [SquareWebhook] SigCheck SHA256 recv=gf2NR3bp44ytgQCZztv1X32ARwDueZcX0/DezhkFOfE= calcRaw=gf2NR3bp44ytgQCZztv1X32ARwDueZcX0/DezhkFOfE= calcDec=YW42VzP59ZPYHMZD3u4lxz6d1hNYA/wDYUadeTBpw40=
+[2025-08-14 10:24:48] [INFO] [SquareWebhook] Webhook dispatch event=catalog.version.updated
+[2025-08-14 10:24:48] [INFO] [SquareWebhook] Received Square webhook: catalog.version.updated
+[2025-08-14 10:24:48] [INFO] [SquareWebhook] enter handleCatalogUpdate
+[2025-08-14 10:24:48] [DEBUG] [SquareService] Square API 商品取得: ページ 1 カーソル: 初回
+[2025-08-14 10:24:48] [DEBUG] [SquareService] Square API 商品取得: ページ 1 で 100件取得
+[2025-08-14 10:24:48] [DEBUG] [SquareService] Square API 商品取得: ページ 2 カーソル: CAASGwoTMTIyMDgzODUyOjI3NjczNTY1ORIEEAE4ZA
+[2025-08-14 10:24:49] [DEBUG] [SquareService] Square API 商品取得: ページ 2 で 100件取得
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: ご宿泊代金
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: 体験コンテンツ
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: welcome セット
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: アーリーチェックイン
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#05-250720200341809513595
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#01-250707165337647099096
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#02-250804172553620987104
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: 朝食（1名様分）
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: コースディナー（1名様分）
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#01-250808171924393068826
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#02-250808205320426100328
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#13-250809175800890718850
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 10:24:49] [DEBUG] [SquareService] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 10:24:49] [DEBUG] [SquareService] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 10:24:53] ----- Webhook Received -----
+Headers: {"Host":"mobes.online","Connection":"close","Content-Length":"273","X-Forwarded-Host":"mobes.online","X-Forwarded-For":"54.245.1.154","X-Forwarded-Proto":"https","X-Backend":"spd110.phy.lolipop.lan","x-square-signature":"otGv\/nEbxVqxSRhmOFTp9jHNkaI=","x-square-hmacsha256-signature":"gf2NR3bp44ytgQCZztv1X32ARwDueZcX0\/DezhkFOfE=","square-retry-reason":"http_error","square-subscription-id":"wbhk_13409f60ab3c47e5b120a0258fd370c6","square-version":"2025-04-16","square-initial-delivery-timestamp":"2025-08-14T01:17:00Z","square-environment":"Production","square-retry-number":"3","User-Agent":"Square Connect v2","Accept":"*\/*","Content-Type":"application\/json","Accept-Encoding":"gzip"}
+Body: {"merchant_id":"MLFP5X4SFQ4VD","type":"catalog.version.updated","event_id":"e8e22720-3943-3955-86b9-313ad33bff6d","created_at":"2025-08-14T01:16:59.170994631Z","data":{"type":"catalog_version","id":"","object":{"catalog_version":{"updated_at":"2025-08-14T01:16:56.942Z"}}}}
+
+[2025-08-14 10:24:53] [INFO] [SquareWebhook] 署名検証開始 headerTypes=HMAC256|SHA1 key=CeWJJu...
+[2025-08-14 10:24:53] [INFO] [SquareWebhook] SigCheck SHA256 recv=gf2NR3bp44ytgQCZztv1X32ARwDueZcX0/DezhkFOfE= calcRaw=gf2NR3bp44ytgQCZztv1X32ARwDueZcX0/DezhkFOfE= calcDec=YW42VzP59ZPYHMZD3u4lxz6d1hNYA/wDYUadeTBpw40=
+[2025-08-14 10:24:53] [INFO] [SquareWebhook] Webhook dispatch event=catalog.version.updated
+[2025-08-14 10:24:53] [INFO] [SquareWebhook] Received Square webhook: catalog.version.updated
+[2025-08-14 10:24:53] [INFO] [SquareWebhook] enter handleCatalogUpdate
+[2025-08-14 10:24:53] [DEBUG] [SquareService] Square API 商品取得: ページ 1 カーソル: 初回
+[2025-08-14 10:24:53] [DEBUG] [SquareService] Square API 商品取得: ページ 1 で 100件取得
+[2025-08-14 10:24:53] [DEBUG] [SquareService] Square API 商品取得: ページ 2 カーソル: CAASGwoTMTIyMDgzODUyOjI3NjczNTY1ORIEEAE4ZA
+[2025-08-14 10:24:53] [DEBUG] [SquareService] Square API 商品取得: ページ 2 で 100件取得
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: ご宿泊代金
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: 体験コンテンツ
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: welcome セット
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: アーリーチェックイン
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#05-250720200341809513595
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#01-250707165337647099096
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#02-250804172553620987104
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: 朝食（1名様分）
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: コースディナー（1名様分）
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#01-250808171924393068826
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#02-250808205320426100328
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#13-250809175800890718850
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 10:24:53] [DEBUG] [SquareService] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 10:24:53] [DEBUG] [SquareService] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 10:25:40] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:25:40] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:25:40] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:25:40] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:25:40] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"e8e22720-3943-3955-86b9-313ad33bff6d\",\"created_at\":\"2025-08-14T01:16:59.170994631Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-14T01:16:56.942Z\"}}}}"}
+[2025-08-14 10:25:40] [INFO] [SquareWebhook] square_webhooks inserted id=7083
+[2025-08-14 10:25:41] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:25:41] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:25:41] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:25:41] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:25:41] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"e8e22720-3943-3955-86b9-313ad33bff6d\",\"created_at\":\"2025-08-14T01:16:59.170994631Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-14T01:16:56.942Z\"}}}}"}
+[2025-08-14 10:25:41] [INFO] [SquareWebhook] square_webhooks inserted id=7084
+[2025-08-14 10:25:58] ----- Webhook Received -----
+Headers: {"Host":"mobes.online","Connection":"close","Content-Length":"273","X-Forwarded-Host":"mobes.online","X-Forwarded-For":"54.245.1.154","X-Forwarded-Proto":"https","X-Backend":"spd110.phy.lolipop.lan","Accept":"*\/*","Content-Type":"application\/json","x-square-hmacsha256-signature":"tv4Ypw+vajxQZS9ziBDuAbKHzAU9XKPFS2AwGDW5oo8=","square-retry-reason":"http_error","square-subscription-id":"wbhk_13409f60ab3c47e5b120a0258fd370c6","square-version":"2025-04-16","User-Agent":"Square Connect v2","square-initial-delivery-timestamp":"2025-08-14T01:22:27Z","square-environment":"Production","x-square-signature":"NonLaaXCEj857gaAVCsxLzmbJW8=","square-retry-number":"2","Accept-Encoding":"gzip"}
+Body: {"merchant_id":"MLFP5X4SFQ4VD","type":"catalog.version.updated","event_id":"ffebcf8b-afda-34f0-8827-f69cd014418d","created_at":"2025-08-14T01:22:25.369808456Z","data":{"type":"catalog_version","id":"","object":{"catalog_version":{"updated_at":"2025-08-14T01:22:23.198Z"}}}}
+
+[2025-08-14 10:25:58] [INFO] [SquareWebhook] 署名検証開始 headerTypes=HMAC256|SHA1 key=CeWJJu...
+[2025-08-14 10:25:58] [INFO] [SquareWebhook] SigCheck SHA256 recv=tv4Ypw+vajxQZS9ziBDuAbKHzAU9XKPFS2AwGDW5oo8= calcRaw=tv4Ypw+vajxQZS9ziBDuAbKHzAU9XKPFS2AwGDW5oo8= calcDec=8lVc6+esDSYp+7uDZ+6QtMmRuaxdiB9CRBm3S2P8I/Q=
+[2025-08-14 10:25:58] [INFO] [SquareWebhook] Webhook dispatch event=catalog.version.updated
+[2025-08-14 10:25:58] [INFO] [SquareWebhook] Received Square webhook: catalog.version.updated
+[2025-08-14 10:25:58] [INFO] [SquareWebhook] enter handleCatalogUpdate
+[2025-08-14 10:25:58] [DEBUG] [SquareService] Square API 商品取得: ページ 1 カーソル: 初回
+[2025-08-14 10:25:59] [DEBUG] [SquareService] Square API 商品取得: ページ 1 で 100件取得
+[2025-08-14 10:25:59] [DEBUG] [SquareService] Square API 商品取得: ページ 2 カーソル: CAASGwoTMTIyMDgzODUyOjI3NjczNTY1ORIEEAE4ZA
+[2025-08-14 10:25:59] [DEBUG] [SquareService] Square API 商品取得: ページ 2 で 100件取得
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: ご宿泊代金
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: 体験コンテンツ
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: welcome セット
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: アーリーチェックイン
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#05-250720200341809513595
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#01-250707165337647099096
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#02-250804172553620987104
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: 朝食（1名様分）
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: コースディナー（1名様分）
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#01-250808171924393068826
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#02-250808205320426100328
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#13-250809175800890718850
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 10:25:59] [DEBUG] [SquareService] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 10:25:59] [DEBUG] [SquareService] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 10:26:04] ----- Webhook Received -----
+Headers: {"Host":"mobes.online","Connection":"close","Content-Length":"273","X-Forwarded-Host":"mobes.online","X-Forwarded-For":"54.245.1.154","X-Forwarded-Proto":"https","X-Backend":"spd110.phy.lolipop.lan","Content-Type":"application\/json","square-initial-delivery-timestamp":"2025-08-14T01:22:27Z","square-environment":"Production","square-retry-number":"2","square-retry-reason":"http_error","square-version":"2025-04-16","User-Agent":"Square Connect v2","Accept":"*\/*","x-square-signature":"NonLaaXCEj857gaAVCsxLzmbJW8=","x-square-hmacsha256-signature":"tv4Ypw+vajxQZS9ziBDuAbKHzAU9XKPFS2AwGDW5oo8=","square-subscription-id":"wbhk_13409f60ab3c47e5b120a0258fd370c6","Accept-Encoding":"gzip"}
+Body: {"merchant_id":"MLFP5X4SFQ4VD","type":"catalog.version.updated","event_id":"ffebcf8b-afda-34f0-8827-f69cd014418d","created_at":"2025-08-14T01:22:25.369808456Z","data":{"type":"catalog_version","id":"","object":{"catalog_version":{"updated_at":"2025-08-14T01:22:23.198Z"}}}}
+
+[2025-08-14 10:26:04] [INFO] [SquareWebhook] 署名検証開始 headerTypes=HMAC256|SHA1 key=CeWJJu...
+[2025-08-14 10:26:04] [INFO] [SquareWebhook] SigCheck SHA256 recv=tv4Ypw+vajxQZS9ziBDuAbKHzAU9XKPFS2AwGDW5oo8= calcRaw=tv4Ypw+vajxQZS9ziBDuAbKHzAU9XKPFS2AwGDW5oo8= calcDec=8lVc6+esDSYp+7uDZ+6QtMmRuaxdiB9CRBm3S2P8I/Q=
+[2025-08-14 10:26:04] [INFO] [SquareWebhook] Webhook dispatch event=catalog.version.updated
+[2025-08-14 10:26:04] [INFO] [SquareWebhook] Received Square webhook: catalog.version.updated
+[2025-08-14 10:26:04] [INFO] [SquareWebhook] enter handleCatalogUpdate
+[2025-08-14 10:26:04] [DEBUG] [SquareService] Square API 商品取得: ページ 1 カーソル: 初回
+[2025-08-14 10:26:04] [DEBUG] [SquareService] Square API 商品取得: ページ 1 で 100件取得
+[2025-08-14 10:26:04] [DEBUG] [SquareService] Square API 商品取得: ページ 2 カーソル: CAASGwoTMTIyMDgzODUyOjI3NjczNTY1ORIEEAE4ZA
+[2025-08-14 10:26:04] [DEBUG] [SquareService] Square API 商品取得: ページ 2 で 100件取得
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: ご宿泊代金
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: 体験コンテンツ
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: welcome セット
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: アーリーチェックイン
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#05-250720200341809513595
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#01-250707165337647099096
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#02-250804172553620987104
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: 朝食（1名様分）
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: コースディナー（1名様分）
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#01-250808171924393068826
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#02-250808205320426100328
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#13-250809175800890718850
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 10:26:04] [DEBUG] [SquareService] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 10:26:04] [DEBUG] [SquareService] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 10:26:06] ----- Webhook Received -----
+Headers: {"Host":"mobes.online","Connection":"close","Content-Length":"273","X-Forwarded-Host":"mobes.online","X-Forwarded-For":"54.245.1.154","X-Forwarded-Proto":"https","X-Backend":"spd110.phy.lolipop.lan","square-retry-reason":"http_error","square-version":"2025-04-16","Content-Type":"application\/json","square-environment":"Production","x-square-signature":"QErkjdeXTY94UviaQvweB2kJBoA=","square-retry-number":"10","square-subscription-id":"wbhk_13409f60ab3c47e5b120a0258fd370c6","User-Agent":"Square Connect v2","Accept":"*\/*","square-initial-delivery-timestamp":"2025-08-13T09:20:18Z","x-square-hmacsha256-signature":"rCgecIjzMIsf8FkekEdf6M92DFwx9bNfcTnLZeEyb+U=","Accept-Encoding":"gzip"}
+Body: {"merchant_id":"MLFP5X4SFQ4VD","type":"catalog.version.updated","event_id":"03c74f9a-d0a2-31e7-8b0c-6fa46ada9bb2","created_at":"2025-08-13T09:20:17.604199424Z","data":{"type":"catalog_version","id":"","object":{"catalog_version":{"updated_at":"2025-08-13T09:20:15.458Z"}}}}
+
+[2025-08-14 10:26:06] [INFO] [SquareWebhook] 署名検証開始 headerTypes=HMAC256|SHA1 key=CeWJJu...
+[2025-08-14 10:26:06] [INFO] [SquareWebhook] SigCheck SHA256 recv=rCgecIjzMIsf8FkekEdf6M92DFwx9bNfcTnLZeEyb+U= calcRaw=rCgecIjzMIsf8FkekEdf6M92DFwx9bNfcTnLZeEyb+U= calcDec=p4ofJRJJjc7suO+KEgxgF1+9V4CsYE0yI2yISl9XPSw=
+[2025-08-14 10:26:06] [INFO] [SquareWebhook] Webhook dispatch event=catalog.version.updated
+[2025-08-14 10:26:06] [INFO] [SquareWebhook] Received Square webhook: catalog.version.updated
+[2025-08-14 10:26:06] [INFO] [SquareWebhook] enter handleCatalogUpdate
+[2025-08-14 10:26:06] [DEBUG] [SquareService] Square API 商品取得: ページ 1 カーソル: 初回
+[2025-08-14 10:26:06] [DEBUG] [SquareService] Square API 商品取得: ページ 1 で 100件取得
+[2025-08-14 10:26:06] [DEBUG] [SquareService] Square API 商品取得: ページ 2 カーソル: CAASGwoTMTIyMDgzODUyOjI3NjczNTY1ORIEEAE4ZA
+[2025-08-14 10:26:06] [DEBUG] [SquareService] Square API 商品取得: ページ 2 で 100件取得
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: ご宿泊代金
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: 体験コンテンツ
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: welcome セット
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: アーリーチェックイン
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#05-250720200341809513595
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#01-250707165337647099096
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#02-250804172553620987104
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: 朝食（1名様分）
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: コースディナー（1名様分）
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#01-250808171924393068826
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#02-250808205320426100328
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#13-250809175800890718850
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 10:26:06] [DEBUG] [SquareService] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 10:26:06] [DEBUG] [SquareService] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 10:26:10] ----- Webhook Received -----
+Headers: {"Host":"mobes.online","Connection":"close","Content-Length":"273","X-Forwarded-Host":"mobes.online","X-Forwarded-For":"54.245.1.154","X-Forwarded-Proto":"https","X-Backend":"spd110.phy.lolipop.lan","square-initial-delivery-timestamp":"2025-08-13T09:20:18Z","square-subscription-id":"wbhk_13409f60ab3c47e5b120a0258fd370c6","x-square-signature":"QErkjdeXTY94UviaQvweB2kJBoA=","x-square-hmacsha256-signature":"rCgecIjzMIsf8FkekEdf6M92DFwx9bNfcTnLZeEyb+U=","square-retry-number":"10","square-version":"2025-04-16","User-Agent":"Square Connect v2","Accept":"*\/*","Content-Type":"application\/json","square-environment":"Production","square-retry-reason":"http_error","Accept-Encoding":"gzip"}
+Body: {"merchant_id":"MLFP5X4SFQ4VD","type":"catalog.version.updated","event_id":"03c74f9a-d0a2-31e7-8b0c-6fa46ada9bb2","created_at":"2025-08-13T09:20:17.604199424Z","data":{"type":"catalog_version","id":"","object":{"catalog_version":{"updated_at":"2025-08-13T09:20:15.458Z"}}}}
+
+[2025-08-14 10:26:10] [INFO] [SquareWebhook] 署名検証開始 headerTypes=HMAC256|SHA1 key=CeWJJu...
+[2025-08-14 10:26:10] [INFO] [SquareWebhook] SigCheck SHA256 recv=rCgecIjzMIsf8FkekEdf6M92DFwx9bNfcTnLZeEyb+U= calcRaw=rCgecIjzMIsf8FkekEdf6M92DFwx9bNfcTnLZeEyb+U= calcDec=p4ofJRJJjc7suO+KEgxgF1+9V4CsYE0yI2yISl9XPSw=
+[2025-08-14 10:26:10] [INFO] [SquareWebhook] Webhook dispatch event=catalog.version.updated
+[2025-08-14 10:26:10] [INFO] [SquareWebhook] Received Square webhook: catalog.version.updated
+[2025-08-14 10:26:10] [INFO] [SquareWebhook] enter handleCatalogUpdate
+[2025-08-14 10:26:10] [DEBUG] [SquareService] Square API 商品取得: ページ 1 カーソル: 初回
+[2025-08-14 10:26:10] [DEBUG] [SquareService] Square API 商品取得: ページ 1 で 100件取得
+[2025-08-14 10:26:10] [DEBUG] [SquareService] Square API 商品取得: ページ 2 カーソル: CAASGwoTMTIyMDgzODUyOjI3NjczNTY1ORIEEAE4ZA
+[2025-08-14 10:26:10] [DEBUG] [SquareService] Square API 商品取得: ページ 2 で 100件取得
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: ご宿泊代金
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: 体験コンテンツ
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: welcome セット
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: アーリーチェックイン
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#05-250720200341809513595
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#01-250707165337647099096
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#02-250804172553620987104
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: 朝食（1名様分）
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: コースディナー（1名様分）
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#01-250808171924393068826
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#02-250808205320426100328
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#13-250809175800890718850
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 10:26:10] [DEBUG] [SquareService] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 10:26:10] [DEBUG] [SquareService] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 10:26:47] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:26:47] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:26:47] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:26:47] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:26:47] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"ffebcf8b-afda-34f0-8827-f69cd014418d\",\"created_at\":\"2025-08-14T01:22:25.369808456Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-14T01:22:23.198Z\"}}}}"}
+[2025-08-14 10:26:47] [INFO] [SquareWebhook] square_webhooks inserted id=7085
+[2025-08-14 10:26:51] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:26:51] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:26:51] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:26:51] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:26:51] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"ffebcf8b-afda-34f0-8827-f69cd014418d\",\"created_at\":\"2025-08-14T01:22:25.369808456Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-14T01:22:23.198Z\"}}}}"}
+[2025-08-14 10:26:51] [INFO] [SquareWebhook] square_webhooks inserted id=7086
+[2025-08-14 10:26:52] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:26:52] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:26:52] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:26:52] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:26:52] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"03c74f9a-d0a2-31e7-8b0c-6fa46ada9bb2\",\"created_at\":\"2025-08-13T09:20:17.604199424Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-13T09:20:15.458Z\"}}}}"}
+[2025-08-14 10:26:52] [INFO] [SquareWebhook] square_webhooks inserted id=7087
+[2025-08-14 10:26:59] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:26:59] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:26:59] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:26:59] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:26:59] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"03c74f9a-d0a2-31e7-8b0c-6fa46ada9bb2\",\"created_at\":\"2025-08-13T09:20:17.604199424Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-13T09:20:15.458Z\"}}}}"}
+[2025-08-14 10:26:59] [INFO] [SquareWebhook] square_webhooks inserted id=7088
+[2025-08-14 10:28:09] ----- Webhook Received -----
+Headers: {"Host":"mobes.online","Connection":"close","Content-Length":"273","X-Forwarded-Host":"mobes.online","X-Forwarded-For":"54.245.1.154","X-Forwarded-Proto":"https","X-Backend":"spd110.phy.lolipop.lan","User-Agent":"Square Connect v2","square-environment":"Production","square-retry-number":"3","square-retry-reason":"http_error","square-subscription-id":"wbhk_13409f60ab3c47e5b120a0258fd370c6","square-version":"2025-04-16","Accept":"*\/*","Content-Type":"application\/json","square-initial-delivery-timestamp":"2025-08-14T01:20:21Z","x-square-signature":"oxjBADS198q3pt\/Ly62V42iv2F8=","x-square-hmacsha256-signature":"QSBAoSUQxaShkS0yaqllq+UncjRn5MxwRZobCcolgbs=","Accept-Encoding":"gzip"}
+Body: {"merchant_id":"MLFP5X4SFQ4VD","type":"catalog.version.updated","event_id":"b4d3b851-ff23-3c0c-956a-30127454327d","created_at":"2025-08-14T01:20:20.492224977Z","data":{"type":"catalog_version","id":"","object":{"catalog_version":{"updated_at":"2025-08-14T01:20:18.334Z"}}}}
+
+[2025-08-14 10:28:09] [INFO] [SquareWebhook] 署名検証開始 headerTypes=HMAC256|SHA1 key=CeWJJu...
+[2025-08-14 10:28:09] [INFO] [SquareWebhook] SigCheck SHA256 recv=QSBAoSUQxaShkS0yaqllq+UncjRn5MxwRZobCcolgbs= calcRaw=QSBAoSUQxaShkS0yaqllq+UncjRn5MxwRZobCcolgbs= calcDec=zpcSoy6kZ6rBBKaltbpP4/CxYClez3Q0m0WKZ2q5LZ0=
+[2025-08-14 10:28:09] [INFO] [SquareWebhook] Webhook dispatch event=catalog.version.updated
+[2025-08-14 10:28:09] [INFO] [SquareWebhook] Received Square webhook: catalog.version.updated
+[2025-08-14 10:28:09] [INFO] [SquareWebhook] enter handleCatalogUpdate
+[2025-08-14 10:28:09] [DEBUG] [SquareService] Square API 商品取得: ページ 1 カーソル: 初回
+[2025-08-14 10:28:09] [DEBUG] [SquareService] Square API 商品取得: ページ 1 で 100件取得
+[2025-08-14 10:28:09] [DEBUG] [SquareService] Square API 商品取得: ページ 2 カーソル: CAASGwoTMTIyMDgzODUyOjI3NjczNTY1ORIEEAE4ZA
+[2025-08-14 10:28:10] [DEBUG] [SquareService] Square API 商品取得: ページ 2 で 100件取得
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: ご宿泊代金
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: 体験コンテンツ
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: welcome セット
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: アーリーチェックイン
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#05-250720200341809513595
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#01-250707165337647099096
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#02-250804172553620987104
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: 朝食（1名様分）
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: コースディナー（1名様分）
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#01-250808171924393068826
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#02-250808205320426100328
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#13-250809175800890718850
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 10:28:10] [DEBUG] [SquareService] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 10:28:10] [DEBUG] [SquareService] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 10:28:13] ----- Webhook Received -----
+Headers: {"Host":"mobes.online","Connection":"close","Content-Length":"273","X-Forwarded-Host":"mobes.online","X-Forwarded-For":"54.245.1.154","X-Forwarded-Proto":"https","X-Backend":"spd110.phy.lolipop.lan","square-version":"2025-04-16","User-Agent":"Square Connect v2","Accept":"*\/*","Content-Type":"application\/json","square-retry-number":"3","square-initial-delivery-timestamp":"2025-08-14T01:20:21Z","square-environment":"Production","x-square-signature":"oxjBADS198q3pt\/Ly62V42iv2F8=","x-square-hmacsha256-signature":"QSBAoSUQxaShkS0yaqllq+UncjRn5MxwRZobCcolgbs=","square-retry-reason":"http_error","square-subscription-id":"wbhk_13409f60ab3c47e5b120a0258fd370c6","Accept-Encoding":"gzip"}
+Body: {"merchant_id":"MLFP5X4SFQ4VD","type":"catalog.version.updated","event_id":"b4d3b851-ff23-3c0c-956a-30127454327d","created_at":"2025-08-14T01:20:20.492224977Z","data":{"type":"catalog_version","id":"","object":{"catalog_version":{"updated_at":"2025-08-14T01:20:18.334Z"}}}}
+
+[2025-08-14 10:28:13] [INFO] [SquareWebhook] 署名検証開始 headerTypes=HMAC256|SHA1 key=CeWJJu...
+[2025-08-14 10:28:13] [INFO] [SquareWebhook] SigCheck SHA256 recv=QSBAoSUQxaShkS0yaqllq+UncjRn5MxwRZobCcolgbs= calcRaw=QSBAoSUQxaShkS0yaqllq+UncjRn5MxwRZobCcolgbs= calcDec=zpcSoy6kZ6rBBKaltbpP4/CxYClez3Q0m0WKZ2q5LZ0=
+[2025-08-14 10:28:13] [INFO] [SquareWebhook] Webhook dispatch event=catalog.version.updated
+[2025-08-14 10:28:13] [INFO] [SquareWebhook] Received Square webhook: catalog.version.updated
+[2025-08-14 10:28:13] [INFO] [SquareWebhook] enter handleCatalogUpdate
+[2025-08-14 10:28:13] [DEBUG] [SquareService] Square API 商品取得: ページ 1 カーソル: 初回
+[2025-08-14 10:28:13] [DEBUG] [SquareService] Square API 商品取得: ページ 1 で 100件取得
+[2025-08-14 10:28:13] [DEBUG] [SquareService] Square API 商品取得: ページ 2 カーソル: CAASGwoTMTIyMDgzODUyOjI3NjczNTY1ORIEEAE4ZA
+[2025-08-14 10:28:14] [DEBUG] [SquareService] Square API 商品取得: ページ 2 で 100件取得
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: ご宿泊代金
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: 体験コンテンツ
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: welcome セット
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: アーリーチェックイン
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#05-250720200341809513595
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#01-250707165337647099096
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#02-250804172553620987104
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: 朝食（1名様分）
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: コースディナー（1名様分）
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#01-250808171924393068826
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#02-250808205320426100328
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#13-250809175800890718850
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 10:28:14] [DEBUG] [SquareService] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 10:28:14] [DEBUG] [SquareService] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 10:29:03] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:29:03] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:29:03] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:29:03] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:29:03] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"b4d3b851-ff23-3c0c-956a-30127454327d\",\"created_at\":\"2025-08-14T01:20:20.492224977Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-14T01:20:18.334Z\"}}}}"}
+[2025-08-14 10:29:03] [INFO] [SquareWebhook] square_webhooks inserted id=7089
+[2025-08-14 10:29:04] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:29:05] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:29:05] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:29:05] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:29:05] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"b4d3b851-ff23-3c0c-956a-30127454327d\",\"created_at\":\"2025-08-14T01:20:20.492224977Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-14T01:20:18.334Z\"}}}}"}
+[2025-08-14 10:29:05] [INFO] [SquareWebhook] square_webhooks inserted id=7090
+[2025-08-14 10:30:15] ----- Webhook Received -----
+Headers: {"Host":"mobes.online","Connection":"close","Content-Length":"273","X-Forwarded-Host":"mobes.online","X-Forwarded-For":"54.245.1.154","X-Forwarded-Proto":"https","X-Backend":"spd110.phy.lolipop.lan","square-version":"2025-04-16","Content-Type":"application\/json","square-environment":"Production","x-square-signature":"NonLaaXCEj857gaAVCsxLzmbJW8=","x-square-hmacsha256-signature":"tv4Ypw+vajxQZS9ziBDuAbKHzAU9XKPFS2AwGDW5oo8=","square-retry-number":"3","square-retry-reason":"http_error","User-Agent":"Square Connect v2","Accept":"*\/*","square-initial-delivery-timestamp":"2025-08-14T01:22:27Z","square-subscription-id":"wbhk_13409f60ab3c47e5b120a0258fd370c6","Accept-Encoding":"gzip"}
+Body: {"merchant_id":"MLFP5X4SFQ4VD","type":"catalog.version.updated","event_id":"ffebcf8b-afda-34f0-8827-f69cd014418d","created_at":"2025-08-14T01:22:25.369808456Z","data":{"type":"catalog_version","id":"","object":{"catalog_version":{"updated_at":"2025-08-14T01:22:23.198Z"}}}}
+
+[2025-08-14 10:30:15] [INFO] [SquareWebhook] 署名検証開始 headerTypes=HMAC256|SHA1 key=CeWJJu...
+[2025-08-14 10:30:15] [INFO] [SquareWebhook] SigCheck SHA256 recv=tv4Ypw+vajxQZS9ziBDuAbKHzAU9XKPFS2AwGDW5oo8= calcRaw=tv4Ypw+vajxQZS9ziBDuAbKHzAU9XKPFS2AwGDW5oo8= calcDec=8lVc6+esDSYp+7uDZ+6QtMmRuaxdiB9CRBm3S2P8I/Q=
+[2025-08-14 10:30:15] [INFO] [SquareWebhook] Webhook dispatch event=catalog.version.updated
+[2025-08-14 10:30:15] [INFO] [SquareWebhook] Received Square webhook: catalog.version.updated
+[2025-08-14 10:30:15] [INFO] [SquareWebhook] enter handleCatalogUpdate
+[2025-08-14 10:30:15] [DEBUG] [SquareService] Square API 商品取得: ページ 1 カーソル: 初回
+[2025-08-14 10:30:16] [DEBUG] [SquareService] Square API 商品取得: ページ 1 で 100件取得
+[2025-08-14 10:30:16] [DEBUG] [SquareService] Square API 商品取得: ページ 2 カーソル: CAASGwoTMTIyMDgzODUyOjI3NjczNTY1ORIEEAE4ZA
+[2025-08-14 10:30:16] [DEBUG] [SquareService] Square API 商品取得: ページ 2 で 100件取得
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: ご宿泊代金
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: 体験コンテンツ
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: welcome セット
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: アーリーチェックイン
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#05-250720200341809513595
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#01-250707165337647099096
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#02-250804172553620987104
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: 朝食（1名様分）
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: コースディナー（1名様分）
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#01-250808171924393068826
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#02-250808205320426100328
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#13-250809175800890718850
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 10:30:16] [DEBUG] [SquareService] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 10:30:16] [DEBUG] [SquareService] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 10:30:20] ----- Webhook Received -----
+Headers: {"Host":"mobes.online","Connection":"close","Content-Length":"273","X-Forwarded-Host":"mobes.online","X-Forwarded-For":"54.245.1.154","X-Forwarded-Proto":"https","X-Backend":"spd110.phy.lolipop.lan","square-version":"2025-04-16","User-Agent":"Square Connect v2","square-environment":"Production","x-square-signature":"NonLaaXCEj857gaAVCsxLzmbJW8=","x-square-hmacsha256-signature":"tv4Ypw+vajxQZS9ziBDuAbKHzAU9XKPFS2AwGDW5oo8=","square-retry-reason":"http_error","Accept":"*\/*","Content-Type":"application\/json","square-initial-delivery-timestamp":"2025-08-14T01:22:27Z","square-retry-number":"3","square-subscription-id":"wbhk_13409f60ab3c47e5b120a0258fd370c6","Accept-Encoding":"gzip"}
+Body: {"merchant_id":"MLFP5X4SFQ4VD","type":"catalog.version.updated","event_id":"ffebcf8b-afda-34f0-8827-f69cd014418d","created_at":"2025-08-14T01:22:25.369808456Z","data":{"type":"catalog_version","id":"","object":{"catalog_version":{"updated_at":"2025-08-14T01:22:23.198Z"}}}}
+
+[2025-08-14 10:30:20] [INFO] [SquareWebhook] 署名検証開始 headerTypes=HMAC256|SHA1 key=CeWJJu...
+[2025-08-14 10:30:20] [INFO] [SquareWebhook] SigCheck SHA256 recv=tv4Ypw+vajxQZS9ziBDuAbKHzAU9XKPFS2AwGDW5oo8= calcRaw=tv4Ypw+vajxQZS9ziBDuAbKHzAU9XKPFS2AwGDW5oo8= calcDec=8lVc6+esDSYp+7uDZ+6QtMmRuaxdiB9CRBm3S2P8I/Q=
+[2025-08-14 10:30:20] [INFO] [SquareWebhook] Webhook dispatch event=catalog.version.updated
+[2025-08-14 10:30:20] [INFO] [SquareWebhook] Received Square webhook: catalog.version.updated
+[2025-08-14 10:30:20] [INFO] [SquareWebhook] enter handleCatalogUpdate
+[2025-08-14 10:30:20] [DEBUG] [SquareService] Square API 商品取得: ページ 1 カーソル: 初回
+[2025-08-14 10:30:20] [DEBUG] [SquareService] Square API 商品取得: ページ 1 で 100件取得
+[2025-08-14 10:30:20] [DEBUG] [SquareService] Square API 商品取得: ページ 2 カーソル: CAASGwoTMTIyMDgzODUyOjI3NjczNTY1ORIEEAE4ZA
+[2025-08-14 10:30:21] [DEBUG] [SquareService] Square API 商品取得: ページ 2 で 100件取得
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: ご宿泊代金
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: 体験コンテンツ
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: welcome セット
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: アーリーチェックイン
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#05-250720200341809513595
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#01-250707165337647099096
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#02-250804172553620987104
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: 朝食（1名様分）
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: コースディナー（1名様分）
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#01-250808171924393068826
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#02-250808205320426100328
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#13-250809175800890718850
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 10:30:21] [DEBUG] [SquareService] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 10:30:21] [DEBUG] [SquareService] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 10:30:48] ----- Webhook Received -----
+Headers: {"Host":"mobes.online","Connection":"close","Content-Length":"273","X-Forwarded-Host":"mobes.online","X-Forwarded-For":"54.245.1.154","X-Forwarded-Proto":"https","X-Backend":"spd110.phy.lolipop.lan","square-version":"2025-04-16","Content-Type":"application\/json","square-environment":"Production","x-square-signature":"iFIpoGJJCamDiU1RllT8qJ47x2g=","x-square-hmacsha256-signature":"4fK\/YGbxCXdjDwwVVQI+kQf3CfuuUcq\/iIeYnWqNY9o=","square-subscription-id":"wbhk_13409f60ab3c47e5b120a0258fd370c6","User-Agent":"Square Connect v2","Accept":"*\/*","square-initial-delivery-timestamp":"2025-08-14T01:30:48Z","Accept-Encoding":"gzip"}
+Body: {"merchant_id":"MLFP5X4SFQ4VD","type":"catalog.version.updated","event_id":"29be1d7a-d750-3e3c-b1a3-288aceca5679","created_at":"2025-08-14T01:30:47.733131855Z","data":{"type":"catalog_version","id":"","object":{"catalog_version":{"updated_at":"2025-08-14T01:30:45.609Z"}}}}
+
+[2025-08-14 10:30:48] [INFO] [SquareWebhook] 署名検証開始 headerTypes=HMAC256|SHA1 key=CeWJJu...
+[2025-08-14 10:30:48] [INFO] [SquareWebhook] SigCheck SHA256 recv=4fK/YGbxCXdjDwwVVQI+kQf3CfuuUcq/iIeYnWqNY9o= calcRaw=4fK/YGbxCXdjDwwVVQI+kQf3CfuuUcq/iIeYnWqNY9o= calcDec=CXAgOJRSBA8CaGiS7DJZK4FXISVuw89Kl82RfDhAFe8=
+[2025-08-14 10:30:48] [INFO] [SquareWebhook] Webhook dispatch event=catalog.version.updated
+[2025-08-14 10:30:48] [INFO] [SquareWebhook] Received Square webhook: catalog.version.updated
+[2025-08-14 10:30:48] [INFO] [SquareWebhook] enter handleCatalogUpdate
+[2025-08-14 10:30:48] [DEBUG] [SquareService] Square API 商品取得: ページ 1 カーソル: 初回
+[2025-08-14 10:30:49] [DEBUG] [SquareService] Square API 商品取得: ページ 1 で 100件取得
+[2025-08-14 10:30:49] [DEBUG] [SquareService] Square API 商品取得: ページ 2 カーソル: CAASGwoTMTIyMDgzODUyOjI3NjczNjAyNBIEEAE4ZA
+[2025-08-14 10:30:50] [DEBUG] [SquareService] Square API 商品取得: ページ 2 で 100件取得
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: ご宿泊代金
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: 体験コンテンツ
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: welcome セット
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: アーリーチェックイン
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#05-250720200341809513595
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#01-250707165337647099096
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#02-250804172553620987104
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: 朝食（1名様分）
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: コースディナー（1名様分）
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#01-250808171924393068826
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#02-250808205320426100328
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#13-250809175800890718850
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 10:30:50] [DEBUG] [SquareService] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 10:30:50] [DEBUG] [SquareService] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 10:30:52] ----- Webhook Received -----
+Headers: {"Host":"mobes.online","Connection":"close","Content-Length":"273","X-Forwarded-Host":"mobes.online","X-Forwarded-For":"54.245.1.154","X-Forwarded-Proto":"https","X-Backend":"spd110.phy.lolipop.lan","x-square-signature":"iFIpoGJJCamDiU1RllT8qJ47x2g=","square-subscription-id":"wbhk_13409f60ab3c47e5b120a0258fd370c6","square-version":"2025-04-16","User-Agent":"Square Connect v2","Accept":"*\/*","x-square-hmacsha256-signature":"4fK\/YGbxCXdjDwwVVQI+kQf3CfuuUcq\/iIeYnWqNY9o=","Content-Type":"application\/json","square-initial-delivery-timestamp":"2025-08-14T01:30:48Z","square-environment":"Production","Accept-Encoding":"gzip"}
+Body: {"merchant_id":"MLFP5X4SFQ4VD","type":"catalog.version.updated","event_id":"29be1d7a-d750-3e3c-b1a3-288aceca5679","created_at":"2025-08-14T01:30:47.733131855Z","data":{"type":"catalog_version","id":"","object":{"catalog_version":{"updated_at":"2025-08-14T01:30:45.609Z"}}}}
+
+[2025-08-14 10:30:52] [INFO] [SquareWebhook] 署名検証開始 headerTypes=HMAC256|SHA1 key=CeWJJu...
+[2025-08-14 10:30:52] [INFO] [SquareWebhook] SigCheck SHA256 recv=4fK/YGbxCXdjDwwVVQI+kQf3CfuuUcq/iIeYnWqNY9o= calcRaw=4fK/YGbxCXdjDwwVVQI+kQf3CfuuUcq/iIeYnWqNY9o= calcDec=CXAgOJRSBA8CaGiS7DJZK4FXISVuw89Kl82RfDhAFe8=
+[2025-08-14 10:30:52] [INFO] [SquareWebhook] Webhook dispatch event=catalog.version.updated
+[2025-08-14 10:30:52] [INFO] [SquareWebhook] Received Square webhook: catalog.version.updated
+[2025-08-14 10:30:52] [INFO] [SquareWebhook] enter handleCatalogUpdate
+[2025-08-14 10:30:52] [DEBUG] [SquareService] Square API 商品取得: ページ 1 カーソル: 初回
+[2025-08-14 10:30:53] [DEBUG] [SquareService] Square API 商品取得: ページ 1 で 100件取得
+[2025-08-14 10:30:53] [DEBUG] [SquareService] Square API 商品取得: ページ 2 カーソル: CAASGwoTMTIyMDgzODUyOjI3NjczNjAyNBIEEAE4ZA
+[2025-08-14 10:30:53] [DEBUG] [SquareService] Square API 商品取得: ページ 2 で 100件取得
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: ご宿泊代金
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: 体験コンテンツ
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: welcome セット
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: アーリーチェックイン
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#05-250720200341809513595
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#01-250707165337647099096
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#02-250804172553620987104
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: 朝食（1名様分）
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: コースディナー（1名様分）
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#01-250808171924393068826
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#02-250808205320426100328
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#13-250809175800890718850
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 10:30:53] [DEBUG] [SquareService] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 10:30:53] [DEBUG] [SquareService] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 10:31:04] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:31:04] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:31:04] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:31:04] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:31:04] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"ffebcf8b-afda-34f0-8827-f69cd014418d\",\"created_at\":\"2025-08-14T01:22:25.369808456Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-14T01:22:23.198Z\"}}}}"}
+[2025-08-14 10:31:04] [INFO] [SquareWebhook] square_webhooks inserted id=7091
+[2025-08-14 10:31:13] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:31:13] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:31:13] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:31:13] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:31:13] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"ffebcf8b-afda-34f0-8827-f69cd014418d\",\"created_at\":\"2025-08-14T01:22:25.369808456Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-14T01:22:23.198Z\"}}}}"}
+[2025-08-14 10:31:13] [INFO] [SquareWebhook] square_webhooks inserted id=7092
+[2025-08-14 10:31:31] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:31:31] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:31:31] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:31:31] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:31:31] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"29be1d7a-d750-3e3c-b1a3-288aceca5679\",\"created_at\":\"2025-08-14T01:30:47.733131855Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-14T01:30:45.609Z\"}}}}"}
+[2025-08-14 10:31:31] [INFO] [SquareWebhook] square_webhooks inserted id=7093
+[2025-08-14 10:31:37] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:31:38] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:31:38] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:31:38] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:31:38] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"29be1d7a-d750-3e3c-b1a3-288aceca5679\",\"created_at\":\"2025-08-14T01:30:47.733131855Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-14T01:30:45.609Z\"}}}}"}
+[2025-08-14 10:31:38] [INFO] [SquareWebhook] square_webhooks inserted id=7094
+[2025-08-14 10:32:03] ----- Webhook Received -----
+Headers: {"Host":"mobes.online","Connection":"close","Content-Length":"273","X-Forwarded-Host":"mobes.online","X-Forwarded-For":"54.245.1.154","X-Forwarded-Proto":"https","X-Backend":"spd110.phy.lolipop.lan","x-square-hmacsha256-signature":"4fK\/YGbxCXdjDwwVVQI+kQf3CfuuUcq\/iIeYnWqNY9o=","User-Agent":"Square Connect v2","Content-Type":"application\/json","square-initial-delivery-timestamp":"2025-08-14T01:30:48Z","square-environment":"Production","square-retry-reason":"http_error","square-subscription-id":"wbhk_13409f60ab3c47e5b120a0258fd370c6","square-version":"2025-04-16","Accept":"*\/*","x-square-signature":"iFIpoGJJCamDiU1RllT8qJ47x2g=","square-retry-number":"1","Accept-Encoding":"gzip"}
+Body: {"merchant_id":"MLFP5X4SFQ4VD","type":"catalog.version.updated","event_id":"29be1d7a-d750-3e3c-b1a3-288aceca5679","created_at":"2025-08-14T01:30:47.733131855Z","data":{"type":"catalog_version","id":"","object":{"catalog_version":{"updated_at":"2025-08-14T01:30:45.609Z"}}}}
+
+[2025-08-14 10:32:03] [INFO] [SquareWebhook] 署名検証開始 headerTypes=HMAC256|SHA1 key=CeWJJu...
+[2025-08-14 10:32:03] [INFO] [SquareWebhook] SigCheck SHA256 recv=4fK/YGbxCXdjDwwVVQI+kQf3CfuuUcq/iIeYnWqNY9o= calcRaw=4fK/YGbxCXdjDwwVVQI+kQf3CfuuUcq/iIeYnWqNY9o= calcDec=CXAgOJRSBA8CaGiS7DJZK4FXISVuw89Kl82RfDhAFe8=
+[2025-08-14 10:32:03] [INFO] [SquareWebhook] Webhook dispatch event=catalog.version.updated
+[2025-08-14 10:32:03] [INFO] [SquareWebhook] Received Square webhook: catalog.version.updated
+[2025-08-14 10:32:03] [INFO] [SquareWebhook] enter handleCatalogUpdate
+[2025-08-14 10:32:03] [DEBUG] [SquareService] Square API 商品取得: ページ 1 カーソル: 初回
+[2025-08-14 10:32:04] [DEBUG] [SquareService] Square API 商品取得: ページ 1 で 100件取得
+[2025-08-14 10:32:04] [DEBUG] [SquareService] Square API 商品取得: ページ 2 カーソル: CAASGwoTMTIyMDgzODUyOjI3NjczNjAyNBIEEAE4ZA
+[2025-08-14 10:32:04] [DEBUG] [SquareService] Square API 商品取得: ページ 2 で 100件取得
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: ご宿泊代金
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: 体験コンテンツ
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: welcome セット
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: アーリーチェックイン
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#05-250720200341809513595
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#01-250707165337647099096
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#02-250804172553620987104
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: 朝食（1名様分）
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: コースディナー（1名様分）
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#01-250808171924393068826
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#02-250808205320426100328
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#13-250809175800890718850
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 10:32:04] [DEBUG] [SquareService] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 10:32:04] [DEBUG] [SquareService] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 10:32:08] ----- Webhook Received -----
+Headers: {"Host":"mobes.online","Connection":"close","Content-Length":"273","X-Forwarded-Host":"mobes.online","X-Forwarded-For":"54.245.1.154","X-Forwarded-Proto":"https","X-Backend":"spd110.phy.lolipop.lan","Content-Type":"application\/json","square-initial-delivery-timestamp":"2025-08-14T01:30:48Z","square-environment":"Production","x-square-signature":"iFIpoGJJCamDiU1RllT8qJ47x2g=","x-square-hmacsha256-signature":"4fK\/YGbxCXdjDwwVVQI+kQf3CfuuUcq\/iIeYnWqNY9o=","square-version":"2025-04-16","Accept":"*\/*","square-retry-reason":"http_error","square-subscription-id":"wbhk_13409f60ab3c47e5b120a0258fd370c6","User-Agent":"Square Connect v2","square-retry-number":"1","Accept-Encoding":"gzip"}
+Body: {"merchant_id":"MLFP5X4SFQ4VD","type":"catalog.version.updated","event_id":"29be1d7a-d750-3e3c-b1a3-288aceca5679","created_at":"2025-08-14T01:30:47.733131855Z","data":{"type":"catalog_version","id":"","object":{"catalog_version":{"updated_at":"2025-08-14T01:30:45.609Z"}}}}
+
+[2025-08-14 10:32:08] [INFO] [SquareWebhook] 署名検証開始 headerTypes=HMAC256|SHA1 key=CeWJJu...
+[2025-08-14 10:32:08] [INFO] [SquareWebhook] SigCheck SHA256 recv=4fK/YGbxCXdjDwwVVQI+kQf3CfuuUcq/iIeYnWqNY9o= calcRaw=4fK/YGbxCXdjDwwVVQI+kQf3CfuuUcq/iIeYnWqNY9o= calcDec=CXAgOJRSBA8CaGiS7DJZK4FXISVuw89Kl82RfDhAFe8=
+[2025-08-14 10:32:08] [INFO] [SquareWebhook] Webhook dispatch event=catalog.version.updated
+[2025-08-14 10:32:08] [INFO] [SquareWebhook] Received Square webhook: catalog.version.updated
+[2025-08-14 10:32:08] [INFO] [SquareWebhook] enter handleCatalogUpdate
+[2025-08-14 10:32:08] [DEBUG] [SquareService] Square API 商品取得: ページ 1 カーソル: 初回
+[2025-08-14 10:32:08] [DEBUG] [SquareService] Square API 商品取得: ページ 1 で 100件取得
+[2025-08-14 10:32:08] [DEBUG] [SquareService] Square API 商品取得: ページ 2 カーソル: CAASGwoTMTIyMDgzODUyOjI3NjczNjAyNBIEEAE4ZA
+[2025-08-14 10:32:09] [DEBUG] [SquareService] Square API 商品取得: ページ 2 で 100件取得
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: ご宿泊代金
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: 体験コンテンツ
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: welcome セット
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: アーリーチェックイン
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#05-250720200341809513595
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#01-250707165337647099096
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#02-250804172553620987104
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: 朝食（1名様分）
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: コースディナー（1名様分）
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#01-250808171924393068826
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#02-250808205320426100328
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#13-250809175800890718850
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 10:32:09] [DEBUG] [SquareService] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 10:32:09] [DEBUG] [SquareService] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 10:32:52] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:32:52] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:32:52] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:32:52] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:32:52] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"29be1d7a-d750-3e3c-b1a3-288aceca5679\",\"created_at\":\"2025-08-14T01:30:47.733131855Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-14T01:30:45.609Z\"}}}}"}
+[2025-08-14 10:32:52] [INFO] [SquareWebhook] square_webhooks inserted id=7095
+[2025-08-14 10:33:00] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:33:01] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:33:01] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:33:01] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:33:01] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"29be1d7a-d750-3e3c-b1a3-288aceca5679\",\"created_at\":\"2025-08-14T01:30:47.733131855Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-14T01:30:45.609Z\"}}}}"}
+[2025-08-14 10:33:01] [INFO] [SquareWebhook] square_webhooks inserted id=7096
+[2025-08-14 10:33:04] ----- Webhook Received -----
+Headers: {"Host":"mobes.online","Connection":"close","Content-Length":"273","X-Forwarded-Host":"mobes.online","X-Forwarded-For":"54.245.1.154","X-Forwarded-Proto":"https","X-Backend":"spd110.phy.lolipop.lan","square-retry-number":"4","square-retry-reason":"http_error","User-Agent":"Square Connect v2","Content-Type":"application\/json","square-initial-delivery-timestamp":"2025-08-14T01:17:00Z","x-square-signature":"otGv\/nEbxVqxSRhmOFTp9jHNkaI=","square-subscription-id":"wbhk_13409f60ab3c47e5b120a0258fd370c6","square-version":"2025-04-16","Accept":"*\/*","square-environment":"Production","x-square-hmacsha256-signature":"gf2NR3bp44ytgQCZztv1X32ARwDueZcX0\/DezhkFOfE=","Accept-Encoding":"gzip"}
+Body: {"merchant_id":"MLFP5X4SFQ4VD","type":"catalog.version.updated","event_id":"e8e22720-3943-3955-86b9-313ad33bff6d","created_at":"2025-08-14T01:16:59.170994631Z","data":{"type":"catalog_version","id":"","object":{"catalog_version":{"updated_at":"2025-08-14T01:16:56.942Z"}}}}
+
+[2025-08-14 10:33:04] [INFO] [SquareWebhook] 署名検証開始 headerTypes=HMAC256|SHA1 key=CeWJJu...
+[2025-08-14 10:33:04] [INFO] [SquareWebhook] SigCheck SHA256 recv=gf2NR3bp44ytgQCZztv1X32ARwDueZcX0/DezhkFOfE= calcRaw=gf2NR3bp44ytgQCZztv1X32ARwDueZcX0/DezhkFOfE= calcDec=YW42VzP59ZPYHMZD3u4lxz6d1hNYA/wDYUadeTBpw40=
+[2025-08-14 10:33:04] [INFO] [SquareWebhook] Webhook dispatch event=catalog.version.updated
+[2025-08-14 10:33:04] [INFO] [SquareWebhook] Received Square webhook: catalog.version.updated
+[2025-08-14 10:33:04] [INFO] [SquareWebhook] enter handleCatalogUpdate
+[2025-08-14 10:33:04] [DEBUG] [SquareService] Square API 商品取得: ページ 1 カーソル: 初回
+[2025-08-14 10:33:05] [DEBUG] [SquareService] Square API 商品取得: ページ 1 で 100件取得
+[2025-08-14 10:33:05] [DEBUG] [SquareService] Square API 商品取得: ページ 2 カーソル: CAASGwoTMTIyMDgzODUyOjI3NjczNjAyNBIEEAE4ZA
+[2025-08-14 10:33:05] [DEBUG] [SquareService] Square API 商品取得: ページ 2 で 100件取得
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: ご宿泊代金
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: 体験コンテンツ
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: welcome セット
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: アーリーチェックイン
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#05-250720200341809513595
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#01-250707165337647099096
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#02-250804172553620987104
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: 朝食（1名様分）
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: コースディナー（1名様分）
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#01-250808171924393068826
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#02-250808205320426100328
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#13-250809175800890718850
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 10:33:05] [DEBUG] [SquareService] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 10:33:05] [DEBUG] [SquareService] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 10:33:07] ----- Webhook Received -----
+Headers: {"Host":"mobes.online","Connection":"close","Content-Length":"273","X-Forwarded-Host":"mobes.online","X-Forwarded-For":"54.245.1.154","X-Forwarded-Proto":"https","X-Backend":"spd110.phy.lolipop.lan","Accept":"*\/*","Content-Type":"application\/json","x-square-signature":"1KOBDH9OOwltKeD3Ahp2LkCaX9M=","x-square-hmacsha256-signature":"ELTEPLR0MIM3Wa3TIYIY94i0\/uyijzo44xHa2YJXWmE=","square-retry-number":"10","square-retry-reason":"http_error","square-version":"2025-04-16","User-Agent":"Square Connect v2","square-initial-delivery-timestamp":"2025-08-13T09:27:24Z","square-environment":"Production","square-subscription-id":"wbhk_13409f60ab3c47e5b120a0258fd370c6","Accept-Encoding":"gzip"}
+Body: {"merchant_id":"MLFP5X4SFQ4VD","type":"catalog.version.updated","event_id":"6dc3c45e-b4fa-3dfb-82ab-c15d43ad4453","created_at":"2025-08-13T09:27:24.087595286Z","data":{"type":"catalog_version","id":"","object":{"catalog_version":{"updated_at":"2025-08-13T09:27:21.963Z"}}}}
+
+[2025-08-14 10:33:07] [INFO] [SquareWebhook] 署名検証開始 headerTypes=HMAC256|SHA1 key=CeWJJu...
+[2025-08-14 10:33:07] [INFO] [SquareWebhook] SigCheck SHA256 recv=ELTEPLR0MIM3Wa3TIYIY94i0/uyijzo44xHa2YJXWmE= calcRaw=ELTEPLR0MIM3Wa3TIYIY94i0/uyijzo44xHa2YJXWmE= calcDec=axdMsr4digoxlw7yy7FIaGiZUAuMviNEYrK988PYXfE=
+[2025-08-14 10:33:07] [INFO] [SquareWebhook] Webhook dispatch event=catalog.version.updated
+[2025-08-14 10:33:07] [INFO] [SquareWebhook] Received Square webhook: catalog.version.updated
+[2025-08-14 10:33:07] [INFO] [SquareWebhook] enter handleCatalogUpdate
+[2025-08-14 10:33:07] [DEBUG] [SquareService] Square API 商品取得: ページ 1 カーソル: 初回
+[2025-08-14 10:33:08] [DEBUG] [SquareService] Square API 商品取得: ページ 1 で 100件取得
+[2025-08-14 10:33:08] [DEBUG] [SquareService] Square API 商品取得: ページ 2 カーソル: CAASGwoTMTIyMDgzODUyOjI3NjczNjAyNBIEEAE4ZA
+[2025-08-14 10:33:08] [DEBUG] [SquareService] Square API 商品取得: ページ 2 で 100件取得
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: ご宿泊代金
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: 体験コンテンツ
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: welcome セット
+[2025-08-14 10:33:08] ----- Webhook Received -----
+Headers: {"Host":"mobes.online","Connection":"close","Content-Length":"273","X-Forwarded-Host":"mobes.online","X-Forwarded-For":"54.245.1.154","X-Forwarded-Proto":"https","X-Backend":"spd110.phy.lolipop.lan","User-Agent":"Square Connect v2","square-initial-delivery-timestamp":"2025-08-14T01:17:00Z","x-square-signature":"otGv\/nEbxVqxSRhmOFTp9jHNkaI=","x-square-hmacsha256-signature":"gf2NR3bp44ytgQCZztv1X32ARwDueZcX0\/DezhkFOfE=","square-retry-number":"4","square-version":"2025-04-16","Accept":"*\/*","Content-Type":"application\/json","square-environment":"Production","square-retry-reason":"http_error","square-subscription-id":"wbhk_13409f60ab3c47e5b120a0258fd370c6","Accept-Encoding":"gzip"}
+Body: {"merchant_id":"MLFP5X4SFQ4VD","type":"catalog.version.updated","event_id":"e8e22720-3943-3955-86b9-313ad33bff6d","created_at":"2025-08-14T01:16:59.170994631Z","data":{"type":"catalog_version","id":"","object":{"catalog_version":{"updated_at":"2025-08-14T01:16:56.942Z"}}}}
+
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: アーリーチェックイン
+[2025-08-14 10:33:08] [INFO] [SquareWebhook] 署名検証開始 headerTypes=HMAC256|SHA1 key=CeWJJu...
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#05-250720200341809513595
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#01-250707165337647099096
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#02-250804172553620987104
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: 朝食（1名様分）
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: コースディナー（1名様分）
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#01-250808171924393068826
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#02-250808205320426100328
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#13-250809175800890718850
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 10:33:08] [DEBUG] [SquareService] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 10:33:08] [DEBUG] [SquareService] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 10:33:08] [INFO] [SquareWebhook] SigCheck SHA256 recv=gf2NR3bp44ytgQCZztv1X32ARwDueZcX0/DezhkFOfE= calcRaw=gf2NR3bp44ytgQCZztv1X32ARwDueZcX0/DezhkFOfE= calcDec=YW42VzP59ZPYHMZD3u4lxz6d1hNYA/wDYUadeTBpw40=
+[2025-08-14 10:33:08] [INFO] [SquareWebhook] Webhook dispatch event=catalog.version.updated
+[2025-08-14 10:33:08] [INFO] [SquareWebhook] Received Square webhook: catalog.version.updated
+[2025-08-14 10:33:08] [INFO] [SquareWebhook] enter handleCatalogUpdate
+[2025-08-14 10:33:08] [DEBUG] [SquareService] Square API 商品取得: ページ 1 カーソル: 初回
+[2025-08-14 10:33:08] [DEBUG] [SquareService] Square API 商品取得: ページ 1 で 100件取得
+[2025-08-14 10:33:08] [DEBUG] [SquareService] Square API 商品取得: ページ 2 カーソル: CAASGwoTMTIyMDgzODUyOjI3NjczNjAyNBIEEAE4ZA
+[2025-08-14 10:33:09] [DEBUG] [SquareService] Square API 商品取得: ページ 2 で 100件取得
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: ご宿泊代金
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: 体験コンテンツ
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: welcome セット
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: アーリーチェックイン
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#05-250720200341809513595
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#01-250707165337647099096
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#02-250804172553620987104
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: 朝食（1名様分）
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: コースディナー（1名様分）
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#01-250808171924393068826
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#02-250808205320426100328
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#13-250809175800890718850
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 10:33:09] [DEBUG] [SquareService] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 10:33:09] [DEBUG] [SquareService] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 10:33:11] ----- Webhook Received -----
+Headers: {"Host":"mobes.online","Connection":"close","Content-Length":"273","X-Forwarded-Host":"mobes.online","X-Forwarded-For":"54.245.1.154","X-Forwarded-Proto":"https","X-Backend":"spd110.phy.lolipop.lan","square-version":"2025-04-16","Accept":"*\/*","square-environment":"Production","x-square-signature":"1KOBDH9OOwltKeD3Ahp2LkCaX9M=","square-retry-number":"10","square-retry-reason":"http_error","square-subscription-id":"wbhk_13409f60ab3c47e5b120a0258fd370c6","User-Agent":"Square Connect v2","Content-Type":"application\/json","square-initial-delivery-timestamp":"2025-08-13T09:27:24Z","x-square-hmacsha256-signature":"ELTEPLR0MIM3Wa3TIYIY94i0\/uyijzo44xHa2YJXWmE=","Accept-Encoding":"gzip"}
+Body: {"merchant_id":"MLFP5X4SFQ4VD","type":"catalog.version.updated","event_id":"6dc3c45e-b4fa-3dfb-82ab-c15d43ad4453","created_at":"2025-08-13T09:27:24.087595286Z","data":{"type":"catalog_version","id":"","object":{"catalog_version":{"updated_at":"2025-08-13T09:27:21.963Z"}}}}
+
+[2025-08-14 10:33:11] [INFO] [SquareWebhook] 署名検証開始 headerTypes=HMAC256|SHA1 key=CeWJJu...
+[2025-08-14 10:33:11] [INFO] [SquareWebhook] SigCheck SHA256 recv=ELTEPLR0MIM3Wa3TIYIY94i0/uyijzo44xHa2YJXWmE= calcRaw=ELTEPLR0MIM3Wa3TIYIY94i0/uyijzo44xHa2YJXWmE= calcDec=axdMsr4digoxlw7yy7FIaGiZUAuMviNEYrK988PYXfE=
+[2025-08-14 10:33:11] [INFO] [SquareWebhook] Webhook dispatch event=catalog.version.updated
+[2025-08-14 10:33:11] [INFO] [SquareWebhook] Received Square webhook: catalog.version.updated
+[2025-08-14 10:33:11] [INFO] [SquareWebhook] enter handleCatalogUpdate
+[2025-08-14 10:33:11] [DEBUG] [SquareService] Square API 商品取得: ページ 1 カーソル: 初回
+[2025-08-14 10:33:12] [DEBUG] [SquareService] Square API 商品取得: ページ 1 で 100件取得
+[2025-08-14 10:33:12] [DEBUG] [SquareService] Square API 商品取得: ページ 2 カーソル: CAASGwoTMTIyMDgzODUyOjI3NjczNjAyNBIEEAE4ZA
+[2025-08-14 10:33:12] [DEBUG] [SquareService] Square API 商品取得: ページ 2 で 100件取得
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: ご宿泊代金
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: 体験コンテンツ
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: welcome セット
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: アーリーチェックイン
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#05-250720200341809513595
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#01-250707165337647099096
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#02-250804172553620987104
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: 朝食（1名様分）
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: コースディナー（1名様分）
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#01-250808171924393068826
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#02-250808205320426100328
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#13-250809175800890718850
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 10:33:12] [DEBUG] [SquareService] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 10:33:12] [DEBUG] [SquareService] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 10:33:56] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:33:56] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:33:56] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:33:56] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:33:56] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"e8e22720-3943-3955-86b9-313ad33bff6d\",\"created_at\":\"2025-08-14T01:16:59.170994631Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-14T01:16:56.942Z\"}}}}"}
+[2025-08-14 10:33:56] [INFO] [SquareWebhook] square_webhooks inserted id=7097
+[2025-08-14 10:33:57] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:33:57] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:33:57] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:33:57] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:33:57] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"6dc3c45e-b4fa-3dfb-82ab-c15d43ad4453\",\"created_at\":\"2025-08-13T09:27:24.087595286Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-13T09:27:21.963Z\"}}}}"}
+[2025-08-14 10:33:57] [INFO] [SquareWebhook] square_webhooks inserted id=7098
+[2025-08-14 10:33:59] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:34:00] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:34:00] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:34:00] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:34:00] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"e8e22720-3943-3955-86b9-313ad33bff6d\",\"created_at\":\"2025-08-14T01:16:59.170994631Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-14T01:16:56.942Z\"}}}}"}
+[2025-08-14 10:34:00] [INFO] [SquareWebhook] square_webhooks inserted id=7099
+[2025-08-14 10:34:04] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:34:04] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:34:04] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:34:04] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:34:04] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"6dc3c45e-b4fa-3dfb-82ab-c15d43ad4453\",\"created_at\":\"2025-08-13T09:27:24.087595286Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-13T09:27:21.963Z\"}}}}"}
+[2025-08-14 10:34:04] [INFO] [SquareWebhook] square_webhooks inserted id=7100
+[2025-08-14 10:34:19] ----- Webhook Received -----
+Headers: {"Host":"mobes.online","Connection":"close","Content-Length":"273","X-Forwarded-Host":"mobes.online","X-Forwarded-For":"54.245.1.154","X-Forwarded-Proto":"https","X-Backend":"spd110.phy.lolipop.lan","square-retry-reason":"http_error","square-subscription-id":"wbhk_13409f60ab3c47e5b120a0258fd370c6","square-version":"2025-04-16","User-Agent":"Square Connect v2","Accept":"*\/*","x-square-hmacsha256-signature":"4fK\/YGbxCXdjDwwVVQI+kQf3CfuuUcq\/iIeYnWqNY9o=","square-retry-number":"2","Content-Type":"application\/json","square-initial-delivery-timestamp":"2025-08-14T01:30:48Z","square-environment":"Production","x-square-signature":"iFIpoGJJCamDiU1RllT8qJ47x2g=","Accept-Encoding":"gzip"}
+Body: {"merchant_id":"MLFP5X4SFQ4VD","type":"catalog.version.updated","event_id":"29be1d7a-d750-3e3c-b1a3-288aceca5679","created_at":"2025-08-14T01:30:47.733131855Z","data":{"type":"catalog_version","id":"","object":{"catalog_version":{"updated_at":"2025-08-14T01:30:45.609Z"}}}}
+
+[2025-08-14 10:34:19] [INFO] [SquareWebhook] 署名検証開始 headerTypes=HMAC256|SHA1 key=CeWJJu...
+[2025-08-14 10:34:19] [INFO] [SquareWebhook] SigCheck SHA256 recv=4fK/YGbxCXdjDwwVVQI+kQf3CfuuUcq/iIeYnWqNY9o= calcRaw=4fK/YGbxCXdjDwwVVQI+kQf3CfuuUcq/iIeYnWqNY9o= calcDec=CXAgOJRSBA8CaGiS7DJZK4FXISVuw89Kl82RfDhAFe8=
+[2025-08-14 10:34:19] [INFO] [SquareWebhook] Webhook dispatch event=catalog.version.updated
+[2025-08-14 10:34:19] [INFO] [SquareWebhook] Received Square webhook: catalog.version.updated
+[2025-08-14 10:34:19] [INFO] [SquareWebhook] enter handleCatalogUpdate
+[2025-08-14 10:34:19] [DEBUG] [SquareService] Square API 商品取得: ページ 1 カーソル: 初回
+[2025-08-14 10:34:20] [DEBUG] [SquareService] Square API 商品取得: ページ 1 で 100件取得
+[2025-08-14 10:34:20] [DEBUG] [SquareService] Square API 商品取得: ページ 2 カーソル: CAASGwoTMTIyMDgzODUyOjI3NjczNjAyNBIEEAE4ZA
+[2025-08-14 10:34:20] [DEBUG] [SquareService] Square API 商品取得: ページ 2 で 100件取得
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: ご宿泊代金
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: 体験コンテンツ
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: welcome セット
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: アーリーチェックイン
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#05-250720200341809513595
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#01-250707165337647099096
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#02-250804172553620987104
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: 朝食（1名様分）
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: コースディナー（1名様分）
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#01-250808171924393068826
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#02-250808205320426100328
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#13-250809175800890718850
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 10:34:20] [DEBUG] [SquareService] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 10:34:20] [DEBUG] [SquareService] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 10:34:24] ----- Webhook Received -----
+Headers: {"Host":"mobes.online","Connection":"close","Content-Length":"273","X-Forwarded-Host":"mobes.online","X-Forwarded-For":"54.245.1.154","X-Forwarded-Proto":"https","X-Backend":"spd110.phy.lolipop.lan","square-version":"2025-04-16","User-Agent":"Square Connect v2","square-environment":"Production","x-square-signature":"iFIpoGJJCamDiU1RllT8qJ47x2g=","x-square-hmacsha256-signature":"4fK\/YGbxCXdjDwwVVQI+kQf3CfuuUcq\/iIeYnWqNY9o=","square-retry-number":"2","square-subscription-id":"wbhk_13409f60ab3c47e5b120a0258fd370c6","Accept":"*\/*","Content-Type":"application\/json","square-initial-delivery-timestamp":"2025-08-14T01:30:48Z","square-retry-reason":"http_error","Accept-Encoding":"gzip"}
+Body: {"merchant_id":"MLFP5X4SFQ4VD","type":"catalog.version.updated","event_id":"29be1d7a-d750-3e3c-b1a3-288aceca5679","created_at":"2025-08-14T01:30:47.733131855Z","data":{"type":"catalog_version","id":"","object":{"catalog_version":{"updated_at":"2025-08-14T01:30:45.609Z"}}}}
+
+[2025-08-14 10:34:24] [INFO] [SquareWebhook] 署名検証開始 headerTypes=HMAC256|SHA1 key=CeWJJu...
+[2025-08-14 10:34:24] [INFO] [SquareWebhook] SigCheck SHA256 recv=4fK/YGbxCXdjDwwVVQI+kQf3CfuuUcq/iIeYnWqNY9o= calcRaw=4fK/YGbxCXdjDwwVVQI+kQf3CfuuUcq/iIeYnWqNY9o= calcDec=CXAgOJRSBA8CaGiS7DJZK4FXISVuw89Kl82RfDhAFe8=
+[2025-08-14 10:34:24] [INFO] [SquareWebhook] Webhook dispatch event=catalog.version.updated
+[2025-08-14 10:34:24] [INFO] [SquareWebhook] Received Square webhook: catalog.version.updated
+[2025-08-14 10:34:24] [INFO] [SquareWebhook] enter handleCatalogUpdate
+[2025-08-14 10:34:24] [DEBUG] [SquareService] Square API 商品取得: ページ 1 カーソル: 初回
+[2025-08-14 10:34:24] [DEBUG] [SquareService] Square API 商品取得: ページ 1 で 100件取得
+[2025-08-14 10:34:24] [DEBUG] [SquareService] Square API 商品取得: ページ 2 カーソル: CAASGwoTMTIyMDgzODUyOjI3NjczNjAyNBIEEAE4ZA
+[2025-08-14 10:34:25] [DEBUG] [SquareService] Square API 商品取得: ページ 2 で 100件取得
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: ご宿泊代金
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: 体験コンテンツ
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: welcome セット
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: アーリーチェックイン
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#06-250720170713493856967
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#05-250720200341809513595
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#01-250707165337647099096
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#03-250720190824698731410
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#02-250804172553620987104
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: 朝食（1名様分）
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: コースディナー（1名様分）
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#04-250804182523577578304
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#11-250807173614014387973
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#01-250808171924393068826
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#02-250808205320426100328
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#13-250809175800890718850
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 10:34:25] [DEBUG] [SquareService] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 10:34:25] [DEBUG] [SquareService] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 10:35:10] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:35:11] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:35:11] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:35:11] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:35:11] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"29be1d7a-d750-3e3c-b1a3-288aceca5679\",\"created_at\":\"2025-08-14T01:30:47.733131855Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-14T01:30:45.609Z\"}}}}"}
+[2025-08-14 10:35:11] [INFO] [SquareWebhook] square_webhooks inserted id=7101
+[2025-08-14 10:35:16] [INFO] [ProductService] Processing 200 items from Square
+[2025-08-14 10:35:16] [INFO] [ProductService] Product sync completed: Added 0, Updated 200, Disabled 0, Errors 0
+[2025-08-14 10:35:16] [INFO] [SquareWebhook] Catalog sync result: {"added":0,"updated":200,"disabled":0,"errors":0}
+[2025-08-14 10:35:16] [INFO] [SquareWebhook] saveWebhookPayload start event=catalog.version.updated
+[2025-08-14 10:35:16] [INFO] [SquareWebhook] insert square_webhooks: {"event_type":"catalog.version.updated","square_order_id":null,"location_id":null,"payload":"{\"merchant_id\":\"MLFP5X4SFQ4VD\",\"type\":\"catalog.version.updated\",\"event_id\":\"29be1d7a-d750-3e3c-b1a3-288aceca5679\",\"created_at\":\"2025-08-14T01:30:47.733131855Z\",\"data\":{\"type\":\"catalog_version\",\"id\":\"\",\"object\":{\"catalog_version\":{\"updated_at\":\"2025-08-14T01:30:45.609Z\"}}}}"}
+[2025-08-14 10:35:16] [INFO] [SquareWebhook] square_webhooks inserted id=7102

@@ -1,0 +1,335 @@
+/* モバイル対応のベーススタイル */
+body { 
+    font-family: sans-serif; 
+    background: #f7f7f7; 
+    margin: 0;
+    padding: 0;
+}
+
+.container { 
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 1em;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+h1 { 
+    font-size: 1.3em; 
+    margin: 0.5em 0;
+    padding: 0 0.5em;
+}
+
+h2 { 
+    font-size: 1.1em; 
+    margin: 1em 0 0.5em;
+    color: #333;
+    padding: 0 0.5em;
+}
+
+/* フォーム要素のモバイル最適化 */
+select, input[type="text"], input[type="datetime-local"] {
+    width: 100%;
+    padding: 0.8em;
+    margin: 0.5em 0;
+    font-size: 16px; /* iOSでズームを防ぐ */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea { 
+    width: 100%;
+    height: 100px;
+    margin: 0.5em 0;
+    padding: 0.8em;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button { 
+    width: 100%;
+    padding: 1em;
+    font-size: 1em;
+    background: #2ecc40;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 1em 0;
+}
+
+/* ラジオボタンとラベルのスタイル */
+input[type="radio"] {
+    margin: 0.5em 0;
+}
+
+label {
+    display: block;
+    margin: 0.5em 0;
+    padding: 0.5em;
+}
+
+/* プレビューエリアのスタイル */
+#preview_area, #preview_area_set {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fff;
+}
+
+#preview_image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* アカウント情報のスタイル */
+.account-info {
+    background: #f8f9fa;
+    padding: 1em;
+    border-radius: 4px;
+    margin: 1em 0;
+}
+
+.account-info dl {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.account-info dt {
+    font-weight: bold;
+    color: #666;
+    margin-top: 0.5em;
+}
+
+.account-info dd {
+    margin: 0 0 0.5em 0;
+    padding: 0 0.5em;
+}
+
+/* 結果表示のスタイル */
+.result {
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 4px;
+}
+
+.success {
+    color: #2ecc40;
+    background: #f0fff0;
+    padding: 0.5em;
+    border-radius: 4px;
+}
+
+.error {
+    color: #e74c3c;
+    background: #fff0f0;
+    padding: 0.5em;
+    border-radius: 4px;
+}
+
+/* テンプレート選択エリア */
+#single_template_area, #set_template_area {
+    margin: 1em 0;
+}
+
+/* 送信タイミング選択エリア */
+#reserve_time_area {
+    margin: 1em 0;
+    padding: 1em;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+
+/* ユーザー選択エリア */
+#user_select_area {
+    margin: 1em 0;
+    padding: 1em;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+
+/* メディアクエリ - タブレット以上 */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 2em;
+    }
+
+    .account-info dl {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        gap: 0.5em;
+    }
+
+    button {
+        width: auto;
+        padding: 0.7em 2em;
+    }
+}
+
+/* ローディングインジケータ */
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    display: none;
+}
+
+.loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #2ecc40;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* プレビュー関連のスタイル改善 */
+.preview-content {
+    background: #fff;
+    padding: 1em;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin: 1em 0;
+}
+
+.preview-url {
+    margin-top: 0.5em;
+    font-size: 0.9em;
+    color: #888;
+    word-break: break-all;
+}
+
+.preview-link-item {
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+
+.preview-link {
+    color: #0066cc;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+.preview-set-item {
+    margin-bottom: 2em;
+    padding: 1em;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+
+.preview-set-item h4 {
+    margin: 0 0 1em 0;
+    color: #333;
+}
+
+/* フォーム要素の改善 */
+.form-group {
+    margin-bottom: 1.5em;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    padding: 0.5em;
+    background: #f8f9fa;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.radio-group input[type="radio"] {
+    margin: 0;
+}
+
+/* エラーメッセージの改善 */
+.error-message {
+    color: #e74c3c;
+    background: #fff0f0;
+    padding: 0.8em;
+    border-radius: 4px;
+    margin: 0.5em 0;
+    font-size: 0.9em;
+}
+
+/* 成功メッセージの改善 */
+.success-message {
+    color: #2ecc40;
+    background: #f0fff0;
+    padding: 0.8em;
+    border-radius: 4px;
+    margin: 0.5em 0;
+    font-size: 0.9em;
+}
+
+/* タッチ操作の改善 */
+@media (hover: none) {
+    button, select, input[type="submit"] {
+        min-height: 44px; /* タッチターゲットの最小サイズ */
+    }
+    
+    .radio-group label {
+        min-height: 44px;
+    }
+}
+
+/* Apple風セグメントコントロール */
+.segmented-control {
+  display: flex;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  margin-bottom: 1.5em;
+  background: #f8f9fa;
+}
+.segmented-control input[type="radio"] {
+  display: none;
+}
+.segmented-control label {
+  flex: 1;
+  text-align: center;
+  padding: 0.8em 0;
+  background: #f8f9fa;
+  color: #333;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  font-weight: 500;
+  user-select: none;
+  border-right: 1px solid #ddd;
+}
+.segmented-control label:last-child {
+  border-right: none;
+}
+.segmented-control input[type="radio"]:checked + label {
+  background: #fff;
+  color: #007aff;
+  box-shadow: 0 2px 8px #e0e0e0;
+  font-weight: bold;
+} 

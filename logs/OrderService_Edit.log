@@ -1,0 +1,402 @@
+[2025-06-15 17:50:18] [INFO] editOrder called for order_id=224 items=[{"detail_id":403,"quantity":1,"delete":true},{"detail_id":404,"quantity":1,"delete":true}]
+[2025-06-15 17:50:18] [INFO] detail 403 deleted
+[2025-06-15 17:50:18] [INFO] detail 404 deleted
+[2025-06-15 17:50:18] [INFO] order 224 removed because total 0 or no details
+[2025-06-15 17:50:32] [INFO] editOrder called for order_id=226 items=[{"detail_id":406,"quantity":1,"delete":true},{"detail_id":407,"quantity":1,"delete":true}]
+[2025-06-15 17:50:32] [INFO] detail 406 deleted
+[2025-06-15 17:50:32] [INFO] detail 407 deleted
+[2025-06-15 17:50:32] [INFO] order 226 removed because total 0 or no details
+[2025-06-15 17:51:19] [INFO] editOrder called for order_id=225 items=[{"detail_id":405,"quantity":1,"delete":true}]
+[2025-06-15 17:51:19] [INFO] detail 405 deleted
+[2025-06-15 17:51:19] [INFO] order 225 removed because total 0 or no details
+[2025-06-15 18:20:16] [INFO] editOrder called for order_id=245 items=[{"detail_id":434,"quantity":1,"delete":true}]
+[2025-06-15 18:20:16] [INFO] detail 434 deleted
+[2025-06-15 18:20:16] [INFO] order 245 removed because total 0 or no details
+[2025-06-27 19:15:50] [INFO] editOrder called for order_id=255 items=[{"detail_id":456,"quantity":1,"delete":false},{"detail_id":457,"quantity":2,"delete":false}]
+[2025-06-27 19:15:50] [INFO] detail 456 updated qty=1 subtotal=2500
+[2025-06-27 19:15:50] [INFO] detail 457 updated qty=2 subtotal=-4600
+[2025-06-27 19:15:50] [INFO] order 255 removed because total 0 or no details
+[2025-06-27 19:16:24] [INFO] editOrder called for order_id=254 items=[{"detail_id":455,"quantity":2,"delete":false}]
+[2025-06-27 19:16:24] [INFO] detail 455 updated qty=2 subtotal=-60000
+[2025-06-27 19:16:24] [INFO] order 254 removed because total 0 or no details
+[2025-06-27 19:16:45] [INFO] editOrder called for order_id=253 items=[{"detail_id":447,"quantity":2,"delete":false},{"detail_id":448,"quantity":1,"delete":false},{"detail_id":449,"quantity":1,"delete":false},{"detail_id":450,"quantity":1,"delete":false},{"detail_id":451,"quantity":2,"delete":false},{"detail_id":452,"quantity":1,"delete":false},{"detail_id":453,"quantity":1,"delete":false},{"detail_id":454,"quantity":1,"delete":false}]
+[2025-06-27 19:16:45] [INFO] detail 447 updated qty=2 subtotal=220000
+[2025-06-27 19:16:45] [INFO] detail 448 updated qty=1 subtotal=2500
+[2025-06-27 19:16:45] [INFO] detail 449 updated qty=1 subtotal=1300
+[2025-06-27 19:16:45] [INFO] detail 450 updated qty=1 subtotal=1100
+[2025-06-27 19:16:45] [INFO] detail 451 updated qty=2 subtotal=1000
+[2025-06-27 19:16:45] [INFO] detail 452 updated qty=1 subtotal=700
+[2025-06-27 19:16:45] [INFO] detail 453 updated qty=1 subtotal=1500
+[2025-06-27 19:16:45] [INFO] detail 454 updated qty=1 subtotal=500
+[2025-06-27 19:16:45] [INFO] order 253 updated new_total=228600
+[2025-06-28 17:38:43] [INFO] editOrder called for order_id=244 items=[{"detail_id":433,"quantity":1,"delete":true}]
+[2025-06-28 17:38:43] [INFO] detail 433 deleted
+[2025-06-28 17:38:43] [INFO] order 244 removed because total 0 or no details
+[2025-06-28 17:38:51] [INFO] editOrder called for order_id=243 items=[{"detail_id":432,"quantity":1,"delete":true}]
+[2025-06-28 17:38:51] [INFO] detail 432 deleted
+[2025-06-28 17:38:51] [INFO] order 243 removed because total 0 or no details
+[2025-07-12 21:59:52] [INFO] editOrder called for order_id=242 items=[{"detail_id":431,"quantity":1,"delete":true}]
+[2025-07-12 21:59:52] [INFO] detail 431 deleted
+[2025-07-12 21:59:52] [INFO] order 242 removed because total 0 or no details
+[2025-07-12 21:59:59] [INFO] editOrder called for order_id=241 items=[{"detail_id":430,"quantity":2,"delete":false}]
+[2025-07-12 21:59:59] [INFO] detail 430 updated qty=2 subtotal=800
+[2025-07-12 21:59:59] [INFO] order 241 updated new_total=800
+[2025-07-12 22:00:07] [INFO] editOrder called for order_id=241 items=[{"detail_id":430,"quantity":2,"delete":true}]
+[2025-07-12 22:00:07] [INFO] detail 430 deleted
+[2025-07-12 22:00:07] [INFO] order 241 removed because total 0 or no details
+[2025-07-12 22:00:13] [INFO] editOrder called for order_id=239 items=[{"detail_id":428,"quantity":1,"delete":true}]
+[2025-07-12 22:00:13] [INFO] detail 428 deleted
+[2025-07-12 22:00:13] [INFO] order 239 removed because total 0 or no details
+[2025-07-12 22:00:18] [INFO] editOrder called for order_id=240 items=[{"detail_id":429,"quantity":1,"delete":true}]
+[2025-07-12 22:00:18] [INFO] detail 429 deleted
+[2025-07-12 22:00:18] [INFO] order 240 removed because total 0 or no details
+[2025-07-12 22:00:24] [INFO] editOrder called for order_id=238 items=[{"detail_id":427,"quantity":1,"delete":true}]
+[2025-07-12 22:00:24] [INFO] detail 427 deleted
+[2025-07-12 22:00:24] [INFO] order 238 removed because total 0 or no details
+[2025-07-13 16:32:12] [INFO] editOrder called for order_id=256 items=[{"detail_id":458,"quantity":1,"delete":true},{"detail_id":459,"quantity":1,"delete":true}]
+[2025-07-13 16:32:12] [INFO] detail 458 deleted
+[2025-07-13 16:32:12] [INFO] detail 459 deleted
+[2025-07-13 16:32:12] [INFO] order 256 removed because total 0 or no details
+[2025-07-20 16:35:05] [INFO] editOrder called for order_id=259 items=[{"detail_id":462,"quantity":2,"delete":true},{"detail_id":463,"quantity":1,"delete":true}]
+[2025-07-20 16:35:05] [INFO] detail 462 deleted
+[2025-07-20 16:35:05] [INFO] detail 463 deleted
+[2025-07-20 16:35:05] [INFO] order 259 removed because total 0 or no details
+[2025-07-20 16:35:15] [INFO] editOrder called for order_id=257 items=[{"detail_id":460,"quantity":1,"delete":true}]
+[2025-07-20 16:35:15] [INFO] detail 460 deleted
+[2025-07-20 16:35:15] [INFO] order 257 removed because total 0 or no details
+[2025-07-20 20:09:00] [INFO] editOrder called for order_id=275 items=[{"detail_id":497,"quantity":4,"delete":true}]
+[2025-07-20 20:09:00] [INFO] detail 497 deleted
+[2025-07-20 20:09:00] [INFO] order 275 removed because total 0 or no details
+[2025-07-20 20:12:30] [INFO] editOrder called for order_id=273 items=[{"detail_id":494,"quantity":2,"delete":true},{"detail_id":495,"quantity":2,"delete":true}]
+[2025-07-20 20:12:30] [INFO] detail 494 deleted
+[2025-07-20 20:12:30] [INFO] detail 495 deleted
+[2025-07-20 20:12:30] [INFO] order 273 removed because total 0 or no details
+[2025-07-22 09:56:39] [INFO] editOrder called for order_id=252 items=[{"detail_id":444,"quantity":1,"delete":true},{"detail_id":445,"quantity":2,"delete":true},{"detail_id":446,"quantity":1,"delete":true}]
+[2025-07-22 09:56:39] [INFO] detail 444 deleted
+[2025-07-22 09:56:39] [INFO] detail 445 deleted
+[2025-07-22 09:56:39] [INFO] detail 446 deleted
+[2025-07-22 09:56:39] [INFO] order 252 removed because total 0 or no details
+[2025-07-22 09:56:46] [INFO] editOrder called for order_id=258 items=[{"detail_id":461,"quantity":1,"delete":true}]
+[2025-07-22 09:56:46] [INFO] detail 461 deleted
+[2025-07-22 09:56:46] [INFO] order 258 removed because total 0 or no details
+[2025-07-22 09:58:40] [INFO] editOrder called for order_id=279 items=[{"detail_id":502,"quantity":1,"delete":true}]
+[2025-07-22 09:58:40] [INFO] detail 502 deleted
+[2025-07-22 09:58:40] [INFO] order 279 removed because total 0 or no details
+[2025-07-26 18:05:44] [INFO] editOrder called for order_id=265 items=[{"detail_id":475,"quantity":1,"delete":true},{"detail_id":476,"quantity":1,"delete":true},{"detail_id":477,"quantity":1,"delete":true}]
+[2025-07-26 18:05:44] [INFO] detail 475 deleted
+[2025-07-26 18:05:44] [INFO] detail 476 deleted
+[2025-07-26 18:05:44] [INFO] detail 477 deleted
+[2025-07-26 18:05:44] [INFO] order 265 removed because total 0 or no details
+[2025-07-26 18:05:52] [INFO] editOrder called for order_id=266 items=[{"detail_id":478,"quantity":1,"delete":true}]
+[2025-07-26 18:05:52] [INFO] detail 478 deleted
+[2025-07-26 18:05:52] [INFO] order 266 removed because total 0 or no details
+[2025-07-26 18:06:03] [INFO] editOrder called for order_id=267 items=[{"detail_id":479,"quantity":2,"delete":true}]
+[2025-07-26 18:06:03] [INFO] detail 479 deleted
+[2025-07-26 18:06:03] [INFO] order 267 removed because total 0 or no details
+[2025-07-26 18:06:11] [INFO] editOrder called for order_id=271 items=[{"detail_id":492,"quantity":1,"delete":true}]
+[2025-07-26 18:06:11] [INFO] detail 492 deleted
+[2025-07-26 18:06:11] [INFO] order 271 removed because total 0 or no details
+[2025-07-26 18:06:18] [INFO] editOrder called for order_id=272 items=[{"detail_id":493,"quantity":1,"delete":true}]
+[2025-07-26 18:06:18] [INFO] detail 493 deleted
+[2025-07-26 18:06:18] [INFO] order 272 removed because total 0 or no details
+[2025-07-31 13:58:13] [INFO] editOrder called for order_id=276 items=[{"detail_id":498,"quantity":2,"delete":true},{"detail_id":499,"quantity":2,"delete":true}]
+[2025-07-31 13:58:13] [INFO] detail 498 deleted
+[2025-07-31 13:58:13] [INFO] detail 499 deleted
+[2025-07-31 13:58:13] [INFO] order 276 removed because total 0 or no details
+[2025-07-31 13:58:20] [INFO] editOrder called for order_id=268 items=[{"detail_id":480,"quantity":1,"delete":false}]
+[2025-07-31 13:58:20] [INFO] detail 480 updated qty=1 subtotal=700
+[2025-07-31 13:58:20] [INFO] order 268 updated new_total=700
+[2025-07-31 13:58:27] [INFO] editOrder called for order_id=268 items=[{"detail_id":480,"quantity":1,"delete":true}]
+[2025-07-31 13:58:27] [INFO] detail 480 deleted
+[2025-07-31 13:58:27] [INFO] order 268 removed because total 0 or no details
+[2025-08-01 09:44:56] [INFO] editOrder called for order_id=282 items=[{"detail_id":510,"quantity":2,"delete":false}]
+[2025-08-01 09:44:56] [INFO] detail 510 updated qty=2 subtotal=4000
+[2025-08-01 09:44:56] [INFO] order 282 updated new_total=4000
+[2025-08-01 09:57:27] [INFO] editOrder called for order_id=282 items=[{"detail_id":510,"quantity":1,"delete":false}]
+[2025-08-01 09:57:27] [INFO] detail 510 updated qty=1 subtotal=2000
+[2025-08-01 09:57:27] [INFO] order 282 updated new_total=2000
+[2025-08-03 16:19:30] [INFO] editOrder called for order_id=278 items=[{"detail_id":501,"quantity":2,"delete":true}]
+[2025-08-03 16:19:30] [INFO] detail 501 deleted
+[2025-08-03 16:19:30] [INFO] order 278 removed because total 0 or no details
+[2025-08-03 16:19:50] [INFO] editOrder called for order_id=269 items=[{"detail_id":481,"quantity":1,"delete":true},{"detail_id":482,"quantity":1,"delete":true},{"detail_id":483,"quantity":1,"delete":true},{"detail_id":484,"quantity":1,"delete":true},{"detail_id":485,"quantity":1,"delete":true},{"detail_id":486,"quantity":1,"delete":true},{"detail_id":487,"quantity":1,"delete":true},{"detail_id":488,"quantity":1,"delete":true},{"detail_id":489,"quantity":1,"delete":true},{"detail_id":490,"quantity":1,"delete":true}]
+[2025-08-03 16:19:50] [INFO] detail 481 deleted
+[2025-08-03 16:19:50] [INFO] detail 482 deleted
+[2025-08-03 16:19:50] [INFO] detail 483 deleted
+[2025-08-03 16:19:50] [INFO] detail 484 deleted
+[2025-08-03 16:19:50] [INFO] detail 485 deleted
+[2025-08-03 16:19:50] [INFO] detail 486 deleted
+[2025-08-03 16:19:50] [INFO] detail 487 deleted
+[2025-08-03 16:19:50] [INFO] detail 488 deleted
+[2025-08-03 16:19:50] [INFO] detail 489 deleted
+[2025-08-03 16:19:50] [INFO] detail 490 deleted
+[2025-08-03 16:19:50] [INFO] order 269 removed because total 0 or no details
+[2025-08-03 16:19:57] [INFO] editOrder called for order_id=277 items=[{"detail_id":500,"quantity":1,"delete":false}]
+[2025-08-03 16:19:57] [INFO] detail 500 updated qty=1 subtotal=1200
+[2025-08-03 16:19:57] [INFO] order 277 updated new_total=1200
+[2025-08-03 16:20:01] [INFO] editOrder called for order_id=277 items=[{"detail_id":500,"quantity":1,"delete":false}]
+[2025-08-03 16:20:01] [INFO] detail 500 updated qty=1 subtotal=1200
+[2025-08-03 16:20:01] [INFO] order 277 updated new_total=1200
+[2025-08-03 16:20:05] [INFO] editOrder called for order_id=277 items=[{"detail_id":500,"quantity":1,"delete":false}]
+[2025-08-03 16:20:05] [INFO] detail 500 updated qty=1 subtotal=1200
+[2025-08-03 16:20:05] [INFO] order 277 updated new_total=1200
+[2025-08-03 16:20:08] [INFO] editOrder called for order_id=277 items=[{"detail_id":500,"quantity":1,"delete":false}]
+[2025-08-03 16:20:08] [INFO] detail 500 updated qty=1 subtotal=1200
+[2025-08-03 16:20:08] [INFO] order 277 updated new_total=1200
+[2025-08-03 16:20:14] [INFO] editOrder called for order_id=277 items=[{"detail_id":500,"quantity":1,"delete":true}]
+[2025-08-03 16:20:14] [INFO] detail 500 deleted
+[2025-08-03 16:20:14] [INFO] order 277 removed because total 0 or no details
+[2025-08-03 16:20:19] [INFO] editOrder called for order_id=274 items=[{"detail_id":496,"quantity":1,"delete":false}]
+[2025-08-03 16:20:19] [INFO] detail 496 updated qty=1 subtotal=600
+[2025-08-03 16:20:19] [INFO] order 274 updated new_total=600
+[2025-08-03 16:20:24] [INFO] editOrder called for order_id=274 items=[{"detail_id":496,"quantity":1,"delete":true}]
+[2025-08-03 16:20:24] [INFO] detail 496 deleted
+[2025-08-03 16:20:24] [INFO] order 274 removed because total 0 or no details
+[2025-08-03 16:20:29] [INFO] editOrder called for order_id=270 items=[{"detail_id":491,"quantity":1,"delete":true}]
+[2025-08-03 16:20:29] [INFO] detail 491 deleted
+[2025-08-03 16:20:29] [INFO] order 270 removed because total 0 or no details
+[2025-08-04 17:17:05] [INFO] editOrder called for order_id=283 items=[{"detail_id":511,"quantity":2,"delete":true},{"detail_id":512,"quantity":1,"delete":true},{"detail_id":513,"quantity":1,"delete":true},{"detail_id":514,"quantity":1,"delete":true},{"detail_id":515,"quantity":1,"delete":true}]
+[2025-08-04 17:17:05] [INFO] detail 511 deleted
+[2025-08-04 17:17:05] [INFO] detail 512 deleted
+[2025-08-04 17:17:05] [INFO] detail 513 deleted
+[2025-08-04 17:17:05] [INFO] detail 514 deleted
+[2025-08-04 17:17:05] [INFO] detail 515 deleted
+[2025-08-04 17:17:05] [INFO] order 283 removed because total 0 or no details
+[2025-08-04 17:17:10] [INFO] editOrder called for order_id=282 items=[{"detail_id":510,"quantity":1,"delete":true}]
+[2025-08-04 17:17:10] [INFO] detail 510 deleted
+[2025-08-04 17:17:10] [INFO] order 282 removed because total 0 or no details
+[2025-08-04 17:17:21] [INFO] editOrder called for order_id=281 items=[{"detail_id":504,"quantity":1,"delete":true},{"detail_id":505,"quantity":1,"delete":true},{"detail_id":506,"quantity":1,"delete":true},{"detail_id":507,"quantity":1,"delete":true},{"detail_id":508,"quantity":1,"delete":true},{"detail_id":509,"quantity":1,"delete":true}]
+[2025-08-04 17:17:21] [INFO] detail 504 deleted
+[2025-08-04 17:17:21] [INFO] detail 505 deleted
+[2025-08-04 17:17:21] [INFO] detail 506 deleted
+[2025-08-04 17:17:21] [INFO] detail 507 deleted
+[2025-08-04 17:17:21] [INFO] detail 508 deleted
+[2025-08-04 17:17:21] [INFO] detail 509 deleted
+[2025-08-04 17:17:21] [INFO] order 281 removed because total 0 or no details
+[2025-08-04 17:17:34] [INFO] editOrder called for order_id=280 items=[{"detail_id":503,"quantity":1,"delete":true}]
+[2025-08-04 17:17:34] [INFO] detail 503 deleted
+[2025-08-04 17:17:34] [INFO] order 280 removed because total 0 or no details
+[2025-08-04 18:26:14] [INFO] editOrder called for order_id=264 items=[{"detail_id":472,"quantity":1,"delete":true},{"detail_id":473,"quantity":1,"delete":true},{"detail_id":474,"quantity":1,"delete":true}]
+[2025-08-04 18:26:14] [INFO] detail 472 deleted
+[2025-08-04 18:26:14] [INFO] detail 473 deleted
+[2025-08-04 18:26:14] [INFO] detail 474 deleted
+[2025-08-04 18:26:14] [INFO] order 264 removed because total 0 or no details
+[2025-08-04 18:26:19] [INFO] editOrder called for order_id=263 items=[{"detail_id":471,"quantity":1,"delete":true}]
+[2025-08-04 18:26:19] [INFO] detail 471 deleted
+[2025-08-04 18:26:19] [INFO] order 263 removed because total 0 or no details
+[2025-08-04 18:26:27] [INFO] editOrder called for order_id=262 items=[{"detail_id":470,"quantity":1,"delete":true}]
+[2025-08-04 18:26:27] [INFO] detail 470 deleted
+[2025-08-04 18:26:27] [INFO] order 262 removed because total 0 or no details
+[2025-08-04 18:26:36] [INFO] editOrder called for order_id=261 items=[{"detail_id":466,"quantity":1,"delete":true},{"detail_id":467,"quantity":1,"delete":true},{"detail_id":468,"quantity":1,"delete":true},{"detail_id":469,"quantity":1,"delete":true}]
+[2025-08-04 18:26:36] [INFO] detail 466 deleted
+[2025-08-04 18:26:36] [INFO] detail 467 deleted
+[2025-08-04 18:26:36] [INFO] detail 468 deleted
+[2025-08-04 18:26:36] [INFO] detail 469 deleted
+[2025-08-04 18:26:36] [INFO] order 261 removed because total 0 or no details
+[2025-08-04 18:26:48] [INFO] editOrder called for order_id=260 items=[{"detail_id":464,"quantity":1,"delete":true},{"detail_id":465,"quantity":1,"delete":true}]
+[2025-08-04 18:26:48] [INFO] detail 464 deleted
+[2025-08-04 18:26:48] [INFO] detail 465 deleted
+[2025-08-04 18:26:48] [INFO] order 260 removed because total 0 or no details
+[2025-08-06 11:24:13] [INFO] editOrder called for order_id=291 items=[{"detail_id":529,"quantity":2,"delete":false}]
+[2025-08-06 11:24:13] [INFO] detail 529 updated qty=2 subtotal=4000
+[2025-08-06 11:24:13] [INFO] order 291 updated new_total=4000
+[2025-08-06 11:32:32] [INFO] editOrder called for order_id=291 items=[{"detail_id":529,"quantity":1,"delete":false}]
+[2025-08-06 11:32:32] [INFO] detail 529 updated qty=1 subtotal=2000
+[2025-08-06 11:32:32] [INFO] order 291 updated new_total=2000
+[2025-08-08 19:17:47] [INFO] editOrder called for order_id=289 items=[{"detail_id":525,"quantity":1,"delete":true}]
+[2025-08-08 19:17:47] [INFO] detail 525 deleted
+[2025-08-08 19:17:47] [INFO] order 289 removed because total 0 or no details
+[2025-08-08 19:17:57] [INFO] editOrder called for order_id=287 items=[{"detail_id":521,"quantity":1,"delete":true},{"detail_id":522,"quantity":1,"delete":true},{"detail_id":523,"quantity":1,"delete":true}]
+[2025-08-08 19:17:57] [INFO] detail 521 deleted
+[2025-08-08 19:17:57] [INFO] detail 522 deleted
+[2025-08-08 19:17:57] [INFO] detail 523 deleted
+[2025-08-08 19:17:57] [INFO] order 287 removed because total 0 or no details
+[2025-08-09 16:17:41] [INFO] editOrder called for order_id=299 items=[{"detail_id":545,"quantity":3,"delete":true},{"detail_id":546,"quantity":1,"delete":true},{"detail_id":547,"quantity":1,"delete":true}]
+[2025-08-09 16:17:41] [INFO] detail 545 deleted
+[2025-08-09 16:17:41] [INFO] detail 546 deleted
+[2025-08-09 16:17:41] [INFO] detail 547 deleted
+[2025-08-09 16:17:41] [INFO] order 299 removed because total 0 or no details
+[2025-08-09 17:10:49] [INFO] editOrder called for order_id=284 items=[{"detail_id":516,"quantity":1,"delete":true},{"detail_id":517,"quantity":1,"delete":true},{"detail_id":518,"quantity":1,"delete":true}]
+[2025-08-09 17:10:49] [INFO] detail 516 deleted
+[2025-08-09 17:10:49] [INFO] detail 517 deleted
+[2025-08-09 17:10:49] [INFO] detail 518 deleted
+[2025-08-09 17:10:49] [INFO] order 284 removed because total 0 or no details
+[2025-08-09 17:46:26] [INFO] editOrder called for order_id=298 items=[{"detail_id":543,"quantity":1,"delete":true},{"detail_id":544,"quantity":1,"delete":true}]
+[2025-08-09 17:46:26] [INFO] detail 543 deleted
+[2025-08-09 17:46:26] [INFO] detail 544 deleted
+[2025-08-09 17:46:26] [INFO] order 298 removed because total 0 or no details
+[2025-08-09 17:46:43] [INFO] editOrder called for order_id=297 items=[{"detail_id":542,"quantity":1,"delete":true}]
+[2025-08-09 17:46:43] [INFO] detail 542 deleted
+[2025-08-09 17:46:43] [INFO] order 297 removed because total 0 or no details
+[2025-08-09 17:46:50] [INFO] editOrder called for order_id=251 items=[{"detail_id":443,"quantity":1,"delete":true}]
+[2025-08-09 17:46:50] [INFO] detail 443 deleted
+[2025-08-09 17:46:50] [INFO] order 251 removed because total 0 or no details
+[2025-08-09 17:46:55] [INFO] editOrder called for order_id=250 items=[{"detail_id":441,"quantity":2,"delete":true},{"detail_id":442,"quantity":1,"delete":true}]
+[2025-08-09 17:46:55] [INFO] detail 441 deleted
+[2025-08-09 17:46:55] [INFO] detail 442 deleted
+[2025-08-09 17:46:55] [INFO] order 250 removed because total 0 or no details
+[2025-08-09 17:47:02] [INFO] editOrder called for order_id=248 items=[{"detail_id":439,"quantity":1,"delete":true}]
+[2025-08-09 17:47:02] [INFO] detail 439 deleted
+[2025-08-09 17:47:02] [INFO] order 248 removed because total 0 or no details
+[2025-08-09 17:47:09] [INFO] editOrder called for order_id=249 items=[{"detail_id":440,"quantity":1,"delete":true}]
+[2025-08-09 17:47:09] [INFO] detail 440 deleted
+[2025-08-09 17:47:09] [INFO] order 249 removed because total 0 or no details
+[2025-08-09 17:47:15] [INFO] editOrder called for order_id=247 items=[{"detail_id":436,"quantity":1,"delete":true},{"detail_id":437,"quantity":3,"delete":true},{"detail_id":438,"quantity":1,"delete":true}]
+[2025-08-09 17:47:15] [INFO] detail 436 deleted
+[2025-08-09 17:47:15] [INFO] detail 437 deleted
+[2025-08-09 17:47:15] [INFO] detail 438 deleted
+[2025-08-09 17:47:15] [INFO] order 247 removed because total 0 or no details
+[2025-08-09 17:47:23] [INFO] editOrder called for order_id=246 items=[{"detail_id":435,"quantity":4,"delete":true}]
+[2025-08-09 17:47:23] [INFO] detail 435 deleted
+[2025-08-09 17:47:23] [INFO] order 246 removed because total 0 or no details
+[2025-08-09 17:47:32] [INFO] editOrder called for order_id=292 items=[{"detail_id":530,"quantity":1,"delete":true}]
+[2025-08-09 17:47:32] [INFO] detail 530 deleted
+[2025-08-09 17:47:32] [INFO] order 292 removed because total 0 or no details
+[2025-08-09 17:47:35] [INFO] editOrder called for order_id=291 items=[{"detail_id":529,"quantity":1,"delete":false}]
+[2025-08-09 17:47:35] [INFO] detail 529 updated qty=1 subtotal=2000
+[2025-08-09 17:47:35] [INFO] order 291 updated new_total=2000
+[2025-08-09 17:47:39] [INFO] editOrder called for order_id=291 items=[{"detail_id":529,"quantity":1,"delete":false}]
+[2025-08-09 17:47:39] [INFO] detail 529 updated qty=1 subtotal=2000
+[2025-08-09 17:47:39] [INFO] order 291 updated new_total=2000
+[2025-08-09 17:47:45] [INFO] editOrder called for order_id=291 items=[{"detail_id":529,"quantity":1,"delete":true}]
+[2025-08-09 17:47:45] [INFO] detail 529 deleted
+[2025-08-09 17:47:45] [INFO] order 291 removed because total 0 or no details
+[2025-08-09 17:47:52] [INFO] editOrder called for order_id=290 items=[{"detail_id":526,"quantity":2,"delete":true},{"detail_id":527,"quantity":1,"delete":true},{"detail_id":528,"quantity":1,"delete":true}]
+[2025-08-09 17:47:52] [INFO] detail 526 deleted
+[2025-08-09 17:47:52] [INFO] detail 527 deleted
+[2025-08-09 17:47:52] [INFO] detail 528 deleted
+[2025-08-09 17:47:52] [INFO] order 290 removed because total 0 or no details
+[2025-08-09 17:47:59] [INFO] editOrder called for order_id=288 items=[{"detail_id":524,"quantity":1,"delete":true}]
+[2025-08-09 17:47:59] [INFO] detail 524 deleted
+[2025-08-09 17:47:59] [INFO] order 288 removed because total 0 or no details
+[2025-08-09 18:14:06] [INFO] editOrder called for order_id=286 items=[{"detail_id":520,"quantity":1,"delete":true}]
+[2025-08-09 18:14:06] [INFO] detail 520 deleted
+[2025-08-09 18:14:06] [INFO] order 286 removed because total 0 or no details
+[2025-08-09 18:14:17] [INFO] editOrder called for order_id=285 items=[{"detail_id":519,"quantity":1,"delete":true}]
+[2025-08-09 18:14:17] [INFO] detail 519 deleted
+[2025-08-09 18:14:17] [INFO] order 285 removed because total 0 or no details
+[2025-08-10 15:54:31] [INFO] editOrder called for order_id=301 items=[{"detail_id":550,"quantity":2,"delete":true}]
+[2025-08-10 15:54:31] [INFO] detail 550 deleted
+[2025-08-10 15:54:31] [INFO] order 301 removed because total 0 or no details
+[2025-08-10 15:56:10] [INFO] editOrder called for order_id=303 items=[{"detail_id":552,"quantity":1,"delete":true}]
+[2025-08-10 15:56:10] [INFO] detail 552 deleted
+[2025-08-10 15:56:10] [INFO] order 303 removed because total 0 or no details
+[2025-08-10 15:56:31] [INFO] editOrder called for order_id=304 items=[{"detail_id":553,"quantity":1,"delete":true}]
+[2025-08-10 15:56:31] [INFO] detail 553 deleted
+[2025-08-10 15:56:31] [INFO] order 304 removed because total 0 or no details
+[2025-08-10 17:06:32] [INFO] editOrder called for order_id=302 items=[{"detail_id":551,"quantity":1,"delete":false}]
+[2025-08-10 17:06:32] [INFO] detail 551 updated qty=1 subtotal=700
+[2025-08-10 17:06:32] [INFO] order 302 updated new_total=700
+[2025-08-10 17:06:45] [INFO] editOrder called for order_id=302 items=[{"detail_id":551,"quantity":1,"delete":true}]
+[2025-08-10 17:06:45] [INFO] detail 551 deleted
+[2025-08-10 17:06:45] [INFO] order 302 removed because total 0 or no details
+[2025-08-10 18:09:44] [INFO] editOrder called for order_id=300 items=[{"detail_id":548,"quantity":1,"delete":true},{"detail_id":549,"quantity":1,"delete":true}]
+[2025-08-10 18:09:44] [INFO] detail 548 deleted
+[2025-08-10 18:09:44] [INFO] detail 549 deleted
+[2025-08-10 18:09:44] [INFO] order 300 removed because total 0 or no details
+[2025-08-11 15:34:45] [INFO] editOrder called for order_id=327 items=[{"detail_id":583,"quantity":3,"delete":true},{"detail_id":584,"quantity":1,"delete":true}]
+[2025-08-11 15:34:45] [INFO] detail 583 deleted
+[2025-08-11 15:34:45] [INFO] detail 584 deleted
+[2025-08-11 15:34:45] [INFO] order 327 removed because total 0 or no details
+[2025-08-11 15:34:53] [INFO] editOrder called for order_id=325 items=[{"detail_id":578,"quantity":1,"delete":true}]
+[2025-08-11 15:34:53] [INFO] detail 578 deleted
+[2025-08-11 15:34:53] [INFO] order 325 removed because total 0 or no details
+[2025-08-11 15:34:59] [INFO] editOrder called for order_id=323 items=[{"detail_id":574,"quantity":1,"delete":true},{"detail_id":575,"quantity":1,"delete":true},{"detail_id":576,"quantity":1,"delete":true}]
+[2025-08-11 15:34:59] [INFO] detail 574 deleted
+[2025-08-11 15:34:59] [INFO] detail 575 deleted
+[2025-08-11 15:34:59] [INFO] detail 576 deleted
+[2025-08-11 15:34:59] [INFO] order 323 removed because total 0 or no details
+[2025-08-11 17:50:01] [INFO] editOrder called for order_id=326 items=[{"detail_id":579,"quantity":1,"delete":true},{"detail_id":580,"quantity":1,"delete":true},{"detail_id":581,"quantity":1,"delete":true},{"detail_id":582,"quantity":1,"delete":true}]
+[2025-08-11 17:50:01] [INFO] detail 579 deleted
+[2025-08-11 17:50:01] [INFO] detail 580 deleted
+[2025-08-11 17:50:01] [INFO] detail 581 deleted
+[2025-08-11 17:50:01] [INFO] detail 582 deleted
+[2025-08-11 17:50:01] [INFO] order 326 removed because total 0 or no details
+[2025-08-11 17:51:04] [INFO] editOrder called for order_id=321 items=[{"detail_id":572,"quantity":1,"delete":true}]
+[2025-08-11 17:51:04] [INFO] detail 572 deleted
+[2025-08-11 17:51:04] [INFO] order 321 removed because total 0 or no details
+[2025-08-11 17:51:20] [INFO] editOrder called for order_id=324 items=[{"detail_id":577,"quantity":1,"delete":true}]
+[2025-08-11 17:51:20] [INFO] detail 577 deleted
+[2025-08-11 17:51:20] [INFO] order 324 removed because total 0 or no details
+[2025-08-11 18:45:07] [INFO] editOrder called for order_id=320 items=[{"detail_id":570,"quantity":1,"delete":true},{"detail_id":571,"quantity":1,"delete":true}]
+[2025-08-11 18:45:07] [INFO] detail 570 deleted
+[2025-08-11 18:45:07] [INFO] detail 571 deleted
+[2025-08-11 18:45:07] [INFO] order 320 removed because total 0 or no details
+[2025-08-12 15:05:20] [INFO] editOrder called for order_id=329 items=[{"detail_id":587,"quantity":1,"delete":true}]
+[2025-08-12 15:05:20] [INFO] detail 587 deleted
+[2025-08-12 15:05:20] [INFO] order 329 removed because total 0 or no details
+[2025-08-12 15:49:44] [INFO] editOrder called for order_id=332 items=[{"detail_id":597,"quantity":1,"delete":true}]
+[2025-08-12 15:49:44] [INFO] detail 597 deleted
+[2025-08-12 15:49:44] [INFO] order 332 removed because total 0 or no details
+[2025-08-12 15:49:59] [INFO] editOrder called for order_id=322 items=[{"detail_id":573,"quantity":1,"delete":true}]
+[2025-08-12 15:49:59] [INFO] detail 573 deleted
+[2025-08-12 15:49:59] [INFO] order 322 removed because total 0 or no details
+[2025-08-12 15:50:07] [INFO] editOrder called for order_id=331 items=[{"detail_id":595,"quantity":1,"delete":true},{"detail_id":596,"quantity":1,"delete":true}]
+[2025-08-12 15:50:07] [INFO] detail 595 deleted
+[2025-08-12 15:50:07] [INFO] detail 596 deleted
+[2025-08-12 15:50:07] [INFO] order 331 removed because total 0 or no details
+[2025-08-13 09:32:31] [INFO] editOrder called for order_id=328 items=[{"detail_id":585,"quantity":1,"delete":true},{"detail_id":586,"quantity":1,"delete":true}]
+[2025-08-13 09:32:31] [INFO] detail 585 deleted
+[2025-08-13 09:32:31] [INFO] detail 586 deleted
+[2025-08-13 09:32:31] [INFO] order 328 removed because total 0 or no details
+[2025-08-13 09:36:21] [INFO] editOrder called for order_id=330 items=[{"detail_id":588,"quantity":1,"delete":true},{"detail_id":589,"quantity":1,"delete":true},{"detail_id":590,"quantity":2,"delete":true},{"detail_id":591,"quantity":1,"delete":true},{"detail_id":592,"quantity":1,"delete":true},{"detail_id":593,"quantity":2,"delete":true},{"detail_id":594,"quantity":1,"delete":true}]
+[2025-08-13 09:36:21] [INFO] detail 588 deleted
+[2025-08-13 09:36:21] [INFO] detail 589 deleted
+[2025-08-13 09:36:21] [INFO] detail 590 deleted
+[2025-08-13 09:36:21] [INFO] detail 591 deleted
+[2025-08-13 09:36:21] [INFO] detail 592 deleted
+[2025-08-13 09:36:21] [INFO] detail 593 deleted
+[2025-08-13 09:36:21] [INFO] detail 594 deleted
+[2025-08-13 09:36:21] [INFO] order 330 removed because total 0 or no details
+[2025-08-13 10:10:26] [INFO] editOrder called for order_id=335 items=[{"detail_id":602,"quantity":1,"delete":true},{"detail_id":603,"quantity":1,"delete":false}]
+[2025-08-13 10:10:26] [INFO] detail 602 deleted
+[2025-08-13 10:10:26] [INFO] detail 603 updated qty=1 subtotal=800
+[2025-08-13 10:10:26] [INFO] order 335 updated new_total=800
+[2025-08-13 15:55:50] [INFO] editOrder called for order_id=336 items=[{"detail_id":604,"quantity":1,"delete":true}]
+[2025-08-13 15:55:50] [INFO] detail 604 deleted
+[2025-08-13 15:55:50] [INFO] order 336 removed because total 0 or no details
+[2025-08-13 15:56:47] [INFO] editOrder called for order_id=343 items=[{"detail_id":612,"quantity":1,"delete":true}]
+[2025-08-13 15:56:47] [INFO] detail 612 deleted
+[2025-08-13 15:56:47] [INFO] order 343 removed because total 0 or no details
+[2025-08-13 15:56:55] [INFO] editOrder called for order_id=342 items=[{"detail_id":611,"quantity":1,"delete":true}]
+[2025-08-13 15:56:55] [INFO] detail 611 deleted
+[2025-08-13 15:56:55] [INFO] order 342 removed because total 0 or no details
+[2025-08-13 15:58:12] [INFO] editOrder called for order_id=341 items=[{"detail_id":610,"quantity":1,"delete":true}]
+[2025-08-13 15:58:12] [INFO] detail 610 deleted
+[2025-08-13 15:58:12] [INFO] order 341 removed because total 0 or no details
+[2025-08-13 15:58:19] [INFO] editOrder called for order_id=340 items=[{"detail_id":609,"quantity":1,"delete":true}]
+[2025-08-13 15:58:19] [INFO] detail 609 deleted
+[2025-08-13 15:58:19] [INFO] order 340 removed because total 0 or no details
+[2025-08-13 15:58:27] [INFO] editOrder called for order_id=335 items=[{"detail_id":603,"quantity":1,"delete":true}]
+[2025-08-13 15:58:27] [INFO] detail 603 deleted
+[2025-08-13 15:58:27] [INFO] order 335 removed because total 0 or no details
+[2025-08-13 15:58:34] [INFO] editOrder called for order_id=339 items=[{"detail_id":608,"quantity":1,"delete":true}]
+[2025-08-13 15:58:34] [INFO] detail 608 deleted
+[2025-08-13 15:58:34] [INFO] order 339 removed because total 0 or no details
+[2025-08-13 15:58:38] [INFO] editOrder called for order_id=337 items=[{"detail_id":605,"quantity":1,"delete":true}]
+[2025-08-13 15:58:38] [INFO] detail 605 deleted
+[2025-08-13 15:58:38] [INFO] order 337 removed because total 0 or no details
+[2025-08-13 15:58:44] [INFO] editOrder called for order_id=334 items=[{"detail_id":600,"quantity":1,"delete":true},{"detail_id":601,"quantity":1,"delete":true}]
+[2025-08-13 15:58:44] [INFO] detail 600 deleted
+[2025-08-13 15:58:44] [INFO] detail 601 deleted
+[2025-08-13 15:58:44] [INFO] order 334 removed because total 0 or no details
+[2025-08-13 15:58:50] [INFO] editOrder called for order_id=333 items=[{"detail_id":598,"quantity":1,"delete":true},{"detail_id":599,"quantity":1,"delete":true}]
+[2025-08-13 15:58:50] [INFO] detail 598 deleted
+[2025-08-13 15:58:50] [INFO] detail 599 deleted
+[2025-08-13 15:58:50] [INFO] order 333 removed because total 0 or no details
+[2025-08-13 18:49:47] [INFO] editOrder called for order_id=351 items=[{"detail_id":629,"quantity":1,"delete":false},{"detail_id":630,"quantity":1,"delete":false},{"detail_id":631,"quantity":1,"delete":false},{"detail_id":632,"quantity":1,"delete":false},{"detail_id":633,"quantity":2,"delete":false},{"detail_id":634,"quantity":1,"delete":false},{"detail_id":635,"quantity":3,"delete":false},{"detail_id":636,"quantity":1,"delete":false},{"detail_id":637,"quantity":1,"delete":false}]
+[2025-08-13 18:49:47] [INFO] detail 629 updated qty=1 subtotal=500
+[2025-08-13 18:49:47] [INFO] detail 630 updated qty=1 subtotal=1600
+[2025-08-13 18:49:47] [INFO] detail 631 updated qty=1 subtotal=2500
+[2025-08-13 18:49:47] [INFO] detail 632 updated qty=1 subtotal=1200
+[2025-08-13 18:49:47] [INFO] detail 633 updated qty=2 subtotal=1000
+[2025-08-13 18:49:47] [INFO] detail 634 updated qty=1 subtotal=400
+[2025-08-13 18:49:47] [INFO] detail 635 updated qty=3 subtotal=2400
+[2025-08-13 18:49:47] [INFO] detail 636 updated qty=1 subtotal=500
+[2025-08-13 18:49:47] [INFO] detail 637 updated qty=1 subtotal=500
+[2025-08-13 18:49:47] [INFO] order 351 updated new_total=10600
+[2025-08-13 19:46:26] [INFO] editOrder called for order_id=360 items=[{"detail_id":657,"quantity":1,"delete":true}]
+[2025-08-13 19:46:26] [INFO] detail 657 deleted
+[2025-08-13 19:46:26] [INFO] order 360 removed because total 0 or no details
+[2025-08-14 09:59:52] [INFO] editOrder called for order_id=344 items=[{"detail_id":613,"quantity":1,"delete":true}]
+[2025-08-14 09:59:52] [INFO] detail 613 deleted
+[2025-08-14 09:59:52] [INFO] order 344 removed because total 0 or no details

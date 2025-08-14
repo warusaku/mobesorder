@@ -1,0 +1,66 @@
+[2023-05-01 10:00:00] [SYSTEM] システム起動
+[2023-05-01 10:01:15] [CAMERA] カメラ接続成功 - ID: 1, IP: 192.168.33.101
+[2023-05-01 10:02:30] [API] 設定取得リクエスト - Client: 192.168.3.25
+[2023-05-01 10:05:45] [SYNC] データベース同期開始
+[2023-05-01 10:06:00] [ERROR] カメラ接続失敗 - ID: 2, IP: 192.168.33.102, エラー: タイムアウト
+[2023-05-01 10:08:12] [WARNING] 画像処理遅延 - LacisID: RTSP001
+[2023-05-01 10:10:30] [CAMERA] フレームレート低下 - ID: 3, 現在: 5fps, 設定: 15fps
+[2023-05-01 10:12:45] [SYNC] データベース同期完了 - 更新: 5件
+[2023-05-01 10:15:00] [INFO] ハートビート受信 - LacisID: RTSP001, 状態: オンライン
+[2023-05-01 10:20:15] [CONFIG] 設定更新 - LacisID: RTSP002, タイプ: エリア設定
+[2023-05-01 11:30:00] [TEMPLATE] テンプレート適用 - メーカー: Hikvision, モデル: DS-2CD2035-I
+[2023-05-01 12:45:20] [SUCCESS] 画像取得成功 - LacisID: RTSP003, サイズ: 1280x720
+[2023-05-01 13:22:10] [ERROR] データベースエラー - クエリ失敗: テーブル 'sync_changes' にカラム 'status' がありません
+[2023-05-01 14:05:35] [API] WebAPI呼び出し - エンドポイント: /area_editor, パラメーター: lacis_id=RTSP001
+[2023-05-01 15:40:12] [SUCCESS] 設定同期完了 - ローカルサーバー: 192.168.3.57[2025-05-04 14:54:15] [config.php] 設定リクエスト受信: LacisID=, IP=153.189.181.175, UA=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36
+[2025-05-04 14:54:15] [config.php] エラー: セキュリティキーが無効です
+[2025-05-04 14:54:19] [config.php] 設定リクエスト受信: LacisID=, IP=153.189.181.175, UA=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36
+[2025-05-04 14:54:19] [config.php] エラー: セキュリティキーが無効です
+[2025-05-04 14:54:22] [config.php] 設定リクエスト受信: LacisID=, IP=153.189.181.175, UA=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36
+[2025-05-04 14:54:22] [config.php] エラー: セキュリティキーが無効です
+[2025-05-04 14:55:20] [config.php] 設定リクエスト受信: LacisID=, IP=153.189.181.175, UA=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36
+[2025-05-04 14:55:20] [config.php] エラー: セキュリティキーが無効です
+[2025-05-04 14:55:25] [config.php] 設定リクエスト受信: LacisID=, IP=153.189.181.175, UA=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36
+[2025-05-04 14:55:25] [config.php] エラー: セキュリティキーが無効です
+[2025-05-04 14:57:10] [config.php] 設定リクエスト受信: LacisID=, IP=153.189.181.175, UA=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36
+[2025-05-04 14:57:10] [config.php] エラー: セキュリティキーが無効です
+[2025-05-04 14:57:13] [config.php] 設定リクエスト受信: LacisID=, IP=153.189.181.175, UA=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36
+[2025-05-04 14:57:13] [config.php] エラー: セキュリティキーが無効です
+[2025-05-04 14:57:17] [config.php] 設定リクエスト受信: LacisID=, IP=153.189.181.175, UA=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36
+[2025-05-04 14:57:17] [config.php] エラー: セキュリティキーが無効です
+[2025-05-04 14:57:33] [config.php] 設定リクエスト受信: LacisID=, IP=153.189.181.175, UA=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36
+[2025-05-04 14:57:33] [config.php] エラー: セキュリティキーが無効です
+[2025-05-04 14:58:25] [config.php] 設定リクエスト受信: LacisID=, IP=153.189.181.175, UA=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36
+[2025-05-04 14:58:25] [config.php] エラー: セキュリティキーが無効です
+[2025-05-04 14:58:26] [config.php] 設定リクエスト受信: LacisID=, IP=153.189.181.175, UA=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36
+[2025-05-04 14:58:26] [config.php] エラー: セキュリティキーが無効です
+[2025-05-04 14:58:58] [config.php] 設定リクエスト受信: LacisID=, IP=153.189.181.175, UA=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+[2025-05-04 14:58:58] [config.php] エラー: セキュリティキーが無効です
+[2025-05-04 14:59:00] [config.php] 設定リクエスト受信: LacisID=, IP=153.189.181.175, UA=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+[2025-05-04 14:59:00] [config.php] エラー: セキュリティキーが無効です
+[2025-05-04 15:06:50] [config.php] 設定リクエスト受信: LacisID=, IP=153.189.181.175, UA=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36
+[2025-05-04 15:06:50] [config.php] エラー: セキュリティキーが無効です
+[2025-05-04 15:09:17] [config.php] 設定リクエスト受信: LacisID=, IP=153.189.181.175, UA=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36
+[2025-05-04 15:09:17] [config.php] エラー: セキュリティキーが無効です
+[2025-05-04 15:09:32] [config.php] 設定リクエスト受信: LacisID=, IP=153.189.181.175, UA=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36
+[2025-05-04 15:09:32] [config.php] エラー: セキュリティキーが無効です
+[2025-05-04 16:07:38] [config.php] 設定リクエスト受信: LacisID=, IP=27.94.206.33, UA=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+[2025-05-04 16:07:38] [config.php] エラー: セキュリティキーが無効です
+[2025-05-04 16:07:39] [config.php] 設定リクエスト受信: LacisID=, IP=27.94.206.33, UA=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+[2025-05-04 16:07:39] [config.php] エラー: セキュリティキーが無効です
+[2025-05-04 17:54:21] [config.php] 設定リクエスト受信: LacisID=, IP=153.189.181.175, UA=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36
+[2025-05-04 17:54:21] [config.php] エラー: セキュリティキーが無効です
+[2025-05-04 19:12:15] [config.php] 設定リクエスト受信: LacisID=, IP=27.94.206.33, UA=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+[2025-05-04 19:12:15] [config.php] エラー: セキュリティキーが無効です
+[2025-05-05 00:17:19] [config.php] 設定リクエスト受信: LacisID=, IP=27.94.206.33, UA=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+[2025-05-05 00:17:19] [config.php] エラー: セキュリティキーが無効です
+[2025-05-05 00:17:21] [config.php] 設定リクエスト受信: LacisID=, IP=27.94.206.33, UA=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+[2025-05-05 00:17:21] [config.php] エラー: セキュリティキーが無効です
+[2025-05-05 00:17:21] [config.php] 設定リクエスト受信: LacisID=, IP=27.94.206.33, UA=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+[2025-05-05 00:17:21] [config.php] エラー: セキュリティキーが無効です
+[2025-05-05 00:17:22] [config.php] 設定リクエスト受信: LacisID=, IP=27.94.206.33, UA=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+[2025-05-05 00:17:22] [config.php] エラー: セキュリティキーが無効です
+[2025-05-05 00:20:41] [config.php] 設定リクエスト受信: LacisID=, IP=27.94.206.33, UA=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+[2025-05-05 00:20:41] [config.php] エラー: セキュリティキーが無効です
+[2025-05-05 01:05:18] [config.php] 設定リクエスト受信: LacisID=, IP=27.94.206.33, UA=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+[2025-05-05 01:05:18] [config.php] エラー: セキュリティキーが無効です

@@ -1,0 +1,45 @@
+{
+  "manufacturer": "Dahua",
+  "model_pattern": "IPC-*",
+  "description": "Dahua IPカメラ基本設定",
+  "rtsp_patterns": [
+    {
+      "name": "メインストリーム",
+      "url_pattern": "rtsp://{username}:{password}@{ip}:{port}/cam/realmonitor?channel=1&subtype=0",
+      "default_port": 554
+    },
+    {
+      "name": "サブストリーム",
+      "url_pattern": "rtsp://{username}:{password}@{ip}:{port}/cam/realmonitor?channel=1&subtype=1",
+      "default_port": 554
+    }
+  ],
+  "authentication": {
+    "required": true,
+    "default_username": "admin",
+    "default_password": "admin"
+  },
+  "settings": {
+    "recommended_fps": 15,
+    "recommended_resolution": "1280x720",
+    "ptz_support": false,
+    "audio_support": true,
+    "special_parameters": {
+      "stream_type": ["h264", "h265", "mjpeg"],
+      "custom_options": ["bw_mode", "flip_mode"]
+    }
+  },
+  "setup_instructions": "1. カメラをネットワークに接続\n2. IPアドレスを取得（通常DHCPで自動取得）\n3. カメラのIPアドレスをRTSP_Readerに設定",
+  "troubleshooting": [
+    {
+      "issue": "接続タイムアウト",
+      "cause": "ネットワーク接続問題",
+      "solution": "カメラとRTSP_Reader間のネットワーク接続を確認してください"
+    },
+    {
+      "issue": "認証失敗",
+      "cause": "ログイン情報が不正",
+      "solution": "デフォルトのユーザー名とパスワードは「admin/admin」です"
+    }
+  ]
+} 

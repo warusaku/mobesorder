@@ -1,0 +1,372 @@
+/* ===== カードスタイル ===== */
+/* v20240523: 商品カードレスポンシブ修正 – タイトル1行固定・ボタン幅130px固定・改行崩れ防止 */
+/* 商品カードやカート内アイテムなど、カード形式の要素に関するスタイル */
+
+.product-item {
+    background-color: var(--card-color);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    position: relative;
+    height: 280px; /* 旧実装の固定高さ */
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.product-image {
+    height: 168px !important; /* カード高さ280pxの60%固定 */
+    flex: 0 0 168px;        /* shrink/growを防ぎ確定高さにする */
+    min-height: 168px;      /* 不要な縮小を防止 */
+    max-height: 168px;      /* 伸長を防ぎ常に一定 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* 不要なプレースホルダー表示を完全に削除 */
+.product-image::before {
+    display: none !important;
+    content: none !important;
+}
+
+.product-image.loading::after {
+    display: none !important;
+    content: none !important;
+}
+
+.product-info {
+    padding: 8px 12px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* 残りのスペースを埋める */
+}
+
+.product-name {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+    margin-bottom: 4px;
+    font-size: 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* 常に1行 */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-height: 1.6rem; /* 1行分の高さ */
+    text-overflow: ellipsis;
+    margin-left: 5px;
+}
+
+.product-price {
+    font-weight: bold;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    margin-left: 5px; /* 左余白を5pxに統一 */
+}
+
+/* 在庫なし表示 */
+.out-of-stock {
+    font-size: 0.85rem;
+    color: var(--error-color);
+    font-weight: 500;
+    margin-top: 4px;
+    padding: 2px 0;
+    display: inline-block;
+}
+
+.product-description {
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    margin-bottom: 12px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-left: 5px; /* 左余白を5pxに統一 */
+}
+
+.product-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto; /* 下部に配置 */
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: var(--primary-light);
+    color: var(--primary-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.125rem;
+    transition: var(--transition);
+}
+
+.quantity-btn:hover {
+    background-color: var(--primary-color);
+    color: var(--text-white);
+}
+
+.quantity-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.quantity-value {
+    margin: 0 12px;
+    min-width: 24px;
+    text-align: center;
+}
+
+.add-to-cart-btn {
+    padding: 8px 16px;
+    background-color: #CCB289;
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition);
+    font-size: 0.875rem;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #B09A77;
+    transform: translateY(-2px);
+}
+
+.add-to-cart-btn:disabled {
+    background-color: var(--divider-color);
+    cursor: not-allowed;
+}
+
+/* ------- 商品詳細ボタン（共通）------- */
+.view-detail-btn {
+    padding: 4px 8px;
+    background-color: #CCB289;
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition);
+    font-size: 0.75rem;
+    width: 80px;          /* 固定幅 80px */
+    min-width: 80px;
+    max-width: 80px;
+}
+
+/* ボタンコンテナ */
+.product-button-container {
+    margin-top: auto; /* 下部に配置 */
+    margin-bottom: 8px; /* ボタン下の余白を調整 */
+    display: flex;
+    flex-wrap: nowrap; /* ボタン改行防止 */
+    align-items: center;
+}
+
+.view-detail-btn:hover {
+    background-color: #B09A77;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 480px) and (min-width: 421px) {
+    /* 421〜480px: デスクトップと同じ高さを維持 */
+    .product-item {
+        height: 280px;
+    }
+    
+    .product-info {
+        padding: 6px 10px;
+    }
+    
+    .product-name {
+        font-size: 0.9rem;
+        -webkit-line-clamp: 1;
+        max-height: 1.5rem;
+    }
+    
+    .product-price {
+        font-size: 0.9rem;
+        margin-bottom: 6px;
+    }
+    
+    .view-detail-btn {
+        padding: 4px 8px;
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .product-item {
+        height: 260px; /* スマホ小幅用に縮小 */
+    }
+    
+    .product-image,
+    .product-image-container,
+    .product-image-wrapper {
+        height: 140px !important; /* !important を追加し優先度を上げる */
+        flex: 0 0 140px;          /* 高さを確定 */
+        min-height: 140px;
+        max-height: 140px;
+    }
+    
+    .product-info {
+        padding: 4px 8px;
+    }
+    
+    .product-name {
+        font-size: 0.85rem;
+        margin-bottom: 2px;
+    }
+    
+    .product-price {
+        font-size: 0.85rem;
+        margin-bottom: 4px;
+    }
+    
+    .view-detail-btn {
+        padding: 4px 8px;
+        font-size: 0.75rem;
+    }
+}
+
+/* ボタンコンテナ (旧実装互換) */
+.product-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    padding: 0 8px 8px 8px;
+}
+
+.product-detail-button,
+.add-to-cart-button {
+    flex: 1 1 48%;
+    padding: 8px 0;
+    background-color: #CCB289;
+    color: #fff;
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.product-detail-button:hover,
+.add-to-cart-button:hover {
+    background-color: #B09A77;
+}
+
+/* ===== 画像ラッパー（新実装のタグに旧実装と同じ高さを付与） ===== */
+.product-image-container,
+.product-image-wrapper {
+    width: 100%;
+    height: 150px; /* 旧実装と同じ */
+    position: relative;
+    overflow: hidden;
+}
+
+/* ----- pickup 専用レイアウト ----- */
+.product-item.pickup .product-button-container{
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+}
+.product-item.pickup .product-labels{
+    display:flex;
+    margin-left:auto;
+}
+.product-price-container{
+    display:flex;
+    align-items:center;
+}
+
+/* 商品ラベル */
+.product-labels {
+    margin-left: 5px; /* 左余白を5pxに統一 */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* 商品価格コンテナ */
+.product-price-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+/* 価格表示のスタイル調整 */
+.product-price-container .product-price {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+/* ピックアップ商品は特殊配置を維持 */
+.product-item.pickup .product-price {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/* ピックアップ商品のラベル位置調整 */
+.product-item.pickup .product-labels {
+    margin-left: auto;
+    padding-right: 5px;
+}
+
+/* 商品画像は必ず60%確保 */
+.product-item.pickup .product-image {
+    height: 154px !important; /* カード高さ280pxの55% ≒ 154px */
+    flex: 0 0 154px;
+    min-height: 154px;
+    max-height: 154px;
+}
+
+@media (max-width: 420px) {
+    /* pickupカードの画像はカード高さ240pxの55%＝132px */
+    .product-item.pickup .product-image {
+        height: 132px !important;
+        flex: 0 0 132px;
+        min-height: 132px;
+        max-height: 132px;
+    }
+}
+
+/* pickup商品の詳細ボタン幅を調整 - カードの25%に */
+.product-item.pickup .view-detail-btn {
+    width: 80px;
+    min-width: 80px;
+    max-width: 80px;
+} 

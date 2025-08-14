@@ -1,0 +1,114 @@
+/**
+ * RTSP_Reader Test Framework - Dashboard CSS
+ */
+
+/* 全体のスタイル */
+body {
+    padding-bottom: 70px;
+}
+
+/* カード内のテーブル */
+.card .table {
+    margin-bottom: 0;
+}
+
+/* サマリー統計 */
+.summary-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.summary-stats .stat {
+    background-color: #f8f9fa;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    min-width: 120px;
+}
+
+.summary-stats .stat span {
+    font-weight: bold;
+}
+
+/* モジュール概要 */
+.module-summary {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+}
+
+.module-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0.5rem 0 1rem;
+}
+
+.module-stats .stat {
+    background-color: #f8f9fa;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.9rem;
+}
+
+/* テスト結果 */
+.test-result {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+}
+
+.test-status {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.test-message {
+    margin-bottom: 0.5rem;
+}
+
+.test-details {
+    margin-bottom: 0.5rem;
+}
+
+.test-details pre {
+    max-height: 300px;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.test-meta {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+/* ログスタイル */
+.test-log {
+    font-family: monospace;
+    font-size: 0.9rem;
+}
+
+.log-entry {
+    margin-bottom: 0.5rem;
+}
+
+.log-timestamp {
+    color: #6c757d;
+}
+
+.log-level {
+    margin-right: 0.5rem;
+}
+
+.log-context {
+    margin-top: 0.25rem;
+    margin-left: 1rem;
+} 

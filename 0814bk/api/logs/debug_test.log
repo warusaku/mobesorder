@@ -1,0 +1,7 @@
+[2025-05-03 05:57:48] [DEBUG] [DebugTest] === デバッグテスト開始 ===
+[2025-05-03 05:57:48] [DEBUG] [DebugTest] 1. カタログアイテム取得
+[2025-05-03 05:57:48] [DEBUG] [SquareService] Square API 商品取得: ページ 1 カーソル: 初回
+[2025-05-03 05:57:48] [ERROR] [SquareService] Square API Exception: SSL certificate problem: unable to get local issuer certificate
+[2025-05-03 05:57:48] [DEBUG] [DebugTest] カタログアイテム数: 0
+[2025-05-03 05:57:48] [DEBUG] [DebugTest] カタログアイテムが取得できませんでした
+[2025-05-03 05:57:48] [DEBUG] [DebugTest] === デバッグテスト終了 ===

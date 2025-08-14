@@ -1,0 +1,1734 @@
+/* ===== 基本設定 ===== */
+:root {
+    --primary-color: #4CAF50;
+    --primary-dark: #388E3C;
+    --primary-light: #C8E6C9;
+    --accent-color: #FF9800;
+    --text-primary: #212121;
+    --text-secondary: #757575;
+    --text-white: #FFFFFF;
+    --divider-color: #BDBDBD;
+    --error-color: #F44336;
+    --success-color: #4CAF50;
+    --warning-color: #FF9800;
+    --bg-color: #F5F5F5;
+    --card-color: #FFFFFF;
+    --header-height: 75px;
+    --footer-height: 70px;
+    --sidebar-width: 100px;
+    --side-padding: 16px;
+    --border-radius: 8px;
+    --shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+    --content-max-width: 600px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: var(--text-primary);
+    background-color: #FEFAFC;
+    line-height: 1.6;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+    font-family: 'Noto Sans JP', sans-serif;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* === スタイル分割状況 ===
+- スタイルは下記のように分割しました：
+  - 基本設定：style.css（このファイル）
+  - ヘッダー関連：header.css
+  - フッター関連：footer.css
+  - ページレイアウト関連：pageStyle.css
+  - カード関連：cardStyle.css
+  - モーダル関連：modalStyle.css
+  - 商品詳細関連：productDetailStyle.css
+  - ラベル関連：labelStyle.css
+  - ピックアップ商品関連：pickupStyle.css
+  - 注文履歴関連：historyStyle.css
+  - レスポンシブ関連：responsiveStyle.css
+  - 営業時間外表示関連：closedStyle.css
+  - カート操作関連：cartActionStyle.css
+  - タブ関連：tabStyle.css
+  - カート関連：cartStyle.css
+  - ローディング関連：loadingStyle.css
+=== style.cssには基本スタイル定義のみ残しました === */
+
+/* 以下はカート内アイテムに関するスタイル */
+.cart-item {
+    display: flex;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.cart-item-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.cart-item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cart-item-details {
+    flex-grow: 1;
+}
+
+.cart-item-title {
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.cart-item-price {
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+}
+
+.cart-item-quantity {
+    font-size: 0.875rem;
+    margin-top: 4px;
+}
+
+.cart-item-subtotal {
+    font-weight: bold;
+    color: var(--text-primary);
+    margin-left: auto;
+    text-align: right;
+    padding-left: 16px;
+}
+
+.cart-item-remove {
+    position: absolute;
+    right: 0;
+    top: 12px;
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 1.125rem;
+    cursor: pointer;
+}
+
+.cart-total-section {
+    padding: 16px 0;
+    border-top: 1px solid #eee;
+}
+
+.cart-total-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.cart-total-row.total {
+    font-weight: bold;
+    font-size: 1.125rem;
+    margin-top: 12px;
+    color: var(--text-primary);
+}
+
+.notes-section {
+    margin-top: 16px;
+}
+
+.notes-section label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.notes-section textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--divider-color);
+    border-radius: var(--border-radius);
+    resize: vertical;
+    min-height: 100px;
+    font-family: inherit;
+    font-size: 0.875rem;
+}
+
+.order-complete-message {
+    text-align: center;
+    padding: 32px 16px;
+}
+
+.order-complete-message i {
+    font-size: 3rem;
+    color: var(--success-color);
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.order-number {
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    margin: 24px 0;
+    padding: 16px;
+    background-color: #f9f9f9;
+    border-radius: var(--border-radius);
+    display: inline-block;
+}
+
+#loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-top: 4px solid var(--primary-color);
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#error-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.error-content {
+    text-align: center;
+    background-color: white;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+.error-content i {
+    font-size: 3rem;
+    color: var(--error-color);
+    margin-bottom: 16px;
+}
+
+.error-content h2 {
+    margin-bottom: 16px;
+}
+
+.error-content p {
+    margin-bottom: 24px;
+    color: var(--text-secondary);
+}
+
+#retry-button {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#retry-button:hover {
+    background-color: var(--primary-dark);
+}
+
+/* スケルトンローディング */
+.skeleton {
+    position: relative;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+.skeleton::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, 
+                                rgba(255, 255, 255, 0) 0%, 
+                                rgba(255, 255, 255, 0.6) 50%, 
+                                rgba(255, 255, 255, 0) 100%);
+    animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+/* ===== 全体レイアウト ===== */
+#app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--header-height);
+    background-color: #658BC1;
+    color: var(--text-white);
+    z-index: 100;
+    box-shadow: var(--shadow);
+    display: flex;
+    align-items: center;
+    transition: height 0.3s ease;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 var(--side-padding);
+    position: relative;
+    transition: padding 0.3s ease;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex: 1;
+    max-width: 85%;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.header-logo, .header-title {
+    transition: height 0.3s ease, margin 0.3s ease, transform 0.3s ease;
+    /* SVG固有の問題を解消するためのスタイル */
+    transform-origin: left center;
+    will-change: transform, height;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+/* SVG特有の問題に対応 */
+img.header-logo, img.header-title {
+    object-fit: contain;
+    object-position: left center;
+    width: auto;
+    max-width: none;
+    display: block;
+}
+
+.header-logo {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    align-self: center;
+    flex-shrink: 1;
+    min-width: 0;
+}
+
+.header-title {
+    height: 40px;
+    margin-left: 15px;
+    align-self: center;
+    flex-shrink: 1;
+    min-width: 0;
+}
+
+.room-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 80px;
+    flex-shrink: 0;
+    z-index: 10;
+}
+
+#room-number {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 900;
+    text-align: right;
+    margin-top: 12px;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.refresh-button {
+    background: none;
+    border: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 12px;
+    padding: 0;
+    color: white;
+    font-size: 20px;
+    margin-left: auto;
+}
+
+/* メインコンテンツ全体を中央に配置するためのラッパー */
+main {
+    display: flex;
+    margin-top: var(--header-height);
+    margin-bottom: var(--footer-height);
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    justify-content: center; /* 中央揃え */
+    position: relative; /* サイドバーの配置基準 */
+    width: 100%; /* 幅を明示的に設定 */
+    overflow-x: hidden; /* 横スクロールを防止 */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: var(--footer-height);
+    background-color: var(--card-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 var(--side-padding);
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+/* ===== カテゴリサイドバー ===== */
+/* サイドバーを左端に固定 */
+.category-sidebar {
+    width: 25%;
+    min-width: 120px;
+    border-right: 1px solid #eee;
+    background-color: #f9f9f9;
+    overflow-y: auto;
+}
+
+#category-list {
+    padding: 16px 0;
+}
+
+.category-item {
+    padding: 15px 10px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+.category-item:hover {
+    background-color: #f0f0f0;
+}
+
+.category-item.active {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: 500;
+}
+
+/* 営業時間外の場合のスタイル */
+.category-item.closed {
+    color: #999;
+    background-color: #f0f0f0;
+}
+
+.closed-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 2px 4px;
+    margin-left: 5px;
+    background-color: #ff6b6b;
+    color: white;
+    border-radius: 4px;
+}
+
+.closed-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    text-align: center;
+    color: #666;
+}
+
+.closed-message i {
+    font-size: 3rem;
+    color: #ff6b6b;
+    margin-bottom: 15px;
+}
+
+.closed-message h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ff6b6b;
+}
+
+.closed-message p {
+    font-size: 1rem;
+    line-height: 1.5;
+    max-width: 500px;
+}
+
+.category-item img {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 8px;
+    object-fit: cover;
+}
+
+/* ===== 商品リスト ===== */
+/* 商品リスト表示エリアを中央に配置 */
+.product-content {
+    flex: 1;
+    overflow-y: auto;
+}
+
+#product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+    padding-bottom: 16px;
+}
+
+.product-item {
+    background-color: var(--card-color);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    position: relative;
+    height: 280px; /* 300pxから280pxに変更して下部の余白を減らす */
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+.product-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.product-image {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+/* 不要なプレースホルダー表示を完全に削除 */
+.product-image::before {
+    display: none !important;
+    content: none !important;
+}
+
+.product-image.loading::after {
+    display: none !important;
+    content: none !important;
+}
+
+.product-info {
+    padding: 8px 16px 8px 16px; /* 下側のパディングを半分に減らす */
+    position: relative;
+    height: 140px; /* Fixed height for product info section */
+}
+
+.product-name {
+    font-weight: 500;
+    margin-bottom: 0px;
+    font-size: 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-height: 3rem; /* Approximately 2 lines */
+    text-overflow: ellipsis;
+}
+
+.product-price {
+    font-weight: bold;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+
+/* 在庫なし表示 */
+.out-of-stock {
+    font-size: 0.85rem;
+    color: var(--error-color);
+    font-weight: 500;
+    margin-top: 4px;
+    padding: 2px 0;
+    display: inline-block;
+}
+
+.product-description {
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    margin-bottom: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.product-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: var(--primary-light);
+    color: var(--primary-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.125rem;
+    transition: var(--transition);
+}
+
+.quantity-btn:hover {
+    background-color: var(--primary-color);
+    color: var(--text-white);
+}
+
+.quantity-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.quantity-value {
+    margin: 0 12px;
+    min-width: 24px;
+    text-align: center;
+}
+
+.add-to-cart-btn {
+    padding: 8px 16px;
+    background-color: #CCB289;
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition);
+    font-size: 0.875rem;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #B09A77;
+    transform: translateY(-2px);
+}
+
+.add-to-cart-btn:disabled {
+    background-color: var(--divider-color);
+    cursor: not-allowed;
+}
+
+/* ===== 注文ボタン ===== */
+.order-button {
+    background-color: var(--accent-color);
+    color: var(--text-white);
+    padding: 12px 24px;
+    border-radius: 24px;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    transition: var(--transition);
+}
+
+.order-button i {
+    margin-left: 8px;
+}
+
+.order-button:hover {
+    background-color: #F57C00;
+}
+
+.order-button:disabled {
+    background-color: var(--divider-color);
+    cursor: not-allowed;
+}
+
+.cart-summary {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.cart-summary i.fa-shopping-cart {
+    margin-right: 5px;
+    font-size: 1rem;
+}
+
+.cart-badge {
+    background-color: var(--accent-color);
+    color: var(--text-white);
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    margin-left: 8px;
+}
+
+/* ===== モーダル ===== */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    margin: 10vh auto;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: slideUp 0.3s;
+}
+
+@keyframes slideUp {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.modal-header {
+    padding: 16px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-header h2 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.close {
+    color: #aaa;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-body {
+    padding: 16px;
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.modal-footer {
+    padding: 16px;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout-button {
+    padding: 10px 20px;
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+.checkout-button:hover {
+    background-color: #e68900;
+}
+
+.back-button {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+.back-button:hover {
+    background-color: #e0e0e0;
+}
+
+/* ===== ローディングとエラー ===== */
+#loading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1000;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid var(--primary-light);
+    border-top: 4px solid var(--primary-color);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 16px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#error-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1000;
+}
+
+.error-content {
+    text-align: center;
+    max-width: 500px;
+    padding: 32px;
+    background-color: var(--card-color);
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.error-content i {
+    font-size: 64px;
+    color: var(--error-color);
+    margin-bottom: 16px;
+}
+
+.error-content h2 {
+    margin-bottom: 16px;
+}
+
+.error-content p {
+    margin-bottom: 24px;
+    color: var(--text-secondary);
+}
+
+#retry-button {
+    background-color: var(--primary-color);
+    color: var(--text-white);
+    padding: 12px 24px;
+    border-radius: 24px;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+#retry-button:hover {
+    background-color: var(--primary-dark);
+}
+
+/* ===== スケルトンローディング ===== */
+.skeleton {
+    position: relative;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+.skeleton::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, 
+                                rgba(255, 255, 255, 0) 0%, 
+                                rgba(255, 255, 255, 0.6) 50%, 
+                                rgba(255, 255, 255, 0) 100%);
+    animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+/* ===== レスポンシブ対応 ===== */
+@media (max-width: 620px) {
+    header {
+        height: var(--header-height); /* 高さを元に戻す */
+    }
+    
+    .header-content {
+        padding-right: var(--side-padding);
+        padding-left: var(--side-padding);
+    }
+    
+    .header-left {
+        max-width: 85%; /* 広めにスペースを確保 */
+        margin-right: 15px; /* 元の値に戻す */
+    }
+    
+    .header-logo {
+        height: 50px; /* 元のサイズに戻す */
+    }
+    
+    .header-title {
+        height: 40px; /* 元のサイズに戻す */
+        margin-left: 15px; /* 元の値に戻す */
+    }
+    
+    .room-info {
+        min-width: 80px; /* 元の値に戻す */
+    }
+    
+    #room-number {
+        font-size: 0.9rem;
+    }
+    
+    .refresh-button {
+        width: 32px;
+        height: 32px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 580px) {
+    /* ヘッダーの調整 */
+    .header-left {
+        max-width: 75%;
+    }
+    
+    .header-logo {
+        height: 34px;
+    }
+    
+    .header-title {
+        height: 28px;
+        margin-left: 8px;
+    }
+    
+    .room-info {
+        min-width: 65px;
+    }
+    
+    /* サイドバーの幅を縮小 */
+    .category-sidebar {
+        width: 80px; /* サイドバー幅を縮小 */
+        font-size: 0.9rem;
+    }
+    
+    /* 商品コンテンツのパディングを調整 */
+    .product-content {
+        padding: 12px;
+        padding-left: calc(80px + 12px); /* 縮小したサイドバー分のパディング */
+        max-width: 500px; /* 最大幅を少し縮小 */
+    }
+    
+    /* 商品リストを調整 */
+    #product-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    
+    /* 商品カードの調整 */
+    .product-item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    /* フッターを調整 */
+    footer {
+        padding: 0 8px;
+    }
+    
+    /* モーダル関連の調整 */
+    .modal-content {
+        width: 95%;
+        margin: 5vh auto;
+    }
+    
+    .modal-footer {
+        flex-direction: column;
+    }
+    
+    .checkout-button, .back-button {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        height: calc(var(--header-height) * 0.9);
+    }
+    
+    .header-content {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    
+    .header-left {
+        max-width: 70%;
+        margin-right: 8px;
+    }
+    
+    .header-logo {
+        height: 32px;
+    }
+    
+    .header-title {
+        height: 26px;
+        margin-left: 8px;
+    }
+    
+    .room-info {
+        min-width: 65px;
+    }
+    
+    #room-number {
+        font-size: 0.8rem;
+    }
+    
+    /* サイドバーを縮小 */
+    .category-sidebar {
+        width: 70px;
+        font-size: 0.85rem;
+    }
+    
+    /* コンテンツエリアを調整 */
+    .product-content {
+        padding: 10px;
+        padding-left: calc(70px + 10px); /* 縮小したサイドバー分のパディング */
+        max-width: 440px; /* 最大幅をさらに縮小 */
+    }
+    
+    /* 商品カードの余白調整 */
+    .product-item {
+        margin-bottom: 8px;
+    }
+    
+    .product-info {
+        padding: 8px;
+    }
+    
+    /* プロダクト名を1行に制限 */
+    .product-name {
+        -webkit-line-clamp: 1;
+        max-height: 1.6rem;
+    }
+    
+    /* フッターの調整 */
+    footer {
+        height: calc(var(--footer-height) * 0.9);
+    }
+    
+    .cart-summary {
+        font-size: 0.875rem;
+    }
+    
+    .order-button {
+        padding: 8px 12px;
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .header-left {
+        max-width: 65%;
+        margin-right: 5px;
+    }
+    
+    .header-logo {
+        height: 28px;
+    }
+    
+    .header-title {
+        height: 22px;
+        margin-left: 6px;
+    }
+    
+    .room-info {
+        min-width: 60px;
+    }
+    
+    #room-number {
+        font-size: 0.8rem;
+    }
+    
+    /* サイドバーをさらに縮小 */
+    .category-sidebar {
+        width: 60px;
+        font-size: 0.8rem;
+    }
+    
+    /* コンテンツエリアを調整 */
+    .product-content {
+        padding: 8px;
+        padding-left: calc(60px + 8px); /* 縮小したサイドバー分のパディング */
+        max-width: 320px; /* 最大幅をさらに縮小 */
+    }
+    
+    /* 商品カードのさらなる調整 */
+    .product-info {
+        padding: 10px;
+    }
+    
+    /* 価格表示のサイズ調整 */
+    .product-price {
+        font-size: 0.9rem;
+    }
+    
+    /* ボタンサイズ調整 */
+    .view-detail-btn {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+}
+
+/* ===== 画像の遅延読み込み ===== */
+.lazy-image {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.lazy-image.fade-in {
+    opacity: 1;
+}
+
+/* レスポンシブ対応 */
+@media (min-width: 319px) {
+    #product-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+}
+
+/* 319px未満では1列表示に切り替え */
+@media (max-width: 318px) {
+    #product-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ===== 商品詳細モーダル ===== */
+.product-detail-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-detail-image {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: var(--border-radius);
+    margin-bottom: 16px;
+}
+
+.product-detail-image::before {
+    content: "";
+    display: block;
+    padding-top: 75%; /* 4:3 アスペクト比 */
+}
+
+.product-detail-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-detail-info {
+    flex: 1;
+    padding: 0;
+}
+
+.product-detail-info h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.product-category {
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    margin-bottom: 12px;
+    background-color: #f0f0f0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.product-description {
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+.product-detail-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: var(--text-primary);
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.quantity-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.quantity-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.quantity-value {
+    margin: 0 16px;
+    min-width: 24px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.add-to-cart-detail-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #CCB289;
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.add-to-cart-detail-btn:hover {
+    background-color: #B09A77;
+}
+
+/* カート内の商品数バッジ */
+.product-cart-badge {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #FF0000;
+    color: white;
+    border-radius: 50%;
+    width: 52.5px;
+    height: 52.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.56rem;
+    font-weight: bold;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    z-index: 100;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* 商品詳細ボタン */
+.view-detail-btn {
+    padding: 8px 16px;
+    background-color: #CCB289;
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition);
+    font-size: 0.875rem;
+    position: relative;
+}
+
+.view-detail-btn:hover {
+    background-color: #B09A77;
+}
+
+/* 注文履歴ボタン */
+.order-history-button {
+    background: none;
+    border: none;
+    color: var(--text-primary);
+    font-size: 1.25rem;
+    margin-right: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* カート内商品の数量調整と削除ボタン */
+.cart-item-actions {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.cart-quantity-control {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.cart-quantity-btn {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.cart-quantity-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.cart-quantity-value {
+    margin: 0 8px;
+    min-width: 16px;
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+.cart-item-delete {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    color: var(--error-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.cart-item-delete:hover {
+    background-color: #ffebee;
+}
+
+/* アニメーション */
+@keyframes slideOutUp {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, -100%, 0);
+    }
+}
+
+.slide-out-up {
+    animation: slideOutUp 0.5s forwards;
+}
+
+/* 注文履歴スタイル */
+.order-history-item {
+    border-bottom: 1px solid var(--divider-color);
+    padding: 16px 0;
+}
+
+.order-history-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.order-date {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+.order-status {
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.order-status.open {
+    background-color: #E3F2FD;
+    color: #1976D2;
+}
+
+.order-status.completed {
+    background-color: #E8F5E9;
+    color: #388E3C;
+}
+
+.order-status.canceled {
+    background-color: #FFEBEE;
+    color: #D32F2F;
+}
+
+.order-id {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+}
+
+.order-total {
+    font-weight: bold;
+}
+
+.order-items-list {
+    margin-top: 8px;
+    padding-left: 16px;
+}
+
+.order-items-list li {
+    font-size: 0.875rem;
+    margin-bottom: 4px;
+}
+
+.loading-indicator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0;
+}
+
+/* メディアクエリ更新 */
+@media (max-width: 768px) {
+    .product-detail-content {
+        flex-direction: column;
+    }
+    
+    .product-detail-image {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    
+    .product-detail-info {
+        width: 100%;
+    }
+}
+
+/* ピックアップ商品は横幅2倍 */
+.product-item.pickup {
+    grid-column: span 2;
+}
+
+/* ピックアップ商品のレイアウト調整 */
+.product-item.pickup .product-info {
+    position: relative;
+}
+
+.product-item.pickup .product-name {
+    width: 65%; /* 商品名の幅を制限して価格との干渉を防ぐ */
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product-item.pickup .product-price {
+    position: absolute;
+    top: 8px; /* product-infoのpadding分 */
+    right: 16px;
+}
+
+/* ピックアップ商品の説明文 */
+.product-item.pickup .product-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;  /* 2行に制限 */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 0px 0 8px 0; /* 上部マージンを8pxから0pxに減らして間隔を1/3程度に縮小 */
+    font-size: 0.775rem;
+    color: var(--text-secondary);
+    line-height: 1.4;
+    height: 2.8em; /* 2行分の高さを確保 */
+}
+
+/* 商品ボタンコンテナの余白調整 */
+.product-button-container {
+    margin-bottom: 8px; /* ボタン下の余白を現在の約半分に調整 */
+}
+
+/* ===== Product Labels ===== */
+.product-label, .product-detail-label {
+    display: inline-block;
+    font-size: 0.75rem;
+    padding: 2px 8px;
+    margin-right: 8px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 4px;
+    line-height: 1.2;
+    vertical-align: middle;
+}
+
+/* 商品詳細ページのラベルスタイルを修正 */
+.product-detail-label {
+    font-size: 0.8rem;
+    padding: 3px 10px;
+    border-radius: 16px;
+    margin-right: 12px;
+}
+
+/* クラフトドリンクラベルと合わせる */
+.product-category {
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    margin-bottom: 12px;
+    background-color: #f0f0f0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+/* ピックアップ商品のボタン配置修正 */
+.product-item.pickup .product-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.product-item.pickup .product-labels {
+    display: flex;
+    margin-left: auto;
+}
+
+/* 商品価格ラベルコンテナ */
+.product-price-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+}
+
+/* ラベルを右寄せにする */
+.product-price-container .product-label {
+    margin-left: auto;
+}
+
+/* Position labels in detail modal */
+.product-detail-price-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+/* Product price value in detail modal */
+.price-value {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 8px;
+}
+
+/* Hide the original product-detail-labels container since we're not using it */
+.product-detail-labels {
+    display: none;
+}
+
+/* 商品ラベル表示を確実にするためのスタイル */
+.product-item .product-price-container .product-label {
+    display: inline-block !important;
+    color: white !important;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.product-item .product-labels .product-label {
+    display: inline-block !important;
+    color: white !important;
+    vertical-align: middle;
+}
+
+.product-detail-price-container .product-detail-label {
+    display: inline-block !important;
+    color: white !important;
+    vertical-align: middle;
+}
+
+/* 営業時間外モーダル */
+.closed-message-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    color: #666;
+}
+
+.closed-message-modal i {
+    font-size: 4rem;
+    color: #ff6b6b;
+    margin-bottom: 20px;
+}
+
+.closed-message-modal p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.closed-time-modal-content {
+    max-width: 500px;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 500px) {
+    .closed-time-modal-content {
+        width: 60%;
+        min-width: 250px;
+    }
+    
+    .closed-message-modal i {
+        font-size: 3rem;
+    }
+    
+    .closed-message-modal p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .closed-time-modal-content {
+        width: 60%;
+        min-width: 180px;
+    }
+    
+    .closed-message-modal i {
+        font-size: 2.5rem;
+    }
+    
+    .closed-message-modal p {
+        font-size: 0.9rem;
+    }
+} 

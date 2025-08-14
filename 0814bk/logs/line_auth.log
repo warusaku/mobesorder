@@ -1,0 +1,9 @@
+[2025-05-05 06:15:04] LIFF設定パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/config/LIFF_config.php 存在: はい
+[2025-05-05 06:15:04] API設定パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php 存在: はい
+[2025-05-05 06:15:04] リクエストメソッド: GET
+[2025-05-05 06:15:04] GET リクエスト: line_user_id=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-05-05 06:15:04] 部屋紐づけあり: U9e1f5c66b4a26fd0c33c890ad826b192 -> fg#02
+[2025-05-05 06:15:04] 応答送信: {"success":true,"room_info":{"room_number":"fg#02","token":"","square_order_id":null}}
+[2025-05-05 06:15:04] GET リクエスト: line_user_id=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-05-05 06:15:04] 部屋紐づけあり: U9e1f5c66b4a26fd0c33c890ad826b192 -> fg#02
+[2025-05-05 06:15:04] 応答送信: {"success":true,"room_info":{"room_number":"fg#02","token":"","square_order_id":null}}

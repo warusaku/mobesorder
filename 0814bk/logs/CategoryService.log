@@ -1,0 +1,1625 @@
+--- ログローテーション実行 2025-08-14 07:22:31 ---
+初期化開始
+[2025-08-14 05:21:00] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:21:00] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 05:21:00] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.77ms
+[2025-08-14 05:23:12] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:23:12] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:23:12] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 05:23:12] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.06ms
+[2025-08-14 05:23:16] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:23:16] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:23:16] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 05:23:16] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1ms
+[2025-08-14 05:25:40] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:25:40] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:25:40] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 05:25:40] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 05:25:40] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 13.2ms
+[2025-08-14 05:25:40] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:25:40] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:25:40] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 05:25:40] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 05:25:40] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.06ms
+[2025-08-14 05:25:44] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:25:44] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:25:44] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 05:25:44] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 05:25:44] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 11.51ms
+[2025-08-14 05:25:44] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:25:44] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:25:44] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 05:25:44] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 05:25:44] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 12.81ms
+[2025-08-14 05:25:58] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:25:58] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:25:58] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 05:25:58] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 05:25:58] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 9.59ms
+[2025-08-14 05:26:27] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:26:27] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:26:27] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 05:26:27] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 05:26:27] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 9.24ms
+[2025-08-14 05:26:29] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:26:29] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:26:29] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 05:26:29] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 05:26:29] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 8.64ms
+[2025-08-14 05:26:31] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:26:31] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:26:31] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 05:26:31] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 05:26:31] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 13.34ms
+[2025-08-14 05:26:34] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:26:34] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:26:34] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 05:26:34] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 05:26:34] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 9.11ms
+[2025-08-14 05:26:38] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:26:38] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:26:38] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 05:26:38] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 05:26:38] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.78ms
+[2025-08-14 05:26:41] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:26:41] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:26:41] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 05:26:41] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 05:26:41] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 9.32ms
+[2025-08-14 05:26:43] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:26:43] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:26:43] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 05:26:43] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 05:26:43] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.13ms
+[2025-08-14 05:26:44] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:26:44] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:26:44] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 05:26:44] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 05:26:44] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 9.99ms
+[2025-08-14 05:26:45] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:26:45] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:26:45] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 05:26:45] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 05:26:45] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 9.33ms
+[2025-08-14 05:26:46] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:26:46] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:26:46] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 05:26:46] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 05:26:46] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 8.84ms
+[2025-08-14 05:26:47] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:26:47] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:26:47] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 05:26:48] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 05:26:48] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 9.94ms
+[2025-08-14 05:26:50] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:26:50] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:26:50] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 05:26:50] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 05:26:50] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 12.1ms
+[2025-08-14 05:26:52] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:26:52] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:26:52] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 05:26:52] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 05:26:52] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 11.31ms
+[2025-08-14 05:26:59] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:26:59] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:26:59] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 05:26:59] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 05:26:59] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.25ms
+[2025-08-14 05:27:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:27:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:27:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 05:27:01] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 05:27:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 8.85ms
+[2025-08-14 05:27:05] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:27:05] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:27:05] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 05:27:05] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 05:27:05] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.09ms
+[2025-08-14 05:27:29] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:27:29] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:27:29] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 05:27:29] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.14ms
+[2025-08-14 05:27:32] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:27:32] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:27:32] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 05:27:32] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.74ms
+[2025-08-14 05:30:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:30:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:30:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 05:30:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.59ms
+[2025-08-14 05:35:43] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:35:43] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:35:43] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 05:35:43] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 2.3ms
+[2025-08-14 05:35:47] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:35:47] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:35:47] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 05:35:47] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.63ms
+[2025-08-14 05:40:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:40:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:40:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 05:40:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.87ms
+[2025-08-14 05:50:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:50:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:50:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 05:50:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.3ms
+[2025-08-14 05:52:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:52:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:52:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 05:52:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.25ms
+[2025-08-14 05:52:06] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 05:52:06] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 05:52:06] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 05:52:06] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.69ms
+[2025-08-14 06:00:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 06:00:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 06:00:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 06:00:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.5ms
+[2025-08-14 06:10:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 06:10:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 06:10:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 06:10:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.31ms
+[2025-08-14 06:20:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 06:20:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 06:20:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 06:20:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.61ms
+[2025-08-14 06:24:18] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 06:24:18] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 06:24:18] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 06:24:18] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.74ms
+[2025-08-14 06:24:22] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 06:24:22] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 06:24:22] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 06:24:22] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.83ms
+[2025-08-14 06:30:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 06:30:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 06:30:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 06:30:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.66ms
+[2025-08-14 06:40:02] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 06:40:02] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 06:40:02] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 06:40:02] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.7ms
+[2025-08-14 06:50:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 06:50:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 06:50:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 06:50:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.56ms
+[2025-08-14 07:00:02] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:00:02] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:00:02] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:00:02] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.64ms
+[2025-08-14 07:01:54] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:01:54] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:01:54] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:01:54] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:01:54] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 11.82ms
+[2025-08-14 07:01:54] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:01:54] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:01:54] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:01:54] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:01:54] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 14.88ms
+[2025-08-14 07:01:57] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:01:57] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:01:57] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:01:57] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:01:57] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 14.32ms
+[2025-08-14 07:01:57] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:01:57] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:01:57] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:01:57] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:01:57] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 9.17ms
+[2025-08-14 07:02:15] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:02:15] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:02:15] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:02:15] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:02:15] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.69ms
+[2025-08-14 07:02:17] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:02:17] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:02:17] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:02:17] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:02:17] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 13.83ms
+[2025-08-14 07:02:28] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:02:28] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:02:28] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:02:28] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:02:28] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 11.51ms
+[2025-08-14 07:02:29] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:02:29] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:02:29] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:02:29] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:02:29] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.46ms
+[2025-08-14 07:02:46] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:02:46] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:02:46] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:02:46] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:02:46] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.94ms
+[2025-08-14 07:02:46] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:02:46] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:02:46] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:02:46] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:02:46] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 9.61ms
+[2025-08-14 07:02:54] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:02:54] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:02:54] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:02:54] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:02:54] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 12.88ms
+[2025-08-14 07:03:03] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:03:03] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:03:03] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:03:03] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:03:03] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.86ms
+[2025-08-14 07:03:31] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:03:31] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:03:31] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:03:31] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:03:31] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 9.8ms
+[2025-08-14 07:03:33] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:03:33] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:03:33] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:03:33] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:03:33] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 11.61ms
+[2025-08-14 07:03:39] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:03:39] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:03:39] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:03:39] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:03:39] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 15.37ms
+[2025-08-14 07:03:43] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:03:43] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:03:43] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:03:43] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:03:43] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 9.34ms
+[2025-08-14 07:03:47] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:03:47] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:03:47] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:03:47] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:03:47] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 15.66ms
+[2025-08-14 07:03:53] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:03:53] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:03:53] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:03:53] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:03:53] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 12.82ms
+[2025-08-14 07:04:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:04:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:04:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:04:01] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:04:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.28ms
+[2025-08-14 07:06:36] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:06:36] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:06:36] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:06:37] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:06:37] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 12.51ms
+[2025-08-14 07:06:37] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:06:37] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:06:37] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:06:37] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:06:37] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 9.46ms
+[2025-08-14 07:06:58] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:06:58] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:06:58] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:06:58] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:06:58] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 9.57ms
+[2025-08-14 07:06:58] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:06:58] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:06:58] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:06:58] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:06:58] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 11.52ms
+[2025-08-14 07:10:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:10:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:10:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:10:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.35ms
+[2025-08-14 07:12:59] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:12:59] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:12:59] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:12:59] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:12:59] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 15.9ms
+[2025-08-14 07:12:59] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:12:59] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:12:59] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:12:59] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:12:59] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 12.16ms
+[2025-08-14 07:13:02] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:13:02] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:13:06] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:13:06] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:13:06] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:13:06] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.23ms
+[2025-08-14 07:13:11] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:13:11] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:13:11] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:13:11] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.83ms
+[2025-08-14 07:13:36] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:13:36] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:13:36] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:13:36] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:13:36] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 11.27ms
+[2025-08-14 07:13:36] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:13:36] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:13:36] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:13:36] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:13:36] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.65ms
+[2025-08-14 07:13:52] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:13:52] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:13:52] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:13:52] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:13:52] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 11.81ms
+[2025-08-14 07:13:52] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:13:52] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:13:52] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:13:52] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:13:52] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 9.98ms
+[2025-08-14 07:14:10] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:14:10] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:14:15] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:14:15] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:14:15] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:14:15] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.04ms
+[2025-08-14 07:14:19] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:14:19] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:14:19] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:14:19] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.73ms
+[2025-08-14 07:14:22] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:14:22] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:14:22] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:14:22] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.77ms
+[2025-08-14 07:14:26] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:14:26] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:14:26] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:14:26] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.67ms
+[2025-08-14 07:14:40] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:14:40] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:14:45] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:14:45] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:14:45] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:14:45] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 7.53ms
+[2025-08-14 07:14:49] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:14:49] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:14:49] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:14:49] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.59ms
+[2025-08-14 07:15:31] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:15:31] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:15:31] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:15:31] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.28ms
+[2025-08-14 07:15:35] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:15:35] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:15:35] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:15:35] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.77ms
+[2025-08-14 07:16:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:16:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:16:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:16:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.18ms
+[2025-08-14 07:16:04] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:16:04] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:16:04] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:16:04] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.82ms
+[2025-08-14 07:16:37] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:16:37] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:16:37] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:16:37] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.38ms
+[2025-08-14 07:16:42] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:16:42] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:16:42] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:16:42] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.63ms
+[2025-08-14 07:17:47] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:17:47] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:17:47] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:17:47] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.25ms
+[2025-08-14 07:17:51] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:17:51] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:17:51] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:17:51] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.89ms
+[2025-08-14 07:18:16] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:18:16] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:18:16] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:18:16] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.33ms
+[2025-08-14 07:18:20] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:18:20] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:18:20] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:18:20] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.68ms
+[2025-08-14 07:19:33] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:19:33] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:19:38] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:19:38] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:19:38] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:19:38] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.35ms
+[2025-08-14 07:19:41] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:19:41] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:19:41] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:19:41] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.03ms
+[2025-08-14 07:20:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:20:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:20:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:20:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.1ms
+[2025-08-14 07:20:02] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:20:02] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:20:02] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:20:02] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:20:02] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 11.99ms
+[2025-08-14 07:20:02] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:20:02] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:20:02] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:20:02] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:20:02] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 11.96ms
+[2025-08-14 07:20:47] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:20:47] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:20:47] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:20:47] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:20:47] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 11.02ms
+[2025-08-14 07:20:47] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:20:47] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:20:47] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:20:47] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:20:47] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 12.04ms
+[2025-08-14 07:20:53] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:20:53] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:20:53] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:20:53] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.74ms
+[2025-08-14 07:20:53] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:20:53] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:20:53] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:20:53] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 4.76ms
+[2025-08-14 07:20:56] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:20:56] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:20:56] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:20:56] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.64ms
+[2025-08-14 07:20:57] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:20:57] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:20:57] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:20:57] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.62ms
+[2025-08-14 07:20:58] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:20:58] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:21:02] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:21:02] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:21:02] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:21:02] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.71ms
+[2025-08-14 07:21:06] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:21:06] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:21:06] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:21:06] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.76ms
+[2025-08-14 07:22:02] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:22:02] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:22:02] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:22:02] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.17ms
+[2025-08-14 07:22:06] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:22:06] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:22:06] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:22:06] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.63ms
+[2025-08-14 07:22:18] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:22:18] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:22:18] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:22:18] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.23ms
+[2025-08-14 07:22:22] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:22:22] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:22:22] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:22:22] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.76ms
+[2025-08-14 07:22:31] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:22:31] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:22:31] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:22:31] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.54ms
+[2025-08-14 07:22:35] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:22:35] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:22:35] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:22:35] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.58ms
+[2025-08-14 07:23:08] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:23:08] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:23:08] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:23:08] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.56ms
+[2025-08-14 07:23:12] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:23:12] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:23:12] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:23:12] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.61ms
+[2025-08-14 07:24:14] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:24:14] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:24:14] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:24:14] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:24:14] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:24:14] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:24:14] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:24:14] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.08ms
+[2025-08-14 07:24:14] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:24:14] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.48ms
+[2025-08-14 07:24:14] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:24:14] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:24:14] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:24:14] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:24:14] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:24:14] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:24:14] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:24:14] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 11.05ms
+[2025-08-14 07:24:14] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:24:14] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 12.56ms
+[2025-08-14 07:24:33] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:24:33] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:24:33] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:24:33] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.09ms
+[2025-08-14 07:24:35] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:24:35] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:24:35] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:24:35] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.85ms
+[2025-08-14 07:24:37] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:24:37] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:24:37] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:24:37] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.59ms
+[2025-08-14 07:24:39] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:24:39] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:24:39] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:24:39] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.67ms
+[2025-08-14 07:26:32] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:26:32] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:26:32] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:26:32] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:26:32] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 38.55ms
+[2025-08-14 07:26:32] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:26:32] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:26:32] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:26:32] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:26:32] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.49ms
+[2025-08-14 07:26:43] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:26:43] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:26:43] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:26:43] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:26:43] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 11.38ms
+[2025-08-14 07:27:07] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:27:07] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:27:07] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:27:07] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:27:07] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 11.54ms
+[2025-08-14 07:27:13] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:27:13] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:27:13] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:27:13] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:27:13] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 9.97ms
+[2025-08-14 07:27:18] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:27:18] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:27:18] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:27:18] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:27:18] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 12.85ms
+[2025-08-14 07:27:23] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:27:23] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:27:23] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:27:23] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.71ms
+[2025-08-14 07:27:28] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:27:28] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:27:28] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:27:28] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.65ms
+[2025-08-14 07:27:51] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:27:51] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:27:56] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:27:56] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:27:56] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:27:56] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.09ms
+[2025-08-14 07:28:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:28:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:28:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:28:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.63ms
+[2025-08-14 07:28:21] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:28:21] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:28:21] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:28:21] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:28:21] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 11.24ms
+[2025-08-14 07:28:22] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:28:22] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:28:22] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:28:22] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:28:22] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 11.52ms
+[2025-08-14 07:28:42] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:28:42] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:28:42] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:28:42] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:28:42] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 9.42ms
+[2025-08-14 07:28:42] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:28:42] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:28:42] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:28:42] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:28:42] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.61ms
+[2025-08-14 07:28:48] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:28:48] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:28:48] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:28:48] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.33ms
+[2025-08-14 07:28:53] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:28:53] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:28:53] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:28:53] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.53ms
+[2025-08-14 07:28:54] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:28:54] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:28:58] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:28:58] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:28:58] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:28:58] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.58ms
+[2025-08-14 07:29:02] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:29:02] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:29:02] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:29:02] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.79ms
+[2025-08-14 07:29:08] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:29:08] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:29:08] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:29:08] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.17ms
+[2025-08-14 07:29:12] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:29:12] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:29:12] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:29:12] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.81ms
+[2025-08-14 07:29:13] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:29:13] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:29:13] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:29:13] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.65ms
+[2025-08-14 07:29:17] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:29:17] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:29:17] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:29:17] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.68ms
+[2025-08-14 07:30:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:30:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:30:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:30:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.34ms
+[2025-08-14 07:30:14] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:30:14] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:30:14] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:30:14] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.32ms
+[2025-08-14 07:30:17] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:30:17] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:30:17] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:30:17] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.66ms
+[2025-08-14 07:30:18] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:30:18] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:30:18] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:30:18] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.79ms
+[2025-08-14 07:30:22] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:30:22] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:30:22] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:30:22] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.68ms
+[2025-08-14 07:30:43] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:30:43] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:30:43] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:30:43] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:30:43] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 17.1ms
+[2025-08-14 07:30:43] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:30:43] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:30:43] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:30:43] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:30:43] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 22.01ms
+[2025-08-14 07:30:47] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:30:47] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:30:47] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:30:47] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.86ms
+[2025-08-14 07:30:51] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:30:51] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:30:51] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:30:51] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.56ms
+[2025-08-14 07:30:56] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:30:56] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:30:56] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:30:56] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:30:56] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.7ms
+[2025-08-14 07:30:57] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:30:57] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:30:57] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:30:57] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:30:57] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.28ms
+[2025-08-14 07:31:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:31:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:31:05] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:31:05] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:31:05] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:31:05] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.72ms
+[2025-08-14 07:31:09] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:31:09] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:31:09] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:31:09] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.2ms
+[2025-08-14 07:32:21] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:32:21] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:32:21] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:32:21] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.25ms
+[2025-08-14 07:32:25] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:32:25] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:32:25] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:32:25] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.02ms
+[2025-08-14 07:32:30] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:32:30] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:32:30] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:32:30] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.69ms
+[2025-08-14 07:32:35] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:32:35] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:32:35] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:32:35] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.79ms
+[2025-08-14 07:34:37] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:34:37] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:34:37] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:34:37] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.08ms
+[2025-08-14 07:34:41] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:34:41] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:34:41] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:34:41] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.65ms
+[2025-08-14 07:35:39] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:35:39] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:35:39] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:35:39] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.82ms
+[2025-08-14 07:35:43] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:35:43] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:35:43] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:35:43] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.8ms
+[2025-08-14 07:36:47] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:36:47] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:36:47] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:36:47] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.4ms
+[2025-08-14 07:36:52] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:36:52] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:36:52] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:36:52] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.6ms
+[2025-08-14 07:37:04] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:37:04] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:37:04] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:37:04] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.42ms
+[2025-08-14 07:37:08] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:37:08] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:37:08] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:37:08] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.87ms
+[2025-08-14 07:38:52] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:38:52] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:38:52] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:38:52] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.36ms
+[2025-08-14 07:38:56] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:38:56] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:38:56] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:38:56] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.63ms
+[2025-08-14 07:40:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:40:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:40:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:40:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.27ms
+[2025-08-14 07:44:44] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:44:44] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:44:44] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:44:44] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:44:44] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 16.41ms
+[2025-08-14 07:44:44] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:44:44] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:44:44] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:44:44] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:44:44] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 13.37ms
+[2025-08-14 07:45:00] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:45:00] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:45:00] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:45:00] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:45:00] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 12.88ms
+[2025-08-14 07:45:00] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:45:00] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:45:00] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:45:00] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:45:00] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.04ms
+[2025-08-14 07:45:04] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:45:04] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:45:04] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:45:04] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.53ms
+[2025-08-14 07:45:07] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:45:07] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:45:07] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:45:07] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.06ms
+[2025-08-14 07:45:24] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:45:24] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:45:24] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:45:24] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:45:24] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 13.14ms
+[2025-08-14 07:45:24] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:45:24] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:45:24] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:45:24] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:45:24] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 12.83ms
+[2025-08-14 07:45:24] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:45:24] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:45:24] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:45:24] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:45:24] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 12.23ms
+[2025-08-14 07:45:25] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:45:25] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:45:25] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:45:25] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:45:25] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 12.06ms
+[2025-08-14 07:45:25] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:45:25] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:45:25] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:45:25] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.75ms
+[2025-08-14 07:45:29] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:45:29] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:45:29] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:45:29] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.58ms
+[2025-08-14 07:46:33] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:46:33] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:46:33] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:46:33] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.2ms
+[2025-08-14 07:46:37] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:46:37] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:46:37] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:46:37] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.64ms
+[2025-08-14 07:47:04] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:47:04] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:47:04] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:47:04] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.19ms
+[2025-08-14 07:47:08] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:47:08] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:47:08] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:47:08] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.65ms
+[2025-08-14 07:47:08] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:47:08] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:47:08] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:47:08] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.94ms
+[2025-08-14 07:47:13] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:47:13] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:47:13] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:47:13] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.95ms
+[2025-08-14 07:49:12] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:49:12] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:49:12] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:49:12] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:49:12] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.97ms
+[2025-08-14 07:49:12] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:49:12] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:49:12] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:49:12] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:49:12] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 9.56ms
+[2025-08-14 07:49:17] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:49:17] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:49:22] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:49:22] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:49:22] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:49:22] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.17ms
+[2025-08-14 07:49:26] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:49:26] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:49:26] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:49:26] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.31ms
+[2025-08-14 07:50:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:50:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:50:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:50:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.03ms
+[2025-08-14 07:50:38] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:50:38] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:50:38] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:50:38] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.25ms
+[2025-08-14 07:50:43] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:50:43] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:50:43] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:50:43] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.62ms
+[2025-08-14 07:51:56] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:51:56] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:51:56] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:51:56] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.4ms
+[2025-08-14 07:52:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:52:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:52:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:52:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.69ms
+[2025-08-14 07:52:53] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:52:53] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:52:53] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:52:53] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.12ms
+[2025-08-14 07:52:57] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:52:57] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:52:57] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:52:57] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.63ms
+[2025-08-14 07:53:21] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:53:21] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:53:21] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:53:21] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.15ms
+[2025-08-14 07:53:25] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:53:25] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:53:25] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:53:25] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.72ms
+[2025-08-14 07:54:35] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:54:35] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:54:35] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:54:35] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:54:35] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 14.62ms
+[2025-08-14 07:54:35] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:54:35] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:54:35] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:54:35] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:54:35] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 14.07ms
+[2025-08-14 07:55:15] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:55:15] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:55:15] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:55:15] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:55:15] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 13.88ms
+[2025-08-14 07:55:15] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:55:15] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:55:15] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:55:15] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:55:15] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.41ms
+[2025-08-14 07:55:24] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:55:24] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:55:29] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:55:29] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:55:29] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:55:29] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.2ms
+[2025-08-14 07:55:33] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:55:33] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:55:33] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:55:33] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.64ms
+[2025-08-14 07:56:03] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:56:03] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:56:07] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:56:07] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:56:07] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:56:07] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.14ms
+[2025-08-14 07:56:11] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:56:11] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:56:11] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:56:11] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.56ms
+[2025-08-14 07:56:45] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:56:45] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:56:45] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:56:45] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.27ms
+[2025-08-14 07:56:49] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:56:49] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:56:49] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:56:49] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.69ms
+[2025-08-14 07:57:09] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:57:09] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:57:09] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:57:09] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.98ms
+[2025-08-14 07:57:13] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:57:13] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:57:13] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:57:13] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.86ms
+[2025-08-14 07:57:22] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:57:22] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:57:22] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:57:22] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.27ms
+[2025-08-14 07:57:25] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:57:25] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:57:25] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:57:25] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.7ms
+[2025-08-14 07:59:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:59:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:59:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:59:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.39ms
+[2025-08-14 07:59:05] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:59:05] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:59:05] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:59:05] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1ms
+[2025-08-14 07:59:37] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:59:37] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:59:37] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:59:37] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.19ms
+[2025-08-14 07:59:41] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:59:41] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:59:41] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 07:59:41] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.79ms
+[2025-08-14 07:59:58] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:59:58] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:59:58] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:59:58] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:59:58] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.55ms
+[2025-08-14 07:59:58] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 07:59:58] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 07:59:58] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 07:59:58] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 07:59:58] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.54ms
+[2025-08-14 08:00:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:00:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:00:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:00:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.8ms
+[2025-08-14 08:01:19] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:01:19] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:01:19] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:01:19] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.08ms
+[2025-08-14 08:01:23] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:01:23] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:01:23] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:01:23] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.02ms
+[2025-08-14 08:01:27] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:01:27] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:01:27] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:01:27] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.86ms
+[2025-08-14 08:01:30] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:01:30] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:01:30] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:01:30] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.73ms
+[2025-08-14 08:03:16] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:03:16] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:03:16] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:03:16] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.24ms
+[2025-08-14 08:03:20] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:03:20] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:03:20] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:03:20] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.92ms
+[2025-08-14 08:03:26] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:03:26] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:03:26] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:03:26] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 17.52ms
+[2025-08-14 08:03:29] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:03:29] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:03:29] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:03:29] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.65ms
+[2025-08-14 08:03:52] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:03:52] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:03:52] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:03:52] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.16ms
+[2025-08-14 08:03:56] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:03:56] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:03:56] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:03:56] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.85ms
+[2025-08-14 08:05:24] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:05:24] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:05:24] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:05:24] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.2ms
+[2025-08-14 08:05:28] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:05:28] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:05:28] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:05:28] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.13ms
+[2025-08-14 08:10:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:10:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:10:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:10:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.32ms
+[2025-08-14 08:11:31] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:11:31] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:11:31] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:11:31] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.33ms
+[2025-08-14 08:11:36] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:11:36] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:11:36] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:11:36] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.67ms
+[2025-08-14 08:12:08] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:12:08] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:12:08] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:12:08] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.17ms
+[2025-08-14 08:12:12] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:12:12] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:12:12] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:12:12] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.68ms
+[2025-08-14 08:16:47] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:16:47] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:16:47] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:16:47] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.34ms
+[2025-08-14 08:16:50] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:16:50] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:16:50] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:16:50] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.67ms
+[2025-08-14 08:17:17] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:17:17] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:17:17] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:17:17] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.2ms
+[2025-08-14 08:17:21] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:17:21] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:17:21] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 08:17:21] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 08:17:21] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.53ms
+[2025-08-14 08:17:21] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:17:21] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:17:21] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 08:17:21] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 08:17:21] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.19ms
+[2025-08-14 08:17:21] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:17:21] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:17:21] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:17:21] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.7ms
+[2025-08-14 08:17:23] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:17:23] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:17:23] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 08:17:23] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 08:17:23] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 14.22ms
+[2025-08-14 08:17:23] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:17:23] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:17:23] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 08:17:23] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 08:17:23] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.63ms
+[2025-08-14 08:17:32] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:17:32] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:17:32] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 08:17:32] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 08:17:32] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 9.53ms
+[2025-08-14 08:17:34] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:17:34] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:17:34] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 08:17:34] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 08:17:34] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 17ms
+[2025-08-14 08:17:35] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:17:35] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:17:35] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 08:17:35] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 08:17:35] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 16.93ms
+[2025-08-14 08:17:38] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:17:38] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:17:38] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 08:17:38] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 08:17:38] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 9.55ms
+[2025-08-14 08:17:41] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:17:41] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:17:41] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:17:41] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.67ms
+[2025-08-14 08:17:46] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:17:46] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:17:46] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:17:46] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.4ms
+[2025-08-14 08:18:48] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:18:48] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:18:48] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:18:48] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.42ms
+[2025-08-14 08:18:52] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:18:52] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:18:52] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:18:52] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.83ms
+[2025-08-14 08:19:20] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:19:20] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:19:20] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:19:20] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.18ms
+[2025-08-14 08:19:23] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:19:23] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:19:23] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:19:23] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.67ms
+[2025-08-14 08:20:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:20:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:20:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:20:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.32ms
+[2025-08-14 08:21:40] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:21:40] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:21:40] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:21:40] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.24ms
+[2025-08-14 08:21:43] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:21:43] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:21:43] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:21:43] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.97ms
+[2025-08-14 08:24:13] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:24:13] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:24:13] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:24:13] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.5ms
+[2025-08-14 08:24:18] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:24:18] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:24:18] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:24:18] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.86ms
+[2025-08-14 08:25:37] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:25:37] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:25:37] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:25:37] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.31ms
+[2025-08-14 08:25:41] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:25:41] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:25:41] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:25:41] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.7ms
+[2025-08-14 08:27:48] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:27:48] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:27:48] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:27:48] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.34ms
+[2025-08-14 08:27:53] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:27:53] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:27:53] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:27:53] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.71ms
+[2025-08-14 08:28:24] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:28:24] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:28:24] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:28:24] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.21ms
+[2025-08-14 08:28:29] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:28:29] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:28:29] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:28:29] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.94ms
+[2025-08-14 08:30:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:30:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:30:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:30:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.36ms
+[2025-08-14 08:33:36] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:33:36] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:33:36] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:33:36] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.34ms
+[2025-08-14 08:33:40] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:33:40] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:33:40] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:33:40] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.62ms
+[2025-08-14 08:35:13] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:35:13] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:35:13] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:35:13] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:35:13] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 08:35:13] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 08:35:13] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 08:35:13] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.82ms
+[2025-08-14 08:35:13] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 08:35:13] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 11.33ms
+[2025-08-14 08:35:13] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:35:13] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:35:13] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 08:35:13] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 08:35:13] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.2ms
+[2025-08-14 08:35:14] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:35:14] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:35:14] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 08:35:14] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 08:35:14] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 12.22ms
+[2025-08-14 08:35:42] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:35:42] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:35:42] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:35:42] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.4ms
+[2025-08-14 08:35:47] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:35:47] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:35:47] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:35:47] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.13ms
+[2025-08-14 08:38:48] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:38:48] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:38:48] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:38:48] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.28ms
+[2025-08-14 08:38:53] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:38:53] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:38:53] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:38:53] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.7ms
+[2025-08-14 08:40:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:40:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:40:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:40:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.33ms
+[2025-08-14 08:50:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:50:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:50:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:50:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.44ms
+[2025-08-14 08:53:56] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:53:56] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:53:56] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:53:56] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 6.24ms
+[2025-08-14 08:54:00] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 08:54:00] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 08:54:00] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 08:54:00] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.68ms
+[2025-08-14 09:00:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:00:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:00:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:00:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.43ms
+[2025-08-14 09:00:10] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:00:10] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:00:10] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:00:10] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.99ms
+[2025-08-14 09:00:14] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:00:14] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:00:14] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:00:14] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.84ms
+[2025-08-14 09:00:41] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:00:41] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:00:41] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:00:41] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.28ms
+[2025-08-14 09:00:45] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:00:45] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:00:45] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:00:45] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.72ms
+[2025-08-14 09:10:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:10:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:10:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:10:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.1ms
+[2025-08-14 09:17:58] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:17:58] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:17:58] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:17:58] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.62ms
+[2025-08-14 09:18:02] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:18:02] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:18:02] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:18:02] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.21ms
+[2025-08-14 09:19:05] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:19:05] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:19:05] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:19:05] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.34ms
+[2025-08-14 09:19:09] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:19:09] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:19:09] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:19:09] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.58ms
+[2025-08-14 09:19:35] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:19:35] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:19:35] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:19:35] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.3ms
+[2025-08-14 09:19:40] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:19:40] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:19:40] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:19:40] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.72ms
+[2025-08-14 09:20:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:20:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:20:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:20:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.18ms
+[2025-08-14 09:24:31] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:24:31] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:24:31] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:24:31] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.45ms
+[2025-08-14 09:24:34] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:24:34] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:24:34] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:24:34] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.55ms
+[2025-08-14 09:24:52] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:24:52] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:24:52] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:24:52] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.33ms
+[2025-08-14 09:24:56] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:24:56] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:24:56] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:24:56] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.71ms
+[2025-08-14 09:25:53] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:25:53] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:25:53] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:25:53] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.14ms
+[2025-08-14 09:25:57] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:25:57] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:25:57] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:25:57] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.81ms
+[2025-08-14 09:30:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:30:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:30:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:30:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.37ms
+[2025-08-14 09:33:52] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:33:52] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:33:52] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:33:52] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.45ms
+[2025-08-14 09:33:56] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:33:56] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:33:56] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:33:56] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.66ms
+[2025-08-14 09:35:59] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:35:59] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:35:59] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:35:59] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.64ms
+[2025-08-14 09:36:04] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:36:04] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:36:04] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:36:04] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.53ms
+[2025-08-14 09:40:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:40:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:40:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:40:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 2.02ms
+[2025-08-14 09:50:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:50:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:50:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:50:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.69ms
+[2025-08-14 09:54:13] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:54:13] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:54:13] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:54:13] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.31ms
+[2025-08-14 09:54:17] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:54:17] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:54:17] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:54:17] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.71ms
+[2025-08-14 09:59:22] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:59:22] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:59:22] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:59:22] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.42ms
+[2025-08-14 09:59:26] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 09:59:26] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 09:59:26] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 09:59:26] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.7ms
+[2025-08-14 10:00:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:00:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:00:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:00:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.18ms
+[2025-08-14 10:00:26] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:00:26] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:00:26] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:00:26] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.24ms
+[2025-08-14 10:00:31] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:00:31] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:00:31] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:00:31] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.71ms
+[2025-08-14 10:00:58] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:00:58] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:00:58] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:00:58] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.85ms
+[2025-08-14 10:01:02] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:01:02] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:01:02] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:01:02] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.59ms
+[2025-08-14 10:10:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:10:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:10:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:10:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.68ms
+[2025-08-14 10:16:50] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:16:50] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:16:50] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 10:16:50] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 10:16:50] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.85ms
+[2025-08-14 10:16:51] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:16:51] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:16:51] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 10:16:51] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 10:16:51] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 11.48ms
+[2025-08-14 10:16:56] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:16:56] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:17:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:17:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:17:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:17:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.13ms
+[2025-08-14 10:17:04] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:17:04] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:17:04] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:17:04] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.64ms
+[2025-08-14 10:18:16] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:18:16] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:18:16] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:18:16] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.3ms
+[2025-08-14 10:18:20] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:18:20] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:18:20] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:18:20] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.77ms
+[2025-08-14 10:19:39] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:19:39] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:19:39] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 10:19:39] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 10:19:39] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 11.71ms
+[2025-08-14 10:19:39] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:19:39] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:19:39] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 10:19:39] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 10:19:39] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.23ms
+[2025-08-14 10:20:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:20:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:20:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:20:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.18ms
+[2025-08-14 10:20:05] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:20:05] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:20:05] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 10:20:05] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 10:20:05] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.11ms
+[2025-08-14 10:20:05] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:20:05] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:20:05] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 10:20:05] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 10:20:05] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 12.28ms
+[2025-08-14 10:20:17] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:20:17] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:20:22] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:20:22] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:20:22] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:20:22] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.03ms
+[2025-08-14 10:20:25] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:20:25] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:20:25] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:20:25] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.62ms
+[2025-08-14 10:20:32] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:20:32] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:20:32] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:20:32] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.46ms
+[2025-08-14 10:20:36] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:20:36] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:20:36] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:20:36] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.28ms
+[2025-08-14 10:21:36] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:21:36] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:21:36] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 10:21:36] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 10:21:36] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 9.86ms
+[2025-08-14 10:21:36] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:21:36] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:21:36] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:21:36] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.65ms
+[2025-08-14 10:21:36] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:21:36] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:21:36] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 10:21:36] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 10:21:36] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 8.79ms
+[2025-08-14 10:21:41] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:21:41] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:21:41] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:21:41] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.1ms
+[2025-08-14 10:21:51] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:21:51] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:21:51] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 10:21:51] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 10:21:51] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.13ms
+[2025-08-14 10:21:51] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:21:51] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:21:51] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 10:21:51] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 10:21:51] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 9.2ms
+[2025-08-14 10:22:22] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:22:22] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:22:27] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:22:27] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:22:27] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:22:27] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.36ms
+[2025-08-14 10:22:31] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:22:31] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:22:31] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:22:31] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.04ms
+[2025-08-14 10:23:42] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:23:42] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:23:42] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:23:42] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.43ms
+[2025-08-14 10:23:46] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:23:46] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:23:46] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:23:46] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.93ms
+[2025-08-14 10:23:52] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:23:52] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:23:52] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:23:52] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.8ms
+[2025-08-14 10:23:57] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:23:57] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:23:57] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:23:57] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.62ms
+[2025-08-14 10:24:48] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:24:48] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:24:48] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:24:48] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.31ms
+[2025-08-14 10:24:53] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:24:53] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:24:53] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:24:53] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.97ms
+[2025-08-14 10:25:58] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:25:58] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:25:58] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:25:58] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.49ms
+[2025-08-14 10:26:04] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:26:04] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:26:04] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:26:04] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.57ms
+[2025-08-14 10:26:06] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:26:06] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:26:06] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:26:06] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.67ms
+[2025-08-14 10:26:10] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:26:10] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:26:10] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:26:10] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.83ms
+[2025-08-14 10:28:09] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:28:09] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:28:09] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:28:09] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.39ms
+[2025-08-14 10:28:13] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:28:13] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:28:13] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:28:13] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.8ms
+[2025-08-14 10:30:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:30:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:30:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 10:30:01] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 10:30:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 12.87ms
+[2025-08-14 10:30:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:30:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:30:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 10:30:01] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 10:30:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 10.17ms
+[2025-08-14 10:30:01] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:30:01] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:30:01] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:30:01] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.53ms
+[2025-08-14 10:30:15] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:30:15] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:30:15] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:30:15] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.99ms
+[2025-08-14 10:30:17] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:30:17] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:30:17] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 10:30:17] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 10:30:17] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 9.88ms
+[2025-08-14 10:30:17] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:30:17] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:30:17] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: false
+[2025-08-14 10:30:17] [INFO] [CategoryService.php:139->getCategories] 商品がないためカテゴリを除外: mobesOrder (ID: QWFS3REE6RI4HMU2CED5DUEW)
+[2025-08-14 10:30:17] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 19, 実行時間: 8.84ms
+[2025-08-14 10:30:20] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:30:20] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:30:20] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:30:20] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.66ms
+[2025-08-14 10:30:45] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:30:45] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:30:48] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:30:48] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:30:48] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:30:48] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.17ms
+[2025-08-14 10:30:52] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:30:52] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:30:52] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:30:52] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.87ms
+[2025-08-14 10:32:03] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:32:03] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:32:03] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:32:03] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.27ms
+[2025-08-14 10:32:08] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:32:08] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:32:08] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:32:08] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.95ms
+[2025-08-14 10:33:04] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:33:04] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:33:04] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:33:04] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.18ms
+[2025-08-14 10:33:07] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:33:07] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:33:07] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:33:07] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.76ms
+[2025-08-14 10:33:08] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:33:08] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:33:08] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:33:08] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.81ms
+[2025-08-14 10:33:11] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:33:11] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:33:11] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:33:11] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 0.84ms
+[2025-08-14 10:34:19] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:34:19] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:34:19] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:34:19] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.31ms
+[2025-08-14 10:34:24] [INFO] [CategoryService.php:16->__construct] CategoryService::__construct - 初期化開始
+[2025-08-14 10:34:24] [INFO] [CategoryService.php:24->__construct] CategoryService::__construct - 初期化完了
+[2025-08-14 10:34:24] [INFO] [CategoryService.php:114->getCategories] getCategories - 商品なしカテゴリ含む: true
+[2025-08-14 10:34:24] [INFO] [CategoryService.php:161->getCategories] getCategories完了 - カテゴリ数: 20, 実行時間: 1.11ms

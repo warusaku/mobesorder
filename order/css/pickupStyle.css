@@ -1,0 +1,68 @@
+/* ===== ピックアップ商品スタイル ===== */
+/* ピックアップ表示される商品のスタイル定義 */
+
+/* ピックアップ商品は横幅2倍 */
+.product-item.pickup {
+    grid-column: span 2;
+}
+
+/* ピックアップ商品のレイアウト調整 */
+.product-item.pickup .product-info {
+    position: relative;
+}
+
+.product-item.pickup .product-name {
+    width: 65%; /* 商品名の幅を制限して価格との干渉を防ぐ */
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product-item.pickup .product-price {
+    position: absolute;
+    top: 8px; /* product-infoのpadding分 */
+    right: 16px;
+}
+
+/* ピックアップ商品の説明文 */
+.product-item.pickup .product-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;  /* 2行に制限 */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 0px 0 8px 0; /* 上部マージンを8pxから0pxに減らして間隔を1/3程度に縮小 */
+    font-size: 0.775rem;
+    color: var(--text-secondary);
+    line-height: 1.4;
+    height: 2.8em; /* 2行分の高さを確保 */
+}
+
+/* 商品ボタンコンテナの余白調整 */
+.product-button-container {
+    margin-bottom: 8px; /* ボタン下の余白を現在の約半分に調整 */
+}
+
+/* ピックアップ商品のボタン配置修正 */
+.product-item.pickup .product-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* 画像高さをカード高さの約55% = 154px に固定 (旧実装相当) */
+.product-item.pickup .product-image{
+    height: 154px !important; /* カード高さ280pxの55% ≒ 154px */
+    flex: 0 0 154px;
+    min-height: 154px;
+    max-height: 154px;
+}
+
+@media (max-width: 420px) {
+    .product-item.pickup .product-image{
+        height: 132px !important; /* 高さ240px x 0.55 ≒ 132px */
+        flex: 0 0 132px;
+        min-height: 132px;
+        max-height: 132px;
+    }
+} 

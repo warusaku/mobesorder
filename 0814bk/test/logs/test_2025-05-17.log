@@ -1,0 +1,7 @@
+[2025-05-17 00:35:37] [INFO] データベース接続成功
+[2025-05-17 00:35:37] [INFO] モジュール読み込み: e2e_tests
+[2025-05-17 00:35:37] [INFO] テストモジュール登録: e2e_tests
+[2025-05-17 00:35:37] [INFO] データベース概要情報取得 {"database":"LAA1207717-rtspreader"}
+[2025-05-17 00:35:37] [INFO] テーブル一覧取得 {"database":"LAA1207717-rtspreader"}
+[2025-05-17 00:35:37] [INFO] テーブル一覧取得完了 {"database":"LAA1207717-rtspreader","count":34}
+[2025-05-17 00:35:37] [INFO] データベース概要情報取得完了 {"database":"LAA1207717-rtspreader","tables":34,"total_rows":37,"total_size":"1.59 MB"}

@@ -1,0 +1,771 @@
+[2025-08-14 10:34:08] [INFO] ログローテーション実行: ファイルサイズ 1042.87KB が上限の 300KB を超過
+[2025-08-14 10:34:08] [INFO] Database::__construct - データベース接続開始
+[2025-08-14 10:34:08] [INFO] データベース接続試行: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-08-14 10:34:08] [INFO] データベース接続成功
+[2025-08-14 10:34:08] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:08] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.63ms
+[2025-08-14 10:34:08] [INFO] SELECT実行開始: SELECT 
+                            od.id as order_detail_id,
+                            od.order_id,
+                            od.order_session_id,
+                            od.product_name,
+                            od.quantity,
+                            COALESCE(od.status, 'ordered') as status,
+                            od.created_at as order_datetime,
+                            od.status_updated_at,
+                            o.room_number,
+                            COALESCE(o.memo, '') as memo,
+                            TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) as minutes_elapsed,
+                            CASE 
+                                WHEN TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) >= 30 THEN 'urgent'
+                                WHEN TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) >= 20 THEN 'warning'
+                                ELSE 'normal'
+                            END as priority_level
+                        FROM ord...
+[2025-08-14 10:34:08] [INFO] SELECT実行完了: 取得行数=3, 実行時間=1.52ms
+[2025-08-14 10:34:08] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:08] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.03ms
+[2025-08-14 10:34:08] [INFO] SELECTONE実行開始: SELECT 
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ordered' THEN 1 END) as pending_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ready' THEN 1 END) as ready_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'delivered' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as delivered_today,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'cancelled' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as cancelled_today,
+                            AVG(CASE 
+                                WHEN COALESCE(status, 'ordered') = 'delivered' AND status_updated_at IS NOT NULL 
+                                THEN TIMESTAMPDIFF(MINUTE, created_at, status_updated_at) 
+                                END) as avg_completion_time,
+                            MAX(created_at) as last_order_time
+             ...
+[2025-08-14 10:34:08] [ERROR] クエリ実行エラー: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in field list is ambiguous - クエリ: SELECT 
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ordered' THEN 1 END) as pending_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ready' THEN 1 END) as ready_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'delivered' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as delivered_today,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'cancelled' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as cancelled_today,
+                            AVG(CASE 
+                                WHEN COALESCE(status, 'ordered') = 'delivered' AND status_updated_at IS NOT NULL 
+                                THEN TIMESTAMPDIFF(MINUTE, created_at, status_updated_at) 
+                    ...
+[2025-08-14 10:34:08] [INFO] SELECTONE実行開始: SELECT COUNT(*) as new_count 
+                    FROM order_details od
+                    JOIN orders o ON od.order_id = o.id
+                    WHERE od.created_at > ? 
+                        AND o.order_status = 'OPEN'
+                    LIMIT 1 - パラメータ: ["2025-08-14 10:33:38"]
+[2025-08-14 10:34:08] [INFO] SELECTONE実行完了: 結果=データあり, 実行時間=0.58ms
+[2025-08-14 10:34:19] [INFO] Database::__construct - データベース接続開始
+[2025-08-14 10:34:19] [INFO] データベース接続試行: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-08-14 10:34:19] [INFO] データベース接続成功
+[2025-08-14 10:34:19] [INFO] SELECT実行開始: SELECT category_id as id, category_name as name, display_order as sort_order, 
+                      is_active, last_order_time, presence 
+                      FROM category_descripter 
+                      WHERE is_active = 1 AND presence = 1
+                      ORDER BY display_order, category_name - パラメータ: []
+[2025-08-14 10:34:19] [INFO] SELECT実行完了: 取得行数=20, 実行時間=1.28ms
+[2025-08-14 10:34:19] [INFO] トランザクション開始
+[2025-08-14 10:34:24] [INFO] Database::__construct - データベース接続開始
+[2025-08-14 10:34:24] [INFO] データベース接続試行: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-08-14 10:34:24] [INFO] データベース接続成功
+[2025-08-14 10:34:24] [INFO] SELECT実行開始: SELECT category_id as id, category_name as name, display_order as sort_order, 
+                      is_active, last_order_time, presence 
+                      FROM category_descripter 
+                      WHERE is_active = 1 AND presence = 1
+                      ORDER BY display_order, category_name - パラメータ: []
+[2025-08-14 10:34:24] [INFO] SELECT実行完了: 取得行数=20, 実行時間=1.06ms
+[2025-08-14 10:34:24] [INFO] トランザクション開始
+[2025-08-14 10:34:38] [INFO] Database::__construct - データベース接続開始
+[2025-08-14 10:34:38] [INFO] データベース接続試行: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-08-14 10:34:38] [INFO] データベース接続成功
+[2025-08-14 10:34:38] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:38] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.69ms
+[2025-08-14 10:34:38] [INFO] SELECT実行開始: SELECT 
+                            od.id as order_detail_id,
+                            od.order_id,
+                            od.order_session_id,
+                            od.product_name,
+                            od.quantity,
+                            COALESCE(od.status, 'ordered') as status,
+                            od.created_at as order_datetime,
+                            od.status_updated_at,
+                            o.room_number,
+                            COALESCE(o.memo, '') as memo,
+                            TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) as minutes_elapsed,
+                            CASE 
+                                WHEN TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) >= 30 THEN 'urgent'
+                                WHEN TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) >= 20 THEN 'warning'
+                                ELSE 'normal'
+                            END as priority_level
+                        FROM ord...
+[2025-08-14 10:34:38] [INFO] SELECT実行完了: 取得行数=3, 実行時間=1.47ms
+[2025-08-14 10:34:38] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:38] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.07ms
+[2025-08-14 10:34:38] [INFO] SELECTONE実行開始: SELECT 
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ordered' THEN 1 END) as pending_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ready' THEN 1 END) as ready_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'delivered' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as delivered_today,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'cancelled' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as cancelled_today,
+                            AVG(CASE 
+                                WHEN COALESCE(status, 'ordered') = 'delivered' AND status_updated_at IS NOT NULL 
+                                THEN TIMESTAMPDIFF(MINUTE, created_at, status_updated_at) 
+                                END) as avg_completion_time,
+                            MAX(created_at) as last_order_time
+             ...
+[2025-08-14 10:34:38] [ERROR] クエリ実行エラー: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in field list is ambiguous - クエリ: SELECT 
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ordered' THEN 1 END) as pending_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ready' THEN 1 END) as ready_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'delivered' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as delivered_today,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'cancelled' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as cancelled_today,
+                            AVG(CASE 
+                                WHEN COALESCE(status, 'ordered') = 'delivered' AND status_updated_at IS NOT NULL 
+                                THEN TIMESTAMPDIFF(MINUTE, created_at, status_updated_at) 
+                    ...
+[2025-08-14 10:34:38] [INFO] SELECTONE実行開始: SELECT COUNT(*) as new_count 
+                    FROM order_details od
+                    JOIN orders o ON od.order_id = o.id
+                    WHERE od.created_at > ? 
+                        AND o.order_status = 'OPEN'
+                    LIMIT 1 - パラメータ: ["2025-08-14 10:34:08"]
+[2025-08-14 10:34:38] [INFO] SELECTONE実行完了: 結果=データあり, 実行時間=0.73ms
+[2025-08-14 10:34:38] [INFO] Database::__construct - データベース接続開始
+[2025-08-14 10:34:38] [INFO] データベース接続試行: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-08-14 10:34:38] [INFO] データベース接続成功
+[2025-08-14 10:34:38] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:38] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.03ms
+[2025-08-14 10:34:38] [INFO] SELECT実行開始: SELECT 
+                            od.id as order_detail_id,
+                            od.order_id,
+                            od.order_session_id,
+                            od.product_name,
+                            od.quantity,
+                            COALESCE(od.status, 'ordered') as status,
+                            od.created_at as order_datetime,
+                            od.status_updated_at,
+                            o.room_number,
+                            COALESCE(o.memo, '') as memo,
+                            TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) as minutes_elapsed,
+                            CASE 
+                                WHEN TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) >= 30 THEN 'urgent'
+                                WHEN TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) >= 20 THEN 'warning'
+                                ELSE 'normal'
+                            END as priority_level
+                        FROM ord...
+[2025-08-14 10:34:38] [INFO] SELECT実行完了: 取得行数=3, 実行時間=0.78ms
+[2025-08-14 10:34:38] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:38] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.15ms
+[2025-08-14 10:34:38] [INFO] SELECTONE実行開始: SELECT 
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ordered' THEN 1 END) as pending_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ready' THEN 1 END) as ready_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'delivered' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as delivered_today,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'cancelled' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as cancelled_today,
+                            AVG(CASE 
+                                WHEN COALESCE(status, 'ordered') = 'delivered' AND status_updated_at IS NOT NULL 
+                                THEN TIMESTAMPDIFF(MINUTE, created_at, status_updated_at) 
+                                END) as avg_completion_time,
+                            MAX(created_at) as last_order_time
+             ...
+[2025-08-14 10:34:38] [ERROR] クエリ実行エラー: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in field list is ambiguous - クエリ: SELECT 
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ordered' THEN 1 END) as pending_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ready' THEN 1 END) as ready_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'delivered' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as delivered_today,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'cancelled' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as cancelled_today,
+                            AVG(CASE 
+                                WHEN COALESCE(status, 'ordered') = 'delivered' AND status_updated_at IS NOT NULL 
+                                THEN TIMESTAMPDIFF(MINUTE, created_at, status_updated_at) 
+                    ...
+[2025-08-14 10:34:38] [INFO] SELECTONE実行開始: SELECT COUNT(*) as new_count 
+                    FROM order_details od
+                    JOIN orders o ON od.order_id = o.id
+                    WHERE od.created_at > ? 
+                        AND o.order_status = 'OPEN'
+                    LIMIT 1 - パラメータ: ["2025-08-14 10:33:38"]
+[2025-08-14 10:34:38] [INFO] SELECTONE実行完了: 結果=データあり, 実行時間=0.52ms
+[2025-08-14 10:34:41] [INFO] Database::__construct - データベース接続開始
+[2025-08-14 10:34:41] [INFO] データベース接続試行: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-08-14 10:34:41] [INFO] データベース接続成功
+[2025-08-14 10:34:41] [INFO] SELECT実行開始: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.memo AS memo, o.order_datetime, o.checkout_datetime, 
+                   o.order_session_id, o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+         - パラメータ: []
+[2025-08-14 10:34:41] [INFO] SELECT実行完了: 取得行数=67, 実行時間=0.81ms
+[2025-08-14 10:34:41] [INFO] getConnection - データベース接続取得
+[2025-08-14 10:34:41] [INFO] SELECT実行開始: 
+                SELECT l.id, l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, 
+                       l.is_active, l.created_at, l.updated_at, r.description
+                FROM line_room_links l
+                JOIN roomdatasettings r ON l.room_number = r.room_number
+                WHERE l.is_active = 1
+                ORDER BY l.room_number ASC
+             - パラメータ: []
+[2025-08-14 10:34:41] [INFO] SELECT実行完了: 取得行数=4, 実行時間=1.6ms
+[2025-08-14 10:34:49] [INFO] Database::__construct - データベース接続開始
+[2025-08-14 10:34:49] [INFO] データベース接続試行: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-08-14 10:34:49] [INFO] データベース接続成功
+[2025-08-14 10:34:49] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:49] [INFO] SELECT実行完了: 取得行数=1, 実行時間=3.4ms
+[2025-08-14 10:34:49] [INFO] SELECT実行開始: SELECT 
+                            od.id as order_detail_id,
+                            od.order_id,
+                            od.order_session_id,
+                            od.product_name,
+                            od.quantity,
+                            COALESCE(od.status, 'ordered') as status,
+                            od.created_at as order_datetime,
+                            od.status_updated_at,
+                            o.room_number,
+                            COALESCE(o.memo, '') as memo,
+                            TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) as minutes_elapsed,
+                            CASE 
+                                WHEN TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) >= 30 THEN 'urgent'
+                                WHEN TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) >= 20 THEN 'warning'
+                                ELSE 'normal'
+                            END as priority_level
+                        FROM ord...
+[2025-08-14 10:34:49] [INFO] SELECT実行完了: 取得行数=3, 実行時間=1.97ms
+[2025-08-14 10:34:49] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:49] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.99ms
+[2025-08-14 10:34:49] [INFO] SELECTONE実行開始: SELECT 
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ordered' THEN 1 END) as pending_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ready' THEN 1 END) as ready_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'delivered' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as delivered_today,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'cancelled' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as cancelled_today,
+                            AVG(CASE 
+                                WHEN COALESCE(status, 'ordered') = 'delivered' AND status_updated_at IS NOT NULL 
+                                THEN TIMESTAMPDIFF(MINUTE, created_at, status_updated_at) 
+                                END) as avg_completion_time,
+                            MAX(created_at) as last_order_time
+             ...
+[2025-08-14 10:34:49] [ERROR] クエリ実行エラー: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in field list is ambiguous - クエリ: SELECT 
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ordered' THEN 1 END) as pending_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ready' THEN 1 END) as ready_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'delivered' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as delivered_today,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'cancelled' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as cancelled_today,
+                            AVG(CASE 
+                                WHEN COALESCE(status, 'ordered') = 'delivered' AND status_updated_at IS NOT NULL 
+                                THEN TIMESTAMPDIFF(MINUTE, created_at, status_updated_at) 
+                    ...
+[2025-08-14 10:34:49] [INFO] SELECTONE実行開始: SELECT COUNT(*) as new_count 
+                    FROM order_details od
+                    JOIN orders o ON od.order_id = o.id
+                    WHERE od.created_at > ? 
+                        AND o.order_status = 'OPEN'
+                    LIMIT 1 - パラメータ: ["2025-08-14 10:34:38"]
+[2025-08-14 10:34:49] [INFO] SELECTONE実行完了: 結果=データあり, 実行時間=1.45ms
+[2025-08-14 10:34:50] [INFO] Database::__construct - データベース接続開始
+[2025-08-14 10:34:50] [INFO] データベース接続試行: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-08-14 10:34:50] [INFO] データベース接続成功
+[2025-08-14 10:34:51] [INFO] Database::__construct - データベース接続開始
+[2025-08-14 10:34:51] [INFO] データベース接続試行: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-08-14 10:34:51] [INFO] データベース接続成功
+[2025-08-14 10:34:51] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:51] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.22ms
+[2025-08-14 10:34:51] [INFO] SELECT実行開始: SELECT 
+                            od.id as order_detail_id,
+                            od.order_id,
+                            od.order_session_id,
+                            od.product_name,
+                            od.quantity,
+                            COALESCE(od.status, 'ordered') as status,
+                            od.created_at as order_datetime,
+                            od.status_updated_at,
+                            o.room_number,
+                            COALESCE(o.memo, '') as memo,
+                            TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) as minutes_elapsed,
+                            CASE 
+                                WHEN TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) >= 30 THEN 'urgent'
+                                WHEN TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) >= 20 THEN 'warning'
+                                ELSE 'normal'
+                            END as priority_level
+                        FROM ord...
+[2025-08-14 10:34:51] [INFO] SELECT実行完了: 取得行数=3, 実行時間=0.83ms
+[2025-08-14 10:34:51] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:51] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.12ms
+[2025-08-14 10:34:51] [INFO] SELECTONE実行開始: SELECT 
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ordered' THEN 1 END) as pending_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ready' THEN 1 END) as ready_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'delivered' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as delivered_today,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'cancelled' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as cancelled_today,
+                            AVG(CASE 
+                                WHEN COALESCE(status, 'ordered') = 'delivered' AND status_updated_at IS NOT NULL 
+                                THEN TIMESTAMPDIFF(MINUTE, created_at, status_updated_at) 
+                                END) as avg_completion_time,
+                            MAX(created_at) as last_order_time
+             ...
+[2025-08-14 10:34:51] [ERROR] クエリ実行エラー: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in field list is ambiguous - クエリ: SELECT 
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ordered' THEN 1 END) as pending_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ready' THEN 1 END) as ready_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'delivered' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as delivered_today,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'cancelled' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as cancelled_today,
+                            AVG(CASE 
+                                WHEN COALESCE(status, 'ordered') = 'delivered' AND status_updated_at IS NOT NULL 
+                                THEN TIMESTAMPDIFF(MINUTE, created_at, status_updated_at) 
+                    ...
+[2025-08-14 10:34:52] [INFO] Database::__construct - データベース接続開始
+[2025-08-14 10:34:52] [INFO] データベース接続試行: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-08-14 10:34:52] [INFO] データベース接続成功
+[2025-08-14 10:34:52] [INFO] SELECTONE実行開始: SELECT od.id, od.product_name, od.status as current_status, o.room_number 
+                          FROM order_details od 
+                          JOIN orders o ON od.order_id = o.id 
+                          WHERE od.id = ? LIMIT 1 - パラメータ: [688]
+[2025-08-14 10:34:52] [INFO] SELECTONE実行完了: 結果=データあり, 実行時間=0.75ms
+[2025-08-14 10:34:52] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:52] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.24ms
+[2025-08-14 10:34:52] [INFO] SELECTONE実行開始: SELECT COALESCE(status, 'ordered') as status FROM order_details WHERE id = ? LIMIT 1 - パラメータ: [688]
+[2025-08-14 10:34:52] [INFO] SELECTONE実行完了: 結果=データあり, 実行時間=0.32ms
+[2025-08-14 10:34:52] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status_updated_at' - パラメータ: []
+[2025-08-14 10:34:52] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1ms
+[2025-08-14 10:34:52] [INFO] EXECUTE実行開始: UPDATE order_details SET status = ?, status_updated_by = ?, status_updated_at = ? WHERE id = ? - パラメータ: ["ready","kitchen_monitor","2025-08-14 10:34:52",688]
+[2025-08-14 10:34:52] [INFO] EXECUTE実行完了: 影響行数=1, 実行時間=0.57ms
+[2025-08-14 10:34:52] [INFO] Database::__construct - データベース接続開始
+[2025-08-14 10:34:52] [INFO] データベース接続試行: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-08-14 10:34:52] [INFO] データベース接続成功
+[2025-08-14 10:34:53] [INFO] SELECTONE実行開始: SELECT od.id, od.product_name, od.status as current_status, o.room_number 
+                          FROM order_details od 
+                          JOIN orders o ON od.order_id = o.id 
+                          WHERE od.id = ? LIMIT 1 - パラメータ: [689]
+[2025-08-14 10:34:53] [INFO] SELECTONE実行完了: 結果=データあり, 実行時間=0.61ms
+[2025-08-14 10:34:53] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:53] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.17ms
+[2025-08-14 10:34:53] [INFO] SELECTONE実行開始: SELECT COALESCE(status, 'ordered') as status FROM order_details WHERE id = ? LIMIT 1 - パラメータ: [689]
+[2025-08-14 10:34:53] [INFO] SELECTONE実行完了: 結果=データあり, 実行時間=0.41ms
+[2025-08-14 10:34:53] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status_updated_at' - パラメータ: []
+[2025-08-14 10:34:53] [INFO] SELECT実行完了: 取得行数=1, 実行時間=0.95ms
+[2025-08-14 10:34:53] [INFO] EXECUTE実行開始: UPDATE order_details SET status = ?, status_updated_by = ?, status_updated_at = ? WHERE id = ? - パラメータ: ["ready","kitchen_monitor","2025-08-14 10:34:53",689]
+[2025-08-14 10:34:53] [INFO] EXECUTE実行完了: 影響行数=1, 実行時間=0.52ms
+[2025-08-14 10:34:53] [INFO] Database::__construct - データベース接続開始
+[2025-08-14 10:34:53] [INFO] データベース接続試行: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-08-14 10:34:53] [INFO] データベース接続成功
+[2025-08-14 10:34:53] [INFO] SELECTONE実行開始: SELECT od.id, od.product_name, od.status as current_status, o.room_number 
+                          FROM order_details od 
+                          JOIN orders o ON od.order_id = o.id 
+                          WHERE od.id = ? LIMIT 1 - パラメータ: [690]
+[2025-08-14 10:34:53] [INFO] SELECTONE実行完了: 結果=データあり, 実行時間=0.59ms
+[2025-08-14 10:34:53] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:53] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.25ms
+[2025-08-14 10:34:53] [INFO] SELECTONE実行開始: SELECT COALESCE(status, 'ordered') as status FROM order_details WHERE id = ? LIMIT 1 - パラメータ: [690]
+[2025-08-14 10:34:53] [INFO] SELECTONE実行完了: 結果=データあり, 実行時間=0.5ms
+[2025-08-14 10:34:53] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status_updated_at' - パラメータ: []
+[2025-08-14 10:34:53] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.07ms
+[2025-08-14 10:34:53] [INFO] EXECUTE実行開始: UPDATE order_details SET status = ?, status_updated_by = ?, status_updated_at = ? WHERE id = ? - パラメータ: ["ready","kitchen_monitor","2025-08-14 10:34:53",690]
+[2025-08-14 10:34:53] [INFO] EXECUTE実行完了: 影響行数=1, 実行時間=0.6ms
+[2025-08-14 10:34:53] [INFO] Database::__construct - データベース接続開始
+[2025-08-14 10:34:53] [INFO] データベース接続試行: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-08-14 10:34:53] [INFO] データベース接続成功
+[2025-08-14 10:34:53] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:53] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.53ms
+[2025-08-14 10:34:53] [INFO] SELECT実行開始: SELECT 
+                            od.id as order_detail_id,
+                            od.order_id,
+                            od.order_session_id,
+                            od.product_name,
+                            od.quantity,
+                            COALESCE(od.status, 'ordered') as status,
+                            od.created_at as order_datetime,
+                            od.status_updated_at,
+                            o.room_number,
+                            COALESCE(o.memo, '') as memo,
+                            TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) as minutes_elapsed,
+                            CASE 
+                                WHEN TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) >= 30 THEN 'urgent'
+                                WHEN TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) >= 20 THEN 'warning'
+                                ELSE 'normal'
+                            END as priority_level
+                        FROM ord...
+[2025-08-14 10:34:53] [INFO] SELECT実行完了: 取得行数=3, 実行時間=0.75ms
+[2025-08-14 10:34:53] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:53] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.13ms
+[2025-08-14 10:34:53] [INFO] SELECTONE実行開始: SELECT 
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ordered' THEN 1 END) as pending_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ready' THEN 1 END) as ready_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'delivered' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as delivered_today,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'cancelled' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as cancelled_today,
+                            AVG(CASE 
+                                WHEN COALESCE(status, 'ordered') = 'delivered' AND status_updated_at IS NOT NULL 
+                                THEN TIMESTAMPDIFF(MINUTE, created_at, status_updated_at) 
+                                END) as avg_completion_time,
+                            MAX(created_at) as last_order_time
+             ...
+[2025-08-14 10:34:53] [ERROR] クエリ実行エラー: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in field list is ambiguous - クエリ: SELECT 
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ordered' THEN 1 END) as pending_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ready' THEN 1 END) as ready_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'delivered' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as delivered_today,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'cancelled' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as cancelled_today,
+                            AVG(CASE 
+                                WHEN COALESCE(status, 'ordered') = 'delivered' AND status_updated_at IS NOT NULL 
+                                THEN TIMESTAMPDIFF(MINUTE, created_at, status_updated_at) 
+                    ...
+[2025-08-14 10:34:53] [INFO] SELECTONE実行開始: SELECT COUNT(*) as new_count 
+                    FROM order_details od
+                    JOIN orders o ON od.order_id = o.id
+                    WHERE od.created_at > ? 
+                        AND o.order_status = 'OPEN'
+                    LIMIT 1 - パラメータ: ["2025-08-14 10:34:51"]
+[2025-08-14 10:34:53] [INFO] SELECTONE実行完了: 結果=データあり, 実行時間=0.66ms
+[2025-08-14 10:34:53] [INFO] Database::__construct - データベース接続開始
+[2025-08-14 10:34:53] [INFO] データベース接続試行: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-08-14 10:34:53] [INFO] データベース接続成功
+[2025-08-14 10:34:53] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:53] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.27ms
+[2025-08-14 10:34:53] [INFO] SELECT実行開始: SELECT 
+                            od.id as order_detail_id,
+                            od.order_id,
+                            od.order_session_id,
+                            od.product_name,
+                            od.quantity,
+                            COALESCE(od.status, 'ordered') as status,
+                            od.created_at as order_datetime,
+                            od.status_updated_at,
+                            o.room_number,
+                            COALESCE(o.memo, '') as memo,
+                            TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) as minutes_elapsed,
+                            CASE 
+                                WHEN TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) >= 30 THEN 'urgent'
+                                WHEN TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) >= 20 THEN 'warning'
+                                ELSE 'normal'
+                            END as priority_level
+                        FROM ord...
+[2025-08-14 10:34:53] [INFO] SELECT実行完了: 取得行数=3, 実行時間=0.69ms
+[2025-08-14 10:34:53] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:53] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.06ms
+[2025-08-14 10:34:53] [INFO] SELECTONE実行開始: SELECT 
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ordered' THEN 1 END) as pending_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ready' THEN 1 END) as ready_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'delivered' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as delivered_today,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'cancelled' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as cancelled_today,
+                            AVG(CASE 
+                                WHEN COALESCE(status, 'ordered') = 'delivered' AND status_updated_at IS NOT NULL 
+                                THEN TIMESTAMPDIFF(MINUTE, created_at, status_updated_at) 
+                                END) as avg_completion_time,
+                            MAX(created_at) as last_order_time
+             ...
+[2025-08-14 10:34:53] [ERROR] クエリ実行エラー: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in field list is ambiguous - クエリ: SELECT 
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ordered' THEN 1 END) as pending_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ready' THEN 1 END) as ready_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'delivered' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as delivered_today,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'cancelled' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as cancelled_today,
+                            AVG(CASE 
+                                WHEN COALESCE(status, 'ordered') = 'delivered' AND status_updated_at IS NOT NULL 
+                                THEN TIMESTAMPDIFF(MINUTE, created_at, status_updated_at) 
+                    ...
+[2025-08-14 10:34:53] [INFO] SELECTONE実行開始: SELECT COUNT(*) as new_count 
+                    FROM order_details od
+                    JOIN orders o ON od.order_id = o.id
+                    WHERE od.created_at > ? 
+                        AND o.order_status = 'OPEN'
+                    LIMIT 1 - パラメータ: ["2025-08-14 10:34:53"]
+[2025-08-14 10:34:53] [INFO] SELECTONE実行完了: 結果=データあり, 実行時間=0.56ms
+[2025-08-14 10:34:54] [INFO] Database::__construct - データベース接続開始
+[2025-08-14 10:34:54] [INFO] データベース接続試行: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-08-14 10:34:54] [INFO] データベース接続成功
+[2025-08-14 10:34:54] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:54] [INFO] SELECT実行完了: 取得行数=1, 実行時間=8.15ms
+[2025-08-14 10:34:54] [INFO] SELECT実行開始: SELECT 
+                            od.id as order_detail_id,
+                            od.order_id,
+                            od.order_session_id,
+                            od.product_name,
+                            od.quantity,
+                            COALESCE(od.status, 'ordered') as status,
+                            od.created_at as order_datetime,
+                            od.status_updated_at,
+                            o.room_number,
+                            COALESCE(o.memo, '') as memo,
+                            TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) as minutes_elapsed,
+                            CASE 
+                                WHEN TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) >= 30 THEN 'urgent'
+                                WHEN TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) >= 20 THEN 'warning'
+                                ELSE 'normal'
+                            END as priority_level
+                        FROM ord...
+[2025-08-14 10:34:54] [INFO] SELECT実行完了: 取得行数=3, 実行時間=5.04ms
+[2025-08-14 10:34:54] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:54] [INFO] SELECT実行完了: 取得行数=1, 実行時間=7.4ms
+[2025-08-14 10:34:54] [INFO] SELECTONE実行開始: SELECT 
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ordered' THEN 1 END) as pending_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ready' THEN 1 END) as ready_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'delivered' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as delivered_today,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'cancelled' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as cancelled_today,
+                            AVG(CASE 
+                                WHEN COALESCE(status, 'ordered') = 'delivered' AND status_updated_at IS NOT NULL 
+                                THEN TIMESTAMPDIFF(MINUTE, created_at, status_updated_at) 
+                                END) as avg_completion_time,
+                            MAX(created_at) as last_order_time
+             ...
+[2025-08-14 10:34:54] [ERROR] クエリ実行エラー: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in field list is ambiguous - クエリ: SELECT 
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ordered' THEN 1 END) as pending_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ready' THEN 1 END) as ready_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'delivered' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as delivered_today,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'cancelled' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as cancelled_today,
+                            AVG(CASE 
+                                WHEN COALESCE(status, 'ordered') = 'delivered' AND status_updated_at IS NOT NULL 
+                                THEN TIMESTAMPDIFF(MINUTE, created_at, status_updated_at) 
+                    ...
+[2025-08-14 10:34:54] [INFO] SELECTONE実行開始: SELECT COUNT(*) as new_count 
+                    FROM order_details od
+                    JOIN orders o ON od.order_id = o.id
+                    WHERE od.created_at > ? 
+                        AND o.order_status = 'OPEN'
+                    LIMIT 1 - パラメータ: ["2025-08-14 10:34:53"]
+[2025-08-14 10:34:54] [INFO] SELECTONE実行完了: 結果=データあり, 実行時間=4.85ms
+[2025-08-14 10:34:54] [INFO] Database::__construct - データベース接続開始
+[2025-08-14 10:34:54] [INFO] データベース接続試行: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-08-14 10:34:54] [INFO] データベース接続成功
+[2025-08-14 10:34:54] [INFO] SELECTONE実行開始: SELECT od.id, od.product_name, od.status as current_status, o.room_number 
+                          FROM order_details od 
+                          JOIN orders o ON od.order_id = o.id 
+                          WHERE od.id = ? LIMIT 1 - パラメータ: [688]
+[2025-08-14 10:34:54] [INFO] SELECTONE実行完了: 結果=データあり, 実行時間=0.5ms
+[2025-08-14 10:34:54] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:54] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.22ms
+[2025-08-14 10:34:54] [INFO] SELECTONE実行開始: SELECT COALESCE(status, 'ordered') as status FROM order_details WHERE id = ? LIMIT 1 - パラメータ: [688]
+[2025-08-14 10:34:54] [INFO] SELECTONE実行完了: 結果=データあり, 実行時間=0.29ms
+[2025-08-14 10:34:54] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status_updated_at' - パラメータ: []
+[2025-08-14 10:34:54] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.05ms
+[2025-08-14 10:34:54] [INFO] EXECUTE実行開始: UPDATE order_details SET status = ?, status_updated_by = ?, status_updated_at = ? WHERE id = ? - パラメータ: ["delivered","kitchen_monitor","2025-08-14 10:34:54",688]
+[2025-08-14 10:34:54] [INFO] EXECUTE実行完了: 影響行数=1, 実行時間=0.57ms
+[2025-08-14 10:34:55] [INFO] Database::__construct - データベース接続開始
+[2025-08-14 10:34:55] [INFO] データベース接続試行: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-08-14 10:34:55] [INFO] データベース接続成功
+[2025-08-14 10:34:55] [INFO] SELECTONE実行開始: SELECT od.id, od.product_name, od.status as current_status, o.room_number 
+                          FROM order_details od 
+                          JOIN orders o ON od.order_id = o.id 
+                          WHERE od.id = ? LIMIT 1 - パラメータ: [689]
+[2025-08-14 10:34:55] [INFO] SELECTONE実行完了: 結果=データあり, 実行時間=0.73ms
+[2025-08-14 10:34:55] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:55] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.16ms
+[2025-08-14 10:34:55] [INFO] SELECTONE実行開始: SELECT COALESCE(status, 'ordered') as status FROM order_details WHERE id = ? LIMIT 1 - パラメータ: [689]
+[2025-08-14 10:34:55] [INFO] SELECTONE実行完了: 結果=データあり, 実行時間=0.44ms
+[2025-08-14 10:34:55] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status_updated_at' - パラメータ: []
+[2025-08-14 10:34:55] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.03ms
+[2025-08-14 10:34:55] [INFO] EXECUTE実行開始: UPDATE order_details SET status = ?, status_updated_by = ?, status_updated_at = ? WHERE id = ? - パラメータ: ["delivered","kitchen_monitor","2025-08-14 10:34:55",689]
+[2025-08-14 10:34:55] [INFO] EXECUTE実行完了: 影響行数=1, 実行時間=0.66ms
+[2025-08-14 10:34:55] [INFO] Database::__construct - データベース接続開始
+[2025-08-14 10:34:55] [INFO] データベース接続試行: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-08-14 10:34:55] [INFO] データベース接続成功
+[2025-08-14 10:34:55] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:55] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.43ms
+[2025-08-14 10:34:55] [INFO] SELECT実行開始: SELECT 
+                            od.id as order_detail_id,
+                            od.order_id,
+                            od.order_session_id,
+                            od.product_name,
+                            od.quantity,
+                            COALESCE(od.status, 'ordered') as status,
+                            od.created_at as order_datetime,
+                            od.status_updated_at,
+                            o.room_number,
+                            COALESCE(o.memo, '') as memo,
+                            TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) as minutes_elapsed,
+                            CASE 
+                                WHEN TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) >= 30 THEN 'urgent'
+                                WHEN TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) >= 20 THEN 'warning'
+                                ELSE 'normal'
+                            END as priority_level
+                        FROM ord...
+[2025-08-14 10:34:55] [INFO] SELECT実行完了: 取得行数=1, 実行時間=0.91ms
+[2025-08-14 10:34:55] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:55] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.12ms
+[2025-08-14 10:34:55] [INFO] SELECTONE実行開始: SELECT 
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ordered' THEN 1 END) as pending_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ready' THEN 1 END) as ready_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'delivered' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as delivered_today,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'cancelled' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as cancelled_today,
+                            AVG(CASE 
+                                WHEN COALESCE(status, 'ordered') = 'delivered' AND status_updated_at IS NOT NULL 
+                                THEN TIMESTAMPDIFF(MINUTE, created_at, status_updated_at) 
+                                END) as avg_completion_time,
+                            MAX(created_at) as last_order_time
+             ...
+[2025-08-14 10:34:55] [ERROR] クエリ実行エラー: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in field list is ambiguous - クエリ: SELECT 
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ordered' THEN 1 END) as pending_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ready' THEN 1 END) as ready_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'delivered' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as delivered_today,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'cancelled' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as cancelled_today,
+                            AVG(CASE 
+                                WHEN COALESCE(status, 'ordered') = 'delivered' AND status_updated_at IS NOT NULL 
+                                THEN TIMESTAMPDIFF(MINUTE, created_at, status_updated_at) 
+                    ...
+[2025-08-14 10:34:55] [INFO] SELECTONE実行開始: SELECT COUNT(*) as new_count 
+                    FROM order_details od
+                    JOIN orders o ON od.order_id = o.id
+                    WHERE od.created_at > ? 
+                        AND o.order_status = 'OPEN'
+                    LIMIT 1 - パラメータ: ["2025-08-14 10:34:54"]
+[2025-08-14 10:34:55] [INFO] SELECTONE実行完了: 結果=データあり, 実行時間=0.78ms
+[2025-08-14 10:34:56] [INFO] Database::__construct - データベース接続開始
+[2025-08-14 10:34:56] [INFO] データベース接続試行: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-08-14 10:34:56] [INFO] データベース接続成功
+[2025-08-14 10:34:56] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:56] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.26ms
+[2025-08-14 10:34:56] [INFO] SELECT実行開始: SELECT 
+                            od.id as order_detail_id,
+                            od.order_id,
+                            od.order_session_id,
+                            od.product_name,
+                            od.quantity,
+                            COALESCE(od.status, 'ordered') as status,
+                            od.created_at as order_datetime,
+                            od.status_updated_at,
+                            o.room_number,
+                            COALESCE(o.memo, '') as memo,
+                            TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) as minutes_elapsed,
+                            CASE 
+                                WHEN TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) >= 30 THEN 'urgent'
+                                WHEN TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) >= 20 THEN 'warning'
+                                ELSE 'normal'
+                            END as priority_level
+                        FROM ord...
+[2025-08-14 10:34:56] [INFO] SELECT実行完了: 取得行数=1, 実行時間=0.68ms
+[2025-08-14 10:34:56] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:56] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.15ms
+[2025-08-14 10:34:56] [INFO] SELECTONE実行開始: SELECT 
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ordered' THEN 1 END) as pending_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ready' THEN 1 END) as ready_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'delivered' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as delivered_today,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'cancelled' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as cancelled_today,
+                            AVG(CASE 
+                                WHEN COALESCE(status, 'ordered') = 'delivered' AND status_updated_at IS NOT NULL 
+                                THEN TIMESTAMPDIFF(MINUTE, created_at, status_updated_at) 
+                                END) as avg_completion_time,
+                            MAX(created_at) as last_order_time
+             ...
+[2025-08-14 10:34:56] [ERROR] クエリ実行エラー: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in field list is ambiguous - クエリ: SELECT 
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ordered' THEN 1 END) as pending_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ready' THEN 1 END) as ready_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'delivered' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as delivered_today,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'cancelled' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as cancelled_today,
+                            AVG(CASE 
+                                WHEN COALESCE(status, 'ordered') = 'delivered' AND status_updated_at IS NOT NULL 
+                                THEN TIMESTAMPDIFF(MINUTE, created_at, status_updated_at) 
+                    ...
+[2025-08-14 10:34:56] [INFO] SELECTONE実行開始: SELECT COUNT(*) as new_count 
+                    FROM order_details od
+                    JOIN orders o ON od.order_id = o.id
+                    WHERE od.created_at > ? 
+                        AND o.order_status = 'OPEN'
+                    LIMIT 1 - パラメータ: ["2025-08-14 10:34:55"]
+[2025-08-14 10:34:56] [INFO] SELECTONE実行完了: 結果=データあり, 実行時間=0.52ms
+[2025-08-14 10:34:57] [INFO] Database::__construct - データベース接続開始
+[2025-08-14 10:34:57] [INFO] データベース接続試行: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-08-14 10:34:57] [INFO] データベース接続成功
+[2025-08-14 10:34:57] [INFO] SELECTONE実行開始: SELECT od.id, od.product_name, od.status as current_status, o.room_number 
+                          FROM order_details od 
+                          JOIN orders o ON od.order_id = o.id 
+                          WHERE od.id = ? LIMIT 1 - パラメータ: [690]
+[2025-08-14 10:34:57] [INFO] SELECTONE実行完了: 結果=データあり, 実行時間=0.59ms
+[2025-08-14 10:34:57] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:57] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.05ms
+[2025-08-14 10:34:57] [INFO] SELECTONE実行開始: SELECT COALESCE(status, 'ordered') as status FROM order_details WHERE id = ? LIMIT 1 - パラメータ: [690]
+[2025-08-14 10:34:57] [INFO] SELECTONE実行完了: 結果=データあり, 実行時間=0.34ms
+[2025-08-14 10:34:57] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status_updated_at' - パラメータ: []
+[2025-08-14 10:34:57] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1ms
+[2025-08-14 10:34:57] [INFO] EXECUTE実行開始: UPDATE order_details SET status = ?, status_updated_by = ?, status_updated_at = ? WHERE id = ? - パラメータ: ["delivered","kitchen_monitor","2025-08-14 10:34:57",690]
+[2025-08-14 10:34:57] [INFO] EXECUTE実行完了: 影響行数=1, 実行時間=0.49ms
+[2025-08-14 10:34:58] [INFO] Database::__construct - データベース接続開始
+[2025-08-14 10:34:58] [INFO] データベース接続試行: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-08-14 10:34:58] [INFO] データベース接続成功
+[2025-08-14 10:34:58] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:58] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.22ms
+[2025-08-14 10:34:58] [INFO] SELECT実行開始: SELECT 
+                            od.id as order_detail_id,
+                            od.order_id,
+                            od.order_session_id,
+                            od.product_name,
+                            od.quantity,
+                            COALESCE(od.status, 'ordered') as status,
+                            od.created_at as order_datetime,
+                            od.status_updated_at,
+                            o.room_number,
+                            COALESCE(o.memo, '') as memo,
+                            TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) as minutes_elapsed,
+                            CASE 
+                                WHEN TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) >= 30 THEN 'urgent'
+                                WHEN TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) >= 20 THEN 'warning'
+                                ELSE 'normal'
+                            END as priority_level
+                        FROM ord...
+[2025-08-14 10:34:58] [INFO] SELECT実行完了: 取得行数=0, 実行時間=0.86ms
+[2025-08-14 10:34:58] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:34:58] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.01ms
+[2025-08-14 10:34:58] [INFO] SELECTONE実行開始: SELECT 
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ordered' THEN 1 END) as pending_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ready' THEN 1 END) as ready_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'delivered' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as delivered_today,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'cancelled' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as cancelled_today,
+                            AVG(CASE 
+                                WHEN COALESCE(status, 'ordered') = 'delivered' AND status_updated_at IS NOT NULL 
+                                THEN TIMESTAMPDIFF(MINUTE, created_at, status_updated_at) 
+                                END) as avg_completion_time,
+                            MAX(created_at) as last_order_time
+             ...
+[2025-08-14 10:34:58] [ERROR] クエリ実行エラー: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in field list is ambiguous - クエリ: SELECT 
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ordered' THEN 1 END) as pending_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ready' THEN 1 END) as ready_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'delivered' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as delivered_today,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'cancelled' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as cancelled_today,
+                            AVG(CASE 
+                                WHEN COALESCE(status, 'ordered') = 'delivered' AND status_updated_at IS NOT NULL 
+                                THEN TIMESTAMPDIFF(MINUTE, created_at, status_updated_at) 
+                    ...
+[2025-08-14 10:34:58] [INFO] SELECTONE実行開始: SELECT COUNT(*) as new_count 
+                    FROM order_details od
+                    JOIN orders o ON od.order_id = o.id
+                    WHERE od.created_at > ? 
+                        AND o.order_status = 'OPEN'
+                    LIMIT 1 - パラメータ: ["2025-08-14 10:34:56"]
+[2025-08-14 10:34:58] [INFO] SELECTONE実行完了: 結果=データあり, 実行時間=0.61ms
+[2025-08-14 10:35:08] [INFO] Database::__construct - データベース接続開始
+[2025-08-14 10:35:08] [INFO] データベース接続試行: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-08-14 10:35:08] [INFO] データベース接続成功
+[2025-08-14 10:35:08] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:35:08] [INFO] SELECT実行完了: 取得行数=1, 実行時間=1.75ms
+[2025-08-14 10:35:08] [INFO] SELECT実行開始: SELECT 
+                            od.id as order_detail_id,
+                            od.order_id,
+                            od.order_session_id,
+                            od.product_name,
+                            od.quantity,
+                            COALESCE(od.status, 'ordered') as status,
+                            od.created_at as order_datetime,
+                            od.status_updated_at,
+                            o.room_number,
+                            COALESCE(o.memo, '') as memo,
+                            TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) as minutes_elapsed,
+                            CASE 
+                                WHEN TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) >= 30 THEN 'urgent'
+                                WHEN TIMESTAMPDIFF(MINUTE, od.created_at, NOW()) >= 20 THEN 'warning'
+                                ELSE 'normal'
+                            END as priority_level
+                        FROM ord...
+[2025-08-14 10:35:08] [INFO] SELECT実行完了: 取得行数=0, 実行時間=0.68ms
+[2025-08-14 10:35:08] [INFO] SELECT実行開始: SHOW COLUMNS FROM order_details WHERE Field = 'status' - パラメータ: []
+[2025-08-14 10:35:08] [INFO] SELECT実行完了: 取得行数=1, 実行時間=0.99ms
+[2025-08-14 10:35:08] [INFO] SELECTONE実行開始: SELECT 
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ordered' THEN 1 END) as pending_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ready' THEN 1 END) as ready_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'delivered' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as delivered_today,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'cancelled' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as cancelled_today,
+                            AVG(CASE 
+                                WHEN COALESCE(status, 'ordered') = 'delivered' AND status_updated_at IS NOT NULL 
+                                THEN TIMESTAMPDIFF(MINUTE, created_at, status_updated_at) 
+                                END) as avg_completion_time,
+                            MAX(created_at) as last_order_time
+             ...
+[2025-08-14 10:35:08] [ERROR] クエリ実行エラー: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in field list is ambiguous - クエリ: SELECT 
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ordered' THEN 1 END) as pending_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'ready' THEN 1 END) as ready_orders,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'delivered' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as delivered_today,
+                            COUNT(CASE WHEN COALESCE(status, 'ordered') = 'cancelled' AND DATE(COALESCE(status_updated_at, created_at)) = CURDATE() THEN 1 END) as cancelled_today,
+                            AVG(CASE 
+                                WHEN COALESCE(status, 'ordered') = 'delivered' AND status_updated_at IS NOT NULL 
+                                THEN TIMESTAMPDIFF(MINUTE, created_at, status_updated_at) 
+                    ...
+[2025-08-14 10:35:08] [INFO] SELECTONE実行開始: SELECT COUNT(*) as new_count 
+                    FROM order_details od
+                    JOIN orders o ON od.order_id = o.id
+                    WHERE od.created_at > ? 
+                        AND o.order_status = 'OPEN'
+                    LIMIT 1 - パラメータ: ["2025-08-14 10:34:38"]
+[2025-08-14 10:35:08] [INFO] SELECTONE実行完了: 結果=データあり, 実行時間=0.63ms

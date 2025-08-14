@@ -1,0 +1,26 @@
+# Disable caching for all files in this directory
+<IfModule mod_headers.c>
+    # Set cache control headers
+    Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+    Header set Pragma "no-cache"
+    Header set Expires "0"
+    
+    # Specific focus on index.php
+    <FilesMatch "index\.php$">
+        Header set Cache-Control "no-store, no-cache, must-revalidate, post-check=0, pre-check=0, max-age=0"
+        Header set Pragma "no-cache"
+        Header set Expires "Thu, 01 Jan 1970 00:00:00 GMT"
+        Header unset ETag
+    </FilesMatch>
+</IfModule>
+
+# Disable ETag
+FileETag None
+
+# Prevent caching through mod_expires if available
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresDefault "access"
+    ExpiresByType text/html "access"
+    ExpiresByType application/xhtml+xml "access"
+</IfModule> 

@@ -1,0 +1,75 @@
+[2025-05-05 23:44:35] [INFO] QRコード画像作成成功: common_9c405d98cb8c3f7385125d23c13fe28e_1746456274.png
+[2025-05-05 23:57:40] [INFO] QRコード画像作成成功: common_9c405d98cb8c3f7385125d23c13fe28e_1746457059.png
+[2025-05-05 23:59:17] [INFO] QRコード画像作成成功: common_9c405d98cb8c3f7385125d23c13fe28e_1746457156.png
+[2025-05-06 00:03:28] [INFO] QRコード画像作成成功: common_9c405d98cb8c3f7385125d23c13fe28e_1746457407.png
+[2025-05-06 00:09:05] [DEBUG] QRタイプ: common, 部屋番号: , テキスト: ActivationQR:roomsetting
+[2025-05-06 00:09:05] [DEBUG] テキスト描画情報: サイズ=36pt, 幅=0px, 高さ=0px
+[2025-05-06 00:09:05] [DEBUG] テキスト配置: x=250, y=559, エリアY=518, エリア高さ=82
+[2025-05-06 00:09:05] [ERROR] テキスト描画に失敗しました
+[2025-05-06 00:09:06] [INFO] QRコード画像作成成功: common_9c405d98cb8c3f7385125d23c13fe28e_1746457744.png
+[2025-05-06 00:13:00] [DEBUG] QRタイプ: room, 部屋番号: fg#01, テキスト: ActivationQR:fg#01
+[2025-05-06 00:13:00] [DEBUG] テキスト描画情報: サイズ=36pt, 幅=0px, 高さ=0px
+[2025-05-06 00:13:00] [DEBUG] テキスト配置: x=250, y=559, エリアY=518, エリア高さ=82
+[2025-05-06 00:13:00] [ERROR] テキスト描画に失敗しました
+[2025-05-06 00:13:00] [INFO] QRコード画像作成成功: room_7b3e59af0db86c6afcd9dd46ad301422_1746457979.png
+[2025-05-06 00:15:02] [DEBUG] QRタイプ: common, 部屋番号: , テキスト: ActivationQR:roomsetting
+[2025-05-06 00:15:02] [DEBUG] フォントパス: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/images/arial_black.ttf, 存在: はい
+[2025-05-06 00:15:02] [ERROR] テキストボックスの計算に失敗しました。フォントパス: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/images/arial_black.ttf
+[2025-05-06 00:15:02] [INFO] QRコード画像作成成功: common_9c405d98cb8c3f7385125d23c13fe28e_1746458101.png
+[2025-05-06 00:17:12] [DEBUG] QRタイプ: common, 部屋番号: , テキスト: ActivationQR:roomsetting
+[2025-05-06 00:17:12] [ERROR] テキストボックスの計算に失敗しました - 内蔵フォントを使用
+[2025-05-06 00:17:12] [INFO] QRコード画像作成成功: common_9c405d98cb8c3f7385125d23c13fe28e_1746458231.png
+[2025-05-06 00:19:35] [DEBUG] QRタイプ: common, 部屋番号: , テキスト: ActivationQR:roomsetting
+[2025-05-06 00:19:35] [INFO] 内蔵フォントでテキスト描画: x=142, y=551.5
+[2025-05-06 00:19:35] [INFO] QRコード画像作成成功: common_9c405d98cb8c3f7385125d23c13fe28e_1746458374.png
+[2025-05-06 00:21:16] [DEBUG] QRタイプ: common, 部屋番号: , テキスト: ActivationQR:roomsetting
+[2025-05-06 00:21:16] [INFO] 拡大テキスト描画: 幅=432px, 高さ=30px, x=34, y=544
+[2025-05-06 00:21:16] [INFO] QRコード画像作成成功: common_9c405d98cb8c3f7385125d23c13fe28e_1746458475.png
+[2025-05-06 00:23:29] [DEBUG] QRタイプ: common, 部屋番号: , テキスト: ActivationQR:roomsetting
+[2025-05-06 00:23:29] [INFO] フォントを使用: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/images/arial_black.ttf
+[2025-05-06 00:23:29] [ERROR] テキストボックスの計算失敗
+[2025-05-06 00:23:29] [INFO] 内蔵フォントでテキスト描画: x=142, y=551.5
+[2025-05-06 00:23:29] [INFO] QRコード画像作成成功: common_9c405d98cb8c3f7385125d23c13fe28e_1746458608.png
+[2025-05-06 00:26:11] [DEBUG] QRタイプ: common, 部屋番号: , テキスト: ActivationQR:roomsetting
+[2025-05-06 00:26:11] [INFO] フォントを使用: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/fonts/ArialMTStd-Black.otf
+[2025-05-06 00:26:11] [INFO] フォントでテキスト描画成功: サイズ=24, 幅=452, 高さ=30
+[2025-05-06 00:26:11] [INFO] QRコード画像作成成功: common_9c405d98cb8c3f7385125d23c13fe28e_1746458770.png
+[2025-05-06 00:28:19] [DEBUG] QRタイプ: common, 部屋番号: , テキスト: ActivationQR:roomsetting
+[2025-05-06 00:28:19] [INFO] フォントを使用: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/fonts/ArialMTStd-Black.otf
+[2025-05-06 00:28:19] [INFO] フォントでテキスト描画成功: サイズ=24, 幅=452, 高さ=30
+[2025-05-06 00:28:19] [INFO] QRコード画像作成成功: common_9c405d98cb8c3f7385125d23c13fe28e_1746458898.png
+[2025-05-06 00:28:48] [DEBUG] QRタイプ: room, 部屋番号: fg#01, テキスト: ActivationQR:fg#01
+[2025-05-06 00:28:48] [INFO] フォントを使用: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/fonts/ArialMTStd-Black.otf
+[2025-05-06 00:28:48] [INFO] フォントでテキスト描画成功: サイズ=24, 幅=334, 高さ=30
+[2025-05-06 00:28:48] [INFO] QRコード画像作成成功: room_7b3e59af0db86c6afcd9dd46ad301422_1746458927.png
+[2025-05-06 00:29:02] [DEBUG] QRタイプ: room, 部屋番号: fg#03, テキスト: ActivationQR:fg#03
+[2025-05-06 00:29:02] [INFO] フォントを使用: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/fonts/ArialMTStd-Black.otf
+[2025-05-06 00:29:02] [INFO] フォントでテキスト描画成功: サイズ=24, 幅=339, 高さ=30
+[2025-05-06 00:29:02] [INFO] QRコード画像作成成功: room_7c0475a2388b0c8a5b4b81a858c3ddb5_1746458941.png
+[2025-05-06 00:29:10] [DEBUG] QRタイプ: room, 部屋番号: fg#02, テキスト: ActivationQR:fg#02
+[2025-05-06 00:29:10] [INFO] フォントを使用: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/fonts/ArialMTStd-Black.otf
+[2025-05-06 00:29:10] [INFO] フォントでテキスト描画成功: サイズ=24, 幅=338, 高さ=30
+[2025-05-06 00:29:10] [INFO] QRコード画像作成成功: room_e78c17097200ded944d73eb1a4177928_1746458949.png
+[2025-05-06 00:29:14] [DEBUG] QRタイプ: room, 部屋番号: fg#03, テキスト: ActivationQR:fg#03
+[2025-05-06 00:29:14] [INFO] フォントを使用: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/fonts/ArialMTStd-Black.otf
+[2025-05-06 00:29:14] [INFO] フォントでテキスト描画成功: サイズ=24, 幅=339, 高さ=30
+[2025-05-06 00:29:14] [INFO] QRコード画像作成成功: room_7c0475a2388b0c8a5b4b81a858c3ddb5_1746458953.png
+[2025-05-06 00:35:49] [DEBUG] QRタイプ: common, 部屋番号: , テキスト: ActivationQR:roomsetting
+[2025-05-06 00:35:49] [INFO] フォントを使用: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/fonts/ArialMTStd-Black.otf
+[2025-05-06 00:35:49] [INFO] フォントでテキスト描画成功: サイズ=24, 幅=452, 高さ=30
+[2025-05-06 00:35:49] [INFO] QRコード画像作成成功: common_9c405d98cb8c3f7385125d23c13fe28e_1746459348.png
+[2025-05-06 01:14:07] [INFO] 古い一時ファイルを削除: common_9c405d98cb8c3f7385125d23c13fe28e_1746456274.png
+[2025-05-06 01:14:07] [INFO] 古い一時ファイルを削除: common_9c405d98cb8c3f7385125d23c13fe28e_1746457059.png
+[2025-05-06 01:14:07] [INFO] 古い一時ファイルを削除: common_9c405d98cb8c3f7385125d23c13fe28e_1746457156.png
+[2025-05-06 01:14:07] [INFO] 古い一時ファイルを削除: common_9c405d98cb8c3f7385125d23c13fe28e_1746457407.png
+[2025-05-06 01:14:07] [INFO] 古い一時ファイルを削除: common_9c405d98cb8c3f7385125d23c13fe28e_1746457744.png
+[2025-05-06 01:14:07] [INFO] 古い一時ファイルを削除: room_7b3e59af0db86c6afcd9dd46ad301422_1746457979.png
+[2025-05-06 01:14:08] [DEBUG] QRタイプ: common, 部屋番号: , テキスト: ActivationQR:roomsetting
+[2025-05-06 01:14:08] [INFO] フォントを使用: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/fonts/ArialMTStd-Black.otf
+[2025-05-06 01:14:08] [INFO] フォントでテキスト描画成功: サイズ=24, 幅=452, 高さ=30
+[2025-05-06 01:14:08] [INFO] QRコード画像作成成功: common_9c405d98cb8c3f7385125d23c13fe28e_1746461647.png
+[2025-05-06 01:16:45] [INFO] 古い一時ファイルを削除: common_9c405d98cb8c3f7385125d23c13fe28e_1746458101.png
+[2025-05-06 01:16:46] [DEBUG] QRタイプ: room, 部屋番号: fg#01, テキスト: ActivationQR:fg#01
+[2025-05-06 01:16:46] [INFO] フォントを使用: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/fonts/ArialMTStd-Black.otf
+[2025-05-06 01:16:46] [INFO] フォントでテキスト描画成功: サイズ=24, 幅=334, 高さ=30
+[2025-05-06 01:16:46] [INFO] QRコード画像作成成功: room_7b3e59af0db86c6afcd9dd46ad301422_1746461805.png

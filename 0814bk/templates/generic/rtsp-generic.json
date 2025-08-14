@@ -1,0 +1,55 @@
+{
+  "manufacturer": "Generic",
+  "model_pattern": "*",
+  "description": "一般的なRTSPカメラ用テンプレート",
+  "rtsp_patterns": [
+    {
+      "name": "標準ストリーム",
+      "url_pattern": "rtsp://{username}:{password}@{ip}:{port}/stream",
+      "default_port": 554
+    },
+    {
+      "name": "標準ストリーム（認証なし）",
+      "url_pattern": "rtsp://{ip}:{port}/stream",
+      "default_port": 554
+    },
+    {
+      "name": "カスタムパス",
+      "url_pattern": "rtsp://{username}:{password}@{ip}:{port}/{custom_path}",
+      "default_port": 554
+    }
+  ],
+  "authentication": {
+    "required": false,
+    "default_username": "admin",
+    "default_password": "admin"
+  },
+  "settings": {
+    "recommended_fps": 10,
+    "recommended_resolution": "640x480",
+    "ptz_support": false,
+    "audio_support": false,
+    "special_parameters": {
+      "stream_type": ["h264", "mjpeg"],
+      "custom_options": ["custom_path"]
+    }
+  },
+  "setup_instructions": "1. カメラのIPアドレスを設定\n2. RTSPのURLパターンを選択（不明な場合はカメラのマニュアルを確認）\n3. 認証が必要な場合はユーザー名とパスワードを設定\n4. 接続テスト実行",
+  "troubleshooting": [
+    {
+      "issue": "接続できない",
+      "cause": "URLパターンが正しくない可能性",
+      "solution": "カメラのマニュアルでRTSP URLの正確なパスを確認してください"
+    },
+    {
+      "issue": "ストリーム取得エラー",
+      "cause": "対応していないコーデック",
+      "solution": "カメラがH.264またはMJPEGストリームを提供しているか確認してください"
+    },
+    {
+      "issue": "認証エラー",
+      "cause": "認証情報の問題",
+      "solution": "正確なユーザー名とパスワードを設定しているか確認してください"
+    }
+  ]
+} 

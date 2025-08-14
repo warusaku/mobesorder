@@ -1,0 +1,6 @@
+[2025-05-04 10:16:06] Exception: 部屋情報とトークンの取得に失敗しました: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'l.user_name' in 'field list'
+[2025-05-04 10:16:06] Stack trace: #0 /home/users/2/but.jp-test-mijeos/web/fgsquare/register/api/room.php(91): RoomDataRegister->getRoomInfoWithToken('U9e1f5c66b4a26f...')
+#1 {main}
+[2025-05-04 13:32:40] Exception: 部屋情報とトークンの取得に失敗しました: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'l.check_in_date' in 'field list'
+[2025-05-04 13:32:40] Stack trace: #0 /home/users/2/but.jp-test-mijeos/web/fgsquare/register/api/room.php(68): RoomDataRegister->getRoomInfoWithToken('U9e1f5c66b4a26f...')
+#1 {main}

@@ -1,0 +1,849 @@
+[2025-05-26 18:55:31] [INFO] ログローテーション実行: ファイルサイズ 126.28KB が上限の 0KB を超過
+[2025-05-26 18:55:31] [INFO] ログローテーション実行: ファイルサイズ 126.01KB が上限の 0KB を超過
+[2025-05-26 18:55:27] [INFO] ログローテーション実行: ファイルサイズ 125.7KB が上限の 0KB を超過
+[2025-05-26 18:55:27] [INFO] ログローテーション実行: ファイルサイズ 125.43KB が上限の 0KB を超過
+[2025-05-26 18:55:27] [INFO] ログローテーション実行: ファイルサイズ 125.23KB が上限の 0KB を超過
+[2025-05-26 18:55:27] [INFO] ログローテーション実行: ファイルサイズ 124.96KB が上限の 0KB を超過
+[2025-05-26 18:55:26] [INFO] ログローテーション実行: ファイルサイズ 124.76KB が上限の 0KB を超過
+[2025-05-26 18:55:26] [INFO] ログローテーション実行: ファイルサイズ 124.49KB が上限の 0KB を超過
+[2025-05-26 18:55:26] [INFO] ログローテーション実行: ファイルサイズ 124.29KB が上限の 0KB を超過
+[2025-05-26 18:55:26] [INFO] ログローテーション実行: ファイルサイズ 124.02KB が上限の 0KB を超過
+[2025-05-26 18:51:45] [INFO] ログローテーション実行: ファイルサイズ 123.41KB が上限の 0KB を超過
+[2025-05-26 18:51:45] [INFO] ログローテーション実行: ファイルサイズ 123.14KB が上限の 0KB を超過
+[2025-05-26 18:51:40] [INFO] ログローテーション実行: ファイルサイズ 122.83KB が上限の 0KB を超過
+[2025-05-26 18:51:40] [INFO] ログローテーション実行: ファイルサイズ 122.56KB が上限の 0KB を超過
+[2025-05-26 18:51:40] [INFO] ログローテーション実行: ファイルサイズ 122.36KB が上限の 0KB を超過
+[2025-05-26 18:51:40] [INFO] ログローテーション実行: ファイルサイズ 122.09KB が上限の 0KB を超過
+[2025-05-26 18:51:40] [INFO] ログローテーション実行: ファイルサイズ 121.89KB が上限の 0KB を超過
+[2025-05-26 18:51:40] [INFO] ログローテーション実行: ファイルサイズ 121.62KB が上限の 0KB を超過
+[2025-05-26 18:51:40] [INFO] ログローテーション実行: ファイルサイズ 121.42KB が上限の 0KB を超過
+[2025-05-26 18:51:40] [INFO] ログローテーション実行: ファイルサイズ 121.15KB が上限の 0KB を超過
+[2025-05-26 09:03:19] [INFO] ログローテーション実行: ファイルサイズ 120.54KB が上限の 0KB を超過
+[2025-05-26 09:03:19] [INFO] ログローテーション実行: ファイルサイズ 120.27KB が上限の 0KB を超過
+[2025-05-26 09:03:15] [INFO] ログローテーション実行: ファイルサイズ 119.96KB が上限の 0KB を超過
+[2025-05-26 09:03:15] [INFO] ログローテーション実行: ファイルサイズ 119.69KB が上限の 0KB を超過
+[2025-05-26 09:03:15] [INFO] ログローテーション実行: ファイルサイズ 119.49KB が上限の 0KB を超過
+[2025-05-26 09:03:15] [INFO] ログローテーション実行: ファイルサイズ 119.22KB が上限の 0KB を超過
+[2025-05-26 09:03:14] [INFO] ログローテーション実行: ファイルサイズ 119.02KB が上限の 0KB を超過
+[2025-05-26 09:03:14] [INFO] ログローテーション実行: ファイルサイズ 118.75KB が上限の 0KB を超過
+[2025-05-26 09:03:14] [INFO] ログローテーション実行: ファイルサイズ 118.54KB が上限の 0KB を超過
+[2025-05-26 09:03:14] [INFO] ログローテーション実行: ファイルサイズ 118.28KB が上限の 0KB を超過
+[2025-05-26 08:57:09] [INFO] ログローテーション実行: ファイルサイズ 117.67KB が上限の 0KB を超過
+[2025-05-26 08:57:09] [INFO] ログローテーション実行: ファイルサイズ 117.4KB が上限の 0KB を超過
+[2025-05-26 08:57:05] [INFO] ログローテーション実行: ファイルサイズ 117.09KB が上限の 0KB を超過
+[2025-05-26 08:57:05] [INFO] ログローテーション実行: ファイルサイズ 116.82KB が上限の 0KB を超過
+[2025-05-26 08:57:05] [INFO] ログローテーション実行: ファイルサイズ 116.62KB が上限の 0KB を超過
+[2025-05-26 08:57:05] [INFO] ログローテーション実行: ファイルサイズ 116.35KB が上限の 0KB を超過
+[2025-05-26 08:57:03] [INFO] ログローテーション実行: ファイルサイズ 116.15KB が上限の 0KB を超過
+[2025-05-26 08:57:03] [INFO] ログローテーション実行: ファイルサイズ 115.88KB が上限の 0KB を超過
+[2025-05-26 08:57:03] [INFO] ログローテーション実行: ファイルサイズ 115.68KB が上限の 0KB を超過
+[2025-05-26 08:57:03] [INFO] ログローテーション実行: ファイルサイズ 115.41KB が上限の 0KB を超過
+[2025-05-26 08:51:05] [INFO] ログローテーション実行: ファイルサイズ 114.8KB が上限の 0KB を超過
+[2025-05-26 08:51:05] [INFO] ログローテーション実行: ファイルサイズ 114.53KB が上限の 0KB を超過
+[2025-05-26 08:51:01] [INFO] ログローテーション実行: ファイルサイズ 114.22KB が上限の 0KB を超過
+[2025-05-26 08:51:01] [INFO] ログローテーション実行: ファイルサイズ 113.95KB が上限の 0KB を超過
+[2025-05-26 08:51:01] [INFO] ログローテーション実行: ファイルサイズ 113.75KB が上限の 0KB を超過
+[2025-05-26 08:51:01] [INFO] ログローテーション実行: ファイルサイズ 113.48KB が上限の 0KB を超過
+[2025-05-26 08:51:00] [INFO] ログローテーション実行: ファイルサイズ 113.28KB が上限の 0KB を超過
+[2025-05-26 08:51:00] [INFO] ログローテーション実行: ファイルサイズ 113.01KB が上限の 0KB を超過
+[2025-05-26 08:51:00] [INFO] ログローテーション実行: ファイルサイズ 112.81KB が上限の 0KB を超過
+[2025-05-26 08:51:00] [INFO] ログローテーション実行: ファイルサイズ 112.54KB が上限の 0KB を超過
+[2025-05-26 08:38:45] [INFO] ログローテーション実行: ファイルサイズ 111.93KB が上限の 0KB を超過
+[2025-05-26 08:38:45] [INFO] ログローテーション実行: ファイルサイズ 111.66KB が上限の 0KB を超過
+[2025-05-26 08:38:41] [INFO] ログローテーション実行: ファイルサイズ 111.35KB が上限の 0KB を超過
+[2025-05-26 08:38:41] [INFO] ログローテーション実行: ファイルサイズ 111.08KB が上限の 0KB を超過
+[2025-05-26 08:38:41] [INFO] ログローテーション実行: ファイルサイズ 110.88KB が上限の 0KB を超過
+[2025-05-26 08:38:41] [INFO] ログローテーション実行: ファイルサイズ 110.61KB が上限の 0KB を超過
+[2025-05-26 08:38:40] [INFO] ログローテーション実行: ファイルサイズ 110.41KB が上限の 0KB を超過
+[2025-05-26 08:38:40] [INFO] ログローテーション実行: ファイルサイズ 110.14KB が上限の 0KB を超過
+[2025-05-26 08:38:40] [INFO] ログローテーション実行: ファイルサイズ 109.94KB が上限の 0KB を超過
+[2025-05-26 08:38:40] [INFO] ログローテーション実行: ファイルサイズ 109.67KB が上限の 0KB を超過
+[2025-05-26 08:28:03] [INFO] ログローテーション実行: ファイルサイズ 109.06KB が上限の 0KB を超過
+[2025-05-26 08:28:03] [INFO] ログローテーション実行: ファイルサイズ 108.79KB が上限の 0KB を超過
+[2025-05-26 08:28:00] [INFO] ログローテーション実行: ファイルサイズ 108.48KB が上限の 0KB を超過
+[2025-05-26 08:28:00] [INFO] ログローテーション実行: ファイルサイズ 108.21KB が上限の 0KB を超過
+[2025-05-26 08:27:58] [INFO] ログローテーション実行: ファイルサイズ 108.01KB が上限の 0KB を超過
+[2025-05-26 08:27:58] [INFO] ログローテーション実行: ファイルサイズ 107.74KB が上限の 0KB を超過
+[2025-05-26 08:27:58] [INFO] ログローテーション実行: ファイルサイズ 107.54KB が上限の 0KB を超過
+[2025-05-26 08:27:58] [INFO] ログローテーション実行: ファイルサイズ 107.27KB が上限の 0KB を超過
+[2025-05-26 08:14:33] [INFO] ログローテーション実行: ファイルサイズ 106.66KB が上限の 0KB を超過
+[2025-05-26 08:14:33] [INFO] ログローテーション実行: ファイルサイズ 106.39KB が上限の 0KB を超過
+[2025-05-26 08:14:28] [INFO] ログローテーション実行: ファイルサイズ 106.08KB が上限の 0KB を超過
+[2025-05-26 08:14:28] [INFO] ログローテーション実行: ファイルサイズ 105.81KB が上限の 0KB を超過
+[2025-05-26 08:14:27] [INFO] ログローテーション実行: ファイルサイズ 105.61KB が上限の 0KB を超過
+[2025-05-26 08:14:27] [INFO] ログローテーション実行: ファイルサイズ 105.34KB が上限の 0KB を超過
+[2025-05-26 08:14:27] [INFO] ログローテーション実行: ファイルサイズ 105.14KB が上限の 0KB を超過
+[2025-05-26 08:14:27] [INFO] ログローテーション実行: ファイルサイズ 104.87KB が上限の 0KB を超過
+[2025-05-26 08:09:31] [INFO] ログローテーション実行: ファイルサイズ 104.26KB が上限の 0KB を超過
+[2025-05-26 08:09:31] [INFO] ログローテーション実行: ファイルサイズ 103.99KB が上限の 0KB を超過
+[2025-05-26 08:09:27] [INFO] ログローテーション実行: ファイルサイズ 103.68KB が上限の 0KB を超過
+[2025-05-26 08:09:27] [INFO] ログローテーション実行: ファイルサイズ 103.41KB が上限の 0KB を超過
+[2025-05-26 08:09:26] [INFO] ログローテーション実行: ファイルサイズ 103.21KB が上限の 0KB を超過
+[2025-05-26 08:09:26] [INFO] ログローテーション実行: ファイルサイズ 102.94KB が上限の 0KB を超過
+[2025-05-26 08:09:26] [INFO] ログローテーション実行: ファイルサイズ 102.74KB が上限の 0KB を超過
+[2025-05-26 08:09:26] [INFO] ログローテーション実行: ファイルサイズ 102.47KB が上限の 0KB を超過
+[2025-05-26 08:06:22] [INFO] ログローテーション実行: ファイルサイズ 100.1KB が上限の 0KB を超過
+[2025-05-26 08:06:22] [INFO] ログローテーション実行: ファイルサイズ 99.83KB が上限の 0KB を超過
+[2025-05-26 08:06:18] [INFO] ログローテーション実行: ファイルサイズ 98.93KB が上限の 0KB を超過
+[2025-05-26 08:06:18] [INFO] ログローテーション実行: ファイルサイズ 98.66KB が上限の 0KB を超過
+[2025-05-26 08:06:17] [INFO] ログローテーション実行: ファイルサイズ 98.46KB が上限の 0KB を超過
+[2025-05-26 08:06:17] [INFO] ログローテーション実行: ファイルサイズ 98.2KB が上限の 0KB を超過
+[2025-05-26 08:06:17] [INFO] ログローテーション実行: ファイルサイズ 98KB が上限の 0KB を超過
+[2025-05-26 08:06:17] [INFO] ログローテーション実行: ファイルサイズ 97.73KB が上限の 0KB を超過
+[2025-05-26 08:03:11] [INFO] ログローテーション実行: ファイルサイズ 94.64KB が上限の 0KB を超過
+[2025-05-26 08:03:11] [INFO] ログローテーション実行: ファイルサイズ 94.37KB が上限の 0KB を超過
+[2025-05-26 08:03:07] [INFO] ログローテーション実行: ファイルサイズ 93.45KB が上限の 0KB を超過
+[2025-05-26 08:03:07] [INFO] ログローテーション実行: ファイルサイズ 93.18KB が上限の 0KB を超過
+[2025-05-26 08:03:06] [INFO] ログローテーション実行: ファイルサイズ 92.98KB が上限の 0KB を超過
+[2025-05-26 08:03:06] [INFO] ログローテーション実行: ファイルサイズ 92.71KB が上限の 0KB を超過
+[2025-05-26 08:03:06] [INFO] ログローテーション実行: ファイルサイズ 92.51KB が上限の 0KB を超過
+[2025-05-26 08:03:06] [INFO] ログローテーション実行: ファイルサイズ 92.24KB が上限の 0KB を超過
+[2025-05-26 07:42:37] [INFO] ログローテーション実行: ファイルサイズ 89.15KB が上限の 0KB を超過
+[2025-05-26 07:42:37] [INFO] ログローテーション実行: ファイルサイズ 88.88KB が上限の 0KB を超過
+[2025-05-26 07:42:33] [INFO] ログローテーション実行: ファイルサイズ 87.96KB が上限の 0KB を超過
+[2025-05-26 07:42:33] [INFO] ログローテーション実行: ファイルサイズ 87.69KB が上限の 0KB を超過
+[2025-05-26 07:42:31] [INFO] ログローテーション実行: ファイルサイズ 87.49KB が上限の 0KB を超過
+[2025-05-26 07:42:31] [INFO] ログローテーション実行: ファイルサイズ 87.22KB が上限の 0KB を超過
+[2025-05-26 07:42:31] [INFO] ログローテーション実行: ファイルサイズ 87.02KB が上限の 0KB を超過
+[2025-05-26 07:42:31] [INFO] ログローテーション実行: ファイルサイズ 86.75KB が上限の 0KB を超過
+[2025-05-26 07:29:45] [INFO] ログローテーション実行: ファイルサイズ 84.26KB が上限の 0KB を超過
+[2025-05-26 07:29:45] [INFO] ログローテーション実行: ファイルサイズ 84KB が上限の 0KB を超過
+[2025-05-26 07:29:41] [INFO] ログローテーション実行: ファイルサイズ 83.1KB が上限の 0KB を超過
+[2025-05-26 07:29:41] [INFO] ログローテーション実行: ファイルサイズ 82.83KB が上限の 0KB を超過
+[2025-05-26 07:29:40] [INFO] ログローテーション実行: ファイルサイズ 82.63KB が上限の 0KB を超過
+[2025-05-26 07:29:40] [INFO] ログローテーション実行: ファイルサイズ 82.36KB が上限の 0KB を超過
+[2025-05-26 07:29:40] [INFO] ログローテーション実行: ファイルサイズ 82.16KB が上限の 0KB を超過
+[2025-05-26 07:29:40] [INFO] ログローテーション実行: ファイルサイズ 81.89KB が上限の 0KB を超過
+[2025-05-26 07:23:49] [INFO] ログローテーション実行: ファイルサイズ 78.8KB が上限の 0KB を超過
+[2025-05-26 07:23:49] [INFO] ログローテーション実行: ファイルサイズ 78.53KB が上限の 0KB を超過
+[2025-05-26 07:23:45] [INFO] ログローテーション実行: ファイルサイズ 77.61KB が上限の 0KB を超過
+[2025-05-26 07:23:45] [INFO] ログローテーション実行: ファイルサイズ 77.34KB が上限の 0KB を超過
+[2025-05-26 07:23:45] [INFO] ログローテーション実行: ファイルサイズ 77.14KB が上限の 0KB を超過
+[2025-05-26 07:23:45] [INFO] ログローテーション実行: ファイルサイズ 76.87KB が上限の 0KB を超過
+[2025-05-26 07:23:45] [INFO] ログローテーション実行: ファイルサイズ 76.67KB が上限の 0KB を超過
+[2025-05-26 07:23:45] [INFO] ログローテーション実行: ファイルサイズ 76.4KB が上限の 0KB を超過
+[2025-05-26 07:22:43] [INFO] ログローテーション実行: ファイルサイズ 73.31KB が上限の 0KB を超過
+[2025-05-26 07:22:43] [INFO] ログローテーション実行: ファイルサイズ 73.04KB が上限の 0KB を超過
+[2025-05-26 07:22:40] [INFO] ログローテーション実行: ファイルサイズ 72.12KB が上限の 0KB を超過
+[2025-05-26 07:22:40] [INFO] ログローテーション実行: ファイルサイズ 71.85KB が上限の 0KB を超過
+[2025-05-26 07:22:38] [INFO] ログローテーション実行: ファイルサイズ 71.65KB が上限の 0KB を超過
+[2025-05-26 07:22:38] [INFO] ログローテーション実行: ファイルサイズ 71.38KB が上限の 0KB を超過
+[2025-05-26 07:22:38] [INFO] ログローテーション実行: ファイルサイズ 71.18KB が上限の 0KB を超過
+[2025-05-26 07:22:38] [INFO] ログローテーション実行: ファイルサイズ 70.91KB が上限の 0KB を超過
+[2025-05-26 07:13:56] [INFO] ログローテーション実行: ファイルサイズ 68KB が上限の 0KB を超過
+[2025-05-26 07:13:56] [INFO] ログローテーション実行: ファイルサイズ 67.73KB が上限の 0KB を超過
+[2025-05-26 07:13:52] [INFO] ログローテーション実行: ファイルサイズ 66.81KB が上限の 0KB を超過
+[2025-05-26 07:13:52] [INFO] ログローテーション実行: ファイルサイズ 66.54KB が上限の 0KB を超過
+[2025-05-26 07:13:50] [INFO] ログローテーション実行: ファイルサイズ 66.34KB が上限の 0KB を超過
+[2025-05-26 07:13:50] [INFO] ログローテーション実行: ファイルサイズ 66.08KB が上限の 0KB を超過
+[2025-05-26 07:13:50] [INFO] ログローテーション実行: ファイルサイズ 65.88KB が上限の 0KB を超過
+[2025-05-26 07:13:50] [INFO] ログローテーション実行: ファイルサイズ 65.61KB が上限の 0KB を超過
+[2025-05-26 07:04:51] [INFO] ログローテーション実行: ファイルサイズ 62.69KB が上限の 0KB を超過
+[2025-05-26 07:04:51] [INFO] ログローテーション実行: ファイルサイズ 62.42KB が上限の 0KB を超過
+[2025-05-26 07:04:47] [INFO] ログローテーション実行: ファイルサイズ 61.5KB が上限の 0KB を超過
+[2025-05-26 07:04:47] [INFO] ログローテーション実行: ファイルサイズ 61.23KB が上限の 0KB を超過
+[2025-05-26 07:04:46] [INFO] ログローテーション実行: ファイルサイズ 61.03KB が上限の 0KB を超過
+[2025-05-26 07:04:46] [INFO] ログローテーション実行: ファイルサイズ 60.77KB が上限の 0KB を超過
+[2025-05-26 07:04:46] [INFO] ログローテーション実行: ファイルサイズ 60.57KB が上限の 0KB を超過
+[2025-05-26 07:04:46] [INFO] ログローテーション実行: ファイルサイズ 60.3KB が上限の 0KB を超過
+[2025-05-26 07:04:46] [INFO] log rotated
+c][STEP2] module=OrderService::createOrder status=OK args={"room_number":"fg#11","items":[{"square_item_id":"IV7TSDH5FQ7V6TBJXS32OLK6","quantity":20,"price":1000,"note":"テストアイテム"}]} return={"id":"132","square_order_id":null,"room_number":"fg#11","total_amount":20000,"status":"OPEN","created_at":"2025-05-25 21:32:19","order_session_id":"250525213218676926819","square_item_id":"IIZ2XJ3AAKT2YGFFJ4JUSZB7"}
+[2025-05-25 21:32:20] [INFO] [run_68330dd2a2bbc][STEP2.6] module=DB webhook_events check status=OK args=null return={"id":101,"event_type":"order_created"}
+[2025-05-25 21:32:23] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 21:32:23] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 21:32:24] [INFO] [run_68330dd2a2bbc][STEP2b] module=OrderService::createOrder status=OK args=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","quantity":10,"note":"追加薪"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","quantity":2,"note":"追加アイテム"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","quantity":10,"note":"追加商品"}] return={"id":"133","square_order_id":null,"room_number":"fg#11","total_amount":237000,"status":"OPEN","created_at":"2025-05-25 21:32:23","order_session_id":"250525213218676926819","square_item_id":"IIZ2XJ3AAKT2YGFFJ4JUSZB7"}
+[2025-05-25 21:32:24] [INFO] [run_68330dd2a2bbc][STEP2c] module=DB webhook_events check status=OK args=null return={"id":102}
+[2025-05-25 21:32:24] [INFO] [run_68330dd2a2bbc][STEP2d] module=Square Catalog check status=OK args=null return={"square_item_id":"IIZ2XJ3AAKT2YGFFJ4JUSZB7","name":"","price":null}
+[2025-05-25 21:32:24] [INFO] [run_68330dd2a2bbc][STEP2e] module=DB products check status=OK args=null return=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"薪","price":"1500.00"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","name":"貸出用ダッチオーブン","price":"200.00"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","name":"191 オーパスワン","price":"110000.00"}]
+[2025-05-25 21:32:25] [INFO] [run_68330dd2a2bbc][STEP2f] module=SquareService::createSessionOrder status=OK args=IIZ2XJ3AAKT2YGFFJ4JUSZB7 return={"order_id":"li5L8DXUbYTswAaY8tofzPbKjTYZY"}
+[2025-05-25 21:32:25] [INFO] [run_68330dd2a2bbc][STEP2g] module=SquareService::createSessionCashPayment status=OK args=null return={"payment_id":"bpMVPyDsa45ZDARVW8TNNYxBeIOZY"}
+[2025-05-25 21:32:40] [INFO] [run_68330dd2a2bbc][STEP2h] module=DB square_transactions check status=ERROR args=null return=not found
+[2025-05-25 21:32:42] [ERROR] [run_68330dd2a2bbc] close_order_session error: no response
+[2025-05-25 21:32:42] [INFO] [run_68330dd2a2bbc][STEP3] module=POST close_order_session.php status=ERROR args={"session_id":"250525213218676926819","force":0} return=no response
+[2025-05-25 21:32:42] [INFO] [run_68330dd2a2bbc] clean up completed
+[2025-05-25 21:32:42] [INFO] [run_68330dd2a2bbc][STEP4] module=cleanup status=OK args=null return={"tables":["orders","order_details","order_sessions","square_transactions","square_webhooks","line_room_links"]}
+[2025-05-25 21:32:42] [INFO] [run_68330dd2a2bbc] RESULT fail duration=24233ms order=132 session=250525213218676926819
+[2025-05-25 21:34:30] [INFO] [run_68330e56e3dd6] ==== テスト開始 ====
+[2025-05-25 21:34:30] [INFO] [run_68330e56e3dd6] line_room_links 挿入
+[2025-05-25 21:34:30] [INFO] [run_68330e56e3dd6][STEP1] module=SQL INSERT line_room_links status=OK args={"room":"fg#11","line_user":"TEST_LINE_USER_68330e56e3e09"} return={"rows_affected":1}
+[2025-05-25 21:34:30] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 21:34:30] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 21:34:30] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 21:34:30] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 21:34:32] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 21:34:32] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 21:34:33] [INFO] [run_68330e56e3dd6] createOrder success: order_id=134 session_id=250525213430943035458
+[2025-05-25 21:34:33] [INFO] [run_68330e56e3dd6][STEP2] module=OrderService::createOrder status=OK args={"room_number":"fg#11","items":[{"square_item_id":"IV7TSDH5FQ7V6TBJXS32OLK6","quantity":20,"price":1000,"note":"テストアイテム"}]} return={"id":"134","square_order_id":null,"room_number":"fg#11","total_amount":20000,"status":"OPEN","created_at":"2025-05-25 21:34:32","order_session_id":"250525213430943035458","square_item_id":"JJX3CDK4BT2AUAA25E2UHZRM"}
+[2025-05-25 21:34:33] [INFO] [run_68330e56e3dd6][STEP2.6] module=DB webhook_events check status=OK args=null return={"id":103,"event_type":"order_created"}
+[2025-05-25 21:34:35] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 21:34:35] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 21:34:36] [INFO] [run_68330e56e3dd6][STEP2b] module=OrderService::createOrder status=OK args=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","quantity":10,"note":"追加薪"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","quantity":2,"note":"追加アイテム"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","quantity":10,"note":"追加商品"}] return={"id":"135","square_order_id":null,"room_number":"fg#11","total_amount":237000,"status":"OPEN","created_at":"2025-05-25 21:34:35","order_session_id":"250525213430943035458","square_item_id":"JJX3CDK4BT2AUAA25E2UHZRM"}
+[2025-05-25 21:34:36] [INFO] [run_68330e56e3dd6][STEP2c] module=DB webhook_events check status=OK args=null return={"id":104}
+[2025-05-25 21:34:37] [INFO] [run_68330e56e3dd6][STEP2d] module=Square Catalog check status=OK args=null return={"square_item_id":"JJX3CDK4BT2AUAA25E2UHZRM","name":"","price":null}
+[2025-05-25 21:34:37] [INFO] [run_68330e56e3dd6][STEP2e] module=DB products check status=OK args=null return=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"薪","price":"1500.00"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","name":"貸出用ダッチオーブン","price":"200.00"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","name":"191 オーパスワン","price":"110000.00"}]
+[2025-05-25 21:34:37] [INFO] [run_68330e56e3dd6][STEP2f] module=SquareService::createSessionOrder status=OK args=JJX3CDK4BT2AUAA25E2UHZRM return={"order_id":"VG5aFdz8nnfaIRPktCgSzg5maCFZY"}
+[2025-05-25 21:34:38] [INFO] [run_68330e56e3dd6][STEP2g] module=SquareService::createSessionCashPayment status=OK args=null return={"payment_id":"lOklBM4nFc3qGunogJybhJflPb9YY"}
+[2025-05-25 21:34:53] [INFO] [run_68330e56e3dd6][STEP2h] module=DB square_transactions check status=ERROR args=null return=not found
+[2025-05-25 21:34:55] [ERROR] [run_68330e56e3dd6] close_order_session error: no response
+[2025-05-25 21:34:55] [INFO] [run_68330e56e3dd6][STEP3] module=POST close_order_session.php status=ERROR args={"session_id":"250525213430943035458","force":0} return=no response
+[2025-05-25 21:34:55] [INFO] [run_68330e56e3dd6] clean up completed
+[2025-05-25 21:34:55] [INFO] [run_68330e56e3dd6][STEP4] module=cleanup status=OK args=null return={"tables":["orders","order_details","order_sessions","square_transactions","square_webhooks","line_room_links"]}
+[2025-05-25 21:34:55] [INFO] [run_68330e56e3dd6] RESULT fail duration=24866ms order=134 session=250525213430943035458
+[2025-05-25 21:53:28] [INFO] [run_683312c87cfe6] ==== テスト開始 ====
+[2025-05-25 21:53:28] [INFO] [run_683312c87cfe6] line_room_links 挿入
+[2025-05-25 21:53:28] [INFO] [run_683312c87cfe6][STEP1] module=SQL INSERT line_room_links status=OK args={"room":"fg#11","line_user":"TEST_LINE_USER_683312c87d016"} return={"rows_affected":1}
+[2025-05-25 21:53:28] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 21:53:28] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 21:53:28] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 21:53:28] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 21:53:29] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 21:53:29] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 21:53:30] [INFO] [run_683312c87cfe6] createOrder success: order_id=136 session_id=250525215328523153568
+[2025-05-25 21:53:30] [INFO] [run_683312c87cfe6][STEP2] module=OrderService::createOrder status=OK args={"room_number":"fg#11","items":[{"square_item_id":"IV7TSDH5FQ7V6TBJXS32OLK6","quantity":20,"price":1000,"note":"テストアイテム"}]} return={"id":"136","square_order_id":null,"room_number":"fg#11","total_amount":20000,"status":"OPEN","created_at":"2025-05-25 21:53:29","order_session_id":"250525215328523153568","square_item_id":"V3BQWW3EUEIS4PYYXVWN4WJH"}
+[2025-05-25 21:53:30] [INFO] [run_683312c87cfe6][STEP2.6] module=DB webhook_events check status=OK args=null return={"id":105,"event_type":"order_created"}
+[2025-05-25 21:53:33] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 21:53:33] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 21:53:33] [INFO] [run_683312c87cfe6][STEP2b] module=OrderService::createOrder status=OK args=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","quantity":10,"note":"追加薪"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","quantity":2,"note":"追加アイテム"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","quantity":10,"note":"追加商品"}] return={"id":"137","square_order_id":null,"room_number":"fg#11","total_amount":237000,"status":"OPEN","created_at":"2025-05-25 21:53:33","order_session_id":"250525215328523153568","square_item_id":"V3BQWW3EUEIS4PYYXVWN4WJH"}
+[2025-05-25 21:53:34] [INFO] [run_683312c87cfe6][STEP2c] module=DB webhook_events check status=OK args=null return={"id":106}
+[2025-05-25 21:53:34] [INFO] [run_683312c87cfe6][STEP2d] module=Square Catalog check status=OK args=null return={"square_item_id":"V3BQWW3EUEIS4PYYXVWN4WJH","name":"","price":null}
+[2025-05-25 21:53:34] [INFO] [run_683312c87cfe6][STEP2e] module=DB products check status=OK args=null return=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"薪","price":"1500.00"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","name":"貸出用ダッチオーブン","price":"200.00"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","name":"191 オーパスワン","price":"110000.00"}]
+[2025-05-25 21:53:34] [INFO] [run_683312c87cfe6][STEP2f] module=SquareService::createSessionOrder status=OK args=V3BQWW3EUEIS4PYYXVWN4WJH return={"order_id":"tyluSYKEk2Lo5fI8Gz6ePXc2v1QZY"}
+[2025-05-25 21:53:35] [INFO] [run_683312c87cfe6][STEP2g] module=SquareService::createSessionCashPayment status=OK args=null return={"payment_id":"Jkw0oJz6XEMEzZm7Pt3IYn5fitOZY"}
+[2025-05-25 21:53:50] [INFO] [run_683312c87cfe6][STEP2h] module=DB square_transactions check status=ERROR args=null return=not found
+[2025-05-25 21:53:52] [ERROR] [run_683312c87cfe6] close_order_session error: no response
+[2025-05-25 21:53:52] [INFO] [run_683312c87cfe6][STEP3] module=POST close_order_session.php status=ERROR args={"session_id":"250525215328523153568","force":0} return=no response
+[2025-05-25 21:53:52] [INFO] [run_683312c87cfe6] clean up completed
+[2025-05-25 21:53:52] [INFO] [run_683312c87cfe6][STEP4] module=cleanup status=OK args=null return={"tables":["orders","order_details","order_sessions","square_transactions","square_webhooks","line_room_links"]}
+[2025-05-25 21:53:52] [INFO] [run_683312c87cfe6] RESULT fail duration=24371ms order=136 session=250525215328523153568
+[2025-05-25 22:00:50] [INFO] [run_68331482b5975] ==== テスト開始 ====
+[2025-05-25 22:00:50] [INFO] [run_68331482b5975] line_room_links 挿入
+[2025-05-25 22:00:50] [INFO] [run_68331482b5975][STEP1] module=SQL INSERT line_room_links status=OK args={"room":"fg#11","line_user":"TEST_LINE_USER_68331482b59a0"} return={"rows_affected":1}
+[2025-05-25 22:00:50] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:00:50] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:00:50] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:00:50] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:00:51] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:00:51] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:00:53] [INFO] [run_68331482b5975] createOrder success: order_id=138 session_id=250525220050754525516
+[2025-05-25 22:00:53] [INFO] [run_68331482b5975][STEP2] module=OrderService::createOrder status=OK args={"room_number":"fg#11","items":[{"square_item_id":"IV7TSDH5FQ7V6TBJXS32OLK6","quantity":20,"price":1000,"note":"テストアイテム"}]} return={"id":"138","square_order_id":null,"room_number":"fg#11","total_amount":20000,"status":"OPEN","created_at":"2025-05-25 22:00:51","order_session_id":"250525220050754525516","square_item_id":"YBDG2RQM5H4MCWSKF6357QPK"}
+[2025-05-25 22:00:53] [INFO] [run_68331482b5975][STEP2.6] module=DB webhook_events check status=OK args=null return={"id":107,"event_type":"order_created"}
+[2025-05-25 22:00:56] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:00:56] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:00:56] [INFO] [run_68331482b5975][STEP2b] module=OrderService::createOrder status=OK args=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","quantity":10,"note":"追加薪"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","quantity":2,"note":"追加アイテム"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","quantity":10,"note":"追加商品"}] return={"id":"139","square_order_id":null,"room_number":"fg#11","total_amount":237000,"status":"OPEN","created_at":"2025-05-25 22:00:56","order_session_id":"250525220050754525516","square_item_id":"YBDG2RQM5H4MCWSKF6357QPK"}
+[2025-05-25 22:00:57] [INFO] [run_68331482b5975][STEP2c] module=DB webhook_events check status=OK args=null return={"id":108}
+[2025-05-25 22:00:57] [INFO] [run_68331482b5975][STEP2d] module=Square Catalog check status=OK args=null return={"square_item_id":"YBDG2RQM5H4MCWSKF6357QPK","name":"","price":null}
+[2025-05-25 22:00:57] [INFO] [run_68331482b5975][STEP2e] module=DB products check status=OK args=null return=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"薪","price":"1500.00"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","name":"貸出用ダッチオーブン","price":"200.00"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","name":"191 オーパスワン","price":"110000.00"}]
+[2025-05-25 22:00:57] [INFO] [run_68331482b5975][STEP2f] module=SquareService::createSessionOrder status=OK args=YBDG2RQM5H4MCWSKF6357QPK return={"order_id":"FkIWu4qPCU6YmAuXauYOkXHTxn8YY"}
+[2025-05-25 22:00:59] [INFO] [run_68331482b5975][STEP2g] module=SquareService::createSessionCashPayment status=OK args=null return={"payment_id":"vtbAoqJKTfGxe6NuOeEsSFAAX6FZY"}
+[2025-05-25 22:01:14] [INFO] [run_68331482b5975][STEP2h] module=DB square_transactions check status=ERROR args=null return=not found
+[2025-05-25 22:01:16] [ERROR] [run_68331482b5975] close_order_session error: no response
+[2025-05-25 22:01:16] [INFO] [run_68331482b5975][STEP3] module=POST close_order_session.php status=ERROR args={"session_id":"250525220050754525516","force":0} return=no response
+[2025-05-25 22:01:16] [INFO] [run_68331482b5975] clean up completed
+[2025-05-25 22:01:16] [INFO] [run_68331482b5975][STEP4] module=cleanup status=OK args=null return={"tables":["orders","order_details","order_sessions","square_transactions","square_webhooks","line_room_links"]}
+[2025-05-25 22:01:16] [INFO] [run_68331482b5975] RESULT fail duration=25432ms order=138 session=250525220050754525516
+[2025-05-25 22:07:39] [INFO] [run_6833161b4a3ea] ==== テスト開始 ====
+[2025-05-25 22:07:39] [INFO] [run_6833161b4a3ea] line_room_links 挿入
+[2025-05-25 22:07:39] [INFO] [run_6833161b4a3ea][STEP1] module=SQL INSERT line_room_links status=OK args={"room":"fg#11","line_user":"TEST_LINE_USER_6833161b4a41c"} return={"rows_affected":1}
+[2025-05-25 22:07:39] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:07:39] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:07:39] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:07:39] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:07:40] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:07:40] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:07:41] [INFO] [run_6833161b4a3ea] createOrder success: order_id=140 session_id=250525220739315686334
+[2025-05-25 22:07:41] [INFO] [run_6833161b4a3ea][STEP2] module=OrderService::createOrder status=OK args={"room_number":"fg#11","items":[{"square_item_id":"IV7TSDH5FQ7V6TBJXS32OLK6","quantity":20,"price":1000,"note":"テストアイテム"}]} return={"id":"140","square_order_id":null,"room_number":"fg#11","total_amount":20000,"status":"OPEN","created_at":"2025-05-25 22:07:40","order_session_id":"250525220739315686334","square_item_id":"CVW4DUGPPX2X2C2FM7LGWI7O"}
+[2025-05-25 22:07:41] [INFO] [run_6833161b4a3ea][STEP2.6] module=DB webhook_events check status=OK args=null return={"id":109,"event_type":"order_created"}
+[2025-05-25 22:07:44] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:07:44] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:07:45] [INFO] [run_6833161b4a3ea][STEP2b] module=OrderService::createOrder status=OK args=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","quantity":10,"note":"追加薪"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","quantity":2,"note":"追加アイテム"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","quantity":10,"note":"追加商品"}] return={"id":"141","square_order_id":null,"room_number":"fg#11","total_amount":237000,"status":"OPEN","created_at":"2025-05-25 22:07:44","order_session_id":"250525220739315686334","square_item_id":"CVW4DUGPPX2X2C2FM7LGWI7O"}
+[2025-05-25 22:07:45] [INFO] [run_6833161b4a3ea][STEP2c] module=DB webhook_events check status=OK args=null return={"id":110}
+[2025-05-25 22:07:45] [INFO] [run_6833161b4a3ea][STEP2d] module=Square Catalog check status=OK args=null return={"square_item_id":"CVW4DUGPPX2X2C2FM7LGWI7O","name":"","price":null}
+[2025-05-25 22:07:45] [INFO] [run_6833161b4a3ea][STEP2e] module=DB products check status=OK args=null return=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"薪","price":"1500.00"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","name":"貸出用ダッチオーブン","price":"200.00"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","name":"191 オーパスワン","price":"110000.00"}]
+[2025-05-25 22:07:46] [INFO] [run_6833161b4a3ea][STEP2f] module=SquareService::createSessionOrder status=OK args=CVW4DUGPPX2X2C2FM7LGWI7O return={"order_id":"Bg1rPB2Ro1EAoSBYzCFJvoceJcFZY"}
+[2025-05-25 22:07:46] [INFO] [run_6833161b4a3ea][STEP2g] module=SquareService::createSessionCashPayment status=OK args=null return={"payment_id":"hsuap2EBbhq6KdOPE17aIU5gN86YY"}
+[2025-05-25 22:08:01] [INFO] [run_6833161b4a3ea][STEP2h] module=DB square_transactions check status=ERROR args=null return=not found
+[2025-05-25 22:08:03] [ERROR] [run_6833161b4a3ea] close_order_session error: no response
+[2025-05-25 22:08:03] [INFO] [run_6833161b4a3ea][STEP3] module=POST close_order_session.php status=ERROR args={"session_id":"250525220739315686334","force":0} return=no response
+[2025-05-25 22:08:03] [INFO] [run_6833161b4a3ea] clean up completed
+[2025-05-25 22:08:03] [INFO] [run_6833161b4a3ea][STEP4] module=cleanup status=OK args=null return={"tables":["orders","order_details","order_sessions","square_transactions","square_webhooks","line_room_links"]}
+[2025-05-25 22:08:03] [INFO] [run_6833161b4a3ea] RESULT fail duration=24623ms order=140 session=250525220739315686334
+[2025-05-25 22:09:15] [INFO] [run_6833167b62252] ==== テスト開始 ====
+[2025-05-25 22:09:15] [INFO] [run_6833167b62252] line_room_links 挿入
+[2025-05-25 22:09:15] [INFO] [run_6833167b62252][STEP1] module=SQL INSERT line_room_links status=OK args={"room":"fg#11","line_user":"TEST_LINE_USER_6833167b6227f"} return={"rows_affected":1}
+[2025-05-25 22:09:15] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:09:15] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:09:15] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:09:15] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:09:16] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:09:16] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:09:16] [INFO] [run_6833167b62252] createOrder success: order_id=142 session_id=250525220915412909095
+[2025-05-25 22:09:16] [INFO] [run_6833167b62252][STEP2] module=OrderService::createOrder status=OK args={"room_number":"fg#11","items":[{"square_item_id":"IV7TSDH5FQ7V6TBJXS32OLK6","quantity":20,"price":1000,"note":"テストアイテム"}]} return={"id":"142","square_order_id":null,"room_number":"fg#11","total_amount":20000,"status":"OPEN","created_at":"2025-05-25 22:09:16","order_session_id":"250525220915412909095","square_item_id":"BAPFUDS5JVJXND34DUHGQUS7"}
+[2025-05-25 22:09:16] [INFO] [run_6833167b62252][STEP2.6] module=DB webhook_events check status=OK args=null return={"id":111,"event_type":"order_created"}
+[2025-05-25 22:09:19] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:09:19] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:09:20] [INFO] [run_6833167b62252][STEP2b] module=OrderService::createOrder status=OK args=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","quantity":10,"note":"追加薪"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","quantity":2,"note":"追加アイテム"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","quantity":10,"note":"追加商品"}] return={"id":"143","square_order_id":null,"room_number":"fg#11","total_amount":237000,"status":"OPEN","created_at":"2025-05-25 22:09:19","order_session_id":"250525220915412909095","square_item_id":"BAPFUDS5JVJXND34DUHGQUS7"}
+[2025-05-25 22:09:20] [INFO] [run_6833167b62252][STEP2c] module=DB webhook_events check status=OK args=null return={"id":112}
+[2025-05-25 22:09:21] [INFO] [run_6833167b62252][STEP2d] module=Square Catalog check status=OK args=null return={"square_item_id":"BAPFUDS5JVJXND34DUHGQUS7","name":"","price":null}
+[2025-05-25 22:09:21] [INFO] [run_6833167b62252][STEP2e] module=DB products check status=OK args=null return=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"薪","price":"1500.00"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","name":"貸出用ダッチオーブン","price":"200.00"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","name":"191 オーパスワン","price":"110000.00"}]
+[2025-05-25 22:09:22] [INFO] [run_6833167b62252][STEP2f] module=SquareService::createSessionOrder status=OK args=BAPFUDS5JVJXND34DUHGQUS7 return={"order_id":"X1oOfO3cQwfjHpjpJ3C2EHUcXVcZY"}
+[2025-05-25 22:09:23] [INFO] [run_6833167b62252][STEP2g] module=SquareService::createSessionCashPayment status=OK args=null return={"payment_id":"tOKDyEPyoeDqZFwQ7eEv1NoRxWDZY"}
+[2025-05-25 22:09:38] [INFO] [run_6833167b62252][STEP2h] module=DB square_transactions check status=ERROR args=null return=not found
+[2025-05-25 22:09:40] [ERROR] [run_6833167b62252] close_order_session error: no response
+[2025-05-25 22:09:40] [INFO] [run_6833167b62252][STEP3] module=POST close_order_session.php status=ERROR args={"session_id":"250525220915412909095","force":0} return=no response
+[2025-05-25 22:09:40] [INFO] [run_6833167b62252] clean up completed
+[2025-05-25 22:09:40] [INFO] [run_6833167b62252][STEP4] module=cleanup status=OK args=null return={"tables":["orders","order_details","order_sessions","square_transactions","square_webhooks","line_room_links"]}
+[2025-05-25 22:09:40] [INFO] [run_6833167b62252] RESULT fail duration=24782ms order=142 session=250525220915412909095
+[2025-05-25 22:17:01] [INFO] [run_6833184d3aec0] ==== テスト開始 ====
+[2025-05-25 22:17:01] [INFO] [run_6833184d3aec0] line_room_links 挿入
+[2025-05-25 22:17:01] [INFO] [run_6833184d3aec0][STEP1] module=SQL INSERT line_room_links status=OK args={"room":"fg#11","line_user":"TEST_LINE_USER_6833184d3aeeb"} return={"rows_affected":1}
+[2025-05-25 22:17:01] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:17:01] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:17:01] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:17:01] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:17:02] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:17:02] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:17:03] [INFO] [run_6833184d3aec0] createOrder success: order_id=144 session_id=250525221701252057457
+[2025-05-25 22:17:03] [INFO] [run_6833184d3aec0][STEP2] module=OrderService::createOrder status=OK args={"room_number":"fg#11","items":[{"square_item_id":"IV7TSDH5FQ7V6TBJXS32OLK6","quantity":20,"price":1000,"note":"テストアイテム"}]} return={"id":"144","square_order_id":null,"room_number":"fg#11","total_amount":20000,"status":"OPEN","created_at":"2025-05-25 22:17:02","order_session_id":"250525221701252057457","square_item_id":"4AZY2NTO7ECNRGY24RALCQLX"}
+[2025-05-25 22:17:03] [INFO] [run_6833184d3aec0][STEP2.6] module=DB webhook_events check status=OK args=null return={"id":113,"event_type":"order_created"}
+[2025-05-25 22:17:06] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:17:06] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:17:07] [INFO] [run_6833184d3aec0][STEP2b] module=OrderService::createOrder status=OK args=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","quantity":10,"note":"追加薪"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","quantity":2,"note":"追加アイテム"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","quantity":10,"note":"追加商品"}] return={"id":"145","square_order_id":null,"room_number":"fg#11","total_amount":237000,"status":"OPEN","created_at":"2025-05-25 22:17:06","order_session_id":"250525221701252057457","square_item_id":"4AZY2NTO7ECNRGY24RALCQLX"}
+[2025-05-25 22:17:07] [INFO] [run_6833184d3aec0][STEP2c] module=DB webhook_events check status=OK args=null return={"id":114}
+[2025-05-25 22:17:07] [INFO] [run_6833184d3aec0][STEP2d] module=Square Catalog check status=OK args=null return={"square_item_id":"4AZY2NTO7ECNRGY24RALCQLX","name":"","price":null}
+[2025-05-25 22:17:07] [INFO] [run_6833184d3aec0][STEP2e] module=DB products check status=OK args=null return=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"薪","price":"1500.00"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","name":"貸出用ダッチオーブン","price":"200.00"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","name":"191 オーパスワン","price":"110000.00"}]
+[2025-05-25 22:17:08] [INFO] [run_6833184d3aec0][STEP2f] module=SquareService::createSessionOrder status=OK args=4AZY2NTO7ECNRGY24RALCQLX return={"order_id":"n3Js9Sf1dKjrwPLkovB4XylL5YMZY"}
+[2025-05-25 22:17:09] [INFO] [run_6833184d3aec0][STEP2g] module=SquareService::createSessionCashPayment status=OK args=null return={"payment_id":"bbvIugsafOUdg71jceX8JLeJTRQZY"}
+[2025-05-25 22:17:24] [INFO] [run_6833184d3aec0][STEP2h] module=DB square_transactions check status=ERROR args=null return=not found
+[2025-05-25 22:17:26] [ERROR] [run_6833184d3aec0] close_order_session error: no response
+[2025-05-25 22:17:26] [INFO] [run_6833184d3aec0][STEP3] module=POST close_order_session.php status=ERROR args={"session_id":"250525221701252057457","force":0} return=no response
+[2025-05-25 22:17:26] [INFO] [run_6833184d3aec0] clean up completed
+[2025-05-25 22:17:26] [INFO] [run_6833184d3aec0][STEP4] module=cleanup status=OK args=null return={"tables":["orders","order_details","order_sessions","square_transactions","square_webhooks","line_room_links"]}
+[2025-05-25 22:17:26] [INFO] [run_6833184d3aec0] RESULT fail duration=25216ms order=144 session=250525221701252057457
+[2025-05-25 22:23:03] [INFO] [run_683319b76a7b6] ==== テスト開始 ====
+[2025-05-25 22:23:03] [INFO] [run_683319b76a7b6] line_room_links 挿入
+[2025-05-25 22:23:03] [INFO] [run_683319b76a7b6][STEP1] module=SQL INSERT line_room_links status=OK args={"room":"fg#11","line_user":"TEST_LINE_USER_683319b76a7e8"} return={"rows_affected":1}
+[2025-05-25 22:23:03] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:23:03] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:23:03] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:23:03] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:23:04] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:23:04] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:23:05] [INFO] [run_683319b76a7b6] createOrder success: order_id=146 session_id=250525222303446203690
+[2025-05-25 22:23:05] [INFO] [run_683319b76a7b6][STEP2] module=OrderService::createOrder status=OK args={"room_number":"fg#11","items":[{"square_item_id":"IV7TSDH5FQ7V6TBJXS32OLK6","quantity":20,"price":1000,"note":"テストアイテム"}]} return={"id":"146","square_order_id":null,"room_number":"fg#11","total_amount":20000,"status":"OPEN","created_at":"2025-05-25 22:23:04","order_session_id":"250525222303446203690","square_item_id":"LKZCFJG6QXFS5XJ34GHSZXUQ"}
+[2025-05-25 22:23:05] [INFO] [run_683319b76a7b6][STEP2.6] module=DB webhook_events check status=OK args=null return={"id":115,"event_type":"order_created"}
+[2025-05-25 22:23:08] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:23:08] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:23:09] [INFO] [run_683319b76a7b6][STEP2b] module=OrderService::createOrder status=OK args=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","quantity":10,"note":"追加薪"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","quantity":2,"note":"追加アイテム"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","quantity":10,"note":"追加商品"}] return={"id":"147","square_order_id":null,"room_number":"fg#11","total_amount":237000,"status":"OPEN","created_at":"2025-05-25 22:23:08","order_session_id":"250525222303446203690","square_item_id":"LKZCFJG6QXFS5XJ34GHSZXUQ"}
+[2025-05-25 22:23:09] [INFO] [run_683319b76a7b6][STEP2c] module=DB webhook_events check status=OK args=null return={"id":116}
+[2025-05-25 22:23:09] [INFO] [run_683319b76a7b6][STEP2d] module=Square Catalog check status=OK args=null return={"square_item_id":"LKZCFJG6QXFS5XJ34GHSZXUQ","name":"","price":null}
+[2025-05-25 22:23:09] [INFO] [run_683319b76a7b6][STEP2e] module=DB products check status=OK args=null return=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"薪","price":"1500.00"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","name":"貸出用ダッチオーブン","price":"200.00"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","name":"191 オーパスワン","price":"110000.00"}]
+[2025-05-25 22:23:10] [INFO] [run_683319b76a7b6][STEP2f] module=SquareService::createSessionOrder status=OK args=LKZCFJG6QXFS5XJ34GHSZXUQ return={"order_id":"pyKE4OSN7prZgvCo0qjlqjKs7CgZY"}
+[2025-05-25 22:23:10] [INFO] [run_683319b76a7b6][STEP2g] module=SquareService::createSessionCashPayment status=OK args=null return={"payment_id":"heDk5VTWgpr5uYsYEnEG6afKO7MZY"}
+[2025-05-25 22:23:25] [INFO] [run_683319b76a7b6][STEP2h] module=DB square_transactions check status=ERROR args=null return=not found
+[2025-05-25 22:23:27] [ERROR] [run_683319b76a7b6] close_order_session error: no response
+[2025-05-25 22:23:27] [INFO] [run_683319b76a7b6][STEP3] module=POST close_order_session.php status=ERROR args={"session_id":"250525222303446203690","force":0} return=no response
+[2025-05-25 22:23:27] [INFO] [run_683319b76a7b6] clean up completed
+[2025-05-25 22:23:27] [INFO] [run_683319b76a7b6][STEP4] module=cleanup status=OK args=null return={"tables":["orders","order_details","order_sessions","square_transactions","square_webhooks","line_room_links"]}
+[2025-05-25 22:23:27] [INFO] [run_683319b76a7b6] RESULT fail duration=24438ms order=146 session=250525222303446203690
+[2025-05-25 22:29:25] [INFO] [run_68331b350fba7] ==== テスト開始 ====
+[2025-05-25 22:29:25] [INFO] [run_68331b350fba7] line_room_links 挿入
+[2025-05-25 22:29:25] [INFO] [run_68331b350fba7][STEP1] module=SQL INSERT line_room_links status=OK args={"room":"fg#11","line_user":"TEST_LINE_USER_68331b350fbf4"} return={"rows_affected":1}
+[2025-05-25 22:29:25] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:29:25] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:29:25] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:29:25] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:29:26] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:29:26] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:29:27] [INFO] [run_68331b350fba7] createOrder success: order_id=148 session_id=250525222925075875036
+[2025-05-25 22:29:27] [INFO] [run_68331b350fba7][STEP2] module=OrderService::createOrder status=OK args={"room_number":"fg#11","items":[{"square_item_id":"IV7TSDH5FQ7V6TBJXS32OLK6","quantity":20,"price":1000,"note":"テストアイテム"}]} return={"id":"148","square_order_id":null,"room_number":"fg#11","total_amount":20000,"status":"OPEN","created_at":"2025-05-25 22:29:26","order_session_id":"250525222925075875036","square_item_id":"YNMVZN2PLBDZPHXUL6RW4Y66"}
+[2025-05-25 22:29:27] [INFO] [run_68331b350fba7][STEP2.6] module=DB webhook_events check status=OK args=null return={"id":117,"event_type":"order_created"}
+[2025-05-25 22:29:30] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:29:30] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:29:31] [INFO] [run_68331b350fba7][STEP2b] module=OrderService::createOrder status=OK args=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","quantity":10,"note":"追加薪"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","quantity":2,"note":"追加アイテム"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","quantity":10,"note":"追加商品"}] return={"id":"149","square_order_id":null,"room_number":"fg#11","total_amount":237000,"status":"OPEN","created_at":"2025-05-25 22:29:30","order_session_id":"250525222925075875036","square_item_id":"YNMVZN2PLBDZPHXUL6RW4Y66"}
+[2025-05-25 22:29:31] [INFO] [run_68331b350fba7][STEP2c] module=DB webhook_events check status=OK args=null return={"id":118}
+[2025-05-25 22:29:31] [INFO] [run_68331b350fba7][STEP2d] module=Square Catalog check status=OK args=null return={"square_item_id":"YNMVZN2PLBDZPHXUL6RW4Y66","name":"","price":null}
+[2025-05-25 22:29:31] [INFO] [run_68331b350fba7][STEP2e] module=DB products check status=OK args=null return=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"薪","price":"1500.00"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","name":"貸出用ダッチオーブン","price":"200.00"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","name":"191 オーパスワン","price":"110000.00"}]
+[2025-05-25 22:29:32] [INFO] [run_68331b350fba7][STEP2f] module=SquareService::createSessionOrder status=OK args=YNMVZN2PLBDZPHXUL6RW4Y66 return={"order_id":"P9YH9M9RAnRuUWLFO17OeMJwgDHZY"}
+[2025-05-25 22:29:32] [INFO] [run_68331b350fba7][STEP2g] module=SquareService::createSessionCashPayment status=OK args=null return={"payment_id":"B2JDI7XahGQrE6mhb2Ze2RQwNVEZY"}
+[2025-05-25 22:29:47] [INFO] [run_68331b350fba7][STEP2h] module=DB square_transactions check status=ERROR args=null return=not found
+[2025-05-25 22:29:49] [ERROR] [run_68331b350fba7] close_order_session error: no response
+[2025-05-25 22:29:49] [INFO] [run_68331b350fba7][STEP3] module=POST close_order_session.php status=ERROR args={"session_id":"250525222925075875036","force":0} return=no response
+[2025-05-25 22:29:49] [INFO] [run_68331b350fba7] clean up completed
+[2025-05-25 22:29:49] [INFO] [run_68331b350fba7][STEP4] module=cleanup status=OK args=null return={"tables":["orders","order_details","order_sessions","square_transactions","square_webhooks","line_room_links"]}
+[2025-05-25 22:29:49] [INFO] [run_68331b350fba7] RESULT fail duration=24768ms order=148 session=250525222925075875036
+[2025-05-25 22:46:24] [INFO] [run_68331f30169d5] ==== テスト開始 ====
+[2025-05-25 22:46:24] [INFO] [run_68331f30169d5] line_room_links 挿入
+[2025-05-25 22:46:24] [INFO] [run_68331f30169d5][STEP1] module=SQL INSERT line_room_links status=OK args={"room":"fg#11","line_user":"TEST_LINE_USER_68331f3016a14"} return={"rows_affected":1}
+[2025-05-25 22:46:24] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:46:24] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:46:24] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:46:24] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:46:25] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:46:25] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:46:26] [INFO] [run_68331f30169d5] createOrder success: order_id=150 session_id=250525224624103580858
+[2025-05-25 22:46:26] [INFO] [run_68331f30169d5][STEP2] module=OrderService::createOrder status=OK args={"room_number":"fg#11","items":[{"square_item_id":"IV7TSDH5FQ7V6TBJXS32OLK6","quantity":20,"price":1000,"note":"テストアイテム"}]} return={"id":"150","square_order_id":null,"room_number":"fg#11","total_amount":20000,"status":"OPEN","created_at":"2025-05-25 22:46:25","order_session_id":"250525224624103580858","square_item_id":"GNJMAGMOJB6HRSJY5OL625GB"}
+[2025-05-25 22:46:26] [INFO] [run_68331f30169d5][STEP2.6] module=DB webhook_events check status=OK args=null return={"id":119,"event_type":"order_created"}
+[2025-05-25 22:46:29] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 22:46:29] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 22:46:30] [INFO] [run_68331f30169d5][STEP2b] module=OrderService::createOrder status=OK args=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","quantity":10,"note":"追加薪"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","quantity":2,"note":"追加アイテム"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","quantity":10,"note":"追加商品"}] return={"id":"151","square_order_id":null,"room_number":"fg#11","total_amount":237000,"status":"OPEN","created_at":"2025-05-25 22:46:29","order_session_id":"250525224624103580858","square_item_id":"GNJMAGMOJB6HRSJY5OL625GB"}
+[2025-05-25 22:46:30] [INFO] [run_68331f30169d5][STEP2c] module=DB webhook_events check status=OK args=null return={"id":120}
+[2025-05-25 22:46:31] [INFO] [run_68331f30169d5][STEP2d] module=Square Catalog check status=OK args=null return={"square_item_id":"GNJMAGMOJB6HRSJY5OL625GB","name":"","price":null}
+[2025-05-25 22:46:31] [INFO] [run_68331f30169d5][STEP2e] module=DB products check status=OK args=null return=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"薪","price":"1500.00"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","name":"貸出用ダッチオーブン","price":"200.00"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","name":"191 オーパスワン","price":"110000.00"}]
+[2025-05-25 22:46:31] [INFO] [run_68331f30169d5][STEP2f] module=SquareService::createSessionOrder status=OK args=GNJMAGMOJB6HRSJY5OL625GB return={"order_id":"Hrt5xZ5pye6hdA9MI2t6kfRtHCFZY"}
+[2025-05-25 22:46:32] [INFO] [run_68331f30169d5][STEP2g] module=SquareService::createSessionCashPayment status=OK args=null return={"payment_id":"NoZqjUs50skHh6WMwdpUWFyg4JNZY"}
+[2025-05-25 22:46:47] [INFO] [run_68331f30169d5][STEP2h] module=DB square_transactions check status=ERROR args=null return=not found
+[2025-05-25 22:46:49] [ERROR] [run_68331f30169d5] close_order_session error: no response
+[2025-05-25 22:46:49] [INFO] [run_68331f30169d5][STEP3] module=POST close_order_session.php status=ERROR args={"session_id":"250525224624103580858","force":0} return=no response
+[2025-05-25 22:46:49] [INFO] [run_68331f30169d5] clean up completed
+[2025-05-25 22:46:49] [INFO] [run_68331f30169d5][STEP4] module=cleanup status=OK args=null return={"tables":["orders","order_details","order_sessions","square_transactions","square_webhooks","line_room_links"]}
+[2025-05-25 22:46:49] [INFO] [run_68331f30169d5] RESULT fail duration=25237ms order=150 session=250525224624103580858
+[2025-05-25 23:12:58] [INFO] [run_6833256ab0ee3] ==== テスト開始 ====
+[2025-05-25 23:12:58] [INFO] [run_6833256ab0ee3] line_room_links 挿入
+[2025-05-25 23:12:58] [INFO] [run_6833256ab0ee3][STEP1] module=SQL INSERT line_room_links status=OK args={"room":"fg#11","line_user":"TEST_LINE_USER_6833256ab0f30"} return={"rows_affected":1}
+[2025-05-25 23:12:58] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 23:12:58] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 23:12:58] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 23:12:58] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 23:12:59] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 23:12:59] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 23:13:00] [INFO] [run_6833256ab0ee3] createOrder success: order_id=152 session_id=250525231258736417497
+[2025-05-25 23:13:00] [INFO] [run_6833256ab0ee3][STEP2] module=OrderService::createOrder status=OK args={"room_number":"fg#11","items":[{"square_item_id":"IV7TSDH5FQ7V6TBJXS32OLK6","quantity":20,"price":1000,"note":"テストアイテム"}]} return={"id":"152","square_order_id":null,"room_number":"fg#11","total_amount":20000,"status":"OPEN","created_at":"2025-05-25 23:12:59","order_session_id":"250525231258736417497","square_item_id":"QHH4JUM3HUSZ5XYMLIHHIHQR"}
+[2025-05-25 23:13:00] [INFO] [run_6833256ab0ee3][STEP2.6] module=DB webhook_events check status=OK args=null return={"id":121,"event_type":"order_created"}
+[2025-05-25 23:13:03] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-25 23:13:04] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-25 23:13:04] [INFO] [run_6833256ab0ee3][STEP2b] module=OrderService::createOrder status=OK args=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","quantity":10,"note":"追加薪"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","quantity":2,"note":"追加アイテム"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","quantity":10,"note":"追加商品"}] return={"id":"153","square_order_id":null,"room_number":"fg#11","total_amount":237000,"status":"OPEN","created_at":"2025-05-25 23:13:03","order_session_id":"250525231258736417497","square_item_id":"QHH4JUM3HUSZ5XYMLIHHIHQR"}
+[2025-05-25 23:13:04] [INFO] [run_6833256ab0ee3][STEP2c] module=DB webhook_events check status=OK args=null return={"id":122}
+[2025-05-25 23:13:05] [INFO] [run_6833256ab0ee3][STEP2d] module=Square Catalog check status=OK args=null return={"square_item_id":"QHH4JUM3HUSZ5XYMLIHHIHQR","name":"","price":null}
+[2025-05-25 23:13:05] [INFO] [run_6833256ab0ee3][STEP2e] module=DB products check status=OK args=null return=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"薪","price":"1500.00"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","name":"貸出用ダッチオーブン","price":"200.00"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","name":"191 オーパスワン","price":"110000.00"}]
+[2025-05-25 23:13:06] [INFO] [run_6833256ab0ee3][STEP2f] module=SquareService::createSessionOrder status=OK args=QHH4JUM3HUSZ5XYMLIHHIHQR return={"order_id":"ff1TXWi63jryleeq34YvpsiRmgQZY"}
+[2025-05-25 23:13:06] [INFO] [run_6833256ab0ee3][STEP2g] module=SquareService::createSessionCashPayment status=OK args=null return={"payment_id":"XJDshaxOigosTXvTCXCqx3TWuOOZY"}
+[2025-05-25 23:13:21] [INFO] [run_6833256ab0ee3][STEP2h] module=DB square_transactions check status=ERROR args=null return=not found
+[2025-05-25 23:13:23] [ERROR] [run_6833256ab0ee3] close_order_session error: no response
+[2025-05-25 23:13:23] [INFO] [run_6833256ab0ee3][STEP3] module=POST close_order_session.php status=ERROR args={"session_id":"250525231258736417497","force":0} return=no response
+[2025-05-25 23:13:23] [INFO] [run_6833256ab0ee3] clean up completed
+[2025-05-25 23:13:23] [INFO] [run_6833256ab0ee3][STEP4] module=cleanup status=OK args=null return={"tables":["orders","order_details","order_sessions","square_transactions","square_webhooks","line_room_links"]}
+[2025-05-25 23:13:23] [INFO] [run_6833256ab0ee3] RESULT fail duration=25090ms order=152 session=250525231258736417497
+[2025-05-26 06:37:23] [INFO] [run_68338d93122e1] ==== テスト開始 ====
+[2025-05-26 06:37:23] [INFO] [run_68338d93122e1] line_room_links 挿入
+[2025-05-26 06:37:23] [INFO] [run_68338d93122e1][STEP1] module=SQL INSERT line_room_links status=OK args={"room":"fg#11","line_user":"TEST_LINE_USER_68338d931231d"} return={"rows_affected":1}
+[2025-05-26 06:37:23] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 06:37:23] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 06:37:23] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 06:37:23] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 06:37:24] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 06:37:24] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 06:37:25] [INFO] [run_68338d93122e1] createOrder success: order_id=154 session_id=250526063723091199694
+[2025-05-26 06:37:25] [INFO] [run_68338d93122e1][STEP2] module=OrderService::createOrder status=OK args={"room_number":"fg#11","items":[{"square_item_id":"IV7TSDH5FQ7V6TBJXS32OLK6","quantity":20,"price":1000,"note":"テストアイテム"}]} return={"id":"154","square_order_id":null,"room_number":"fg#11","total_amount":20000,"status":"OPEN","created_at":"2025-05-26 06:37:24","order_session_id":"250526063723091199694","square_item_id":"F6TV2S4SFKAFF6MVMHJX2Y6S"}
+[2025-05-26 06:37:25] [INFO] [run_68338d93122e1][STEP2.6] module=DB webhook_events check status=OK args=null return={"id":123,"event_type":"order_created"}
+[2025-05-26 06:37:28] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 06:37:28] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 06:37:29] [INFO] [run_68338d93122e1][STEP2b] module=OrderService::createOrder status=OK args=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","quantity":10,"note":"追加薪"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","quantity":2,"note":"追加アイテム"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","quantity":10,"note":"追加商品"}] return={"id":"155","square_order_id":null,"room_number":"fg#11","total_amount":237000,"status":"OPEN","created_at":"2025-05-26 06:37:28","order_session_id":"250526063723091199694","square_item_id":"F6TV2S4SFKAFF6MVMHJX2Y6S"}
+[2025-05-26 06:37:29] [INFO] [run_68338d93122e1][STEP2c] module=DB webhook_events check status=OK args=null return={"id":124}
+[2025-05-26 06:37:29] [INFO] [run_68338d93122e1][STEP2d] module=Square Catalog check status=OK args=null return={"square_item_id":"F6TV2S4SFKAFF6MVMHJX2Y6S","name":"","price":null}
+[2025-05-26 06:37:29] [INFO] [run_68338d93122e1][STEP2e] module=DB products check status=OK args=null return=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"薪","price":"1500.00"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","name":"貸出用ダッチオーブン","price":"200.00"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","name":"191 オーパスワン","price":"110000.00"}]
+[2025-05-26 06:37:30] [INFO] [run_68338d93122e1][STEP2f] module=SquareService::createSessionOrder status=OK args=F6TV2S4SFKAFF6MVMHJX2Y6S return={"order_id":"f3TsRFpcbllpBeDyAtq9fna9B8SZY"}
+[2025-05-26 06:37:30] [INFO] [run_68338d93122e1][STEP2g] module=SquareService::createSessionCashPayment status=OK args=null return={"payment_id":"t6eQpExdid2S8zkfJJZT66HJjqOZY"}
+[2025-05-26 06:37:45] [INFO] [run_68338d93122e1][STEP2h] module=DB square_transactions check status=ERROR args=null return=not found
+[2025-05-26 06:37:47] [ERROR] [run_68338d93122e1] close_order_session error: no response
+[2025-05-26 06:37:47] [INFO] [run_68338d93122e1][STEP3] module=POST close_order_session.php status=ERROR args={"session_id":"250526063723091199694","force":0} return=no response
+[2025-05-26 06:37:47] [INFO] [run_68338d93122e1] clean up completed
+[2025-05-26 06:37:47] [INFO] [run_68338d93122e1][STEP4] module=cleanup status=OK args=null return={"tables":["orders","order_details","order_sessions","square_transactions","square_webhooks","line_room_links"]}
+[2025-05-26 06:37:47] [INFO] [run_68338d93122e1] RESULT fail duration=24695ms order=154 session=250526063723091199694
+[2025-05-26 06:42:21] [INFO] [run_68338ebd46243] ==== テスト開始 ====
+[2025-05-26 06:42:21] [INFO] [run_68338ebd46243] line_room_links 挿入
+[2025-05-26 06:42:21] [INFO] [run_68338ebd46243][STEP1] module=SQL INSERT line_room_links status=OK args={"room":"fg#11","line_user":"TEST_LINE_USER_68338ebd46279"} return={"rows_affected":1}
+[2025-05-26 06:42:21] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 06:42:21] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 06:42:21] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 06:42:21] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 06:42:22] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 06:42:22] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 06:42:22] [INFO] [run_68338ebd46243] createOrder success: order_id=156 session_id=250526064221297546807
+[2025-05-26 06:42:22] [INFO] [run_68338ebd46243][STEP2] module=OrderService::createOrder status=OK args={"room_number":"fg#11","items":[{"square_item_id":"IV7TSDH5FQ7V6TBJXS32OLK6","quantity":20,"price":1000,"note":"テストアイテム"}]} return={"id":"156","square_order_id":null,"room_number":"fg#11","total_amount":20000,"status":"OPEN","created_at":"2025-05-26 06:42:22","order_session_id":"250526064221297546807","square_item_id":"TQVUFGG6RL3ICVLJ4X4NKA2I"}
+[2025-05-26 06:42:22] [INFO] [run_68338ebd46243][STEP2.6] module=DB webhook_events check status=OK args=null return={"id":125,"event_type":"order_created"}
+[2025-05-26 06:42:26] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 06:42:26] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 06:42:26] [INFO] [run_68338ebd46243][STEP2b] module=OrderService::createOrder status=OK args=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","quantity":10,"note":"追加薪"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","quantity":2,"note":"追加アイテム"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","quantity":10,"note":"追加商品"}] return={"id":"157","square_order_id":null,"room_number":"fg#11","total_amount":237000,"status":"OPEN","created_at":"2025-05-26 06:42:26","order_session_id":"250526064221297546807","square_item_id":"TQVUFGG6RL3ICVLJ4X4NKA2I"}
+[2025-05-26 06:42:27] [INFO] [run_68338ebd46243][STEP2c] module=DB webhook_events check status=OK args=null return={"id":126}
+[2025-05-26 06:42:27] [INFO] [run_68338ebd46243][STEP2d] module=Square Catalog check status=OK args=null return={"square_item_id":"TQVUFGG6RL3ICVLJ4X4NKA2I","name":"","price":null}
+[2025-05-26 06:42:27] [INFO] [run_68338ebd46243][STEP2e] module=DB products check status=OK args=null return=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"薪","price":"1500.00"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","name":"貸出用ダッチオーブン","price":"200.00"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","name":"191 オーパスワン","price":"110000.00"}]
+[2025-05-26 06:42:27] [INFO] [run_68338ebd46243][STEP2f] module=SquareService::createSessionOrder status=OK args=TQVUFGG6RL3ICVLJ4X4NKA2I return={"order_id":"5Kgr6NLlKYEiUjDDB3J6MshnskEZY"}
+[2025-05-26 06:42:28] [INFO] [run_68338ebd46243][STEP2g] module=SquareService::createSessionCashPayment status=OK args=null return={"payment_id":"BKVO7e5lDVPqBXQpqe5cvaZrIXGZY"}
+[2025-05-26 06:42:43] [INFO] [run_68338ebd46243][STEP2h] module=DB square_transactions check status=ERROR args=null return=not found
+[2025-05-26 06:42:45] [ERROR] [run_68338ebd46243] close_order_session error: no response
+[2025-05-26 06:42:45] [INFO] [run_68338ebd46243][STEP3] module=POST close_order_session.php status=ERROR args={"session_id":"250526064221297546807","force":0} return=no response
+[2025-05-26 06:42:45] [INFO] [run_68338ebd46243] clean up completed
+[2025-05-26 06:42:45] [INFO] [run_68338ebd46243][STEP4] module=cleanup status=OK args=null return={"tables":["orders","order_details","order_sessions","square_transactions","square_webhooks","line_room_links"]}
+[2025-05-26 06:42:45] [INFO] [run_68338ebd46243] RESULT fail duration=24398ms order=156 session=250526064221297546807
+[2025-05-26 06:48:16] [INFO] [run_68339020031f0] ==== テスト開始 ====
+[2025-05-26 06:48:16] [INFO] [run_68339020031f0] line_room_links 挿入
+[2025-05-26 06:48:16] [INFO] [run_68339020031f0][STEP1] module=SQL INSERT line_room_links status=OK args={"room":"fg#11","line_user":"TEST_LINE_USER_6833902003232"} return={"rows_affected":1}
+[2025-05-26 06:48:16] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 06:48:16] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 06:48:16] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 06:48:16] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 06:48:17] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 06:48:17] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 06:48:17] [INFO] [run_68339020031f0] createOrder success: order_id=158 session_id=250526064816024688811
+[2025-05-26 06:48:17] [INFO] [run_68339020031f0][STEP2] module=OrderService::createOrder status=OK args={"room_number":"fg#11","items":[{"square_item_id":"IV7TSDH5FQ7V6TBJXS32OLK6","quantity":20,"price":1000,"note":"テストアイテム"}]} return={"id":"158","square_order_id":null,"room_number":"fg#11","total_amount":20000,"status":"OPEN","created_at":"2025-05-26 06:48:17","order_session_id":"250526064816024688811","square_item_id":"BJ3YF2Z5EKK52XA2EVY4S3LN"}
+[2025-05-26 06:48:17] [INFO] [run_68339020031f0][STEP2.6] module=DB webhook_events check status=OK args=null return={"id":127,"event_type":"order_created"}
+[2025-05-26 06:48:21] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 06:48:21] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 06:48:22] [INFO] [run_68339020031f0][STEP2b] module=OrderService::createOrder status=OK args=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","quantity":10,"note":"追加薪"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","quantity":2,"note":"追加アイテム"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","quantity":10,"note":"追加商品"}] return={"id":"159","square_order_id":null,"room_number":"fg#11","total_amount":237000,"status":"OPEN","created_at":"2025-05-26 06:48:21","order_session_id":"250526064816024688811","square_item_id":"BJ3YF2Z5EKK52XA2EVY4S3LN"}
+[2025-05-26 06:48:23] [INFO] [run_68339020031f0][STEP2c] module=DB webhook_events check status=OK args=null return={"id":128}
+[2025-05-26 06:48:23] [INFO] [run_68339020031f0][STEP2d] module=Square Catalog check status=OK args=null return={"square_item_id":"BJ3YF2Z5EKK52XA2EVY4S3LN","name":"","price":null}
+[2025-05-26 06:48:23] [INFO] [run_68339020031f0][STEP2e] module=DB products check status=OK args=null return=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"薪","price":"1500.00"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","name":"貸出用ダッチオーブン","price":"200.00"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","name":"191 オーパスワン","price":"110000.00"}]
+[2025-05-26 06:48:23] [INFO] [run_68339020031f0][STEP2f] module=SquareService::createSessionOrder status=OK args=BJ3YF2Z5EKK52XA2EVY4S3LN return={"order_id":"bTmgkGfPzYmaYkksqZLSNRgn97YZY"}
+[2025-05-26 06:48:24] [INFO] [run_68339020031f0][STEP2g] module=SquareService::createSessionCashPayment status=OK args=null return={"payment_id":"NMXucd8Wpg5aNJN8qXPaMJLWmtaZY"}
+[2025-05-26 06:48:39] [INFO] [run_68339020031f0][STEP2h] module=DB square_transactions check status=ERROR args=null return=not found
+[2025-05-26 06:48:41] [ERROR] [run_68339020031f0] close_order_session error: no response
+[2025-05-26 06:48:41] [INFO] [run_68339020031f0][STEP3] module=POST close_order_session.php status=ERROR args={"session_id":"250526064816024688811","force":0} return=no response
+[2025-05-26 06:48:41] [INFO] [run_68339020031f0] clean up completed
+[2025-05-26 06:48:41] [INFO] [run_68339020031f0][STEP4] module=cleanup status=OK args=null return={"tables":["orders","order_details","order_sessions","square_transactions","square_webhooks","line_room_links"]}
+[2025-05-26 06:48:41] [INFO] [run_68339020031f0] RESULT fail duration=25948ms order=158 session=250526064816024688811
+[2025-05-26 07:04:46] [INFO] [run_683393fe41da5] ==== テスト開始 ====
+[2025-05-26 07:04:46] [INFO] [run_683393fe41da5] line_room_links 挿入
+[2025-05-26 07:04:46] [INFO] [run_683393fe41da5][STEP1] module=SQL INSERT line_room_links status=OK args={"room":"fg#11","line_user":"TEST_LINE_USER_683393fe41deb"} return={"rows_affected":1}
+[2025-05-26 07:04:46] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 07:04:46] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 07:04:46] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 07:04:46] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 07:04:47] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 07:04:47] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 07:04:49] [INFO] [run_683393fe41da5] createOrder success: order_id=160 session_id=250526070446277677233
+[2025-05-26 07:04:49] [INFO] [run_683393fe41da5][STEP2] module=OrderService::createOrder status=OK args={"room_number":"fg#11","items":[{"square_item_id":"IV7TSDH5FQ7V6TBJXS32OLK6","quantity":20,"price":1000,"note":"テストアイテム"}]} return={"id":"160","square_order_id":null,"room_number":"fg#11","total_amount":20000,"status":"OPEN","created_at":"2025-05-26 07:04:47","order_session_id":"250526070446277677233","square_item_id":"AWSNLXGNTORI5SGMTH7JFVCN"}
+[2025-05-26 07:04:49] [INFO] [run_683393fe41da5][STEP2.6] module=DB webhook_events check status=OK args=null return={"id":129,"event_type":"order_created"}
+[2025-05-26 07:04:51] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 07:04:51] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 07:04:52] [INFO] [run_683393fe41da5][STEP2b] module=OrderService::createOrder status=OK args=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","quantity":10,"note":"追加薪"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","quantity":2,"note":"追加アイテム"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","quantity":10,"note":"追加商品"}] return={"id":"161","square_order_id":null,"room_number":"fg#11","total_amount":237000,"status":"OPEN","created_at":"2025-05-26 07:04:51","order_session_id":"250526070446277677233","square_item_id":"AWSNLXGNTORI5SGMTH7JFVCN"}
+[2025-05-26 07:04:52] [INFO] [run_683393fe41da5][STEP2c] module=DB webhook_events check status=OK args=null return={"id":130}
+[2025-05-26 07:04:53] [INFO] [run_683393fe41da5][STEP2d] module=Square Catalog check status=OK args=null return={"square_item_id":"AWSNLXGNTORI5SGMTH7JFVCN","name":"","price":null}
+[2025-05-26 07:04:53] [INFO] [run_683393fe41da5][STEP2e] module=DB products check status=OK args=null return=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"薪","price":"1500.00"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","name":"貸出用ダッチオーブン","price":"200.00"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","name":"191 オーパスワン","price":"110000.00"}]
+[2025-05-26 07:04:53] [INFO] [run_683393fe41da5][STEP2f] module=SquareService::createSessionOrder status=OK args=AWSNLXGNTORI5SGMTH7JFVCN return={"order_id":"frHJbkG6PS4eWoEylpUthFhHxSEZY"}
+[2025-05-26 07:04:54] [INFO] [run_683393fe41da5][STEP2g] module=SquareService::createSessionCashPayment status=OK args=null return={"payment_id":"deAOXBTGyVQ4XyA9oRbGLQHaCHCZY"}
+[2025-05-26 07:05:09] [INFO] [run_683393fe41da5][STEP2h] module=DB square_transactions check status=ERROR args=null return=not found
+[2025-05-26 07:05:11] [ERROR] [run_683393fe41da5] close_order_session error: no response
+[2025-05-26 07:05:11] [INFO] [run_683393fe41da5][STEP3] module=POST close_order_session.php status=ERROR args={"session_id":"250526070446277677233","force":0} return=no response
+[2025-05-26 07:05:11] [INFO] [run_683393fe41da5] clean up completed
+[2025-05-26 07:05:11] [INFO] [run_683393fe41da5][STEP4] module=cleanup status=OK args=null return={"tables":["orders","order_details","order_sessions","square_transactions","square_webhooks","line_room_links"]}
+[2025-05-26 07:05:11] [INFO] [run_683393fe41da5] RESULT fail duration=25681ms order=160 session=250526070446277677233
+[2025-05-26 07:13:50] [INFO] [run_6833961edf875] ==== テスト開始 ====
+[2025-05-26 07:13:50] [INFO] [run_6833961edf875] line_room_links 挿入
+[2025-05-26 07:13:50] [INFO] [run_6833961edf875][STEP1] module=SQL INSERT line_room_links status=OK args={"room":"fg#11","line_user":"TEST_LINE_USER_6833961edf8a7"} return={"rows_affected":1}
+[2025-05-26 07:13:50] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 07:13:50] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 07:13:50] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 07:13:50] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 07:13:52] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 07:13:52] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 07:13:52] [INFO] [run_6833961edf875] createOrder success: order_id=162 session_id=250526071350922687737
+[2025-05-26 07:13:52] [INFO] [run_6833961edf875][STEP2] module=OrderService::createOrder status=OK args={"room_number":"fg#11","items":[{"square_item_id":"IV7TSDH5FQ7V6TBJXS32OLK6","quantity":20,"price":1000,"note":"テストアイテム"}]} return={"id":"162","square_order_id":null,"room_number":"fg#11","total_amount":20000,"status":"OPEN","created_at":"2025-05-26 07:13:52","order_session_id":"250526071350922687737","square_item_id":"CDG6VQHIKTMTKACKXAZNEWMP"}
+[2025-05-26 07:13:52] [INFO] [run_6833961edf875][STEP2.6] module=DB webhook_events check status=OK args=null return={"id":131,"event_type":"order_created"}
+[2025-05-26 07:13:56] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 07:13:56] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 07:13:56] [INFO] [run_6833961edf875][STEP2b] module=OrderService::createOrder status=OK args=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","quantity":10,"note":"追加薪"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","quantity":2,"note":"追加アイテム"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","quantity":10,"note":"追加商品"}] return={"id":"163","square_order_id":null,"room_number":"fg#11","total_amount":237000,"status":"OPEN","created_at":"2025-05-26 07:13:56","order_session_id":"250526071350922687737","square_item_id":"CDG6VQHIKTMTKACKXAZNEWMP"}
+[2025-05-26 07:13:57] [INFO] [run_6833961edf875][STEP2c] module=DB webhook_events check status=OK args=null return={"id":132}
+[2025-05-26 07:13:57] [INFO] [run_6833961edf875][STEP2d] module=Square Catalog check status=OK args=null return={"square_item_id":"CDG6VQHIKTMTKACKXAZNEWMP","name":"","price":null}
+[2025-05-26 07:13:57] [INFO] [run_6833961edf875][STEP2e] module=DB products check status=OK args=null return=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"薪","price":"1500.00"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","name":"貸出用ダッチオーブン","price":"200.00"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","name":"191 オーパスワン","price":"110000.00"}]
+[2025-05-26 07:13:57] [INFO] [run_6833961edf875][STEP2f] module=SquareService::createSessionOrder status=OK args=CDG6VQHIKTMTKACKXAZNEWMP return={"order_id":"FcWBLMD6A6WAwvPp6tsRh1DbslEZY"}
+[2025-05-26 07:13:59] [INFO] [run_6833961edf875][STEP2g] module=SquareService::createSessionCashPayment status=OK args=null return={"payment_id":"7H5IbiKXcBiuoUetb2B4TgtFhjZZY"}
+[2025-05-26 07:14:14] [INFO] [run_6833961edf875][STEP2h] module=DB square_transactions check status=ERROR args=null return=not found
+[2025-05-26 07:14:16] [ERROR] [run_6833961edf875] close_order_session error: no response
+[2025-05-26 07:14:16] [INFO] [run_6833961edf875][STEP3] module=POST close_order_session.php status=ERROR args={"session_id":"250526071350922687737","force":0} return=no response
+[2025-05-26 07:14:16] [INFO] [run_6833961edf875] clean up completed
+[2025-05-26 07:14:16] [INFO] [run_6833961edf875][STEP4] module=cleanup status=OK args=null return={"tables":["orders","order_details","order_sessions","square_transactions","square_webhooks","line_room_links"]}
+[2025-05-26 07:14:16] [INFO] [run_6833961edf875] RESULT fail duration=25371ms order=162 session=250526071350922687737
+[2025-05-26 07:22:38] [INFO] [run_6833982eec5f8] ==== テスト開始 ====
+[2025-05-26 07:22:38] [INFO] [run_6833982eec5f8] line_room_links 挿入
+[2025-05-26 07:22:38] [INFO] [run_6833982eec5f8][STEP1] module=SQL INSERT line_room_links status=OK args={"room":"fg#11","line_user":"TEST_LINE_USER_6833982eec644"} return={"rows_affected":1}
+[2025-05-26 07:22:38] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 07:22:38] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 07:22:38] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 07:22:38] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 07:22:40] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 07:22:40] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 07:22:40] [INFO] [run_6833982eec5f8] createOrder success: order_id=164 session_id=250526072238975356923
+[2025-05-26 07:22:40] [INFO] [run_6833982eec5f8][STEP2] module=OrderService::createOrder status=OK args={"room_number":"fg#11","items":[{"square_item_id":"IV7TSDH5FQ7V6TBJXS32OLK6","quantity":20,"price":1000,"note":"テストアイテム"}]} return={"id":"164","square_order_id":null,"room_number":"fg#11","total_amount":20000,"status":"OPEN","created_at":"2025-05-26 07:22:40","order_session_id":"250526072238975356923","square_item_id":"NCFN7BBA25KUYI25VPWPM7E4"}
+[2025-05-26 07:22:40] [INFO] [run_6833982eec5f8][STEP2.6] module=DB webhook_events check status=OK args=null return={"id":133,"event_type":"order_created"}
+[2025-05-26 07:22:43] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 07:22:43] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 07:22:44] [INFO] [run_6833982eec5f8][STEP2b] module=OrderService::createOrder status=OK args=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","quantity":10,"note":"追加薪"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","quantity":2,"note":"追加アイテム"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","quantity":10,"note":"追加商品"}] return={"id":"165","square_order_id":null,"room_number":"fg#11","total_amount":237000,"status":"OPEN","created_at":"2025-05-26 07:22:43","order_session_id":"250526072238975356923","square_item_id":"NCFN7BBA25KUYI25VPWPM7E4"}
+[2025-05-26 07:22:44] [INFO] [run_6833982eec5f8][STEP2c] module=DB webhook_events check status=OK args=null return={"id":134}
+[2025-05-26 07:22:45] [INFO] [run_6833982eec5f8][STEP2d] module=Square Catalog check status=OK args=null return={"square_item_id":"NCFN7BBA25KUYI25VPWPM7E4","name":"","price":null}
+[2025-05-26 07:22:45] [INFO] [run_6833982eec5f8][STEP2e] module=DB products check status=OK args=null return=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"薪","price":"1500.00"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","name":"貸出用ダッチオーブン","price":"200.00"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","name":"191 オーパスワン","price":"110000.00"}]
+[2025-05-26 07:22:45] [INFO] [run_6833982eec5f8][STEP2f] module=SquareService::createSessionOrder status=OK args=NCFN7BBA25KUYI25VPWPM7E4 return={"order_id":"lQotPhoOdAQbwcDF7iTOdZwPVnZZY"}
+[2025-05-26 07:22:46] [INFO] [run_6833982eec5f8][STEP2g] module=SquareService::createSessionCashPayment status=OK args=null return={"payment_id":"L9qbojLNcoMSwJtYynyuQig99NNZY"}
+[2025-05-26 07:22:48] [INFO] [run_6833982eec5f8][STEP2h] module=DB square_transactions check status=OK args=null return={"id":1}
+[2025-05-26 07:22:50] [INFO] [run_6833982eec5f8] close_order_session success
+[2025-05-26 07:22:50] [INFO] [run_6833982eec5f8][STEP3] module=POST close_order_session.php status=OK args={"session_id":"250526072238975356923","force":0} return={"success":true,"session_id":"250526072238975356923"}
+[2025-05-26 07:22:51] [INFO] [run_6833982eec5f8][STEP3.5] module=DB webhook_events check status=OK args=null return={"id":135,"event_type":"session_closed"}
+[2025-05-26 07:22:51] [INFO] [run_6833982eec5f8] clean up completed
+[2025-05-26 07:22:51] [INFO] [run_6833982eec5f8][STEP4] module=cleanup status=OK args=null return={"tables":["orders","order_details","order_sessions","square_transactions","square_webhooks","line_room_links"]}
+[2025-05-26 07:22:51] [INFO] [run_6833982eec5f8] RESULT success duration=12197ms order=164 session=250526072238975356923
+[2025-05-26 07:23:45] [INFO] [run_6833987125109] ==== テスト開始 ====
+[2025-05-26 07:23:45] [INFO] [run_6833987125109] line_room_links 挿入
+[2025-05-26 07:23:45] [INFO] [run_6833987125109][STEP1] module=SQL INSERT line_room_links status=OK args={"room":"fg#11","line_user":"TEST_LINE_USER_6833987125131"} return={"rows_affected":1}
+[2025-05-26 07:23:45] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 07:23:45] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 07:23:45] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 07:23:45] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 07:23:45] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 07:23:45] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 07:23:46] [INFO] [run_6833987125109] createOrder success: order_id=166 session_id=250526072345158496928
+[2025-05-26 07:23:46] [INFO] [run_6833987125109][STEP2] module=OrderService::createOrder status=OK args={"room_number":"fg#11","items":[{"square_item_id":"IV7TSDH5FQ7V6TBJXS32OLK6","quantity":20,"price":1000,"note":"テストアイテム"}]} return={"id":"166","square_order_id":null,"room_number":"fg#11","total_amount":20000,"status":"OPEN","created_at":"2025-05-26 07:23:45","order_session_id":"250526072345158496928","square_item_id":"X6ONE23U6OVNBB6UORMSPXAF"}
+[2025-05-26 07:23:46] [INFO] [run_6833987125109][STEP2.6] module=DB webhook_events check status=OK args=null return={"id":136,"event_type":"order_created"}
+[2025-05-26 07:23:49] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 07:23:49] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 07:23:50] [INFO] [run_6833987125109][STEP2b] module=OrderService::createOrder status=OK args=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","quantity":10,"note":"追加薪"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","quantity":2,"note":"追加アイテム"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","quantity":10,"note":"追加商品"}] return={"id":"167","square_order_id":null,"room_number":"fg#11","total_amount":237000,"status":"OPEN","created_at":"2025-05-26 07:23:49","order_session_id":"250526072345158496928","square_item_id":"X6ONE23U6OVNBB6UORMSPXAF"}
+[2025-05-26 07:23:50] [INFO] [run_6833987125109][STEP2c] module=DB webhook_events check status=OK args=null return={"id":137}
+[2025-05-26 07:23:50] [INFO] [run_6833987125109][STEP2d] module=Square Catalog check status=OK args=null return={"square_item_id":"X6ONE23U6OVNBB6UORMSPXAF","name":"","price":null}
+[2025-05-26 07:23:50] [INFO] [run_6833987125109][STEP2e] module=DB products check status=OK args=null return=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"薪","price":"1500.00"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","name":"貸出用ダッチオーブン","price":"200.00"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","name":"191 オーパスワン","price":"110000.00"}]
+[2025-05-26 07:23:51] [INFO] [run_6833987125109][STEP2f] module=SquareService::createSessionOrder status=OK args=X6ONE23U6OVNBB6UORMSPXAF return={"order_id":"hqo4WWlkEMUW8xMPLpUrWvmO6V6YY"}
+[2025-05-26 07:23:51] [INFO] [run_6833987125109][STEP2g] module=SquareService::createSessionCashPayment status=OK args=null return={"payment_id":"NemHfrZX6cBE2LILeJvH5XLVbpEZY"}
+[2025-05-26 07:23:54] [INFO] [run_6833987125109][STEP2h] module=DB square_transactions check status=OK args=null return={"id":2}
+[2025-05-26 07:23:57] [INFO] [run_6833987125109] close_order_session success
+[2025-05-26 07:23:57] [INFO] [run_6833987125109][STEP3] module=POST close_order_session.php status=OK args={"session_id":"250526072345158496928","force":0} return={"success":true,"session_id":"250526072345158496928"}
+[2025-05-26 07:23:57] [INFO] [run_6833987125109][STEP3.5] module=DB webhook_events check status=OK args=null return={"id":138,"event_type":"session_closed"}
+[2025-05-26 07:23:57] [INFO] [run_6833987125109] clean up completed
+[2025-05-26 07:23:57] [INFO] [run_6833987125109][STEP4] module=cleanup status=OK args=null return={"tables":["orders","order_details","order_sessions","square_transactions","square_webhooks","line_room_links"]}
+[2025-05-26 07:23:57] [INFO] [run_6833987125109] RESULT success duration=12251ms order=166 session=250526072345158496928
+[2025-05-26 07:29:40] [INFO] [run_683399d4d983d] ==== テスト開始 ====
+[2025-05-26 07:29:40] [INFO] [run_683399d4d983d] line_room_links 挿入
+[2025-05-26 07:29:40] [INFO] [run_683399d4d983d][STEP1] module=SQL INSERT line_room_links status=OK args={"room":"fg#11","line_user":"TEST_LINE_USER_683399d4d9862"} return={"rows_affected":1}
+[2025-05-26 07:29:40] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 07:29:40] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 07:29:40] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 07:29:40] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 07:29:41] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 07:29:41] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 07:29:42] [INFO] [run_683399d4d983d] createOrder success: order_id=168 session_id=250526072940898879061
+[2025-05-26 07:29:42] [INFO] [run_683399d4d983d][STEP2] module=OrderService::createOrder status=OK args={"room_number":"fg#11","items":[{"square_item_id":"IV7TSDH5FQ7V6TBJXS32OLK6","quantity":20,"price":1000,"note":"テストアイテム"}]} return={"id":"168","square_order_id":null,"room_number":"fg#11","total_amount":20000,"status":"OPEN","created_at":"2025-05-26 07:29:41","order_session_id":"250526072940898879061","square_item_id":null}
+[2025-05-26 07:29:42] [INFO] [run_683399d4d983d][STEP2.6] module=DB webhook_events check status=OK args=null return={"id":139,"event_type":"order_created"}
+[2025-05-26 07:29:45] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 07:29:45] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 07:29:45] [INFO] [run_683399d4d983d][STEP2b] module=OrderService::createOrder status=OK args=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","quantity":10,"note":"追加薪"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","quantity":2,"note":"追加アイテム"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","quantity":10,"note":"追加商品"}] return={"id":"169","square_order_id":null,"room_number":"fg#11","total_amount":237000,"status":"OPEN","created_at":"2025-05-26 07:29:45","order_session_id":"250526072940898879061","square_item_id":null}
+[2025-05-26 07:29:46] [INFO] [run_683399d4d983d][STEP2c] module=DB webhook_events check status=OK args=null return={"id":140}
+[2025-05-26 07:29:46] [INFO] [run_683399d4d983d][STEP2d] module=Square Catalog check status=SKIP args=null return=square_item_id not set
+[2025-05-26 07:29:46] [INFO] [run_683399d4d983d][STEP2e] module=DB products check status=OK args=null return=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"薪","price":"1500.00"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","name":"貸出用ダッチオーブン","price":"200.00"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","name":"191 オーパスワン","price":"110000.00"}]
+[2025-05-26 07:29:46] [INFO] [run_683399d4d983d][STEP2f] module=SquareService::createSessionOrder status=ERROR args=null return=ERROR
+[2025-05-26 07:29:48] [ERROR] [run_683399d4d983d] close_order_session error: no response
+[2025-05-26 07:29:48] [INFO] [run_683399d4d983d][STEP3] module=POST close_order_session.php status=ERROR args={"session_id":"250526072940898879061","force":0} return=no response
+[2025-05-26 07:29:48] [INFO] [run_683399d4d983d] clean up completed
+[2025-05-26 07:29:48] [INFO] [run_683399d4d983d][STEP4] module=cleanup status=OK args=null return={"tables":["orders","order_details","order_sessions","square_transactions","square_webhooks","line_room_links"]}
+[2025-05-26 07:29:48] [INFO] [run_683399d4d983d] RESULT fail duration=7646ms order=168 session=250526072940898879061
+[2025-05-26 07:42:31] [INFO] [run_68339cd7e98fe] ==== テスト開始 ====
+[2025-05-26 07:42:31] [INFO] [run_68339cd7e98fe] line_room_links 挿入
+[2025-05-26 07:42:31] [INFO] [run_68339cd7e98fe][STEP1] module=SQL INSERT line_room_links status=OK args={"room":"fg#11","line_user":"TEST_LINE_USER_68339cd7e9946"} return={"rows_affected":1}
+[2025-05-26 07:42:31] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 07:42:31] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 07:42:31] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 07:42:31] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 07:42:33] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 07:42:33] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 07:42:33] [INFO] [run_68339cd7e98fe] createOrder success: order_id=170 session_id=250526074231964226974
+[2025-05-26 07:42:33] [INFO] [run_68339cd7e98fe][STEP2] module=OrderService::createOrder status=OK args={"room_number":"fg#11","items":[{"square_item_id":"IV7TSDH5FQ7V6TBJXS32OLK6","quantity":20,"price":1000,"note":"テストアイテム"}]} return={"id":"170","square_order_id":null,"room_number":"fg#11","total_amount":20000,"status":"OPEN","created_at":"2025-05-26 07:42:33","order_session_id":"250526074231964226974","square_item_id":"OTVILZS3Z7X3BTBXOA3SQC4O"}
+[2025-05-26 07:42:33] [INFO] [run_68339cd7e98fe][STEP2.6] module=DB webhook_events check status=OK args=null return={"id":141,"event_type":"order_created"}
+[2025-05-26 07:42:37] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 07:42:37] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 07:42:37] [INFO] [run_68339cd7e98fe][STEP2b] module=OrderService::createOrder status=OK args=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","quantity":10,"note":"追加薪"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","quantity":2,"note":"追加アイテム"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","quantity":10,"note":"追加商品"}] return={"id":"171","square_order_id":null,"room_number":"fg#11","total_amount":237000,"status":"OPEN","created_at":"2025-05-26 07:42:37","order_session_id":"250526074231964226974","square_item_id":"OTVILZS3Z7X3BTBXOA3SQC4O"}
+[2025-05-26 07:42:37] [INFO] [run_68339cd7e98fe][STEP2c] module=DB webhook_events check status=OK args=null return={"id":142}
+[2025-05-26 07:42:38] [INFO] [run_68339cd7e98fe][STEP2d] module=Square Catalog check status=OK args=null return={"square_item_id":"OTVILZS3Z7X3BTBXOA3SQC4O","name":"","price":null}
+[2025-05-26 07:42:38] [INFO] [run_68339cd7e98fe][STEP2e] module=DB products check status=OK args=null return=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"薪","price":"1500.00"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","name":"貸出用ダッチオーブン","price":"200.00"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","name":"191 オーパスワン","price":"110000.00"}]
+[2025-05-26 07:42:38] [INFO] [run_68339cd7e98fe][STEP2f] module=SquareService::createSessionOrder status=OK args=OTVILZS3Z7X3BTBXOA3SQC4O return={"order_id":"l2XJ4oBqe5tfEabRVb1pUN9aPOPZY"}
+[2025-05-26 07:42:39] [INFO] [run_68339cd7e98fe][STEP2g] module=SquareService::createSessionCashPayment status=OK args=null return={"payment_id":"FuEVv0ocgDo1xmtJUFcBtgGbpmYZY"}
+[2025-05-26 07:42:41] [INFO] [run_68339cd7e98fe][STEP2h] module=DB square_transactions check status=OK args=null return={"id":6}
+[2025-05-26 07:42:44] [INFO] [run_68339cd7e98fe] close_order_session success
+[2025-05-26 07:42:44] [INFO] [run_68339cd7e98fe][STEP3] module=POST close_order_session.php status=OK args={"session_id":"250526074231964226974","force":0} return={"success":true,"session_id":"250526074231964226974"}
+[2025-05-26 07:42:44] [INFO] [run_68339cd7e98fe][STEP3.5] module=DB webhook_events check status=OK args=null return={"id":143,"event_type":"session_closed"}
+[2025-05-26 07:42:44] [INFO] [run_68339cd7e98fe] clean up completed
+[2025-05-26 07:42:44] [INFO] [run_68339cd7e98fe][STEP4] module=cleanup status=OK args=null return={"tables":["orders","order_details","order_sessions","square_transactions","square_webhooks","line_room_links"]}
+[2025-05-26 07:42:44] [INFO] [run_68339cd7e98fe] RESULT success duration=12422ms order=170 session=250526074231964226974
+[2025-05-26 08:03:06] [INFO] [run_6833a1aac9f51] ==== テスト開始 ====
+[2025-05-26 08:03:06] [INFO] [run_6833a1aac9f51] line_room_links 挿入
+[2025-05-26 08:03:06] [INFO] [run_6833a1aac9f51][STEP1] module=SQL INSERT line_room_links status=OK args={"room":"fg#11","line_user":"TEST_LINE_USER_6833a1aac9f80"} return={"rows_affected":1}
+[2025-05-26 08:03:06] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:03:06] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:03:06] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:03:06] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:03:07] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:03:07] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:03:09] [INFO] [run_6833a1aac9f51] createOrder success: order_id=172 session_id=250526080306834896328
+[2025-05-26 08:03:09] [INFO] [run_6833a1aac9f51][STEP2] module=OrderService::createOrder status=OK args={"room_number":"fg#11","items":[{"square_item_id":"IV7TSDH5FQ7V6TBJXS32OLK6","quantity":20,"price":1000,"note":"テストアイテム"}]} return={"id":"172","square_order_id":null,"room_number":"fg#11","total_amount":20000,"status":"OPEN","created_at":"2025-05-26 08:03:07","order_session_id":"250526080306834896328","square_item_id":"RWNIVVAECDQFIKNQCVVBWBPZ"}
+[2025-05-26 08:03:09] [INFO] [run_6833a1aac9f51][STEP2.6] module=DB webhook_events check status=OK args=null return={"id":144,"event_type":"order_created"}
+[2025-05-26 08:03:11] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:03:11] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:03:12] [INFO] [run_6833a1aac9f51][STEP2b] module=OrderService::createOrder status=OK args=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","quantity":10,"note":"追加薪"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","quantity":2,"note":"追加アイテム"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","quantity":10,"note":"追加商品"}] return={"id":"173","square_order_id":null,"room_number":"fg#11","total_amount":237000,"status":"OPEN","created_at":"2025-05-26 08:03:11","order_session_id":"250526080306834896328","square_item_id":"RWNIVVAECDQFIKNQCVVBWBPZ"}
+[2025-05-26 08:03:12] [INFO] [run_6833a1aac9f51][STEP2c] module=DB webhook_events check status=OK args=null return={"id":145}
+[2025-05-26 08:03:13] [INFO] [run_6833a1aac9f51][STEP2d] module=Square Catalog check status=OK args=null return={"square_item_id":"RWNIVVAECDQFIKNQCVVBWBPZ","name":"","price":null}
+[2025-05-26 08:03:13] [INFO] [run_6833a1aac9f51][STEP2e] module=DB products check status=OK args=null return=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"薪","price":"1500.00"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","name":"貸出用ダッチオーブン","price":"200.00"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","name":"191 オーパスワン","price":"110000.00"}]
+[2025-05-26 08:03:13] [INFO] [run_6833a1aac9f51][STEP2f] module=SquareService::createSessionOrder status=OK args=RWNIVVAECDQFIKNQCVVBWBPZ return={"order_id":"nb3SdMzUghVg0LTotqqzqheAGdJZY"}
+[2025-05-26 08:03:14] [INFO] [run_6833a1aac9f51][STEP2g] module=SquareService::createSessionCashPayment status=OK args=null return={"payment_id":"Z6lhJgRLZivdiyb08535VYYI0S9YY"}
+[2025-05-26 08:03:15] [INFO] [run_6833a1aac9f51][STEP2h] module=DB square_transactions check status=OK args=null return={"id":9}
+[2025-05-26 08:03:18] [INFO] [run_6833a1aac9f51] close_order_session success
+[2025-05-26 08:03:18] [INFO] [run_6833a1aac9f51][STEP3] module=POST close_order_session.php status=OK args={"session_id":"250526080306834896328","force":0} return={"success":true,"session_id":"250526080306834896328"}
+[2025-05-26 08:03:18] [INFO] [run_6833a1aac9f51][STEP3.5] module=DB webhook_events check status=OK args=null return={"id":146,"event_type":"session_closed"}
+[2025-05-26 08:03:18] [INFO] [run_6833a1aac9f51] clean up completed
+[2025-05-26 08:03:18] [INFO] [run_6833a1aac9f51][STEP4] module=cleanup status=OK args=null return={"tables":["orders","order_details","order_sessions","square_transactions","square_webhooks","line_room_links"]}
+[2025-05-26 08:03:18] [INFO] [run_6833a1aac9f51] RESULT success duration=11829ms order=172 session=250526080306834896328
+[2025-05-26 08:06:17] [INFO] [run_6833a269b6ec9] ==== テスト開始 ====
+[2025-05-26 08:06:17] [INFO] [run_6833a269b6ec9] line_room_links 挿入
+[2025-05-26 08:06:17] [INFO] [run_6833a269b6ec9][STEP1] module=SQL INSERT line_room_links status=OK args={"room":"fg#11","line_user":"TEST_LINE_USER_6833a269b6ef1"} return={"rows_affected":1}
+[2025-05-26 08:06:17] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:06:17] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:06:17] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:06:17] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:06:18] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:06:18] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:06:19] [INFO] [run_6833a269b6ec9] createOrder success: order_id=174 session_id=250526080617756520063
+[2025-05-26 08:06:19] [INFO] [run_6833a269b6ec9][STEP2] module=OrderService::createOrder status=OK args={"room_number":"fg#11","items":[{"square_item_id":"IV7TSDH5FQ7V6TBJXS32OLK6","quantity":20,"price":1000,"note":"テストアイテム"}]} return={"id":"174","square_order_id":null,"room_number":"fg#11","total_amount":20000,"status":"OPEN","created_at":"2025-05-26 08:06:18","order_session_id":"250526080617756520063","square_item_id":null}
+[2025-05-26 08:06:19] [INFO] [run_6833a269b6ec9][STEP2.6] module=DB webhook_events check status=OK args=null return={"id":147,"event_type":"order_created"}
+[2025-05-26 08:06:22] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:06:22] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:06:22] [INFO] [run_6833a269b6ec9][STEP2b] module=OrderService::createOrder status=OK args=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","quantity":10,"note":"追加薪"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","quantity":2,"note":"追加アイテム"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","quantity":10,"note":"追加商品"}] return={"id":"175","square_order_id":null,"room_number":"fg#11","total_amount":237000,"status":"OPEN","created_at":"2025-05-26 08:06:22","order_session_id":"250526080617756520063","square_item_id":"7HXOM7FF3HEOYNBKXZMQ4QZI"}
+[2025-05-26 08:06:23] [INFO] [run_6833a269b6ec9][STEP2c] module=DB webhook_events check status=OK args=null return={"id":148}
+[2025-05-26 08:06:23] [INFO] [run_6833a269b6ec9][STEP2d] module=Square Catalog check status=OK args=null return={"square_item_id":"7HXOM7FF3HEOYNBKXZMQ4QZI","name":"","price":null}
+[2025-05-26 08:06:23] [INFO] [run_6833a269b6ec9][STEP2e] module=DB products check status=OK args=null return=[{"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"薪","price":"1500.00"},{"square_item_id":"OZYWDDYBARHJNT7JBIW3SATD","name":"貸出用ダッチオーブン","price":"200.00"},{"square_item_id":"YLXZ2FGMZ2XK5FJPIB7UCIE7","name":"191 オーパスワン","price":"110000.00"}]
+[2025-05-26 08:06:23] [INFO] [run_6833a269b6ec9][STEP2f] module=SquareService::createSessionOrder status=ERROR args=null return=ERROR
+[2025-05-26 08:06:25] [ERROR] [run_6833a269b6ec9] close_order_session error: no response
+[2025-05-26 08:06:25] [INFO] [run_6833a269b6ec9][STEP3] module=POST close_order_session.php status=ERROR args={"session_id":"250526080617756520063","force":0} return=no response
+[2025-05-26 08:06:25] [INFO] [run_6833a269b6ec9] clean up completed
+[2025-05-26 08:06:25] [INFO] [run_6833a269b6ec9][STEP4] module=cleanup status=OK args=null return={"tables":["orders","order_details","order_sessions","square_transactions","square_webhooks","line_room_links"]}
+[2025-05-26 08:06:25] [INFO] [run_6833a269b6ec9] RESULT fail duration=7964ms order=174 session=250526080617756520063
+[2025-05-26 08:09:26] [INFO] [run_6833a326e89d9] ==== テスト開始 ====
+[2025-05-26 08:09:26] [INFO] [run_6833a326e89d9] line_room_links 挿入
+[2025-05-26 08:09:26] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:09:26] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:09:26] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:09:26] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:09:27] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:09:27] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:09:28] [INFO] [run_6833a326e89d9] createOrder success: order_id=176 session_id=250526080926959345989
+[2025-05-26 08:09:31] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:09:31] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:09:39] [INFO] [run_6833a326e89d9] close_order_session success
+[2025-05-26 08:09:39] [INFO] [run_6833a326e89d9] clean up completed
+[2025-05-26 08:09:39] [INFO] [run_6833a326e89d9] RESULT success duration=12399ms order=176 session=250526080926959345989
+[2025-05-26 08:14:27] [INFO] [run_6833a453851fe] ==== テスト開始 ====
+[2025-05-26 08:14:27] [INFO] [run_6833a453851fe] line_room_links 挿入
+[2025-05-26 08:14:27] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:14:27] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:14:27] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:14:27] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:14:28] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:14:28] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:14:29] [INFO] [run_6833a453851fe] createOrder success: order_id=178 session_id=250526081427554338695
+[2025-05-26 08:14:33] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:14:33] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:14:40] [INFO] [run_6833a453851fe] close_order_session success
+[2025-05-26 08:14:40] [INFO] [run_6833a453851fe] clean up completed
+[2025-05-26 08:14:40] [INFO] [run_6833a453851fe] RESULT success duration=13425ms order=178 session=250526081427554338695
+[2025-05-26 08:27:58] [INFO] [run_6833a77ee7681] ==== テスト開始 ====
+[2025-05-26 08:27:58] [INFO] [run_6833a77ee7681] line_room_links 挿入
+[2025-05-26 08:27:58] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:27:58] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:27:58] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:27:58] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:28:00] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:28:00] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:28:01] [INFO] [run_6833a77ee7681] createOrder success: order_id=180 session_id=250526082758957960944
+[2025-05-26 08:28:03] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:28:03] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:28:11] [INFO] [run_6833a77ee7681] close_order_session success
+[2025-05-26 08:28:11] [INFO] [run_6833a77ee7681] clean up completed
+[2025-05-26 08:28:11] [INFO] [run_6833a77ee7681] RESULT success duration=12749ms order=180 session=250526082758957960944
+[2025-05-26 08:38:40] [INFO] [run_6833aa0097d84] ==== テスト開始 ====
+[2025-05-26 08:38:40] [INFO] [run_6833aa0097d84] line_room_links 挿入
+[2025-05-26 08:38:40] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:38:40] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:38:40] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:38:40] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:38:41] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:38:41] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:38:41] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:38:41] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:38:42] [INFO] [run_6833aa0097d84] createOrder success: order_id=182 session_id=250526083840632781357
+[2025-05-26 08:38:45] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:38:45] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:38:52] [INFO] [run_6833aa0097d84] close_order_session success
+[2025-05-26 08:38:53] [INFO] [run_6833aa0097d84] clean up completed
+[2025-05-26 08:38:53] [INFO] [run_6833aa0097d84] RESULT success duration=12450ms order=182 session=250526083840632781357
+[2025-05-26 08:51:00] [INFO] [run_6833ace46944f] ==== テスト開始 ====
+[2025-05-26 08:51:00] [INFO] [run_6833ace46944f] line_room_links 挿入
+[2025-05-26 08:51:00] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:51:00] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:51:00] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:51:00] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:51:01] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:51:01] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:51:01] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:51:01] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:51:02] [INFO] [run_6833ace46944f] createOrder success: order_id=184 session_id=250526085100439608153
+[2025-05-26 08:51:05] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:51:05] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:51:12] [INFO] [run_6833ace46944f] close_order_session success
+[2025-05-26 08:51:13] [INFO] [run_6833ace46944f] clean up completed
+[2025-05-26 08:51:13] [INFO] [run_6833ace46944f] RESULT success duration=12685ms order=184 session=250526085100439608153
+[2025-05-26 08:57:03] [INFO] [run_6833ae4fb420a] ==== テスト開始 ====
+[2025-05-26 08:57:03] [INFO] [run_6833ae4fb420a] line_room_links 挿入
+[2025-05-26 08:57:03] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:57:03] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:57:03] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:57:03] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:57:05] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:57:05] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:57:05] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:57:05] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:57:06] [INFO] [run_6833ae4fb420a] createOrder success: order_id=186 session_id=250526085703746413157
+[2025-05-26 08:57:09] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 08:57:09] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 08:57:17] [INFO] [run_6833ae4fb420a] close_order_session success
+[2025-05-26 08:57:17] [INFO] [run_6833ae4fb420a] clean up completed
+[2025-05-26 08:57:17] [INFO] [run_6833ae4fb420a] RESULT success duration=13945ms order=186 session=250526085703746413157
+[2025-05-26 09:03:14] [INFO] [run_6833afc22990d] ==== テスト開始 ====
+[2025-05-26 09:03:14] [INFO] [run_6833afc22990d] line_room_links 挿入
+[2025-05-26 09:03:14] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 09:03:14] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 09:03:14] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 09:03:14] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 09:03:15] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 09:03:15] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 09:03:15] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 09:03:15] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 09:03:16] [INFO] [run_6833afc22990d] createOrder success: order_id=188 session_id=250526090314179831895
+[2025-05-26 09:03:19] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 09:03:19] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 09:03:26] [INFO] [run_6833afc22990d] close_order_session success
+[2025-05-26 09:03:26] [INFO] [run_6833afc22990d] clean up completed
+[2025-05-26 09:03:26] [INFO] [run_6833afc22990d] RESULT success duration=12683ms order=188 session=250526090314179831895
+[2025-05-26 18:51:40] [INFO] [run_683439ac09e08] ==== テスト開始 ====
+[2025-05-26 18:51:40] [INFO] [run_683439ac09e08] line_room_links 挿入
+[2025-05-26 18:51:40] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 18:51:40] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 18:51:40] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 18:51:40] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 18:51:40] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 18:51:40] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 18:51:40] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 18:51:40] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 18:51:42] [INFO] [run_683439ac09e08] createOrder success: order_id=190 session_id=250526185140050302949
+[2025-05-26 18:51:45] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 18:51:45] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 18:51:53] [INFO] [run_683439ac09e08] close_order_session success
+[2025-05-26 18:51:53] [INFO] [run_683439ac09e08] clean up completed
+[2025-05-26 18:51:53] [INFO] [run_683439ac09e08] RESULT success duration=13281ms order=190 session=250526185140050302949
+[2025-05-26 18:55:26] [INFO] [run_68343a8e3b0d8] ==== テスト開始 ====
+[2025-05-26 18:55:26] [INFO] [run_68343a8e3b0d8] line_room_links 挿入
+[2025-05-26 18:55:26] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 18:55:26] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 18:55:26] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 18:55:26] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 18:55:27] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 18:55:27] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 18:55:27] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 18:55:27] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 18:55:28] [INFO] [run_68343a8e3b0d8] createOrder success: order_id=192 session_id=250526185526255666559
+[2025-05-26 18:55:31] [INFO] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-26 18:55:31] [INFO] 設定ファイルの読み込みが完了しました
+[2025-05-26 18:55:38] [INFO] [run_68343a8e3b0d8] close_order_session success
+[2025-05-26 18:55:39] [INFO] [run_68343a8e3b0d8] clean up completed
+[2025-05-26 18:55:39] [INFO] [run_68343a8e3b0d8] RESULT success duration=13013ms order=192 session=250526185526255666559

@@ -1,0 +1,114 @@
+/* ===== ヘッダースタイル ===== */
+/* ヘッダー要素とその中の要素に関するスタイル */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--header-height);
+    background-color: #658BC1;
+    color: var(--text-white);
+    z-index: 100;
+    box-shadow: var(--shadow);
+    display: flex;
+    align-items: center;
+    transition: height 0.3s ease;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: var(--content-max-width);
+    margin: 0 auto; /* 620px で中央寄せ */
+    height: 100%;
+    padding: 0 var(--side-padding);
+    position: relative;
+    transition: padding 0.3s ease;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex: 1;
+    max-width: 85%;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.header-logo, .header-title {
+    transition: height 0.3s ease, margin 0.3s ease, transform 0.3s ease;
+    /* SVG固有の問題を解消するためのスタイル */
+    transform-origin: left center;
+    will-change: transform, height;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+/* SVG特有の問題に対応 */
+img.header-logo, img.header-title {
+    object-fit: contain;
+    object-position: left center;
+    width: auto;
+    max-width: none;
+    display: block;
+}
+
+.header-logo {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    align-self: center;
+    flex-shrink: 1;
+    min-width: 0;
+}
+
+.header-title {
+    height: 40px;
+    margin-left: 15px;
+    align-self: center;
+    flex-shrink: 1;
+    min-width: 0;
+}
+
+.room-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 80px;
+    flex-shrink: 0;
+    z-index: 10;
+}
+
+#room-number {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 900;
+    text-align: right;
+    margin-top: 12px;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.refresh-button {
+    background: none;
+    border: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 12px;
+    padding: 0;
+    color: white;
+    font-size: 20px;
+    margin-left: auto;
+} 

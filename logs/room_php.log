@@ -1,0 +1,1435 @@
+[2025-08-13 15:41:31] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-13 15:41:31] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-13 15:41:31] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJhMmE0NTlhZWM1YjY1ZmE0ZThhZGQ1Yzc2OTdjNzliZTQ0NWFlMzEyYmJjZDZlZWY4ZmUwOWI1YmI4MjZjZjNkIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVWMyOThhZTU1NWIwZGM2M2M0YzI4MzFjZDgwMWI5ODlhIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3MDg1NywiaWF0IjoxNzU1MDY3MjU3LCJuYW1lIjoi44KP44Gf44KLIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoZUpvdnBiUFJPbVZTRHlwZUxZaEZNbTVLTkFnbElUd3RLbXNsVm5VSE13VW9QUzAzWno1OEJ5SmJabFI5YXk4ME96dHpBSEFLTjFGNSJ9.yTlbk7BSe6EcRi569N_Oko4b42efcSzaS3XhhGjiafqkU3_yEWzN_rJxfBe2R6AwOzaYVCJ4tZ9r22ndAJxgPQ","action":"get_rooms","active_only":true}
+[2025-08-13 15:41:31] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJhMmE0NTlhZWM1YjY1ZmE0ZThhZGQ1Yzc2OTdjNzliZTQ0NWFlMzEyYmJjZDZlZWY4ZmUwOWI1YmI4MjZjZjNkIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVWMyOThhZTU1NWIwZGM2M2M0YzI4MzFjZDgwMWI5ODlhIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3MDg1NywiaWF0IjoxNzU1MDY3MjU3LCJuYW1lIjoi44KP44Gf44KLIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoZUpvdnBiUFJPbVZTRHlwZUxZaEZNbTVLTkFnbElUd3RLbXNsVm5VSE13VW9QUzAzWno1OEJ5SmJabFI5YXk4ME96dHpBSEFLTjFGNSJ9.yTlbk7BSe6EcRi569N_Oko4b42efcSzaS3XhhGjiafqkU3_yEWzN_rJxfBe2R6AwOzaYVCJ4tZ9r22ndAJxgPQ
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-13 15:41:31] [DEBUG] トークン検証開始: eyJraWQiOiJhMmE0NTlh...
+[2025-08-13 15:41:31] [DEBUG] トークン長: 578
+[2025-08-13 15:41:31] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-13 15:41:31] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => Uc298ae555b0dc63c4c2831cd801b989a
+    [aud] => 2007363986
+    [exp] => 1755070857
+    [iat] => 1755067257
+    [name] => わたる
+    [picture] => https://profile.line-scdn.net/0heJovpbPROmVSDypeLYhFMm5KNAglITwtKmslVnUHMwUoPS03Zz58ByJbZlR9ay80OztzAHAKN1F5
+)
+
+[2025-08-13 15:41:31] [INFO] トークン検証成功: ユーザーID Uc298ae555b0dc63c4c2831cd801b989a
+[2025-08-13 15:41:31] [INFO] ユーザー認証成功: Uc298ae555b0dc63c4c2831cd801b989a
+[2025-08-13 15:41:31] [INFO] 実行アクション: get_rooms
+[2025-08-13 15:41:31] [INFO] データベース接続を開始: mysql320.phy.lolipop.lan, LAA1207717-fgsquare
+[2025-08-13 15:41:31] [INFO] データベース接続成功
+[2025-08-13 15:41:31] [INFO] 部屋一覧取得 - アクティブのみ: true
+[2025-08-13 15:41:31] [DEBUG] 実行SQL: 
+                SELECT room_number, description
+                FROM roomdatasettings
+                WHERE is_active = 1
+                ORDER BY room_number
+            
+[2025-08-13 15:41:31] [INFO] 部屋一覧応答: 14件の部屋
+[2025-08-13 15:41:31] [INFO] 成功レスポンス送信
+[2025-08-13 15:41:31] [INFO] room.php API実行終了
+[2025-08-13 15:43:41] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-13 15:43:41] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-13 15:43:41] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJlNmE2OTE5Mzg2MTY5YmE1NGRlOWRkMzM2YjQxNDc5YTAxMDEyZGMwYzQyOGJhYWUyZGUxOGU1OWVlMjE0NmRiIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVWRjOTdhNTRlYTNjNTk4ODc0MzY1ZGE4NWNiYWRkN2VhIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3MTAxNiwiaWF0IjoxNzU1MDY3NDE2LCJuYW1lIjoiTWluYSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waDZtV3Nqa2pjYVVKcUNuY0tuS0VXRlJkUFp5OGRKRzhLRW1vbmNFZ0RQbnRQTTM0Y1ZUeDFJUmdOTTNGQlBTOFFBV1Z6STA0SVpTRVNKWDVEUFFwT1ZnWl9UeE5iZkhSckFIQmdiU1JDVURJZVhuTmRVaXNtSXd4eVp5aEVaQ2RKRmpGNWJVbHJUU2hISmw1UE1RbERReE5aVFhvSFRIUVJLVGsifQ.D7ZmwHabUUUya18g-cC_yZmL4pm61orWucXZAslfk2e0xPNlwGbHP7hy7nRQhhPSTCMj3jnRcfeOuGn_LMCD7A","action":"get_rooms","active_only":true}
+[2025-08-13 15:43:41] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJlNmE2OTE5Mzg2MTY5YmE1NGRlOWRkMzM2YjQxNDc5YTAxMDEyZGMwYzQyOGJhYWUyZGUxOGU1OWVlMjE0NmRiIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVWRjOTdhNTRlYTNjNTk4ODc0MzY1ZGE4NWNiYWRkN2VhIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3MTAxNiwiaWF0IjoxNzU1MDY3NDE2LCJuYW1lIjoiTWluYSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waDZtV3Nqa2pjYVVKcUNuY0tuS0VXRlJkUFp5OGRKRzhLRW1vbmNFZ0RQbnRQTTM0Y1ZUeDFJUmdOTTNGQlBTOFFBV1Z6STA0SVpTRVNKWDVEUFFwT1ZnWl9UeE5iZkhSckFIQmdiU1JDVURJZVhuTmRVaXNtSXd4eVp5aEVaQ2RKRmpGNWJVbHJUU2hISmw1UE1RbERReE5aVFhvSFRIUVJLVGsifQ.D7ZmwHabUUUya18g-cC_yZmL4pm61orWucXZAslfk2e0xPNlwGbHP7hy7nRQhhPSTCMj3jnRcfeOuGn_LMCD7A
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-13 15:43:41] [DEBUG] トークン検証開始: eyJraWQiOiJlNmE2OTE5...
+[2025-08-13 15:43:41] [DEBUG] トークン長: 688
+[2025-08-13 15:43:41] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-13 15:43:41] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => Udc97a54ea3c598874365da85cbadd7ea
+    [aud] => 2007363986
+    [exp] => 1755071016
+    [iat] => 1755067416
+    [name] => Mina
+    [picture] => https://profile.line-scdn.net/0h6mWsjkjcaUJqCncKnKEWFRdPZy8dJG8KEmoncEgDPntPM34cVTx1IRgNM3FBPS8QAWVzI04IZSESJX5DPQpOVgZ_TxNbfHRrAHBgbSRCUDIeXnNdUismIwxyZyhEZCdJFjF5bUlrTShHJl5PMQlDQxNZTXoHTHQRKTk
+)
+
+[2025-08-13 15:43:41] [INFO] トークン検証成功: ユーザーID Udc97a54ea3c598874365da85cbadd7ea
+[2025-08-13 15:43:41] [INFO] ユーザー認証成功: Udc97a54ea3c598874365da85cbadd7ea
+[2025-08-13 15:43:41] [INFO] 実行アクション: get_rooms
+[2025-08-13 15:43:41] [INFO] データベース接続を開始: mysql320.phy.lolipop.lan, LAA1207717-fgsquare
+[2025-08-13 15:43:41] [INFO] データベース接続成功
+[2025-08-13 15:43:41] [INFO] 部屋一覧取得 - アクティブのみ: true
+[2025-08-13 15:43:41] [DEBUG] 実行SQL: 
+                SELECT room_number, description
+                FROM roomdatasettings
+                WHERE is_active = 1
+                ORDER BY room_number
+            
+[2025-08-13 15:43:41] [INFO] 部屋一覧応答: 14件の部屋
+[2025-08-13 15:43:41] [INFO] 成功レスポンス送信
+[2025-08-13 15:43:41] [INFO] room.php API実行終了
+[2025-08-13 16:18:30] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-13 16:18:30] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-13 16:18:30] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJmYTEzNDA0Mjk5M2E0YTE3MTdlNGVlMTZiMGM0OGYzNTRkZTYxNzFmODUwMTU1OTcxODg1MDM4Mjg4ZmI5MmM5IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3MzExMCwiaWF0IjoxNzU1MDY5NTEwLCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.TzQSnfWm9iB2HJn0kOtSSGLEarj4UJxJbrQk6uNLwOYDUR-dORZeUBrEhHbtVZm1KSCQIuzMJ32FTkHKTJVrZQ","action":"get_rooms","active_only":true}
+[2025-08-13 16:18:30] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJmYTEzNDA0Mjk5M2E0YTE3MTdlNGVlMTZiMGM0OGYzNTRkZTYxNzFmODUwMTU1OTcxODg1MDM4Mjg4ZmI5MmM5IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3MzExMCwiaWF0IjoxNzU1MDY5NTEwLCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.TzQSnfWm9iB2HJn0kOtSSGLEarj4UJxJbrQk6uNLwOYDUR-dORZeUBrEhHbtVZm1KSCQIuzMJ32FTkHKTJVrZQ
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-13 16:18:30] [DEBUG] トークン検証開始: eyJraWQiOiJmYTEzNDA0...
+[2025-08-13 16:18:30] [DEBUG] トークン長: 614
+[2025-08-13 16:18:30] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-13 16:18:30] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U9e1f5c66b4a26fd0c33c890ad826b192
+    [aud] => 2007363986
+    [exp] => 1755073110
+    [iat] => 1755069510
+    [amr] => Array
+        (
+            [0] => lineautologin
+        )
+
+    [name] => 倉田柚有
+    [picture] => https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w
+)
+
+[2025-08-13 16:18:30] [INFO] トークン検証成功: ユーザーID U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-13 16:18:30] [INFO] ユーザー認証成功: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-13 16:18:30] [INFO] 実行アクション: get_rooms
+[2025-08-13 16:18:30] [INFO] データベース接続を開始: mysql320.phy.lolipop.lan, LAA1207717-fgsquare
+[2025-08-13 16:18:30] [INFO] データベース接続成功
+[2025-08-13 16:18:30] [INFO] 部屋一覧取得 - アクティブのみ: true
+[2025-08-13 16:18:30] [DEBUG] 実行SQL: 
+                SELECT room_number, description
+                FROM roomdatasettings
+                WHERE is_active = 1
+                ORDER BY room_number
+            
+[2025-08-13 16:18:30] [INFO] 部屋一覧応答: 14件の部屋
+[2025-08-13 16:18:30] [INFO] 成功レスポンス送信
+[2025-08-13 16:18:30] [INFO] room.php API実行終了
+[2025-08-13 16:26:17] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-13 16:26:17] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-13 16:26:17] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJmZTFlOGQ4ODhlYzY2NGNkMmFmZWY0NzljNWRiNzk2OTJjZDAxYWFjZDE0MTQ4M2E1NDMzOTM1MWYzOTVmYTI3IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTVhMzVlNTI5MTFmODE4YWM5ODJjOWZjN2QzZjNlOGU4IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3MzU3NywiaWF0IjoxNzU1MDY5OTc3LCJhbXIiOlsicHdkIl0sIm5hbWUiOiLjg47jg6rjg4TjgrAiLCJwaWN0dXJlIjoiaHR0cHM6Ly9wcm9maWxlLmxpbmUtc2Nkbi5uZXQvMG0wNGE2OTdmYzcyNTFkOWRlMmM3NjhkYzIzMTUzZTM5NzExODI4NGI2MzgzMCJ9.9N-IhhXNfiDYtFXVtus1uaxCcbNCTduriFVK8HRNw6BFD2LsYcjfV3HgNh_mbr_tvHTSMKgT6_Xh6iA4IKRysQ","action":"get_rooms","active_only":true}
+[2025-08-13 16:26:17] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJmZTFlOGQ4ODhlYzY2NGNkMmFmZWY0NzljNWRiNzk2OTJjZDAxYWFjZDE0MTQ4M2E1NDMzOTM1MWYzOTVmYTI3IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTVhMzVlNTI5MTFmODE4YWM5ODJjOWZjN2QzZjNlOGU4IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3MzU3NywiaWF0IjoxNzU1MDY5OTc3LCJhbXIiOlsicHdkIl0sIm5hbWUiOiLjg47jg6rjg4TjgrAiLCJwaWN0dXJlIjoiaHR0cHM6Ly9wcm9maWxlLmxpbmUtc2Nkbi5uZXQvMG0wNGE2OTdmYzcyNTFkOWRlMmM3NjhkYzIzMTUzZTM5NzExODI4NGI2MzgzMCJ9.9N-IhhXNfiDYtFXVtus1uaxCcbNCTduriFVK8HRNw6BFD2LsYcjfV3HgNh_mbr_tvHTSMKgT6_Xh6iA4IKRysQ
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-13 16:26:17] [DEBUG] トークン検証開始: eyJraWQiOiJmZTFlOGQ4...
+[2025-08-13 16:26:17] [DEBUG] トークン長: 558
+[2025-08-13 16:26:17] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-13 16:26:17] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U5a35e52911f818ac982c9fc7d3f3e8e8
+    [aud] => 2007363986
+    [exp] => 1755073577
+    [iat] => 1755069977
+    [amr] => Array
+        (
+            [0] => pwd
+        )
+
+    [name] => ノリツグ
+    [picture] => https://profile.line-scdn.net/0m04a697fc7251d9de2c768dc23153e397118284b63830
+)
+
+[2025-08-13 16:26:17] [INFO] トークン検証成功: ユーザーID U5a35e52911f818ac982c9fc7d3f3e8e8
+[2025-08-13 16:26:17] [INFO] ユーザー認証成功: U5a35e52911f818ac982c9fc7d3f3e8e8
+[2025-08-13 16:26:17] [INFO] 実行アクション: get_rooms
+[2025-08-13 16:26:17] [INFO] データベース接続を開始: mysql320.phy.lolipop.lan, LAA1207717-fgsquare
+[2025-08-13 16:26:17] [INFO] データベース接続成功
+[2025-08-13 16:26:17] [INFO] 部屋一覧取得 - アクティブのみ: true
+[2025-08-13 16:26:17] [DEBUG] 実行SQL: 
+                SELECT room_number, description
+                FROM roomdatasettings
+                WHERE is_active = 1
+                ORDER BY room_number
+            
+[2025-08-13 16:26:17] [INFO] 部屋一覧応答: 14件の部屋
+[2025-08-13 16:26:17] [INFO] 成功レスポンス送信
+[2025-08-13 16:26:17] [INFO] room.php API実行終了
+[2025-08-13 16:30:22] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-13 16:30:22] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-13 16:30:22] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJhNzk2OGMyZWExNWYwZjQxNjM1ZGU1ZTA4ODI5MDQ5MWIwMjMxYTU2YTQ5Y2M4YTZjZDZlZDQ0MTcyN2EyNTJmIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTViMGMyNjIxYmZmYmYxOTU2ZTU4YmZkYmM0NTY5YTBkIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3MzgyMiwiaWF0IjoxNzU1MDcwMjIyLCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi44G_44Gq5a2QIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoU0RIYzU3R1NER3QxR2lQQXk4ZHpQRWxmQWdZQ05Bb2pEWDVDV0ZnVEJseFJMa2c1UVgxTFdGVk9Vd2xiZnh0cFFIa1dXZ01lVUF4YyJ9.5uOXTO0aeMt-8cn7oUkUadyOjU5oNnqiJwIU1uhKycUTbXtVNLGI8BWcpVyt6-GuiEi76fvOlYzHyjGd1UHZ4g","action":"get_rooms","active_only":true}
+[2025-08-13 16:30:22] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJhNzk2OGMyZWExNWYwZjQxNjM1ZGU1ZTA4ODI5MDQ5MWIwMjMxYTU2YTQ5Y2M4YTZjZDZlZDQ0MTcyN2EyNTJmIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTViMGMyNjIxYmZmYmYxOTU2ZTU4YmZkYmM0NTY5YTBkIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3MzgyMiwiaWF0IjoxNzU1MDcwMjIyLCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi44G_44Gq5a2QIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoU0RIYzU3R1NER3QxR2lQQXk4ZHpQRWxmQWdZQ05Bb2pEWDVDV0ZnVEJseFJMa2c1UVgxTFdGVk9Vd2xiZnh0cFFIa1dXZ01lVUF4YyJ9.5uOXTO0aeMt-8cn7oUkUadyOjU5oNnqiJwIU1uhKycUTbXtVNLGI8BWcpVyt6-GuiEi76fvOlYzHyjGd1UHZ4g
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-13 16:30:22] [DEBUG] トークン検証開始: eyJraWQiOiJhNzk2OGMy...
+[2025-08-13 16:30:22] [DEBUG] トークン長: 610
+[2025-08-13 16:30:22] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-13 16:30:22] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U5b0c2621bffbf1956e58bfdbc4569a0d
+    [aud] => 2007363986
+    [exp] => 1755073822
+    [iat] => 1755070222
+    [amr] => Array
+        (
+            [0] => lineautologin
+        )
+
+    [name] => みな子
+    [picture] => https://profile.line-scdn.net/0hSDHc57GSDGt1GiPAy8dzPElfAgYCNAojDX5CWFgTBlxRLkg5QX1LWFVOUwlbfxtpQHkWWgMeUAxc
+)
+
+[2025-08-13 16:30:22] [INFO] トークン検証成功: ユーザーID U5b0c2621bffbf1956e58bfdbc4569a0d
+[2025-08-13 16:30:22] [INFO] ユーザー認証成功: U5b0c2621bffbf1956e58bfdbc4569a0d
+[2025-08-13 16:30:22] [INFO] 実行アクション: get_rooms
+[2025-08-13 16:30:22] [INFO] データベース接続を開始: mysql320.phy.lolipop.lan, LAA1207717-fgsquare
+[2025-08-13 16:30:22] [INFO] データベース接続成功
+[2025-08-13 16:30:22] [INFO] 部屋一覧取得 - アクティブのみ: true
+[2025-08-13 16:30:22] [DEBUG] 実行SQL: 
+                SELECT room_number, description
+                FROM roomdatasettings
+                WHERE is_active = 1
+                ORDER BY room_number
+            
+[2025-08-13 16:30:22] [INFO] 部屋一覧応答: 14件の部屋
+[2025-08-13 16:30:22] [INFO] 成功レスポンス送信
+[2025-08-13 16:30:22] [INFO] room.php API実行終了
+[2025-08-13 16:30:39] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-13 16:30:39] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-13 16:30:39] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJhNzk2OGMyZWExNWYwZjQxNjM1ZGU1ZTA4ODI5MDQ5MWIwMjMxYTU2YTQ5Y2M4YTZjZDZlZDQ0MTcyN2EyNTJmIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTViMGMyNjIxYmZmYmYxOTU2ZTU4YmZkYmM0NTY5YTBkIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3MzgyMiwiaWF0IjoxNzU1MDcwMjIyLCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi44G_44Gq5a2QIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoU0RIYzU3R1NER3QxR2lQQXk4ZHpQRWxmQWdZQ05Bb2pEWDVDV0ZnVEJseFJMa2c1UVgxTFdGVk9Vd2xiZnh0cFFIa1dXZ01lVUF4YyJ9.5uOXTO0aeMt-8cn7oUkUadyOjU5oNnqiJwIU1uhKycUTbXtVNLGI8BWcpVyt6-GuiEi76fvOlYzHyjGd1UHZ4g","action":"get_rooms","active_only":true}
+[2025-08-13 16:30:39] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJhNzk2OGMyZWExNWYwZjQxNjM1ZGU1ZTA4ODI5MDQ5MWIwMjMxYTU2YTQ5Y2M4YTZjZDZlZDQ0MTcyN2EyNTJmIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTViMGMyNjIxYmZmYmYxOTU2ZTU4YmZkYmM0NTY5YTBkIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3MzgyMiwiaWF0IjoxNzU1MDcwMjIyLCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi44G_44Gq5a2QIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoU0RIYzU3R1NER3QxR2lQQXk4ZHpQRWxmQWdZQ05Bb2pEWDVDV0ZnVEJseFJMa2c1UVgxTFdGVk9Vd2xiZnh0cFFIa1dXZ01lVUF4YyJ9.5uOXTO0aeMt-8cn7oUkUadyOjU5oNnqiJwIU1uhKycUTbXtVNLGI8BWcpVyt6-GuiEi76fvOlYzHyjGd1UHZ4g
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-13 16:30:39] [DEBUG] トークン検証開始: eyJraWQiOiJhNzk2OGMy...
+[2025-08-13 16:30:39] [DEBUG] トークン長: 610
+[2025-08-13 16:30:39] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-13 16:30:39] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U5b0c2621bffbf1956e58bfdbc4569a0d
+    [aud] => 2007363986
+    [exp] => 1755073822
+    [iat] => 1755070222
+    [amr] => Array
+        (
+            [0] => lineautologin
+        )
+
+    [name] => みな子
+    [picture] => https://profile.line-scdn.net/0hSDHc57GSDGt1GiPAy8dzPElfAgYCNAojDX5CWFgTBlxRLkg5QX1LWFVOUwlbfxtpQHkWWgMeUAxc
+)
+
+[2025-08-13 16:30:39] [INFO] トークン検証成功: ユーザーID U5b0c2621bffbf1956e58bfdbc4569a0d
+[2025-08-13 16:30:39] [INFO] ユーザー認証成功: U5b0c2621bffbf1956e58bfdbc4569a0d
+[2025-08-13 16:30:39] [INFO] 実行アクション: get_rooms
+[2025-08-13 16:30:39] [INFO] データベース接続を開始: mysql320.phy.lolipop.lan, LAA1207717-fgsquare
+[2025-08-13 16:30:39] [INFO] データベース接続成功
+[2025-08-13 16:30:39] [INFO] 部屋一覧取得 - アクティブのみ: true
+[2025-08-13 16:30:39] [DEBUG] 実行SQL: 
+                SELECT room_number, description
+                FROM roomdatasettings
+                WHERE is_active = 1
+                ORDER BY room_number
+            
+[2025-08-13 16:30:39] [INFO] 部屋一覧応答: 14件の部屋
+[2025-08-13 16:30:39] [INFO] 成功レスポンス送信
+[2025-08-13 16:30:39] [INFO] room.php API実行終了
+[2025-08-13 16:32:32] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-13 16:32:32] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-13 16:32:32] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJhNTI0YTQwNGU3YTk3ZDM1ZGM2NDYzMzc1NjMwNTUyNWVkMmRjNGE1YjQ4YTEzMDczNmY3NGU5YTNhNWQ0YjFkIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTViZWJiOTM2Zjc3Njk2ODk3M2MxOGE4MWJjNjE3ZjQ3IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3Mzk0OSwiaWF0IjoxNzU1MDcwMzQ5LCJuYW1lIjoiTWFyaWtvIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0L2NoL3YyL3AvdWE4YWEyZDNmN2U2Y2E3NmVjOTZjYTYxNWU0Zjk4OWFlLzEzNTEwNDk1MTEwNTcifQ.P57UVJgoSgR58R8WXnj9f8z5ylSnlRYKLi9bEC6GzyEFnT0tbcjtmo9owmXu0MG9JKuvQGNU3eNm647w1xFr2w","action":"get_rooms","active_only":true}
+[2025-08-13 16:32:32] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJhNTI0YTQwNGU3YTk3ZDM1ZGM2NDYzMzc1NjMwNTUyNWVkMmRjNGE1YjQ4YTEzMDczNmY3NGU5YTNhNWQ0YjFkIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTViZWJiOTM2Zjc3Njk2ODk3M2MxOGE4MWJjNjE3ZjQ3IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3Mzk0OSwiaWF0IjoxNzU1MDcwMzQ5LCJuYW1lIjoiTWFyaWtvIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0L2NoL3YyL3AvdWE4YWEyZDNmN2U2Y2E3NmVjOTZjYTYxNWU0Zjk4OWFlLzEzNTEwNDk1MTEwNTcifQ.P57UVJgoSgR58R8WXnj9f8z5ylSnlRYKLi9bEC6GzyEFnT0tbcjtmo9owmXu0MG9JKuvQGNU3eNm647w1xFr2w
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-13 16:32:32] [DEBUG] トークン検証開始: eyJraWQiOiJhNTI0YTQw...
+[2025-08-13 16:32:32] [DEBUG] トークン長: 544
+[2025-08-13 16:32:32] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-13 16:32:32] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U5bebb936f776968973c18a81bc617f47
+    [aud] => 2007363986
+    [exp] => 1755073949
+    [iat] => 1755070349
+    [name] => Mariko
+    [picture] => https://profile.line-scdn.net/ch/v2/p/ua8aa2d3f7e6ca76ec96ca615e4f989ae/1351049511057
+)
+
+[2025-08-13 16:32:32] [INFO] トークン検証成功: ユーザーID U5bebb936f776968973c18a81bc617f47
+[2025-08-13 16:32:32] [INFO] ユーザー認証成功: U5bebb936f776968973c18a81bc617f47
+[2025-08-13 16:32:32] [INFO] 実行アクション: get_rooms
+[2025-08-13 16:32:32] [INFO] データベース接続を開始: mysql320.phy.lolipop.lan, LAA1207717-fgsquare
+[2025-08-13 16:32:32] [INFO] データベース接続成功
+[2025-08-13 16:32:32] [INFO] 部屋一覧取得 - アクティブのみ: true
+[2025-08-13 16:32:32] [DEBUG] 実行SQL: 
+                SELECT room_number, description
+                FROM roomdatasettings
+                WHERE is_active = 1
+                ORDER BY room_number
+            
+[2025-08-13 16:32:32] [INFO] 部屋一覧応答: 14件の部屋
+[2025-08-13 16:32:32] [INFO] 成功レスポンス送信
+[2025-08-13 16:32:32] [INFO] room.php API実行終了
+[2025-08-13 16:51:14] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-13 16:51:14] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-13 16:51:14] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg","action":"get_rooms","active_only":true}
+[2025-08-13 16:51:14] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-13 16:51:14] [DEBUG] トークン検証開始: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 16:51:14] [DEBUG] トークン長: 692
+[2025-08-13 16:51:14] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-13 16:51:14] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U3f3fc4cd92342aa87a4d43276cd5a6e9
+    [aud] => 2007363986
+    [exp] => 1755075072
+    [iat] => 1755071472
+    [name] => Natsumi
+    [picture] => https://profile.line-scdn.net/0hkDTAYZyfNGtpOCXRjYJLPBR9OgYeFjIjEQsoDkVsPglDXyY7Uld8CE49Yg4TXHRvAA5_WE89bAhEF3J-JykgViJQbBMdAQ9PLiB_cBduIzxDa3RYKy1nCDBsakcESAddUA4kBQh4CzoxC3RNUTgBaDdeCBMnXiFPBzk
+)
+
+[2025-08-13 16:51:14] [INFO] トークン検証成功: ユーザーID U3f3fc4cd92342aa87a4d43276cd5a6e9
+[2025-08-13 16:51:14] [INFO] ユーザー認証成功: U3f3fc4cd92342aa87a4d43276cd5a6e9
+[2025-08-13 16:51:14] [INFO] 実行アクション: get_rooms
+[2025-08-13 16:51:14] [INFO] データベース接続を開始: mysql320.phy.lolipop.lan, LAA1207717-fgsquare
+[2025-08-13 16:51:14] [INFO] データベース接続成功
+[2025-08-13 16:51:14] [INFO] 部屋一覧取得 - アクティブのみ: true
+[2025-08-13 16:51:14] [DEBUG] 実行SQL: 
+                SELECT room_number, description
+                FROM roomdatasettings
+                WHERE is_active = 1
+                ORDER BY room_number
+            
+[2025-08-13 16:51:14] [INFO] 部屋一覧応答: 14件の部屋
+[2025-08-13 16:51:14] [INFO] 成功レスポンス送信
+[2025-08-13 16:51:14] [INFO] room.php API実行終了
+[2025-08-13 17:46:20] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-13 17:46:20] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-13 17:46:20] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg","action":"get_rooms","active_only":true}
+[2025-08-13 17:46:20] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-13 17:46:20] [DEBUG] トークン検証開始: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:46:20] [DEBUG] トークン長: 692
+[2025-08-13 17:46:20] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-13 17:46:20] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U3f3fc4cd92342aa87a4d43276cd5a6e9
+    [aud] => 2007363986
+    [exp] => 1755075072
+    [iat] => 1755071472
+    [name] => Natsumi
+    [picture] => https://profile.line-scdn.net/0hkDTAYZyfNGtpOCXRjYJLPBR9OgYeFjIjEQsoDkVsPglDXyY7Uld8CE49Yg4TXHRvAA5_WE89bAhEF3J-JykgViJQbBMdAQ9PLiB_cBduIzxDa3RYKy1nCDBsakcESAddUA4kBQh4CzoxC3RNUTgBaDdeCBMnXiFPBzk
+)
+
+[2025-08-13 17:46:20] [INFO] トークン検証成功: ユーザーID U3f3fc4cd92342aa87a4d43276cd5a6e9
+[2025-08-13 17:46:20] [INFO] ユーザー認証成功: U3f3fc4cd92342aa87a4d43276cd5a6e9
+[2025-08-13 17:46:20] [INFO] 実行アクション: get_rooms
+[2025-08-13 17:46:20] [INFO] データベース接続を開始: mysql320.phy.lolipop.lan, LAA1207717-fgsquare
+[2025-08-13 17:46:20] [INFO] データベース接続成功
+[2025-08-13 17:46:20] [INFO] 部屋一覧取得 - アクティブのみ: true
+[2025-08-13 17:46:20] [DEBUG] 実行SQL: 
+                SELECT room_number, description
+                FROM roomdatasettings
+                WHERE is_active = 1
+                ORDER BY room_number
+            
+[2025-08-13 17:46:20] [INFO] 部屋一覧応答: 14件の部屋
+[2025-08-13 17:46:20] [INFO] 成功レスポンス送信
+[2025-08-13 17:46:20] [INFO] room.php API実行終了
+[2025-08-13 17:54:16] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-13 17:54:16] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-13 17:54:16] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg","action":"get_rooms","active_only":true}
+[2025-08-13 17:54:16] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-13 17:54:16] [DEBUG] トークン検証開始: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:16] [DEBUG] トークン長: 692
+[2025-08-13 17:54:16] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-13 17:54:16] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U3f3fc4cd92342aa87a4d43276cd5a6e9
+    [aud] => 2007363986
+    [exp] => 1755075072
+    [iat] => 1755071472
+    [name] => Natsumi
+    [picture] => https://profile.line-scdn.net/0hkDTAYZyfNGtpOCXRjYJLPBR9OgYeFjIjEQsoDkVsPglDXyY7Uld8CE49Yg4TXHRvAA5_WE89bAhEF3J-JykgViJQbBMdAQ9PLiB_cBduIzxDa3RYKy1nCDBsakcESAddUA4kBQh4CzoxC3RNUTgBaDdeCBMnXiFPBzk
+)
+
+[2025-08-13 17:54:16] [ERROR] トークンの有効期限切れ: 期限 2025-08-13 17:51:12, 現在 2025-08-13 17:54:16
+[2025-08-13 17:54:16] [ERROR] トークン検証に失敗しました: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:16] [ERROR] 例外発生: 認証に失敗しました
+[2025-08-13 17:54:16] [DEBUG] スタックトレース: #0 {main}
+[2025-08-13 17:54:16] [INFO] room.php API実行終了
+[2025-08-13 17:54:17] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-13 17:54:17] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg","action":"get_rooms","active_only":true}
+[2025-08-13 17:54:17] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-13 17:54:17] [DEBUG] トークン検証開始: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:17] [DEBUG] トークン長: 692
+[2025-08-13 17:54:17] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-13 17:54:17] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U3f3fc4cd92342aa87a4d43276cd5a6e9
+    [aud] => 2007363986
+    [exp] => 1755075072
+    [iat] => 1755071472
+    [name] => Natsumi
+    [picture] => https://profile.line-scdn.net/0hkDTAYZyfNGtpOCXRjYJLPBR9OgYeFjIjEQsoDkVsPglDXyY7Uld8CE49Yg4TXHRvAA5_WE89bAhEF3J-JykgViJQbBMdAQ9PLiB_cBduIzxDa3RYKy1nCDBsakcESAddUA4kBQh4CzoxC3RNUTgBaDdeCBMnXiFPBzk
+)
+
+[2025-08-13 17:54:17] [ERROR] トークンの有効期限切れ: 期限 2025-08-13 17:51:12, 現在 2025-08-13 17:54:17
+[2025-08-13 17:54:17] [ERROR] トークン検証に失敗しました: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:17] [ERROR] 例外発生: 認証に失敗しました
+[2025-08-13 17:54:17] [DEBUG] スタックトレース: #0 {main}
+[2025-08-13 17:54:17] [INFO] room.php API実行終了
+[2025-08-13 17:54:18] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-13 17:54:18] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg","action":"get_rooms","active_only":true}
+[2025-08-13 17:54:18] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-13 17:54:18] [DEBUG] トークン検証開始: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:18] [DEBUG] トークン長: 692
+[2025-08-13 17:54:18] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-13 17:54:18] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U3f3fc4cd92342aa87a4d43276cd5a6e9
+    [aud] => 2007363986
+    [exp] => 1755075072
+    [iat] => 1755071472
+    [name] => Natsumi
+    [picture] => https://profile.line-scdn.net/0hkDTAYZyfNGtpOCXRjYJLPBR9OgYeFjIjEQsoDkVsPglDXyY7Uld8CE49Yg4TXHRvAA5_WE89bAhEF3J-JykgViJQbBMdAQ9PLiB_cBduIzxDa3RYKy1nCDBsakcESAddUA4kBQh4CzoxC3RNUTgBaDdeCBMnXiFPBzk
+)
+
+[2025-08-13 17:54:18] [ERROR] トークンの有効期限切れ: 期限 2025-08-13 17:51:12, 現在 2025-08-13 17:54:18
+[2025-08-13 17:54:18] [ERROR] トークン検証に失敗しました: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:18] [ERROR] 例外発生: 認証に失敗しました
+[2025-08-13 17:54:18] [DEBUG] スタックトレース: #0 {main}
+[2025-08-13 17:54:18] [INFO] room.php API実行終了
+[2025-08-13 17:54:20] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-13 17:54:20] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg","action":"get_rooms","active_only":true}
+[2025-08-13 17:54:20] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-13 17:54:20] [DEBUG] トークン検証開始: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:20] [DEBUG] トークン長: 692
+[2025-08-13 17:54:20] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-13 17:54:20] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U3f3fc4cd92342aa87a4d43276cd5a6e9
+    [aud] => 2007363986
+    [exp] => 1755075072
+    [iat] => 1755071472
+    [name] => Natsumi
+    [picture] => https://profile.line-scdn.net/0hkDTAYZyfNGtpOCXRjYJLPBR9OgYeFjIjEQsoDkVsPglDXyY7Uld8CE49Yg4TXHRvAA5_WE89bAhEF3J-JykgViJQbBMdAQ9PLiB_cBduIzxDa3RYKy1nCDBsakcESAddUA4kBQh4CzoxC3RNUTgBaDdeCBMnXiFPBzk
+)
+
+[2025-08-13 17:54:20] [ERROR] トークンの有効期限切れ: 期限 2025-08-13 17:51:12, 現在 2025-08-13 17:54:20
+[2025-08-13 17:54:20] [ERROR] トークン検証に失敗しました: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:20] [ERROR] 例外発生: 認証に失敗しました
+[2025-08-13 17:54:20] [DEBUG] スタックトレース: #0 {main}
+[2025-08-13 17:54:20] [INFO] room.php API実行終了
+[2025-08-13 17:54:21] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-13 17:54:21] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-13 17:54:21] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg","action":"get_rooms","active_only":true}
+[2025-08-13 17:54:21] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-13 17:54:21] [DEBUG] トークン検証開始: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:21] [DEBUG] トークン長: 692
+[2025-08-13 17:54:21] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-13 17:54:21] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U3f3fc4cd92342aa87a4d43276cd5a6e9
+    [aud] => 2007363986
+    [exp] => 1755075072
+    [iat] => 1755071472
+    [name] => Natsumi
+    [picture] => https://profile.line-scdn.net/0hkDTAYZyfNGtpOCXRjYJLPBR9OgYeFjIjEQsoDkVsPglDXyY7Uld8CE49Yg4TXHRvAA5_WE89bAhEF3J-JykgViJQbBMdAQ9PLiB_cBduIzxDa3RYKy1nCDBsakcESAddUA4kBQh4CzoxC3RNUTgBaDdeCBMnXiFPBzk
+)
+
+[2025-08-13 17:54:21] [ERROR] トークンの有効期限切れ: 期限 2025-08-13 17:51:12, 現在 2025-08-13 17:54:21
+[2025-08-13 17:54:21] [ERROR] トークン検証に失敗しました: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:21] [ERROR] 例外発生: 認証に失敗しました
+[2025-08-13 17:54:21] [DEBUG] スタックトレース: #0 {main}
+[2025-08-13 17:54:21] [INFO] room.php API実行終了
+[2025-08-13 17:54:24] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-13 17:54:24] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg","action":"get_rooms","active_only":true}
+[2025-08-13 17:54:24] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-13 17:54:24] [DEBUG] トークン検証開始: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:24] [DEBUG] トークン長: 692
+[2025-08-13 17:54:24] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-13 17:54:24] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U3f3fc4cd92342aa87a4d43276cd5a6e9
+    [aud] => 2007363986
+    [exp] => 1755075072
+    [iat] => 1755071472
+    [name] => Natsumi
+    [picture] => https://profile.line-scdn.net/0hkDTAYZyfNGtpOCXRjYJLPBR9OgYeFjIjEQsoDkVsPglDXyY7Uld8CE49Yg4TXHRvAA5_WE89bAhEF3J-JykgViJQbBMdAQ9PLiB_cBduIzxDa3RYKy1nCDBsakcESAddUA4kBQh4CzoxC3RNUTgBaDdeCBMnXiFPBzk
+)
+
+[2025-08-13 17:54:24] [ERROR] トークンの有効期限切れ: 期限 2025-08-13 17:51:12, 現在 2025-08-13 17:54:24
+[2025-08-13 17:54:24] [ERROR] トークン検証に失敗しました: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:24] [ERROR] 例外発生: 認証に失敗しました
+[2025-08-13 17:54:24] [DEBUG] スタックトレース: #0 {main}
+[2025-08-13 17:54:24] [INFO] room.php API実行終了
+[2025-08-13 17:54:25] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-13 17:54:25] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg","action":"get_rooms","active_only":true}
+[2025-08-13 17:54:25] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-13 17:54:25] [DEBUG] トークン検証開始: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:25] [DEBUG] トークン長: 692
+[2025-08-13 17:54:25] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-13 17:54:25] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U3f3fc4cd92342aa87a4d43276cd5a6e9
+    [aud] => 2007363986
+    [exp] => 1755075072
+    [iat] => 1755071472
+    [name] => Natsumi
+    [picture] => https://profile.line-scdn.net/0hkDTAYZyfNGtpOCXRjYJLPBR9OgYeFjIjEQsoDkVsPglDXyY7Uld8CE49Yg4TXHRvAA5_WE89bAhEF3J-JykgViJQbBMdAQ9PLiB_cBduIzxDa3RYKy1nCDBsakcESAddUA4kBQh4CzoxC3RNUTgBaDdeCBMnXiFPBzk
+)
+
+[2025-08-13 17:54:25] [ERROR] トークンの有効期限切れ: 期限 2025-08-13 17:51:12, 現在 2025-08-13 17:54:25
+[2025-08-13 17:54:25] [ERROR] トークン検証に失敗しました: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:25] [ERROR] 例外発生: 認証に失敗しました
+[2025-08-13 17:54:25] [DEBUG] スタックトレース: #0 {main}
+[2025-08-13 17:54:25] [INFO] room.php API実行終了
+[2025-08-13 17:54:27] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-13 17:54:27] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-13 17:54:27] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg","action":"get_rooms","active_only":true}
+[2025-08-13 17:54:27] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-13 17:54:27] [DEBUG] トークン検証開始: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:27] [DEBUG] トークン長: 692
+[2025-08-13 17:54:27] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-13 17:54:27] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U3f3fc4cd92342aa87a4d43276cd5a6e9
+    [aud] => 2007363986
+    [exp] => 1755075072
+    [iat] => 1755071472
+    [name] => Natsumi
+    [picture] => https://profile.line-scdn.net/0hkDTAYZyfNGtpOCXRjYJLPBR9OgYeFjIjEQsoDkVsPglDXyY7Uld8CE49Yg4TXHRvAA5_WE89bAhEF3J-JykgViJQbBMdAQ9PLiB_cBduIzxDa3RYKy1nCDBsakcESAddUA4kBQh4CzoxC3RNUTgBaDdeCBMnXiFPBzk
+)
+
+[2025-08-13 17:54:27] [ERROR] トークンの有効期限切れ: 期限 2025-08-13 17:51:12, 現在 2025-08-13 17:54:27
+[2025-08-13 17:54:27] [ERROR] トークン検証に失敗しました: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:27] [ERROR] 例外発生: 認証に失敗しました
+[2025-08-13 17:54:27] [DEBUG] スタックトレース: #0 {main}
+[2025-08-13 17:54:27] [INFO] room.php API実行終了
+[2025-08-13 17:54:28] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-13 17:54:28] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg","action":"get_rooms","active_only":true}
+[2025-08-13 17:54:28] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-13 17:54:28] [DEBUG] トークン検証開始: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:28] [DEBUG] トークン長: 692
+[2025-08-13 17:54:28] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-13 17:54:28] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U3f3fc4cd92342aa87a4d43276cd5a6e9
+    [aud] => 2007363986
+    [exp] => 1755075072
+    [iat] => 1755071472
+    [name] => Natsumi
+    [picture] => https://profile.line-scdn.net/0hkDTAYZyfNGtpOCXRjYJLPBR9OgYeFjIjEQsoDkVsPglDXyY7Uld8CE49Yg4TXHRvAA5_WE89bAhEF3J-JykgViJQbBMdAQ9PLiB_cBduIzxDa3RYKy1nCDBsakcESAddUA4kBQh4CzoxC3RNUTgBaDdeCBMnXiFPBzk
+)
+
+[2025-08-13 17:54:28] [ERROR] トークンの有効期限切れ: 期限 2025-08-13 17:51:12, 現在 2025-08-13 17:54:28
+[2025-08-13 17:54:28] [ERROR] トークン検証に失敗しました: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:28] [ERROR] 例外発生: 認証に失敗しました
+[2025-08-13 17:54:28] [DEBUG] スタックトレース: #0 {main}
+[2025-08-13 17:54:28] [INFO] room.php API実行終了
+[2025-08-13 17:54:30] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-13 17:54:30] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg","action":"get_rooms","active_only":true}
+[2025-08-13 17:54:30] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-13 17:54:30] [DEBUG] トークン検証開始: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:30] [DEBUG] トークン長: 692
+[2025-08-13 17:54:30] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-13 17:54:30] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U3f3fc4cd92342aa87a4d43276cd5a6e9
+    [aud] => 2007363986
+    [exp] => 1755075072
+    [iat] => 1755071472
+    [name] => Natsumi
+    [picture] => https://profile.line-scdn.net/0hkDTAYZyfNGtpOCXRjYJLPBR9OgYeFjIjEQsoDkVsPglDXyY7Uld8CE49Yg4TXHRvAA5_WE89bAhEF3J-JykgViJQbBMdAQ9PLiB_cBduIzxDa3RYKy1nCDBsakcESAddUA4kBQh4CzoxC3RNUTgBaDdeCBMnXiFPBzk
+)
+
+[2025-08-13 17:54:30] [ERROR] トークンの有効期限切れ: 期限 2025-08-13 17:51:12, 現在 2025-08-13 17:54:30
+[2025-08-13 17:54:30] [ERROR] トークン検証に失敗しました: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:30] [ERROR] 例外発生: 認証に失敗しました
+[2025-08-13 17:54:30] [DEBUG] スタックトレース: #0 {main}
+[2025-08-13 17:54:30] [INFO] room.php API実行終了
+[2025-08-13 17:54:33] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-13 17:54:33] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-13 17:54:33] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg","action":"get_rooms","active_only":true}
+[2025-08-13 17:54:33] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-13 17:54:33] [DEBUG] トークン検証開始: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:33] [DEBUG] トークン長: 692
+[2025-08-13 17:54:33] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-13 17:54:33] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U3f3fc4cd92342aa87a4d43276cd5a6e9
+    [aud] => 2007363986
+    [exp] => 1755075072
+    [iat] => 1755071472
+    [name] => Natsumi
+    [picture] => https://profile.line-scdn.net/0hkDTAYZyfNGtpOCXRjYJLPBR9OgYeFjIjEQsoDkVsPglDXyY7Uld8CE49Yg4TXHRvAA5_WE89bAhEF3J-JykgViJQbBMdAQ9PLiB_cBduIzxDa3RYKy1nCDBsakcESAddUA4kBQh4CzoxC3RNUTgBaDdeCBMnXiFPBzk
+)
+
+[2025-08-13 17:54:33] [ERROR] トークンの有効期限切れ: 期限 2025-08-13 17:51:12, 現在 2025-08-13 17:54:33
+[2025-08-13 17:54:33] [ERROR] トークン検証に失敗しました: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:33] [ERROR] 例外発生: 認証に失敗しました
+[2025-08-13 17:54:33] [DEBUG] スタックトレース: #0 {main}
+[2025-08-13 17:54:33] [INFO] room.php API実行終了
+[2025-08-13 17:54:34] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-13 17:54:34] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg","action":"get_rooms","active_only":true}
+[2025-08-13 17:54:34] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-13 17:54:34] [DEBUG] トークン検証開始: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:34] [DEBUG] トークン長: 692
+[2025-08-13 17:54:34] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-13 17:54:34] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U3f3fc4cd92342aa87a4d43276cd5a6e9
+    [aud] => 2007363986
+    [exp] => 1755075072
+    [iat] => 1755071472
+    [name] => Natsumi
+    [picture] => https://profile.line-scdn.net/0hkDTAYZyfNGtpOCXRjYJLPBR9OgYeFjIjEQsoDkVsPglDXyY7Uld8CE49Yg4TXHRvAA5_WE89bAhEF3J-JykgViJQbBMdAQ9PLiB_cBduIzxDa3RYKy1nCDBsakcESAddUA4kBQh4CzoxC3RNUTgBaDdeCBMnXiFPBzk
+)
+
+[2025-08-13 17:54:34] [ERROR] トークンの有効期限切れ: 期限 2025-08-13 17:51:12, 現在 2025-08-13 17:54:34
+[2025-08-13 17:54:34] [ERROR] トークン検証に失敗しました: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:34] [ERROR] 例外発生: 認証に失敗しました
+[2025-08-13 17:54:34] [DEBUG] スタックトレース: #0 {main}
+[2025-08-13 17:54:34] [INFO] room.php API実行終了
+[2025-08-13 17:54:35] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-13 17:54:35] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg","action":"get_rooms","active_only":true}
+[2025-08-13 17:54:35] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-13 17:54:35] [DEBUG] トークン検証開始: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:35] [DEBUG] トークン長: 692
+[2025-08-13 17:54:35] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-13 17:54:35] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U3f3fc4cd92342aa87a4d43276cd5a6e9
+    [aud] => 2007363986
+    [exp] => 1755075072
+    [iat] => 1755071472
+    [name] => Natsumi
+    [picture] => https://profile.line-scdn.net/0hkDTAYZyfNGtpOCXRjYJLPBR9OgYeFjIjEQsoDkVsPglDXyY7Uld8CE49Yg4TXHRvAA5_WE89bAhEF3J-JykgViJQbBMdAQ9PLiB_cBduIzxDa3RYKy1nCDBsakcESAddUA4kBQh4CzoxC3RNUTgBaDdeCBMnXiFPBzk
+)
+
+[2025-08-13 17:54:35] [ERROR] トークンの有効期限切れ: 期限 2025-08-13 17:51:12, 現在 2025-08-13 17:54:35
+[2025-08-13 17:54:35] [ERROR] トークン検証に失敗しました: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:35] [ERROR] 例外発生: 認証に失敗しました
+[2025-08-13 17:54:35] [DEBUG] スタックトレース: #0 {main}
+[2025-08-13 17:54:35] [INFO] room.php API実行終了
+[2025-08-13 17:54:36] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-13 17:54:36] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg","action":"get_rooms","active_only":true}
+[2025-08-13 17:54:36] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJjNmYzNGU4NjNkM2U1ZTMyYmEzMjA4MTQwMmQ4YjNlMTBlOGVkYjYzODU2OGE1N2IyNzE2YzBmMzBmNTY3MTAzIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTNmM2ZjNGNkOTIzNDJhYTg3YTRkNDMyNzZjZDVhNmU5IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3NTA3MiwiaWF0IjoxNzU1MDcxNDcyLCJuYW1lIjoiTmF0c3VtaSIsInBpY3R1cmUiOiJodHRwczovL3Byb2ZpbGUubGluZS1zY2RuLm5ldC8waGtEVEFZWnlmTkd0cE9DWFJqWUpMUEJSOU9nWWVGaklqRVFzb0RrVnNQZ2xEWHlZN1VsZDhDRTQ5WWc0VFhIUnZBQTVfV0U4OWJBaEVGM0otSnlrZ1ZpSlFiQk1kQVE5UExpQl9jQmR1SXp4RGEzUllLeTFuQ0RCc2FrY0VTQWRkVUE0a0JRaDRDem94QzNSTlVUZ0JhRGRlQ0JNblhpRlBCemsifQ.7FwLMPCBrkxdxA6l_mGklTecBqlvMzFKj_4enjYtGzgaTp6oq1zpt8VnyEpsbVxAQvYmGtQRM6lU3VA7nqzFEg
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-13 17:54:36] [DEBUG] トークン検証開始: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:36] [DEBUG] トークン長: 692
+[2025-08-13 17:54:36] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-13 17:54:36] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U3f3fc4cd92342aa87a4d43276cd5a6e9
+    [aud] => 2007363986
+    [exp] => 1755075072
+    [iat] => 1755071472
+    [name] => Natsumi
+    [picture] => https://profile.line-scdn.net/0hkDTAYZyfNGtpOCXRjYJLPBR9OgYeFjIjEQsoDkVsPglDXyY7Uld8CE49Yg4TXHRvAA5_WE89bAhEF3J-JykgViJQbBMdAQ9PLiB_cBduIzxDa3RYKy1nCDBsakcESAddUA4kBQh4CzoxC3RNUTgBaDdeCBMnXiFPBzk
+)
+
+[2025-08-13 17:54:36] [ERROR] トークンの有効期限切れ: 期限 2025-08-13 17:51:12, 現在 2025-08-13 17:54:36
+[2025-08-13 17:54:36] [ERROR] トークン検証に失敗しました: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:54:36] [ERROR] 例外発生: 認証に失敗しました
+[2025-08-13 17:54:36] [DEBUG] スタックトレース: #0 {main}
+[2025-08-13 17:54:36] [INFO] room.php API実行終了
+[2025-08-13 18:33:34] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-13 18:33:34] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-13 18:33:34] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJhNTI0YTQwNGU3YTk3ZDM1ZGM2NDYzMzc1NjMwNTUyNWVkMmRjNGE1YjQ4YTEzMDczNmY3NGU5YTNhNWQ0YjFkIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTViZWJiOTM2Zjc3Njk2ODk3M2MxOGE4MWJjNjE3ZjQ3IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3Mzk0OSwiaWF0IjoxNzU1MDcwMzQ5LCJuYW1lIjoiTWFyaWtvIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0L2NoL3YyL3AvdWE4YWEyZDNmN2U2Y2E3NmVjOTZjYTYxNWU0Zjk4OWFlLzEzNTEwNDk1MTEwNTcifQ.P57UVJgoSgR58R8WXnj9f8z5ylSnlRYKLi9bEC6GzyEFnT0tbcjtmo9owmXu0MG9JKuvQGNU3eNm647w1xFr2w","action":"get_rooms","active_only":true}
+[2025-08-13 18:33:34] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJhNTI0YTQwNGU3YTk3ZDM1ZGM2NDYzMzc1NjMwNTUyNWVkMmRjNGE1YjQ4YTEzMDczNmY3NGU5YTNhNWQ0YjFkIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTViZWJiOTM2Zjc3Njk2ODk3M2MxOGE4MWJjNjE3ZjQ3IiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA3Mzk0OSwiaWF0IjoxNzU1MDcwMzQ5LCJuYW1lIjoiTWFyaWtvIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0L2NoL3YyL3AvdWE4YWEyZDNmN2U2Y2E3NmVjOTZjYTYxNWU0Zjk4OWFlLzEzNTEwNDk1MTEwNTcifQ.P57UVJgoSgR58R8WXnj9f8z5ylSnlRYKLi9bEC6GzyEFnT0tbcjtmo9owmXu0MG9JKuvQGNU3eNm647w1xFr2w
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-13 18:33:34] [DEBUG] トークン検証開始: eyJraWQiOiJhNTI0YTQw...
+[2025-08-13 18:33:34] [DEBUG] トークン長: 544
+[2025-08-13 18:33:34] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-13 18:33:34] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U5bebb936f776968973c18a81bc617f47
+    [aud] => 2007363986
+    [exp] => 1755073949
+    [iat] => 1755070349
+    [name] => Mariko
+    [picture] => https://profile.line-scdn.net/ch/v2/p/ua8aa2d3f7e6ca76ec96ca615e4f989ae/1351049511057
+)
+
+[2025-08-13 18:33:34] [ERROR] トークンの有効期限切れ: 期限 2025-08-13 17:32:29, 現在 2025-08-13 18:33:34
+[2025-08-13 18:33:34] [ERROR] トークン検証に失敗しました: eyJraWQiOiJhNTI0YTQw...
+[2025-08-13 18:33:34] [ERROR] 例外発生: 認証に失敗しました
+[2025-08-13 18:33:34] [DEBUG] スタックトレース: #0 {main}
+[2025-08-13 18:33:34] [INFO] room.php API実行終了
+[2025-08-13 18:57:02] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-13 18:57:02] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-13 18:57:02] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiI3ZjMxMTU5YTY1YWE0YmYxZGRmMzQyYjU3MTcwZGQ3NDY3ZTkyZDEyZTg0YzI0Y2EyMGUxNDQyNTUzYjNmMDhjIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTYxZWVmMmM3ZWQ5MjkxMDU1NWI2NzAzNzAzNTc4MThjIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA4MjYyMiwiaWF0IjoxNzU1MDc5MDIyLCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5rCR6YOo55Sw44Gy44GL44KKIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoYm5JQmFtdjRQVUYwT3lvUVdiQkNGa2gtTXl3REZUc0pERjE3SlZBNE1YZFlEaThlSFZRaUwxZ3lZM01NV1M5QVFWaDJKVkpyYTNJTCJ9.i3QeaS6xE1uEjQw_L76uVLN3aSN94948fT1w2k-DfKPkYv0qQ8WZl-o-iDAO-WyADmpkweJ_0dOic8C1rm7kvw","action":"get_rooms","active_only":true}
+[2025-08-13 18:57:02] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiI3ZjMxMTU5YTY1YWE0YmYxZGRmMzQyYjU3MTcwZGQ3NDY3ZTkyZDEyZTg0YzI0Y2EyMGUxNDQyNTUzYjNmMDhjIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTYxZWVmMmM3ZWQ5MjkxMDU1NWI2NzAzNzAzNTc4MThjIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTA4MjYyMiwiaWF0IjoxNzU1MDc5MDIyLCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5rCR6YOo55Sw44Gy44GL44KKIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoYm5JQmFtdjRQVUYwT3lvUVdiQkNGa2gtTXl3REZUc0pERjE3SlZBNE1YZFlEaThlSFZRaUwxZ3lZM01NV1M5QVFWaDJKVkpyYTNJTCJ9.i3QeaS6xE1uEjQw_L76uVLN3aSN94948fT1w2k-DfKPkYv0qQ8WZl-o-iDAO-WyADmpkweJ_0dOic8C1rm7kvw
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-13 18:57:02] [DEBUG] トークン検証開始: eyJraWQiOiI3ZjMxMTU5...
+[2025-08-13 18:57:02] [DEBUG] トークン長: 622
+[2025-08-13 18:57:02] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-13 18:57:02] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U61eef2c7ed92910555b670370357818c
+    [aud] => 2007363986
+    [exp] => 1755082622
+    [iat] => 1755079022
+    [amr] => Array
+        (
+            [0] => lineautologin
+        )
+
+    [name] => 民部田ひかり
+    [picture] => https://profile.line-scdn.net/0hbnIBamv4PUF0OyoQWbBCFkh-MywDFTsJDF17JVA4MXdYDi8eHVQiL1gyY3MMWS9AQVh2JVJra3IL
+)
+
+[2025-08-13 18:57:02] [INFO] トークン検証成功: ユーザーID U61eef2c7ed92910555b670370357818c
+[2025-08-13 18:57:02] [INFO] ユーザー認証成功: U61eef2c7ed92910555b670370357818c
+[2025-08-13 18:57:02] [INFO] 実行アクション: get_rooms
+[2025-08-13 18:57:02] [INFO] データベース接続を開始: mysql320.phy.lolipop.lan, LAA1207717-fgsquare
+[2025-08-13 18:57:02] [INFO] データベース接続成功
+[2025-08-13 18:57:02] [INFO] 部屋一覧取得 - アクティブのみ: true
+[2025-08-13 18:57:02] [DEBUG] 実行SQL: 
+                SELECT room_number, description
+                FROM roomdatasettings
+                WHERE is_active = 1
+                ORDER BY room_number
+            
+[2025-08-13 18:57:02] [INFO] 部屋一覧応答: 14件の部屋
+[2025-08-13 18:57:02] [INFO] 成功レスポンス送信
+[2025-08-13 18:57:02] [INFO] room.php API実行終了
+[2025-08-14 05:18:28] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-14 05:18:28] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-14 05:18:28] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiI3ZjMxMTU5YTY1YWE0YmYxZGRmMzQyYjU3MTcwZGQ3NDY3ZTkyZDEyZTg0YzI0Y2EyMGUxNDQyNTUzYjNmMDhjIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTExOTkwOCwiaWF0IjoxNzU1MTE2MzA4LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.GQZkIfKkfvaz9WFSn1CRpwBqsKgaB6w-KFHR5M4ygLmWMaFIGqS1LHxgebVsE2UpeENIhB56uswmjevjEWO52w","action":"get_rooms","active_only":true}
+[2025-08-14 05:18:28] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiI3ZjMxMTU5YTY1YWE0YmYxZGRmMzQyYjU3MTcwZGQ3NDY3ZTkyZDEyZTg0YzI0Y2EyMGUxNDQyNTUzYjNmMDhjIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTExOTkwOCwiaWF0IjoxNzU1MTE2MzA4LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.GQZkIfKkfvaz9WFSn1CRpwBqsKgaB6w-KFHR5M4ygLmWMaFIGqS1LHxgebVsE2UpeENIhB56uswmjevjEWO52w
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-14 05:18:28] [DEBUG] トークン検証開始: eyJraWQiOiI3ZjMxMTU5...
+[2025-08-14 05:18:28] [DEBUG] トークン長: 614
+[2025-08-14 05:18:28] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-14 05:18:28] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U9e1f5c66b4a26fd0c33c890ad826b192
+    [aud] => 2007363986
+    [exp] => 1755119908
+    [iat] => 1755116308
+    [amr] => Array
+        (
+            [0] => lineautologin
+        )
+
+    [name] => 倉田柚有
+    [picture] => https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w
+)
+
+[2025-08-14 05:18:28] [INFO] トークン検証成功: ユーザーID U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 05:18:28] [INFO] ユーザー認証成功: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 05:18:28] [INFO] 実行アクション: get_rooms
+[2025-08-14 05:18:28] [INFO] データベース接続を開始: mysql320.phy.lolipop.lan, LAA1207717-fgsquare
+[2025-08-14 05:18:28] [INFO] データベース接続成功
+[2025-08-14 05:18:28] [INFO] 部屋一覧取得 - アクティブのみ: true
+[2025-08-14 05:18:28] [DEBUG] 実行SQL: 
+                SELECT room_number, description
+                FROM roomdatasettings
+                WHERE is_active = 1
+                ORDER BY room_number
+            
+[2025-08-14 05:18:28] [INFO] 部屋一覧応答: 14件の部屋
+[2025-08-14 05:18:28] [INFO] 成功レスポンス送信
+[2025-08-14 05:18:28] [INFO] room.php API実行終了
+[2025-08-14 07:06:42] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-14 07:06:42] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-14 07:06:42] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiI3ZjMxMTU5YTY1YWE0YmYxZGRmMzQyYjU3MTcwZGQ3NDY3ZTkyZDEyZTg0YzI0Y2EyMGUxNDQyNTUzYjNmMDhjIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTExOTkwOCwiaWF0IjoxNzU1MTE2MzA4LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.GQZkIfKkfvaz9WFSn1CRpwBqsKgaB6w-KFHR5M4ygLmWMaFIGqS1LHxgebVsE2UpeENIhB56uswmjevjEWO52w","action":"get_rooms","active_only":true}
+[2025-08-14 07:06:42] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiI3ZjMxMTU5YTY1YWE0YmYxZGRmMzQyYjU3MTcwZGQ3NDY3ZTkyZDEyZTg0YzI0Y2EyMGUxNDQyNTUzYjNmMDhjIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTExOTkwOCwiaWF0IjoxNzU1MTE2MzA4LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.GQZkIfKkfvaz9WFSn1CRpwBqsKgaB6w-KFHR5M4ygLmWMaFIGqS1LHxgebVsE2UpeENIhB56uswmjevjEWO52w
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-14 07:06:42] [DEBUG] トークン検証開始: eyJraWQiOiI3ZjMxMTU5...
+[2025-08-14 07:06:42] [DEBUG] トークン長: 614
+[2025-08-14 07:06:42] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-14 07:06:42] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U9e1f5c66b4a26fd0c33c890ad826b192
+    [aud] => 2007363986
+    [exp] => 1755119908
+    [iat] => 1755116308
+    [amr] => Array
+        (
+            [0] => lineautologin
+        )
+
+    [name] => 倉田柚有
+    [picture] => https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w
+)
+
+[2025-08-14 07:06:42] [ERROR] トークンの有効期限切れ: 期限 2025-08-14 06:18:28, 現在 2025-08-14 07:06:42
+[2025-08-14 07:06:42] [ERROR] トークン検証に失敗しました: eyJraWQiOiI3ZjMxMTU5...
+[2025-08-14 07:06:42] [ERROR] 例外発生: 認証に失敗しました
+[2025-08-14 07:06:42] [DEBUG] スタックトレース: #0 {main}
+[2025-08-14 07:06:42] [INFO] room.php API実行終了
+[2025-08-14 07:06:48] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-14 07:06:48] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-14 07:06:48] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJhMmZkNTE4MTY5MmNjNmRhZjc5OTkwNWQwZGNkN2IwODI2YjQ1OGM5ZmU3OTRiOTA1NmZjN2I0ZGI2MWNmYmE0IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTEyNjQwNywiaWF0IjoxNzU1MTIyODA3LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.7xKGBYVTJb3F-BwUYW6R2oaqyKRtrBUBN1Z-LoooC8jBe5dazGbmWrsC9_Y01a9ReS6xocVp6_9QXV5F7jyaSw","action":"get_rooms","active_only":true}
+[2025-08-14 07:06:48] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJhMmZkNTE4MTY5MmNjNmRhZjc5OTkwNWQwZGNkN2IwODI2YjQ1OGM5ZmU3OTRiOTA1NmZjN2I0ZGI2MWNmYmE0IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTEyNjQwNywiaWF0IjoxNzU1MTIyODA3LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.7xKGBYVTJb3F-BwUYW6R2oaqyKRtrBUBN1Z-LoooC8jBe5dazGbmWrsC9_Y01a9ReS6xocVp6_9QXV5F7jyaSw
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-14 07:06:48] [DEBUG] トークン検証開始: eyJraWQiOiJhMmZkNTE4...
+[2025-08-14 07:06:48] [DEBUG] トークン長: 614
+[2025-08-14 07:06:48] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-14 07:06:48] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U9e1f5c66b4a26fd0c33c890ad826b192
+    [aud] => 2007363986
+    [exp] => 1755126407
+    [iat] => 1755122807
+    [amr] => Array
+        (
+            [0] => lineautologin
+        )
+
+    [name] => 倉田柚有
+    [picture] => https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w
+)
+
+[2025-08-14 07:06:48] [INFO] トークン検証成功: ユーザーID U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:06:48] [INFO] ユーザー認証成功: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:06:48] [INFO] 実行アクション: get_rooms
+[2025-08-14 07:06:48] [INFO] データベース接続を開始: mysql320.phy.lolipop.lan, LAA1207717-fgsquare
+[2025-08-14 07:06:48] [INFO] データベース接続成功
+[2025-08-14 07:06:48] [INFO] 部屋一覧取得 - アクティブのみ: true
+[2025-08-14 07:06:48] [DEBUG] 実行SQL: 
+                SELECT room_number, description
+                FROM roomdatasettings
+                WHERE is_active = 1
+                ORDER BY room_number
+            
+[2025-08-14 07:06:48] [INFO] 部屋一覧応答: 14件の部屋
+[2025-08-14 07:06:48] [INFO] 成功レスポンス送信
+[2025-08-14 07:06:48] [INFO] room.php API実行終了
+[2025-08-14 07:13:41] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-14 07:13:42] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-14 07:13:42] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJhMmZkNTE4MTY5MmNjNmRhZjc5OTkwNWQwZGNkN2IwODI2YjQ1OGM5ZmU3OTRiOTA1NmZjN2I0ZGI2MWNmYmE0IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTEyNjQwNywiaWF0IjoxNzU1MTIyODA3LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.7xKGBYVTJb3F-BwUYW6R2oaqyKRtrBUBN1Z-LoooC8jBe5dazGbmWrsC9_Y01a9ReS6xocVp6_9QXV5F7jyaSw","action":"get_rooms","active_only":true}
+[2025-08-14 07:13:42] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJhMmZkNTE4MTY5MmNjNmRhZjc5OTkwNWQwZGNkN2IwODI2YjQ1OGM5ZmU3OTRiOTA1NmZjN2I0ZGI2MWNmYmE0IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTEyNjQwNywiaWF0IjoxNzU1MTIyODA3LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.7xKGBYVTJb3F-BwUYW6R2oaqyKRtrBUBN1Z-LoooC8jBe5dazGbmWrsC9_Y01a9ReS6xocVp6_9QXV5F7jyaSw
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-14 07:13:42] [DEBUG] トークン検証開始: eyJraWQiOiJhMmZkNTE4...
+[2025-08-14 07:13:42] [DEBUG] トークン長: 614
+[2025-08-14 07:13:42] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-14 07:13:42] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U9e1f5c66b4a26fd0c33c890ad826b192
+    [aud] => 2007363986
+    [exp] => 1755126407
+    [iat] => 1755122807
+    [amr] => Array
+        (
+            [0] => lineautologin
+        )
+
+    [name] => 倉田柚有
+    [picture] => https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w
+)
+
+[2025-08-14 07:13:42] [INFO] トークン検証成功: ユーザーID U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:13:42] [INFO] ユーザー認証成功: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:13:42] [INFO] 実行アクション: get_rooms
+[2025-08-14 07:13:42] [INFO] データベース接続を開始: mysql320.phy.lolipop.lan, LAA1207717-fgsquare
+[2025-08-14 07:13:42] [INFO] データベース接続成功
+[2025-08-14 07:13:42] [INFO] 部屋一覧取得 - アクティブのみ: true
+[2025-08-14 07:13:42] [DEBUG] 実行SQL: 
+                SELECT room_number, description
+                FROM roomdatasettings
+                WHERE is_active = 1
+                ORDER BY room_number
+            
+[2025-08-14 07:13:42] [INFO] 部屋一覧応答: 14件の部屋
+[2025-08-14 07:13:42] [INFO] 成功レスポンス送信
+[2025-08-14 07:13:42] [INFO] room.php API実行終了
+[2025-08-14 07:20:07] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-14 07:20:08] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-14 07:20:08] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJhMmZkNTE4MTY5MmNjNmRhZjc5OTkwNWQwZGNkN2IwODI2YjQ1OGM5ZmU3OTRiOTA1NmZjN2I0ZGI2MWNmYmE0IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTEyNjQwNywiaWF0IjoxNzU1MTIyODA3LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.7xKGBYVTJb3F-BwUYW6R2oaqyKRtrBUBN1Z-LoooC8jBe5dazGbmWrsC9_Y01a9ReS6xocVp6_9QXV5F7jyaSw","action":"get_rooms","active_only":true}
+[2025-08-14 07:20:08] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJhMmZkNTE4MTY5MmNjNmRhZjc5OTkwNWQwZGNkN2IwODI2YjQ1OGM5ZmU3OTRiOTA1NmZjN2I0ZGI2MWNmYmE0IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTEyNjQwNywiaWF0IjoxNzU1MTIyODA3LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.7xKGBYVTJb3F-BwUYW6R2oaqyKRtrBUBN1Z-LoooC8jBe5dazGbmWrsC9_Y01a9ReS6xocVp6_9QXV5F7jyaSw
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-14 07:20:08] [DEBUG] トークン検証開始: eyJraWQiOiJhMmZkNTE4...
+[2025-08-14 07:20:08] [DEBUG] トークン長: 614
+[2025-08-14 07:20:08] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-14 07:20:08] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U9e1f5c66b4a26fd0c33c890ad826b192
+    [aud] => 2007363986
+    [exp] => 1755126407
+    [iat] => 1755122807
+    [amr] => Array
+        (
+            [0] => lineautologin
+        )
+
+    [name] => 倉田柚有
+    [picture] => https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w
+)
+
+[2025-08-14 07:20:08] [INFO] トークン検証成功: ユーザーID U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:20:08] [INFO] ユーザー認証成功: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:20:08] [INFO] 実行アクション: get_rooms
+[2025-08-14 07:20:08] [INFO] データベース接続を開始: mysql320.phy.lolipop.lan, LAA1207717-fgsquare
+[2025-08-14 07:20:08] [INFO] データベース接続成功
+[2025-08-14 07:20:08] [INFO] 部屋一覧取得 - アクティブのみ: true
+[2025-08-14 07:20:08] [DEBUG] 実行SQL: 
+                SELECT room_number, description
+                FROM roomdatasettings
+                WHERE is_active = 1
+                ORDER BY room_number
+            
+[2025-08-14 07:20:08] [INFO] 部屋一覧応答: 14件の部屋
+[2025-08-14 07:20:08] [INFO] 成功レスポンス送信
+[2025-08-14 07:20:08] [INFO] room.php API実行終了
+[2025-08-14 07:28:27] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-14 07:28:27] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-14 07:28:27] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJhMmZkNTE4MTY5MmNjNmRhZjc5OTkwNWQwZGNkN2IwODI2YjQ1OGM5ZmU3OTRiOTA1NmZjN2I0ZGI2MWNmYmE0IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTEyNjQwNywiaWF0IjoxNzU1MTIyODA3LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.7xKGBYVTJb3F-BwUYW6R2oaqyKRtrBUBN1Z-LoooC8jBe5dazGbmWrsC9_Y01a9ReS6xocVp6_9QXV5F7jyaSw","action":"get_rooms","active_only":true}
+[2025-08-14 07:28:27] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJhMmZkNTE4MTY5MmNjNmRhZjc5OTkwNWQwZGNkN2IwODI2YjQ1OGM5ZmU3OTRiOTA1NmZjN2I0ZGI2MWNmYmE0IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTEyNjQwNywiaWF0IjoxNzU1MTIyODA3LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.7xKGBYVTJb3F-BwUYW6R2oaqyKRtrBUBN1Z-LoooC8jBe5dazGbmWrsC9_Y01a9ReS6xocVp6_9QXV5F7jyaSw
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-14 07:28:27] [DEBUG] トークン検証開始: eyJraWQiOiJhMmZkNTE4...
+[2025-08-14 07:28:27] [DEBUG] トークン長: 614
+[2025-08-14 07:28:27] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-14 07:28:27] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U9e1f5c66b4a26fd0c33c890ad826b192
+    [aud] => 2007363986
+    [exp] => 1755126407
+    [iat] => 1755122807
+    [amr] => Array
+        (
+            [0] => lineautologin
+        )
+
+    [name] => 倉田柚有
+    [picture] => https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w
+)
+
+[2025-08-14 07:28:27] [INFO] トークン検証成功: ユーザーID U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:28:27] [INFO] ユーザー認証成功: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:28:27] [INFO] 実行アクション: get_rooms
+[2025-08-14 07:28:27] [INFO] データベース接続を開始: mysql320.phy.lolipop.lan, LAA1207717-fgsquare
+[2025-08-14 07:28:27] [INFO] データベース接続成功
+[2025-08-14 07:28:27] [INFO] 部屋一覧取得 - アクティブのみ: true
+[2025-08-14 07:28:27] [DEBUG] 実行SQL: 
+                SELECT room_number, description
+                FROM roomdatasettings
+                WHERE is_active = 1
+                ORDER BY room_number
+            
+[2025-08-14 07:28:27] [INFO] 部屋一覧応答: 14件の部屋
+[2025-08-14 07:28:27] [INFO] 成功レスポンス送信
+[2025-08-14 07:28:27] [INFO] room.php API実行終了
+[2025-08-14 07:30:49] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-14 07:30:49] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-14 07:30:49] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJhMmZkNTE4MTY5MmNjNmRhZjc5OTkwNWQwZGNkN2IwODI2YjQ1OGM5ZmU3OTRiOTA1NmZjN2I0ZGI2MWNmYmE0IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTEyNjQwNywiaWF0IjoxNzU1MTIyODA3LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.7xKGBYVTJb3F-BwUYW6R2oaqyKRtrBUBN1Z-LoooC8jBe5dazGbmWrsC9_Y01a9ReS6xocVp6_9QXV5F7jyaSw","action":"get_rooms","active_only":true}
+[2025-08-14 07:30:49] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJhMmZkNTE4MTY5MmNjNmRhZjc5OTkwNWQwZGNkN2IwODI2YjQ1OGM5ZmU3OTRiOTA1NmZjN2I0ZGI2MWNmYmE0IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTEyNjQwNywiaWF0IjoxNzU1MTIyODA3LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.7xKGBYVTJb3F-BwUYW6R2oaqyKRtrBUBN1Z-LoooC8jBe5dazGbmWrsC9_Y01a9ReS6xocVp6_9QXV5F7jyaSw
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-14 07:30:49] [DEBUG] トークン検証開始: eyJraWQiOiJhMmZkNTE4...
+[2025-08-14 07:30:49] [DEBUG] トークン長: 614
+[2025-08-14 07:30:49] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-14 07:30:49] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U9e1f5c66b4a26fd0c33c890ad826b192
+    [aud] => 2007363986
+    [exp] => 1755126407
+    [iat] => 1755122807
+    [amr] => Array
+        (
+            [0] => lineautologin
+        )
+
+    [name] => 倉田柚有
+    [picture] => https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w
+)
+
+[2025-08-14 07:30:49] [INFO] トークン検証成功: ユーザーID U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:30:49] [INFO] ユーザー認証成功: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:30:49] [INFO] 実行アクション: get_rooms
+[2025-08-14 07:30:49] [INFO] データベース接続を開始: mysql320.phy.lolipop.lan, LAA1207717-fgsquare
+[2025-08-14 07:30:49] [INFO] データベース接続成功
+[2025-08-14 07:30:49] [INFO] 部屋一覧取得 - アクティブのみ: true
+[2025-08-14 07:30:49] [DEBUG] 実行SQL: 
+                SELECT room_number, description
+                FROM roomdatasettings
+                WHERE is_active = 1
+                ORDER BY room_number
+            
+[2025-08-14 07:30:49] [INFO] 部屋一覧応答: 14件の部屋
+[2025-08-14 07:30:49] [INFO] 成功レスポンス送信
+[2025-08-14 07:30:49] [INFO] room.php API実行終了
+[2025-08-14 07:31:24] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-14 07:31:24] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-14 07:31:24] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJhMmZkNTE4MTY5MmNjNmRhZjc5OTkwNWQwZGNkN2IwODI2YjQ1OGM5ZmU3OTRiOTA1NmZjN2I0ZGI2MWNmYmE0IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTEyNjQwNywiaWF0IjoxNzU1MTIyODA3LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.7xKGBYVTJb3F-BwUYW6R2oaqyKRtrBUBN1Z-LoooC8jBe5dazGbmWrsC9_Y01a9ReS6xocVp6_9QXV5F7jyaSw","action":"get_rooms","active_only":true}
+[2025-08-14 07:31:24] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJhMmZkNTE4MTY5MmNjNmRhZjc5OTkwNWQwZGNkN2IwODI2YjQ1OGM5ZmU3OTRiOTA1NmZjN2I0ZGI2MWNmYmE0IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTEyNjQwNywiaWF0IjoxNzU1MTIyODA3LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.7xKGBYVTJb3F-BwUYW6R2oaqyKRtrBUBN1Z-LoooC8jBe5dazGbmWrsC9_Y01a9ReS6xocVp6_9QXV5F7jyaSw
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-14 07:31:24] [DEBUG] トークン検証開始: eyJraWQiOiJhMmZkNTE4...
+[2025-08-14 07:31:24] [DEBUG] トークン長: 614
+[2025-08-14 07:31:24] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-14 07:31:24] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U9e1f5c66b4a26fd0c33c890ad826b192
+    [aud] => 2007363986
+    [exp] => 1755126407
+    [iat] => 1755122807
+    [amr] => Array
+        (
+            [0] => lineautologin
+        )
+
+    [name] => 倉田柚有
+    [picture] => https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w
+)
+
+[2025-08-14 07:31:24] [INFO] トークン検証成功: ユーザーID U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:31:24] [INFO] ユーザー認証成功: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:31:24] [INFO] 実行アクション: get_rooms
+[2025-08-14 07:31:24] [INFO] データベース接続を開始: mysql320.phy.lolipop.lan, LAA1207717-fgsquare
+[2025-08-14 07:31:24] [INFO] データベース接続成功
+[2025-08-14 07:31:24] [INFO] 部屋一覧取得 - アクティブのみ: true
+[2025-08-14 07:31:24] [DEBUG] 実行SQL: 
+                SELECT room_number, description
+                FROM roomdatasettings
+                WHERE is_active = 1
+                ORDER BY room_number
+            
+[2025-08-14 07:31:24] [INFO] 部屋一覧応答: 14件の部屋
+[2025-08-14 07:31:24] [INFO] 成功レスポンス送信
+[2025-08-14 07:31:24] [INFO] room.php API実行終了
+[2025-08-14 07:44:49] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-14 07:44:50] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-14 07:44:50] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJhMmZkNTE4MTY5MmNjNmRhZjc5OTkwNWQwZGNkN2IwODI2YjQ1OGM5ZmU3OTRiOTA1NmZjN2I0ZGI2MWNmYmE0IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTEyNjQwNywiaWF0IjoxNzU1MTIyODA3LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.7xKGBYVTJb3F-BwUYW6R2oaqyKRtrBUBN1Z-LoooC8jBe5dazGbmWrsC9_Y01a9ReS6xocVp6_9QXV5F7jyaSw","action":"get_rooms","active_only":true}
+[2025-08-14 07:44:50] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJhMmZkNTE4MTY5MmNjNmRhZjc5OTkwNWQwZGNkN2IwODI2YjQ1OGM5ZmU3OTRiOTA1NmZjN2I0ZGI2MWNmYmE0IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTEyNjQwNywiaWF0IjoxNzU1MTIyODA3LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.7xKGBYVTJb3F-BwUYW6R2oaqyKRtrBUBN1Z-LoooC8jBe5dazGbmWrsC9_Y01a9ReS6xocVp6_9QXV5F7jyaSw
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-14 07:44:50] [DEBUG] トークン検証開始: eyJraWQiOiJhMmZkNTE4...
+[2025-08-14 07:44:50] [DEBUG] トークン長: 614
+[2025-08-14 07:44:50] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-14 07:44:50] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U9e1f5c66b4a26fd0c33c890ad826b192
+    [aud] => 2007363986
+    [exp] => 1755126407
+    [iat] => 1755122807
+    [amr] => Array
+        (
+            [0] => lineautologin
+        )
+
+    [name] => 倉田柚有
+    [picture] => https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w
+)
+
+[2025-08-14 07:44:50] [INFO] トークン検証成功: ユーザーID U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:44:50] [INFO] ユーザー認証成功: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:44:50] [INFO] 実行アクション: get_rooms
+[2025-08-14 07:44:50] [INFO] データベース接続を開始: mysql320.phy.lolipop.lan, LAA1207717-fgsquare
+[2025-08-14 07:44:50] [INFO] データベース接続成功
+[2025-08-14 07:44:50] [INFO] 部屋一覧取得 - アクティブのみ: true
+[2025-08-14 07:44:50] [DEBUG] 実行SQL: 
+                SELECT room_number, description
+                FROM roomdatasettings
+                WHERE is_active = 1
+                ORDER BY room_number
+            
+[2025-08-14 07:44:50] [INFO] 部屋一覧応答: 14件の部屋
+[2025-08-14 07:44:50] [INFO] 成功レスポンス送信
+[2025-08-14 07:44:50] [INFO] room.php API実行終了
+[2025-08-14 07:54:41] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-14 07:54:41] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-14 07:54:41] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJhMmZkNTE4MTY5MmNjNmRhZjc5OTkwNWQwZGNkN2IwODI2YjQ1OGM5ZmU3OTRiOTA1NmZjN2I0ZGI2MWNmYmE0IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTEyNjQwNywiaWF0IjoxNzU1MTIyODA3LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.7xKGBYVTJb3F-BwUYW6R2oaqyKRtrBUBN1Z-LoooC8jBe5dazGbmWrsC9_Y01a9ReS6xocVp6_9QXV5F7jyaSw","action":"get_rooms","active_only":true}
+[2025-08-14 07:54:41] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJhMmZkNTE4MTY5MmNjNmRhZjc5OTkwNWQwZGNkN2IwODI2YjQ1OGM5ZmU3OTRiOTA1NmZjN2I0ZGI2MWNmYmE0IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTEyNjQwNywiaWF0IjoxNzU1MTIyODA3LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.7xKGBYVTJb3F-BwUYW6R2oaqyKRtrBUBN1Z-LoooC8jBe5dazGbmWrsC9_Y01a9ReS6xocVp6_9QXV5F7jyaSw
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-14 07:54:41] [DEBUG] トークン検証開始: eyJraWQiOiJhMmZkNTE4...
+[2025-08-14 07:54:41] [DEBUG] トークン長: 614
+[2025-08-14 07:54:41] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-14 07:54:41] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U9e1f5c66b4a26fd0c33c890ad826b192
+    [aud] => 2007363986
+    [exp] => 1755126407
+    [iat] => 1755122807
+    [amr] => Array
+        (
+            [0] => lineautologin
+        )
+
+    [name] => 倉田柚有
+    [picture] => https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w
+)
+
+[2025-08-14 07:54:41] [INFO] トークン検証成功: ユーザーID U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:54:41] [INFO] ユーザー認証成功: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:54:41] [INFO] 実行アクション: get_rooms
+[2025-08-14 07:54:41] [INFO] データベース接続を開始: mysql320.phy.lolipop.lan, LAA1207717-fgsquare
+[2025-08-14 07:54:41] [INFO] データベース接続成功
+[2025-08-14 07:54:41] [INFO] 部屋一覧取得 - アクティブのみ: true
+[2025-08-14 07:54:41] [DEBUG] 実行SQL: 
+                SELECT room_number, description
+                FROM roomdatasettings
+                WHERE is_active = 1
+                ORDER BY room_number
+            
+[2025-08-14 07:54:41] [INFO] 部屋一覧応答: 14件の部屋
+[2025-08-14 07:54:41] [INFO] 成功レスポンス送信
+[2025-08-14 07:54:41] [INFO] room.php API実行終了
+[2025-08-14 10:19:45] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-14 10:19:45] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-14 10:19:45] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJhMmZkNTE4MTY5MmNjNmRhZjc5OTkwNWQwZGNkN2IwODI2YjQ1OGM5ZmU3OTRiOTA1NmZjN2I0ZGI2MWNmYmE0IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTEyNjQwNywiaWF0IjoxNzU1MTIyODA3LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.7xKGBYVTJb3F-BwUYW6R2oaqyKRtrBUBN1Z-LoooC8jBe5dazGbmWrsC9_Y01a9ReS6xocVp6_9QXV5F7jyaSw","action":"get_rooms","active_only":true}
+[2025-08-14 10:19:45] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJhMmZkNTE4MTY5MmNjNmRhZjc5OTkwNWQwZGNkN2IwODI2YjQ1OGM5ZmU3OTRiOTA1NmZjN2I0ZGI2MWNmYmE0IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTEyNjQwNywiaWF0IjoxNzU1MTIyODA3LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.7xKGBYVTJb3F-BwUYW6R2oaqyKRtrBUBN1Z-LoooC8jBe5dazGbmWrsC9_Y01a9ReS6xocVp6_9QXV5F7jyaSw
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-14 10:19:45] [DEBUG] トークン検証開始: eyJraWQiOiJhMmZkNTE4...
+[2025-08-14 10:19:45] [DEBUG] トークン長: 614
+[2025-08-14 10:19:45] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-14 10:19:45] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U9e1f5c66b4a26fd0c33c890ad826b192
+    [aud] => 2007363986
+    [exp] => 1755126407
+    [iat] => 1755122807
+    [amr] => Array
+        (
+            [0] => lineautologin
+        )
+
+    [name] => 倉田柚有
+    [picture] => https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w
+)
+
+[2025-08-14 10:19:45] [ERROR] トークンの有効期限切れ: 期限 2025-08-14 08:06:47, 現在 2025-08-14 10:19:45
+[2025-08-14 10:19:45] [ERROR] トークン検証に失敗しました: eyJraWQiOiJhMmZkNTE4...
+[2025-08-14 10:19:45] [ERROR] 例外発生: 認証に失敗しました
+[2025-08-14 10:19:45] [DEBUG] スタックトレース: #0 {main}
+[2025-08-14 10:19:45] [INFO] room.php API実行終了
+[2025-08-14 10:19:49] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-14 10:19:49] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJmYTEzNDA0Mjk5M2E0YTE3MTdlNGVlMTZiMGM0OGYzNTRkZTYxNzFmODUwMTU1OTcxODg1MDM4Mjg4ZmI5MmM5IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTEzNzk4OSwiaWF0IjoxNzU1MTM0Mzg5LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.7Phfi97H7WFImV0CcCHjf_gIkllVS45WsSwy_LfRsID1DPYqOPTJXeG3JxTN3xat5PRUWZ-z6pvfHzW_wqebHQ","action":"get_rooms","active_only":true}
+[2025-08-14 10:19:49] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJmYTEzNDA0Mjk5M2E0YTE3MTdlNGVlMTZiMGM0OGYzNTRkZTYxNzFmODUwMTU1OTcxODg1MDM4Mjg4ZmI5MmM5IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTEzNzk4OSwiaWF0IjoxNzU1MTM0Mzg5LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.7Phfi97H7WFImV0CcCHjf_gIkllVS45WsSwy_LfRsID1DPYqOPTJXeG3JxTN3xat5PRUWZ-z6pvfHzW_wqebHQ
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-14 10:19:49] [DEBUG] トークン検証開始: eyJraWQiOiJmYTEzNDA0...
+[2025-08-14 10:19:49] [DEBUG] トークン長: 614
+[2025-08-14 10:19:49] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-14 10:19:49] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U9e1f5c66b4a26fd0c33c890ad826b192
+    [aud] => 2007363986
+    [exp] => 1755137989
+    [iat] => 1755134389
+    [amr] => Array
+        (
+            [0] => lineautologin
+        )
+
+    [name] => 倉田柚有
+    [picture] => https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w
+)
+
+[2025-08-14 10:19:49] [INFO] トークン検証成功: ユーザーID U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 10:19:49] [INFO] ユーザー認証成功: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 10:19:49] [INFO] 実行アクション: get_rooms
+[2025-08-14 10:19:49] [INFO] データベース接続を開始: mysql320.phy.lolipop.lan, LAA1207717-fgsquare
+[2025-08-14 10:19:49] [INFO] データベース接続成功
+[2025-08-14 10:19:49] [INFO] 部屋一覧取得 - アクティブのみ: true
+[2025-08-14 10:19:49] [DEBUG] 実行SQL: 
+                SELECT room_number, description
+                FROM roomdatasettings
+                WHERE is_active = 1
+                ORDER BY room_number
+            
+[2025-08-14 10:19:49] [INFO] 部屋一覧応答: 14件の部屋
+[2025-08-14 10:19:49] [INFO] 成功レスポンス送信
+[2025-08-14 10:19:49] [INFO] room.php API実行終了
+[2025-08-14 10:21:42] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-14 10:21:42] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-14 10:21:42] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJmYTEzNDA0Mjk5M2E0YTE3MTdlNGVlMTZiMGM0OGYzNTRkZTYxNzFmODUwMTU1OTcxODg1MDM4Mjg4ZmI5MmM5IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTEzNzk4OSwiaWF0IjoxNzU1MTM0Mzg5LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.7Phfi97H7WFImV0CcCHjf_gIkllVS45WsSwy_LfRsID1DPYqOPTJXeG3JxTN3xat5PRUWZ-z6pvfHzW_wqebHQ","action":"get_rooms","active_only":true}
+[2025-08-14 10:21:42] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJmYTEzNDA0Mjk5M2E0YTE3MTdlNGVlMTZiMGM0OGYzNTRkZTYxNzFmODUwMTU1OTcxODg1MDM4Mjg4ZmI5MmM5IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTEzNzk4OSwiaWF0IjoxNzU1MTM0Mzg5LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.7Phfi97H7WFImV0CcCHjf_gIkllVS45WsSwy_LfRsID1DPYqOPTJXeG3JxTN3xat5PRUWZ-z6pvfHzW_wqebHQ
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-14 10:21:42] [DEBUG] トークン検証開始: eyJraWQiOiJmYTEzNDA0...
+[2025-08-14 10:21:42] [DEBUG] トークン長: 614
+[2025-08-14 10:21:42] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-14 10:21:42] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U9e1f5c66b4a26fd0c33c890ad826b192
+    [aud] => 2007363986
+    [exp] => 1755137989
+    [iat] => 1755134389
+    [amr] => Array
+        (
+            [0] => lineautologin
+        )
+
+    [name] => 倉田柚有
+    [picture] => https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w
+)
+
+[2025-08-14 10:21:42] [INFO] トークン検証成功: ユーザーID U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 10:21:42] [INFO] ユーザー認証成功: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 10:21:42] [INFO] 実行アクション: get_rooms
+[2025-08-14 10:21:42] [INFO] データベース接続を開始: mysql320.phy.lolipop.lan, LAA1207717-fgsquare
+[2025-08-14 10:21:42] [INFO] データベース接続成功
+[2025-08-14 10:21:42] [INFO] 部屋一覧取得 - アクティブのみ: true
+[2025-08-14 10:21:42] [DEBUG] 実行SQL: 
+                SELECT room_number, description
+                FROM roomdatasettings
+                WHERE is_active = 1
+                ORDER BY room_number
+            
+[2025-08-14 10:21:42] [INFO] 部屋一覧応答: 14件の部屋
+[2025-08-14 10:21:42] [INFO] 成功レスポンス送信
+[2025-08-14 10:21:42] [INFO] room.php API実行終了
+[2025-08-14 10:30:06] [INFO] room.php API実行開始 - REQUEST_METHOD: OPTIONS
+[2025-08-14 10:30:06] [INFO] room.php API実行開始 - REQUEST_METHOD: POST
+[2025-08-14 10:30:06] [DEBUG] 受信したPOSTデータ: {"token":"eyJraWQiOiJmYTEzNDA0Mjk5M2E0YTE3MTdlNGVlMTZiMGM0OGYzNTRkZTYxNzFmODUwMTU1OTcxODg1MDM4Mjg4ZmI5MmM5IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTEzNzk4OSwiaWF0IjoxNzU1MTM0Mzg5LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.7Phfi97H7WFImV0CcCHjf_gIkllVS45WsSwy_LfRsID1DPYqOPTJXeG3JxTN3xat5PRUWZ-z6pvfHzW_wqebHQ","action":"get_rooms","active_only":true}
+[2025-08-14 10:30:06] [DEBUG] デコードされたPOSTデータ: Array
+(
+    [token] => eyJraWQiOiJmYTEzNDA0Mjk5M2E0YTE3MTdlNGVlMTZiMGM0OGYzNTRkZTYxNzFmODUwMTU1OTcxODg1MDM4Mjg4ZmI5MmM5IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2FjY2Vzcy5saW5lLm1lIiwic3ViIjoiVTllMWY1YzY2YjRhMjZmZDBjMzNjODkwYWQ4MjZiMTkyIiwiYXVkIjoiMjAwNzM2Mzk4NiIsImV4cCI6MTc1NTEzNzk4OSwiaWF0IjoxNzU1MTM0Mzg5LCJhbXIiOlsibGluZWF1dG9sb2dpbiJdLCJuYW1lIjoi5YCJ55Sw5p-a5pyJIiwicGljdHVyZSI6Imh0dHBzOi8vcHJvZmlsZS5saW5lLXNjZG4ubmV0LzBoV2Q0Z0hnRUZDRXNKSGliallxdDNIRFZiQmlaLU1BNERjU3hGZmkwWVhub2lLaGhPWm5BU0pId1hCQzV4TFVvWk1Tc1FMU3RNWG41dyJ9.7Phfi97H7WFImV0CcCHjf_gIkllVS45WsSwy_LfRsID1DPYqOPTJXeG3JxTN3xat5PRUWZ-z6pvfHzW_wqebHQ
+    [action] => get_rooms
+    [active_only] => 1
+)
+
+[2025-08-14 10:30:06] [DEBUG] トークン検証開始: eyJraWQiOiJmYTEzNDA0...
+[2025-08-14 10:30:06] [DEBUG] トークン長: 614
+[2025-08-14 10:30:06] [DEBUG] ペイロードBase64: eyJpc3MiOiJodHRwczov...
+[2025-08-14 10:30:06] [DEBUG] トークンペイロード: Array
+(
+    [iss] => https://access.line.me
+    [sub] => U9e1f5c66b4a26fd0c33c890ad826b192
+    [aud] => 2007363986
+    [exp] => 1755137989
+    [iat] => 1755134389
+    [amr] => Array
+        (
+            [0] => lineautologin
+        )
+
+    [name] => 倉田柚有
+    [picture] => https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w
+)
+
+[2025-08-14 10:30:06] [INFO] トークン検証成功: ユーザーID U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 10:30:06] [INFO] ユーザー認証成功: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 10:30:06] [INFO] 実行アクション: get_rooms
+[2025-08-14 10:30:06] [INFO] データベース接続を開始: mysql320.phy.lolipop.lan, LAA1207717-fgsquare
+[2025-08-14 10:30:06] [INFO] データベース接続成功
+[2025-08-14 10:30:06] [INFO] 部屋一覧取得 - アクティブのみ: true
+[2025-08-14 10:30:06] [DEBUG] 実行SQL: 
+                SELECT room_number, description
+                FROM roomdatasettings
+                WHERE is_active = 1
+                ORDER BY room_number
+            
+[2025-08-14 10:30:06] [INFO] 部屋一覧応答: 14件の部屋
+[2025-08-14 10:30:06] [INFO] 成功レスポンス送信
+[2025-08-14 10:30:06] [INFO] room.php API実行終了

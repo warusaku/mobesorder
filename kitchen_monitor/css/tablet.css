@@ -1,0 +1,383 @@
+/* Tablet Specific Styles for Kitchen Monitor */
+
+/* Tablet Portrait (8.4 inch - 1200x1920px) */
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    :root {
+        --font-size-base: 18px;
+        --font-size-sm: 16px;
+        --font-size-lg: 20px;
+        --font-size-xl: 24px;
+        --font-size-xxl: 28px;
+    }
+
+    body {
+        font-size: var(--font-size-base);
+    }
+
+    .header {
+        padding: 20px 24px;
+    }
+
+    .header-logo {
+        height: 50px;
+    }
+
+    .header-stats {
+        gap: 32px;
+        font-size: var(--font-size-base);
+    }
+
+    .stat-number {
+        font-size: var(--font-size-xl);
+    }
+
+    .controls {
+        padding: 20px 24px;
+        gap: 20px;
+    }
+
+    .btn {
+        padding: 14px 20px;
+        font-size: var(--font-size-base);
+        min-height: 52px;
+        gap: 10px;
+    }
+
+    .main-content {
+        padding: 24px;
+    }
+
+    /* 2列レイアウト用調整 */
+    .orders-columns {
+        gap: 32px;
+    }
+
+    .column-header {
+        padding: 20px 24px;
+        margin-bottom: 20px;
+    }
+
+    .column-header h3 {
+        font-size: var(--font-size-xl);
+    }
+
+    .orders-grid {
+        gap: 16px;
+    }
+
+    /* 全画面表示時のグリッド */
+    .main-content:not(.column-layout) .orders-grid {
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        gap: 24px;
+        margin-top: 24px;
+    }
+
+    .order-card {
+        padding: 18px 20px;
+        border-left-width: 20px;
+    }
+
+    .order-header {
+        margin-bottom: 14px;
+        padding-right: 60px; /* More space for larger cancel button on tablet */
+    }
+
+    .order-id {
+        font-size: var(--font-size-base);
+    }
+
+    .room-number {
+        font-size: calc(var(--font-size-xl) * 1.3);
+        margin: 6px 0;
+    }
+
+    .order-time {
+        gap: 12px;
+    }
+
+    .time-ago {
+        font-size: var(--font-size-base);
+    }
+
+    .time-exact {
+        font-size: var(--font-size-sm);
+    }
+
+    .product-name {
+        font-size: calc(var(--font-size-xl) * 1.5);
+        font-weight: 700;
+        margin-bottom: 12px;
+    }
+
+    .quantity {
+        font-size: calc(var(--font-size-lg) * 1.5 * 1.3);
+        margin-left: 12px;
+    }
+
+    .product-details {
+        margin-bottom: 20px;
+        font-size: var(--font-size-base);
+    }
+
+    .status-badge {
+        padding: 6px 16px;
+        font-size: var(--font-size-sm);
+    }
+
+
+    /* Cancel button for tablet */
+    .cancel-btn {
+        top: 16px;
+        right: 16px;
+        width: 40px;
+        height: 40px;
+        opacity: 0.9;
+    }
+    
+    .cancel-btn:hover {
+        transform: scale(1.05);
+    }
+
+    /* Larger touch targets for tablet */
+    .btn {
+        min-height: 52px;
+        min-width: 52px;
+    }
+
+    /* Enhanced swipe indicator for tablet */
+    .order-card .swipe-indicator {
+        bottom: 12px;
+        padding: 0 16px;
+        font-size: var(--font-size-sm);
+        opacity: 0.8;
+    }
+
+    /* Notification positioning for tablet */
+    .notification {
+        bottom: 30px;
+        right: 30px;
+        max-width: 350px;
+        padding: 20px 24px;
+        font-size: var(--font-size-base);
+    }
+
+    .order-card.swipe-ready-right .swipe-indicator .swipe-right,
+    .order-card.swipe-ready-left .swipe-indicator .swipe-left {
+        opacity: 1;
+        font-weight: 600;
+        transform: scale(1.1);
+    }
+    
+    /* Enhanced visual feedback for tablet */
+    .order-card.swipe-ready-right {
+        box-shadow: 0 4px 20px rgba(39, 174, 96, 0.2);
+    }
+    
+    .order-card.swipe-ready-left {
+        box-shadow: 0 4px 20px rgba(52, 152, 219, 0.2);
+    }
+
+    /* Priority indicators larger for tablet */
+    .priority-indicator.urgent,
+    .priority-indicator.warning {
+        border-width: 0 40px 40px 0;
+    }
+
+    /* Column view controls for tablet */
+    .column-view-controls {
+        gap: 10px;
+        padding: 6px;
+    }
+
+    .view-toggle {
+        padding: 12px;
+        min-width: 44px;
+        min-height: 44px;
+    }
+
+    /* Modal adjustments for tablet */
+    .modal-content {
+        max-width: 500px;
+        padding: 32px;
+    }
+
+    .modal-content h3 {
+        font-size: var(--font-size-xl);
+        margin-bottom: 20px;
+    }
+
+    .modal-content p {
+        font-size: var(--font-size-base);
+        margin-bottom: 24px;
+    }
+
+    /* Empty state adjustments */
+    .empty-state {
+        padding: 80px 24px;
+    }
+
+    .empty-state h2 {
+        font-size: var(--font-size-xxl);
+        margin-bottom: 16px;
+    }
+
+    .empty-state p {
+        font-size: var(--font-size-lg);
+    }
+}
+
+/* Tablet Landscape */
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .orders-grid {
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    }
+
+    .header-content {
+        max-width: none;
+    }
+
+    .main-content {
+        max-width: none;
+        padding: 20px 32px;
+    }
+}
+
+/* Large Tablets (iPad Pro etc.) */
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+    .orders-grid {
+        grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+        gap: 28px;
+    }
+
+    .order-card {
+        padding: 28px;
+    }
+
+    .header {
+        padding: 24px 32px;
+    }
+
+    .controls {
+        padding: 12px 32px;
+    }
+
+    .main-content {
+        padding: 28px 32px;
+    }
+}
+
+/* High DPI Displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .header-title h1,
+    .room-number,
+    .product-name {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+/* Kiosk Mode Specific Styles */
+body.kiosk-mode {
+    overflow-y: auto;  /* 縦スクロールを有効化 */
+    overflow-x: hidden; /* 横スクロールは無効のまま */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+    /* Disable context menu */
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body.kiosk-mode * {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Prevent zooming in kiosk mode */
+body.kiosk-mode .main-content {
+    touch-action: pan-y;
+    -webkit-overflow-scrolling: touch; /* iOS用スムーズスクロール */
+    overflow-y: auto; /* 縦スクロール有効化 */
+}
+
+/* Large text mode for accessibility */
+body.large-text {
+    --font-size-xs: 14px;
+    --font-size-sm: 16px;
+    --font-size-base: 18px;
+    --font-size-lg: 22px;
+    --font-size-xl: 26px;
+    --font-size-xxl: 30px;
+}
+
+/* Dark mode for kitchen environment */
+body.dark-mode {
+    --bg-primary: #1a1a1a;
+    --bg-secondary: #2d2d2d;
+    --bg-card: #3a3a3a;
+    --bg-card-completed: #2a2a2a;
+    --text-primary: #ffffff;
+    --text-secondary: #cccccc;
+    --text-muted: #888888;
+}
+
+body.dark-mode .order-card {
+    border: 1px solid #4a4a4a;
+}
+
+body.dark-mode .controls {
+    background: var(--bg-secondary);
+    border-bottom-color: #4a4a4a;
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Focus styles for keyboard navigation */
+.btn:focus,
+.action-btn:focus {
+    outline: 3px solid var(--color-ordered);
+    outline-offset: 2px;
+}
+
+/* Touch-friendly hover states */
+@media (hover: none) and (pointer: coarse) {
+    .order-card:hover {
+        transform: none;
+    }
+    
+    .btn:hover,
+    .action-btn:hover {
+        transform: none;
+    }
+    
+    .order-card:active {
+        transform: scale(0.98);
+    }
+    
+    .btn:active,
+    .action-btn:active {
+        transform: scale(0.95);
+    }
+    
+    /* Show swipe indicators only on touch devices */
+    .order-card .swipe-indicator {
+        display: flex;
+    }
+}
+
+/* Hide swipe indicators on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+    .order-card .swipe-indicator {
+        display: none;
+    }
+}

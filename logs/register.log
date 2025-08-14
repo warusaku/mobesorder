@@ -1,0 +1,1195 @@
+[2025-08-11 15:06:18] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"Uc0c698c37688ce84b20e40f1215158a9"}}
+[2025-08-11 15:06:18] [INFO] 非アクティブな登録なし
+[2025-08-11 15:06:18] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"Uc0c698c37688ce84b20e40f1215158a9",":roomNumber":"fg#03",":userName":"𝑯𝒊𝒓𝒐𝒕𝒂𝒌𝒂⛳𝑺𝒖𝒏𝒐𝒔𝒆",":checkInDate":"2025-08-11",":checkOutDate":"2025-08-12"}}
+[2025-08-11 15:06:18] [INFO] 新規登録作成完了: ID=299
+[2025-08-11 15:06:18] [INFO] トランザクションコミット成功
+[2025-08-11 15:06:18] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"299","registration_type":"new"}
+[2025-08-11 15:06:18] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-11 15:11:45] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-11 15:11:45] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-11 15:11:45] [DEBUG] 受信POSTデータ | Context: {"size":819}
+[2025-08-11 15:11:45] [INFO] 処理パラメータ | Context: {"room":"fg#13","user":"りの","checkIn":"2025-08-11","checkOut":"2025-08-12","force":false}
+[2025-08-11 15:11:45] [INFO] IDトークンを検証: eyJraWQiOiI1Y2VlMzdl...
+[2025-08-11 15:11:45] [DEBUG] トークン検証開始: eyJraWQiOiI1Y2VlMzdl...
+[2025-08-11 15:11:45] [DEBUG] トークンヘッダー | Context: {"kid":"5cee37e69c353766a3fe01fa05bf821283541a84a6692cdeddf947d0c0904367","typ":"JWT","alg":"ES256"}
+[2025-08-11 15:11:45] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U814ba059e332feb3c7d1477bc17fbee8","aud":"2007363986","exp":1754896295,"iat":1754892695,"name":"りの","picture":"https://profile.line-scdn.net/0h5UZd8LKQanpnHXQ5EPEVLRpYZBcQM2wyHygtT0oaZB5NLSUoXHh1HRFPZElPeil8X393H0UdMkpPMn9CWQxAfRlfTU9DWEp7AxgidCQcVAoCRl5NCz5FQxdGNi1ORE9zNX55eT1VMhMXQ2xWWntsGwEBQSgCT10tPH8"}
+[2025-08-11 15:11:45] [DEBUG] トークンの有効期限: 2025-08-11 16:11:35
+[2025-08-11 15:11:45] [INFO] トークン検証成功: ユーザーID U814ba059e332feb3c7d1477bc17fbee8
+[2025-08-11 15:11:45] [INFO] IDトークン検証成功: userId=U814ba059e332feb3c7d1477bc17fbee8
+[2025-08-11 15:11:45] [INFO] データベース接続を開始します
+[2025-08-11 15:11:45] [INFO] データベース接続成功
+[2025-08-11 15:11:45] [INFO] トランザクション開始
+[2025-08-11 15:11:45] [INFO] 部屋の検証開始: fg#13
+[2025-08-11 15:11:45] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#13"}}
+[2025-08-11 15:11:45] [INFO] 部屋検証成功: ID=13, アクティブ=1
+[2025-08-11 15:11:45] [INFO] アクティブな登録を検索: userId=U814ba059e332feb3c7d1477bc17fbee8
+[2025-08-11 15:11:45] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U814ba059e332feb3c7d1477bc17fbee8"}}
+[2025-08-11 15:11:45] [INFO] アクティブな登録なし
+[2025-08-11 15:11:45] [INFO] 既存登録を非アクティブ化: userId=U814ba059e332feb3c7d1477bc17fbee8
+[2025-08-11 15:11:45] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U814ba059e332feb3c7d1477bc17fbee8"}}
+[2025-08-11 15:11:45] [INFO] 非アクティブ化した登録数: 0
+[2025-08-11 15:11:45] [INFO] 新規登録を作成 | Context: {"user_id":"U814ba059e332feb3c7d1477bc17fbee8","room_number":"fg#13","user_name":"りの","check_in_date":"2025-08-11","check_out_date":"2025-08-12"}
+[2025-08-11 15:11:45] [INFO] 非アクティブな登録を検索: userId=U814ba059e332feb3c7d1477bc17fbee8
+[2025-08-11 15:11:45] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U814ba059e332feb3c7d1477bc17fbee8"}}
+[2025-08-11 15:11:45] [INFO] 非アクティブな登録なし
+[2025-08-11 15:11:45] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U814ba059e332feb3c7d1477bc17fbee8",":roomNumber":"fg#13",":userName":"りの",":checkInDate":"2025-08-11",":checkOutDate":"2025-08-12"}}
+[2025-08-11 15:11:45] [INFO] 新規登録作成完了: ID=300
+[2025-08-11 15:11:45] [INFO] トランザクションコミット成功
+[2025-08-11 15:11:45] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"300","registration_type":"new"}
+[2025-08-11 15:11:45] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-11 15:26:08] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-11 15:26:08] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-11 15:26:08] [DEBUG] 受信POSTデータ | Context: {"size":749}
+[2025-08-11 15:26:08] [INFO] 処理パラメータ | Context: {"room":"fg#01","user":"えんどう","checkIn":"2025-08-11","checkOut":"2025-08-12","force":false}
+[2025-08-11 15:26:08] [INFO] IDトークンを検証: eyJraWQiOiIwZjdhYzBm...
+[2025-08-11 15:26:08] [DEBUG] トークン検証開始: eyJraWQiOiIwZjdhYzBm...
+[2025-08-11 15:26:08] [DEBUG] トークンヘッダー | Context: {"kid":"0f7ac0f8a22e131b5fe75a9ce1699aca150f7f6c0ed75e282b3bf7fb097a763e","typ":"JWT","alg":"ES256"}
+[2025-08-11 15:26:08] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U9b3e84bdbdcf7c503ae6650a6c691509","aud":"2007363986","exp":1754897155,"iat":1754893555,"amr":["lineautologin"],"name":"えんどう","picture":"https://profile.line-scdn.net/0hbuaIyeRXPVpcMClKZ4xCDWB1MzcrHjsSJF9waSllaz5zCH0EY1NyPHhgYGMiU35YMgJ3NH9kZ2oj"}
+[2025-08-11 15:26:08] [DEBUG] トークンの有効期限: 2025-08-11 16:25:55
+[2025-08-11 15:26:08] [INFO] トークン検証成功: ユーザーID U9b3e84bdbdcf7c503ae6650a6c691509
+[2025-08-11 15:26:08] [INFO] IDトークン検証成功: userId=U9b3e84bdbdcf7c503ae6650a6c691509
+[2025-08-11 15:26:08] [INFO] データベース接続を開始します
+[2025-08-11 15:26:08] [INFO] データベース接続成功
+[2025-08-11 15:26:08] [INFO] トランザクション開始
+[2025-08-11 15:26:08] [INFO] 部屋の検証開始: fg#01
+[2025-08-11 15:26:08] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#01"}}
+[2025-08-11 15:26:08] [INFO] 部屋検証成功: ID=1, アクティブ=1
+[2025-08-11 15:26:08] [INFO] アクティブな登録を検索: userId=U9b3e84bdbdcf7c503ae6650a6c691509
+[2025-08-11 15:26:08] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U9b3e84bdbdcf7c503ae6650a6c691509"}}
+[2025-08-11 15:26:08] [INFO] アクティブな登録なし
+[2025-08-11 15:26:08] [INFO] 既存登録を非アクティブ化: userId=U9b3e84bdbdcf7c503ae6650a6c691509
+[2025-08-11 15:26:08] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U9b3e84bdbdcf7c503ae6650a6c691509"}}
+[2025-08-11 15:26:08] [INFO] 非アクティブ化した登録数: 0
+[2025-08-11 15:26:08] [INFO] 新規登録を作成 | Context: {"user_id":"U9b3e84bdbdcf7c503ae6650a6c691509","room_number":"fg#01","user_name":"えんどう","check_in_date":"2025-08-11","check_out_date":"2025-08-12"}
+[2025-08-11 15:26:08] [INFO] 非アクティブな登録を検索: userId=U9b3e84bdbdcf7c503ae6650a6c691509
+[2025-08-11 15:26:08] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U9b3e84bdbdcf7c503ae6650a6c691509"}}
+[2025-08-11 15:26:08] [INFO] 非アクティブな登録なし
+[2025-08-11 15:26:08] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U9b3e84bdbdcf7c503ae6650a6c691509",":roomNumber":"fg#01",":userName":"えんどう",":checkInDate":"2025-08-11",":checkOutDate":"2025-08-12"}}
+[2025-08-11 15:26:08] [INFO] 新規登録作成完了: ID=301
+[2025-08-11 15:26:08] [INFO] トランザクションコミット成功
+[2025-08-11 15:26:08] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"301","registration_type":"new"}
+[2025-08-11 15:26:08] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-11 17:02:32] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-11 17:02:32] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-11 17:02:32] [DEBUG] 受信POSTデータ | Context: {"size":743}
+[2025-08-11 17:02:32] [INFO] 処理パラメータ | Context: {"room":"fg#05","user":"山本　尚輝","checkIn":"2025-08-11","checkOut":"2025-08-12","force":false}
+[2025-08-11 17:02:32] [INFO] IDトークンを検証: eyJraWQiOiJmZTFlOGQ4...
+[2025-08-11 17:02:32] [DEBUG] トークン検証開始: eyJraWQiOiJmZTFlOGQ4...
+[2025-08-11 17:02:32] [DEBUG] トークンヘッダー | Context: {"kid":"fe1e8d888ec664cd2afef479c5db79692cd01aacd141483a54339351f395fa27","typ":"JWT","alg":"ES256"}
+[2025-08-11 17:02:32] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U11c74ed5b0842c75433eba0ca4fdce70","aud":"2007363986","exp":1754902944,"iat":1754899344,"amr":["pwd"],"name":"山本　尚輝","picture":"https://profile.line-scdn.net/0hTz0iU9D2C1UNEBsK6h90AjFVBTh6Pg0ddSMWNnwRATYgKB8DNXUWOn9CXGQnIx4HNiYQMi5ABmEg"}
+[2025-08-11 17:02:32] [DEBUG] トークンの有効期限: 2025-08-11 18:02:24
+[2025-08-11 17:02:32] [INFO] トークン検証成功: ユーザーID U11c74ed5b0842c75433eba0ca4fdce70
+[2025-08-11 17:02:32] [INFO] IDトークン検証成功: userId=U11c74ed5b0842c75433eba0ca4fdce70
+[2025-08-11 17:02:32] [INFO] データベース接続を開始します
+[2025-08-11 17:02:32] [INFO] データベース接続成功
+[2025-08-11 17:02:32] [INFO] トランザクション開始
+[2025-08-11 17:02:32] [INFO] 部屋の検証開始: fg#05
+[2025-08-11 17:02:32] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#05"}}
+[2025-08-11 17:02:32] [INFO] 部屋検証成功: ID=5, アクティブ=1
+[2025-08-11 17:02:32] [INFO] アクティブな登録を検索: userId=U11c74ed5b0842c75433eba0ca4fdce70
+[2025-08-11 17:02:32] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U11c74ed5b0842c75433eba0ca4fdce70"}}
+[2025-08-11 17:02:32] [INFO] アクティブな登録なし
+[2025-08-11 17:02:32] [INFO] 既存登録を非アクティブ化: userId=U11c74ed5b0842c75433eba0ca4fdce70
+[2025-08-11 17:02:32] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U11c74ed5b0842c75433eba0ca4fdce70"}}
+[2025-08-11 17:02:32] [INFO] 非アクティブ化した登録数: 0
+[2025-08-11 17:02:32] [INFO] 新規登録を作成 | Context: {"user_id":"U11c74ed5b0842c75433eba0ca4fdce70","room_number":"fg#05","user_name":"山本　尚輝","check_in_date":"2025-08-11","check_out_date":"2025-08-12"}
+[2025-08-11 17:02:32] [INFO] 非アクティブな登録を検索: userId=U11c74ed5b0842c75433eba0ca4fdce70
+[2025-08-11 17:02:32] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U11c74ed5b0842c75433eba0ca4fdce70"}}
+[2025-08-11 17:02:32] [INFO] 非アクティブな登録なし
+[2025-08-11 17:02:32] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U11c74ed5b0842c75433eba0ca4fdce70",":roomNumber":"fg#05",":userName":"山本　尚輝",":checkInDate":"2025-08-11",":checkOutDate":"2025-08-12"}}
+[2025-08-11 17:02:32] [INFO] 新規登録作成完了: ID=302
+[2025-08-11 17:02:32] [INFO] トランザクションコミット成功
+[2025-08-11 17:02:32] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"302","registration_type":"new"}
+[2025-08-11 17:02:32] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-11 17:47:55] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-11 17:47:55] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-11 17:47:55] [DEBUG] 受信POSTデータ | Context: {"size":588}
+[2025-08-11 17:47:55] [INFO] 処理パラメータ | Context: {"room":"fg#02","user":"細島弥生","checkIn":"2025-08-11","checkOut":"2025-08-12","force":false}
+[2025-08-11 17:47:55] [INFO] IDトークンを検証: eyJraWQiOiJhNTI0YTQw...
+[2025-08-11 17:47:55] [DEBUG] トークン検証開始: eyJraWQiOiJhNTI0YTQw...
+[2025-08-11 17:47:55] [DEBUG] トークンヘッダー | Context: {"kid":"a524a404e7a97d35dc64633756305525ed2dc4a5b48a130736f74e9a3a5d4b1d","typ":"JWT","alg":"ES256"}
+[2025-08-11 17:47:55] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U5af852f85a2910a81bb9306f5e61f3a8","aud":"2007363986","exp":1754905636,"iat":1754902036,"amr":["lineautologin"],"name":"細島弥生"}
+[2025-08-11 17:47:55] [DEBUG] トークンの有効期限: 2025-08-11 18:47:16
+[2025-08-11 17:47:55] [INFO] トークン検証成功: ユーザーID U5af852f85a2910a81bb9306f5e61f3a8
+[2025-08-11 17:47:55] [INFO] IDトークン検証成功: userId=U5af852f85a2910a81bb9306f5e61f3a8
+[2025-08-11 17:47:55] [INFO] データベース接続を開始します
+[2025-08-11 17:47:55] [INFO] データベース接続成功
+[2025-08-11 17:47:55] [INFO] トランザクション開始
+[2025-08-11 17:47:55] [INFO] 部屋の検証開始: fg#02
+[2025-08-11 17:47:55] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#02"}}
+[2025-08-11 17:47:55] [INFO] 部屋検証成功: ID=2, アクティブ=1
+[2025-08-11 17:47:55] [INFO] アクティブな登録を検索: userId=U5af852f85a2910a81bb9306f5e61f3a8
+[2025-08-11 17:47:55] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U5af852f85a2910a81bb9306f5e61f3a8"}}
+[2025-08-11 17:47:55] [INFO] アクティブな登録なし
+[2025-08-11 17:47:55] [INFO] 既存登録を非アクティブ化: userId=U5af852f85a2910a81bb9306f5e61f3a8
+[2025-08-11 17:47:55] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U5af852f85a2910a81bb9306f5e61f3a8"}}
+[2025-08-11 17:47:55] [INFO] 非アクティブ化した登録数: 0
+[2025-08-11 17:47:55] [INFO] 新規登録を作成 | Context: {"user_id":"U5af852f85a2910a81bb9306f5e61f3a8","room_number":"fg#02","user_name":"細島弥生","check_in_date":"2025-08-11","check_out_date":"2025-08-12"}
+[2025-08-11 17:47:55] [INFO] 非アクティブな登録を検索: userId=U5af852f85a2910a81bb9306f5e61f3a8
+[2025-08-11 17:47:55] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U5af852f85a2910a81bb9306f5e61f3a8"}}
+[2025-08-11 17:47:55] [INFO] 非アクティブな登録なし
+[2025-08-11 17:47:55] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U5af852f85a2910a81bb9306f5e61f3a8",":roomNumber":"fg#02",":userName":"細島弥生",":checkInDate":"2025-08-11",":checkOutDate":"2025-08-12"}}
+[2025-08-11 17:47:55] [INFO] 新規登録作成完了: ID=303
+[2025-08-11 17:47:55] [INFO] トランザクションコミット成功
+[2025-08-11 17:47:55] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"303","registration_type":"new"}
+[2025-08-11 17:47:55] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-11 18:36:00] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-11 18:36:00] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-11 18:36:00] [DEBUG] 受信POSTデータ | Context: {"size":836}
+[2025-08-11 18:36:00] [INFO] 処理パラメータ | Context: {"room":"fg#06","user":"池羽 裕弥","checkIn":"2025-08-11","checkOut":"2025-08-12","force":false}
+[2025-08-11 18:36:00] [INFO] IDトークンを検証: eyJraWQiOiJlNmE2OTE5...
+[2025-08-11 18:36:00] [DEBUG] トークン検証開始: eyJraWQiOiJlNmE2OTE5...
+[2025-08-11 18:36:00] [DEBUG] トークンヘッダー | Context: {"kid":"e6a6919386169ba54de9dd336b41479a01012dc0c428baae2de18e59ee2146db","typ":"JWT","alg":"ES256"}
+[2025-08-11 18:36:00] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"Ua7d0e8d00d01dafa472cb45f04401fb5","aud":"2007363986","exp":1754908549,"iat":1754904949,"name":"池羽 裕弥","picture":"https://profile.line-scdn.net/0ho7SRsIBnMBhuKyGrmdtPTxNuPnUZBTZQFh4of0gsa39HEyIbUkQqfUl4bnsWH39LV0p9LUkraHhABCIUKRoPdxc3HSlEWSQvC0QhNRdcKzQxZQclKU0cPEpqPE0iXAMRECh4JgxDLmgUeg0RVSN-HCxgbVQrQhQqOQU"}
+[2025-08-11 18:36:00] [DEBUG] トークンの有効期限: 2025-08-11 19:35:49
+[2025-08-11 18:36:00] [INFO] トークン検証成功: ユーザーID Ua7d0e8d00d01dafa472cb45f04401fb5
+[2025-08-11 18:36:00] [INFO] IDトークン検証成功: userId=Ua7d0e8d00d01dafa472cb45f04401fb5
+[2025-08-11 18:36:00] [INFO] データベース接続を開始します
+[2025-08-11 18:36:00] [INFO] データベース接続成功
+[2025-08-11 18:36:00] [INFO] トランザクション開始
+[2025-08-11 18:36:00] [INFO] 部屋の検証開始: fg#06
+[2025-08-11 18:36:00] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#06"}}
+[2025-08-11 18:36:00] [INFO] 部屋検証成功: ID=6, アクティブ=1
+[2025-08-11 18:36:00] [INFO] アクティブな登録を検索: userId=Ua7d0e8d00d01dafa472cb45f04401fb5
+[2025-08-11 18:36:00] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"Ua7d0e8d00d01dafa472cb45f04401fb5"}}
+[2025-08-11 18:36:00] [INFO] アクティブな登録なし
+[2025-08-11 18:36:00] [INFO] 既存登録を非アクティブ化: userId=Ua7d0e8d00d01dafa472cb45f04401fb5
+[2025-08-11 18:36:00] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"Ua7d0e8d00d01dafa472cb45f04401fb5"}}
+[2025-08-11 18:36:00] [INFO] 非アクティブ化した登録数: 0
+[2025-08-11 18:36:00] [INFO] 新規登録を作成 | Context: {"user_id":"Ua7d0e8d00d01dafa472cb45f04401fb5","room_number":"fg#06","user_name":"池羽 裕弥","check_in_date":"2025-08-11","check_out_date":"2025-08-12"}
+[2025-08-11 18:36:00] [INFO] 非アクティブな登録を検索: userId=Ua7d0e8d00d01dafa472cb45f04401fb5
+[2025-08-11 18:36:00] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"Ua7d0e8d00d01dafa472cb45f04401fb5"}}
+[2025-08-11 18:36:00] [INFO] 非アクティブな登録なし
+[2025-08-11 18:36:00] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"Ua7d0e8d00d01dafa472cb45f04401fb5",":roomNumber":"fg#06",":userName":"池羽 裕弥",":checkInDate":"2025-08-11",":checkOutDate":"2025-08-12"}}
+[2025-08-11 18:36:00] [INFO] 新規登録作成完了: ID=304
+[2025-08-11 18:36:00] [INFO] トランザクションコミット成功
+[2025-08-11 18:36:00] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"304","registration_type":"new"}
+[2025-08-11 18:36:00] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-12 14:58:47] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-12 14:58:47] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-12 14:58:47] [DEBUG] 受信POSTデータ | Context: {"size":739}
+[2025-08-12 14:58:47] [INFO] 処理パラメータ | Context: {"room":"fg#05","user":"中込  仁","checkIn":"2025-08-12","checkOut":"2025-08-13","force":false}
+[2025-08-12 14:58:47] [INFO] IDトークンを検証: eyJraWQiOiJjY2Q1OGMy...
+[2025-08-12 14:58:47] [DEBUG] トークン検証開始: eyJraWQiOiJjY2Q1OGMy...
+[2025-08-12 14:58:47] [DEBUG] トークンヘッダー | Context: {"kid":"ccd58c2f2646f45fe0b4bbb0237d62f0dd7bb1669d40c121b8488f10bf363900","typ":"JWT","alg":"ES256"}
+[2025-08-12 14:58:47] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U4ff5098ea042db40620ca350b0c877a6","aud":"2007363986","exp":1754981906,"iat":1754978306,"amr":["linesso"],"name":"中込  仁","picture":"https://profile.line-scdn.net/0hBVgwEtYHHXlaDggIoshiLmZLExQtIBsxIj9XGC0HRB51alN4Z2FWGHwIERt-Ow98YTsFFi0JSksi"}
+[2025-08-12 14:58:47] [DEBUG] トークンの有効期限: 2025-08-12 15:58:26
+[2025-08-12 14:58:47] [INFO] トークン検証成功: ユーザーID U4ff5098ea042db40620ca350b0c877a6
+[2025-08-12 14:58:47] [INFO] IDトークン検証成功: userId=U4ff5098ea042db40620ca350b0c877a6
+[2025-08-12 14:58:47] [INFO] データベース接続を開始します
+[2025-08-12 14:58:47] [INFO] データベース接続成功
+[2025-08-12 14:58:47] [INFO] トランザクション開始
+[2025-08-12 14:58:47] [INFO] 部屋の検証開始: fg#05
+[2025-08-12 14:58:47] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#05"}}
+[2025-08-12 14:58:47] [INFO] 部屋検証成功: ID=5, アクティブ=1
+[2025-08-12 14:58:47] [INFO] アクティブな登録を検索: userId=U4ff5098ea042db40620ca350b0c877a6
+[2025-08-12 14:58:47] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U4ff5098ea042db40620ca350b0c877a6"}}
+[2025-08-12 14:58:47] [INFO] アクティブな登録なし
+[2025-08-12 14:58:47] [INFO] 既存登録を非アクティブ化: userId=U4ff5098ea042db40620ca350b0c877a6
+[2025-08-12 14:58:47] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U4ff5098ea042db40620ca350b0c877a6"}}
+[2025-08-12 14:58:47] [INFO] 非アクティブ化した登録数: 0
+[2025-08-12 14:58:47] [INFO] 新規登録を作成 | Context: {"user_id":"U4ff5098ea042db40620ca350b0c877a6","room_number":"fg#05","user_name":"中込  仁","check_in_date":"2025-08-12","check_out_date":"2025-08-13"}
+[2025-08-12 14:58:47] [INFO] 非アクティブな登録を検索: userId=U4ff5098ea042db40620ca350b0c877a6
+[2025-08-12 14:58:47] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U4ff5098ea042db40620ca350b0c877a6"}}
+[2025-08-12 14:58:47] [INFO] 非アクティブな登録なし
+[2025-08-12 14:58:47] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U4ff5098ea042db40620ca350b0c877a6",":roomNumber":"fg#05",":userName":"中込  仁",":checkInDate":"2025-08-12",":checkOutDate":"2025-08-13"}}
+[2025-08-12 14:58:47] [INFO] 新規登録作成完了: ID=305
+[2025-08-12 14:58:47] [INFO] トランザクションコミット成功
+[2025-08-12 14:58:47] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"305","registration_type":"new"}
+[2025-08-12 14:58:47] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-12 15:16:12] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-12 15:16:12] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-12 15:16:12] [DEBUG] 受信POSTデータ | Context: {"size":703}
+[2025-08-12 15:16:12] [INFO] 処理パラメータ | Context: {"room":"fg#13","user":"sumida","checkIn":"2025-08-12","checkOut":"2025-08-13","force":false}
+[2025-08-12 15:16:12] [INFO] IDトークンを検証: eyJraWQiOiJmZTFlOGQ4...
+[2025-08-12 15:16:12] [DEBUG] トークン検証開始: eyJraWQiOiJmZTFlOGQ4...
+[2025-08-12 15:16:12] [DEBUG] トークンヘッダー | Context: {"kid":"fe1e8d888ec664cd2afef479c5db79692cd01aacd141483a54339351f395fa27","typ":"JWT","alg":"ES256"}
+[2025-08-12 15:16:12] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U7dab97de1eaebfb94ef4642198c6930f","aud":"2007363986","exp":1754982962,"iat":1754979362,"name":"sumida","picture":"https://profile.line-scdn.net/0hpjJl1QglL0V3FToCWq1QEktQISgAOykNDydkIFFGdnBaLGkUGHVnJAYTIXAOcj0TTnJmIFQcJCUP"}
+[2025-08-12 15:16:12] [DEBUG] トークンの有効期限: 2025-08-12 16:16:02
+[2025-08-12 15:16:12] [INFO] トークン検証成功: ユーザーID U7dab97de1eaebfb94ef4642198c6930f
+[2025-08-12 15:16:12] [INFO] IDトークン検証成功: userId=U7dab97de1eaebfb94ef4642198c6930f
+[2025-08-12 15:16:12] [INFO] データベース接続を開始します
+[2025-08-12 15:16:12] [INFO] データベース接続成功
+[2025-08-12 15:16:12] [INFO] トランザクション開始
+[2025-08-12 15:16:12] [INFO] 部屋の検証開始: fg#13
+[2025-08-12 15:16:12] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#13"}}
+[2025-08-12 15:16:12] [INFO] 部屋検証成功: ID=13, アクティブ=1
+[2025-08-12 15:16:12] [INFO] アクティブな登録を検索: userId=U7dab97de1eaebfb94ef4642198c6930f
+[2025-08-12 15:16:12] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U7dab97de1eaebfb94ef4642198c6930f"}}
+[2025-08-12 15:16:12] [INFO] アクティブな登録なし
+[2025-08-12 15:16:12] [INFO] 既存登録を非アクティブ化: userId=U7dab97de1eaebfb94ef4642198c6930f
+[2025-08-12 15:16:12] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U7dab97de1eaebfb94ef4642198c6930f"}}
+[2025-08-12 15:16:12] [INFO] 非アクティブ化した登録数: 0
+[2025-08-12 15:16:12] [INFO] 新規登録を作成 | Context: {"user_id":"U7dab97de1eaebfb94ef4642198c6930f","room_number":"fg#13","user_name":"sumida","check_in_date":"2025-08-12","check_out_date":"2025-08-13"}
+[2025-08-12 15:16:12] [INFO] 非アクティブな登録を検索: userId=U7dab97de1eaebfb94ef4642198c6930f
+[2025-08-12 15:16:12] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U7dab97de1eaebfb94ef4642198c6930f"}}
+[2025-08-12 15:16:12] [INFO] 非アクティブな登録なし
+[2025-08-12 15:16:12] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U7dab97de1eaebfb94ef4642198c6930f",":roomNumber":"fg#13",":userName":"sumida",":checkInDate":"2025-08-12",":checkOutDate":"2025-08-13"}}
+[2025-08-12 15:16:12] [INFO] 新規登録作成完了: ID=306
+[2025-08-12 15:16:12] [INFO] トランザクションコミット成功
+[2025-08-12 15:16:12] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"306","registration_type":"new"}
+[2025-08-12 15:16:12] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-12 15:32:52] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-12 15:32:52] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-12 15:32:52] [DEBUG] 受信POSTデータ | Context: {"size":738}
+[2025-08-12 15:32:52] [INFO] 処理パラメータ | Context: {"room":"fg#06","user":"ダイスッケネン","checkIn":"2025-08-12","checkOut":"2025-08-13","force":false}
+[2025-08-12 15:32:52] [INFO] IDトークンを検証: eyJraWQiOiI5YjExMTJi...
+[2025-08-12 15:32:52] [DEBUG] トークン検証開始: eyJraWQiOiI5YjExMTJi...
+[2025-08-12 15:32:52] [DEBUG] トークンヘッダー | Context: {"kid":"9b1112b098f3184c6e83fc3d1be8fc217db1eb20756a156cb63ce8ce9e27dfd2","typ":"JWT","alg":"ES256"}
+[2025-08-12 15:32:52] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"Ue289bdda96a407b90076ece608be4e4a","aud":"2007363986","exp":1754983961,"iat":1754980361,"name":"ダイスッケネン","picture":"https://profile.line-scdn.net/0h-BocN170cm1SGmb0DnQNOm5ffAAlNHQlKi5qAyUbLw0tLGBub389CXdJflorKGY9aS86AiceLQ13"}
+[2025-08-12 15:32:52] [DEBUG] トークンの有効期限: 2025-08-12 16:32:41
+[2025-08-12 15:32:52] [INFO] トークン検証成功: ユーザーID Ue289bdda96a407b90076ece608be4e4a
+[2025-08-12 15:32:52] [INFO] IDトークン検証成功: userId=Ue289bdda96a407b90076ece608be4e4a
+[2025-08-12 15:32:52] [INFO] データベース接続を開始します
+[2025-08-12 15:32:52] [INFO] データベース接続成功
+[2025-08-12 15:32:52] [INFO] トランザクション開始
+[2025-08-12 15:32:52] [INFO] 部屋の検証開始: fg#06
+[2025-08-12 15:32:52] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#06"}}
+[2025-08-12 15:32:52] [INFO] 部屋検証成功: ID=6, アクティブ=1
+[2025-08-12 15:32:52] [INFO] アクティブな登録を検索: userId=Ue289bdda96a407b90076ece608be4e4a
+[2025-08-12 15:32:52] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"Ue289bdda96a407b90076ece608be4e4a"}}
+[2025-08-12 15:32:52] [INFO] アクティブな登録なし
+[2025-08-12 15:32:52] [INFO] 既存登録を非アクティブ化: userId=Ue289bdda96a407b90076ece608be4e4a
+[2025-08-12 15:32:52] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"Ue289bdda96a407b90076ece608be4e4a"}}
+[2025-08-12 15:32:52] [INFO] 非アクティブ化した登録数: 0
+[2025-08-12 15:32:52] [INFO] 新規登録を作成 | Context: {"user_id":"Ue289bdda96a407b90076ece608be4e4a","room_number":"fg#06","user_name":"ダイスッケネン","check_in_date":"2025-08-12","check_out_date":"2025-08-13"}
+[2025-08-12 15:32:52] [INFO] 非アクティブな登録を検索: userId=Ue289bdda96a407b90076ece608be4e4a
+[2025-08-12 15:32:52] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"Ue289bdda96a407b90076ece608be4e4a"}}
+[2025-08-12 15:32:52] [INFO] 非アクティブな登録なし
+[2025-08-12 15:32:52] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"Ue289bdda96a407b90076ece608be4e4a",":roomNumber":"fg#06",":userName":"ダイスッケネン",":checkInDate":"2025-08-12",":checkOutDate":"2025-08-13"}}
+[2025-08-12 15:32:52] [INFO] 新規登録作成完了: ID=307
+[2025-08-12 15:32:52] [INFO] トランザクションコミット成功
+[2025-08-12 15:32:52] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"307","registration_type":"new"}
+[2025-08-12 15:32:52] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-12 15:40:40] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-12 15:40:40] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-12 15:40:40] [DEBUG] 受信POSTデータ | Context: {"size":756}
+[2025-08-12 15:40:40] [INFO] 処理パラメータ | Context: {"room":"fg#08","user":"Yosuke Miyazaki","checkIn":"2025-08-12","checkOut":"2025-08-13","force":false}
+[2025-08-12 15:40:40] [INFO] IDトークンを検証: eyJraWQiOiI2YWE4YWQw...
+[2025-08-12 15:40:40] [DEBUG] トークン検証開始: eyJraWQiOiI2YWE4YWQw...
+[2025-08-12 15:40:40] [DEBUG] トークンヘッダー | Context: {"kid":"6aa8ad07cd2aaadcc656f7e2139cce8b8c4a6c81c29042f481680672fd03c969","typ":"JWT","alg":"ES256"}
+[2025-08-12 15:40:40] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"Uf9be9f021a4e57b25be4926e9aea1748","aud":"2007363986","exp":1754984346,"iat":1754980746,"amr":["lineautologin"],"name":"Yosuke Miyazaki","picture":"https://profile.line-scdn.net/0hdRBhlw-KO31_ERaztSJEKkNUNRAIPz01B3J3GwhGbEhSIH0pSyckTggWZksAInkiS3YkEw9DYR4G"}
+[2025-08-12 15:40:40] [DEBUG] トークンの有効期限: 2025-08-12 16:39:06
+[2025-08-12 15:40:40] [INFO] トークン検証成功: ユーザーID Uf9be9f021a4e57b25be4926e9aea1748
+[2025-08-12 15:40:40] [INFO] IDトークン検証成功: userId=Uf9be9f021a4e57b25be4926e9aea1748
+[2025-08-12 15:40:40] [INFO] データベース接続を開始します
+[2025-08-12 15:40:40] [INFO] データベース接続成功
+[2025-08-12 15:40:40] [INFO] トランザクション開始
+[2025-08-12 15:40:40] [INFO] 部屋の検証開始: fg#08
+[2025-08-12 15:40:40] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#08"}}
+[2025-08-12 15:40:40] [INFO] 部屋検証成功: ID=8, アクティブ=1
+[2025-08-12 15:40:40] [INFO] アクティブな登録を検索: userId=Uf9be9f021a4e57b25be4926e9aea1748
+[2025-08-12 15:40:40] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"Uf9be9f021a4e57b25be4926e9aea1748"}}
+[2025-08-12 15:40:40] [INFO] アクティブな登録なし
+[2025-08-12 15:40:40] [INFO] 既存登録を非アクティブ化: userId=Uf9be9f021a4e57b25be4926e9aea1748
+[2025-08-12 15:40:40] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"Uf9be9f021a4e57b25be4926e9aea1748"}}
+[2025-08-12 15:40:40] [INFO] 非アクティブ化した登録数: 0
+[2025-08-12 15:40:40] [INFO] 新規登録を作成 | Context: {"user_id":"Uf9be9f021a4e57b25be4926e9aea1748","room_number":"fg#08","user_name":"Yosuke Miyazaki","check_in_date":"2025-08-12","check_out_date":"2025-08-13"}
+[2025-08-12 15:40:40] [INFO] 非アクティブな登録を検索: userId=Uf9be9f021a4e57b25be4926e9aea1748
+[2025-08-12 15:40:40] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"Uf9be9f021a4e57b25be4926e9aea1748"}}
+[2025-08-12 15:40:40] [INFO] 非アクティブな登録なし
+[2025-08-12 15:40:40] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"Uf9be9f021a4e57b25be4926e9aea1748",":roomNumber":"fg#08",":userName":"Yosuke Miyazaki",":checkInDate":"2025-08-12",":checkOutDate":"2025-08-13"}}
+[2025-08-12 15:40:40] [INFO] 新規登録作成完了: ID=308
+[2025-08-12 15:40:40] [INFO] トランザクションコミット成功
+[2025-08-12 15:40:40] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"308","registration_type":"new"}
+[2025-08-12 15:40:40] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-12 15:47:47] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-12 15:47:47] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-12 15:47:47] [DEBUG] 受信POSTデータ | Context: {"size":738}
+[2025-08-12 15:47:47] [INFO] 処理パラメータ | Context: {"room":"fg#06","user":"ダイスッケネン","checkIn":"2025-08-12","checkOut":"2025-08-13","force":false}
+[2025-08-12 15:47:47] [INFO] IDトークンを検証: eyJraWQiOiI5YjExMTJi...
+[2025-08-12 15:47:47] [DEBUG] トークン検証開始: eyJraWQiOiI5YjExMTJi...
+[2025-08-12 15:47:47] [DEBUG] トークンヘッダー | Context: {"kid":"9b1112b098f3184c6e83fc3d1be8fc217db1eb20756a156cb63ce8ce9e27dfd2","typ":"JWT","alg":"ES256"}
+[2025-08-12 15:47:47] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"Ue289bdda96a407b90076ece608be4e4a","aud":"2007363986","exp":1754983961,"iat":1754980361,"name":"ダイスッケネン","picture":"https://profile.line-scdn.net/0h-BocN170cm1SGmb0DnQNOm5ffAAlNHQlKi5qAyUbLw0tLGBub389CXdJflorKGY9aS86AiceLQ13"}
+[2025-08-12 15:47:47] [DEBUG] トークンの有効期限: 2025-08-12 16:32:41
+[2025-08-12 15:47:47] [INFO] トークン検証成功: ユーザーID Ue289bdda96a407b90076ece608be4e4a
+[2025-08-12 15:47:47] [INFO] IDトークン検証成功: userId=Ue289bdda96a407b90076ece608be4e4a
+[2025-08-12 15:47:47] [INFO] データベース接続を開始します
+[2025-08-12 15:47:47] [INFO] データベース接続成功
+[2025-08-12 15:47:47] [INFO] トランザクション開始
+[2025-08-12 15:47:47] [INFO] 部屋の検証開始: fg#06
+[2025-08-12 15:47:47] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#06"}}
+[2025-08-12 15:47:47] [INFO] 部屋検証成功: ID=6, アクティブ=1
+[2025-08-12 15:47:47] [INFO] アクティブな登録を検索: userId=Ue289bdda96a407b90076ece608be4e4a
+[2025-08-12 15:47:47] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"Ue289bdda96a407b90076ece608be4e4a"}}
+[2025-08-12 15:47:47] [INFO] アクティブな登録を発見: ID=307, 部屋=fg#06
+[2025-08-12 15:47:47] [INFO] 登録を更新: ID=307 | Context: {"user_id":"Ue289bdda96a407b90076ece608be4e4a","room_number":"fg#06","user_name":"ダイスッケネン","check_in_date":"2025-08-12","check_out_date":"2025-08-13"}
+[2025-08-12 15:47:47] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links \n                SET room_number = :roomNumber,\n                    user_name = :userName,\n                    check_in_date = :checkInDate,\n                    check_out_date = :checkOutDate,\n                    is_active = 1\n                WHERE id = :id","params":{":id":307,":roomNumber":"fg#06",":userName":"ダイスッケネン",":checkInDate":"2025-08-12",":checkOutDate":"2025-08-13"}}
+[2025-08-12 15:47:47] [INFO] 登録更新完了: 変更なし
+[2025-08-12 15:47:47] [INFO] トランザクションコミット成功
+[2025-08-12 15:47:47] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号情報が更新されました","registration_id":307,"registration_type":"update"}
+[2025-08-12 15:47:47] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-12 17:36:09] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-12 17:36:09] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-12 17:36:09] [DEBUG] 受信POSTデータ | Context: {"size":708}
+[2025-08-12 17:36:09] [INFO] 処理パラメータ | Context: {"room":"fg#02","user":"Eiichi M","checkIn":"2025-08-12","checkOut":"2025-08-13","force":false}
+[2025-08-12 17:36:09] [INFO] IDトークンを検証: eyJraWQiOiJmYTEzNDA0...
+[2025-08-12 17:36:09] [DEBUG] トークン検証開始: eyJraWQiOiJmYTEzNDA0...
+[2025-08-12 17:36:09] [DEBUG] トークンヘッダー | Context: {"kid":"fa134042993a4a1717e4ee16b0c48f354de6171f850155971885038288fb92c9","typ":"JWT","alg":"ES256"}
+[2025-08-12 17:36:09] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U4b99d360f611719b9cbb900a2f57e9fb","aud":"2007363986","exp":1754991356,"iat":1754987756,"name":"Eiichi M","picture":"https://profile.line-scdn.net/0hoB1oINKIMG0MFiMPxPpPOjBTPgB7ODYldHZ_XywQPFVyI35pZSB7Wy1CaA4gL3FuM3F9Di9EPA0o"}
+[2025-08-12 17:36:09] [DEBUG] トークンの有効期限: 2025-08-12 18:35:56
+[2025-08-12 17:36:09] [INFO] トークン検証成功: ユーザーID U4b99d360f611719b9cbb900a2f57e9fb
+[2025-08-12 17:36:09] [INFO] IDトークン検証成功: userId=U4b99d360f611719b9cbb900a2f57e9fb
+[2025-08-12 17:36:09] [INFO] データベース接続を開始します
+[2025-08-12 17:36:09] [INFO] データベース接続成功
+[2025-08-12 17:36:09] [INFO] トランザクション開始
+[2025-08-12 17:36:09] [INFO] 部屋の検証開始: fg#02
+[2025-08-12 17:36:09] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#02"}}
+[2025-08-12 17:36:09] [INFO] 部屋検証成功: ID=2, アクティブ=1
+[2025-08-12 17:36:09] [INFO] アクティブな登録を検索: userId=U4b99d360f611719b9cbb900a2f57e9fb
+[2025-08-12 17:36:09] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U4b99d360f611719b9cbb900a2f57e9fb"}}
+[2025-08-12 17:36:09] [INFO] アクティブな登録なし
+[2025-08-12 17:36:09] [INFO] 既存登録を非アクティブ化: userId=U4b99d360f611719b9cbb900a2f57e9fb
+[2025-08-12 17:36:09] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U4b99d360f611719b9cbb900a2f57e9fb"}}
+[2025-08-12 17:36:09] [INFO] 非アクティブ化した登録数: 0
+[2025-08-12 17:36:09] [INFO] 新規登録を作成 | Context: {"user_id":"U4b99d360f611719b9cbb900a2f57e9fb","room_number":"fg#02","user_name":"Eiichi M","check_in_date":"2025-08-12","check_out_date":"2025-08-13"}
+[2025-08-12 17:36:09] [INFO] 非アクティブな登録を検索: userId=U4b99d360f611719b9cbb900a2f57e9fb
+[2025-08-12 17:36:09] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U4b99d360f611719b9cbb900a2f57e9fb"}}
+[2025-08-12 17:36:09] [INFO] 非アクティブな登録なし
+[2025-08-12 17:36:09] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U4b99d360f611719b9cbb900a2f57e9fb",":roomNumber":"fg#02",":userName":"Eiichi M",":checkInDate":"2025-08-12",":checkOutDate":"2025-08-13"}}
+[2025-08-12 17:36:09] [INFO] 新規登録作成完了: ID=309
+[2025-08-12 17:36:09] [INFO] トランザクションコミット成功
+[2025-08-12 17:36:09] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"309","registration_type":"new"}
+[2025-08-12 17:36:09] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-12 17:36:32] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-12 17:36:32] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-12 17:36:32] [DEBUG] 受信POSTデータ | Context: {"size":717}
+[2025-08-12 17:36:32] [INFO] 処理パラメータ | Context: {"room":"fg#03","user":"いのうえ","checkIn":"2025-08-12","checkOut":"2025-08-13","force":false}
+[2025-08-12 17:36:32] [INFO] IDトークンを検証: eyJraWQiOiI5MjkxZTZi...
+[2025-08-12 17:36:32] [DEBUG] トークン検証開始: eyJraWQiOiI5MjkxZTZi...
+[2025-08-12 17:36:32] [DEBUG] トークンヘッダー | Context: {"kid":"9291e6b6a38c7d8af68c5266faa28208d6dd59845faa024e541bdb39fe135d4b","typ":"JWT","alg":"ES256"}
+[2025-08-12 17:36:32] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U278390a57f24611698200cb781f24e73","aud":"2007363986","exp":1754991360,"iat":1754987760,"name":"いのうえ","picture":"https://profile.line-scdn.net/0h48nnZEtLaxdTF3uAXSEUQG9SZXokOW1fKyFwJndFMCd5J38SayMgJSYSNSEqI3lDOCQld3AUNXd_"}
+[2025-08-12 17:36:32] [DEBUG] トークンの有効期限: 2025-08-12 18:36:00
+[2025-08-12 17:36:32] [INFO] トークン検証成功: ユーザーID U278390a57f24611698200cb781f24e73
+[2025-08-12 17:36:32] [INFO] IDトークン検証成功: userId=U278390a57f24611698200cb781f24e73
+[2025-08-12 17:36:32] [INFO] データベース接続を開始します
+[2025-08-12 17:36:32] [INFO] データベース接続成功
+[2025-08-12 17:36:32] [INFO] トランザクション開始
+[2025-08-12 17:36:32] [INFO] 部屋の検証開始: fg#03
+[2025-08-12 17:36:32] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#03"}}
+[2025-08-12 17:36:32] [INFO] 部屋検証成功: ID=3, アクティブ=1
+[2025-08-12 17:36:32] [INFO] アクティブな登録を検索: userId=U278390a57f24611698200cb781f24e73
+[2025-08-12 17:36:32] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U278390a57f24611698200cb781f24e73"}}
+[2025-08-12 17:36:32] [INFO] アクティブな登録なし
+[2025-08-12 17:36:32] [INFO] 既存登録を非アクティブ化: userId=U278390a57f24611698200cb781f24e73
+[2025-08-12 17:36:32] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U278390a57f24611698200cb781f24e73"}}
+[2025-08-12 17:36:32] [INFO] 非アクティブ化した登録数: 0
+[2025-08-12 17:36:32] [INFO] 新規登録を作成 | Context: {"user_id":"U278390a57f24611698200cb781f24e73","room_number":"fg#03","user_name":"いのうえ","check_in_date":"2025-08-12","check_out_date":"2025-08-13"}
+[2025-08-12 17:36:32] [INFO] 非アクティブな登録を検索: userId=U278390a57f24611698200cb781f24e73
+[2025-08-12 17:36:32] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U278390a57f24611698200cb781f24e73"}}
+[2025-08-12 17:36:32] [INFO] 非アクティブな登録なし
+[2025-08-12 17:36:32] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U278390a57f24611698200cb781f24e73",":roomNumber":"fg#03",":userName":"いのうえ",":checkInDate":"2025-08-12",":checkOutDate":"2025-08-13"}}
+[2025-08-12 17:36:32] [INFO] 新規登録作成完了: ID=310
+[2025-08-12 17:36:32] [INFO] トランザクションコミット成功
+[2025-08-12 17:36:32] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"310","registration_type":"new"}
+[2025-08-12 17:36:32] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-12 17:37:07] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-12 17:37:07] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-12 17:37:07] [DEBUG] 受信POSTデータ | Context: {"size":708}
+[2025-08-12 17:37:07] [INFO] 処理パラメータ | Context: {"room":"fg#02","user":"Eiichi M","checkIn":"2025-08-12","checkOut":"2025-08-13","force":false}
+[2025-08-12 17:37:07] [INFO] IDトークンを検証: eyJraWQiOiJmYTEzNDA0...
+[2025-08-12 17:37:07] [DEBUG] トークン検証開始: eyJraWQiOiJmYTEzNDA0...
+[2025-08-12 17:37:07] [DEBUG] トークンヘッダー | Context: {"kid":"fa134042993a4a1717e4ee16b0c48f354de6171f850155971885038288fb92c9","typ":"JWT","alg":"ES256"}
+[2025-08-12 17:37:07] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U4b99d360f611719b9cbb900a2f57e9fb","aud":"2007363986","exp":1754991356,"iat":1754987756,"name":"Eiichi M","picture":"https://profile.line-scdn.net/0hoB1oINKIMG0MFiMPxPpPOjBTPgB7ODYldHZ_XywQPFVyI35pZSB7Wy1CaA4gL3FuM3F9Di9EPA0o"}
+[2025-08-12 17:37:07] [DEBUG] トークンの有効期限: 2025-08-12 18:35:56
+[2025-08-12 17:37:07] [INFO] トークン検証成功: ユーザーID U4b99d360f611719b9cbb900a2f57e9fb
+[2025-08-12 17:37:07] [INFO] IDトークン検証成功: userId=U4b99d360f611719b9cbb900a2f57e9fb
+[2025-08-12 17:37:07] [INFO] データベース接続を開始します
+[2025-08-12 17:37:07] [INFO] データベース接続成功
+[2025-08-12 17:37:07] [INFO] トランザクション開始
+[2025-08-12 17:37:07] [INFO] 部屋の検証開始: fg#02
+[2025-08-12 17:37:07] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#02"}}
+[2025-08-12 17:37:07] [INFO] 部屋検証成功: ID=2, アクティブ=1
+[2025-08-12 17:37:07] [INFO] アクティブな登録を検索: userId=U4b99d360f611719b9cbb900a2f57e9fb
+[2025-08-12 17:37:07] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U4b99d360f611719b9cbb900a2f57e9fb"}}
+[2025-08-12 17:37:07] [INFO] アクティブな登録を発見: ID=309, 部屋=fg#02
+[2025-08-12 17:37:07] [INFO] 登録を更新: ID=309 | Context: {"user_id":"U4b99d360f611719b9cbb900a2f57e9fb","room_number":"fg#02","user_name":"Eiichi M","check_in_date":"2025-08-12","check_out_date":"2025-08-13"}
+[2025-08-12 17:37:07] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links \n                SET room_number = :roomNumber,\n                    user_name = :userName,\n                    check_in_date = :checkInDate,\n                    check_out_date = :checkOutDate,\n                    is_active = 1\n                WHERE id = :id","params":{":id":309,":roomNumber":"fg#02",":userName":"Eiichi M",":checkInDate":"2025-08-12",":checkOutDate":"2025-08-13"}}
+[2025-08-12 17:37:07] [INFO] 登録更新完了: 変更なし
+[2025-08-12 17:37:07] [INFO] トランザクションコミット成功
+[2025-08-12 17:37:07] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号情報が更新されました","registration_id":309,"registration_type":"update"}
+[2025-08-12 17:37:07] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-12 18:37:19] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-12 18:37:19] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-12 18:37:19] [DEBUG] 受信POSTデータ | Context: {"size":759}
+[2025-08-12 18:37:19] [INFO] 処理パラメータ | Context: {"room":"fg#01","user":"ほった ゆり","checkIn":"2025-08-12","checkOut":"2025-08-13","force":false}
+[2025-08-12 18:37:19] [INFO] IDトークンを検証: eyJraWQiOiJmZTFlOGQ4...
+[2025-08-12 18:37:19] [DEBUG] トークン検証開始: eyJraWQiOiJmZTFlOGQ4...
+[2025-08-12 18:37:19] [DEBUG] トークンヘッダー | Context: {"kid":"fe1e8d888ec664cd2afef479c5db79692cd01aacd141483a54339351f395fa27","typ":"JWT","alg":"ES256"}
+[2025-08-12 18:37:19] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"Uf788ea9271e6cf95b3de34c7eb430b75","aud":"2007363986","exp":1754995023,"iat":1754991423,"amr":["lineautologin"],"name":"ほった ゆり","picture":"https://profile.line-scdn.net/0hzSWY3W8jJXxqIDdnGINaK1ZlKxEdDiM0EkE9Skcgc0tDE2d4VUU6EkcjKBhPR2suAkJvEkp1Lk9G"}
+[2025-08-12 18:37:19] [DEBUG] トークンの有効期限: 2025-08-12 19:37:03
+[2025-08-12 18:37:19] [INFO] トークン検証成功: ユーザーID Uf788ea9271e6cf95b3de34c7eb430b75
+[2025-08-12 18:37:19] [INFO] IDトークン検証成功: userId=Uf788ea9271e6cf95b3de34c7eb430b75
+[2025-08-12 18:37:19] [INFO] データベース接続を開始します
+[2025-08-12 18:37:19] [INFO] データベース接続成功
+[2025-08-12 18:37:19] [INFO] トランザクション開始
+[2025-08-12 18:37:19] [INFO] 部屋の検証開始: fg#01
+[2025-08-12 18:37:19] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#01"}}
+[2025-08-12 18:37:19] [INFO] 部屋検証成功: ID=1, アクティブ=1
+[2025-08-12 18:37:19] [INFO] アクティブな登録を検索: userId=Uf788ea9271e6cf95b3de34c7eb430b75
+[2025-08-12 18:37:19] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"Uf788ea9271e6cf95b3de34c7eb430b75"}}
+[2025-08-12 18:37:19] [INFO] アクティブな登録なし
+[2025-08-12 18:37:19] [INFO] 既存登録を非アクティブ化: userId=Uf788ea9271e6cf95b3de34c7eb430b75
+[2025-08-12 18:37:19] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"Uf788ea9271e6cf95b3de34c7eb430b75"}}
+[2025-08-12 18:37:19] [INFO] 非アクティブ化した登録数: 0
+[2025-08-12 18:37:19] [INFO] 新規登録を作成 | Context: {"user_id":"Uf788ea9271e6cf95b3de34c7eb430b75","room_number":"fg#01","user_name":"ほった ゆり","check_in_date":"2025-08-12","check_out_date":"2025-08-13"}
+[2025-08-12 18:37:19] [INFO] 非アクティブな登録を検索: userId=Uf788ea9271e6cf95b3de34c7eb430b75
+[2025-08-12 18:37:19] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"Uf788ea9271e6cf95b3de34c7eb430b75"}}
+[2025-08-12 18:37:19] [INFO] 非アクティブな登録なし
+[2025-08-12 18:37:19] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"Uf788ea9271e6cf95b3de34c7eb430b75",":roomNumber":"fg#01",":userName":"ほった ゆり",":checkInDate":"2025-08-12",":checkOutDate":"2025-08-13"}}
+[2025-08-12 18:37:19] [INFO] 新規登録作成完了: ID=311
+[2025-08-12 18:37:19] [INFO] トランザクションコミット成功
+[2025-08-12 18:37:19] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"311","registration_type":"new"}
+[2025-08-12 18:37:19] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-13 15:00:14] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-13 15:00:14] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-13 15:00:14] [DEBUG] 受信POSTデータ | Context: {"size":579}
+[2025-08-13 15:00:14] [INFO] 処理パラメータ | Context: {"room":"fg#06","user":"yoshiaki","checkIn":"2025-08-13","checkOut":"2025-08-14","force":false}
+[2025-08-13 15:00:14] [INFO] IDトークンを検証: eyJraWQiOiJhMmZkNTE4...
+[2025-08-13 15:00:14] [DEBUG] トークン検証開始: eyJraWQiOiJhMmZkNTE4...
+[2025-08-13 15:00:14] [DEBUG] トークンヘッダー | Context: {"kid":"a2fd5181692cc6daf799905d0dcd7b0826b458c9fe794b9056fc7b4db61cfba4","typ":"JWT","alg":"ES256"}
+[2025-08-13 15:00:14] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U02fdc001a665373d26b284c471151d17","aud":"2007363986","exp":1755068382,"iat":1755064782,"amr":["lineautologin"],"name":"yoshiaki"}
+[2025-08-13 15:00:14] [DEBUG] トークンの有効期限: 2025-08-13 15:59:42
+[2025-08-13 15:00:14] [INFO] トークン検証成功: ユーザーID U02fdc001a665373d26b284c471151d17
+[2025-08-13 15:00:14] [INFO] IDトークン検証成功: userId=U02fdc001a665373d26b284c471151d17
+[2025-08-13 15:00:14] [INFO] データベース接続を開始します
+[2025-08-13 15:00:14] [INFO] データベース接続成功
+[2025-08-13 15:00:14] [INFO] トランザクション開始
+[2025-08-13 15:00:14] [INFO] 部屋の検証開始: fg#06
+[2025-08-13 15:00:14] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#06"}}
+[2025-08-13 15:00:14] [INFO] 部屋検証成功: ID=6, アクティブ=1
+[2025-08-13 15:00:14] [INFO] アクティブな登録を検索: userId=U02fdc001a665373d26b284c471151d17
+[2025-08-13 15:00:14] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U02fdc001a665373d26b284c471151d17"}}
+[2025-08-13 15:00:14] [INFO] アクティブな登録なし
+[2025-08-13 15:00:14] [INFO] 既存登録を非アクティブ化: userId=U02fdc001a665373d26b284c471151d17
+[2025-08-13 15:00:14] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U02fdc001a665373d26b284c471151d17"}}
+[2025-08-13 15:00:14] [INFO] 非アクティブ化した登録数: 0
+[2025-08-13 15:00:14] [INFO] 新規登録を作成 | Context: {"user_id":"U02fdc001a665373d26b284c471151d17","room_number":"fg#06","user_name":"yoshiaki","check_in_date":"2025-08-13","check_out_date":"2025-08-14"}
+[2025-08-13 15:00:14] [INFO] 非アクティブな登録を検索: userId=U02fdc001a665373d26b284c471151d17
+[2025-08-13 15:00:14] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U02fdc001a665373d26b284c471151d17"}}
+[2025-08-13 15:00:14] [INFO] 非アクティブな登録なし
+[2025-08-13 15:00:14] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U02fdc001a665373d26b284c471151d17",":roomNumber":"fg#06",":userName":"yoshiaki",":checkInDate":"2025-08-13",":checkOutDate":"2025-08-14"}}
+[2025-08-13 15:00:14] [INFO] 新規登録作成完了: ID=312
+[2025-08-13 15:00:14] [INFO] トランザクションコミット成功
+[2025-08-13 15:00:14] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"312","registration_type":"new"}
+[2025-08-13 15:00:14] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-13 15:08:46] [INFO] ログファイルをローテーションしました。元サイズ: 308,927 bytes
+[2025-08-13 15:08:46] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-13 15:08:46] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-13 15:08:46] [DEBUG] 受信POSTデータ | Context: {"size":861}
+[2025-08-13 15:08:46] [INFO] 処理パラメータ | Context: {"room":"fg#06","user":"愛.Ai🩷","checkIn":"2025-08-13","checkOut":"2025-08-14","force":false}
+[2025-08-13 15:08:46] [INFO] IDトークンを検証: eyJraWQiOiI5MjkxZTZi...
+[2025-08-13 15:08:46] [DEBUG] トークン検証開始: eyJraWQiOiI5MjkxZTZi...
+[2025-08-13 15:08:46] [DEBUG] トークンヘッダー | Context: {"kid":"9291e6b6a38c7d8af68c5266faa28208d6dd59845faa024e541bdb39fe135d4b","typ":"JWT","alg":"ES256"}
+[2025-08-13 15:08:46] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U16cca7159a7f546029571c00a8ff1d72","aud":"2007363986","exp":1755068877,"iat":1755065277,"amr":["lineautologin"],"name":"愛.Ai🩷","picture":"https://profile.line-scdn.net/0h-t-07oWxclsQSWwsR1YNDG0MfDZnZ3QTaCw4NTcbKGs0ejIPeHs6b2FAf2JqcTMFeyc9bzAcfzk9ZnUOXnJTR2NKdwV4PlJkeHxaZnI9bTRGDXVSRFNDRVQsdxlEfEtWWn1eaVdIdWo0fEd1c2plX1wWSyI5L21ff0s"}
+[2025-08-13 15:08:46] [DEBUG] トークンの有効期限: 2025-08-13 16:07:57
+[2025-08-13 15:08:46] [INFO] トークン検証成功: ユーザーID U16cca7159a7f546029571c00a8ff1d72
+[2025-08-13 15:08:46] [INFO] IDトークン検証成功: userId=U16cca7159a7f546029571c00a8ff1d72
+[2025-08-13 15:08:46] [INFO] データベース接続を開始します
+[2025-08-13 15:08:46] [INFO] データベース接続成功
+[2025-08-13 15:08:46] [INFO] トランザクション開始
+[2025-08-13 15:08:46] [INFO] 部屋の検証開始: fg#06
+[2025-08-13 15:08:46] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#06"}}
+[2025-08-13 15:08:46] [INFO] 部屋検証成功: ID=6, アクティブ=1
+[2025-08-13 15:08:46] [INFO] アクティブな登録を検索: userId=U16cca7159a7f546029571c00a8ff1d72
+[2025-08-13 15:08:46] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U16cca7159a7f546029571c00a8ff1d72"}}
+[2025-08-13 15:08:46] [INFO] アクティブな登録なし
+[2025-08-13 15:08:46] [INFO] 既存登録を非アクティブ化: userId=U16cca7159a7f546029571c00a8ff1d72
+[2025-08-13 15:08:46] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U16cca7159a7f546029571c00a8ff1d72"}}
+[2025-08-13 15:08:46] [INFO] 非アクティブ化した登録数: 0
+[2025-08-13 15:08:46] [INFO] 新規登録を作成 | Context: {"user_id":"U16cca7159a7f546029571c00a8ff1d72","room_number":"fg#06","user_name":"愛.Ai🩷","check_in_date":"2025-08-13","check_out_date":"2025-08-14"}
+[2025-08-13 15:08:46] [INFO] 非アクティブな登録を検索: userId=U16cca7159a7f546029571c00a8ff1d72
+[2025-08-13 15:08:46] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U16cca7159a7f546029571c00a8ff1d72"}}
+[2025-08-13 15:08:46] [INFO] 非アクティブな登録なし
+[2025-08-13 15:08:46] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U16cca7159a7f546029571c00a8ff1d72",":roomNumber":"fg#06",":userName":"愛.Ai🩷",":checkInDate":"2025-08-13",":checkOutDate":"2025-08-14"}}
+[2025-08-13 15:08:46] [INFO] 新規登録作成完了: ID=313
+[2025-08-13 15:08:46] [INFO] トランザクションコミット成功
+[2025-08-13 15:08:46] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"313","registration_type":"new"}
+[2025-08-13 15:08:46] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-13 15:14:44] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-13 15:14:44] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-13 15:14:44] [DEBUG] 受信POSTデータ | Context: {"size":710}
+[2025-08-13 15:14:44] [INFO] 処理パラメータ | Context: {"room":"fg#13","user":"みな子","checkIn":"2025-08-13","checkOut":"2025-08-14","force":false}
+[2025-08-13 15:14:44] [INFO] IDトークンを検証: eyJraWQiOiI2YWE4YWQw...
+[2025-08-13 15:14:44] [DEBUG] トークン検証開始: eyJraWQiOiI2YWE4YWQw...
+[2025-08-13 15:14:44] [DEBUG] トークンヘッダー | Context: {"kid":"6aa8ad07cd2aaadcc656f7e2139cce8b8c4a6c81c29042f481680672fd03c969","typ":"JWT","alg":"ES256"}
+[2025-08-13 15:14:44] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U5b0c2621bffbf1956e58bfdbc4569a0d","aud":"2007363986","exp":1755069267,"iat":1755065667,"name":"みな子","picture":"https://profile.line-scdn.net/0hSDHc57GSDGt1GiPAy8dzPElfAgYCNAojDX5CWFgTBlxRLkg5QX1LWFVOUwlbfxtpQHkWWgMeUAxc"}
+[2025-08-13 15:14:44] [DEBUG] トークンの有効期限: 2025-08-13 16:14:27
+[2025-08-13 15:14:44] [INFO] トークン検証成功: ユーザーID U5b0c2621bffbf1956e58bfdbc4569a0d
+[2025-08-13 15:14:44] [INFO] IDトークン検証成功: userId=U5b0c2621bffbf1956e58bfdbc4569a0d
+[2025-08-13 15:14:44] [INFO] データベース接続を開始します
+[2025-08-13 15:14:44] [INFO] データベース接続成功
+[2025-08-13 15:14:44] [INFO] トランザクション開始
+[2025-08-13 15:14:44] [INFO] 部屋の検証開始: fg#13
+[2025-08-13 15:14:44] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#13"}}
+[2025-08-13 15:14:44] [INFO] 部屋検証成功: ID=13, アクティブ=1
+[2025-08-13 15:14:44] [INFO] アクティブな登録を検索: userId=U5b0c2621bffbf1956e58bfdbc4569a0d
+[2025-08-13 15:14:44] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U5b0c2621bffbf1956e58bfdbc4569a0d"}}
+[2025-08-13 15:14:44] [INFO] アクティブな登録なし
+[2025-08-13 15:14:44] [INFO] 既存登録を非アクティブ化: userId=U5b0c2621bffbf1956e58bfdbc4569a0d
+[2025-08-13 15:14:44] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U5b0c2621bffbf1956e58bfdbc4569a0d"}}
+[2025-08-13 15:14:44] [INFO] 非アクティブ化した登録数: 0
+[2025-08-13 15:14:44] [INFO] 新規登録を作成 | Context: {"user_id":"U5b0c2621bffbf1956e58bfdbc4569a0d","room_number":"fg#13","user_name":"みな子","check_in_date":"2025-08-13","check_out_date":"2025-08-14"}
+[2025-08-13 15:14:44] [INFO] 非アクティブな登録を検索: userId=U5b0c2621bffbf1956e58bfdbc4569a0d
+[2025-08-13 15:14:44] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U5b0c2621bffbf1956e58bfdbc4569a0d"}}
+[2025-08-13 15:14:44] [INFO] 非アクティブな登録なし
+[2025-08-13 15:14:44] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U5b0c2621bffbf1956e58bfdbc4569a0d",":roomNumber":"fg#13",":userName":"みな子",":checkInDate":"2025-08-13",":checkOutDate":"2025-08-14"}}
+[2025-08-13 15:14:44] [INFO] 新規登録作成完了: ID=314
+[2025-08-13 15:14:44] [INFO] トランザクションコミット成功
+[2025-08-13 15:14:44] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"314","registration_type":"new"}
+[2025-08-13 15:14:44] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-13 15:25:24] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-13 15:25:24] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-13 15:25:24] [DEBUG] 受信POSTデータ | Context: {"size":710}
+[2025-08-13 15:25:24] [INFO] 処理パラメータ | Context: {"room":"fg#13","user":"みな子","checkIn":"2025-08-13","checkOut":"2025-08-14","force":false}
+[2025-08-13 15:25:24] [INFO] IDトークンを検証: eyJraWQiOiJlNmE2OTE5...
+[2025-08-13 15:25:24] [DEBUG] トークン検証開始: eyJraWQiOiJlNmE2OTE5...
+[2025-08-13 15:25:24] [DEBUG] トークンヘッダー | Context: {"kid":"e6a6919386169ba54de9dd336b41479a01012dc0c428baae2de18e59ee2146db","typ":"JWT","alg":"ES256"}
+[2025-08-13 15:25:24] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U5b0c2621bffbf1956e58bfdbc4569a0d","aud":"2007363986","exp":1755069911,"iat":1755066311,"name":"みな子","picture":"https://profile.line-scdn.net/0hSDHc57GSDGt1GiPAy8dzPElfAgYCNAojDX5CWFgTBlxRLkg5QX1LWFVOUwlbfxtpQHkWWgMeUAxc"}
+[2025-08-13 15:25:24] [DEBUG] トークンの有効期限: 2025-08-13 16:25:11
+[2025-08-13 15:25:24] [INFO] トークン検証成功: ユーザーID U5b0c2621bffbf1956e58bfdbc4569a0d
+[2025-08-13 15:25:24] [INFO] IDトークン検証成功: userId=U5b0c2621bffbf1956e58bfdbc4569a0d
+[2025-08-13 15:25:24] [INFO] データベース接続を開始します
+[2025-08-13 15:25:24] [INFO] データベース接続成功
+[2025-08-13 15:25:24] [INFO] トランザクション開始
+[2025-08-13 15:25:24] [INFO] 部屋の検証開始: fg#13
+[2025-08-13 15:25:24] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#13"}}
+[2025-08-13 15:25:24] [INFO] 部屋検証成功: ID=13, アクティブ=1
+[2025-08-13 15:25:24] [INFO] アクティブな登録を検索: userId=U5b0c2621bffbf1956e58bfdbc4569a0d
+[2025-08-13 15:25:24] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U5b0c2621bffbf1956e58bfdbc4569a0d"}}
+[2025-08-13 15:25:24] [INFO] アクティブな登録を発見: ID=314, 部屋=fg#13
+[2025-08-13 15:25:24] [INFO] 登録を更新: ID=314 | Context: {"user_id":"U5b0c2621bffbf1956e58bfdbc4569a0d","room_number":"fg#13","user_name":"みな子","check_in_date":"2025-08-13","check_out_date":"2025-08-14"}
+[2025-08-13 15:25:24] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links \n                SET room_number = :roomNumber,\n                    user_name = :userName,\n                    check_in_date = :checkInDate,\n                    check_out_date = :checkOutDate,\n                    is_active = 1\n                WHERE id = :id","params":{":id":314,":roomNumber":"fg#13",":userName":"みな子",":checkInDate":"2025-08-13",":checkOutDate":"2025-08-14"}}
+[2025-08-13 15:25:24] [INFO] 登録更新完了: 変更なし
+[2025-08-13 15:25:24] [INFO] トランザクションコミット成功
+[2025-08-13 15:25:24] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号情報が更新されました","registration_id":314,"registration_type":"update"}
+[2025-08-13 15:25:24] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-13 15:31:29] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-13 15:31:29] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-13 15:31:29] [DEBUG] 受信POSTデータ | Context: {"size":673}
+[2025-08-13 15:31:29] [INFO] 処理パラメータ | Context: {"room":"fg#05","user":"Mariko","checkIn":"2025-08-13","checkOut":"2025-08-14","force":false}
+[2025-08-13 15:31:29] [INFO] IDトークンを検証: eyJraWQiOiIwZjdhYzBm...
+[2025-08-13 15:31:29] [DEBUG] トークン検証開始: eyJraWQiOiIwZjdhYzBm...
+[2025-08-13 15:31:29] [DEBUG] トークンヘッダー | Context: {"kid":"0f7ac0f8a22e131b5fe75a9ce1699aca150f7f6c0ed75e282b3bf7fb097a763e","typ":"JWT","alg":"ES256"}
+[2025-08-13 15:31:29] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U5bebb936f776968973c18a81bc617f47","aud":"2007363986","exp":1755070206,"iat":1755066606,"name":"Mariko","picture":"https://profile.line-scdn.net/ch/v2/p/ua8aa2d3f7e6ca76ec96ca615e4f989ae/1351049511057"}
+[2025-08-13 15:31:29] [DEBUG] トークンの有効期限: 2025-08-13 16:30:06
+[2025-08-13 15:31:29] [INFO] トークン検証成功: ユーザーID U5bebb936f776968973c18a81bc617f47
+[2025-08-13 15:31:29] [INFO] IDトークン検証成功: userId=U5bebb936f776968973c18a81bc617f47
+[2025-08-13 15:31:29] [INFO] データベース接続を開始します
+[2025-08-13 15:31:29] [INFO] データベース接続成功
+[2025-08-13 15:31:29] [INFO] トランザクション開始
+[2025-08-13 15:31:29] [INFO] 部屋の検証開始: fg#05
+[2025-08-13 15:31:29] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#05"}}
+[2025-08-13 15:31:29] [INFO] 部屋検証成功: ID=5, アクティブ=1
+[2025-08-13 15:31:29] [INFO] アクティブな登録を検索: userId=U5bebb936f776968973c18a81bc617f47
+[2025-08-13 15:31:29] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U5bebb936f776968973c18a81bc617f47"}}
+[2025-08-13 15:31:29] [INFO] アクティブな登録なし
+[2025-08-13 15:31:29] [INFO] 既存登録を非アクティブ化: userId=U5bebb936f776968973c18a81bc617f47
+[2025-08-13 15:31:29] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U5bebb936f776968973c18a81bc617f47"}}
+[2025-08-13 15:31:29] [INFO] 非アクティブ化した登録数: 0
+[2025-08-13 15:31:29] [INFO] 新規登録を作成 | Context: {"user_id":"U5bebb936f776968973c18a81bc617f47","room_number":"fg#05","user_name":"Mariko","check_in_date":"2025-08-13","check_out_date":"2025-08-14"}
+[2025-08-13 15:31:29] [INFO] 非アクティブな登録を検索: userId=U5bebb936f776968973c18a81bc617f47
+[2025-08-13 15:31:29] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U5bebb936f776968973c18a81bc617f47"}}
+[2025-08-13 15:31:29] [INFO] 非アクティブな登録なし
+[2025-08-13 15:31:29] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U5bebb936f776968973c18a81bc617f47",":roomNumber":"fg#05",":userName":"Mariko",":checkInDate":"2025-08-13",":checkOutDate":"2025-08-14"}}
+[2025-08-13 15:31:29] [INFO] 新規登録作成完了: ID=315
+[2025-08-13 15:31:29] [INFO] トランザクションコミット成功
+[2025-08-13 15:31:29] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"315","registration_type":"new"}
+[2025-08-13 15:31:29] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-13 15:41:09] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-13 15:41:09] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-13 15:41:09] [DEBUG] 受信POSTデータ | Context: {"size":710}
+[2025-08-13 15:41:09] [INFO] 処理パラメータ | Context: {"room":"fg#02","user":"わたる","checkIn":"2025-08-13","checkOut":"2025-08-14","force":false}
+[2025-08-13 15:41:09] [INFO] IDトークンを検証: eyJraWQiOiJhMmE0NTlh...
+[2025-08-13 15:41:09] [DEBUG] トークン検証開始: eyJraWQiOiJhMmE0NTlh...
+[2025-08-13 15:41:09] [DEBUG] トークンヘッダー | Context: {"kid":"a2a459aec5b65fa4e8add5c7697c79be445ae312bbcd6eef8fe09b5bb826cf3d","typ":"JWT","alg":"ES256"}
+[2025-08-13 15:41:09] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"Uc298ae555b0dc63c4c2831cd801b989a","aud":"2007363986","exp":1755070857,"iat":1755067257,"name":"わたる","picture":"https://profile.line-scdn.net/0heJovpbPROmVSDypeLYhFMm5KNAglITwtKmslVnUHMwUoPS03Zz58ByJbZlR9ay80OztzAHAKN1F5"}
+[2025-08-13 15:41:09] [DEBUG] トークンの有効期限: 2025-08-13 16:40:57
+[2025-08-13 15:41:09] [INFO] トークン検証成功: ユーザーID Uc298ae555b0dc63c4c2831cd801b989a
+[2025-08-13 15:41:09] [INFO] IDトークン検証成功: userId=Uc298ae555b0dc63c4c2831cd801b989a
+[2025-08-13 15:41:09] [INFO] データベース接続を開始します
+[2025-08-13 15:41:09] [INFO] データベース接続成功
+[2025-08-13 15:41:09] [INFO] トランザクション開始
+[2025-08-13 15:41:09] [INFO] 部屋の検証開始: fg#02
+[2025-08-13 15:41:09] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#02"}}
+[2025-08-13 15:41:09] [INFO] 部屋検証成功: ID=2, アクティブ=1
+[2025-08-13 15:41:09] [INFO] アクティブな登録を検索: userId=Uc298ae555b0dc63c4c2831cd801b989a
+[2025-08-13 15:41:09] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"Uc298ae555b0dc63c4c2831cd801b989a"}}
+[2025-08-13 15:41:09] [INFO] アクティブな登録なし
+[2025-08-13 15:41:09] [INFO] 既存登録を非アクティブ化: userId=Uc298ae555b0dc63c4c2831cd801b989a
+[2025-08-13 15:41:09] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"Uc298ae555b0dc63c4c2831cd801b989a"}}
+[2025-08-13 15:41:09] [INFO] 非アクティブ化した登録数: 0
+[2025-08-13 15:41:09] [INFO] 新規登録を作成 | Context: {"user_id":"Uc298ae555b0dc63c4c2831cd801b989a","room_number":"fg#02","user_name":"わたる","check_in_date":"2025-08-13","check_out_date":"2025-08-14"}
+[2025-08-13 15:41:09] [INFO] 非アクティブな登録を検索: userId=Uc298ae555b0dc63c4c2831cd801b989a
+[2025-08-13 15:41:09] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"Uc298ae555b0dc63c4c2831cd801b989a"}}
+[2025-08-13 15:41:09] [INFO] 非アクティブな登録なし
+[2025-08-13 15:41:09] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"Uc298ae555b0dc63c4c2831cd801b989a",":roomNumber":"fg#02",":userName":"わたる",":checkInDate":"2025-08-13",":checkOutDate":"2025-08-14"}}
+[2025-08-13 15:41:09] [INFO] 新規登録作成完了: ID=316
+[2025-08-13 15:41:09] [INFO] トランザクションコミット成功
+[2025-08-13 15:41:09] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"316","registration_type":"new"}
+[2025-08-13 15:41:09] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-13 15:43:49] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-13 15:43:49] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-13 15:43:49] [DEBUG] 受信POSTデータ | Context: {"size":815}
+[2025-08-13 15:43:49] [INFO] 処理パラメータ | Context: {"room":"fg#08","user":"Mina","checkIn":"2025-08-13","checkOut":"2025-08-14","force":false}
+[2025-08-13 15:43:49] [INFO] IDトークンを検証: eyJraWQiOiJlNmE2OTE5...
+[2025-08-13 15:43:49] [DEBUG] トークン検証開始: eyJraWQiOiJlNmE2OTE5...
+[2025-08-13 15:43:49] [DEBUG] トークンヘッダー | Context: {"kid":"e6a6919386169ba54de9dd336b41479a01012dc0c428baae2de18e59ee2146db","typ":"JWT","alg":"ES256"}
+[2025-08-13 15:43:49] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"Udc97a54ea3c598874365da85cbadd7ea","aud":"2007363986","exp":1755071016,"iat":1755067416,"name":"Mina","picture":"https://profile.line-scdn.net/0h6mWsjkjcaUJqCncKnKEWFRdPZy8dJG8KEmoncEgDPntPM34cVTx1IRgNM3FBPS8QAWVzI04IZSESJX5DPQpOVgZ_TxNbfHRrAHBgbSRCUDIeXnNdUismIwxyZyhEZCdJFjF5bUlrTShHJl5PMQlDQxNZTXoHTHQRKTk"}
+[2025-08-13 15:43:49] [DEBUG] トークンの有効期限: 2025-08-13 16:43:36
+[2025-08-13 15:43:49] [INFO] トークン検証成功: ユーザーID Udc97a54ea3c598874365da85cbadd7ea
+[2025-08-13 15:43:49] [INFO] IDトークン検証成功: userId=Udc97a54ea3c598874365da85cbadd7ea
+[2025-08-13 15:43:49] [INFO] データベース接続を開始します
+[2025-08-13 15:43:49] [INFO] データベース接続成功
+[2025-08-13 15:43:49] [INFO] トランザクション開始
+[2025-08-13 15:43:49] [INFO] 部屋の検証開始: fg#08
+[2025-08-13 15:43:49] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#08"}}
+[2025-08-13 15:43:49] [INFO] 部屋検証成功: ID=8, アクティブ=1
+[2025-08-13 15:43:49] [INFO] アクティブな登録を検索: userId=Udc97a54ea3c598874365da85cbadd7ea
+[2025-08-13 15:43:49] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"Udc97a54ea3c598874365da85cbadd7ea"}}
+[2025-08-13 15:43:49] [INFO] アクティブな登録なし
+[2025-08-13 15:43:49] [INFO] 既存登録を非アクティブ化: userId=Udc97a54ea3c598874365da85cbadd7ea
+[2025-08-13 15:43:49] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"Udc97a54ea3c598874365da85cbadd7ea"}}
+[2025-08-13 15:43:49] [INFO] 非アクティブ化した登録数: 0
+[2025-08-13 15:43:49] [INFO] 新規登録を作成 | Context: {"user_id":"Udc97a54ea3c598874365da85cbadd7ea","room_number":"fg#08","user_name":"Mina","check_in_date":"2025-08-13","check_out_date":"2025-08-14"}
+[2025-08-13 15:43:49] [INFO] 非アクティブな登録を検索: userId=Udc97a54ea3c598874365da85cbadd7ea
+[2025-08-13 15:43:49] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"Udc97a54ea3c598874365da85cbadd7ea"}}
+[2025-08-13 15:43:49] [INFO] 非アクティブな登録なし
+[2025-08-13 15:43:49] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"Udc97a54ea3c598874365da85cbadd7ea",":roomNumber":"fg#08",":userName":"Mina",":checkInDate":"2025-08-13",":checkOutDate":"2025-08-14"}}
+[2025-08-13 15:43:49] [INFO] 新規登録作成完了: ID=317
+[2025-08-13 15:43:49] [INFO] トランザクションコミット成功
+[2025-08-13 15:43:49] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"317","registration_type":"new"}
+[2025-08-13 15:43:49] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-13 16:18:33] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-13 16:18:33] [INFO] リクエスト元IPアドレス: 153.216.241.137
+[2025-08-13 16:18:33] [DEBUG] 受信POSTデータ | Context: {"size":749}
+[2025-08-13 16:18:33] [INFO] 処理パラメータ | Context: {"room":"fg#12","user":"倉田柚有","checkIn":"2025-08-13","checkOut":"2025-08-14","force":false}
+[2025-08-13 16:18:33] [INFO] IDトークンを検証: eyJraWQiOiJmYTEzNDA0...
+[2025-08-13 16:18:33] [DEBUG] トークン検証開始: eyJraWQiOiJmYTEzNDA0...
+[2025-08-13 16:18:33] [DEBUG] トークンヘッダー | Context: {"kid":"fa134042993a4a1717e4ee16b0c48f354de6171f850155971885038288fb92c9","typ":"JWT","alg":"ES256"}
+[2025-08-13 16:18:33] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U9e1f5c66b4a26fd0c33c890ad826b192","aud":"2007363986","exp":1755073110,"iat":1755069510,"amr":["lineautologin"],"name":"倉田柚有","picture":"https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w"}
+[2025-08-13 16:18:33] [DEBUG] トークンの有効期限: 2025-08-13 17:18:30
+[2025-08-13 16:18:33] [INFO] トークン検証成功: ユーザーID U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-13 16:18:33] [INFO] IDトークン検証成功: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-13 16:18:33] [INFO] データベース接続を開始します
+[2025-08-13 16:18:33] [INFO] データベース接続成功
+[2025-08-13 16:18:33] [INFO] トランザクション開始
+[2025-08-13 16:18:33] [INFO] 部屋の検証開始: fg#12
+[2025-08-13 16:18:33] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#12"}}
+[2025-08-13 16:18:33] [INFO] 部屋検証成功: ID=12, アクティブ=1
+[2025-08-13 16:18:33] [INFO] アクティブな登録を検索: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-13 16:18:33] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-13 16:18:33] [INFO] アクティブな登録なし
+[2025-08-13 16:18:33] [INFO] 既存登録を非アクティブ化: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-13 16:18:33] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-13 16:18:33] [INFO] 非アクティブ化した登録数: 0
+[2025-08-13 16:18:33] [INFO] 新規登録を作成 | Context: {"user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","user_name":"倉田柚有","check_in_date":"2025-08-13","check_out_date":"2025-08-14"}
+[2025-08-13 16:18:33] [INFO] 非アクティブな登録を検索: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-13 16:18:33] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-13 16:18:33] [INFO] 非アクティブな登録を発見: ID=282, 部屋=fg#12
+[2025-08-13 16:18:33] [INFO] 既存の非アクティブレコードを再利用: ID=282
+[2025-08-13 16:18:33] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links \n                    SET room_number = :roomNumber,\n                        user_name = :userName,\n                        check_in_date = :checkInDate,\n                        check_out_date = :checkOutDate,\n                        is_active = 1\n                    WHERE id = :id","params":{":id":282,":roomNumber":"fg#12",":userName":"倉田柚有",":checkInDate":"2025-08-13",":checkOutDate":"2025-08-14"}}
+[2025-08-13 16:18:33] [INFO] 既存レコード更新完了: ID=282
+[2025-08-13 16:18:33] [INFO] トランザクションコミット成功
+[2025-08-13 16:18:33] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":282,"registration_type":"new"}
+[2025-08-13 16:18:33] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-13 16:27:25] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-13 16:27:25] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-13 16:27:25] [DEBUG] 受信POSTデータ | Context: {"size":693}
+[2025-08-13 16:27:25] [INFO] 処理パラメータ | Context: {"room":"fg#04","user":"ノリツグ","checkIn":"2025-08-13","checkOut":"2025-08-14","force":false}
+[2025-08-13 16:27:25] [INFO] IDトークンを検証: eyJraWQiOiJmZTFlOGQ4...
+[2025-08-13 16:27:25] [DEBUG] トークン検証開始: eyJraWQiOiJmZTFlOGQ4...
+[2025-08-13 16:27:25] [DEBUG] トークンヘッダー | Context: {"kid":"fe1e8d888ec664cd2afef479c5db79692cd01aacd141483a54339351f395fa27","typ":"JWT","alg":"ES256"}
+[2025-08-13 16:27:25] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U5a35e52911f818ac982c9fc7d3f3e8e8","aud":"2007363986","exp":1755073577,"iat":1755069977,"amr":["pwd"],"name":"ノリツグ","picture":"https://profile.line-scdn.net/0m04a697fc7251d9de2c768dc23153e397118284b63830"}
+[2025-08-13 16:27:25] [DEBUG] トークンの有効期限: 2025-08-13 17:26:17
+[2025-08-13 16:27:25] [INFO] トークン検証成功: ユーザーID U5a35e52911f818ac982c9fc7d3f3e8e8
+[2025-08-13 16:27:25] [INFO] IDトークン検証成功: userId=U5a35e52911f818ac982c9fc7d3f3e8e8
+[2025-08-13 16:27:25] [INFO] データベース接続を開始します
+[2025-08-13 16:27:25] [INFO] データベース接続成功
+[2025-08-13 16:27:25] [INFO] トランザクション開始
+[2025-08-13 16:27:25] [INFO] 部屋の検証開始: fg#04
+[2025-08-13 16:27:25] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#04"}}
+[2025-08-13 16:27:25] [INFO] 部屋検証成功: ID=4, アクティブ=1
+[2025-08-13 16:27:25] [INFO] アクティブな登録を検索: userId=U5a35e52911f818ac982c9fc7d3f3e8e8
+[2025-08-13 16:27:25] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U5a35e52911f818ac982c9fc7d3f3e8e8"}}
+[2025-08-13 16:27:25] [INFO] アクティブな登録なし
+[2025-08-13 16:27:25] [INFO] 既存登録を非アクティブ化: userId=U5a35e52911f818ac982c9fc7d3f3e8e8
+[2025-08-13 16:27:25] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U5a35e52911f818ac982c9fc7d3f3e8e8"}}
+[2025-08-13 16:27:25] [INFO] 非アクティブ化した登録数: 0
+[2025-08-13 16:27:25] [INFO] 新規登録を作成 | Context: {"user_id":"U5a35e52911f818ac982c9fc7d3f3e8e8","room_number":"fg#04","user_name":"ノリツグ","check_in_date":"2025-08-13","check_out_date":"2025-08-14"}
+[2025-08-13 16:27:25] [INFO] 非アクティブな登録を検索: userId=U5a35e52911f818ac982c9fc7d3f3e8e8
+[2025-08-13 16:27:25] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U5a35e52911f818ac982c9fc7d3f3e8e8"}}
+[2025-08-13 16:27:25] [INFO] 非アクティブな登録なし
+[2025-08-13 16:27:25] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U5a35e52911f818ac982c9fc7d3f3e8e8",":roomNumber":"fg#04",":userName":"ノリツグ",":checkInDate":"2025-08-13",":checkOutDate":"2025-08-14"}}
+[2025-08-13 16:27:25] [INFO] 新規登録作成完了: ID=318
+[2025-08-13 16:27:25] [INFO] トランザクションコミット成功
+[2025-08-13 16:27:25] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"318","registration_type":"new"}
+[2025-08-13 16:27:25] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-13 16:32:40] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-13 16:32:40] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-13 16:32:40] [DEBUG] 受信POSTデータ | Context: {"size":673}
+[2025-08-13 16:32:40] [INFO] 処理パラメータ | Context: {"room":"fg#05","user":"Mariko","checkIn":"2025-08-13","checkOut":"2025-08-14","force":false}
+[2025-08-13 16:32:40] [INFO] IDトークンを検証: eyJraWQiOiJhNTI0YTQw...
+[2025-08-13 16:32:40] [DEBUG] トークン検証開始: eyJraWQiOiJhNTI0YTQw...
+[2025-08-13 16:32:40] [DEBUG] トークンヘッダー | Context: {"kid":"a524a404e7a97d35dc64633756305525ed2dc4a5b48a130736f74e9a3a5d4b1d","typ":"JWT","alg":"ES256"}
+[2025-08-13 16:32:40] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U5bebb936f776968973c18a81bc617f47","aud":"2007363986","exp":1755073949,"iat":1755070349,"name":"Mariko","picture":"https://profile.line-scdn.net/ch/v2/p/ua8aa2d3f7e6ca76ec96ca615e4f989ae/1351049511057"}
+[2025-08-13 16:32:40] [DEBUG] トークンの有効期限: 2025-08-13 17:32:29
+[2025-08-13 16:32:40] [INFO] トークン検証成功: ユーザーID U5bebb936f776968973c18a81bc617f47
+[2025-08-13 16:32:40] [INFO] IDトークン検証成功: userId=U5bebb936f776968973c18a81bc617f47
+[2025-08-13 16:32:40] [INFO] データベース接続を開始します
+[2025-08-13 16:32:40] [INFO] データベース接続成功
+[2025-08-13 16:32:40] [INFO] トランザクション開始
+[2025-08-13 16:32:40] [INFO] 部屋の検証開始: fg#05
+[2025-08-13 16:32:40] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#05"}}
+[2025-08-13 16:32:40] [INFO] 部屋検証成功: ID=5, アクティブ=1
+[2025-08-13 16:32:40] [INFO] アクティブな登録を検索: userId=U5bebb936f776968973c18a81bc617f47
+[2025-08-13 16:32:40] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U5bebb936f776968973c18a81bc617f47"}}
+[2025-08-13 16:32:40] [INFO] アクティブな登録を発見: ID=315, 部屋=fg#05
+[2025-08-13 16:32:40] [INFO] 登録を更新: ID=315 | Context: {"user_id":"U5bebb936f776968973c18a81bc617f47","room_number":"fg#05","user_name":"Mariko","check_in_date":"2025-08-13","check_out_date":"2025-08-14"}
+[2025-08-13 16:32:40] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links \n                SET room_number = :roomNumber,\n                    user_name = :userName,\n                    check_in_date = :checkInDate,\n                    check_out_date = :checkOutDate,\n                    is_active = 1\n                WHERE id = :id","params":{":id":315,":roomNumber":"fg#05",":userName":"Mariko",":checkInDate":"2025-08-13",":checkOutDate":"2025-08-14"}}
+[2025-08-13 16:32:40] [INFO] 登録更新完了: 変更なし
+[2025-08-13 16:32:40] [INFO] トランザクションコミット成功
+[2025-08-13 16:32:40] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号情報が更新されました","registration_id":315,"registration_type":"update"}
+[2025-08-13 16:32:40] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-13 16:52:08] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-13 16:52:08] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-13 16:52:08] [DEBUG] 受信POSTデータ | Context: {"size":822}
+[2025-08-13 16:52:08] [INFO] 処理パラメータ | Context: {"room":"fg#01","user":"Natsumi","checkIn":"2025-08-13","checkOut":"2025-08-15","force":false}
+[2025-08-13 16:52:08] [INFO] IDトークンを検証: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 16:52:08] [DEBUG] トークン検証開始: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 16:52:08] [DEBUG] トークンヘッダー | Context: {"kid":"c6f34e863d3e5e32ba32081402d8b3e10e8edb638568a57b2716c0f30f567103","typ":"JWT","alg":"ES256"}
+[2025-08-13 16:52:08] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U3f3fc4cd92342aa87a4d43276cd5a6e9","aud":"2007363986","exp":1755075072,"iat":1755071472,"name":"Natsumi","picture":"https://profile.line-scdn.net/0hkDTAYZyfNGtpOCXRjYJLPBR9OgYeFjIjEQsoDkVsPglDXyY7Uld8CE49Yg4TXHRvAA5_WE89bAhEF3J-JykgViJQbBMdAQ9PLiB_cBduIzxDa3RYKy1nCDBsakcESAddUA4kBQh4CzoxC3RNUTgBaDdeCBMnXiFPBzk"}
+[2025-08-13 16:52:08] [DEBUG] トークンの有効期限: 2025-08-13 17:51:12
+[2025-08-13 16:52:08] [INFO] トークン検証成功: ユーザーID U3f3fc4cd92342aa87a4d43276cd5a6e9
+[2025-08-13 16:52:08] [INFO] IDトークン検証成功: userId=U3f3fc4cd92342aa87a4d43276cd5a6e9
+[2025-08-13 16:52:08] [INFO] データベース接続を開始します
+[2025-08-13 16:52:08] [INFO] データベース接続成功
+[2025-08-13 16:52:08] [INFO] トランザクション開始
+[2025-08-13 16:52:08] [INFO] 部屋の検証開始: fg#01
+[2025-08-13 16:52:08] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#01"}}
+[2025-08-13 16:52:08] [INFO] 部屋検証成功: ID=1, アクティブ=1
+[2025-08-13 16:52:08] [INFO] アクティブな登録を検索: userId=U3f3fc4cd92342aa87a4d43276cd5a6e9
+[2025-08-13 16:52:08] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U3f3fc4cd92342aa87a4d43276cd5a6e9"}}
+[2025-08-13 16:52:08] [INFO] アクティブな登録なし
+[2025-08-13 16:52:08] [INFO] 既存登録を非アクティブ化: userId=U3f3fc4cd92342aa87a4d43276cd5a6e9
+[2025-08-13 16:52:08] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U3f3fc4cd92342aa87a4d43276cd5a6e9"}}
+[2025-08-13 16:52:08] [INFO] 非アクティブ化した登録数: 0
+[2025-08-13 16:52:08] [INFO] 新規登録を作成 | Context: {"user_id":"U3f3fc4cd92342aa87a4d43276cd5a6e9","room_number":"fg#01","user_name":"Natsumi","check_in_date":"2025-08-13","check_out_date":"2025-08-15"}
+[2025-08-13 16:52:08] [INFO] 非アクティブな登録を検索: userId=U3f3fc4cd92342aa87a4d43276cd5a6e9
+[2025-08-13 16:52:08] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U3f3fc4cd92342aa87a4d43276cd5a6e9"}}
+[2025-08-13 16:52:08] [INFO] 非アクティブな登録なし
+[2025-08-13 16:52:08] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U3f3fc4cd92342aa87a4d43276cd5a6e9",":roomNumber":"fg#01",":userName":"Natsumi",":checkInDate":"2025-08-13",":checkOutDate":"2025-08-15"}}
+[2025-08-13 16:52:08] [INFO] 新規登録作成完了: ID=319
+[2025-08-13 16:52:08] [INFO] トランザクションコミット成功
+[2025-08-13 16:52:08] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"319","registration_type":"new"}
+[2025-08-13 16:52:08] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-13 17:46:26] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-13 17:46:26] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-13 17:46:26] [DEBUG] 受信POSTデータ | Context: {"size":822}
+[2025-08-13 17:46:26] [INFO] 処理パラメータ | Context: {"room":"fg#01","user":"Natsumi","checkIn":"2025-08-13","checkOut":"2025-08-15","force":false}
+[2025-08-13 17:46:26] [INFO] IDトークンを検証: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:46:26] [DEBUG] トークン検証開始: eyJraWQiOiJjNmYzNGU4...
+[2025-08-13 17:46:26] [DEBUG] トークンヘッダー | Context: {"kid":"c6f34e863d3e5e32ba32081402d8b3e10e8edb638568a57b2716c0f30f567103","typ":"JWT","alg":"ES256"}
+[2025-08-13 17:46:26] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U3f3fc4cd92342aa87a4d43276cd5a6e9","aud":"2007363986","exp":1755075072,"iat":1755071472,"name":"Natsumi","picture":"https://profile.line-scdn.net/0hkDTAYZyfNGtpOCXRjYJLPBR9OgYeFjIjEQsoDkVsPglDXyY7Uld8CE49Yg4TXHRvAA5_WE89bAhEF3J-JykgViJQbBMdAQ9PLiB_cBduIzxDa3RYKy1nCDBsakcESAddUA4kBQh4CzoxC3RNUTgBaDdeCBMnXiFPBzk"}
+[2025-08-13 17:46:26] [DEBUG] トークンの有効期限: 2025-08-13 17:51:12
+[2025-08-13 17:46:26] [INFO] トークン検証成功: ユーザーID U3f3fc4cd92342aa87a4d43276cd5a6e9
+[2025-08-13 17:46:26] [INFO] IDトークン検証成功: userId=U3f3fc4cd92342aa87a4d43276cd5a6e9
+[2025-08-13 17:46:26] [INFO] データベース接続を開始します
+[2025-08-13 17:46:26] [INFO] データベース接続成功
+[2025-08-13 17:46:26] [INFO] トランザクション開始
+[2025-08-13 17:46:26] [INFO] 部屋の検証開始: fg#01
+[2025-08-13 17:46:26] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#01"}}
+[2025-08-13 17:46:26] [INFO] 部屋検証成功: ID=1, アクティブ=1
+[2025-08-13 17:46:26] [INFO] アクティブな登録を検索: userId=U3f3fc4cd92342aa87a4d43276cd5a6e9
+[2025-08-13 17:46:26] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U3f3fc4cd92342aa87a4d43276cd5a6e9"}}
+[2025-08-13 17:46:26] [INFO] アクティブな登録を発見: ID=319, 部屋=fg#01
+[2025-08-13 17:46:26] [INFO] 登録を更新: ID=319 | Context: {"user_id":"U3f3fc4cd92342aa87a4d43276cd5a6e9","room_number":"fg#01","user_name":"Natsumi","check_in_date":"2025-08-13","check_out_date":"2025-08-15"}
+[2025-08-13 17:46:26] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links \n                SET room_number = :roomNumber,\n                    user_name = :userName,\n                    check_in_date = :checkInDate,\n                    check_out_date = :checkOutDate,\n                    is_active = 1\n                WHERE id = :id","params":{":id":319,":roomNumber":"fg#01",":userName":"Natsumi",":checkInDate":"2025-08-13",":checkOutDate":"2025-08-15"}}
+[2025-08-13 17:46:26] [INFO] 登録更新完了: 変更なし
+[2025-08-13 17:46:26] [INFO] トランザクションコミット成功
+[2025-08-13 17:46:26] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号情報が更新されました","registration_id":319,"registration_type":"update"}
+[2025-08-13 17:46:26] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-13 18:57:17] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-13 18:57:17] [INFO] リクエスト元IPアドレス: 124.45.140.249
+[2025-08-13 18:57:17] [DEBUG] 受信POSTデータ | Context: {"size":763}
+[2025-08-13 18:57:17] [INFO] 処理パラメータ | Context: {"room":"fg#03","user":"民部田ひかり","checkIn":"2025-08-13","checkOut":"2025-08-14","force":false}
+[2025-08-13 18:57:17] [INFO] IDトークンを検証: eyJraWQiOiI3ZjMxMTU5...
+[2025-08-13 18:57:17] [DEBUG] トークン検証開始: eyJraWQiOiI3ZjMxMTU5...
+[2025-08-13 18:57:17] [DEBUG] トークンヘッダー | Context: {"kid":"7f31159a65aa4bf1ddf342b57170dd7467e92d12e84c24ca20e1442553b3f08c","typ":"JWT","alg":"ES256"}
+[2025-08-13 18:57:17] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U61eef2c7ed92910555b670370357818c","aud":"2007363986","exp":1755082622,"iat":1755079022,"amr":["lineautologin"],"name":"民部田ひかり","picture":"https://profile.line-scdn.net/0hbnIBamv4PUF0OyoQWbBCFkh-MywDFTsJDF17JVA4MXdYDi8eHVQiL1gyY3MMWS9AQVh2JVJra3IL"}
+[2025-08-13 18:57:17] [DEBUG] トークンの有効期限: 2025-08-13 19:57:02
+[2025-08-13 18:57:17] [INFO] トークン検証成功: ユーザーID U61eef2c7ed92910555b670370357818c
+[2025-08-13 18:57:17] [INFO] IDトークン検証成功: userId=U61eef2c7ed92910555b670370357818c
+[2025-08-13 18:57:17] [INFO] データベース接続を開始します
+[2025-08-13 18:57:17] [INFO] データベース接続成功
+[2025-08-13 18:57:17] [INFO] トランザクション開始
+[2025-08-13 18:57:17] [INFO] 部屋の検証開始: fg#03
+[2025-08-13 18:57:17] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#03"}}
+[2025-08-13 18:57:17] [INFO] 部屋検証成功: ID=3, アクティブ=1
+[2025-08-13 18:57:17] [INFO] アクティブな登録を検索: userId=U61eef2c7ed92910555b670370357818c
+[2025-08-13 18:57:17] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U61eef2c7ed92910555b670370357818c"}}
+[2025-08-13 18:57:17] [INFO] アクティブな登録なし
+[2025-08-13 18:57:17] [INFO] 既存登録を非アクティブ化: userId=U61eef2c7ed92910555b670370357818c
+[2025-08-13 18:57:17] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U61eef2c7ed92910555b670370357818c"}}
+[2025-08-13 18:57:17] [INFO] 非アクティブ化した登録数: 0
+[2025-08-13 18:57:17] [INFO] 新規登録を作成 | Context: {"user_id":"U61eef2c7ed92910555b670370357818c","room_number":"fg#03","user_name":"民部田ひかり","check_in_date":"2025-08-13","check_out_date":"2025-08-14"}
+[2025-08-13 18:57:17] [INFO] 非アクティブな登録を検索: userId=U61eef2c7ed92910555b670370357818c
+[2025-08-13 18:57:17] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U61eef2c7ed92910555b670370357818c"}}
+[2025-08-13 18:57:17] [INFO] 非アクティブな登録なし
+[2025-08-13 18:57:17] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U61eef2c7ed92910555b670370357818c",":roomNumber":"fg#03",":userName":"民部田ひかり",":checkInDate":"2025-08-13",":checkOutDate":"2025-08-14"}}
+[2025-08-13 18:57:17] [INFO] 新規登録作成完了: ID=320
+[2025-08-13 18:57:17] [INFO] トランザクションコミット成功
+[2025-08-13 18:57:17] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"320","registration_type":"new"}
+[2025-08-13 18:57:17] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-14 05:19:07] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-14 05:19:07] [INFO] リクエスト元IPアドレス: 27.94.206.33
+[2025-08-14 05:19:07] [DEBUG] 受信POSTデータ | Context: {"size":749}
+[2025-08-14 05:19:07] [INFO] 処理パラメータ | Context: {"room":"fg#12","user":"倉田柚有","checkIn":"2025-08-14","checkOut":"2025-08-15","force":false}
+[2025-08-14 05:19:07] [INFO] IDトークンを検証: eyJraWQiOiI3ZjMxMTU5...
+[2025-08-14 05:19:07] [DEBUG] トークン検証開始: eyJraWQiOiI3ZjMxMTU5...
+[2025-08-14 05:19:07] [DEBUG] トークンヘッダー | Context: {"kid":"7f31159a65aa4bf1ddf342b57170dd7467e92d12e84c24ca20e1442553b3f08c","typ":"JWT","alg":"ES256"}
+[2025-08-14 05:19:07] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U9e1f5c66b4a26fd0c33c890ad826b192","aud":"2007363986","exp":1755119908,"iat":1755116308,"amr":["lineautologin"],"name":"倉田柚有","picture":"https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w"}
+[2025-08-14 05:19:07] [DEBUG] トークンの有効期限: 2025-08-14 06:18:28
+[2025-08-14 05:19:07] [INFO] トークン検証成功: ユーザーID U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 05:19:07] [INFO] IDトークン検証成功: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 05:19:07] [INFO] データベース接続を開始します
+[2025-08-14 05:19:07] [INFO] データベース接続成功
+[2025-08-14 05:19:07] [INFO] トランザクション開始
+[2025-08-14 05:19:07] [INFO] 部屋の検証開始: fg#12
+[2025-08-14 05:19:07] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#12"}}
+[2025-08-14 05:19:07] [INFO] 部屋検証成功: ID=12, アクティブ=1
+[2025-08-14 05:19:07] [INFO] アクティブな登録を検索: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 05:19:07] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 05:19:07] [INFO] アクティブな登録なし
+[2025-08-14 05:19:07] [INFO] 既存登録を非アクティブ化: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 05:19:07] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 05:19:07] [INFO] 非アクティブ化した登録数: 0
+[2025-08-14 05:19:07] [INFO] 新規登録を作成 | Context: {"user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","user_name":"倉田柚有","check_in_date":"2025-08-14","check_out_date":"2025-08-15"}
+[2025-08-14 05:19:07] [INFO] 非アクティブな登録を検索: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 05:19:07] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 05:19:07] [INFO] 非アクティブな登録なし
+[2025-08-14 05:19:07] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192",":roomNumber":"fg#12",":userName":"倉田柚有",":checkInDate":"2025-08-14",":checkOutDate":"2025-08-15"}}
+[2025-08-14 05:19:07] [INFO] 新規登録作成完了: ID=321
+[2025-08-14 05:19:07] [INFO] トランザクションコミット成功
+[2025-08-14 05:19:07] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"321","registration_type":"new"}
+[2025-08-14 05:19:07] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-14 07:06:54] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-14 07:06:54] [INFO] リクエスト元IPアドレス: 27.94.206.33
+[2025-08-14 07:06:54] [DEBUG] 受信POSTデータ | Context: {"size":749}
+[2025-08-14 07:06:54] [INFO] 処理パラメータ | Context: {"room":"fg#12","user":"倉田柚有","checkIn":"2025-08-14","checkOut":"2025-08-15","force":false}
+[2025-08-14 07:06:54] [INFO] IDトークンを検証: eyJraWQiOiJhMmZkNTE4...
+[2025-08-14 07:06:54] [DEBUG] トークン検証開始: eyJraWQiOiJhMmZkNTE4...
+[2025-08-14 07:06:54] [DEBUG] トークンヘッダー | Context: {"kid":"a2fd5181692cc6daf799905d0dcd7b0826b458c9fe794b9056fc7b4db61cfba4","typ":"JWT","alg":"ES256"}
+[2025-08-14 07:06:54] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U9e1f5c66b4a26fd0c33c890ad826b192","aud":"2007363986","exp":1755126407,"iat":1755122807,"amr":["lineautologin"],"name":"倉田柚有","picture":"https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w"}
+[2025-08-14 07:06:54] [DEBUG] トークンの有効期限: 2025-08-14 08:06:47
+[2025-08-14 07:06:54] [INFO] トークン検証成功: ユーザーID U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:06:54] [INFO] IDトークン検証成功: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:06:54] [INFO] データベース接続を開始します
+[2025-08-14 07:06:54] [INFO] データベース接続成功
+[2025-08-14 07:06:54] [INFO] トランザクション開始
+[2025-08-14 07:06:54] [INFO] 部屋の検証開始: fg#12
+[2025-08-14 07:06:54] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#12"}}
+[2025-08-14 07:06:54] [INFO] 部屋検証成功: ID=12, アクティブ=1
+[2025-08-14 07:06:54] [INFO] アクティブな登録を検索: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:06:54] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 07:06:54] [INFO] アクティブな登録なし
+[2025-08-14 07:06:54] [INFO] 既存登録を非アクティブ化: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:06:54] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 07:06:54] [INFO] 非アクティブ化した登録数: 0
+[2025-08-14 07:06:54] [INFO] 新規登録を作成 | Context: {"user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","user_name":"倉田柚有","check_in_date":"2025-08-14","check_out_date":"2025-08-15"}
+[2025-08-14 07:06:54] [INFO] 非アクティブな登録を検索: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:06:54] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 07:06:54] [INFO] 非アクティブな登録なし
+[2025-08-14 07:06:54] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192",":roomNumber":"fg#12",":userName":"倉田柚有",":checkInDate":"2025-08-14",":checkOutDate":"2025-08-15"}}
+[2025-08-14 07:06:54] [INFO] 新規登録作成完了: ID=322
+[2025-08-14 07:06:54] [INFO] トランザクションコミット成功
+[2025-08-14 07:06:54] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"322","registration_type":"new"}
+[2025-08-14 07:06:54] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-14 07:13:50] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-14 07:13:50] [INFO] リクエスト元IPアドレス: 27.94.206.33
+[2025-08-14 07:13:50] [DEBUG] 受信POSTデータ | Context: {"size":749}
+[2025-08-14 07:13:50] [INFO] 処理パラメータ | Context: {"room":"fg#12","user":"倉田柚有","checkIn":"2025-08-14","checkOut":"2025-08-15","force":false}
+[2025-08-14 07:13:50] [INFO] IDトークンを検証: eyJraWQiOiJhMmZkNTE4...
+[2025-08-14 07:13:50] [DEBUG] トークン検証開始: eyJraWQiOiJhMmZkNTE4...
+[2025-08-14 07:13:50] [DEBUG] トークンヘッダー | Context: {"kid":"a2fd5181692cc6daf799905d0dcd7b0826b458c9fe794b9056fc7b4db61cfba4","typ":"JWT","alg":"ES256"}
+[2025-08-14 07:13:50] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U9e1f5c66b4a26fd0c33c890ad826b192","aud":"2007363986","exp":1755126407,"iat":1755122807,"amr":["lineautologin"],"name":"倉田柚有","picture":"https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w"}
+[2025-08-14 07:13:50] [DEBUG] トークンの有効期限: 2025-08-14 08:06:47
+[2025-08-14 07:13:50] [INFO] トークン検証成功: ユーザーID U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:13:50] [INFO] IDトークン検証成功: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:13:50] [INFO] データベース接続を開始します
+[2025-08-14 07:13:50] [INFO] データベース接続成功
+[2025-08-14 07:13:50] [INFO] トランザクション開始
+[2025-08-14 07:13:50] [INFO] 部屋の検証開始: fg#12
+[2025-08-14 07:13:50] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#12"}}
+[2025-08-14 07:13:50] [INFO] 部屋検証成功: ID=12, アクティブ=1
+[2025-08-14 07:13:50] [INFO] アクティブな登録を検索: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:13:50] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 07:13:50] [INFO] アクティブな登録なし
+[2025-08-14 07:13:50] [INFO] 既存登録を非アクティブ化: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:13:50] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 07:13:50] [INFO] 非アクティブ化した登録数: 0
+[2025-08-14 07:13:50] [INFO] 新規登録を作成 | Context: {"user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","user_name":"倉田柚有","check_in_date":"2025-08-14","check_out_date":"2025-08-15"}
+[2025-08-14 07:13:50] [INFO] 非アクティブな登録を検索: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:13:50] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 07:13:50] [INFO] 非アクティブな登録なし
+[2025-08-14 07:13:50] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192",":roomNumber":"fg#12",":userName":"倉田柚有",":checkInDate":"2025-08-14",":checkOutDate":"2025-08-15"}}
+[2025-08-14 07:13:50] [INFO] 新規登録作成完了: ID=323
+[2025-08-14 07:13:50] [INFO] トランザクションコミット成功
+[2025-08-14 07:13:50] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"323","registration_type":"new"}
+[2025-08-14 07:13:50] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-14 07:20:45] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-14 07:20:45] [INFO] リクエスト元IPアドレス: 27.94.206.33
+[2025-08-14 07:20:45] [DEBUG] 受信POSTデータ | Context: {"size":749}
+[2025-08-14 07:20:45] [INFO] 処理パラメータ | Context: {"room":"fg#12","user":"倉田柚有","checkIn":"2025-08-14","checkOut":"2025-08-15","force":false}
+[2025-08-14 07:20:45] [INFO] IDトークンを検証: eyJraWQiOiJhMmZkNTE4...
+[2025-08-14 07:20:45] [DEBUG] トークン検証開始: eyJraWQiOiJhMmZkNTE4...
+[2025-08-14 07:20:45] [DEBUG] トークンヘッダー | Context: {"kid":"a2fd5181692cc6daf799905d0dcd7b0826b458c9fe794b9056fc7b4db61cfba4","typ":"JWT","alg":"ES256"}
+[2025-08-14 07:20:45] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U9e1f5c66b4a26fd0c33c890ad826b192","aud":"2007363986","exp":1755126407,"iat":1755122807,"amr":["lineautologin"],"name":"倉田柚有","picture":"https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w"}
+[2025-08-14 07:20:45] [DEBUG] トークンの有効期限: 2025-08-14 08:06:47
+[2025-08-14 07:20:45] [INFO] トークン検証成功: ユーザーID U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:20:45] [INFO] IDトークン検証成功: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:20:45] [INFO] データベース接続を開始します
+[2025-08-14 07:20:45] [INFO] データベース接続成功
+[2025-08-14 07:20:45] [INFO] トランザクション開始
+[2025-08-14 07:20:45] [INFO] 部屋の検証開始: fg#12
+[2025-08-14 07:20:45] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#12"}}
+[2025-08-14 07:20:45] [INFO] 部屋検証成功: ID=12, アクティブ=1
+[2025-08-14 07:20:45] [INFO] アクティブな登録を検索: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:20:45] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 07:20:45] [INFO] アクティブな登録なし
+[2025-08-14 07:20:45] [INFO] 既存登録を非アクティブ化: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:20:45] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 07:20:45] [INFO] 非アクティブ化した登録数: 0
+[2025-08-14 07:20:45] [INFO] 新規登録を作成 | Context: {"user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","user_name":"倉田柚有","check_in_date":"2025-08-14","check_out_date":"2025-08-15"}
+[2025-08-14 07:20:45] [INFO] 非アクティブな登録を検索: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:20:45] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 07:20:45] [INFO] 非アクティブな登録なし
+[2025-08-14 07:20:45] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192",":roomNumber":"fg#12",":userName":"倉田柚有",":checkInDate":"2025-08-14",":checkOutDate":"2025-08-15"}}
+[2025-08-14 07:20:45] [INFO] 新規登録作成完了: ID=324
+[2025-08-14 07:20:45] [INFO] トランザクションコミット成功
+[2025-08-14 07:20:45] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"324","registration_type":"new"}
+[2025-08-14 07:20:45] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-14 07:28:40] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-14 07:28:40] [INFO] リクエスト元IPアドレス: 27.94.206.33
+[2025-08-14 07:28:40] [DEBUG] 受信POSTデータ | Context: {"size":749}
+[2025-08-14 07:28:40] [INFO] 処理パラメータ | Context: {"room":"fg#12","user":"倉田柚有","checkIn":"2025-08-14","checkOut":"2025-08-15","force":false}
+[2025-08-14 07:28:40] [INFO] IDトークンを検証: eyJraWQiOiJhMmZkNTE4...
+[2025-08-14 07:28:40] [DEBUG] トークン検証開始: eyJraWQiOiJhMmZkNTE4...
+[2025-08-14 07:28:40] [DEBUG] トークンヘッダー | Context: {"kid":"a2fd5181692cc6daf799905d0dcd7b0826b458c9fe794b9056fc7b4db61cfba4","typ":"JWT","alg":"ES256"}
+[2025-08-14 07:28:40] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U9e1f5c66b4a26fd0c33c890ad826b192","aud":"2007363986","exp":1755126407,"iat":1755122807,"amr":["lineautologin"],"name":"倉田柚有","picture":"https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w"}
+[2025-08-14 07:28:40] [DEBUG] トークンの有効期限: 2025-08-14 08:06:47
+[2025-08-14 07:28:40] [INFO] トークン検証成功: ユーザーID U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:28:40] [INFO] IDトークン検証成功: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:28:40] [INFO] データベース接続を開始します
+[2025-08-14 07:28:40] [INFO] データベース接続成功
+[2025-08-14 07:28:40] [INFO] トランザクション開始
+[2025-08-14 07:28:40] [INFO] 部屋の検証開始: fg#12
+[2025-08-14 07:28:40] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#12"}}
+[2025-08-14 07:28:40] [INFO] 部屋検証成功: ID=12, アクティブ=1
+[2025-08-14 07:28:40] [INFO] アクティブな登録を検索: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:28:40] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 07:28:40] [INFO] アクティブな登録なし
+[2025-08-14 07:28:40] [INFO] 既存登録を非アクティブ化: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:28:40] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 07:28:40] [INFO] 非アクティブ化した登録数: 0
+[2025-08-14 07:28:40] [INFO] 新規登録を作成 | Context: {"user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","user_name":"倉田柚有","check_in_date":"2025-08-14","check_out_date":"2025-08-15"}
+[2025-08-14 07:28:40] [INFO] 非アクティブな登録を検索: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:28:40] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 07:28:40] [INFO] 非アクティブな登録なし
+[2025-08-14 07:28:40] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192",":roomNumber":"fg#12",":userName":"倉田柚有",":checkInDate":"2025-08-14",":checkOutDate":"2025-08-15"}}
+[2025-08-14 07:28:40] [INFO] 新規登録作成完了: ID=325
+[2025-08-14 07:28:40] [INFO] トランザクションコミット成功
+[2025-08-14 07:28:40] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"325","registration_type":"new"}
+[2025-08-14 07:28:40] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-14 07:30:54] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-14 07:30:54] [INFO] リクエスト元IPアドレス: 27.94.206.33
+[2025-08-14 07:30:54] [DEBUG] 受信POSTデータ | Context: {"size":749}
+[2025-08-14 07:30:54] [INFO] 処理パラメータ | Context: {"room":"fg#12","user":"倉田柚有","checkIn":"2025-08-14","checkOut":"2025-08-15","force":false}
+[2025-08-14 07:30:54] [INFO] IDトークンを検証: eyJraWQiOiJhMmZkNTE4...
+[2025-08-14 07:30:54] [DEBUG] トークン検証開始: eyJraWQiOiJhMmZkNTE4...
+[2025-08-14 07:30:54] [DEBUG] トークンヘッダー | Context: {"kid":"a2fd5181692cc6daf799905d0dcd7b0826b458c9fe794b9056fc7b4db61cfba4","typ":"JWT","alg":"ES256"}
+[2025-08-14 07:30:54] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U9e1f5c66b4a26fd0c33c890ad826b192","aud":"2007363986","exp":1755126407,"iat":1755122807,"amr":["lineautologin"],"name":"倉田柚有","picture":"https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w"}
+[2025-08-14 07:30:54] [DEBUG] トークンの有効期限: 2025-08-14 08:06:47
+[2025-08-14 07:30:54] [INFO] トークン検証成功: ユーザーID U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:30:54] [INFO] IDトークン検証成功: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:30:54] [INFO] データベース接続を開始します
+[2025-08-14 07:30:54] [INFO] データベース接続成功
+[2025-08-14 07:30:54] [INFO] トランザクション開始
+[2025-08-14 07:30:54] [INFO] 部屋の検証開始: fg#12
+[2025-08-14 07:30:54] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#12"}}
+[2025-08-14 07:30:54] [INFO] 部屋検証成功: ID=12, アクティブ=1
+[2025-08-14 07:30:54] [INFO] アクティブな登録を検索: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:30:54] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 07:30:54] [INFO] アクティブな登録なし
+[2025-08-14 07:30:54] [INFO] 既存登録を非アクティブ化: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:30:54] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 07:30:54] [INFO] 非アクティブ化した登録数: 0
+[2025-08-14 07:30:54] [INFO] 新規登録を作成 | Context: {"user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","user_name":"倉田柚有","check_in_date":"2025-08-14","check_out_date":"2025-08-15"}
+[2025-08-14 07:30:54] [INFO] 非アクティブな登録を検索: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:30:54] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 07:30:54] [INFO] 非アクティブな登録なし
+[2025-08-14 07:30:54] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192",":roomNumber":"fg#12",":userName":"倉田柚有",":checkInDate":"2025-08-14",":checkOutDate":"2025-08-15"}}
+[2025-08-14 07:30:54] [INFO] 新規登録作成完了: ID=326
+[2025-08-14 07:30:54] [INFO] トランザクションコミット成功
+[2025-08-14 07:30:54] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"326","registration_type":"new"}
+[2025-08-14 07:30:54] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-14 07:44:58] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-14 07:44:58] [INFO] リクエスト元IPアドレス: 27.94.206.33
+[2025-08-14 07:44:58] [DEBUG] 受信POSTデータ | Context: {"size":749}
+[2025-08-14 07:44:58] [INFO] 処理パラメータ | Context: {"room":"fg#12","user":"倉田柚有","checkIn":"2025-08-14","checkOut":"2025-08-15","force":false}
+[2025-08-14 07:44:58] [INFO] IDトークンを検証: eyJraWQiOiJhMmZkNTE4...
+[2025-08-14 07:44:58] [DEBUG] トークン検証開始: eyJraWQiOiJhMmZkNTE4...
+[2025-08-14 07:44:58] [DEBUG] トークンヘッダー | Context: {"kid":"a2fd5181692cc6daf799905d0dcd7b0826b458c9fe794b9056fc7b4db61cfba4","typ":"JWT","alg":"ES256"}
+[2025-08-14 07:44:58] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U9e1f5c66b4a26fd0c33c890ad826b192","aud":"2007363986","exp":1755126407,"iat":1755122807,"amr":["lineautologin"],"name":"倉田柚有","picture":"https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w"}
+[2025-08-14 07:44:58] [DEBUG] トークンの有効期限: 2025-08-14 08:06:47
+[2025-08-14 07:44:58] [INFO] トークン検証成功: ユーザーID U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:44:58] [INFO] IDトークン検証成功: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:44:58] [INFO] データベース接続を開始します
+[2025-08-14 07:44:58] [INFO] データベース接続成功
+[2025-08-14 07:44:58] [INFO] トランザクション開始
+[2025-08-14 07:44:58] [INFO] 部屋の検証開始: fg#12
+[2025-08-14 07:44:58] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#12"}}
+[2025-08-14 07:44:58] [INFO] 部屋検証成功: ID=12, アクティブ=1
+[2025-08-14 07:44:58] [INFO] アクティブな登録を検索: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:44:58] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 07:44:58] [INFO] アクティブな登録なし
+[2025-08-14 07:44:58] [INFO] 既存登録を非アクティブ化: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:44:58] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 07:44:58] [INFO] 非アクティブ化した登録数: 0
+[2025-08-14 07:44:58] [INFO] 新規登録を作成 | Context: {"user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","user_name":"倉田柚有","check_in_date":"2025-08-14","check_out_date":"2025-08-15"}
+[2025-08-14 07:44:58] [INFO] 非アクティブな登録を検索: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:44:58] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 07:44:58] [INFO] 非アクティブな登録なし
+[2025-08-14 07:44:58] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192",":roomNumber":"fg#12",":userName":"倉田柚有",":checkInDate":"2025-08-14",":checkOutDate":"2025-08-15"}}
+[2025-08-14 07:44:58] [INFO] 新規登録作成完了: ID=327
+[2025-08-14 07:44:58] [INFO] トランザクションコミット成功
+[2025-08-14 07:44:58] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"327","registration_type":"new"}
+[2025-08-14 07:44:58] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-14 07:55:13] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-14 07:55:13] [INFO] リクエスト元IPアドレス: 27.94.206.33
+[2025-08-14 07:55:13] [DEBUG] 受信POSTデータ | Context: {"size":749}
+[2025-08-14 07:55:13] [INFO] 処理パラメータ | Context: {"room":"fg#12","user":"倉田柚有","checkIn":"2025-08-14","checkOut":"2025-08-15","force":false}
+[2025-08-14 07:55:13] [INFO] IDトークンを検証: eyJraWQiOiJhMmZkNTE4...
+[2025-08-14 07:55:13] [DEBUG] トークン検証開始: eyJraWQiOiJhMmZkNTE4...
+[2025-08-14 07:55:13] [DEBUG] トークンヘッダー | Context: {"kid":"a2fd5181692cc6daf799905d0dcd7b0826b458c9fe794b9056fc7b4db61cfba4","typ":"JWT","alg":"ES256"}
+[2025-08-14 07:55:13] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U9e1f5c66b4a26fd0c33c890ad826b192","aud":"2007363986","exp":1755126407,"iat":1755122807,"amr":["lineautologin"],"name":"倉田柚有","picture":"https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w"}
+[2025-08-14 07:55:13] [DEBUG] トークンの有効期限: 2025-08-14 08:06:47
+[2025-08-14 07:55:13] [INFO] トークン検証成功: ユーザーID U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:55:13] [INFO] IDトークン検証成功: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:55:13] [INFO] データベース接続を開始します
+[2025-08-14 07:55:13] [INFO] データベース接続成功
+[2025-08-14 07:55:13] [INFO] トランザクション開始
+[2025-08-14 07:55:13] [INFO] 部屋の検証開始: fg#12
+[2025-08-14 07:55:13] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#12"}}
+[2025-08-14 07:55:13] [INFO] 部屋検証成功: ID=12, アクティブ=1
+[2025-08-14 07:55:13] [INFO] アクティブな登録を検索: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:55:13] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 07:55:13] [INFO] アクティブな登録なし
+[2025-08-14 07:55:13] [INFO] 既存登録を非アクティブ化: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:55:13] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 07:55:13] [INFO] 非アクティブ化した登録数: 0
+[2025-08-14 07:55:13] [INFO] 新規登録を作成 | Context: {"user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","user_name":"倉田柚有","check_in_date":"2025-08-14","check_out_date":"2025-08-15"}
+[2025-08-14 07:55:13] [INFO] 非アクティブな登録を検索: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:55:13] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 07:55:13] [INFO] 非アクティブな登録なし
+[2025-08-14 07:55:13] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192",":roomNumber":"fg#12",":userName":"倉田柚有",":checkInDate":"2025-08-14",":checkOutDate":"2025-08-15"}}
+[2025-08-14 07:55:13] [INFO] 新規登録作成完了: ID=328
+[2025-08-14 07:55:13] [INFO] トランザクションコミット成功
+[2025-08-14 07:55:13] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"328","registration_type":"new"}
+[2025-08-14 07:55:13] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-14 10:20:03] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-14 10:20:03] [INFO] リクエスト元IPアドレス: 27.94.206.33
+[2025-08-14 10:20:03] [DEBUG] 受信POSTデータ | Context: {"size":749}
+[2025-08-14 10:20:03] [INFO] 処理パラメータ | Context: {"room":"fg#12","user":"倉田柚有","checkIn":"2025-08-14","checkOut":"2025-08-15","force":false}
+[2025-08-14 10:20:03] [INFO] IDトークンを検証: eyJraWQiOiJmYTEzNDA0...
+[2025-08-14 10:20:03] [DEBUG] トークン検証開始: eyJraWQiOiJmYTEzNDA0...
+[2025-08-14 10:20:03] [DEBUG] トークンヘッダー | Context: {"kid":"fa134042993a4a1717e4ee16b0c48f354de6171f850155971885038288fb92c9","typ":"JWT","alg":"ES256"}
+[2025-08-14 10:20:03] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U9e1f5c66b4a26fd0c33c890ad826b192","aud":"2007363986","exp":1755137989,"iat":1755134389,"amr":["lineautologin"],"name":"倉田柚有","picture":"https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w"}
+[2025-08-14 10:20:03] [DEBUG] トークンの有効期限: 2025-08-14 11:19:49
+[2025-08-14 10:20:03] [INFO] トークン検証成功: ユーザーID U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 10:20:03] [INFO] IDトークン検証成功: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 10:20:03] [INFO] データベース接続を開始します
+[2025-08-14 10:20:03] [INFO] データベース接続成功
+[2025-08-14 10:20:03] [INFO] トランザクション開始
+[2025-08-14 10:20:03] [INFO] 部屋の検証開始: fg#12
+[2025-08-14 10:20:03] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#12"}}
+[2025-08-14 10:20:03] [INFO] 部屋検証成功: ID=12, アクティブ=1
+[2025-08-14 10:20:03] [INFO] アクティブな登録を検索: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 10:20:03] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 10:20:03] [INFO] アクティブな登録なし
+[2025-08-14 10:20:03] [INFO] 既存登録を非アクティブ化: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 10:20:03] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 10:20:03] [INFO] 非アクティブ化した登録数: 0
+[2025-08-14 10:20:03] [INFO] 新規登録を作成 | Context: {"user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","user_name":"倉田柚有","check_in_date":"2025-08-14","check_out_date":"2025-08-15"}
+[2025-08-14 10:20:03] [INFO] 非アクティブな登録を検索: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 10:20:03] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 10:20:03] [INFO] 非アクティブな登録なし
+[2025-08-14 10:20:03] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192",":roomNumber":"fg#12",":userName":"倉田柚有",":checkInDate":"2025-08-14",":checkOutDate":"2025-08-15"}}
+[2025-08-14 10:20:03] [INFO] 新規登録作成完了: ID=329
+[2025-08-14 10:20:03] [INFO] トランザクションコミット成功
+[2025-08-14 10:20:03] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"329","registration_type":"new"}
+[2025-08-14 10:20:03] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-14 10:21:48] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-14 10:21:48] [INFO] リクエスト元IPアドレス: 27.94.206.33
+[2025-08-14 10:21:48] [DEBUG] 受信POSTデータ | Context: {"size":749}
+[2025-08-14 10:21:48] [INFO] 処理パラメータ | Context: {"room":"fg#10","user":"倉田柚有","checkIn":"2025-08-14","checkOut":"2025-08-15","force":false}
+[2025-08-14 10:21:48] [INFO] IDトークンを検証: eyJraWQiOiJmYTEzNDA0...
+[2025-08-14 10:21:48] [DEBUG] トークン検証開始: eyJraWQiOiJmYTEzNDA0...
+[2025-08-14 10:21:48] [DEBUG] トークンヘッダー | Context: {"kid":"fa134042993a4a1717e4ee16b0c48f354de6171f850155971885038288fb92c9","typ":"JWT","alg":"ES256"}
+[2025-08-14 10:21:48] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U9e1f5c66b4a26fd0c33c890ad826b192","aud":"2007363986","exp":1755137989,"iat":1755134389,"amr":["lineautologin"],"name":"倉田柚有","picture":"https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w"}
+[2025-08-14 10:21:48] [DEBUG] トークンの有効期限: 2025-08-14 11:19:49
+[2025-08-14 10:21:48] [INFO] トークン検証成功: ユーザーID U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 10:21:48] [INFO] IDトークン検証成功: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 10:21:48] [INFO] データベース接続を開始します
+[2025-08-14 10:21:48] [INFO] データベース接続成功
+[2025-08-14 10:21:48] [INFO] トランザクション開始
+[2025-08-14 10:21:48] [INFO] 部屋の検証開始: fg#10
+[2025-08-14 10:21:48] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#10"}}
+[2025-08-14 10:21:48] [INFO] 部屋検証成功: ID=10, アクティブ=1
+[2025-08-14 10:21:48] [INFO] アクティブな登録を検索: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 10:21:48] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 10:21:48] [INFO] アクティブな登録なし
+[2025-08-14 10:21:48] [INFO] 既存登録を非アクティブ化: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 10:21:48] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 10:21:48] [INFO] 非アクティブ化した登録数: 0
+[2025-08-14 10:21:48] [INFO] 新規登録を作成 | Context: {"user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#10","user_name":"倉田柚有","check_in_date":"2025-08-14","check_out_date":"2025-08-15"}
+[2025-08-14 10:21:48] [INFO] 非アクティブな登録を検索: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 10:21:48] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 10:21:48] [INFO] 非アクティブな登録なし
+[2025-08-14 10:21:48] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192",":roomNumber":"fg#10",":userName":"倉田柚有",":checkInDate":"2025-08-14",":checkOutDate":"2025-08-15"}}
+[2025-08-14 10:21:48] [INFO] 新規登録作成完了: ID=330
+[2025-08-14 10:21:48] [INFO] トランザクションコミット成功
+[2025-08-14 10:21:48] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"330","registration_type":"new"}
+[2025-08-14 10:21:48] [INFO] --- 部屋番号登録API 処理終了 ---
+[2025-08-14 10:30:14] [INFO] --- 部屋番号登録API 処理開始 ---
+[2025-08-14 10:30:14] [INFO] リクエスト元IPアドレス: 27.94.206.33
+[2025-08-14 10:30:14] [DEBUG] 受信POSTデータ | Context: {"size":749}
+[2025-08-14 10:30:14] [INFO] 処理パラメータ | Context: {"room":"fg#10","user":"倉田柚有","checkIn":"2025-08-14","checkOut":"2025-08-15","force":false}
+[2025-08-14 10:30:14] [INFO] IDトークンを検証: eyJraWQiOiJmYTEzNDA0...
+[2025-08-14 10:30:14] [DEBUG] トークン検証開始: eyJraWQiOiJmYTEzNDA0...
+[2025-08-14 10:30:14] [DEBUG] トークンヘッダー | Context: {"kid":"fa134042993a4a1717e4ee16b0c48f354de6171f850155971885038288fb92c9","typ":"JWT","alg":"ES256"}
+[2025-08-14 10:30:14] [DEBUG] トークンペイロード | Context: {"iss":"https://access.line.me","sub":"U9e1f5c66b4a26fd0c33c890ad826b192","aud":"2007363986","exp":1755137989,"iat":1755134389,"amr":["lineautologin"],"name":"倉田柚有","picture":"https://profile.line-scdn.net/0hWd4gHgEFCEsJHibjYqt3HDVbBiZ-MA4DcSxFfi0YXnoiKhhOZnASJHwXBC5xLUoZMSsQLStMXn5w"}
+[2025-08-14 10:30:14] [DEBUG] トークンの有効期限: 2025-08-14 11:19:49
+[2025-08-14 10:30:14] [INFO] トークン検証成功: ユーザーID U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 10:30:14] [INFO] IDトークン検証成功: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 10:30:14] [INFO] データベース接続を開始します
+[2025-08-14 10:30:14] [INFO] データベース接続成功
+[2025-08-14 10:30:14] [INFO] トランザクション開始
+[2025-08-14 10:30:14] [INFO] 部屋の検証開始: fg#10
+[2025-08-14 10:30:14] [DEBUG] SQL実行 | Context: {"sql":"SELECT id, is_active FROM roomdatasettings WHERE room_number = :roomNumber","params":{":roomNumber":"fg#10"}}
+[2025-08-14 10:30:14] [INFO] 部屋検証成功: ID=10, アクティブ=1
+[2025-08-14 10:30:14] [INFO] アクティブな登録を検索: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 10:30:14] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 1 \n                LIMIT 1","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 10:30:14] [INFO] アクティブな登録なし
+[2025-08-14 10:30:14] [INFO] 既存登録を非アクティブ化: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 10:30:14] [DEBUG] SQL実行 | Context: {"sql":"UPDATE line_room_links SET is_active = 0 WHERE line_user_id = :userId","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 10:30:14] [INFO] 非アクティブ化した登録数: 0
+[2025-08-14 10:30:14] [INFO] 新規登録を作成 | Context: {"user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#10","user_name":"倉田柚有","check_in_date":"2025-08-14","check_out_date":"2025-08-15"}
+[2025-08-14 10:30:14] [INFO] 非アクティブな登録を検索: userId=U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 10:30:14] [DEBUG] SQL実行 | Context: {"sql":"SELECT * FROM line_room_links \n                WHERE line_user_id = :userId AND is_active = 0 \n                ORDER BY id DESC\n                LIMIT 1","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192"}}
+[2025-08-14 10:30:14] [INFO] 非アクティブな登録なし
+[2025-08-14 10:30:14] [DEBUG] SQL実行 | Context: {"sql":"INSERT INTO line_room_links \n                    (line_user_id, room_number, user_name, check_in_date, check_out_date, is_active)\n                    VALUES \n                    (:userId, :roomNumber, :userName, :checkInDate, :checkOutDate, 1)","params":{":userId":"U9e1f5c66b4a26fd0c33c890ad826b192",":roomNumber":"fg#10",":userName":"倉田柚有",":checkInDate":"2025-08-14",":checkOutDate":"2025-08-15"}}
+[2025-08-14 10:30:14] [INFO] 新規登録作成完了: ID=331
+[2025-08-14 10:30:14] [INFO] トランザクションコミット成功
+[2025-08-14 10:30:14] [INFO] 部屋番号登録API 処理完了 | Context: {"success":true,"message":"部屋番号が正常に登録されました","registration_id":"331","registration_type":"new"}
+[2025-08-14 10:30:14] [INFO] --- 部屋番号登録API 処理終了 ---

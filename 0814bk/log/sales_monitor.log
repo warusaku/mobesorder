@@ -1,0 +1,15 @@
+[2025-05-04 21:00:44] [INFO] 販売情報モニター処理開始
+[2025-05-04 21:00:44] [INFO] ユーザー fabula がログイン中
+[2025-05-04 21:00:44] [INFO] データベース接続成功
+[2025-05-04 21:00:44] [INFO] 注文データ取得開始
+[2025-05-04 21:00:44] [DEBUG] 実行クエリ: 
+            SELECT o.id, o.square_order_id, o.room_number, o.guest_name, o.order_status, 
+                   o.total_amount, o.note, o.order_datetime, o.checkout_datetime, 
+                   o.created_at, o.updated_at
+            FROM orders o
+            WHERE o.order_status != 'CANCELED'
+            ORDER BY o.room_number ASC, o.order_datetime DESC
+        
+[2025-05-04 21:00:44] [INFO] 注文データ取得成功: 2件
+[2025-05-04 21:00:44] [INFO] 部屋ごとのデータグループ化完了: 1部屋
+[2025-05-04 21:00:44] [INFO] 注文詳細データ取得開始: オーダーID 2件

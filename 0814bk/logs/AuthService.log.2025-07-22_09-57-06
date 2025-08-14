@@ -1,0 +1,15 @@
+[2025-07-20 17:07:13] [INFO] ログファイル作成開始 - ローテーション実行（前回ログ: 
+[2025-07-20 17:07:13] [INFO] [AuthService.php:18->__construct] AuthService::__construct - 認証サービス初期化
+[2025-07-20 17:18:27] [INFO] [AuthService.php:18->__construct] AuthService::__construct - 認証サービス初期化
+[2025-07-20 17:56:30] [INFO] [AuthService.php:18->__construct] AuthService::__construct - 認証サービス初期化
+[2025-07-20 18:20:46] [INFO] [AuthService.php:18->__construct] AuthService::__construct - 認証サービス初期化
+[2025-07-20 19:08:24] [INFO] [AuthService.php:18->__construct] AuthService::__construct - 認証サービス初期化
+[2025-07-20 19:12:04] [INFO] [AuthService.php:18->__construct] AuthService::__construct - 認証サービス初期化
+[2025-07-20 19:12:32] [INFO] [AuthService.php:18->__construct] AuthService::__construct - 認証サービス初期化
+[2025-07-20 19:12:51] [INFO] [AuthService.php:18->__construct] AuthService::__construct - 認証サービス初期化
+[2025-07-20 19:13:04] [INFO] [AuthService.php:18->__construct] AuthService::__construct - 認証サービス初期化
+[2025-07-20 19:51:32] [INFO] [AuthService.php:18->__construct] AuthService::__construct - 認証サービス初期化
+[2025-07-20 20:03:09] [INFO] [AuthService.php:18->__construct] AuthService::__construct - 認証サービス初期化
+[2025-07-20 20:03:41] [INFO] [AuthService.php:18->__construct] AuthService::__construct - 認証サービス初期化
+[2025-07-20 22:54:54] [INFO] [AuthService.php:18->__construct] AuthService::__construct - 認証サービス初期化
+[2025-07-22 09:57:06] [INFO] [AuthService.php:18->__construct] AuthService::__construct - 認証サービス初期化

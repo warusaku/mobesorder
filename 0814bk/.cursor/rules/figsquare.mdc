@@ -1,0 +1,72 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+---
+
+### **fgsquare – Authoritative Project Brief (Strict Compliance Required)**
+
+#### 1. Project Name
+
+**fgsquare**
+
+---
+
+#### 2. System Overview
+
+1. **fgsquare is an integrated reception platform** that:
+
+   * Pulls product data from **Square’s database**.
+   * Provides an in-house mobile-ordering solution.
+   * Enables room-charge billing for hospitality venues by linking **Square** and **LINE**.
+
+2. **End-to-end guest flow**
+
+   1. Guest scans a QR code at the front desk.
+   2. LINE **LIFF** adds the official account.
+   3. Guest registers room number.
+   4. Guest places mobile orders / chats with facility staff.
+   5. On checkout, payment is settled on a physical Square terminal.
+
+3. **Service brand**: **mobes** – deployed at `https://mobes.online/` (actual hosting on Lolipop).
+
+---
+
+#### 3. Development & Deployment Environment
+
+| Purpose                                | Path / URL                                                                                        | Notes                                                                                                                                                  |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Local development root**             | `/Volumes/crucial_MX500/Materials/works/fabula/fgsquare/`                                         | Authoritative source tree.                                                                                                                             |
+| **Production URL**                     | `https://mobes.online/`                                                                           | Mirrors `http://test-mijeos.but.jp/fgsquare/`. Example: `http://test-mijeos.but.jp/fgsquare/order/index.php` → `https://mobes.online/order/index.php`. |
+| **FTP deployment**                     | Performed manually by developers via **Transmit**.                                                |                                                                                                                                                        |
+| **Admin modules**                      | `/Volumes/crucial_MX500/Materials/works/fabula/fgsquare/admin/`                                   | All back-office pages & tools.                                                                                                                         |
+| **Global settings file**               | `/Volumes/crucial_MX500/Materials/works/fabula/fgsquare/admin/adminpagesetting/adminsetting.json` | **This file *must* ONLY be accessed through** `admin/adminsetting_registrer.php`. *Do not* merge legacy `config.php` files at this time.               |
+| **Common API modules**                 | `/Volumes/crucial_MX500/Materials/works/fabula/fgsquare/api/`                                     | Primarily Square-integration endpoints.                                                                                                                |
+| **Mobile-order front end & APIs**      | `/Volumes/crucial_MX500/Materials/works/fabula/fgsquare/order/`                                   | Includes LIFF implementation.                                                                                                                          |
+| **Room-registration front end & APIs** | `/Volumes/crucial_MX500/Materials/works/fabula/fgsquare/register/`                                | Includes LIFF implementation.                                                                                                                          |
+
+---
+
+#### 4. Database
+
+* **Provider**: Lolipop MySQL
+* **Database Name**: `LAA1207717-fgsquare`
+* **Host**: `mysql320.phy.lolipop.lan`
+* **Version**: 8.0
+* **Credentials**:
+
+  * **User**: `LAA1207717`
+  * **Password**: `fg12345`
+
+> **These credentials are for development and deployment automation only. Protect them rigorously.**
+
+---
+
+#### 5. Mandatory Compliance
+
+* **Every stipulation above is binding.**
+* Deviations—no matter how small—require prior written justification and explicit approval.
+* Non-compliance will result in immediate rollback or rejection of the change set and may trigger disciplinary action.
+
+---

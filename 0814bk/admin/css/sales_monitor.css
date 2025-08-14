@@ -1,0 +1,373 @@
+/**
+ * 販売情報モニター専用スタイルシート
+ * バージョン: 1.0.0
+ * ファイル説明: sales_monitor.phpで使用するスタイル定義
+ */
+
+/* Webhook設定スタイル */
+.webhook-section {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.webhook-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.webhook-list {
+    margin-bottom: 15px;
+}
+
+.webhook-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid #dee2e6;
+}
+
+.webhook-item .actions {
+    display: flex;
+}
+
+.webhook-item .actions button {
+    margin-left: 5px;
+}
+
+.webhook-form {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.webhook-form input {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 6px 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.webhook-status {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.webhook-status.active {
+    background-color: #28a745;
+}
+
+.webhook-status.inactive {
+    background-color: #dc3545;
+}
+
+.webhook-name {
+    font-weight: 500;
+    margin-right: 10px;
+    flex-grow: 1;
+    max-width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.webhook-url {
+    color: #6c757d;
+    flex-grow: 1;
+    max-width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.9em;
+}
+
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-left: 4px solid #28a745;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 9999;
+    display: none;
+}
+
+/* 部屋別注文表示スタイルの改善 */
+.room-card {
+    border: 1px solid #dee2e6;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin-bottom: 2rem !important;
+}
+
+.room-header {
+    background-color: #658BC1;
+    color: white;
+    padding: 0.75rem 1rem;
+}
+
+/* 部屋番号見出しの視認性向上 */
+.room-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.1);
+    padding: 5px 12px;
+    border-radius: 4px;
+    display: inline-block;
+    color: #333333;
+}
+
+.room-total {
+    font-size: 1.25rem;
+    background: rgba(255,255,255,0.2);
+    padding: 0.35rem 0.75rem;
+    border-radius: 4px;
+}
+
+/* パルスハイライト効果のアニメーション */
+@keyframes pulse-highlight {
+    0% { background-color: rgba(255, 253, 170, 0.7); }
+    50% { background-color: rgba(255, 253, 170, 0.3); }
+    100% { background-color: transparent; }
+}
+
+.pulse-highlight {
+    animation: pulse-highlight 3s ease-in-out;
+}
+
+/* 統計カードのパルスハイライト */
+@keyframes stat-pulse {
+    0% { background-color: rgba(255, 253, 170, 0.7); }
+    50% { background-color: rgba(255, 253, 170, 0.3); }
+    100% { background-color: white; }
+}
+
+.stat-pulse {
+    animation: stat-pulse 3s ease-in-out;
+}
+
+/* 新規オーダーのハイライト */
+.new-order {
+    animation: pulse-highlight 3s ease-in-out;
+}
+
+.order-table {
+    margin-bottom: 0;
+}
+
+.order-table thead th {
+    position: sticky;
+    top: 0;
+    background-color: #f8f9fa;
+    font-size: 0.85rem;
+    padding: 0.5rem;
+}
+
+.order-row {
+    border-bottom: 1px solid #dee2e6;
+    transition: background-color 0.2s;
+}
+
+.order-row.has-details {
+    cursor: pointer;
+}
+
+.order-row.has-details:hover {
+    background-color: rgba(101, 139, 193, 0.1);
+}
+
+.order-row.active {
+    background-color: rgba(101, 139, 193, 0.15);
+    border-bottom: none;
+}
+
+.toggle-details {
+    transition: transform 0.2s;
+}
+
+.toggle-details.active {
+    transform: rotate(45deg);
+}
+
+.order-details-content {
+    background-color: #f8f9fa;
+    padding: 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.details-table-wrapper {
+    margin: 0;
+    padding: 0;
+    border-left: 4px solid #658BC1;
+}
+
+.details-table {
+    background-color: white;
+    margin-bottom: 0;
+}
+
+.details-table thead th {
+    font-size: 0.8rem;
+    color: #495057;
+    padding: 0.5rem;
+}
+
+.details-table tbody td {
+    padding: 0.5rem;
+    vertical-align: middle;
+}
+
+/* 注文ステータスラベルの強化 */
+.status-badge {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    min-width: 80px;
+}
+
+.status-badge.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.status-badge.info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
+
+.status-badge.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* セッションIDバッジ */
+.session-id-badge {
+    font-size: 0.7rem;
+    font-family: monospace;
+}
+
+/* クローズボタン */
+.close-session-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    border-radius: 0.2rem;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.close-session-btn:hover {
+    background-color: #c82333;
+}
+
+/* 自動更新ステータス */
+.auto-refresh-status {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    background-color: #28a745;
+    color: white;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.auto-refresh-status.disabled {
+    background-color: #6c757d;
+}
+
+.auto-refresh-status:hover {
+    opacity: 0.8;
+}
+
+/* リフレッシュ設定 */
+.refresh-settings {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.refresh-settings .form-select {
+    width: auto;
+}
+
+/* 統計カード */
+.stat-card {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: white;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+}
+
+.stat-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #658BC1;
+}
+
+.stat-label {
+    font-size: 0.875rem;
+    color: #6c757d;
+    margin-top: 0.5rem;
+}
+
+/* セクション区切り */
+.section-divider {
+    border-top: 2px solid #dee2e6;
+    margin: 2rem 0;
+}
+
+/* セクションタイトル */
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 1rem;
+}
+
+/* テストセッションモーダル */
+#testSessionModal .modal-body {
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+#testSessionResult {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    font-family: monospace;
+    font-size: 0.875rem;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
+#testSessionSteps .table {
+    font-size: 0.875rem;
+}
+
+#testSessionSteps code {
+    background-color: #f8f9fa;
+    padding: 0.125rem 0.25rem;
+    border-radius: 0.125rem;
+    font-size: 0.75rem;
+} 

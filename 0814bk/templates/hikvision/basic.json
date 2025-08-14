@@ -1,0 +1,45 @@
+{
+  "manufacturer": "Hikvision",
+  "model_pattern": "DS-*",
+  "description": "Hikvision カメラ基本設定",
+  "rtsp_patterns": [
+    {
+      "name": "メインストリーム",
+      "url_pattern": "rtsp://{username}:{password}@{ip}:{port}/Streaming/Channels/101",
+      "default_port": 554
+    },
+    {
+      "name": "サブストリーム",
+      "url_pattern": "rtsp://{username}:{password}@{ip}:{port}/Streaming/Channels/102",
+      "default_port": 554
+    }
+  ],
+  "authentication": {
+    "required": true,
+    "default_username": "admin",
+    "default_password": "12345"
+  },
+  "settings": {
+    "recommended_fps": 15,
+    "recommended_resolution": "1280x720",
+    "ptz_support": true,
+    "audio_support": true,
+    "special_parameters": {
+      "stream_type": ["h264", "h265"],
+      "custom_options": ["wdr", "ir_mode"]
+    }
+  },
+  "setup_instructions": "1. カメラのIPアドレスを設定します\n2. 推奨ユーザー名とパスワードを設定\n3. RTSPストリームへの接続確認",
+  "troubleshooting": [
+    {
+      "issue": "接続エラー 401",
+      "cause": "認証情報が不正",
+      "solution": "ユーザー名とパスワードを確認してください"
+    },
+    {
+      "issue": "ストリーム取得エラー",
+      "cause": "カメラ設定問題",
+      "solution": "カメラのWebインターフェースで設定を確認してください"
+    }
+  ]
+} 

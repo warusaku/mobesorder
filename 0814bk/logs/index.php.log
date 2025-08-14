@@ -1,0 +1,478 @@
+.45.140.249] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 07:26:32] [INFO] [REQ:5d4640bf] [IP:124.45.140.249] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 07:26:32] [INFO] [REQ:1050e590] [IP:124.45.140.249] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 07:26:32] [INFO] [REQ:50019056] [IP:124.45.140.249] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 07:26:32] [INFO] [REQ:116a0fdb] [IP:124.45.140.249] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 07:26:32] [INFO] [REQ:80d90931] [IP:124.45.140.249] ライブラリ読み込み完了
+[2025-08-14 07:26:32] [INFO] [REQ:74824d90] [IP:124.45.140.249] ProductService初期化開始
+[2025-08-14 07:26:32] [INFO] [REQ:0193e452] [IP:124.45.140.249] ProductService初期化完了
+[2025-08-14 07:26:32] [INFO] [REQ:8745a7ff] [IP:124.45.140.249] リクエストパラメータ: category_id=SO7HLNRC5EVBXAKPXWZFMDAP
+[2025-08-14 07:26:32] [INFO] [REQ:bc62ac55] [IP:124.45.140.249] カテゴリID:SO7HLNRC5EVBXAKPXWZFMDAPの商品取得開始
+[2025-08-14 07:26:32] [INFO] [REQ:0c2aec5a] [IP:124.45.140.249] 商品取得完了: 9件
+[2025-08-14 07:26:32] [INFO] [REQ:8fc625d8] [IP:124.45.140.249] JSONレスポンス生成完了: 8951バイト
+[2025-08-14 07:26:32] [INFO] [REQ:88f57e86] [IP:124.45.140.249] ======== 商品API終了 ========
+[2025-08-14 07:26:43] [INFO] [REQ:a0d19195] [IP:124.45.140.249] ======== 商品API開始 - /api/v1/products/?_=1755124003879&category_id=BSHQAMZCKMYW2RKQLARD3K55 ========
+[2025-08-14 07:26:43] [INFO] [REQ:15decdc8] [IP:124.45.140.249] ライブラリ読み込み開始
+[2025-08-14 07:26:43] [INFO] [REQ:327c4d5f] [IP:124.45.140.249] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 07:26:43] [INFO] [REQ:13e469eb] [IP:124.45.140.249] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 07:26:43] [INFO] [REQ:21431255] [IP:124.45.140.249] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 07:26:43] [INFO] [REQ:6245e93d] [IP:124.45.140.249] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 07:26:43] [INFO] [REQ:bff48734] [IP:124.45.140.249] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 07:26:43] [INFO] [REQ:cdedde82] [IP:124.45.140.249] ライブラリ読み込み完了
+[2025-08-14 07:26:43] [INFO] [REQ:bedcbfc5] [IP:124.45.140.249] ProductService初期化開始
+[2025-08-14 07:26:43] [INFO] [REQ:b1e5345b] [IP:124.45.140.249] ProductService初期化完了
+[2025-08-14 07:26:43] [INFO] [REQ:fece8868] [IP:124.45.140.249] リクエストパラメータ: category_id=BSHQAMZCKMYW2RKQLARD3K55
+[2025-08-14 07:26:43] [INFO] [REQ:09a4d7b6] [IP:124.45.140.249] カテゴリID:BSHQAMZCKMYW2RKQLARD3K55の商品取得開始
+[2025-08-14 07:26:43] [INFO] [REQ:9abaca8b] [IP:124.45.140.249] 商品取得完了: 24件
+[2025-08-14 07:26:43] [INFO] [REQ:34d58c13] [IP:124.45.140.249] JSONレスポンス生成完了: 22680バイト
+[2025-08-14 07:26:43] [INFO] [REQ:11b71171] [IP:124.45.140.249] ======== 商品API終了 ========
+[2025-08-14 07:27:07] [INFO] [REQ:a94ce379] [IP:124.45.140.249] ======== 商品API開始 - /api/v1/products/?_=1755124027265&category_id=6AC35CLUEAUJ4I74YFTZHFLR ========
+[2025-08-14 07:27:07] [INFO] [REQ:81a5a4eb] [IP:124.45.140.249] ライブラリ読み込み開始
+[2025-08-14 07:27:07] [INFO] [REQ:8731f734] [IP:124.45.140.249] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 07:27:07] [INFO] [REQ:1fce6001] [IP:124.45.140.249] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 07:27:07] [INFO] [REQ:932086ab] [IP:124.45.140.249] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 07:27:07] [INFO] [REQ:69875a21] [IP:124.45.140.249] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 07:27:07] [INFO] [REQ:84615884] [IP:124.45.140.249] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 07:27:07] [INFO] [REQ:aae680be] [IP:124.45.140.249] ライブラリ読み込み完了
+[2025-08-14 07:27:07] [INFO] [REQ:3aeb0e53] [IP:124.45.140.249] ProductService初期化開始
+[2025-08-14 07:27:07] [INFO] [REQ:6c030cd6] [IP:124.45.140.249] ProductService初期化完了
+[2025-08-14 07:27:07] [INFO] [REQ:f8d3bba2] [IP:124.45.140.249] リクエストパラメータ: category_id=6AC35CLUEAUJ4I74YFTZHFLR
+[2025-08-14 07:27:07] [INFO] [REQ:dd9de01d] [IP:124.45.140.249] カテゴリID:6AC35CLUEAUJ4I74YFTZHFLRの商品取得開始
+[2025-08-14 07:27:07] [INFO] [REQ:c28a2c22] [IP:124.45.140.249] 商品取得完了: 6件
+[2025-08-14 07:27:07] [INFO] [REQ:239ab02a] [IP:124.45.140.249] JSONレスポンス生成完了: 4257バイト
+[2025-08-14 07:27:07] [INFO] [REQ:c61df076] [IP:124.45.140.249] ======== 商品API終了 ========
+[2025-08-14 07:27:13] [INFO] [REQ:d84271e7] [IP:124.45.140.249] ======== 商品API開始 - /api/v1/products/?_=1755124032965&category_id=2B6WOZT4AKMWDBUCY6Z75UEL ========
+[2025-08-14 07:27:13] [INFO] [REQ:ff4eedff] [IP:124.45.140.249] ライブラリ読み込み開始
+[2025-08-14 07:27:13] [INFO] [REQ:d4bd5202] [IP:124.45.140.249] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 07:27:13] [INFO] [REQ:6b46d9b6] [IP:124.45.140.249] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 07:27:13] [INFO] [REQ:0db2439a] [IP:124.45.140.249] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 07:27:13] [INFO] [REQ:77e7f6dd] [IP:124.45.140.249] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 07:27:13] [INFO] [REQ:c7a3bf69] [IP:124.45.140.249] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 07:27:13] [INFO] [REQ:c667253d] [IP:124.45.140.249] ライブラリ読み込み完了
+[2025-08-14 07:27:13] [INFO] [REQ:54fc2339] [IP:124.45.140.249] ProductService初期化開始
+[2025-08-14 07:27:13] [INFO] [REQ:b962f6b1] [IP:124.45.140.249] ProductService初期化完了
+[2025-08-14 07:27:13] [INFO] [REQ:94ae6734] [IP:124.45.140.249] リクエストパラメータ: category_id=2B6WOZT4AKMWDBUCY6Z75UEL
+[2025-08-14 07:27:13] [INFO] [REQ:b1aa8f1b] [IP:124.45.140.249] カテゴリID:2B6WOZT4AKMWDBUCY6Z75UELの商品取得開始
+[2025-08-14 07:27:13] [INFO] [REQ:d12204ba] [IP:124.45.140.249] 商品取得完了: 10件
+[2025-08-14 07:27:13] [INFO] [REQ:4966407a] [IP:124.45.140.249] JSONレスポンス生成完了: 9135バイト
+[2025-08-14 07:27:13] [INFO] [REQ:39d13ab0] [IP:124.45.140.249] ======== 商品API終了 ========
+[2025-08-14 07:27:18] [INFO] [REQ:38565f63] [IP:124.45.140.249] ======== 商品API開始 - /api/v1/products/?_=1755124038431&category_id=VZA3E37PE25DFWNMVGVBU5WB ========
+[2025-08-14 07:27:18] [INFO] [REQ:19a8833c] [IP:124.45.140.249] ライブラリ読み込み開始
+[2025-08-14 07:27:18] [INFO] [REQ:a2ac2119] [IP:124.45.140.249] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 07:27:18] [INFO] [REQ:db3a952c] [IP:124.45.140.249] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 07:27:18] [INFO] [REQ:09b3c31f] [IP:124.45.140.249] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 07:27:18] [INFO] [REQ:03f81371] [IP:124.45.140.249] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 07:27:18] [INFO] [REQ:6db4333d] [IP:124.45.140.249] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 07:27:18] [INFO] [REQ:b78fefa3] [IP:124.45.140.249] ライブラリ読み込み完了
+[2025-08-14 07:27:18] [INFO] [REQ:5b941d16] [IP:124.45.140.249] ProductService初期化開始
+[2025-08-14 07:27:18] [INFO] [REQ:cb1388f6] [IP:124.45.140.249] ProductService初期化完了
+[2025-08-14 07:27:18] [INFO] [REQ:671ec8d5] [IP:124.45.140.249] リクエストパラメータ: category_id=VZA3E37PE25DFWNMVGVBU5WB
+[2025-08-14 07:27:18] [INFO] [REQ:6db7a300] [IP:124.45.140.249] カテゴリID:VZA3E37PE25DFWNMVGVBU5WBの商品取得開始
+[2025-08-14 07:27:18] [INFO] [REQ:95b3e410] [IP:124.45.140.249] 商品取得完了: 6件
+[2025-08-14 07:27:18] [INFO] [REQ:0325cf33] [IP:124.45.140.249] JSONレスポンス生成完了: 5330バイト
+[2025-08-14 07:27:18] [INFO] [REQ:64251ba7] [IP:124.45.140.249] ======== 商品API終了 ========
+[2025-08-14 07:28:22] [INFO] [REQ:38a02e7a] [IP:27.94.206.33] ======== 商品API開始 - /api/v1/products/?_=1755124102005&category_id=SO7HLNRC5EVBXAKPXWZFMDAP ========
+[2025-08-14 07:28:22] [INFO] [REQ:f0de833e] [IP:27.94.206.33] ライブラリ読み込み開始
+[2025-08-14 07:28:22] [INFO] [REQ:dff172d1] [IP:27.94.206.33] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 07:28:22] [INFO] [REQ:94bd5495] [IP:27.94.206.33] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 07:28:22] [INFO] [REQ:be58ea1a] [IP:27.94.206.33] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 07:28:22] [INFO] [REQ:712af64b] [IP:27.94.206.33] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 07:28:22] [INFO] [REQ:0c1645b7] [IP:27.94.206.33] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 07:28:22] [INFO] [REQ:073564d6] [IP:27.94.206.33] ライブラリ読み込み完了
+[2025-08-14 07:28:22] [INFO] [REQ:82e112d5] [IP:27.94.206.33] ProductService初期化開始
+[2025-08-14 07:28:22] [INFO] [REQ:584efb63] [IP:27.94.206.33] ProductService初期化完了
+[2025-08-14 07:28:22] [INFO] [REQ:ff789e68] [IP:27.94.206.33] リクエストパラメータ: category_id=SO7HLNRC5EVBXAKPXWZFMDAP
+[2025-08-14 07:28:22] [INFO] [REQ:428f4bd0] [IP:27.94.206.33] カテゴリID:SO7HLNRC5EVBXAKPXWZFMDAPの商品取得開始
+[2025-08-14 07:28:22] [INFO] [REQ:1e06ed73] [IP:27.94.206.33] 商品取得完了: 9件
+[2025-08-14 07:28:22] [INFO] [REQ:c23ac6ee] [IP:27.94.206.33] JSONレスポンス生成完了: 8951バイト
+[2025-08-14 07:28:22] [INFO] [REQ:5d2ccca9] [IP:27.94.206.33] ======== 商品API終了 ========
+[2025-08-14 07:28:42] [INFO] [REQ:3028f3bc] [IP:27.94.206.33] ======== 商品API開始 - /api/v1/products/?_=1755124122471&category_id=SO7HLNRC5EVBXAKPXWZFMDAP ========
+[2025-08-14 07:28:42] [INFO] [REQ:2fcc9d09] [IP:27.94.206.33] ライブラリ読み込み開始
+[2025-08-14 07:28:42] [INFO] [REQ:5e1a583e] [IP:27.94.206.33] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 07:28:42] [INFO] [REQ:bf3a8ba0] [IP:27.94.206.33] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 07:28:42] [INFO] [REQ:a1fe7a28] [IP:27.94.206.33] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 07:28:42] [INFO] [REQ:82d78d86] [IP:27.94.206.33] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 07:28:42] [INFO] [REQ:7eeb5194] [IP:27.94.206.33] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 07:28:42] [INFO] [REQ:aab42f63] [IP:27.94.206.33] ライブラリ読み込み完了
+[2025-08-14 07:28:42] [INFO] [REQ:3476c41e] [IP:27.94.206.33] ProductService初期化開始
+[2025-08-14 07:28:42] [INFO] [REQ:2d9d1a52] [IP:27.94.206.33] ProductService初期化完了
+[2025-08-14 07:28:42] [INFO] [REQ:5f2e5367] [IP:27.94.206.33] リクエストパラメータ: category_id=SO7HLNRC5EVBXAKPXWZFMDAP
+[2025-08-14 07:28:42] [INFO] [REQ:6227ec9b] [IP:27.94.206.33] カテゴリID:SO7HLNRC5EVBXAKPXWZFMDAPの商品取得開始
+[2025-08-14 07:28:42] [INFO] [REQ:eac34218] [IP:27.94.206.33] 商品取得完了: 9件
+[2025-08-14 07:28:42] [INFO] [REQ:d7d92c7f] [IP:27.94.206.33] JSONレスポンス生成完了: 8951バイト
+[2025-08-14 07:28:42] [INFO] [REQ:d8c085a1] [IP:27.94.206.33] ======== 商品API終了 ========
+[2025-08-14 07:30:43] [INFO] [REQ:97a3c4f0] [IP:27.94.206.33] ======== 商品API開始 - /api/v1/products/?_=1755124243937&category_id=SO7HLNRC5EVBXAKPXWZFMDAP ========
+[2025-08-14 07:30:43] [INFO] [REQ:26cf1a46] [IP:27.94.206.33] ライブラリ読み込み開始
+[2025-08-14 07:30:43] [INFO] [REQ:360a9a47] [IP:27.94.206.33] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 07:30:43] [INFO] [REQ:18f381e6] [IP:27.94.206.33] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 07:30:43] [INFO] [REQ:68def836] [IP:27.94.206.33] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 07:30:43] [INFO] [REQ:4fe63ffa] [IP:27.94.206.33] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 07:30:43] [INFO] [REQ:344dd09e] [IP:27.94.206.33] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 07:30:43] [INFO] [REQ:70b65b0b] [IP:27.94.206.33] ライブラリ読み込み完了
+[2025-08-14 07:30:43] [INFO] [REQ:1294de1a] [IP:27.94.206.33] ProductService初期化開始
+[2025-08-14 07:30:43] [INFO] [REQ:e76f5c6e] [IP:27.94.206.33] ProductService初期化完了
+[2025-08-14 07:30:43] [INFO] [REQ:74bb8f96] [IP:27.94.206.33] リクエストパラメータ: category_id=SO7HLNRC5EVBXAKPXWZFMDAP
+[2025-08-14 07:30:43] [INFO] [REQ:85a9fdfa] [IP:27.94.206.33] カテゴリID:SO7HLNRC5EVBXAKPXWZFMDAPの商品取得開始
+[2025-08-14 07:30:44] [INFO] [REQ:25f816a0] [IP:27.94.206.33] 商品取得完了: 9件
+[2025-08-14 07:30:44] [INFO] [REQ:0110e11e] [IP:27.94.206.33] JSONレスポンス生成完了: 8705バイト
+[2025-08-14 07:30:44] [INFO] [REQ:6f723177] [IP:27.94.206.33] ======== 商品API終了 ========
+[2025-08-14 07:30:57] [INFO] [REQ:ad6c975d] [IP:27.94.206.33] ======== 商品API開始 - /api/v1/products/?_=1755124256966&category_id=SO7HLNRC5EVBXAKPXWZFMDAP ========
+[2025-08-14 07:30:57] [INFO] [REQ:31308e3e] [IP:27.94.206.33] ライブラリ読み込み開始
+[2025-08-14 07:30:57] [INFO] [REQ:eba2f212] [IP:27.94.206.33] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 07:30:57] [INFO] [REQ:d34ada22] [IP:27.94.206.33] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 07:30:57] [INFO] [REQ:efa06591] [IP:27.94.206.33] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 07:30:57] [INFO] [REQ:58b8e9c6] [IP:27.94.206.33] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 07:30:57] [INFO] [REQ:6a071866] [IP:27.94.206.33] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 07:30:57] [INFO] [REQ:548a334c] [IP:27.94.206.33] ライブラリ読み込み完了
+[2025-08-14 07:30:57] [INFO] [REQ:3922112b] [IP:27.94.206.33] ProductService初期化開始
+[2025-08-14 07:30:57] [INFO] [REQ:d1f207e6] [IP:27.94.206.33] ProductService初期化完了
+[2025-08-14 07:30:57] [INFO] [REQ:c3333d65] [IP:27.94.206.33] リクエストパラメータ: category_id=SO7HLNRC5EVBXAKPXWZFMDAP
+[2025-08-14 07:30:57] [INFO] [REQ:d8f31df1] [IP:27.94.206.33] カテゴリID:SO7HLNRC5EVBXAKPXWZFMDAPの商品取得開始
+[2025-08-14 07:30:57] [INFO] [REQ:0146f98e] [IP:27.94.206.33] 商品取得完了: 9件
+[2025-08-14 07:30:57] [INFO] [REQ:ca40669c] [IP:27.94.206.33] JSONレスポンス生成完了: 8951バイト
+[2025-08-14 07:30:57] [INFO] [REQ:0282aa01] [IP:27.94.206.33] ======== 商品API終了 ========
+[2025-08-14 07:44:44] [INFO] [REQ:9e453784] [IP:27.94.206.33] ======== 商品API開始 - /api/v1/products/?_=1755125084566&category_id=SO7HLNRC5EVBXAKPXWZFMDAP ========
+[2025-08-14 07:44:44] [INFO] [REQ:7f7611d2] [IP:27.94.206.33] ライブラリ読み込み開始
+[2025-08-14 07:44:44] [INFO] [REQ:00be8986] [IP:27.94.206.33] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 07:44:44] [INFO] [REQ:a7852a0c] [IP:27.94.206.33] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 07:44:44] [INFO] [REQ:5d7e3af1] [IP:27.94.206.33] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 07:44:44] [INFO] [REQ:c1e9f685] [IP:27.94.206.33] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 07:44:44] [INFO] [REQ:e1eec068] [IP:27.94.206.33] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 07:44:44] [INFO] [REQ:ce855d56] [IP:27.94.206.33] ライブラリ読み込み完了
+[2025-08-14 07:44:44] [INFO] [REQ:f0216bbe] [IP:27.94.206.33] ProductService初期化開始
+[2025-08-14 07:44:44] [INFO] [REQ:5de7b653] [IP:27.94.206.33] ProductService初期化完了
+[2025-08-14 07:44:44] [INFO] [REQ:bceb495b] [IP:27.94.206.33] リクエストパラメータ: category_id=SO7HLNRC5EVBXAKPXWZFMDAP
+[2025-08-14 07:44:44] [INFO] [REQ:a46ec154] [IP:27.94.206.33] カテゴリID:SO7HLNRC5EVBXAKPXWZFMDAPの商品取得開始
+[2025-08-14 07:44:44] [INFO] [REQ:4b8d9ce7] [IP:27.94.206.33] 商品取得完了: 9件
+[2025-08-14 07:44:44] [INFO] [REQ:7b377cf4] [IP:27.94.206.33] JSONレスポンス生成完了: 8951バイト
+[2025-08-14 07:44:44] [INFO] [REQ:56cbb774] [IP:27.94.206.33] ======== 商品API終了 ========
+[2025-08-14 07:45:00] [INFO] [REQ:543933a6] [IP:27.94.206.33] ======== 商品API開始 - /api/v1/products/?_=1755125100427&category_id=SO7HLNRC5EVBXAKPXWZFMDAP ========
+[2025-08-14 07:45:00] [INFO] [REQ:f0648bf8] [IP:27.94.206.33] ライブラリ読み込み開始
+[2025-08-14 07:45:00] [INFO] [REQ:8e00b3c0] [IP:27.94.206.33] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 07:45:00] [INFO] [REQ:89868ca1] [IP:27.94.206.33] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 07:45:00] [INFO] [REQ:de3d88ee] [IP:27.94.206.33] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 07:45:00] [INFO] [REQ:53012b23] [IP:27.94.206.33] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 07:45:00] [INFO] [REQ:ed996650] [IP:27.94.206.33] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 07:45:00] [INFO] [REQ:bbd0b744] [IP:27.94.206.33] ライブラリ読み込み完了
+[2025-08-14 07:45:00] [INFO] [REQ:d7fa5562] [IP:27.94.206.33] ProductService初期化開始
+[2025-08-14 07:45:00] [INFO] [REQ:96b0c17e] [IP:27.94.206.33] ProductService初期化完了
+[2025-08-14 07:45:00] [INFO] [REQ:a4f57a75] [IP:27.94.206.33] リクエストパラメータ: category_id=SO7HLNRC5EVBXAKPXWZFMDAP
+[2025-08-14 07:45:00] [INFO] [REQ:7fa9ec6e] [IP:27.94.206.33] カテゴリID:SO7HLNRC5EVBXAKPXWZFMDAPの商品取得開始
+[2025-08-14 07:45:00] [INFO] [REQ:e713d7dc] [IP:27.94.206.33] 商品取得完了: 9件
+[2025-08-14 07:45:00] [INFO] [REQ:7057d6d0] [IP:27.94.206.33] JSONレスポンス生成完了: 8951バイト
+[2025-08-14 07:45:00] [INFO] [REQ:dee7f3f3] [IP:27.94.206.33] ======== 商品API終了 ========
+[2025-08-14 07:45:24] [INFO] [REQ:b10a97b9] [IP:124.45.140.249] ======== 商品API開始 - /api/v1/products/?_=1755125124831&category_id=SO7HLNRC5EVBXAKPXWZFMDAP ========
+[2025-08-14 07:45:24] [INFO] [REQ:5a28842d] [IP:124.45.140.249] ライブラリ読み込み開始
+[2025-08-14 07:45:24] [INFO] [REQ:1a9a423a] [IP:124.45.140.249] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 07:45:24] [INFO] [REQ:317cd217] [IP:124.45.140.249] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 07:45:24] [INFO] [REQ:6a76f443] [IP:124.45.140.249] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 07:45:24] [INFO] [REQ:63184d59] [IP:124.45.140.249] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 07:45:24] [INFO] [REQ:db0c1ef2] [IP:124.45.140.249] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 07:45:24] [INFO] [REQ:6b13b058] [IP:124.45.140.249] ライブラリ読み込み完了
+[2025-08-14 07:45:24] [INFO] [REQ:9f926904] [IP:124.45.140.249] ProductService初期化開始
+[2025-08-14 07:45:24] [INFO] [REQ:f46570cd] [IP:124.45.140.249] ProductService初期化完了
+[2025-08-14 07:45:24] [INFO] [REQ:7f00e41c] [IP:124.45.140.249] リクエストパラメータ: category_id=SO7HLNRC5EVBXAKPXWZFMDAP
+[2025-08-14 07:45:24] [INFO] [REQ:688a3a8c] [IP:124.45.140.249] カテゴリID:SO7HLNRC5EVBXAKPXWZFMDAPの商品取得開始
+[2025-08-14 07:45:24] [INFO] [REQ:600cb461] [IP:124.45.140.249] 商品取得完了: 9件
+[2025-08-14 07:45:24] [INFO] [REQ:45501f19] [IP:124.45.140.249] JSONレスポンス生成完了: 8951バイト
+[2025-08-14 07:45:24] [INFO] [REQ:b5dfde1f] [IP:124.45.140.249] ======== 商品API終了 ========
+[2025-08-14 07:45:25] [INFO] [REQ:0abeb651] [IP:124.45.140.249] ======== 商品API開始 - /api/v1/products/?_=1755125124991&category_id=SO7HLNRC5EVBXAKPXWZFMDAP ========
+[2025-08-14 07:45:25] [INFO] [REQ:411028c7] [IP:124.45.140.249] ライブラリ読み込み開始
+[2025-08-14 07:45:25] [INFO] [REQ:e54817ac] [IP:124.45.140.249] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 07:45:25] [INFO] [REQ:f165bd94] [IP:124.45.140.249] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 07:45:25] [INFO] [REQ:12dd72b4] [IP:124.45.140.249] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 07:45:25] [INFO] [REQ:83c8300f] [IP:124.45.140.249] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 07:45:25] [INFO] [REQ:40c0d1a1] [IP:124.45.140.249] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 07:45:25] [INFO] [REQ:a4573563] [IP:124.45.140.249] ライブラリ読み込み完了
+[2025-08-14 07:45:25] [INFO] [REQ:5d2acadc] [IP:124.45.140.249] ProductService初期化開始
+[2025-08-14 07:45:25] [INFO] [REQ:0dbcb809] [IP:124.45.140.249] ProductService初期化完了
+[2025-08-14 07:45:25] [INFO] [REQ:113cb8a1] [IP:124.45.140.249] リクエストパラメータ: category_id=SO7HLNRC5EVBXAKPXWZFMDAP
+[2025-08-14 07:45:25] [INFO] [REQ:68fc6c08] [IP:124.45.140.249] カテゴリID:SO7HLNRC5EVBXAKPXWZFMDAPの商品取得開始
+[2025-08-14 07:45:25] [INFO] [REQ:f2d8b915] [IP:124.45.140.249] 商品取得完了: 9件
+[2025-08-14 07:45:25] [INFO] [REQ:5e822354] [IP:124.45.140.249] JSONレスポンス生成完了: 8951バイト
+[2025-08-14 07:45:25] [INFO] [REQ:9f7a9271] [IP:124.45.140.249] ======== 商品API終了 ========
+[2025-08-14 07:49:12] [INFO] [REQ:a0c5ffbb] [IP:27.94.206.33] ======== 商品API開始 - /api/v1/products/?_=1755125352444&category_id=SO7HLNRC5EVBXAKPXWZFMDAP ========
+[2025-08-14 07:49:12] [INFO] [REQ:b07d92db] [IP:27.94.206.33] ライブラリ読み込み開始
+[2025-08-14 07:49:12] [INFO] [REQ:3e498b31] [IP:27.94.206.33] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 07:49:12] [INFO] [REQ:48e60c83] [IP:27.94.206.33] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 07:49:12] [INFO] [REQ:e8ca04a4] [IP:27.94.206.33] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 07:49:12] [INFO] [REQ:018b5dc8] [IP:27.94.206.33] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 07:49:12] [INFO] [REQ:f8672141] [IP:27.94.206.33] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 07:49:12] [INFO] [REQ:95fc45b7] [IP:27.94.206.33] ライブラリ読み込み完了
+[2025-08-14 07:49:12] [INFO] [REQ:db47baa7] [IP:27.94.206.33] ProductService初期化開始
+[2025-08-14 07:49:12] [INFO] [REQ:6a0473ea] [IP:27.94.206.33] ProductService初期化完了
+[2025-08-14 07:49:12] [INFO] [REQ:e3c61e75] [IP:27.94.206.33] リクエストパラメータ: category_id=SO7HLNRC5EVBXAKPXWZFMDAP
+[2025-08-14 07:49:12] [INFO] [REQ:8b34ecd1] [IP:27.94.206.33] カテゴリID:SO7HLNRC5EVBXAKPXWZFMDAPの商品取得開始
+[2025-08-14 07:49:12] [INFO] [REQ:1d5934a0] [IP:27.94.206.33] 商品取得完了: 9件
+[2025-08-14 07:49:12] [INFO] [REQ:04a8a917] [IP:27.94.206.33] JSONレスポンス生成完了: 8951バイト
+[2025-08-14 07:49:12] [INFO] [REQ:de6ce9d6] [IP:27.94.206.33] ======== 商品API終了 ========
+[2025-08-14 07:54:35] [INFO] [REQ:056bf5dc] [IP:27.94.206.33] ======== 商品API開始 - /api/v1/products/?_=1755125675692&category_id=SO7HLNRC5EVBXAKPXWZFMDAP ========
+[2025-08-14 07:54:35] [INFO] [REQ:cd7c675f] [IP:27.94.206.33] ライブラリ読み込み開始
+[2025-08-14 07:54:35] [INFO] [REQ:1886fbc2] [IP:27.94.206.33] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 07:54:35] [INFO] [REQ:db5a3800] [IP:27.94.206.33] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 07:54:35] [INFO] [REQ:5a0d2035] [IP:27.94.206.33] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 07:54:35] [INFO] [REQ:f4614b2a] [IP:27.94.206.33] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 07:54:35] [INFO] [REQ:2fd6cbf1] [IP:27.94.206.33] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 07:54:35] [INFO] [REQ:cdcb205f] [IP:27.94.206.33] ライブラリ読み込み完了
+[2025-08-14 07:54:35] [INFO] [REQ:898cd5bf] [IP:27.94.206.33] ProductService初期化開始
+[2025-08-14 07:54:35] [INFO] [REQ:d3c4fd37] [IP:27.94.206.33] ProductService初期化完了
+[2025-08-14 07:54:35] [INFO] [REQ:9a3c470a] [IP:27.94.206.33] リクエストパラメータ: category_id=SO7HLNRC5EVBXAKPXWZFMDAP
+[2025-08-14 07:54:35] [INFO] [REQ:fcbe1751] [IP:27.94.206.33] カテゴリID:SO7HLNRC5EVBXAKPXWZFMDAPの商品取得開始
+[2025-08-14 07:54:35] [INFO] [REQ:b2cc5992] [IP:27.94.206.33] 商品取得完了: 9件
+[2025-08-14 07:54:35] [INFO] [REQ:10ee6c7d] [IP:27.94.206.33] JSONレスポンス生成完了: 8951バイト
+[2025-08-14 07:54:35] [INFO] [REQ:3ee5af51] [IP:27.94.206.33] ======== 商品API終了 ========
+[2025-08-14 07:55:15] [INFO] [REQ:c13668ce] [IP:27.94.206.33] ======== 商品API開始 - /api/v1/products/?_=1755125715698&category_id=SO7HLNRC5EVBXAKPXWZFMDAP ========
+[2025-08-14 07:55:15] [INFO] [REQ:daac2464] [IP:27.94.206.33] ライブラリ読み込み開始
+[2025-08-14 07:55:15] [INFO] [REQ:af879fae] [IP:27.94.206.33] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 07:55:15] [INFO] [REQ:fc8c1b67] [IP:27.94.206.33] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 07:55:15] [INFO] [REQ:129f1dcc] [IP:27.94.206.33] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 07:55:15] [INFO] [REQ:6bd46386] [IP:27.94.206.33] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 07:55:15] [INFO] [REQ:0a6eba65] [IP:27.94.206.33] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 07:55:15] [INFO] [REQ:fcb1ea8a] [IP:27.94.206.33] ライブラリ読み込み完了
+[2025-08-14 07:55:15] [INFO] [REQ:a3c224bb] [IP:27.94.206.33] ProductService初期化開始
+[2025-08-14 07:55:15] [INFO] [REQ:89036d96] [IP:27.94.206.33] ProductService初期化完了
+[2025-08-14 07:55:15] [INFO] [REQ:ee5b3f01] [IP:27.94.206.33] リクエストパラメータ: category_id=SO7HLNRC5EVBXAKPXWZFMDAP
+[2025-08-14 07:55:15] [INFO] [REQ:96411dd0] [IP:27.94.206.33] カテゴリID:SO7HLNRC5EVBXAKPXWZFMDAPの商品取得開始
+[2025-08-14 07:55:15] [INFO] [REQ:6609c8ba] [IP:27.94.206.33] 商品取得完了: 9件
+[2025-08-14 07:55:15] [INFO] [REQ:35c354a6] [IP:27.94.206.33] JSONレスポンス生成完了: 8951バイト
+[2025-08-14 07:55:15] [INFO] [REQ:78f85437] [IP:27.94.206.33] ======== 商品API終了 ========
+[2025-08-14 07:59:58] [INFO] [REQ:4acdabf5] [IP:27.94.206.33] ======== 商品API開始 - /api/v1/products/?_=1755125998564&category_id=SO7HLNRC5EVBXAKPXWZFMDAP ========
+[2025-08-14 07:59:58] [INFO] [REQ:dd9b2229] [IP:27.94.206.33] ライブラリ読み込み開始
+[2025-08-14 07:59:58] [INFO] [REQ:5dc0616c] [IP:27.94.206.33] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 07:59:58] [INFO] [REQ:e615b66a] [IP:27.94.206.33] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 07:59:58] [INFO] [REQ:5da43ab5] [IP:27.94.206.33] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 07:59:58] [INFO] [REQ:75b2d5ff] [IP:27.94.206.33] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 07:59:58] [INFO] [REQ:f3a1e14a] [IP:27.94.206.33] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 07:59:58] [INFO] [REQ:0c67ef9a] [IP:27.94.206.33] ライブラリ読み込み完了
+[2025-08-14 07:59:58] [INFO] [REQ:5a667ab1] [IP:27.94.206.33] ProductService初期化開始
+[2025-08-14 07:59:58] [INFO] [REQ:20388ed1] [IP:27.94.206.33] ProductService初期化完了
+[2025-08-14 07:59:58] [INFO] [REQ:6b6bb733] [IP:27.94.206.33] リクエストパラメータ: category_id=SO7HLNRC5EVBXAKPXWZFMDAP
+[2025-08-14 07:59:58] [INFO] [REQ:a163121f] [IP:27.94.206.33] カテゴリID:SO7HLNRC5EVBXAKPXWZFMDAPの商品取得開始
+[2025-08-14 07:59:58] [INFO] [REQ:c890efb9] [IP:27.94.206.33] 商品取得完了: 9件
+[2025-08-14 07:59:58] [INFO] [REQ:9ccc9977] [IP:27.94.206.33] JSONレスポンス生成完了: 8951バイト
+[2025-08-14 07:59:58] [INFO] [REQ:c9b25ffd] [IP:27.94.206.33] ======== 商品API終了 ========
+[2025-08-14 08:17:21] [INFO] [REQ:a951ecc8] [IP:124.45.140.249] ======== 商品API開始 - /api/v1/products/?_=1755127041176&category_id=SO7HLNRC5EVBXAKPXWZFMDAP ========
+[2025-08-14 08:17:21] [INFO] [REQ:8c62c657] [IP:124.45.140.249] ライブラリ読み込み開始
+[2025-08-14 08:17:21] [INFO] [REQ:88ac318f] [IP:124.45.140.249] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 08:17:21] [INFO] [REQ:58692c82] [IP:124.45.140.249] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 08:17:21] [INFO] [REQ:a117814e] [IP:124.45.140.249] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 08:17:21] [INFO] [REQ:9ddfdc32] [IP:124.45.140.249] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 08:17:21] [INFO] [REQ:39371317] [IP:124.45.140.249] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 08:17:21] [INFO] [REQ:418634b3] [IP:124.45.140.249] ライブラリ読み込み完了
+[2025-08-14 08:17:21] [INFO] [REQ:6a31e888] [IP:124.45.140.249] ProductService初期化開始
+[2025-08-14 08:17:21] [INFO] [REQ:f7e30850] [IP:124.45.140.249] ProductService初期化完了
+[2025-08-14 08:17:21] [INFO] [REQ:d5d0bc18] [IP:124.45.140.249] リクエストパラメータ: category_id=SO7HLNRC5EVBXAKPXWZFMDAP
+[2025-08-14 08:17:21] [INFO] [REQ:a3e5deac] [IP:124.45.140.249] カテゴリID:SO7HLNRC5EVBXAKPXWZFMDAPの商品取得開始
+[2025-08-14 08:17:21] [INFO] [REQ:c7ffb9e5] [IP:124.45.140.249] 商品取得完了: 9件
+[2025-08-14 08:17:21] [INFO] [REQ:1c8db275] [IP:124.45.140.249] JSONレスポンス生成完了: 8951バイト
+[2025-08-14 08:17:21] [INFO] [REQ:37f46294] [IP:124.45.140.249] ======== 商品API終了 ========
+[2025-08-14 08:17:23] [INFO] [REQ:f8195263] [IP:124.45.140.249] ======== 商品API開始 - /api/v1/products/?_=1755127043929&category_id=SO7HLNRC5EVBXAKPXWZFMDAP ========
+[2025-08-14 08:17:23] [INFO] [REQ:aec55ed2] [IP:124.45.140.249] ライブラリ読み込み開始
+[2025-08-14 08:17:23] [INFO] [REQ:f4e444e7] [IP:124.45.140.249] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 08:17:23] [INFO] [REQ:1c3aca2e] [IP:124.45.140.249] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 08:17:23] [INFO] [REQ:ca4e2a25] [IP:124.45.140.249] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 08:17:23] [INFO] [REQ:7e8298a9] [IP:124.45.140.249] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 08:17:23] [INFO] [REQ:242e207c] [IP:124.45.140.249] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 08:17:23] [INFO] [REQ:0dbcdad7] [IP:124.45.140.249] ライブラリ読み込み完了
+[2025-08-14 08:17:23] [INFO] [REQ:537f9f9e] [IP:124.45.140.249] ProductService初期化開始
+[2025-08-14 08:17:23] [INFO] [REQ:8ff4ea20] [IP:124.45.140.249] ProductService初期化完了
+[2025-08-14 08:17:23] [INFO] [REQ:4c83a142] [IP:124.45.140.249] リクエストパラメータ: category_id=SO7HLNRC5EVBXAKPXWZFMDAP
+[2025-08-14 08:17:23] [INFO] [REQ:b20abf56] [IP:124.45.140.249] カテゴリID:SO7HLNRC5EVBXAKPXWZFMDAPの商品取得開始
+[2025-08-14 08:17:23] [INFO] [REQ:62b91214] [IP:124.45.140.249] 商品取得完了: 9件
+[2025-08-14 08:17:23] [INFO] [REQ:1c14411c] [IP:124.45.140.249] JSONレスポンス生成完了: 8951バイト
+[2025-08-14 08:17:23] [INFO] [REQ:272e5de8] [IP:124.45.140.249] ======== 商品API終了 ========
+[2025-08-14 08:17:32] [INFO] [REQ:f34cf51f] [IP:124.45.140.249] ======== 商品API開始 - /api/v1/products/?_=1755127052287&category_id=BSHQAMZCKMYW2RKQLARD3K55 ========
+[2025-08-14 08:17:32] [INFO] [REQ:828e9ee0] [IP:124.45.140.249] ライブラリ読み込み開始
+[2025-08-14 08:17:32] [INFO] [REQ:daef5339] [IP:124.45.140.249] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 08:17:32] [INFO] [REQ:7bd207ec] [IP:124.45.140.249] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 08:17:32] [INFO] [REQ:af7e9c40] [IP:124.45.140.249] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 08:17:32] [INFO] [REQ:0c5d326e] [IP:124.45.140.249] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 08:17:32] [INFO] [REQ:7f96100b] [IP:124.45.140.249] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 08:17:32] [INFO] [REQ:048e3a2b] [IP:124.45.140.249] ライブラリ読み込み完了
+[2025-08-14 08:17:32] [INFO] [REQ:6fbe8d61] [IP:124.45.140.249] ProductService初期化開始
+[2025-08-14 08:17:32] [INFO] [REQ:ed7460ef] [IP:124.45.140.249] ProductService初期化完了
+[2025-08-14 08:17:32] [INFO] [REQ:73fc8052] [IP:124.45.140.249] リクエストパラメータ: category_id=BSHQAMZCKMYW2RKQLARD3K55
+[2025-08-14 08:17:32] [INFO] [REQ:29de2589] [IP:124.45.140.249] カテゴリID:BSHQAMZCKMYW2RKQLARD3K55の商品取得開始
+[2025-08-14 08:17:32] [INFO] [REQ:fdba800d] [IP:124.45.140.249] 商品取得完了: 24件
+[2025-08-14 08:17:32] [INFO] [REQ:03f2f389] [IP:124.45.140.249] JSONレスポンス生成完了: 22680バイト
+[2025-08-14 08:17:32] [INFO] [REQ:8b348bb1] [IP:124.45.140.249] ======== 商品API終了 ========
+[2025-08-14 08:17:34] [INFO] [REQ:6065a42a] [IP:124.45.140.249] ======== 商品API開始 - /api/v1/products/?_=1755127054695&category_id=COZQK7FI2FLKJNGQB5R2QBGC ========
+[2025-08-14 08:17:34] [INFO] [REQ:7433673d] [IP:124.45.140.249] ライブラリ読み込み開始
+[2025-08-14 08:17:34] [INFO] [REQ:4f2d639b] [IP:124.45.140.249] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 08:17:34] [INFO] [REQ:57876e13] [IP:124.45.140.249] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 08:17:34] [INFO] [REQ:3a5fa5b3] [IP:124.45.140.249] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 08:17:34] [INFO] [REQ:57099706] [IP:124.45.140.249] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 08:17:34] [INFO] [REQ:73748991] [IP:124.45.140.249] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 08:17:34] [INFO] [REQ:fa9c26d8] [IP:124.45.140.249] ライブラリ読み込み完了
+[2025-08-14 08:17:34] [INFO] [REQ:4f17f0f9] [IP:124.45.140.249] ProductService初期化開始
+[2025-08-14 08:17:34] [INFO] [REQ:a61256a8] [IP:124.45.140.249] ProductService初期化完了
+[2025-08-14 08:17:34] [INFO] [REQ:ad740e36] [IP:124.45.140.249] リクエストパラメータ: category_id=COZQK7FI2FLKJNGQB5R2QBGC
+[2025-08-14 08:17:34] [INFO] [REQ:67ce8895] [IP:124.45.140.249] カテゴリID:COZQK7FI2FLKJNGQB5R2QBGCの商品取得開始
+[2025-08-14 08:17:34] [INFO] [REQ:44600891] [IP:124.45.140.249] 商品取得完了: 3件
+[2025-08-14 08:17:34] [INFO] [REQ:57fd196e] [IP:124.45.140.249] JSONレスポンス生成完了: 2968バイト
+[2025-08-14 08:17:34] [INFO] [REQ:3aca012e] [IP:124.45.140.249] ======== 商品API終了 ========
+[2025-08-14 08:17:35] [INFO] [REQ:29f75de4] [IP:124.45.140.249] ======== 商品API開始 - /api/v1/products/?_=1755127055306&category_id=ZVN57PX6X2U4R7UV7ATAH5Y5 ========
+[2025-08-14 08:17:35] [INFO] [REQ:726a8021] [IP:124.45.140.249] ライブラリ読み込み開始
+[2025-08-14 08:17:35] [INFO] [REQ:9d75739e] [IP:124.45.140.249] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 08:17:35] [INFO] [REQ:04b11adb] [IP:124.45.140.249] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 08:17:35] [INFO] [REQ:4f4a5c43] [IP:124.45.140.249] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 08:17:35] [INFO] [REQ:2cbdc2d1] [IP:124.45.140.249] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 08:17:35] [INFO] [REQ:403625b2] [IP:124.45.140.249] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 08:17:35] [INFO] [REQ:20cd7f92] [IP:124.45.140.249] ライブラリ読み込み完了
+[2025-08-14 08:17:35] [INFO] [REQ:7cc55138] [IP:124.45.140.249] ProductService初期化開始
+[2025-08-14 08:17:35] [INFO] [REQ:1730998f] [IP:124.45.140.249] ProductService初期化完了
+[2025-08-14 08:17:35] [INFO] [REQ:659bfff7] [IP:124.45.140.249] リクエストパラメータ: category_id=ZVN57PX6X2U4R7UV7ATAH5Y5
+[2025-08-14 08:17:35] [INFO] [REQ:23a8f1c5] [IP:124.45.140.249] カテゴリID:ZVN57PX6X2U4R7UV7ATAH5Y5の商品取得開始
+[2025-08-14 08:17:35] [INFO] [REQ:806f40e0] [IP:124.45.140.249] 商品取得完了: 7件
+[2025-08-14 08:17:35] [INFO] [REQ:c8b210cb] [IP:124.45.140.249] JSONレスポンス生成完了: 6992バイト
+[2025-08-14 08:17:35] [INFO] [REQ:9d2521ef] [IP:124.45.140.249] ======== 商品API終了 ========
+[2025-08-14 08:17:38] [INFO] [REQ:d8b0b972] [IP:124.45.140.249] ======== 商品API開始 - /api/v1/products/?_=1755127058588&category_id=BUODEPKQPSQYAXSGLUA4IQOR ========
+[2025-08-14 08:17:38] [INFO] [REQ:48498ff4] [IP:124.45.140.249] ライブラリ読み込み開始
+[2025-08-14 08:17:38] [INFO] [REQ:086a5d68] [IP:124.45.140.249] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 08:17:38] [INFO] [REQ:1f047074] [IP:124.45.140.249] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 08:17:38] [INFO] [REQ:e3cf60d6] [IP:124.45.140.249] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 08:17:38] [INFO] [REQ:20ce560f] [IP:124.45.140.249] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 08:17:38] [INFO] [REQ:69c1f435] [IP:124.45.140.249] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 08:17:38] [INFO] [REQ:229f0071] [IP:124.45.140.249] ライブラリ読み込み完了
+[2025-08-14 08:17:38] [INFO] [REQ:f45d9edc] [IP:124.45.140.249] ProductService初期化開始
+[2025-08-14 08:17:38] [INFO] [REQ:4511333c] [IP:124.45.140.249] ProductService初期化完了
+[2025-08-14 08:17:38] [INFO] [REQ:bbb9f09a] [IP:124.45.140.249] リクエストパラメータ: category_id=BUODEPKQPSQYAXSGLUA4IQOR
+[2025-08-14 08:17:38] [INFO] [REQ:6d53f662] [IP:124.45.140.249] カテゴリID:BUODEPKQPSQYAXSGLUA4IQORの商品取得開始
+[2025-08-14 08:17:38] [INFO] [REQ:15052088] [IP:124.45.140.249] 商品取得完了: 6件
+[2025-08-14 08:17:38] [INFO] [REQ:13a001c4] [IP:124.45.140.249] JSONレスポンス生成完了: 5175バイト
+[2025-08-14 08:17:38] [INFO] [REQ:37995049] [IP:124.45.140.249] ======== 商品API終了 ========
+[2025-08-14 08:35:13] [INFO] [REQ:a7edbeeb] [IP:124.45.140.249] ======== 商品API開始 - /api/v1/products/?_=1755128113451&category_id=SO7HLNRC5EVBXAKPXWZFMDAP ========
+[2025-08-14 08:35:13] [INFO] [REQ:d114fbf3] [IP:124.45.140.249] ライブラリ読み込み開始
+[2025-08-14 08:35:13] [INFO] [REQ:354b6496] [IP:124.45.140.249] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 08:35:13] [INFO] [REQ:01b9dbca] [IP:124.45.140.249] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 08:35:13] [INFO] [REQ:5f18d335] [IP:124.45.140.249] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 08:35:13] [INFO] [REQ:9833ec16] [IP:124.45.140.249] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 08:35:13] [INFO] [REQ:a7b10b81] [IP:124.45.140.249] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 08:35:13] [INFO] [REQ:120e3511] [IP:124.45.140.249] ライブラリ読み込み完了
+[2025-08-14 08:35:13] [INFO] [REQ:3cc96412] [IP:124.45.140.249] ProductService初期化開始
+[2025-08-14 08:35:13] [INFO] [REQ:fa3be998] [IP:124.45.140.249] ProductService初期化完了
+[2025-08-14 08:35:13] [INFO] [REQ:0af5dc34] [IP:124.45.140.249] リクエストパラメータ: category_id=SO7HLNRC5EVBXAKPXWZFMDAP
+[2025-08-14 08:35:13] [INFO] [REQ:188dbb65] [IP:124.45.140.249] カテゴリID:SO7HLNRC5EVBXAKPXWZFMDAPの商品取得開始
+[2025-08-14 08:35:13] [INFO] [REQ:3675a0ce] [IP:124.45.140.249] 商品取得完了: 9件
+[2025-08-14 08:35:13] [INFO] [REQ:a16fadce] [IP:124.45.140.249] JSONレスポンス生成完了: 8951バイト
+[2025-08-14 08:35:13] [INFO] [REQ:817b7294] [IP:124.45.140.249] ======== 商品API終了 ========
+[2025-08-14 08:35:14] [INFO] [REQ:b8af244c] [IP:124.45.140.249] ======== 商品API開始 - /api/v1/products/?_=1755128113755&category_id=SO7HLNRC5EVBXAKPXWZFMDAP ========
+[2025-08-14 08:35:14] [INFO] [REQ:2975fb73] [IP:124.45.140.249] ライブラリ読み込み開始
+[2025-08-14 08:35:14] [INFO] [REQ:a940704f] [IP:124.45.140.249] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 08:35:14] [INFO] [REQ:54b2bda7] [IP:124.45.140.249] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 08:35:14] [INFO] [REQ:1e31bd5c] [IP:124.45.140.249] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 08:35:14] [INFO] [REQ:8bb63d17] [IP:124.45.140.249] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 08:35:14] [INFO] [REQ:096be717] [IP:124.45.140.249] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 08:35:14] [INFO] [REQ:48fdf9cb] [IP:124.45.140.249] ライブラリ読み込み完了
+[2025-08-14 08:35:14] [INFO] [REQ:ab3580e4] [IP:124.45.140.249] ProductService初期化開始
+[2025-08-14 08:35:14] [INFO] [REQ:a1448c33] [IP:124.45.140.249] ProductService初期化完了
+[2025-08-14 08:35:14] [INFO] [REQ:a334f5a5] [IP:124.45.140.249] リクエストパラメータ: category_id=SO7HLNRC5EVBXAKPXWZFMDAP
+[2025-08-14 08:35:14] [INFO] [REQ:ea955f35] [IP:124.45.140.249] カテゴリID:SO7HLNRC5EVBXAKPXWZFMDAPの商品取得開始
+[2025-08-14 08:35:14] [INFO] [REQ:b753ef05] [IP:124.45.140.249] 商品取得完了: 9件
+[2025-08-14 08:35:14] [INFO] [REQ:4549987e] [IP:124.45.140.249] JSONレスポンス生成完了: 8951バイト
+[2025-08-14 08:35:14] [INFO] [REQ:907974cc] [IP:124.45.140.249] ======== 商品API終了 ========
+[2025-08-14 10:16:51] [INFO] [REQ:93968c4e] [IP:27.94.206.33] ======== 商品API開始 - /api/v1/products/?_=1755134211022&category_id=SO7HLNRC5EVBXAKPXWZFMDAP ========
+[2025-08-14 10:16:51] [INFO] [REQ:b6f8047d] [IP:27.94.206.33] ライブラリ読み込み開始
+[2025-08-14 10:16:51] [INFO] [REQ:f6333b44] [IP:27.94.206.33] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 10:16:51] [INFO] [REQ:6c72b64e] [IP:27.94.206.33] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 10:16:51] [INFO] [REQ:27bf6224] [IP:27.94.206.33] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 10:16:51] [INFO] [REQ:91b0232c] [IP:27.94.206.33] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 10:16:51] [INFO] [REQ:21182de5] [IP:27.94.206.33] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 10:16:51] [INFO] [REQ:6933bcea] [IP:27.94.206.33] ライブラリ読み込み完了
+[2025-08-14 10:16:51] [INFO] [REQ:932657d8] [IP:27.94.206.33] ProductService初期化開始
+[2025-08-14 10:16:51] [INFO] [REQ:7a3fb055] [IP:27.94.206.33] ProductService初期化完了
+[2025-08-14 10:16:51] [INFO] [REQ:ae187ea1] [IP:27.94.206.33] リクエストパラメータ: category_id=SO7HLNRC5EVBXAKPXWZFMDAP
+[2025-08-14 10:16:51] [INFO] [REQ:033d0eae] [IP:27.94.206.33] カテゴリID:SO7HLNRC5EVBXAKPXWZFMDAPの商品取得開始
+[2025-08-14 10:16:51] [INFO] [REQ:f46ac464] [IP:27.94.206.33] 商品取得完了: 9件
+[2025-08-14 10:16:51] [INFO] [REQ:d33503cf] [IP:27.94.206.33] JSONレスポンス生成完了: 8951バイト
+[2025-08-14 10:16:51] [INFO] [REQ:e76debe3] [IP:27.94.206.33] ======== 商品API終了 ========
+[2025-08-14 10:19:39] [INFO] [REQ:808dd7b0] [IP:27.94.206.33] ======== 商品API開始 - /api/v1/products/?_=1755134379699&category_id=SO7HLNRC5EVBXAKPXWZFMDAP ========
+[2025-08-14 10:19:39] [INFO] [REQ:dfc6bc06] [IP:27.94.206.33] ライブラリ読み込み開始
+[2025-08-14 10:19:39] [INFO] [REQ:abd21d67] [IP:27.94.206.33] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 10:19:39] [INFO] [REQ:46925a47] [IP:27.94.206.33] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 10:19:39] [INFO] [REQ:1ec01aec] [IP:27.94.206.33] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 10:19:39] [INFO] [REQ:d64f4e87] [IP:27.94.206.33] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 10:19:39] [INFO] [REQ:c698ddfc] [IP:27.94.206.33] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 10:19:39] [INFO] [REQ:fc33a42c] [IP:27.94.206.33] ライブラリ読み込み完了
+[2025-08-14 10:19:39] [INFO] [REQ:5bad85b5] [IP:27.94.206.33] ProductService初期化開始
+[2025-08-14 10:19:39] [INFO] [REQ:4ec667cc] [IP:27.94.206.33] ProductService初期化完了
+[2025-08-14 10:19:39] [INFO] [REQ:34af45f3] [IP:27.94.206.33] リクエストパラメータ: category_id=SO7HLNRC5EVBXAKPXWZFMDAP
+[2025-08-14 10:19:39] [INFO] [REQ:7ba740d4] [IP:27.94.206.33] カテゴリID:SO7HLNRC5EVBXAKPXWZFMDAPの商品取得開始
+[2025-08-14 10:19:39] [INFO] [REQ:33b89102] [IP:27.94.206.33] 商品取得完了: 9件
+[2025-08-14 10:19:39] [INFO] [REQ:f1080975] [IP:27.94.206.33] JSONレスポンス生成完了: 8951バイト
+[2025-08-14 10:19:39] [INFO] [REQ:41b37802] [IP:27.94.206.33] ======== 商品API終了 ========
+[2025-08-14 10:20:05] [INFO] [REQ:b2938dc7] [IP:27.94.206.33] ======== 商品API開始 - /api/v1/products/?_=1755134405695&category_id=SO7HLNRC5EVBXAKPXWZFMDAP ========
+[2025-08-14 10:20:05] [INFO] [REQ:f55cfc4f] [IP:27.94.206.33] ライブラリ読み込み開始
+[2025-08-14 10:20:05] [INFO] [REQ:25fcc2a2] [IP:27.94.206.33] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 10:20:05] [INFO] [REQ:e3243ee7] [IP:27.94.206.33] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 10:20:05] [INFO] [REQ:8bac2276] [IP:27.94.206.33] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 10:20:05] [INFO] [REQ:d4aac246] [IP:27.94.206.33] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 10:20:05] [INFO] [REQ:5f82b4af] [IP:27.94.206.33] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 10:20:05] [INFO] [REQ:40d03c96] [IP:27.94.206.33] ライブラリ読み込み完了
+[2025-08-14 10:20:05] [INFO] [REQ:cf28d76d] [IP:27.94.206.33] ProductService初期化開始
+[2025-08-14 10:20:05] [INFO] [REQ:d0d6edfa] [IP:27.94.206.33] ProductService初期化完了
+[2025-08-14 10:20:05] [INFO] [REQ:c2ef2a71] [IP:27.94.206.33] リクエストパラメータ: category_id=SO7HLNRC5EVBXAKPXWZFMDAP
+[2025-08-14 10:20:05] [INFO] [REQ:1ddcd9f6] [IP:27.94.206.33] カテゴリID:SO7HLNRC5EVBXAKPXWZFMDAPの商品取得開始
+[2025-08-14 10:20:05] [INFO] [REQ:504c160b] [IP:27.94.206.33] 商品取得完了: 9件
+[2025-08-14 10:20:05] [INFO] [REQ:58339ee1] [IP:27.94.206.33] JSONレスポンス生成完了: 8951バイト
+[2025-08-14 10:20:05] [INFO] [REQ:f57fce0e] [IP:27.94.206.33] ======== 商品API終了 ========
+[2025-08-14 10:21:36] [INFO] [REQ:8175bec6] [IP:27.94.206.33] ======== 商品API開始 - /api/v1/products/?_=1755134496845&category_id=SO7HLNRC5EVBXAKPXWZFMDAP ========
+[2025-08-14 10:21:36] [INFO] [REQ:e8cc4dff] [IP:27.94.206.33] ライブラリ読み込み開始
+[2025-08-14 10:21:36] [INFO] [REQ:6f8078e4] [IP:27.94.206.33] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 10:21:36] [INFO] [REQ:fdbf8ede] [IP:27.94.206.33] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 10:21:36] [INFO] [REQ:22ebf1f0] [IP:27.94.206.33] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 10:21:36] [INFO] [REQ:ecbeef8e] [IP:27.94.206.33] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 10:21:36] [INFO] [REQ:77bbac1d] [IP:27.94.206.33] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 10:21:36] [INFO] [REQ:4ab5c1da] [IP:27.94.206.33] ライブラリ読み込み完了
+[2025-08-14 10:21:36] [INFO] [REQ:a6bc7b02] [IP:27.94.206.33] ProductService初期化開始
+[2025-08-14 10:21:36] [INFO] [REQ:7635ec58] [IP:27.94.206.33] ProductService初期化完了
+[2025-08-14 10:21:36] [INFO] [REQ:743d36b1] [IP:27.94.206.33] リクエストパラメータ: category_id=SO7HLNRC5EVBXAKPXWZFMDAP
+[2025-08-14 10:21:36] [INFO] [REQ:257dbc07] [IP:27.94.206.33] カテゴリID:SO7HLNRC5EVBXAKPXWZFMDAPの商品取得開始
+[2025-08-14 10:21:36] [INFO] [REQ:bb133306] [IP:27.94.206.33] 商品取得完了: 9件
+[2025-08-14 10:21:36] [INFO] [REQ:92b1994a] [IP:27.94.206.33] JSONレスポンス生成完了: 8951バイト
+[2025-08-14 10:21:36] [INFO] [REQ:c98d2954] [IP:27.94.206.33] ======== 商品API終了 ========
+[2025-08-14 10:21:51] [INFO] [REQ:2e44bf93] [IP:27.94.206.33] ======== 商品API開始 - /api/v1/products/?_=1755134511220&category_id=SO7HLNRC5EVBXAKPXWZFMDAP ========
+[2025-08-14 10:21:51] [INFO] [REQ:893b0c46] [IP:27.94.206.33] ライブラリ読み込み開始
+[2025-08-14 10:21:51] [INFO] [REQ:93f518cc] [IP:27.94.206.33] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 10:21:51] [INFO] [REQ:16ca5cca] [IP:27.94.206.33] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 10:21:51] [INFO] [REQ:04bab4d4] [IP:27.94.206.33] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 10:21:51] [INFO] [REQ:a4e84c50] [IP:27.94.206.33] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 10:21:51] [INFO] [REQ:ade1e54c] [IP:27.94.206.33] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 10:21:51] [INFO] [REQ:185b07a0] [IP:27.94.206.33] ライブラリ読み込み完了
+[2025-08-14 10:21:51] [INFO] [REQ:f0e463d7] [IP:27.94.206.33] ProductService初期化開始
+[2025-08-14 10:21:51] [INFO] [REQ:1d2fe80a] [IP:27.94.206.33] ProductService初期化完了
+[2025-08-14 10:21:51] [INFO] [REQ:8518a980] [IP:27.94.206.33] リクエストパラメータ: category_id=SO7HLNRC5EVBXAKPXWZFMDAP
+[2025-08-14 10:21:51] [INFO] [REQ:f68cda1b] [IP:27.94.206.33] カテゴリID:SO7HLNRC5EVBXAKPXWZFMDAPの商品取得開始
+[2025-08-14 10:21:51] [INFO] [REQ:f9eac9c1] [IP:27.94.206.33] 商品取得完了: 9件
+[2025-08-14 10:21:51] [INFO] [REQ:0d703211] [IP:27.94.206.33] JSONレスポンス生成完了: 8951バイト
+[2025-08-14 10:21:51] [INFO] [REQ:6c249881] [IP:27.94.206.33] ======== 商品API終了 ========
+[2025-08-14 10:30:01] [INFO] [REQ:e83c7447] [IP:27.94.206.33] ======== 商品API開始 - /api/v1/products/?_=1755135001247&category_id=SO7HLNRC5EVBXAKPXWZFMDAP ========
+[2025-08-14 10:30:01] [INFO] [REQ:6c506e2c] [IP:27.94.206.33] ライブラリ読み込み開始
+[2025-08-14 10:30:01] [INFO] [REQ:42ae099b] [IP:27.94.206.33] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 10:30:01] [INFO] [REQ:bf4a99b5] [IP:27.94.206.33] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 10:30:01] [INFO] [REQ:e0814b05] [IP:27.94.206.33] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 10:30:01] [INFO] [REQ:78c239ea] [IP:27.94.206.33] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 10:30:01] [INFO] [REQ:98cd7c3a] [IP:27.94.206.33] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 10:30:01] [INFO] [REQ:83011f00] [IP:27.94.206.33] ライブラリ読み込み完了
+[2025-08-14 10:30:01] [INFO] [REQ:19545a64] [IP:27.94.206.33] ProductService初期化開始
+[2025-08-14 10:30:01] [INFO] [REQ:f18b5e9f] [IP:27.94.206.33] ProductService初期化完了
+[2025-08-14 10:30:01] [INFO] [REQ:22c0ab8c] [IP:27.94.206.33] リクエストパラメータ: category_id=SO7HLNRC5EVBXAKPXWZFMDAP
+[2025-08-14 10:30:01] [INFO] [REQ:27af051b] [IP:27.94.206.33] カテゴリID:SO7HLNRC5EVBXAKPXWZFMDAPの商品取得開始
+[2025-08-14 10:30:01] [INFO] [REQ:c075430c] [IP:27.94.206.33] 商品取得完了: 9件
+[2025-08-14 10:30:01] [INFO] [REQ:062befc1] [IP:27.94.206.33] JSONレスポンス生成完了: 8951バイト
+[2025-08-14 10:30:01] [INFO] [REQ:61a0f63f] [IP:27.94.206.33] ======== 商品API終了 ========
+[2025-08-14 10:30:17] [INFO] [REQ:c07f97e0] [IP:27.94.206.33] ======== 商品API開始 - /api/v1/products/?_=1755135017668&category_id=SO7HLNRC5EVBXAKPXWZFMDAP ========
+[2025-08-14 10:30:17] [INFO] [REQ:7ed99706] [IP:27.94.206.33] ライブラリ読み込み開始
+[2025-08-14 10:30:17] [INFO] [REQ:cd042a76] [IP:27.94.206.33] 設定ファイル読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/config/config.php
+[2025-08-14 10:30:17] [INFO] [REQ:e0476e5c] [IP:27.94.206.33] ライブラリファイル確認: Database.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-08-14 10:30:17] [INFO] [REQ:cd430df6] [IP:27.94.206.33] ライブラリファイル確認: Utils.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Utils.php
+[2025-08-14 10:30:17] [INFO] [REQ:7ad1e99b] [IP:27.94.206.33] ライブラリファイル確認: SquareService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/SquareService.php
+[2025-08-14 10:30:17] [INFO] [REQ:d381c75f] [IP:27.94.206.33] ライブラリファイル確認: ProductService.php - パス: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/ProductService.php
+[2025-08-14 10:30:17] [INFO] [REQ:9d0c45a0] [IP:27.94.206.33] ライブラリ読み込み完了
+[2025-08-14 10:30:17] [INFO] [REQ:8eeaed10] [IP:27.94.206.33] ProductService初期化開始
+[2025-08-14 10:30:17] [INFO] [REQ:73727404] [IP:27.94.206.33] ProductService初期化完了
+[2025-08-14 10:30:17] [INFO] [REQ:eb754b2b] [IP:27.94.206.33] リクエストパラメータ: category_id=SO7HLNRC5EVBXAKPXWZFMDAP
+[2025-08-14 10:30:17] [INFO] [REQ:9f8fcda1] [IP:27.94.206.33] カテゴリID:SO7HLNRC5EVBXAKPXWZFMDAPの商品取得開始
+[2025-08-14 10:30:17] [INFO] [REQ:97054400] [IP:27.94.206.33] 商品取得完了: 9件
+[2025-08-14 10:30:17] [INFO] [REQ:8627bff0] [IP:27.94.206.33] JSONレスポンス生成完了: 8951バイト
+[2025-08-14 10:30:17] [INFO] [REQ:fd54572f] [IP:27.94.206.33] ======== 商品API終了 ========

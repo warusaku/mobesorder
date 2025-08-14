@@ -1,0 +1,1360 @@
+--- ログローテーション実行 2025-08-14 10:34:54 ---
+ageUrl] 商品ID SMMKUIGQXYJLNUNKFBKTRGF7 の画像ID: KTIVZ4SUJRZDL7UCQKWGEFYJ
+[2025-08-14 10:34:47] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/36216432849604f7fd66fa57051a81ee3879a0ec/original.png
+[2025-08-14 10:34:47] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 6LPIDLE27RFIRWTSWL5KTC73 の画像URL取得を開始
+[2025-08-14 10:34:47] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:47] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(6LPIDLE27RFIRWTSWL5KTC73)
+[2025-08-14 10:34:47] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:47] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: EENXAWDZGIN4IZQUXLIDISK5
+[2025-08-14 10:34:47] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID MZI2KM4GD7MDTMNIY44KGO2O の画像ID: EENXAWDZGIN4IZQUXLIDISK5
+[2025-08-14 10:34:47] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/61f0885d3a91749e6fdcafbdfd00a4185d4cdd4a/original.png
+[2025-08-14 10:34:47] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID TW5OTCVSG5VGAIX5KVAHL6B5 の画像URL取得を開始
+[2025-08-14 10:34:47] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:47] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(TW5OTCVSG5VGAIX5KVAHL6B5)
+[2025-08-14 10:34:47] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:47] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: FUPDULC4A66QA4LWI3GWBOJU
+[2025-08-14 10:34:47] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID 6LPIDLE27RFIRWTSWL5KTC73 の画像ID: FUPDULC4A66QA4LWI3GWBOJU
+[2025-08-14 10:34:47] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/05ca3f74473e4bba97b8a7d95a80b54670f091b2/original.png
+[2025-08-14 10:34:47] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID Z45AZGWDPBNVAFVHVN4VZ3RC の画像URL取得を開始
+[2025-08-14 10:34:47] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:47] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(Z45AZGWDPBNVAFVHVN4VZ3RC)
+[2025-08-14 10:34:47] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:47] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: NC2KOPB2ITISI726KLHUBCWB
+[2025-08-14 10:34:47] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID Z45AZGWDPBNVAFVHVN4VZ3RC の画像ID: NC2KOPB2ITISI726KLHUBCWB
+[2025-08-14 10:34:47] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/adf71621780ab86634d30c715967bfccad53488b/original.png
+[2025-08-14 10:34:47] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID T4JDCPIBCWCQWOUSM75ML7HZ の画像URL取得を開始
+[2025-08-14 10:34:47] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:47] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(T4JDCPIBCWCQWOUSM75ML7HZ)
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: BVUIC45JA6EVL3QNAAFL2XKS
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID T4JDCPIBCWCQWOUSM75ML7HZ の画像ID: BVUIC45JA6EVL3QNAAFL2XKS
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/298fb31e6f743934a559b34e737f7ea7c9985513/original.png
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID EALSPNSUS3SPSIV53UQMOIFK の画像URL取得を開始
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(EALSPNSUS3SPSIV53UQMOIFK)
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 26V6VI5TUX27NWUEI2SOSHXR
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID TW5OTCVSG5VGAIX5KVAHL6B5 の画像ID: 26V6VI5TUX27NWUEI2SOSHXR
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/efae5269044fc70ef7e89c156b826479538bb34b/original.png
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID JWAHYW6VUOQOJGGR7JK3FVBH の画像URL取得を開始
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(JWAHYW6VUOQOJGGR7JK3FVBH)
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: VW3LCG2P5DVJGOUAEE5D4NKR
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID EALSPNSUS3SPSIV53UQMOIFK の画像ID: VW3LCG2P5DVJGOUAEE5D4NKR
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/d356efe1f22ea506093d80d806f8c3826f2bd1b5/original.png
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID Z6WL6USHJ2WJL4JSHHABVMB6 の画像URL取得を開始
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(Z6WL6USHJ2WJL4JSHHABVMB6)
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: BOAT7X6KVFXJ6HXFQ5AXJJX7
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID Z6WL6USHJ2WJL4JSHHABVMB6 の画像ID: BOAT7X6KVFXJ6HXFQ5AXJJX7
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/38aae9d6ad1f9771a0d84e6335b15a5c732434f5/original.png
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 5POJ432SYH5QKDRANG6PQBBX の画像URL取得を開始
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(5POJ432SYH5QKDRANG6PQBBX)
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: FTE7OBLH2QBXYJW3FC7MI6IE
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID JWAHYW6VUOQOJGGR7JK3FVBH の画像ID: FTE7OBLH2QBXYJW3FC7MI6IE
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/7a5f3944cdfc6e7e2eacded1e43542b5189410e3/original.png
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID ARYWO2FZTZ23YTRQTKQGOJT6 の画像URL取得を開始
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(ARYWO2FZTZ23YTRQTKQGOJT6)
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: FADDTKEDWA6WALGYDNIUSRVH
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID 5POJ432SYH5QKDRANG6PQBBX の画像ID: FADDTKEDWA6WALGYDNIUSRVH
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/286f122b9e0c1064184541c4df081709f3fef768/original.png
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID FEBKICK6AWQSJGYXO7ZC3YU6 の画像URL取得を開始
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(FEBKICK6AWQSJGYXO7ZC3YU6)
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: CPDZPR3UCY7RRUAGLQEGRTMO
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID ARYWO2FZTZ23YTRQTKQGOJT6 の画像ID: CPDZPR3UCY7RRUAGLQEGRTMO
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/4c2a5248560c26c80faf7654c923a8bf3da74308/original.png
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID MTZW27J3OQWG3JEBEG6Z6OQX の画像URL取得を開始
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:48] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(MTZW27J3OQWG3JEBEG6Z6OQX)
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: EA46YORDMDH6FDOBTP5LI67Q
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID FEBKICK6AWQSJGYXO7ZC3YU6 の画像ID: EA46YORDMDH6FDOBTP5LI67Q
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/e9d31215cf94cd7170a44b03642878d401a88dfc/original.png
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID FBIT52P2TGVYF7TB4TMJG3B6 の画像URL取得を開始
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(FBIT52P2TGVYF7TB4TMJG3B6)
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: XIFICQHHXS5M7GEXU23VFRLZ
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID MTZW27J3OQWG3JEBEG6Z6OQX の画像ID: XIFICQHHXS5M7GEXU23VFRLZ
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/4c89f7053633d0cf16c9d393d684c3315537d254/original.png
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID QVFWG7A673SA3SRYVZYS6C23 の画像URL取得を開始
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(QVFWG7A673SA3SRYVZYS6C23)
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: KTIVZ4SUJRZDL7UCQKWGEFYJ
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID FBIT52P2TGVYF7TB4TMJG3B6 の画像ID: KTIVZ4SUJRZDL7UCQKWGEFYJ
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/36216432849604f7fd66fa57051a81ee3879a0ec/original.png
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID C66N66GWHAP54JWNKGZO5NV3 の画像URL取得を開始
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(C66N66GWHAP54JWNKGZO5NV3)
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: FJAVW7PWEUTEYK7FMMURLZ2T
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID QVFWG7A673SA3SRYVZYS6C23 の画像ID: FJAVW7PWEUTEYK7FMMURLZ2T
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/969b0e6516e5bbf8b7e28e5074e81fb62df18ca4/original.png
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID JB6TO3BNT2IB5YCRGVKLIXUK の画像URL取得を開始
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(JB6TO3BNT2IB5YCRGVKLIXUK)
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: NAABEOESDWNTD2L3ZGQIQDXZ
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID C66N66GWHAP54JWNKGZO5NV3 の画像ID: NAABEOESDWNTD2L3ZGQIQDXZ
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/0ab4ddd62f72511a38dd855da57f1f4db0a0e15e/original.png
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID ZATHFWMAM34RLEIZZ2I2HHK2 の画像URL取得を開始
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(ZATHFWMAM34RLEIZZ2I2HHK2)
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: FTE7OBLH2QBXYJW3FC7MI6IE
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID JB6TO3BNT2IB5YCRGVKLIXUK の画像ID: FTE7OBLH2QBXYJW3FC7MI6IE
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/7a5f3944cdfc6e7e2eacded1e43542b5189410e3/original.png
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID LS5RBUDXWOBQALQFAXGTLOKE の画像URL取得を開始
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(LS5RBUDXWOBQALQFAXGTLOKE)
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: PRPY5F5PLGGT6XWQIGNTMPAP
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID ZATHFWMAM34RLEIZZ2I2HHK2 の画像ID: PRPY5F5PLGGT6XWQIGNTMPAP
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/039aad6e34a9557c1f867594c913cd8cea84d258/original.png
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID K4FHRD6Q5Z7VBPEFOSRPS5D5 の画像URL取得を開始
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(K4FHRD6Q5Z7VBPEFOSRPS5D5)
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: CPDZPR3UCY7RRUAGLQEGRTMO
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID LS5RBUDXWOBQALQFAXGTLOKE の画像ID: CPDZPR3UCY7RRUAGLQEGRTMO
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/4c2a5248560c26c80faf7654c923a8bf3da74308/original.png
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 74NWXONPVCJ3KJC6GXDQ73XS の画像URL取得を開始
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(74NWXONPVCJ3KJC6GXDQ73XS)
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: DWXEZZRDGSSR6XCHIVLO3F42
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID K4FHRD6Q5Z7VBPEFOSRPS5D5 の画像ID: DWXEZZRDGSSR6XCHIVLO3F42
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/8469ffb89193fa97a0805e4f37f141fd2e207323/original.png
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID ONOOYLSFF4COYTPAWZH2E6RV の画像URL取得を開始
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(ONOOYLSFF4COYTPAWZH2E6RV)
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 26V6VI5TUX27NWUEI2SOSHXR
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID 74NWXONPVCJ3KJC6GXDQ73XS の画像ID: 26V6VI5TUX27NWUEI2SOSHXR
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/efae5269044fc70ef7e89c156b826479538bb34b/original.png
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 76DZDPWTMQDONUMEXMG7GVXI の画像URL取得を開始
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:49] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(76DZDPWTMQDONUMEXMG7GVXI)
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: DCSB7ANKRHKXZFX6YLXOLRRH
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID ONOOYLSFF4COYTPAWZH2E6RV の画像ID: DCSB7ANKRHKXZFX6YLXOLRRH
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/52773e04cb8823ec0e141361b2bf0666b4c9b34c/original.png
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID WPUVSKHFQYZ6AFCYU3UFNZ6J の画像URL取得を開始
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(WPUVSKHFQYZ6AFCYU3UFNZ6J)
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: EENXAWDZGIN4IZQUXLIDISK5
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID 76DZDPWTMQDONUMEXMG7GVXI の画像ID: EENXAWDZGIN4IZQUXLIDISK5
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/61f0885d3a91749e6fdcafbdfd00a4185d4cdd4a/original.png
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID BLT4KY6ZV4IKUYYHP6ZJJRUB の画像URL取得を開始
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(BLT4KY6ZV4IKUYYHP6ZJJRUB)
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: O6JLPNBAKHPDURQMF3SOZFBJ
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID BLT4KY6ZV4IKUYYHP6ZJJRUB の画像ID: O6JLPNBAKHPDURQMF3SOZFBJ
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/2b80a653bfa55550b804f6d6c1a27bdd9cdc145e/original.png
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID AXZS5DBCBRJAXP2L7ELQC3N3 の画像URL取得を開始
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(AXZS5DBCBRJAXP2L7ELQC3N3)
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: PDQVE2XFUDAPSQPMLJI7EUSF
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID AXZS5DBCBRJAXP2L7ELQC3N3 の画像ID: PDQVE2XFUDAPSQPMLJI7EUSF
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/a191199fd9e42b8d7796d1673a3d0b60ebb2674d/original.png
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID SOYMJVS5CQVQ2BK6BEHDGHAW の画像URL取得を開始
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(SOYMJVS5CQVQ2BK6BEHDGHAW)
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 5YEVRPPANAMPXLNAYQ7SLPQU
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID WPUVSKHFQYZ6AFCYU3UFNZ6J の画像ID: 5YEVRPPANAMPXLNAYQ7SLPQU
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/e13cfb1b4c9bd50d44350a337932c2fab4f54cb5/original.png
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID XWM7SBB5AKVO3XPSTEIOPF63 の画像URL取得を開始
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(XWM7SBB5AKVO3XPSTEIOPF63)
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: WMKZ4FXY7SB2NGWUMTUJPGMH
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID SOYMJVS5CQVQ2BK6BEHDGHAW の画像ID: WMKZ4FXY7SB2NGWUMTUJPGMH
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/a18ae91309f1ac2ccb2c605fac4e23f0785d8bdf/original.png
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID DWJPJFATHCSJXBBBRAJTGTXW の画像URL取得を開始
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(DWJPJFATHCSJXBBBRAJTGTXW)
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: FJAVW7PWEUTEYK7FMMURLZ2T
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID XWM7SBB5AKVO3XPSTEIOPF63 の画像ID: FJAVW7PWEUTEYK7FMMURLZ2T
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/969b0e6516e5bbf8b7e28e5074e81fb62df18ca4/original.png
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID IDU7ZW4QXAWL6VDG52FCYQHN の画像URL取得を開始
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(IDU7ZW4QXAWL6VDG52FCYQHN)
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: CJJLFIKDGOCJCR2SVSQ4CEKQ
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID DWJPJFATHCSJXBBBRAJTGTXW の画像ID: CJJLFIKDGOCJCR2SVSQ4CEKQ
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/7adcc7335711a046413b7a2a22c5a19eade88afa/original.png
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID VAY6VLXZOUSD6VKGWZRFVV6F の画像URL取得を開始
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:50] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(VAY6VLXZOUSD6VKGWZRFVV6F)
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: PDQVE2XFUDAPSQPMLJI7EUSF
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID IDU7ZW4QXAWL6VDG52FCYQHN の画像ID: PDQVE2XFUDAPSQPMLJI7EUSF
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/a191199fd9e42b8d7796d1673a3d0b60ebb2674d/original.png
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID KUSTSD7SXDZ3I7WW43YZFUJT の画像URL取得を開始
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(KUSTSD7SXDZ3I7WW43YZFUJT)
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: O6JLPNBAKHPDURQMF3SOZFBJ
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID KUSTSD7SXDZ3I7WW43YZFUJT の画像ID: O6JLPNBAKHPDURQMF3SOZFBJ
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/2b80a653bfa55550b804f6d6c1a27bdd9cdc145e/original.png
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID MZI2KM4GD7MDTMNIY44KGO2O の画像URL取得を開始
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(MZI2KM4GD7MDTMNIY44KGO2O)
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: EENXAWDZGIN4IZQUXLIDISK5
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID MZI2KM4GD7MDTMNIY44KGO2O の画像ID: EENXAWDZGIN4IZQUXLIDISK5
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/61f0885d3a91749e6fdcafbdfd00a4185d4cdd4a/original.png
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID TW5OTCVSG5VGAIX5KVAHL6B5 の画像URL取得を開始
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(TW5OTCVSG5VGAIX5KVAHL6B5)
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 6CG6DXT2S6I3FC7TPTWXHC2D
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID VAY6VLXZOUSD6VKGWZRFVV6F の画像ID: 6CG6DXT2S6I3FC7TPTWXHC2D
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/e180c1aefdf26e5ead114f110d60f1b853db8423/original.png
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID KQBDQKJLV7BKISHTRIWGWT2L の画像URL取得を開始
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(KQBDQKJLV7BKISHTRIWGWT2L)
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 26V6VI5TUX27NWUEI2SOSHXR
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID TW5OTCVSG5VGAIX5KVAHL6B5 の画像ID: 26V6VI5TUX27NWUEI2SOSHXR
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/efae5269044fc70ef7e89c156b826479538bb34b/original.png
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID JWAHYW6VUOQOJGGR7JK3FVBH の画像URL取得を開始
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(JWAHYW6VUOQOJGGR7JK3FVBH)
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: RIYJHMFBSZBHZZADQVATSEBL
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID KQBDQKJLV7BKISHTRIWGWT2L の画像ID: RIYJHMFBSZBHZZADQVATSEBL
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/5eebc6296777953c2fc57af40fce7e116255aeaa/original.png
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID FPRKDGR4XUPARHRXSA3GWLJY の画像URL取得を開始
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(FPRKDGR4XUPARHRXSA3GWLJY)
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: NAABEOESDWNTD2L3ZGQIQDXZ
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID FPRKDGR4XUPARHRXSA3GWLJY の画像ID: NAABEOESDWNTD2L3ZGQIQDXZ
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/0ab4ddd62f72511a38dd855da57f1f4db0a0e15e/original.png
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID UD4CFCI7AWLRU45ULMNNAVHA の画像URL取得を開始
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:51] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(UD4CFCI7AWLRU45ULMNNAVHA)
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: N7IMUMIPAPVVZKIJNAC5NITP
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID UD4CFCI7AWLRU45ULMNNAVHA の画像ID: N7IMUMIPAPVVZKIJNAC5NITP
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/8dfed8179924d41ad9f3cbf79c4ecfcf6c8edaef/original.png
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID QQMQIARQECHRDJOHM2XDCASI の画像URL取得を開始
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(QQMQIARQECHRDJOHM2XDCASI)
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: FTE7OBLH2QBXYJW3FC7MI6IE
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID JWAHYW6VUOQOJGGR7JK3FVBH の画像ID: FTE7OBLH2QBXYJW3FC7MI6IE
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/7a5f3944cdfc6e7e2eacded1e43542b5189410e3/original.png
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID ARYWO2FZTZ23YTRQTKQGOJT6 の画像URL取得を開始
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(ARYWO2FZTZ23YTRQTKQGOJT6)
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: JFQIHQC5I6BIUQLV273ML25I
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID QQMQIARQECHRDJOHM2XDCASI の画像ID: JFQIHQC5I6BIUQLV273ML25I
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/9964805c0bb9629d6ecfb2cd84fd0e313e12c3cf/original.png
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID QJPT3DMX6TNAS4DRHTULGVHA の画像URL取得を開始
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(QJPT3DMX6TNAS4DRHTULGVHA)
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: CPDZPR3UCY7RRUAGLQEGRTMO
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID ARYWO2FZTZ23YTRQTKQGOJT6 の画像ID: CPDZPR3UCY7RRUAGLQEGRTMO
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/4c2a5248560c26c80faf7654c923a8bf3da74308/original.png
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID MTZW27J3OQWG3JEBEG6Z6OQX の画像URL取得を開始
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(MTZW27J3OQWG3JEBEG6Z6OQX)
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: DDMFZRPZETMT2EFWLOFVML6B
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID QJPT3DMX6TNAS4DRHTULGVHA の画像ID: DDMFZRPZETMT2EFWLOFVML6B
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/57853f4525fc005121a802f72745a3ff07999bcd/original.png
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID AYITTTV5QN3TBDJWB2ZYOYQG の画像URL取得を開始
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(AYITTTV5QN3TBDJWB2ZYOYQG)
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: XIFICQHHXS5M7GEXU23VFRLZ
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID MTZW27J3OQWG3JEBEG6Z6OQX の画像ID: XIFICQHHXS5M7GEXU23VFRLZ
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/4c89f7053633d0cf16c9d393d684c3315537d254/original.png
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID QVFWG7A673SA3SRYVZYS6C23 の画像URL取得を開始
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(QVFWG7A673SA3SRYVZYS6C23)
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 5RLVCQA3SMPWUDB7SC5E47FT
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID AYITTTV5QN3TBDJWB2ZYOYQG の画像ID: 5RLVCQA3SMPWUDB7SC5E47FT
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/87aed4bc70ce51f10bbd42c9069727710749c86c/original.png
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID XF44S34ZZSZDJW3LKBUYHOLJ の画像URL取得を開始
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(XF44S34ZZSZDJW3LKBUYHOLJ)
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: FJAVW7PWEUTEYK7FMMURLZ2T
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID QVFWG7A673SA3SRYVZYS6C23 の画像ID: FJAVW7PWEUTEYK7FMMURLZ2T
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/969b0e6516e5bbf8b7e28e5074e81fb62df18ca4/original.png
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID JB6TO3BNT2IB5YCRGVKLIXUK の画像URL取得を開始
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:52] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(JB6TO3BNT2IB5YCRGVKLIXUK)
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: IILKDHM5J4W3KVVO7S4UTG7U
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID XF44S34ZZSZDJW3LKBUYHOLJ の画像ID: IILKDHM5J4W3KVVO7S4UTG7U
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/1cd4e198cb77d20aa3d9c2deaaaeeba527bb4977/original.png
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID ELLVXKZQKMMHMLQYRI7GL4TJ の画像URL取得を開始
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(ELLVXKZQKMMHMLQYRI7GL4TJ)
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: FTE7OBLH2QBXYJW3FC7MI6IE
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID JB6TO3BNT2IB5YCRGVKLIXUK の画像ID: FTE7OBLH2QBXYJW3FC7MI6IE
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/7a5f3944cdfc6e7e2eacded1e43542b5189410e3/original.png
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID LS5RBUDXWOBQALQFAXGTLOKE の画像URL取得を開始
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(LS5RBUDXWOBQALQFAXGTLOKE)
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: VQSMUMIHKZEWMZHGYXELYBUX
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID ELLVXKZQKMMHMLQYRI7GL4TJ の画像ID: VQSMUMIHKZEWMZHGYXELYBUX
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/6d7549fc7c0e56238135e5feaae041864028e99e/original.png
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 6OQ5HVLKVMGKRP3YUY3VXNW3 の画像URL取得を開始
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(6OQ5HVLKVMGKRP3YUY3VXNW3)
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: CPDZPR3UCY7RRUAGLQEGRTMO
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID LS5RBUDXWOBQALQFAXGTLOKE の画像ID: CPDZPR3UCY7RRUAGLQEGRTMO
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/4c2a5248560c26c80faf7654c923a8bf3da74308/original.png
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 74NWXONPVCJ3KJC6GXDQ73XS の画像URL取得を開始
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(74NWXONPVCJ3KJC6GXDQ73XS)
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: ZCVXI7KDEPU2YO6WL2WIMZ3U
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID 6OQ5HVLKVMGKRP3YUY3VXNW3 の画像ID: ZCVXI7KDEPU2YO6WL2WIMZ3U
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/266ab71f25c1cbf0654727af111df92274faa39a/original.png
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 65WEC3TSJZZAYABKWJ4S47U7 の画像URL取得を開始
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(65WEC3TSJZZAYABKWJ4S47U7)
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 26V6VI5TUX27NWUEI2SOSHXR
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID 74NWXONPVCJ3KJC6GXDQ73XS の画像ID: 26V6VI5TUX27NWUEI2SOSHXR
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/efae5269044fc70ef7e89c156b826479538bb34b/original.png
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 76DZDPWTMQDONUMEXMG7GVXI の画像URL取得を開始
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(76DZDPWTMQDONUMEXMG7GVXI)
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: DZAEYCNXR3XGBGN6TFUZ3TIQ
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID 65WEC3TSJZZAYABKWJ4S47U7 の画像ID: DZAEYCNXR3XGBGN6TFUZ3TIQ
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/6ec3ff05e410a46b3979948a941a1c23f7bef8a9/original.png
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 7G4W5WIPLBRHSVAYJYCTFRAQ の画像URL取得を開始
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(7G4W5WIPLBRHSVAYJYCTFRAQ)
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: EENXAWDZGIN4IZQUXLIDISK5
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID 76DZDPWTMQDONUMEXMG7GVXI の画像ID: EENXAWDZGIN4IZQUXLIDISK5
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/61f0885d3a91749e6fdcafbdfd00a4185d4cdd4a/original.png
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID BLT4KY6ZV4IKUYYHP6ZJJRUB の画像URL取得を開始
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(BLT4KY6ZV4IKUYYHP6ZJJRUB)
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: FSL24QQKIYT6MBBCEVC3ESIH
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID 7G4W5WIPLBRHSVAYJYCTFRAQ の画像ID: FSL24QQKIYT6MBBCEVC3ESIH
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/5e1cb23f4c8ef9cef7abc9293dbb9e3ff091e6bc/original.png
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID QFCRL67GJ45MYABXFGTUPLCL の画像URL取得を開始
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(QFCRL67GJ45MYABXFGTUPLCL)
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: O6JLPNBAKHPDURQMF3SOZFBJ
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID BLT4KY6ZV4IKUYYHP6ZJJRUB の画像ID: O6JLPNBAKHPDURQMF3SOZFBJ
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/2b80a653bfa55550b804f6d6c1a27bdd9cdc145e/original.png
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID AXZS5DBCBRJAXP2L7ELQC3N3 の画像URL取得を開始
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:53] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(AXZS5DBCBRJAXP2L7ELQC3N3)
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: KETVPC5FCJCXTA4DMBGDOVGT
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID QFCRL67GJ45MYABXFGTUPLCL の画像ID: KETVPC5FCJCXTA4DMBGDOVGT
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/cf3cc73a0ebd49a64bbb670220545295eb286c81/original.png
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID RBMOYKKGJVIHCOUXPNRA625A の画像URL取得を開始
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(RBMOYKKGJVIHCOUXPNRA625A)
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: PDQVE2XFUDAPSQPMLJI7EUSF
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID AXZS5DBCBRJAXP2L7ELQC3N3 の画像ID: PDQVE2XFUDAPSQPMLJI7EUSF
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/a191199fd9e42b8d7796d1673a3d0b60ebb2674d/original.png
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID SOYMJVS5CQVQ2BK6BEHDGHAW の画像URL取得を開始
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(SOYMJVS5CQVQ2BK6BEHDGHAW)
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 4MIYRYTNW5JQMJD52WSVAEBZ
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID RBMOYKKGJVIHCOUXPNRA625A の画像ID: 4MIYRYTNW5JQMJD52WSVAEBZ
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/64717dd0ebb62e601f6c6b353e6f0ee85adc16c3/original.png
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID NABWWJ6UMBP32WLZCPEEPGRC の画像URL取得を開始
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(NABWWJ6UMBP32WLZCPEEPGRC)
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: WMKZ4FXY7SB2NGWUMTUJPGMH
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID SOYMJVS5CQVQ2BK6BEHDGHAW の画像ID: WMKZ4FXY7SB2NGWUMTUJPGMH
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/a18ae91309f1ac2ccb2c605fac4e23f0785d8bdf/original.png
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID DWJPJFATHCSJXBBBRAJTGTXW の画像URL取得を開始
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(DWJPJFATHCSJXBBBRAJTGTXW)
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: CCANEGQJ6M2T3ZN3XJDBHUJD
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID NABWWJ6UMBP32WLZCPEEPGRC の画像ID: CCANEGQJ6M2T3ZN3XJDBHUJD
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/7ce70d00cbfc7d69cffacf0e6c7488cfd0f5ca1f/original.png
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID E5EWYMQFGKSU4KUXFFV36FP3 の画像URL取得を開始
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(E5EWYMQFGKSU4KUXFFV36FP3)
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: CJJLFIKDGOCJCR2SVSQ4CEKQ
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID DWJPJFATHCSJXBBBRAJTGTXW の画像ID: CJJLFIKDGOCJCR2SVSQ4CEKQ
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/7adcc7335711a046413b7a2a22c5a19eade88afa/original.png
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID VAY6VLXZOUSD6VKGWZRFVV6F の画像URL取得を開始
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(VAY6VLXZOUSD6VKGWZRFVV6F)
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: ZA7GJ7BCJS67BD6XT57FARUE
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID E5EWYMQFGKSU4KUXFFV36FP3 の画像ID: ZA7GJ7BCJS67BD6XT57FARUE
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/7f357ec21f51c17515d47aad93b8103b9d9b055d/original.png
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID QGBFWD7XXBLBU5DE3BJN7JZH の画像URL取得を開始
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(QGBFWD7XXBLBU5DE3BJN7JZH)
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 6CG6DXT2S6I3FC7TPTWXHC2D
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID VAY6VLXZOUSD6VKGWZRFVV6F の画像ID: 6CG6DXT2S6I3FC7TPTWXHC2D
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/e180c1aefdf26e5ead114f110d60f1b853db8423/original.png
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID KQBDQKJLV7BKISHTRIWGWT2L の画像URL取得を開始
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(KQBDQKJLV7BKISHTRIWGWT2L)
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: VQIHHAYRVG6H77ELQI3KOMO7
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID QGBFWD7XXBLBU5DE3BJN7JZH の画像ID: VQIHHAYRVG6H77ELQI3KOMO7
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/847d57ace6a3957da37876eae580c4f57b9d3c85/original.png
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID COOO5CRUTILYTLLZRTMBXKD3 の画像URL取得を開始
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(COOO5CRUTILYTLLZRTMBXKD3)
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: RIYJHMFBSZBHZZADQVATSEBL
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID KQBDQKJLV7BKISHTRIWGWT2L の画像ID: RIYJHMFBSZBHZZADQVATSEBL
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/5eebc6296777953c2fc57af40fce7e116255aeaa/original.png
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID FPRKDGR4XUPARHRXSA3GWLJY の画像URL取得を開始
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:54] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(FPRKDGR4XUPARHRXSA3GWLJY)
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: KFBW3K4ZRVRZY7TKCFENFA3W
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID COOO5CRUTILYTLLZRTMBXKD3 の画像ID: KFBW3K4ZRVRZY7TKCFENFA3W
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/258325cc8504651fddd83cb5f04389d59098e5ec/original.png
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID NYCHCBG4CADNLNHM5QLC6SZZ の画像URL取得を開始
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(NYCHCBG4CADNLNHM5QLC6SZZ)
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: NAABEOESDWNTD2L3ZGQIQDXZ
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID FPRKDGR4XUPARHRXSA3GWLJY の画像ID: NAABEOESDWNTD2L3ZGQIQDXZ
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/0ab4ddd62f72511a38dd855da57f1f4db0a0e15e/original.png
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID UD4CFCI7AWLRU45ULMNNAVHA の画像URL取得を開始
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(UD4CFCI7AWLRU45ULMNNAVHA)
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: PLJGRFNW5AMU3LYJIVZG7KDY
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID NYCHCBG4CADNLNHM5QLC6SZZ の画像ID: PLJGRFNW5AMU3LYJIVZG7KDY
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/a3496fce6d0c18a326cecc939d031273c1000092/original.png
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID HVQOY646MY3MHMOKZJCRYDUH の画像URL取得を開始
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(HVQOY646MY3MHMOKZJCRYDUH)
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 5YPSXNFCQA2RMX4U2UNUB5RR
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID HVQOY646MY3MHMOKZJCRYDUH の画像ID: 5YPSXNFCQA2RMX4U2UNUB5RR
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/92a1aa84f292518322b43d3994e9b1c21d3d6f43/original.png
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID MZDEJLLGY5GPV2SLR6CLC3QD の画像URL取得を開始
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(MZDEJLLGY5GPV2SLR6CLC3QD)
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: GI2NQ5DJGESJICKPUL55RD4L
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID MZDEJLLGY5GPV2SLR6CLC3QD の画像ID: GI2NQ5DJGESJICKPUL55RD4L
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/1c4483d837ee710fa89ba0528c1e73a7b3bc066b/original.png
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID RRIDDFF2SFDA2RHY4J5MIM3H の画像URL取得を開始
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(RRIDDFF2SFDA2RHY4J5MIM3H)
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: N7IMUMIPAPVVZKIJNAC5NITP
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID UD4CFCI7AWLRU45ULMNNAVHA の画像ID: N7IMUMIPAPVVZKIJNAC5NITP
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/8dfed8179924d41ad9f3cbf79c4ecfcf6c8edaef/original.png
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID QQMQIARQECHRDJOHM2XDCASI の画像URL取得を開始
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(QQMQIARQECHRDJOHM2XDCASI)
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: UXZZMK7GK2XR3FRASWC4M4L6
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID RRIDDFF2SFDA2RHY4J5MIM3H の画像ID: UXZZMK7GK2XR3FRASWC4M4L6
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/61c020b8701a08c37d4447d1adcf35e75ad3a6f4/original.png
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID GCLPY5S65O3JQXXFH7PXS6YQ の画像URL取得を開始
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:55] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(GCLPY5S65O3JQXXFH7PXS6YQ)
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: JFQIHQC5I6BIUQLV273ML25I
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID QQMQIARQECHRDJOHM2XDCASI の画像ID: JFQIHQC5I6BIUQLV273ML25I
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/9964805c0bb9629d6ecfb2cd84fd0e313e12c3cf/original.png
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID QJPT3DMX6TNAS4DRHTULGVHA の画像URL取得を開始
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(QJPT3DMX6TNAS4DRHTULGVHA)
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 7ZIQFQYHMC2YGDKW4B73KDFI, KNL4R6XN2634RSDTQR2ZEERT, UCIVOSML3CGF6ZYR7LETSVQX
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID GCLPY5S65O3JQXXFH7PXS6YQ の画像ID: 7ZIQFQYHMC2YGDKW4B73KDFI
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/ce6bc0d5df609eed8178a52b8c77804a3254d631/original.png
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID OHWHG5OXWKDJSWPUGI3LPSWW の画像URL取得を開始
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(OHWHG5OXWKDJSWPUGI3LPSWW)
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: DDMFZRPZETMT2EFWLOFVML6B
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID QJPT3DMX6TNAS4DRHTULGVHA の画像ID: DDMFZRPZETMT2EFWLOFVML6B
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/57853f4525fc005121a802f72745a3ff07999bcd/original.png
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID AYITTTV5QN3TBDJWB2ZYOYQG の画像URL取得を開始
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(AYITTTV5QN3TBDJWB2ZYOYQG)
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: FF33LQOB75DIBEB27AB47JGL, S7N7OGSQHYCL5COGMDIEKULH, OMAVMSW7XHDFE3I6544CWP4T
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID OHWHG5OXWKDJSWPUGI3LPSWW の画像ID: FF33LQOB75DIBEB27AB47JGL
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/31af4aab715f2b25f57811fffea7866a4e1d2560/original.png
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID CWD4L2CCP4BHCRFTRE6ZCM23 の画像URL取得を開始
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(CWD4L2CCP4BHCRFTRE6ZCM23)
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 5RLVCQA3SMPWUDB7SC5E47FT
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID AYITTTV5QN3TBDJWB2ZYOYQG の画像ID: 5RLVCQA3SMPWUDB7SC5E47FT
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/87aed4bc70ce51f10bbd42c9069727710749c86c/original.png
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID XF44S34ZZSZDJW3LKBUYHOLJ の画像URL取得を開始
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(XF44S34ZZSZDJW3LKBUYHOLJ)
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: VQIHHAYRVG6H77ELQI3KOMO7
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID CWD4L2CCP4BHCRFTRE6ZCM23 の画像ID: VQIHHAYRVG6H77ELQI3KOMO7
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/847d57ace6a3957da37876eae580c4f57b9d3c85/original.png
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID JPQN75TQGE53HMICMBXAMTO6 の画像URL取得を開始
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(JPQN75TQGE53HMICMBXAMTO6)
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: IILKDHM5J4W3KVVO7S4UTG7U
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID XF44S34ZZSZDJW3LKBUYHOLJ の画像ID: IILKDHM5J4W3KVVO7S4UTG7U
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/1cd4e198cb77d20aa3d9c2deaaaeeba527bb4977/original.png
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID ELLVXKZQKMMHMLQYRI7GL4TJ の画像URL取得を開始
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(ELLVXKZQKMMHMLQYRI7GL4TJ)
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: VQSMUMIHKZEWMZHGYXELYBUX
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID ELLVXKZQKMMHMLQYRI7GL4TJ の画像ID: VQSMUMIHKZEWMZHGYXELYBUX
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/6d7549fc7c0e56238135e5feaae041864028e99e/original.png
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 6OQ5HVLKVMGKRP3YUY3VXNW3 の画像URL取得を開始
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:56] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(6OQ5HVLKVMGKRP3YUY3VXNW3)
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: ZCVXI7KDEPU2YO6WL2WIMZ3U
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID 6OQ5HVLKVMGKRP3YUY3VXNW3 の画像ID: ZCVXI7KDEPU2YO6WL2WIMZ3U
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/266ab71f25c1cbf0654727af111df92274faa39a/original.png
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 65WEC3TSJZZAYABKWJ4S47U7 の画像URL取得を開始
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(65WEC3TSJZZAYABKWJ4S47U7)
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 5WDM5UP7BOQR5SBIQHPAC3UH, KFBW3K4ZRVRZY7TKCFENFA3W
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID JPQN75TQGE53HMICMBXAMTO6 の画像ID: 5WDM5UP7BOQR5SBIQHPAC3UH
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/d84cc9b98ac7049ef04afade441dd104549e29e1/original.png
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID ADDT7HNZMOJAWUXO7KQBFZ4W の画像URL取得を開始
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(ADDT7HNZMOJAWUXO7KQBFZ4W)
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: DZAEYCNXR3XGBGN6TFUZ3TIQ
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID 65WEC3TSJZZAYABKWJ4S47U7 の画像ID: DZAEYCNXR3XGBGN6TFUZ3TIQ
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/6ec3ff05e410a46b3979948a941a1c23f7bef8a9/original.png
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 7G4W5WIPLBRHSVAYJYCTFRAQ の画像URL取得を開始
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(7G4W5WIPLBRHSVAYJYCTFRAQ)
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 6QUNOUZTEHZ32FJIMZTGN45S
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID ADDT7HNZMOJAWUXO7KQBFZ4W の画像ID: 6QUNOUZTEHZ32FJIMZTGN45S
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/703cd747acc59c997bb811bb606b5721799d14ad/original.png
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID A6VEQLSSUSRSIZ35IX3PXTEO の画像URL取得を開始
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(A6VEQLSSUSRSIZ35IX3PXTEO)
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: FSL24QQKIYT6MBBCEVC3ESIH
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID 7G4W5WIPLBRHSVAYJYCTFRAQ の画像ID: FSL24QQKIYT6MBBCEVC3ESIH
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/5e1cb23f4c8ef9cef7abc9293dbb9e3ff091e6bc/original.png
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID QFCRL67GJ45MYABXFGTUPLCL の画像URL取得を開始
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(QFCRL67GJ45MYABXFGTUPLCL)
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: GT5TZYBBI337NC45VR2DS2KC
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID A6VEQLSSUSRSIZ35IX3PXTEO の画像ID: GT5TZYBBI337NC45VR2DS2KC
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/d23a7a36e4c9362900ad62d64a46bc101a60b777/original.png
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID RSR47XH3BR6UQZYYMO4YQLUG の画像URL取得を開始
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(RSR47XH3BR6UQZYYMO4YQLUG)
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: GIWCHBFU7VMXHISI74KIEDSV
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID RSR47XH3BR6UQZYYMO4YQLUG の画像ID: GIWCHBFU7VMXHISI74KIEDSV
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/0145cae716499c3d6e41741b69f6e70e24c69a39/original.png
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID EGZEYEYJBVGUK5ZPPR46GSVV の画像URL取得を開始
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:57] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(EGZEYEYJBVGUK5ZPPR46GSVV)
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: FGM4ZD4WLXFNVGHVESCZAARN
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID EGZEYEYJBVGUK5ZPPR46GSVV の画像ID: FGM4ZD4WLXFNVGHVESCZAARN
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/8ecbb1fd620e054da3782d493615e919a181ead4/original.png
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID FOPCGOZ72YMLDIUQNSF6TC2A の画像URL取得を開始
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(FOPCGOZ72YMLDIUQNSF6TC2A)
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: KETVPC5FCJCXTA4DMBGDOVGT
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID QFCRL67GJ45MYABXFGTUPLCL の画像ID: KETVPC5FCJCXTA4DMBGDOVGT
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/cf3cc73a0ebd49a64bbb670220545295eb286c81/original.png
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID RBMOYKKGJVIHCOUXPNRA625A の画像URL取得を開始
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(RBMOYKKGJVIHCOUXPNRA625A)
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 4MIYRYTNW5JQMJD52WSVAEBZ
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID RBMOYKKGJVIHCOUXPNRA625A の画像ID: 4MIYRYTNW5JQMJD52WSVAEBZ
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/64717dd0ebb62e601f6c6b353e6f0ee85adc16c3/original.png
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID NABWWJ6UMBP32WLZCPEEPGRC の画像URL取得を開始
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(NABWWJ6UMBP32WLZCPEEPGRC)
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: GVX6FNYS4TYFSSMZM26FG73A
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID FOPCGOZ72YMLDIUQNSF6TC2A の画像ID: GVX6FNYS4TYFSSMZM26FG73A
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/3f925d5e59b35cd7c6d5fa88c5b9e7e42f083335/original.png
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 6BSR5NBGAGD7F5JEZ6CSBLMK の画像URL取得を開始
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(6BSR5NBGAGD7F5JEZ6CSBLMK)
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: CCANEGQJ6M2T3ZN3XJDBHUJD
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID NABWWJ6UMBP32WLZCPEEPGRC の画像ID: CCANEGQJ6M2T3ZN3XJDBHUJD
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/7ce70d00cbfc7d69cffacf0e6c7488cfd0f5ca1f/original.png
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID E5EWYMQFGKSU4KUXFFV36FP3 の画像URL取得を開始
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(E5EWYMQFGKSU4KUXFFV36FP3)
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 3AFCTIAPJKZEJDTRT7WB4GL4
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID 6BSR5NBGAGD7F5JEZ6CSBLMK の画像ID: 3AFCTIAPJKZEJDTRT7WB4GL4
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/bd4a5943135127e315ae6502645a96a764c668b2/original.png
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID KZPHTBTY3BFZXB4ANM6J2S3H の画像URL取得を開始
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(KZPHTBTY3BFZXB4ANM6J2S3H)
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: ZA7GJ7BCJS67BD6XT57FARUE
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID E5EWYMQFGKSU4KUXFFV36FP3 の画像ID: ZA7GJ7BCJS67BD6XT57FARUE
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/7f357ec21f51c17515d47aad93b8103b9d9b055d/original.png
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID QGBFWD7XXBLBU5DE3BJN7JZH の画像URL取得を開始
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(QGBFWD7XXBLBU5DE3BJN7JZH)
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: DUITNWAXFYZ5GBFX2ZGKY437
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID KZPHTBTY3BFZXB4ANM6J2S3H の画像ID: DUITNWAXFYZ5GBFX2ZGKY437
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/19affa0162d89dfcc3fc3fea36081ee59bf402e3/original.png
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 2XHJMXGRUOBBCUHFZVL2CSPN の画像URL取得を開始
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(2XHJMXGRUOBBCUHFZVL2CSPN)
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 2F6AYWIBKE7AKBGD2RE6JAGJ
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID 2XHJMXGRUOBBCUHFZVL2CSPN の画像ID: 2F6AYWIBKE7AKBGD2RE6JAGJ
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/e6650c478a9ebece9c66eb5d1df5d883706f4996/original.png
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID EYS5FTVX22MG4UFSWHGLLUQ2 の画像URL取得を開始
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:58] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(EYS5FTVX22MG4UFSWHGLLUQ2)
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: TP6VYPUVMNXY45U7PHHZEE6A
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID EYS5FTVX22MG4UFSWHGLLUQ2 の画像ID: TP6VYPUVMNXY45U7PHHZEE6A
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/d83ec5af6a1d029cb0b2a59095b6ba4c4120e3e3/original.png
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 2HZEC733J7LTVOFJ2NRUPXKW の画像URL取得を開始
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(2HZEC733J7LTVOFJ2NRUPXKW)
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: VQIHHAYRVG6H77ELQI3KOMO7
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID QGBFWD7XXBLBU5DE3BJN7JZH の画像ID: VQIHHAYRVG6H77ELQI3KOMO7
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/847d57ace6a3957da37876eae580c4f57b9d3c85/original.png
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID COOO5CRUTILYTLLZRTMBXKD3 の画像URL取得を開始
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(COOO5CRUTILYTLLZRTMBXKD3)
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 3KSA5V73LWD52LRY4U3JNUAJ
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID 2HZEC733J7LTVOFJ2NRUPXKW の画像ID: 3KSA5V73LWD52LRY4U3JNUAJ
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/d8c304da0693507489854b6339131fb35fce3522/original.png
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID G5RNQRU4XMQC7QPCURAUNLVU の画像URL取得を開始
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(G5RNQRU4XMQC7QPCURAUNLVU)
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: YHEXE5OKCWI5UGLW6XPBRZBF
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID G5RNQRU4XMQC7QPCURAUNLVU の画像ID: YHEXE5OKCWI5UGLW6XPBRZBF
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/9e4a2486feb2892a3c9756950c5d9609acb36971/original.png
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID XW5DYHD5PX6BO5BUYIE4NFUB の画像URL取得を開始
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(XW5DYHD5PX6BO5BUYIE4NFUB)
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: A5GALSIOWDLYSHU6RNOFRV4C
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID XW5DYHD5PX6BO5BUYIE4NFUB の画像ID: A5GALSIOWDLYSHU6RNOFRV4C
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/bafc1587ac5e79d7b045cc625245ec43f1001114/original.png
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID OZYWDDYBARHJNT7JBIW3SATD の画像URL取得を開始
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(OZYWDDYBARHJNT7JBIW3SATD)
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: KFBW3K4ZRVRZY7TKCFENFA3W
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID COOO5CRUTILYTLLZRTMBXKD3 の画像ID: KFBW3K4ZRVRZY7TKCFENFA3W
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/258325cc8504651fddd83cb5f04389d59098e5ec/original.png
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID NYCHCBG4CADNLNHM5QLC6SZZ の画像URL取得を開始
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:34:59] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(NYCHCBG4CADNLNHM5QLC6SZZ)
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: W5DOMJFX44LHUGLO74UROKKJ
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID OZYWDDYBARHJNT7JBIW3SATD の画像ID: W5DOMJFX44LHUGLO74UROKKJ
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/f3ac7a07f9454193991f090ee504df04a9a9b909/original.png
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 3KKLINLS6LSJEUPWJZGUHRPI の画像URL取得を開始
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(3KKLINLS6LSJEUPWJZGUHRPI)
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: PLJGRFNW5AMU3LYJIVZG7KDY
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID NYCHCBG4CADNLNHM5QLC6SZZ の画像ID: PLJGRFNW5AMU3LYJIVZG7KDY
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/a3496fce6d0c18a326cecc939d031273c1000092/original.png
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID HVQOY646MY3MHMOKZJCRYDUH の画像URL取得を開始
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(HVQOY646MY3MHMOKZJCRYDUH)
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 5YPSXNFCQA2RMX4U2UNUB5RR
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID HVQOY646MY3MHMOKZJCRYDUH の画像ID: 5YPSXNFCQA2RMX4U2UNUB5RR
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/92a1aa84f292518322b43d3994e9b1c21d3d6f43/original.png
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID MZDEJLLGY5GPV2SLR6CLC3QD の画像URL取得を開始
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(MZDEJLLGY5GPV2SLR6CLC3QD)
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: GI2NQ5DJGESJICKPUL55RD4L
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID MZDEJLLGY5GPV2SLR6CLC3QD の画像ID: GI2NQ5DJGESJICKPUL55RD4L
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/1c4483d837ee710fa89ba0528c1e73a7b3bc066b/original.png
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID RRIDDFF2SFDA2RHY4J5MIM3H の画像URL取得を開始
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:00] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(RRIDDFF2SFDA2RHY4J5MIM3H)
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: PYD7AJTVOOVN2I6BXN4VTGVF
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID 3KKLINLS6LSJEUPWJZGUHRPI の画像ID: PYD7AJTVOOVN2I6BXN4VTGVF
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/edc67687a9c24870917b8e2f15e3c6162e689030/original.png
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID E5LCY5RDRH7FVFXDHRBZLMAB の画像URL取得を開始
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(E5LCY5RDRH7FVFXDHRBZLMAB)
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: UXZZMK7GK2XR3FRASWC4M4L6
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID RRIDDFF2SFDA2RHY4J5MIM3H の画像ID: UXZZMK7GK2XR3FRASWC4M4L6
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/61c020b8701a08c37d4447d1adcf35e75ad3a6f4/original.png
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID GCLPY5S65O3JQXXFH7PXS6YQ の画像URL取得を開始
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(GCLPY5S65O3JQXXFH7PXS6YQ)
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: AHKGOQP3CRRPRSEIFA6XRBA2
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID E5LCY5RDRH7FVFXDHRBZLMAB の画像ID: AHKGOQP3CRRPRSEIFA6XRBA2
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/338045ef795f829c4c4dcec75f0c13937e5d7e7f/original.png
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID YJ24J6IED5GESTLYGD5GUEFV の画像URL取得を開始
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(YJ24J6IED5GESTLYGD5GUEFV)
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 7ZIQFQYHMC2YGDKW4B73KDFI, KNL4R6XN2634RSDTQR2ZEERT, UCIVOSML3CGF6ZYR7LETSVQX
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID GCLPY5S65O3JQXXFH7PXS6YQ の画像ID: 7ZIQFQYHMC2YGDKW4B73KDFI
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/ce6bc0d5df609eed8178a52b8c77804a3254d631/original.png
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID OHWHG5OXWKDJSWPUGI3LPSWW の画像URL取得を開始
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(OHWHG5OXWKDJSWPUGI3LPSWW)
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: L4LIBI3E2OACJAIZ3ZLBVEKW
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID YJ24J6IED5GESTLYGD5GUEFV の画像ID: L4LIBI3E2OACJAIZ3ZLBVEKW
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/84732a1efd32175327b4a0d8998b26b0b53d89ab/original.png
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 244ZDIIZFR67AIBEOOKC7L5B の画像URL取得を開始
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(244ZDIIZFR67AIBEOOKC7L5B)
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: FF33LQOB75DIBEB27AB47JGL, S7N7OGSQHYCL5COGMDIEKULH, OMAVMSW7XHDFE3I6544CWP4T
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID OHWHG5OXWKDJSWPUGI3LPSWW の画像ID: FF33LQOB75DIBEB27AB47JGL
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/31af4aab715f2b25f57811fffea7866a4e1d2560/original.png
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID CWD4L2CCP4BHCRFTRE6ZCM23 の画像URL取得を開始
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(CWD4L2CCP4BHCRFTRE6ZCM23)
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: NHZ2NQVTAC54J5IPD3D6A23D
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID 244ZDIIZFR67AIBEOOKC7L5B の画像ID: NHZ2NQVTAC54J5IPD3D6A23D
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/15d693e7b1140529676d2fa6d4ab3f3e01ebb2ad/original.png
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID KENANQO2UAGUVBC4H5WZJ3ZX の画像URL取得を開始
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(KENANQO2UAGUVBC4H5WZJ3ZX)
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: VQIHHAYRVG6H77ELQI3KOMO7
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID CWD4L2CCP4BHCRFTRE6ZCM23 の画像ID: VQIHHAYRVG6H77ELQI3KOMO7
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/847d57ace6a3957da37876eae580c4f57b9d3c85/original.png
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID JPQN75TQGE53HMICMBXAMTO6 の画像URL取得を開始
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(JPQN75TQGE53HMICMBXAMTO6)
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 6VEYZAWH2TQPOTO2CM6L66RQ
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID KENANQO2UAGUVBC4H5WZJ3ZX の画像ID: 6VEYZAWH2TQPOTO2CM6L66RQ
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/7fdf4abb0ac1aa94becac3079fbcec3ad308f052/original.png
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID PMI472ZFZFOVH2Z2ZPJPXP73 の画像URL取得を開始
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:01] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(PMI472ZFZFOVH2Z2ZPJPXP73)
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: INNZJL3LKT4SNKMY4DD54MMW, NHZ2NQVTAC54J5IPD3D6A23D
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID PMI472ZFZFOVH2Z2ZPJPXP73 の画像ID: INNZJL3LKT4SNKMY4DD54MMW
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/71060e781a9f152c5533326fc1cd753fd830c656/original.png
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 53MHHBHBJJR2A6JGW5E3SX5L の画像URL取得を開始
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(53MHHBHBJJR2A6JGW5E3SX5L)
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: P5FVTFB4DYIKXR5RIRCXPB4D, WZR2VPUK2C55NI2HWWKDYEIM
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID 53MHHBHBJJR2A6JGW5E3SX5L の画像ID: P5FVTFB4DYIKXR5RIRCXPB4D
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/b91d3069b769a2b2442547fb8f4b3b71d870dabe/original.png
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID C6QU5VICRSSGSN4O6YNQUNTU の画像URL取得を開始
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(C6QU5VICRSSGSN4O6YNQUNTU)
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 5WDM5UP7BOQR5SBIQHPAC3UH, KFBW3K4ZRVRZY7TKCFENFA3W
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID JPQN75TQGE53HMICMBXAMTO6 の画像ID: 5WDM5UP7BOQR5SBIQHPAC3UH
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/d84cc9b98ac7049ef04afade441dd104549e29e1/original.png
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID ADDT7HNZMOJAWUXO7KQBFZ4W の画像URL取得を開始
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(ADDT7HNZMOJAWUXO7KQBFZ4W)
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:02] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: C6QU5VICRSSGSN4O6YNQUNTU
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID GMQOSXGB6JCIYWYTQUKM2JEN の画像URL取得を開始
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(GMQOSXGB6JCIYWYTQUKM2JEN)
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 6QUNOUZTEHZ32FJIMZTGN45S
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID ADDT7HNZMOJAWUXO7KQBFZ4W の画像ID: 6QUNOUZTEHZ32FJIMZTGN45S
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/703cd747acc59c997bb811bb606b5721799d14ad/original.png
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID A6VEQLSSUSRSIZ35IX3PXTEO の画像URL取得を開始
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(A6VEQLSSUSRSIZ35IX3PXTEO)
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:02] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: GMQOSXGB6JCIYWYTQUKM2JEN
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID FR6TT7UOHV6MRYPAKCHER7UD の画像URL取得を開始
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(FR6TT7UOHV6MRYPAKCHER7UD)
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:02] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: FR6TT7UOHV6MRYPAKCHER7UD
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID HOSS5BJ4JSAYEQIIV2B57RK6 の画像URL取得を開始
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:02] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(HOSS5BJ4JSAYEQIIV2B57RK6)
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:03] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: HOSS5BJ4JSAYEQIIV2B57RK6
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID M2ZHH6KQXNLMB36YKF35RHYI の画像URL取得を開始
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(M2ZHH6KQXNLMB36YKF35RHYI)
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: GT5TZYBBI337NC45VR2DS2KC
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID A6VEQLSSUSRSIZ35IX3PXTEO の画像ID: GT5TZYBBI337NC45VR2DS2KC
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/d23a7a36e4c9362900ad62d64a46bc101a60b777/original.png
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID RSR47XH3BR6UQZYYMO4YQLUG の画像URL取得を開始
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(RSR47XH3BR6UQZYYMO4YQLUG)
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:03] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: M2ZHH6KQXNLMB36YKF35RHYI
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID XWRC7U6YMTGRRNIZPFBIFUGJ の画像URL取得を開始
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(XWRC7U6YMTGRRNIZPFBIFUGJ)
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: GIWCHBFU7VMXHISI74KIEDSV
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID RSR47XH3BR6UQZYYMO4YQLUG の画像ID: GIWCHBFU7VMXHISI74KIEDSV
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/0145cae716499c3d6e41741b69f6e70e24c69a39/original.png
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID EGZEYEYJBVGUK5ZPPR46GSVV の画像URL取得を開始
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(EGZEYEYJBVGUK5ZPPR46GSVV)
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:03] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: XWRC7U6YMTGRRNIZPFBIFUGJ
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID HJ46T7K6IDQ7FXMJR5JSH3GF の画像URL取得を開始
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(HJ46T7K6IDQ7FXMJR5JSH3GF)
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: FGM4ZD4WLXFNVGHVESCZAARN
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID EGZEYEYJBVGUK5ZPPR46GSVV の画像ID: FGM4ZD4WLXFNVGHVESCZAARN
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/8ecbb1fd620e054da3782d493615e919a181ead4/original.png
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID FOPCGOZ72YMLDIUQNSF6TC2A の画像URL取得を開始
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(FOPCGOZ72YMLDIUQNSF6TC2A)
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:03] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: HJ46T7K6IDQ7FXMJR5JSH3GF
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID TUPJENENW7D7VXDFETRWNZ55 の画像URL取得を開始
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:03] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(TUPJENENW7D7VXDFETRWNZ55)
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:04] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: TUPJENENW7D7VXDFETRWNZ55
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID PXNRZ6MLLOJSELJUHMZO2XV4 の画像URL取得を開始
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(PXNRZ6MLLOJSELJUHMZO2XV4)
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:04] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: PXNRZ6MLLOJSELJUHMZO2XV4
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 42MOKDMSQJTFLOTBA7XSARGU の画像URL取得を開始
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(42MOKDMSQJTFLOTBA7XSARGU)
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: GVX6FNYS4TYFSSMZM26FG73A
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID FOPCGOZ72YMLDIUQNSF6TC2A の画像ID: GVX6FNYS4TYFSSMZM26FG73A
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/3f925d5e59b35cd7c6d5fa88c5b9e7e42f083335/original.png
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 6BSR5NBGAGD7F5JEZ6CSBLMK の画像URL取得を開始
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(6BSR5NBGAGD7F5JEZ6CSBLMK)
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:04] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: 42MOKDMSQJTFLOTBA7XSARGU
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 4RSY4EQSVBKFXRGFEMFHTZ5K の画像URL取得を開始
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(4RSY4EQSVBKFXRGFEMFHTZ5K)
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 3AFCTIAPJKZEJDTRT7WB4GL4
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID 6BSR5NBGAGD7F5JEZ6CSBLMK の画像ID: 3AFCTIAPJKZEJDTRT7WB4GL4
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/bd4a5943135127e315ae6502645a96a764c668b2/original.png
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID KZPHTBTY3BFZXB4ANM6J2S3H の画像URL取得を開始
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(KZPHTBTY3BFZXB4ANM6J2S3H)
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: DUITNWAXFYZ5GBFX2ZGKY437
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID KZPHTBTY3BFZXB4ANM6J2S3H の画像ID: DUITNWAXFYZ5GBFX2ZGKY437
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/19affa0162d89dfcc3fc3fea36081ee59bf402e3/original.png
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 2XHJMXGRUOBBCUHFZVL2CSPN の画像URL取得を開始
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(2XHJMXGRUOBBCUHFZVL2CSPN)
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 2F6AYWIBKE7AKBGD2RE6JAGJ
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID 2XHJMXGRUOBBCUHFZVL2CSPN の画像ID: 2F6AYWIBKE7AKBGD2RE6JAGJ
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/e6650c478a9ebece9c66eb5d1df5d883706f4996/original.png
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID EYS5FTVX22MG4UFSWHGLLUQ2 の画像URL取得を開始
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:04] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(EYS5FTVX22MG4UFSWHGLLUQ2)
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:05] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: 4RSY4EQSVBKFXRGFEMFHTZ5K
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID HTENAP7IC5QEHN63WUZR6SNN の画像URL取得を開始
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(HTENAP7IC5QEHN63WUZR6SNN)
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: TP6VYPUVMNXY45U7PHHZEE6A
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID EYS5FTVX22MG4UFSWHGLLUQ2 の画像ID: TP6VYPUVMNXY45U7PHHZEE6A
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/d83ec5af6a1d029cb0b2a59095b6ba4c4120e3e3/original.png
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 2HZEC733J7LTVOFJ2NRUPXKW の画像URL取得を開始
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(2HZEC733J7LTVOFJ2NRUPXKW)
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:05] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: HTENAP7IC5QEHN63WUZR6SNN
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID KV5KX3FTHAKWWOBPEIJVAD5S の画像URL取得を開始
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(KV5KX3FTHAKWWOBPEIJVAD5S)
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 3KSA5V73LWD52LRY4U3JNUAJ
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID 2HZEC733J7LTVOFJ2NRUPXKW の画像ID: 3KSA5V73LWD52LRY4U3JNUAJ
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/d8c304da0693507489854b6339131fb35fce3522/original.png
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID G5RNQRU4XMQC7QPCURAUNLVU の画像URL取得を開始
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(G5RNQRU4XMQC7QPCURAUNLVU)
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:05] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: KV5KX3FTHAKWWOBPEIJVAD5S
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 6SVAN5XJIMJTD33E3XX5SH7Q の画像URL取得を開始
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(6SVAN5XJIMJTD33E3XX5SH7Q)
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:05] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: 6SVAN5XJIMJTD33E3XX5SH7Q
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID SX4PJMDOI3LEZE3VS4KXO5OR の画像URL取得を開始
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(SX4PJMDOI3LEZE3VS4KXO5OR)
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: YHEXE5OKCWI5UGLW6XPBRZBF
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID G5RNQRU4XMQC7QPCURAUNLVU の画像ID: YHEXE5OKCWI5UGLW6XPBRZBF
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/9e4a2486feb2892a3c9756950c5d9609acb36971/original.png
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID XW5DYHD5PX6BO5BUYIE4NFUB の画像URL取得を開始
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(XW5DYHD5PX6BO5BUYIE4NFUB)
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: A5GALSIOWDLYSHU6RNOFRV4C
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID XW5DYHD5PX6BO5BUYIE4NFUB の画像ID: A5GALSIOWDLYSHU6RNOFRV4C
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/bafc1587ac5e79d7b045cc625245ec43f1001114/original.png
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID OZYWDDYBARHJNT7JBIW3SATD の画像URL取得を開始
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(OZYWDDYBARHJNT7JBIW3SATD)
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:05] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: SX4PJMDOI3LEZE3VS4KXO5OR
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID KY72ZGV2C6ZUOCBAHF7XHHA3 の画像URL取得を開始
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:05] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(KY72ZGV2C6ZUOCBAHF7XHHA3)
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: W5DOMJFX44LHUGLO74UROKKJ
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID OZYWDDYBARHJNT7JBIW3SATD の画像ID: W5DOMJFX44LHUGLO74UROKKJ
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/f3ac7a07f9454193991f090ee504df04a9a9b909/original.png
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 3KKLINLS6LSJEUPWJZGUHRPI の画像URL取得を開始
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(3KKLINLS6LSJEUPWJZGUHRPI)
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:06] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: KY72ZGV2C6ZUOCBAHF7XHHA3
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID Y47L3E2XJ2B5LTBQZOWXEKPO の画像URL取得を開始
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(Y47L3E2XJ2B5LTBQZOWXEKPO)
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:06] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: Y47L3E2XJ2B5LTBQZOWXEKPO
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID JYRKC7BC4DCSDKQMNMMSA54T の画像URL取得を開始
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(JYRKC7BC4DCSDKQMNMMSA54T)
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: PYD7AJTVOOVN2I6BXN4VTGVF
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID 3KKLINLS6LSJEUPWJZGUHRPI の画像ID: PYD7AJTVOOVN2I6BXN4VTGVF
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/edc67687a9c24870917b8e2f15e3c6162e689030/original.png
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID E5LCY5RDRH7FVFXDHRBZLMAB の画像URL取得を開始
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(E5LCY5RDRH7FVFXDHRBZLMAB)
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:06] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: JYRKC7BC4DCSDKQMNMMSA54T
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID MBMU4B625ZIY65IJM75XHRNI の画像URL取得を開始
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(MBMU4B625ZIY65IJM75XHRNI)
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: AHKGOQP3CRRPRSEIFA6XRBA2
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID E5LCY5RDRH7FVFXDHRBZLMAB の画像ID: AHKGOQP3CRRPRSEIFA6XRBA2
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/338045ef795f829c4c4dcec75f0c13937e5d7e7f/original.png
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID YJ24J6IED5GESTLYGD5GUEFV の画像URL取得を開始
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(YJ24J6IED5GESTLYGD5GUEFV)
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: L4LIBI3E2OACJAIZ3ZLBVEKW
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID YJ24J6IED5GESTLYGD5GUEFV の画像ID: L4LIBI3E2OACJAIZ3ZLBVEKW
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/84732a1efd32175327b4a0d8998b26b0b53d89ab/original.png
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 244ZDIIZFR67AIBEOOKC7L5B の画像URL取得を開始
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(244ZDIIZFR67AIBEOOKC7L5B)
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: NHZ2NQVTAC54J5IPD3D6A23D
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID 244ZDIIZFR67AIBEOOKC7L5B の画像ID: NHZ2NQVTAC54J5IPD3D6A23D
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/15d693e7b1140529676d2fa6d4ab3f3e01ebb2ad/original.png
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID KENANQO2UAGUVBC4H5WZJ3ZX の画像URL取得を開始
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:06] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(KENANQO2UAGUVBC4H5WZJ3ZX)
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:07] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: MBMU4B625ZIY65IJM75XHRNI
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID G5YIMDKSP4CDH77JX7IFO6DL の画像URL取得を開始
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(G5YIMDKSP4CDH77JX7IFO6DL)
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: 6VEYZAWH2TQPOTO2CM6L66RQ
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID KENANQO2UAGUVBC4H5WZJ3ZX の画像ID: 6VEYZAWH2TQPOTO2CM6L66RQ
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/7fdf4abb0ac1aa94becac3079fbcec3ad308f052/original.png
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID PMI472ZFZFOVH2Z2ZPJPXP73 の画像URL取得を開始
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(PMI472ZFZFOVH2Z2ZPJPXP73)
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:07] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: G5YIMDKSP4CDH77JX7IFO6DL
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID T2ZUHS6JOHMLANTZ4XJMJMCH の画像URL取得を開始
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(T2ZUHS6JOHMLANTZ4XJMJMCH)
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: INNZJL3LKT4SNKMY4DD54MMW, NHZ2NQVTAC54J5IPD3D6A23D
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID PMI472ZFZFOVH2Z2ZPJPXP73 の画像ID: INNZJL3LKT4SNKMY4DD54MMW
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/71060e781a9f152c5533326fc1cd753fd830c656/original.png
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 53MHHBHBJJR2A6JGW5E3SX5L の画像URL取得を開始
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(53MHHBHBJJR2A6JGW5E3SX5L)
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:07] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: T2ZUHS6JOHMLANTZ4XJMJMCH
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 736AV72ALUIX776VOGGEEEOH の画像URL取得を開始
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(736AV72ALUIX776VOGGEEEOH)
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:431->processImageUrl] getImageIds()メソッドから画像ID取得: P5FVTFB4DYIKXR5RIRCXPB4D, WZR2VPUK2C55NI2HWWKDYEIM
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:548->processImageUrl] 商品ID 53MHHBHBJJR2A6JGW5E3SX5L の画像ID: P5FVTFB4DYIKXR5RIRCXPB4D
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:567->processImageUrl] 関連オブジェクトから画像URL取得成功: https://items-images-production.s3.us-west-2.amazonaws.com/files/b91d3069b769a2b2442547fb8f4b3b71d870dabe/original.png
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID C6QU5VICRSSGSN4O6YNQUNTU の画像URL取得を開始
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(C6QU5VICRSSGSN4O6YNQUNTU)
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:07] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: 736AV72ALUIX776VOGGEEEOH
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID FOVXJMKNW23XSASH4GSQWA7Z の画像URL取得を開始
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(FOVXJMKNW23XSASH4GSQWA7Z)
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:07] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: C6QU5VICRSSGSN4O6YNQUNTU
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID GMQOSXGB6JCIYWYTQUKM2JEN の画像URL取得を開始
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(GMQOSXGB6JCIYWYTQUKM2JEN)
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:07] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: FOVXJMKNW23XSASH4GSQWA7Z
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID ANHFXQGBHCNOOBAPIOWJ6TQU の画像URL取得を開始
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(ANHFXQGBHCNOOBAPIOWJ6TQU)
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:07] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: GMQOSXGB6JCIYWYTQUKM2JEN
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID FR6TT7UOHV6MRYPAKCHER7UD の画像URL取得を開始
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:07] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(FR6TT7UOHV6MRYPAKCHER7UD)
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:08] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: ANHFXQGBHCNOOBAPIOWJ6TQU
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID SLX3YI7SQSIKL557ZMXCDZTN の画像URL取得を開始
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(SLX3YI7SQSIKL557ZMXCDZTN)
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:08] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: FR6TT7UOHV6MRYPAKCHER7UD
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID HOSS5BJ4JSAYEQIIV2B57RK6 の画像URL取得を開始
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(HOSS5BJ4JSAYEQIIV2B57RK6)
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:08] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: SLX3YI7SQSIKL557ZMXCDZTN
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID LLV37JJ2WXD33RFVS7PJ7NKR の画像URL取得を開始
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(LLV37JJ2WXD33RFVS7PJ7NKR)
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:08] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: HOSS5BJ4JSAYEQIIV2B57RK6
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID M2ZHH6KQXNLMB36YKF35RHYI の画像URL取得を開始
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(M2ZHH6KQXNLMB36YKF35RHYI)
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:08] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: LLV37JJ2WXD33RFVS7PJ7NKR
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID CI5VCPE2MFKHRKNVCDMUGHL7 の画像URL取得を開始
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(CI5VCPE2MFKHRKNVCDMUGHL7)
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:08] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: CI5VCPE2MFKHRKNVCDMUGHL7
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID H4OHNQBADBK4LGSOVQD6PZFC の画像URL取得を開始
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(H4OHNQBADBK4LGSOVQD6PZFC)
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:08] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: H4OHNQBADBK4LGSOVQD6PZFC
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID W2F7T5NPBI6SIHFPHVEMSYNQ の画像URL取得を開始
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(W2F7T5NPBI6SIHFPHVEMSYNQ)
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:08] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: M2ZHH6KQXNLMB36YKF35RHYI
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID XWRC7U6YMTGRRNIZPFBIFUGJ の画像URL取得を開始
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:08] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(XWRC7U6YMTGRRNIZPFBIFUGJ)
+[2025-08-14 10:35:09] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:09] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: W2F7T5NPBI6SIHFPHVEMSYNQ
+[2025-08-14 10:35:09] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:09] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID FHDPEHZZEQRRPM56GCO6FXDW の画像URL取得を開始
+[2025-08-14 10:35:09] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:09] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(FHDPEHZZEQRRPM56GCO6FXDW)
+[2025-08-14 10:35:09] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:09] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: FHDPEHZZEQRRPM56GCO6FXDW
+[2025-08-14 10:35:09] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:09] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID KKF5QCR7YDQ5UHNALDM7ICL2 の画像URL取得を開始
+[2025-08-14 10:35:09] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:09] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(KKF5QCR7YDQ5UHNALDM7ICL2)
+[2025-08-14 10:35:09] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:09] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: XWRC7U6YMTGRRNIZPFBIFUGJ
+[2025-08-14 10:35:09] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:09] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID HJ46T7K6IDQ7FXMJR5JSH3GF の画像URL取得を開始
+[2025-08-14 10:35:09] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:09] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(HJ46T7K6IDQ7FXMJR5JSH3GF)
+[2025-08-14 10:35:09] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:09] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: KKF5QCR7YDQ5UHNALDM7ICL2
+[2025-08-14 10:35:09] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:09] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID J2XRGE6KS2XYR4TXPQ53EOWQ の画像URL取得を開始
+[2025-08-14 10:35:09] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:09] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(J2XRGE6KS2XYR4TXPQ53EOWQ)
+[2025-08-14 10:35:09] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:09] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: HJ46T7K6IDQ7FXMJR5JSH3GF
+[2025-08-14 10:35:09] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:09] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID TUPJENENW7D7VXDFETRWNZ55 の画像URL取得を開始
+[2025-08-14 10:35:09] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:09] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(TUPJENENW7D7VXDFETRWNZ55)
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:10] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: J2XRGE6KS2XYR4TXPQ53EOWQ
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID CKJJ4LBTDOHQMM3QQN7FKJPU の画像URL取得を開始
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(CKJJ4LBTDOHQMM3QQN7FKJPU)
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:10] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: TUPJENENW7D7VXDFETRWNZ55
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID PXNRZ6MLLOJSELJUHMZO2XV4 の画像URL取得を開始
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(PXNRZ6MLLOJSELJUHMZO2XV4)
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:10] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: PXNRZ6MLLOJSELJUHMZO2XV4
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 42MOKDMSQJTFLOTBA7XSARGU の画像URL取得を開始
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(42MOKDMSQJTFLOTBA7XSARGU)
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:10] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: 42MOKDMSQJTFLOTBA7XSARGU
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 4RSY4EQSVBKFXRGFEMFHTZ5K の画像URL取得を開始
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(4RSY4EQSVBKFXRGFEMFHTZ5K)
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:10] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: CKJJ4LBTDOHQMM3QQN7FKJPU
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID DUEGE7U5IW64FUX5LR6HOJLA の画像URL取得を開始
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(DUEGE7U5IW64FUX5LR6HOJLA)
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:10] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: 4RSY4EQSVBKFXRGFEMFHTZ5K
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID HTENAP7IC5QEHN63WUZR6SNN の画像URL取得を開始
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(HTENAP7IC5QEHN63WUZR6SNN)
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:10] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: DUEGE7U5IW64FUX5LR6HOJLA
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:10] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: HTENAP7IC5QEHN63WUZR6SNN
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID KV5KX3FTHAKWWOBPEIJVAD5S の画像URL取得を開始
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:10] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(KV5KX3FTHAKWWOBPEIJVAD5S)
+[2025-08-14 10:35:11] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:11] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: KV5KX3FTHAKWWOBPEIJVAD5S
+[2025-08-14 10:35:11] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:11] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 6SVAN5XJIMJTD33E3XX5SH7Q の画像URL取得を開始
+[2025-08-14 10:35:11] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:11] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(6SVAN5XJIMJTD33E3XX5SH7Q)
+[2025-08-14 10:35:11] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:11] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: 6SVAN5XJIMJTD33E3XX5SH7Q
+[2025-08-14 10:35:11] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:11] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID SX4PJMDOI3LEZE3VS4KXO5OR の画像URL取得を開始
+[2025-08-14 10:35:11] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:11] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(SX4PJMDOI3LEZE3VS4KXO5OR)
+[2025-08-14 10:35:12] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:12] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: SX4PJMDOI3LEZE3VS4KXO5OR
+[2025-08-14 10:35:12] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:12] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID KY72ZGV2C6ZUOCBAHF7XHHA3 の画像URL取得を開始
+[2025-08-14 10:35:12] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:12] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(KY72ZGV2C6ZUOCBAHF7XHHA3)
+[2025-08-14 10:35:12] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:12] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: KY72ZGV2C6ZUOCBAHF7XHHA3
+[2025-08-14 10:35:12] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:12] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID Y47L3E2XJ2B5LTBQZOWXEKPO の画像URL取得を開始
+[2025-08-14 10:35:12] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:12] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(Y47L3E2XJ2B5LTBQZOWXEKPO)
+[2025-08-14 10:35:12] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:12] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: Y47L3E2XJ2B5LTBQZOWXEKPO
+[2025-08-14 10:35:12] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:12] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID JYRKC7BC4DCSDKQMNMMSA54T の画像URL取得を開始
+[2025-08-14 10:35:12] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:12] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(JYRKC7BC4DCSDKQMNMMSA54T)
+[2025-08-14 10:35:12] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:12] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: JYRKC7BC4DCSDKQMNMMSA54T
+[2025-08-14 10:35:12] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:12] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID MBMU4B625ZIY65IJM75XHRNI の画像URL取得を開始
+[2025-08-14 10:35:12] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:12] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(MBMU4B625ZIY65IJM75XHRNI)
+[2025-08-14 10:35:12] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:12] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: MBMU4B625ZIY65IJM75XHRNI
+[2025-08-14 10:35:12] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:12] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID G5YIMDKSP4CDH77JX7IFO6DL の画像URL取得を開始
+[2025-08-14 10:35:12] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:12] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(G5YIMDKSP4CDH77JX7IFO6DL)
+[2025-08-14 10:35:13] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:13] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: G5YIMDKSP4CDH77JX7IFO6DL
+[2025-08-14 10:35:13] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:13] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID T2ZUHS6JOHMLANTZ4XJMJMCH の画像URL取得を開始
+[2025-08-14 10:35:13] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:13] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(T2ZUHS6JOHMLANTZ4XJMJMCH)
+[2025-08-14 10:35:13] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:13] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: T2ZUHS6JOHMLANTZ4XJMJMCH
+[2025-08-14 10:35:13] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:13] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID 736AV72ALUIX776VOGGEEEOH の画像URL取得を開始
+[2025-08-14 10:35:13] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:13] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(736AV72ALUIX776VOGGEEEOH)
+[2025-08-14 10:35:13] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:13] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: 736AV72ALUIX776VOGGEEEOH
+[2025-08-14 10:35:13] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:13] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID FOVXJMKNW23XSASH4GSQWA7Z の画像URL取得を開始
+[2025-08-14 10:35:13] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:13] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(FOVXJMKNW23XSASH4GSQWA7Z)
+[2025-08-14 10:35:13] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:13] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: FOVXJMKNW23XSASH4GSQWA7Z
+[2025-08-14 10:35:13] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:13] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID ANHFXQGBHCNOOBAPIOWJ6TQU の画像URL取得を開始
+[2025-08-14 10:35:13] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:13] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(ANHFXQGBHCNOOBAPIOWJ6TQU)
+[2025-08-14 10:35:13] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:13] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: ANHFXQGBHCNOOBAPIOWJ6TQU
+[2025-08-14 10:35:13] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:13] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID SLX3YI7SQSIKL557ZMXCDZTN の画像URL取得を開始
+[2025-08-14 10:35:13] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:13] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(SLX3YI7SQSIKL557ZMXCDZTN)
+[2025-08-14 10:35:14] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:14] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: SLX3YI7SQSIKL557ZMXCDZTN
+[2025-08-14 10:35:14] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:14] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID LLV37JJ2WXD33RFVS7PJ7NKR の画像URL取得を開始
+[2025-08-14 10:35:14] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:14] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(LLV37JJ2WXD33RFVS7PJ7NKR)
+[2025-08-14 10:35:14] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:14] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: LLV37JJ2WXD33RFVS7PJ7NKR
+[2025-08-14 10:35:14] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:14] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID CI5VCPE2MFKHRKNVCDMUGHL7 の画像URL取得を開始
+[2025-08-14 10:35:14] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:14] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(CI5VCPE2MFKHRKNVCDMUGHL7)
+[2025-08-14 10:35:14] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:14] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: CI5VCPE2MFKHRKNVCDMUGHL7
+[2025-08-14 10:35:14] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:14] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID H4OHNQBADBK4LGSOVQD6PZFC の画像URL取得を開始
+[2025-08-14 10:35:14] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:14] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(H4OHNQBADBK4LGSOVQD6PZFC)
+[2025-08-14 10:35:14] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:14] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: H4OHNQBADBK4LGSOVQD6PZFC
+[2025-08-14 10:35:14] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:14] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID W2F7T5NPBI6SIHFPHVEMSYNQ の画像URL取得を開始
+[2025-08-14 10:35:14] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:14] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(W2F7T5NPBI6SIHFPHVEMSYNQ)
+[2025-08-14 10:35:14] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:14] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: W2F7T5NPBI6SIHFPHVEMSYNQ
+[2025-08-14 10:35:14] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:14] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID FHDPEHZZEQRRPM56GCO6FXDW の画像URL取得を開始
+[2025-08-14 10:35:14] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:14] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(FHDPEHZZEQRRPM56GCO6FXDW)
+[2025-08-14 10:35:15] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:15] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: FHDPEHZZEQRRPM56GCO6FXDW
+[2025-08-14 10:35:15] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:15] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID KKF5QCR7YDQ5UHNALDM7ICL2 の画像URL取得を開始
+[2025-08-14 10:35:15] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:15] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(KKF5QCR7YDQ5UHNALDM7ICL2)
+[2025-08-14 10:35:15] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:15] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: KKF5QCR7YDQ5UHNALDM7ICL2
+[2025-08-14 10:35:15] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:15] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID J2XRGE6KS2XYR4TXPQ53EOWQ の画像URL取得を開始
+[2025-08-14 10:35:15] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:15] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(J2XRGE6KS2XYR4TXPQ53EOWQ)
+[2025-08-14 10:35:15] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:15] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: J2XRGE6KS2XYR4TXPQ53EOWQ
+[2025-08-14 10:35:15] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:15] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID CKJJ4LBTDOHQMM3QQN7FKJPU の画像URL取得を開始
+[2025-08-14 10:35:15] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:15] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(CKJJ4LBTDOHQMM3QQN7FKJPU)
+[2025-08-14 10:35:15] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:15] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: CKJJ4LBTDOHQMM3QQN7FKJPU
+[2025-08-14 10:35:15] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected
+[2025-08-14 10:35:15] [DEBUG] [square_Imagegetter.php:380->processImageUrl] 商品ID DUEGE7U5IW64FUX5LR6HOJLA の画像URL取得を開始
+[2025-08-14 10:35:15] [DEBUG] [square_Imagegetter.php:389->processImageUrl] CatalogAPI取得成功
+[2025-08-14 10:35:15] [DEBUG] [square_Imagegetter.php:397->processImageUrl] Square API呼び出し開始: retrieveCatalogObject(DUEGE7U5IW64FUX5LR6HOJLA)
+[2025-08-14 10:35:16] [DEBUG] [square_Imagegetter.php:399->processImageUrl] Square API呼び出し成功
+[2025-08-14 10:35:16] [WARNING] [square_Imagegetter.php:490->processImageUrl] 商品に画像IDがありません: DUEGE7U5IW64FUX5LR6HOJLA
+[2025-08-14 10:35:16] [DEBUG] [square_Imagegetter.php:533->processImageUrl] すべての画像検索中にエラー: Too few arguments to function Square\Models\CatalogQueryText::__construct(), 0 passed in /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/square_Imagegetter.php on line 499 and exactly 1 expected

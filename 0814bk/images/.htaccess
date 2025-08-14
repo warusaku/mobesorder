@@ -1,0 +1,8 @@
+<IfModule mod_headers.c>
+    Header set Cache-Control "max-age=86400, public"
+</IfModule>
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpeg "access plus 1 day"
+    ExpiresByType image/png "access plus 1 day"
+</IfModule>

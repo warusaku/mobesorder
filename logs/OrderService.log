@@ -1,0 +1,896 @@
+[2025-08-09 20:39:51] [INFO] log rotated
+dmin/adminsetting_registrer.php
+[2025-05-31 20:40:49] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-05-31 20:40:49] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-05-31 20:40:49] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-05-31 20:40:49] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-05-31 20:41:09] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250531204049108851335, CloseType: Force_closed
+[2025-05-31 20:51:49] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-05-31 20:51:49] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-05-31 20:51:49] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-05-31 20:51:49] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-05-31 20:51:49] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-05-31 21:55:38] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-05-31 21:55:38] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-05-31 21:55:38] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-05-31 21:55:38] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-05-31 21:55:38] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-01 07:38:16] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250531215538850514890, CloseType: Force_closed
+[2025-06-01 07:40:37] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-01 07:40:37] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-01 07:40:37] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-01 07:40:37] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-01 07:40:37] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-01 08:16:47] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250601074037602708271, CloseType: Force_closed
+[2025-06-01 08:19:09] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-01 08:19:09] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-01 08:19:09] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-01 08:19:09] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-01 08:19:09] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-01 08:21:18] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-01 08:21:18] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-01 08:21:18] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-01 08:21:18] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-01 08:21:18] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-01 08:27:01] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250601081909514776075, CloseType: Force_closed
+[2025-06-01 08:28:18] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-01 08:28:18] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-01 08:28:18] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-01 08:28:18] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-01 08:28:18] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-01 08:41:20] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250601082818213483637, CloseType: Force_closed
+[2025-06-01 08:42:29] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-01 08:42:29] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-01 08:42:29] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-01 08:42:29] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-01 08:42:29] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-01 09:35:27] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250601084229175368700, CloseType: Force_closed
+[2025-06-01 09:36:37] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-01 09:36:37] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-01 09:36:37] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-01 09:36:37] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-01 09:36:37] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-01 10:27:54] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-01 10:27:54] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-01 10:27:54] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-01 10:27:54] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-01 10:27:54] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-01 10:59:41] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-01 10:59:41] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-01 10:59:41] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-01 10:59:41] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-01 10:59:41] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-01 11:15:18] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-01 11:15:18] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-01 11:15:18] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-01 11:15:19] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-01 11:15:19] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-01 11:31:39] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-01 11:31:39] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-01 11:31:39] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-01 11:31:39] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-01 11:31:39] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-04 16:54:49] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-04 16:54:49] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-04 16:54:49] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-04 16:54:49] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-04 16:54:49] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-04 16:59:39] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-04 16:59:39] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-04 16:59:39] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-04 16:59:39] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-04 16:59:39] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-04 17:07:45] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-04 17:07:45] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-04 17:07:45] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-04 17:07:45] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-04 17:07:45] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-06 12:27:30] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-06 12:27:30] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-06 12:27:30] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-06 12:27:30] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-06 12:27:30] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-06 12:31:13] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-06 12:31:13] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-06 12:31:13] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-06 12:31:13] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-06 12:31:13] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-06 20:37:47] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250601111519008399961, CloseType: Force_closed
+[2025-06-07 12:41:53] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-07 12:41:53] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-07 12:41:53] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-07 12:41:53] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-07 12:41:53] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-07 13:37:07] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-07 13:37:07] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-07 13:37:07] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-07 13:37:07] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-07 13:37:07] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-07 13:37:36] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250607124153547268966, CloseType: Force_closed
+[2025-06-07 16:06:02] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-07 16:06:02] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-07 16:06:02] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-07 16:06:02] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-07 16:06:02] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-07 17:24:41] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-07 17:24:41] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-07 17:24:41] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-07 17:24:41] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-07 17:24:41] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-07 17:27:38] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-07 17:27:38] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-07 17:27:38] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-07 17:27:38] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-07 17:27:38] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-07 17:34:58] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-07 17:34:58] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-07 17:34:58] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-07 17:34:58] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-07 17:34:58] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-07 17:56:41] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-07 17:56:41] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-07 17:56:41] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-07 17:56:41] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-07 17:56:41] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-07 23:30:18] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-07 23:30:18] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-07 23:30:18] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-07 23:30:18] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-07 23:30:18] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-08 09:50:48] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-08 09:50:48] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-08 09:50:48] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-08 09:50:48] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-08 09:50:48] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-15 17:47:11] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-15 17:47:11] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-15 17:47:11] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-15 17:47:11] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-15 17:47:11] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-18 15:30:09] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-18 15:30:09] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-18 15:30:09] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-18 15:30:09] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-18 15:30:09] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-18 18:02:10] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-18 18:02:10] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-18 18:02:10] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-18 18:02:10] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-18 18:02:10] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-18 18:02:53] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-18 18:02:53] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-18 18:02:53] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-18 18:02:53] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-18 18:02:53] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-18 18:20:54] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-18 18:20:54] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-18 18:20:54] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-18 18:20:54] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-18 18:20:54] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-18 20:04:27] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-18 20:04:27] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-18 20:04:27] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-18 20:04:27] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-18 20:04:27] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-18 21:55:51] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-18 21:55:51] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-18 21:55:51] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-18 21:55:51] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-18 21:55:51] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-18 22:31:37] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-18 22:31:37] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-18 22:31:37] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-18 22:31:37] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-18 22:31:37] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-27 19:09:10] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-27 19:09:10] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-27 19:09:10] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-27 19:09:10] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-27 19:09:10] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-27 19:11:00] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-27 19:11:00] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-27 19:11:00] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-27 19:11:00] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-27 19:11:00] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-27 19:12:58] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-06-27 19:12:58] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-06-27 19:12:58] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-06-27 19:12:58] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-06-27 19:12:58] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-06-28 18:18:29] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250618153009484007016, CloseType: Force_closed
+[2025-07-04 22:28:09] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-04 22:28:09] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-04 22:28:09] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-04 22:28:09] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-04 22:28:09] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-06 15:05:20] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250615174711837655670, CloseType: Force_closed
+[2025-07-07 16:26:59] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-07 16:26:59] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-07 16:26:59] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-07 16:26:59] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-07 16:26:59] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-07 16:53:37] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-07 16:53:37] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-07 16:53:37] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-07 16:53:37] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-07 16:53:37] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-07 19:14:31] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-07 19:14:31] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-07 19:14:31] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-07 19:14:31] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-07 19:14:31] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-13 16:13:33] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-13 16:14:26] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-13 17:17:04] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-13 17:17:04] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-13 17:17:04] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-13 17:17:04] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-13 17:17:04] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-13 17:25:55] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-13 17:25:55] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-13 17:25:55] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-13 17:25:55] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-13 17:25:55] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-13 17:37:47] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-13 17:37:47] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-13 17:37:47] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-13 17:37:47] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-13 17:37:47] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-13 17:54:05] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-13 17:54:05] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-13 17:54:05] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-13 17:54:05] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-13 17:54:05] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-13 17:55:02] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-13 17:55:02] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-13 17:55:02] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-13 17:55:02] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-13 17:55:02] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-14 17:18:33] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250713171704456656329, CloseType: Force_closed
+[2025-07-20 17:07:13] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-20 17:07:13] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-20 17:07:13] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-20 17:07:13] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-20 17:07:13] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-20 17:18:27] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-20 17:18:27] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-20 17:18:27] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-20 17:18:27] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-20 17:18:27] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-20 17:56:30] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-20 17:56:30] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-20 17:56:30] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-20 17:56:30] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-20 17:56:30] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-20 18:20:46] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-20 18:20:46] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-20 18:20:46] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-20 18:20:46] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-20 18:20:46] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-20 19:08:24] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-20 19:08:24] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-20 19:08:24] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-20 19:08:24] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-20 19:08:24] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-20 19:12:04] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-20 19:12:04] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-20 19:12:04] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-20 19:12:04] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-20 19:12:04] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-20 19:12:32] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-20 19:12:32] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-20 19:12:32] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-20 19:12:32] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-20 19:12:32] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-20 19:12:51] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-20 19:12:51] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-20 19:12:51] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-20 19:12:51] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-20 19:12:51] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-20 19:13:04] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-20 19:13:04] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-20 19:13:04] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-20 19:13:04] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-20 19:13:04] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-20 19:51:32] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-20 19:51:32] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-20 19:51:32] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-20 19:51:32] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-20 19:51:32] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-20 20:03:09] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-20 20:03:09] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-20 20:03:09] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-20 20:03:09] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-20 20:03:09] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-20 20:03:41] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-20 20:03:41] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-20 20:03:41] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-20 20:03:41] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-20 20:03:41] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-20 20:28:45] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-20 20:28:45] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-20 20:28:45] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-20 20:28:45] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-20 20:28:45] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-20 22:54:54] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-20 22:54:54] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-20 22:54:54] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-20 22:54:54] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-20 22:54:54] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-21 09:48:09] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-21 09:48:09] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-21 09:48:09] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-21 09:48:09] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-21 09:48:09] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-22 09:57:06] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-22 09:57:06] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-22 09:57:06] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-22 09:57:06] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-22 09:57:06] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-31 14:38:15] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-31 14:38:15] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-31 14:38:15] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-31 14:38:15] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-31 14:38:15] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-31 17:02:18] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-31 17:02:18] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-31 17:02:18] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-31 17:02:18] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-31 17:02:18] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-31 18:02:01] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-07-31 18:02:01] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-07-31 18:02:01] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-07-31 18:02:01] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-07-31 18:02:01] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-07-31 18:10:28] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250713171704456656329, CloseType: Force_closed
+[2025-08-01 03:50:28] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-01 03:50:28] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-01 03:50:28] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-01 03:50:28] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-01 03:50:28] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-02 13:22:25] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250731143815826121773, CloseType: Force_closed
+[2025-08-03 17:23:56] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-03 17:23:56] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-03 17:23:56] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-03 17:23:56] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-03 17:23:56] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-03 19:00:02] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-03 19:00:02] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-03 19:00:02] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-03 19:00:02] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-03 19:00:02] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-03 19:06:06] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-03 19:06:06] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-03 19:06:06] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-03 19:06:06] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-03 19:06:06] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-04 17:25:53] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-04 17:25:53] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-04 17:25:53] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-04 17:25:53] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-04 17:25:53] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-04 18:25:23] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-04 18:25:23] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-04 18:25:23] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-04 18:25:23] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-04 18:25:23] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-04 20:10:41] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-04 20:10:41] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-04 20:10:41] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-04 20:10:41] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-04 20:10:41] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-04 22:13:40] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-04 22:13:40] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-04 22:13:40] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-04 22:13:40] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-04 22:13:40] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-06 10:29:27] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-06 10:29:27] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-06 10:29:27] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-06 10:29:27] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-06 10:29:27] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-06 11:32:51] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-06 11:32:51] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-06 11:32:51] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-06 11:32:51] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-06 11:32:51] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-07 17:33:47] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250804182523577578304, CloseType: Force_closed
+[2025-08-07 17:34:34] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250606122730220928294, CloseType: Force_closed
+[2025-08-07 17:36:14] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-07 17:36:14] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-07 17:36:14] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-07 17:36:14] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-07 17:36:14] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-07 17:37:25] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-07 17:37:25] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-07 17:37:25] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-07 17:37:25] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-07 17:37:25] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-07 17:38:24] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-07 17:38:24] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-07 17:38:24] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-07 17:38:24] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-07 17:38:24] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-07 17:48:01] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-07 17:48:01] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-07 17:48:01] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-07 17:48:01] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-07 17:48:01] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-07 18:43:02] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250807173614014387973, CloseType: Force_closed
+[2025-08-08 17:19:24] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-08 17:19:24] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-08 17:19:24] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-08 17:19:24] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-08 17:19:24] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-08 17:24:37] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-08 17:24:37] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-08 17:24:37] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-08 17:24:37] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-08 17:24:37] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-08 20:53:20] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-08 20:53:20] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-08 20:53:20] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-08 20:53:20] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-08 20:53:20] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-09 17:58:00] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-09 17:58:00] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-09 17:58:00] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-09 17:58:00] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-09 17:58:00] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-09 18:01:33] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-09 18:01:33] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-09 18:01:33] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-09 18:01:33] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-09 18:01:33] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-09 19:08:40] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-09 19:08:40] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-09 19:08:40] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-09 19:08:40] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-09 19:08:40] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-09 20:00:52] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-09 20:00:52] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-09 20:00:52] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-09 20:00:52] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-09 20:00:52] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-09 20:39:51] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-09 20:39:51] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-09 20:39:51] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-09 20:39:51] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-09 20:39:51] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-10 05:54:52] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 05:54:52] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-10 05:54:52] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-10 05:54:52] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-10 05:54:52] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-10 05:55:19] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 05:55:19] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-10 05:55:19] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-10 05:55:19] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-10 05:55:19] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-10 05:58:48] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 05:58:48] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-10 05:58:48] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-10 05:58:48] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-10 05:58:48] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-10 06:07:17] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 06:07:17] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-10 06:07:17] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-10 06:07:17] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-10 06:07:17] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-10 06:07:33] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 06:07:33] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-10 06:07:33] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-10 06:07:33] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-10 06:07:33] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-10 07:08:56] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 07:08:56] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-10 07:08:56] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-10 07:08:56] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-10 07:08:56] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-10 07:17:40] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 07:17:40] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-10 07:17:40] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-10 07:17:40] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-10 07:17:40] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-10 08:10:35] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250810055452057421794, CloseType: Force_closed
+[2025-08-10 08:44:19] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 08:44:19] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-10 08:44:19] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-10 08:44:19] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-10 08:44:19] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-10 08:44:28] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 08:44:28] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-10 08:44:28] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-10 08:44:28] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-10 08:44:28] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-10 08:55:49] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 08:55:49] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-10 08:55:49] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-10 08:55:49] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-10 08:55:49] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-10 08:56:00] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 08:56:00] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-10 08:56:00] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-10 08:56:00] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-10 08:56:00] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-10 09:10:18] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 09:10:18] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-10 09:10:18] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-10 09:10:18] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-10 09:10:18] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-10 09:13:45] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 09:13:45] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-10 09:13:45] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-10 09:13:45] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-10 09:13:45] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-10 09:15:23] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250810084419324851493, CloseType: Force_closed
+[2025-08-10 09:22:51] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 09:22:51] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-10 09:22:51] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-10 09:22:51] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-10 09:22:51] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-10 09:23:17] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 09:23:17] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-10 09:23:17] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-10 09:23:17] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-10 09:23:17] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-10 09:23:22] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 09:23:22] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-10 09:23:22] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-10 09:23:22] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-10 09:23:22] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-10 15:39:48] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 15:39:48] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-10 15:39:48] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-10 15:39:48] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-10 15:39:48] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-10 15:54:21] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-10 15:54:21] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 15:54:21] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-10 15:54:21] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-10 15:54:21] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-10 16:48:36] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250810092251124639899, CloseType: Force_closed
+[2025-08-10 17:01:08] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 17:01:08] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-10 17:01:08] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-10 17:01:08] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-10 17:01:08] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-10 17:12:05] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 17:12:05] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-10 17:12:05] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-10 17:12:05] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-10 17:12:05] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-10 18:53:39] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 18:53:39] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-10 18:53:39] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-10 18:53:39] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-10 18:53:39] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-10 20:16:47] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 20:16:47] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-10 20:16:47] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-10 20:16:47] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-10 20:16:47] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-10 20:44:34] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-10 20:44:34] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 20:44:34] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-10 20:44:34] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-10 20:44:34] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-10 21:13:13] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-10 21:13:13] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-10 21:13:13] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-10 21:13:13] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-10 21:13:13] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-11 16:30:30] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250810153948988196384, CloseType: Force_closed
+[2025-08-11 16:30:34] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250810153948988196384, CloseType: Force_closed
+[2025-08-11 17:02:24] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-11 17:02:24] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-11 17:02:24] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-11 17:02:24] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-11 17:02:24] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-11 17:17:54] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-11 17:17:54] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-11 17:17:54] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-11 17:17:54] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-11 17:17:54] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-11 18:06:24] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-11 18:06:24] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-11 18:06:24] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-11 18:06:24] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-11 18:06:24] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-11 19:37:40] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-11 19:37:40] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-11 19:37:40] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-11 19:37:40] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-11 19:37:40] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-11 19:50:36] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-11 19:50:36] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-11 19:50:36] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-11 19:50:36] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-11 19:50:36] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-12 14:58:24] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250811193740032566400, CloseType: Force_closed
+[2025-08-12 15:05:08] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250808171924393068826, CloseType: Force_closed
+[2025-08-12 17:06:07] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 17:06:07] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-12 17:06:07] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-12 17:06:07] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-12 17:06:07] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-12 17:08:46] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 17:08:46] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-12 17:08:46] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-12 17:08:46] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-12 17:08:46] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-12 17:51:24] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 17:51:24] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-12 17:51:24] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-12 17:51:24] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-12 17:51:24] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-12 18:00:43] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 18:00:43] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-12 18:00:43] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-12 18:00:43] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-12 18:00:43] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-12 18:21:41] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 18:21:41] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-12 18:21:41] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-12 18:21:41] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-12 18:21:41] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-12 18:48:50] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 18:48:50] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-12 18:48:50] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-12 18:48:50] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-12 18:48:50] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-12 19:01:12] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 19:01:12] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-12 19:01:12] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-12 19:01:12] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-12 19:01:12] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-12 19:40:55] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 19:40:55] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-12 19:40:55] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-12 19:40:55] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-12 19:40:55] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-12 19:42:13] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 19:42:13] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-12 19:42:13] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-12 19:42:13] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-12 19:42:13] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-12 19:43:36] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 19:43:36] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-12 19:43:36] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-12 19:43:36] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-12 19:43:36] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-12 20:45:06] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 20:45:06] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-12 20:45:06] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-12 20:45:06] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-12 20:45:06] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-12 21:35:21] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-12 21:35:21] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-12 21:35:21] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-12 21:35:21] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-12 21:35:21] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 15:55:38] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 15:55:38] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 15:55:38] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 15:55:38] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 15:55:38] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 16:10:59] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 16:10:59] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 16:10:59] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 16:10:59] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 16:10:59] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 16:11:34] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 16:11:34] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 16:11:34] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 16:11:34] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 16:11:34] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 16:31:56] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 16:33:04] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 16:33:04] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 16:33:04] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 16:33:04] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 16:33:04] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 17:53:36] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 17:53:36] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 17:53:36] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 17:53:36] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 17:53:36] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 18:00:35] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 18:00:35] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 18:00:35] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 18:00:35] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 18:00:35] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 18:20:15] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 18:20:15] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 18:20:15] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 18:20:15] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 18:20:15] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 18:27:21] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 18:27:21] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 18:27:21] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 18:27:21] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 18:27:21] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 18:51:40] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 18:51:40] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 18:51:40] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 18:51:40] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 18:51:40] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 18:52:28] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 18:52:28] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 18:52:28] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 18:52:28] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 18:52:28] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 18:53:01] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 18:53:01] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 18:53:01] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 18:53:01] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 18:53:01] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 18:53:17] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 18:53:17] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 18:53:17] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 18:53:17] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 18:53:17] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 18:55:33] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 18:55:33] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 18:55:33] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 18:55:33] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 18:55:33] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 19:01:44] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 19:01:44] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 19:01:44] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 19:01:44] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 19:01:44] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 19:05:37] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 19:05:37] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 19:05:37] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 19:05:37] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 19:05:37] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 19:09:11] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 19:09:11] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 19:09:11] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 19:09:11] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 19:09:11] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 19:27:49] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 19:27:49] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 19:27:49] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 19:27:49] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 19:27:49] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 19:48:16] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 19:48:16] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 19:48:16] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 19:48:16] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 19:48:16] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 19:50:08] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 19:50:08] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 19:50:08] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 19:50:08] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 19:50:08] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 19:57:25] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 19:57:25] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 19:57:25] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 19:57:25] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 19:57:25] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 20:16:40] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 20:16:40] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 20:16:40] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 20:16:40] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 20:16:40] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 20:19:02] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 20:19:02] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 20:19:02] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 20:19:02] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 20:19:02] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 20:28:57] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 20:28:57] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 20:28:57] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 20:28:57] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 20:28:57] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 20:44:35] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 20:44:35] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 20:44:35] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 20:44:35] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 20:44:35] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 21:09:47] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 21:09:47] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 21:09:47] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 21:09:47] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 21:09:47] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 05:19:37] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 05:19:37] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 05:19:37] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 05:19:37] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 05:19:37] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 07:07:13] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:07:13] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 07:07:13] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 07:07:13] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 07:07:13] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 07:07:17] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:07:17] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 07:07:17] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 07:07:17] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 07:07:17] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 07:07:20] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:07:20] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 07:07:20] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 07:07:20] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 07:07:20] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 07:13:02] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:13:02] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 07:13:02] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 07:13:02] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 07:13:02] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 07:14:10] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:14:10] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 07:14:10] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 07:14:10] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 07:14:10] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 07:14:40] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:14:40] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 07:14:40] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 07:14:40] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 07:14:40] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 07:19:33] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:19:33] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 07:19:33] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 07:19:33] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 07:19:33] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 07:20:58] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:20:58] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 07:20:58] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 07:20:58] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 07:20:58] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 07:27:51] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:27:51] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 07:27:51] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 07:27:51] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 07:27:51] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 07:28:54] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:28:54] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 07:28:54] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 07:28:54] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 07:28:54] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 07:31:01] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:31:01] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 07:31:01] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 07:31:01] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 07:31:01] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 07:49:17] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:49:17] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 07:49:17] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 07:49:17] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 07:49:17] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 07:55:24] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:55:24] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 07:55:24] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 07:55:24] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 07:55:24] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 07:56:03] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:56:03] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 07:56:03] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 07:56:03] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 07:56:03] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 09:56:43] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250812204506720358723, CloseType: Force_closed
+[2025-08-14 09:58:54] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250813182015138244729, CloseType: Force_closed
+[2025-08-14 10:10:05] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250812170846933239129, CloseType: Force_closed
+[2025-08-14 10:10:16] [INFO] [OrderService.php:414->sendSessionCloseWebhook] sendSessionCloseWebhook - SessionID: 250812213521676699650, CloseType: Force_closed
+[2025-08-14 10:16:56] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 10:16:56] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 10:16:56] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 10:16:56] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 10:16:56] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 10:20:17] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 10:20:17] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 10:20:17] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 10:20:17] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 10:20:17] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 10:22:22] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 10:22:22] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 10:22:22] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 10:22:22] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 10:22:22] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 10:30:45] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 10:30:45] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 10:30:45] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 10:30:45] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 10:30:45] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード

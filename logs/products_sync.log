@@ -1,0 +1,762 @@
+[2025-05-12 00:44:59] [ERROR] 同期実行エラー: 同期APIへのリクエストが失敗しました (HTTP 500)
+[2025-05-12 00:45:03] [ERROR] 同期実行エラー: 同期APIへのリクエストが失敗しました (HTTP 500)
+[2025-05-12 01:14:03] [ERROR] 同期実行エラー: 同期APIへのリクエストが失敗しました (HTTP 500)
+[2025-05-12 01:14:09] [ERROR] 同期実行エラー: 同期APIへのリクエストが失敗しました (HTTP 500)
+[2025-05-12 01:33:54] [INFO] 商品同期が実行されました: fabula によって手動実行
+[2025-05-12 01:34:00] [INFO] 商品同期が実行されました: fabula によって手動実行
+[2025-05-12 01:41:12] [INFO] 商品同期が実行されました: fabula によって手動実行
+[2025-05-12 01:48:25] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-05-12 01:48:25] [INFO] [products_sync.php:191->unknown] 同期API URL: https://test-mijeos.but.jp/fgsquare/api/sync/sync_products.php?token=fg12345%40
+[2025-05-12 01:48:25] [INFO] [products_sync.php:196->unknown] cURLリクエスト送信中...
+[2025-05-12 01:48:26] [INFO] [products_sync.php:206->unknown] cURLリクエスト完了: HTTP 200, 実行時間: 1.1秒
+[2025-05-12 01:48:26] [INFO] [products_sync.php:214->unknown] APIレスポンス受信: HTTP 200 OK
+[2025-05-12 01:48:26] [INFO] [products_sync.php:218->unknown] APIレスポンス(プレビュー): {"success":true,"message":"\u5546\u54c1\u540c\u671f\u3068\u753b\u50cfURL\u66f4\u65b0\u304c\u5b8c\u4e86\u3057\u307e\u3057\u305f","stats":{"added":0,"updated":0,"errors":0},"products":{"success":true,"message":"\u5546\u54c1\u540c\u671f\u3068\u753b\u50cfURL\u66f4\u65b0\u304c\u5b8c\u4e86\u3057\u307e\u3057\u305f","product_sync":{"success":true,"message":"\u5546\u54c1\u540c\u671f\u304c\u5b8c\u4e86\u3057\u307e\u3057\u305f","stats":{"added":0,"updated":0,"disabled":0,"errors":0}},"image_update":{"proces...(以下省略)
+[2025-05-12 01:48:26] [INFO] [products_sync.php:235->unknown] 同期APIは成功を返しました
+[2025-05-12 01:48:26] [INFO] [products_sync.php:244->unknown] 統計情報形式: 基本統計形式
+[2025-05-12 01:48:26] [INFO] [products_sync.php:265->unknown] 同期統計: 追加 0件, 更新 0件, エラー 0件
+[2025-05-12 01:48:26] [INFO] [products_sync.php:294->unknown] カテゴリ同期フェーズを開始
+[2025-05-12 01:48:26] [INFO] [products_sync.php:304->unknown] カテゴリ同期成功: 作成 0件, 更新 19件, スキップ 0件, エラー 0件
+[2025-05-12 01:48:26] [INFO] [products_sync.php:353->unknown] 画像URL更新フェーズ: 処理対象なし
+[2025-05-12 01:48:26] [INFO] [products_sync.php:358->unknown] 商品同期処理が完了しました。実行時間: 1.1秒
+[2025-05-12 01:48:26] [INFO] [products_sync.php:382->unknown] 同期詳細を表示用にセッションに保存しました
+[2025-05-12 02:18:02] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-05-12 02:18:02] [INFO] [products_sync.php:192->unknown] ProductServiceを初期化します
+[2025-05-12 02:18:02] [INFO] [products_sync.php:196->unknown] ProductService経由で商品同期を実行します
+[2025-05-12 02:18:03] [INFO] [products_sync.php:202->unknown] 商品同期処理が完了しました: 実行時間: 0.78秒
+[2025-05-12 02:18:03] [INFO] [products_sync.php:206->unknown] 同期結果統計: 追加=0, 更新=0, 無効化=0, エラー=0
+[2025-05-12 02:18:03] [INFO] [products_sync.php:216->unknown] 画像URL更新処理を開始します
+[2025-05-12 02:18:03] [INFO] [products_sync.php:218->unknown] 画像URL更新完了: 処理=0, 更新=0, エラー=0
+[2025-05-12 02:18:03] [INFO] [products_sync.php:249->unknown] 同期APIは成功を返しました
+[2025-05-12 02:18:03] [INFO] [products_sync.php:258->unknown] 統計情報形式: 基本統計形式
+[2025-05-12 02:18:03] [INFO] [products_sync.php:279->unknown] 同期統計: 追加 0件, 更新 0件, エラー 0件
+[2025-05-12 02:18:03] [INFO] [products_sync.php:335->unknown] カテゴリ同期情報はレスポンスに含まれていません
+[2025-05-12 02:18:03] [INFO] [products_sync.php:341->unknown] 画像URL更新フェーズを開始
+[2025-05-12 02:18:03] [INFO] [products_sync.php:351->unknown] 画像URL更新: 処理済 0 件, 更新 0 件
+[2025-05-12 02:18:03] [INFO] [products_sync.php:372->unknown] 商品同期処理が完了しました。実行時間: 0.78秒
+[2025-05-12 02:18:03] [INFO] [products_sync.php:396->unknown] 同期詳細を表示用にセッションに保存しました
+[2025-05-12 02:23:35] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-05-12 02:23:35] [INFO] [products_sync.php:192->unknown] ProductServiceを初期化します
+[2025-05-12 02:23:35] [INFO] [products_sync.php:196->unknown] ProductService経由で商品同期を実行します
+[2025-05-12 02:23:35] [INFO] [products_sync.php:202->unknown] 商品同期処理が完了しました: 実行時間: 0.78秒
+[2025-05-12 02:23:35] [INFO] [products_sync.php:206->unknown] 同期結果統計: 追加=0, 更新=0, 無効化=0, エラー=0
+[2025-05-12 02:23:35] [INFO] [products_sync.php:216->unknown] 画像URL更新処理を開始します
+[2025-05-12 02:23:35] [INFO] [products_sync.php:218->unknown] 画像URL更新完了: 処理=0, 更新=0, エラー=0
+[2025-05-12 02:23:35] [INFO] [products_sync.php:249->unknown] 同期APIは成功を返しました
+[2025-05-12 02:23:35] [INFO] [products_sync.php:258->unknown] 統計情報形式: 基本統計形式
+[2025-05-12 02:23:35] [INFO] [products_sync.php:279->unknown] 同期統計: 追加 0件, 更新 0件, エラー 0件
+[2025-05-12 02:23:35] [INFO] [products_sync.php:335->unknown] カテゴリ同期情報はレスポンスに含まれていません
+[2025-05-12 02:23:35] [INFO] [products_sync.php:341->unknown] 画像URL更新フェーズを開始
+[2025-05-12 02:23:35] [INFO] [products_sync.php:351->unknown] 画像URL更新: 処理済 0 件, 更新 0 件
+[2025-05-12 02:23:35] [INFO] [products_sync.php:372->unknown] 商品同期処理が完了しました。実行時間: 0.78秒
+[2025-05-12 02:23:35] [INFO] [products_sync.php:396->unknown] 同期詳細を表示用にセッションに保存しました
+[2025-05-12 02:31:17] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-05-12 02:31:17] [INFO] [products_sync.php:192->unknown] ProductServiceを初期化します
+[2025-05-12 02:31:17] [INFO] [products_sync.php:196->unknown] ProductService経由で商品同期を実行します
+[2025-05-12 02:31:18] [INFO] [products_sync.php:202->unknown] 商品同期処理が完了しました: 実行時間: 0.73秒
+[2025-05-12 02:31:18] [INFO] [products_sync.php:206->unknown] 同期結果統計: 追加=0, 更新=0, 無効化=0, エラー=0
+[2025-05-12 02:31:18] [INFO] [products_sync.php:216->unknown] 画像URL更新処理を開始します
+[2025-05-12 02:31:18] [INFO] [products_sync.php:218->unknown] 画像URL更新完了: 処理=0, 更新=0, エラー=0
+[2025-05-12 02:31:18] [INFO] [products_sync.php:249->unknown] 同期APIは成功を返しました
+[2025-05-12 02:31:18] [INFO] [products_sync.php:258->unknown] 統計情報形式: 基本統計形式
+[2025-05-12 02:31:18] [INFO] [products_sync.php:279->unknown] 同期統計: 追加 0件, 更新 0件, エラー 0件
+[2025-05-12 02:31:18] [INFO] [products_sync.php:335->unknown] カテゴリ同期情報はレスポンスに含まれていません
+[2025-05-12 02:31:18] [INFO] [products_sync.php:341->unknown] 画像URL更新フェーズを開始
+[2025-05-12 02:31:18] [INFO] [products_sync.php:351->unknown] 画像URL更新: 処理済 0 件, 更新 0 件
+[2025-05-12 02:31:18] [INFO] [products_sync.php:372->unknown] 商品同期処理が完了しました。実行時間: 0.73秒
+[2025-05-12 02:31:18] [INFO] [products_sync.php:396->unknown] 同期詳細を表示用にセッションに保存しました
+[2025-05-12 02:31:37] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-05-12 02:31:37] [INFO] [products_sync.php:192->unknown] ProductServiceを初期化します
+[2025-05-12 02:31:37] [INFO] [products_sync.php:196->unknown] ProductService経由で商品同期を実行します
+[2025-05-12 02:31:38] [INFO] [products_sync.php:202->unknown] 商品同期処理が完了しました: 実行時間: 0.58秒
+[2025-05-12 02:31:38] [INFO] [products_sync.php:206->unknown] 同期結果統計: 追加=0, 更新=0, 無効化=0, エラー=0
+[2025-05-12 02:31:38] [INFO] [products_sync.php:216->unknown] 画像URL更新処理を開始します
+[2025-05-12 02:31:38] [INFO] [products_sync.php:218->unknown] 画像URL更新完了: 処理=0, 更新=0, エラー=0
+[2025-05-12 02:31:38] [INFO] [products_sync.php:249->unknown] 同期APIは成功を返しました
+[2025-05-12 02:31:38] [INFO] [products_sync.php:258->unknown] 統計情報形式: 基本統計形式
+[2025-05-12 02:31:38] [INFO] [products_sync.php:279->unknown] 同期統計: 追加 0件, 更新 0件, エラー 0件
+[2025-05-12 02:31:38] [INFO] [products_sync.php:335->unknown] カテゴリ同期情報はレスポンスに含まれていません
+[2025-05-12 02:31:38] [INFO] [products_sync.php:341->unknown] 画像URL更新フェーズを開始
+[2025-05-12 02:31:38] [INFO] [products_sync.php:351->unknown] 画像URL更新: 処理済 0 件, 更新 0 件
+[2025-05-12 02:31:38] [INFO] [products_sync.php:372->unknown] 商品同期処理が完了しました。実行時間: 0.58秒
+[2025-05-12 02:31:38] [INFO] [products_sync.php:396->unknown] 同期詳細を表示用にセッションに保存しました
+[2025-05-12 02:33:19] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-05-12 02:33:19] [INFO] [products_sync.php:192->unknown] ProductServiceを初期化します
+[2025-05-12 02:33:19] [INFO] [products_sync.php:196->unknown] ProductService経由で商品同期を実行します
+[2025-05-12 02:33:19] [INFO] [products_sync.php:202->unknown] 商品同期処理が完了しました: 実行時間: 0.71秒
+[2025-05-12 02:33:19] [INFO] [products_sync.php:206->unknown] 同期結果統計: 追加=0, 更新=0, 無効化=0, エラー=0
+[2025-05-12 02:33:19] [INFO] [products_sync.php:216->unknown] 画像URL更新処理を開始します
+[2025-05-12 02:33:19] [INFO] [products_sync.php:218->unknown] 画像URL更新完了: 処理=0, 更新=0, エラー=0
+[2025-05-12 02:33:19] [INFO] [products_sync.php:249->unknown] 同期APIは成功を返しました
+[2025-05-12 02:33:19] [INFO] [products_sync.php:258->unknown] 統計情報形式: 基本統計形式
+[2025-05-12 02:33:19] [INFO] [products_sync.php:279->unknown] 同期統計: 追加 0件, 更新 0件, エラー 0件
+[2025-05-12 02:33:19] [INFO] [products_sync.php:335->unknown] カテゴリ同期情報はレスポンスに含まれていません
+[2025-05-12 02:33:19] [INFO] [products_sync.php:341->unknown] 画像URL更新フェーズを開始
+[2025-05-12 02:33:19] [INFO] [products_sync.php:351->unknown] 画像URL更新: 処理済 0 件, 更新 0 件
+[2025-05-12 02:33:19] [INFO] [products_sync.php:372->unknown] 商品同期処理が完了しました。実行時間: 0.71秒
+[2025-05-12 02:33:19] [INFO] [products_sync.php:396->unknown] 同期詳細を表示用にセッションに保存しました
+[2025-05-12 02:39:36] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-05-12 02:39:36] [INFO] [products_sync.php:192->unknown] ProductServiceを初期化します
+[2025-05-12 02:39:36] [INFO] [products_sync.php:196->unknown] ProductService経由で商品同期を実行します
+[2025-05-12 02:42:39] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-05-12 02:42:39] [INFO] [products_sync.php:192->unknown] ProductServiceを初期化します
+[2025-05-12 02:42:39] [INFO] [products_sync.php:196->unknown] ProductService経由で商品同期を実行します
+[2025-05-12 02:43:16] [INFO] [products_sync.php:202->unknown] 商品同期処理が完了しました: 実行時間: 37.46秒
+[2025-05-12 02:43:16] [INFO] [products_sync.php:206->unknown] 同期結果統計: 追加=0, 更新=142, 無効化=0, エラー=0
+[2025-05-12 02:43:16] [INFO] [products_sync.php:216->unknown] 画像URL更新処理を開始します
+[2025-05-12 02:43:16] [INFO] [products_sync.php:218->unknown] 画像URL更新完了: 処理=0, 更新=0, エラー=0
+[2025-05-12 02:43:16] [INFO] [products_sync.php:249->unknown] 同期APIは成功を返しました
+[2025-05-12 02:43:16] [INFO] [products_sync.php:258->unknown] 統計情報形式: 基本統計形式
+[2025-05-12 02:43:16] [INFO] [products_sync.php:279->unknown] 同期統計: 追加 0件, 更新 142件, エラー 0件
+[2025-05-12 02:43:16] [INFO] [products_sync.php:335->unknown] カテゴリ同期情報はレスポンスに含まれていません
+[2025-05-12 02:43:16] [INFO] [products_sync.php:341->unknown] 画像URL更新フェーズを開始
+[2025-05-12 02:43:16] [INFO] [products_sync.php:351->unknown] 画像URL更新: 処理済 0 件, 更新 0 件
+[2025-05-12 02:43:16] [INFO] [products_sync.php:372->unknown] 商品同期処理が完了しました。実行時間: 37.46秒
+[2025-05-12 02:43:16] [INFO] [products_sync.php:396->unknown] 同期詳細を表示用にセッションに保存しました
+[2025-05-12 02:43:16] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-05-12 02:43:16] [INFO] [products_sync.php:192->unknown] ProductServiceを初期化します
+[2025-05-12 02:43:16] [INFO] [products_sync.php:196->unknown] ProductService経由で商品同期を実行します
+[2025-05-12 02:43:51] [INFO] [products_sync.php:202->unknown] 商品同期処理が完了しました: 実行時間: 35.06秒
+[2025-05-12 02:43:51] [INFO] [products_sync.php:206->unknown] 同期結果統計: 追加=0, 更新=142, 無効化=0, エラー=0
+[2025-05-12 02:43:51] [INFO] [products_sync.php:216->unknown] 画像URL更新処理を開始します
+[2025-05-12 02:43:51] [INFO] [products_sync.php:218->unknown] 画像URL更新完了: 処理=0, 更新=0, エラー=0
+[2025-05-12 02:43:51] [INFO] [products_sync.php:249->unknown] 同期APIは成功を返しました
+[2025-05-12 02:43:51] [INFO] [products_sync.php:258->unknown] 統計情報形式: 基本統計形式
+[2025-05-12 02:43:51] [INFO] [products_sync.php:279->unknown] 同期統計: 追加 0件, 更新 142件, エラー 0件
+[2025-05-12 02:43:51] [INFO] [products_sync.php:335->unknown] カテゴリ同期情報はレスポンスに含まれていません
+[2025-05-12 02:43:51] [INFO] [products_sync.php:341->unknown] 画像URL更新フェーズを開始
+[2025-05-12 02:43:51] [INFO] [products_sync.php:351->unknown] 画像URL更新: 処理済 0 件, 更新 0 件
+[2025-05-12 02:43:51] [INFO] [products_sync.php:372->unknown] 商品同期処理が完了しました。実行時間: 35.06秒
+[2025-05-12 02:43:51] [INFO] [products_sync.php:396->unknown] 同期詳細を表示用にセッションに保存しました
+[2025-05-12 02:44:22] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-05-12 02:44:22] [INFO] [products_sync.php:192->unknown] ProductServiceを初期化します
+[2025-05-12 02:44:22] [INFO] [products_sync.php:196->unknown] ProductService経由で商品同期を実行します
+[2025-05-12 02:44:58] [INFO] [products_sync.php:202->unknown] 商品同期処理が完了しました: 実行時間: 36.15秒
+[2025-05-12 02:44:58] [INFO] [products_sync.php:206->unknown] 同期結果統計: 追加=0, 更新=142, 無効化=0, エラー=0
+[2025-05-12 02:44:58] [INFO] [products_sync.php:216->unknown] 画像URL更新処理を開始します
+[2025-05-12 02:44:58] [INFO] [products_sync.php:218->unknown] 画像URL更新完了: 処理=0, 更新=0, エラー=0
+[2025-05-12 02:44:58] [INFO] [products_sync.php:249->unknown] 同期APIは成功を返しました
+[2025-05-12 02:44:58] [INFO] [products_sync.php:258->unknown] 統計情報形式: 基本統計形式
+[2025-05-12 02:44:58] [INFO] [products_sync.php:279->unknown] 同期統計: 追加 0件, 更新 142件, エラー 0件
+[2025-05-12 02:44:58] [INFO] [products_sync.php:335->unknown] カテゴリ同期情報はレスポンスに含まれていません
+[2025-05-12 02:44:58] [INFO] [products_sync.php:341->unknown] 画像URL更新フェーズを開始
+[2025-05-12 02:44:58] [INFO] [products_sync.php:351->unknown] 画像URL更新: 処理済 0 件, 更新 0 件
+[2025-05-12 02:44:58] [INFO] [products_sync.php:372->unknown] 商品同期処理が完了しました。実行時間: 36.15秒
+[2025-05-12 02:44:58] [INFO] [products_sync.php:396->unknown] 同期詳細を表示用にセッションに保存しました
+[2025-05-12 02:49:05] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-05-12 02:49:05] [INFO] [products_sync.php:192->unknown] ProductServiceを初期化します
+[2025-05-12 02:49:05] [INFO] [products_sync.php:196->unknown] ProductService経由で商品同期を実行します
+[2025-05-12 02:49:43] [INFO] [products_sync.php:202->unknown] 商品同期処理が完了しました: 実行時間: 38.25秒
+[2025-05-12 02:49:43] [INFO] [products_sync.php:206->unknown] 同期結果統計: 追加=0, 更新=142, 無効化=0, エラー=0
+[2025-05-12 02:49:43] [INFO] [products_sync.php:216->unknown] 画像URL更新処理を開始します
+[2025-05-12 02:49:43] [INFO] [products_sync.php:218->unknown] 画像URL更新完了: 処理=0, 更新=0, エラー=0
+[2025-05-12 02:49:43] [INFO] [products_sync.php:249->unknown] 同期APIは成功を返しました
+[2025-05-12 02:49:43] [INFO] [products_sync.php:258->unknown] 統計情報形式: 基本統計形式
+[2025-05-12 02:49:43] [INFO] [products_sync.php:279->unknown] 同期統計: 追加 0件, 更新 142件, エラー 0件
+[2025-05-12 02:49:43] [INFO] [products_sync.php:335->unknown] カテゴリ同期情報はレスポンスに含まれていません
+[2025-05-12 02:49:43] [INFO] [products_sync.php:341->unknown] 画像URL更新フェーズを開始
+[2025-05-12 02:49:43] [INFO] [products_sync.php:351->unknown] 画像URL更新: 処理済 0 件, 更新 0 件
+[2025-05-12 02:49:43] [INFO] [products_sync.php:372->unknown] 商品同期処理が完了しました。実行時間: 38.25秒
+[2025-05-12 02:49:43] [INFO] [products_sync.php:396->unknown] 同期詳細を表示用にセッションに保存しました
+[2025-05-12 02:51:13] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-05-12 02:51:13] [INFO] [products_sync.php:192->unknown] ProductServiceを初期化します
+[2025-05-12 02:51:13] [INFO] [products_sync.php:196->unknown] ProductService経由で商品同期を実行します
+[2025-05-12 02:51:49] [INFO] [products_sync.php:202->unknown] 商品同期処理が完了しました: 実行時間: 35.43秒
+[2025-05-12 02:51:49] [INFO] [products_sync.php:206->unknown] 同期結果統計: 追加=0, 更新=142, 無効化=0, エラー=0
+[2025-05-12 02:51:49] [INFO] [products_sync.php:216->unknown] 画像URL更新処理を開始します
+[2025-05-12 02:51:49] [INFO] [products_sync.php:218->unknown] 画像URL更新完了: 処理=0, 更新=0, エラー=0
+[2025-05-12 02:51:49] [INFO] [products_sync.php:249->unknown] 同期APIは成功を返しました
+[2025-05-12 02:51:49] [INFO] [products_sync.php:258->unknown] 統計情報形式: 基本統計形式
+[2025-05-12 02:51:49] [INFO] [products_sync.php:279->unknown] 同期統計: 追加 0件, 更新 142件, エラー 0件
+[2025-05-12 02:51:49] [INFO] [products_sync.php:335->unknown] カテゴリ同期情報はレスポンスに含まれていません
+[2025-05-12 02:51:49] [INFO] [products_sync.php:341->unknown] 画像URL更新フェーズを開始
+[2025-05-12 02:51:49] [INFO] [products_sync.php:351->unknown] 画像URL更新: 処理済 0 件, 更新 0 件
+[2025-05-12 02:51:49] [INFO] [products_sync.php:372->unknown] 商品同期処理が完了しました。実行時間: 35.43秒
+[2025-05-12 02:51:49] [INFO] [products_sync.php:396->unknown] 同期詳細を表示用にセッションに保存しました
+[2025-05-12 02:57:51] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-05-12 02:57:51] [INFO] [products_sync.php:192->unknown] ProductServiceを初期化します
+[2025-05-12 02:57:51] [INFO] [products_sync.php:196->unknown] ProductService経由で商品同期を実行します
+[2025-05-12 02:58:32] [INFO] [products_sync.php:202->unknown] 商品同期処理が完了しました: 実行時間: 40.54秒
+[2025-05-12 02:58:32] [INFO] [products_sync.php:206->unknown] 同期結果統計: 追加=0, 更新=142, 無効化=0, エラー=0
+[2025-05-12 02:58:32] [INFO] [products_sync.php:216->unknown] 画像URL更新処理を開始します
+[2025-05-12 02:58:32] [INFO] [products_sync.php:218->unknown] 画像URL更新完了: 処理=0, 更新=0, エラー=0
+[2025-05-12 02:58:32] [INFO] [products_sync.php:249->unknown] 同期APIは成功を返しました
+[2025-05-12 02:58:32] [INFO] [products_sync.php:258->unknown] 統計情報形式: 基本統計形式
+[2025-05-12 02:58:32] [INFO] [products_sync.php:279->unknown] 同期統計: 追加 0件, 更新 142件, エラー 0件
+[2025-05-12 02:58:32] [INFO] [products_sync.php:335->unknown] カテゴリ同期情報はレスポンスに含まれていません
+[2025-05-12 02:58:32] [INFO] [products_sync.php:341->unknown] 画像URL更新フェーズを開始
+[2025-05-12 02:58:32] [INFO] [products_sync.php:351->unknown] 画像URL更新: 処理済 0 件, 更新 0 件
+[2025-05-12 02:58:32] [INFO] [products_sync.php:372->unknown] 商品同期処理が完了しました。実行時間: 40.54秒
+[2025-05-12 02:58:32] [INFO] [products_sync.php:396->unknown] 同期詳細を表示用にセッションに保存しました
+[2025-05-12 04:14:16] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-05-12 04:14:16] [INFO] [products_sync.php:192->unknown] ProductServiceを初期化します
+[2025-05-12 04:14:16] [INFO] [products_sync.php:196->unknown] ProductService経由で商品同期を実行します
+[2025-05-12 04:14:53] [INFO] [products_sync.php:202->unknown] 商品同期処理が完了しました: 実行時間: 37.13秒
+[2025-05-12 04:14:53] [INFO] [products_sync.php:206->unknown] 同期結果統計: 追加=0, 更新=142, 無効化=0, エラー=0
+[2025-05-12 04:14:53] [INFO] [products_sync.php:216->unknown] 画像URL更新処理を開始します
+[2025-05-12 04:14:53] [INFO] [products_sync.php:218->unknown] 画像URL更新完了: 処理=0, 更新=0, エラー=0
+[2025-05-12 04:14:53] [INFO] [products_sync.php:249->unknown] 同期APIは成功を返しました
+[2025-05-12 04:14:53] [INFO] [products_sync.php:258->unknown] 統計情報形式: 基本統計形式
+[2025-05-12 04:14:53] [INFO] [products_sync.php:279->unknown] 同期統計: 追加 0件, 更新 142件, エラー 0件
+[2025-05-12 04:14:53] [INFO] [products_sync.php:335->unknown] カテゴリ同期情報はレスポンスに含まれていません
+[2025-05-12 04:14:53] [INFO] [products_sync.php:341->unknown] 画像URL更新フェーズを開始
+[2025-05-12 04:14:53] [INFO] [products_sync.php:351->unknown] 画像URL更新: 処理済 0 件, 更新 0 件
+[2025-05-12 04:14:53] [INFO] [products_sync.php:372->unknown] 商品同期処理が完了しました。実行時間: 37.13秒
+[2025-05-12 04:14:53] [INFO] [products_sync.php:396->unknown] 同期詳細を表示用にセッションに保存しました
+[2025-05-13 11:15:50] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-05-13 11:15:50] [INFO] [products_sync.php:192->unknown] ProductServiceを初期化します
+[2025-05-13 11:15:50] [INFO] [products_sync.php:196->unknown] ProductService経由で商品同期を実行します
+[2025-05-13 11:16:26] [INFO] [products_sync.php:202->unknown] 商品同期処理が完了しました: 実行時間: 35.95秒
+[2025-05-13 11:16:26] [INFO] [products_sync.php:206->unknown] 同期結果統計: 追加=1, 更新=142, 無効化=0, エラー=0
+[2025-05-13 11:16:26] [INFO] [products_sync.php:216->unknown] 画像URL更新処理を開始します
+[2025-05-13 11:16:26] [INFO] [products_sync.php:218->unknown] 画像URL更新完了: 処理=0, 更新=0, エラー=0
+[2025-05-13 11:16:26] [INFO] [products_sync.php:249->unknown] 同期APIは成功を返しました
+[2025-05-13 11:16:26] [INFO] [products_sync.php:258->unknown] 統計情報形式: 基本統計形式
+[2025-05-13 11:16:26] [INFO] [products_sync.php:279->unknown] 同期統計: 追加 1件, 更新 142件, エラー 0件
+[2025-05-13 11:16:26] [INFO] [products_sync.php:335->unknown] カテゴリ同期情報はレスポンスに含まれていません
+[2025-05-13 11:16:26] [INFO] [products_sync.php:341->unknown] 画像URL更新フェーズを開始
+[2025-05-13 11:16:26] [INFO] [products_sync.php:351->unknown] 画像URL更新: 処理済 0 件, 更新 0 件
+[2025-05-13 11:16:26] [INFO] [products_sync.php:372->unknown] 商品同期処理が完了しました。実行時間: 35.95秒
+[2025-05-13 11:16:26] [INFO] [products_sync.php:396->unknown] 同期詳細を表示用にセッションに保存しました
+[2025-05-13 16:12:38] [ERROR] [products_sync.php:138->unknown] ユーザー設定が取得できませんでした。認証を無効化します。
+[2025-05-13 16:12:40] [ERROR] [products_sync.php:138->unknown] ユーザー設定が取得できませんでした。認証を無効化します。
+[2025-05-13 16:12:40] [WARNING] [products_sync.php:165->unknown] ログイン失敗: ユーザー 'fabula'
+[2025-05-13 16:12:47] [ERROR] [products_sync.php:138->unknown] ユーザー設定が取得できませんでした。認証を無効化します。
+[2025-05-13 16:12:54] [ERROR] [products_sync.php:138->unknown] ユーザー設定が取得できませんでした。認証を無効化します。
+[2025-05-13 16:13:05] [ERROR] [products_sync.php:138->unknown] ユーザー設定が取得できませんでした。認証を無効化します。
+[2025-05-13 19:33:59] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-13 19:33:59] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-13 19:37:11] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-13 19:37:11] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-13 19:38:05] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-13 19:38:05] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-13 19:38:08] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-13 19:38:08] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-13 19:45:26] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-13 19:45:26] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-13 19:54:32] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-13 19:54:32] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-13 19:54:36] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-13 19:54:36] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-13 19:55:39] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-13 19:55:39] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-13 19:55:49] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-13 19:55:49] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-13 20:09:41] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-13 20:09:41] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-13 20:42:30] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-13 20:42:30] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-13 21:19:01] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-13 21:19:01] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-13 21:19:01] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-13 21:19:01] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-13 21:28:24] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-13 21:28:24] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-13 21:28:24] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-13 21:28:24] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-13 23:13:00] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-13 23:13:00] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-13 23:13:00] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-13 23:13:00] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-13 23:24:50] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-13 23:24:50] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-13 23:24:50] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-13 23:24:50] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-13 23:24:58] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-13 23:24:58] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-13 23:24:58] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-13 23:24:58] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-14 01:28:20] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-14 01:28:20] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-14 01:28:20] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-14 01:28:20] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-14 13:28:53] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-14 13:28:53] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-14 13:28:53] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-14 13:28:53] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-14 13:29:52] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-14 13:29:52] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-14 13:29:52] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-14 13:29:52] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-14 14:04:28] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-14 14:04:28] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-14 14:04:28] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-14 14:04:28] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-14 15:13:17] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-14 15:13:17] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-14 15:13:17] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-14 15:13:17] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-16 18:34:32] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-16 18:34:32] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-16 18:34:32] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-16 18:34:32] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-23 17:33:05] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-23 17:33:05] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-23 17:33:05] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-23 17:33:05] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-30 15:57:59] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-30 15:57:59] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-30 15:57:59] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-30 15:57:59] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-30 16:37:57] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-30 16:37:57] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-30 16:37:57] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-30 16:37:57] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-30 16:59:20] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-30 16:59:20] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-30 16:59:20] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-30 16:59:20] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-30 23:58:11] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-30 23:58:11] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-30 23:58:11] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-30 23:58:11] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-30 23:58:13] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-05-30 23:58:13] [INFO] [products_sync.php:192->unknown] ProductServiceを初期化します
+[2025-05-30 23:58:13] [INFO] [products_sync.php:196->unknown] ProductService経由で商品同期を実行します
+[2025-05-30 23:58:58] [INFO] [products_sync.php:202->unknown] 商品同期処理が完了しました: 実行時間: 44.93秒
+[2025-05-30 23:58:58] [INFO] [products_sync.php:206->unknown] 同期結果統計: 追加=0, 更新=168, 無効化=0, エラー=0
+[2025-05-30 23:58:58] [INFO] [products_sync.php:216->unknown] 画像URL更新処理を開始します
+[2025-05-30 23:58:58] [INFO] [products_sync.php:218->unknown] 画像URL更新完了: 処理=0, 更新=0, エラー=0
+[2025-05-30 23:58:58] [INFO] [products_sync.php:249->unknown] 同期APIは成功を返しました
+[2025-05-30 23:58:58] [INFO] [products_sync.php:258->unknown] 統計情報形式: 基本統計形式
+[2025-05-30 23:58:58] [INFO] [products_sync.php:279->unknown] 同期統計: 追加 0件, 更新 168件, エラー 0件
+[2025-05-30 23:58:58] [INFO] [products_sync.php:335->unknown] カテゴリ同期情報はレスポンスに含まれていません
+[2025-05-30 23:58:58] [INFO] [products_sync.php:341->unknown] 画像URL更新フェーズを開始
+[2025-05-30 23:58:58] [INFO] [products_sync.php:351->unknown] 画像URL更新: 処理済 0 件, 更新 0 件
+[2025-05-30 23:58:58] [INFO] [products_sync.php:372->unknown] 商品同期処理が完了しました。実行時間: 44.93秒
+[2025-05-30 23:58:58] [INFO] [products_sync.php:396->unknown] 同期詳細を表示用にセッションに保存しました
+[2025-05-30 23:58:58] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-30 23:58:58] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-30 23:58:58] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-30 23:58:58] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-31 20:10:17] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-31 20:10:17] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-31 20:10:17] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-31 20:10:17] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-31 20:10:20] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-31 20:10:20] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-05-31 20:10:20] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-05-31 20:10:20] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-05 09:37:51] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-05 09:37:51] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-05 09:37:51] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-05 09:37:51] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-07 16:05:41] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-07 16:05:41] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-07 16:05:41] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-07 16:05:41] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-07 19:06:00] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-07 19:06:00] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-07 19:06:00] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-07 19:06:00] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-07 19:17:16] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-07 19:17:16] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-07 19:17:16] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-07 19:17:16] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-08 09:38:36] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-08 09:38:36] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-08 09:38:36] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-08 09:38:36] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-09 21:41:31] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-09 21:41:31] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-09 21:41:31] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-09 21:41:31] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-11 13:57:21] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-11 13:57:21] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-11 13:57:21] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-11 13:57:21] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-13 10:41:28] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-13 10:41:28] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-13 10:41:28] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-13 10:41:28] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-13 10:41:30] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-13 10:41:30] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-13 10:41:30] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-13 10:41:30] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-15 20:57:23] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-15 20:57:23] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-15 20:57:23] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-15 20:57:23] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-15 20:58:54] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-15 20:58:54] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-15 20:58:54] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-15 20:58:54] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-15 21:18:36] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-15 21:18:36] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-15 21:18:36] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-15 21:18:36] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-18 18:55:00] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-18 18:55:00] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-18 18:55:00] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-18 18:55:00] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-27 10:37:13] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-27 10:37:13] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-27 10:37:13] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-27 10:37:13] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-27 19:25:48] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-27 19:25:48] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-27 19:25:48] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-27 19:25:48] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-27 19:26:35] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-27 19:26:35] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-27 19:26:35] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-27 19:26:35] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-27 19:28:14] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-27 19:28:14] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-27 19:28:14] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-27 19:28:14] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-27 19:29:22] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-27 19:29:22] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-27 19:29:22] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-27 19:29:22] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-27 20:32:01] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-27 20:32:01] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-27 20:32:01] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-27 20:32:01] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-28 09:23:55] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-28 09:23:55] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-28 09:23:55] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-28 09:23:55] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-28 09:25:27] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-28 09:25:27] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-28 09:25:27] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-28 09:25:27] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-28 15:06:44] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-28 15:06:44] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-28 15:06:44] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-28 15:06:44] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-28 15:06:48] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-06-28 15:06:48] [INFO] [products_sync.php:192->unknown] ProductServiceを初期化します
+[2025-06-28 15:06:48] [INFO] [products_sync.php:196->unknown] ProductService経由で商品同期を実行します
+[2025-06-28 15:07:32] [INFO] [products_sync.php:202->unknown] 商品同期処理が完了しました: 実行時間: 44.12秒
+[2025-06-28 15:07:32] [INFO] [products_sync.php:206->unknown] 同期結果統計: 追加=0, 更新=195, 無効化=0, エラー=0
+[2025-06-28 15:07:32] [INFO] [products_sync.php:216->unknown] 画像URL更新処理を開始します
+[2025-06-28 15:07:32] [INFO] [products_sync.php:218->unknown] 画像URL更新完了: 処理=0, 更新=0, エラー=0
+[2025-06-28 15:07:32] [INFO] [products_sync.php:249->unknown] 同期APIは成功を返しました
+[2025-06-28 15:07:32] [INFO] [products_sync.php:258->unknown] 統計情報形式: 基本統計形式
+[2025-06-28 15:07:32] [INFO] [products_sync.php:279->unknown] 同期統計: 追加 0件, 更新 195件, エラー 0件
+[2025-06-28 15:07:32] [INFO] [products_sync.php:335->unknown] カテゴリ同期情報はレスポンスに含まれていません
+[2025-06-28 15:07:32] [INFO] [products_sync.php:341->unknown] 画像URL更新フェーズを開始
+[2025-06-28 15:07:32] [INFO] [products_sync.php:351->unknown] 画像URL更新: 処理済 0 件, 更新 0 件
+[2025-06-28 15:07:32] [INFO] [products_sync.php:372->unknown] 商品同期処理が完了しました。実行時間: 44.12秒
+[2025-06-28 15:07:32] [INFO] [products_sync.php:396->unknown] 同期詳細を表示用にセッションに保存しました
+[2025-06-28 15:07:32] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-28 15:07:32] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-28 15:07:32] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-28 15:07:32] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-28 15:08:04] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-28 15:08:04] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-28 15:08:04] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-28 15:08:04] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-28 23:28:44] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-28 23:28:44] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-06-28 23:28:44] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-06-28 23:28:44] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-07 19:36:48] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-07 19:36:48] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-07 19:36:48] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-07 19:36:48] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-07 19:36:50] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-07-07 19:36:50] [INFO] [products_sync.php:192->unknown] ProductServiceを初期化します
+[2025-07-07 19:36:50] [INFO] [products_sync.php:196->unknown] ProductService経由で商品同期を実行します
+[2025-07-07 19:37:35] [INFO] [products_sync.php:202->unknown] 商品同期処理が完了しました: 実行時間: 44.98秒
+[2025-07-07 19:37:35] [INFO] [products_sync.php:206->unknown] 同期結果統計: 追加=0, 更新=198, 無効化=0, エラー=0
+[2025-07-07 19:37:35] [INFO] [products_sync.php:216->unknown] 画像URL更新処理を開始します
+[2025-07-07 19:37:35] [INFO] [products_sync.php:218->unknown] 画像URL更新完了: 処理=0, 更新=0, エラー=0
+[2025-07-07 19:37:35] [INFO] [products_sync.php:249->unknown] 同期APIは成功を返しました
+[2025-07-07 19:37:35] [INFO] [products_sync.php:258->unknown] 統計情報形式: 基本統計形式
+[2025-07-07 19:37:35] [INFO] [products_sync.php:279->unknown] 同期統計: 追加 0件, 更新 198件, エラー 0件
+[2025-07-07 19:37:35] [INFO] [products_sync.php:335->unknown] カテゴリ同期情報はレスポンスに含まれていません
+[2025-07-07 19:37:35] [INFO] [products_sync.php:341->unknown] 画像URL更新フェーズを開始
+[2025-07-07 19:37:35] [INFO] [products_sync.php:351->unknown] 画像URL更新: 処理済 0 件, 更新 0 件
+[2025-07-07 19:37:35] [INFO] [products_sync.php:372->unknown] 商品同期処理が完了しました。実行時間: 44.98秒
+[2025-07-07 19:37:35] [INFO] [products_sync.php:396->unknown] 同期詳細を表示用にセッションに保存しました
+[2025-07-07 19:37:35] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-07 19:37:35] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-07 19:37:35] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-07 19:37:35] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-07 22:01:03] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-07 22:01:03] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-07 22:01:03] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-07 22:01:03] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-17 20:48:41] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-17 20:48:41] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-17 20:48:41] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-17 20:48:41] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-17 20:48:51] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-17 20:48:51] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-17 20:48:51] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-17 20:48:51] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-19 20:01:17] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-19 20:01:17] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-19 20:01:17] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-19 20:01:17] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-19 20:01:18] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-07-19 20:01:18] [INFO] [products_sync.php:192->unknown] ProductServiceを初期化します
+[2025-07-19 20:01:18] [INFO] [products_sync.php:196->unknown] ProductService経由で商品同期を実行します
+[2025-07-19 20:02:02] [INFO] [products_sync.php:202->unknown] 商品同期処理が完了しました: 実行時間: 43.17秒
+[2025-07-19 20:02:02] [INFO] [products_sync.php:206->unknown] 同期結果統計: 追加=0, 更新=200, 無効化=0, エラー=0
+[2025-07-19 20:02:02] [INFO] [products_sync.php:216->unknown] 画像URL更新処理を開始します
+[2025-07-19 20:02:02] [INFO] [products_sync.php:218->unknown] 画像URL更新完了: 処理=0, 更新=0, エラー=0
+[2025-07-19 20:02:02] [INFO] [products_sync.php:249->unknown] 同期APIは成功を返しました
+[2025-07-19 20:02:02] [INFO] [products_sync.php:258->unknown] 統計情報形式: 基本統計形式
+[2025-07-19 20:02:02] [INFO] [products_sync.php:279->unknown] 同期統計: 追加 0件, 更新 200件, エラー 0件
+[2025-07-19 20:02:02] [INFO] [products_sync.php:335->unknown] カテゴリ同期情報はレスポンスに含まれていません
+[2025-07-19 20:02:02] [INFO] [products_sync.php:341->unknown] 画像URL更新フェーズを開始
+[2025-07-19 20:02:02] [INFO] [products_sync.php:351->unknown] 画像URL更新: 処理済 0 件, 更新 0 件
+[2025-07-19 20:02:02] [INFO] [products_sync.php:372->unknown] 商品同期処理が完了しました。実行時間: 43.17秒
+[2025-07-19 20:02:02] [INFO] [products_sync.php:396->unknown] 同期詳細を表示用にセッションに保存しました
+[2025-07-19 20:02:02] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-19 20:02:02] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-19 20:02:02] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-19 20:02:02] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-19 20:02:26] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-19 20:02:26] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-19 20:02:26] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-19 20:02:26] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-19 20:02:28] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-19 20:02:28] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-19 20:02:28] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-19 20:02:28] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-19 20:04:19] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-07-19 20:04:19] [INFO] [products_sync.php:192->unknown] ProductServiceを初期化します
+[2025-07-19 20:04:19] [INFO] [products_sync.php:196->unknown] ProductService経由で商品同期を実行します
+[2025-07-19 20:05:05] [INFO] [products_sync.php:202->unknown] 商品同期処理が完了しました: 実行時間: 46.28秒
+[2025-07-19 20:05:05] [INFO] [products_sync.php:206->unknown] 同期結果統計: 追加=0, 更新=200, 無効化=0, エラー=0
+[2025-07-19 20:05:05] [INFO] [products_sync.php:216->unknown] 画像URL更新処理を開始します
+[2025-07-19 20:05:05] [INFO] [products_sync.php:218->unknown] 画像URL更新完了: 処理=0, 更新=0, エラー=0
+[2025-07-19 20:05:05] [INFO] [products_sync.php:249->unknown] 同期APIは成功を返しました
+[2025-07-19 20:05:05] [INFO] [products_sync.php:258->unknown] 統計情報形式: 基本統計形式
+[2025-07-19 20:05:05] [INFO] [products_sync.php:279->unknown] 同期統計: 追加 0件, 更新 200件, エラー 0件
+[2025-07-19 20:05:05] [INFO] [products_sync.php:335->unknown] カテゴリ同期情報はレスポンスに含まれていません
+[2025-07-19 20:05:05] [INFO] [products_sync.php:341->unknown] 画像URL更新フェーズを開始
+[2025-07-19 20:05:05] [INFO] [products_sync.php:351->unknown] 画像URL更新: 処理済 0 件, 更新 0 件
+[2025-07-19 20:05:05] [INFO] [products_sync.php:372->unknown] 商品同期処理が完了しました。実行時間: 46.28秒
+[2025-07-19 20:05:05] [INFO] [products_sync.php:396->unknown] 同期詳細を表示用にセッションに保存しました
+[2025-07-19 20:05:05] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-19 20:05:05] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-19 20:05:05] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-19 20:05:05] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-19 20:05:10] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-19 20:05:10] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-19 20:05:10] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-19 20:05:10] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-19 20:05:32] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-19 20:05:32] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-19 20:05:32] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-19 20:05:32] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-19 20:05:36] [INFO] [products_sync.php:159->unknown] ユーザー 'fabula' がログインしました
+[2025-07-19 20:05:36] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-19 20:05:36] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-19 20:05:36] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-19 20:05:36] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-19 20:05:40] [INFO] [products_sync.php:159->unknown] ユーザー 'fabula' がログインしました
+[2025-07-19 20:05:40] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-19 20:05:40] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-19 20:05:40] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-19 20:05:40] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-20 12:04:57] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-20 12:04:57] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-20 12:04:57] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-20 12:04:57] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-20 12:46:49] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-20 12:46:49] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-20 12:46:49] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-20 12:46:49] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-20 12:46:53] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-07-20 12:46:53] [INFO] [products_sync.php:192->unknown] ProductServiceを初期化します
+[2025-07-20 12:46:53] [INFO] [products_sync.php:196->unknown] ProductService経由で商品同期を実行します
+[2025-07-20 12:47:40] [INFO] [products_sync.php:202->unknown] 商品同期処理が完了しました: 実行時間: 46.96秒
+[2025-07-20 12:47:40] [INFO] [products_sync.php:206->unknown] 同期結果統計: 追加=0, 更新=200, 無効化=0, エラー=0
+[2025-07-20 12:47:40] [INFO] [products_sync.php:216->unknown] 画像URL更新処理を開始します
+[2025-07-20 12:47:40] [INFO] [products_sync.php:218->unknown] 画像URL更新完了: 処理=0, 更新=0, エラー=0
+[2025-07-20 12:47:40] [INFO] [products_sync.php:249->unknown] 同期APIは成功を返しました
+[2025-07-20 12:47:40] [INFO] [products_sync.php:258->unknown] 統計情報形式: 基本統計形式
+[2025-07-20 12:47:40] [INFO] [products_sync.php:279->unknown] 同期統計: 追加 0件, 更新 200件, エラー 0件
+[2025-07-20 12:47:40] [INFO] [products_sync.php:335->unknown] カテゴリ同期情報はレスポンスに含まれていません
+[2025-07-20 12:47:40] [INFO] [products_sync.php:341->unknown] 画像URL更新フェーズを開始
+[2025-07-20 12:47:40] [INFO] [products_sync.php:351->unknown] 画像URL更新: 処理済 0 件, 更新 0 件
+[2025-07-20 12:47:40] [INFO] [products_sync.php:372->unknown] 商品同期処理が完了しました。実行時間: 46.96秒
+[2025-07-20 12:47:40] [INFO] [products_sync.php:396->unknown] 同期詳細を表示用にセッションに保存しました
+[2025-07-20 12:47:40] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-20 12:47:40] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-20 12:47:40] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-20 12:47:40] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-20 12:47:40] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-20 12:47:40] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-20 12:47:40] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-20 12:47:40] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-20 12:49:46] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-20 12:49:46] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-20 12:49:46] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-20 12:49:46] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-20 13:04:08] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-20 13:04:08] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-20 13:04:08] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-20 13:04:08] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-20 13:04:09] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-07-20 13:04:09] [INFO] [products_sync.php:192->unknown] ProductServiceを初期化します
+[2025-07-20 13:04:09] [INFO] [products_sync.php:196->unknown] ProductService経由で商品同期を実行します
+[2025-07-20 13:05:00] [INFO] [products_sync.php:202->unknown] 商品同期処理が完了しました: 実行時間: 50.24秒
+[2025-07-20 13:05:00] [INFO] [products_sync.php:206->unknown] 同期結果統計: 追加=0, 更新=200, 無効化=0, エラー=0
+[2025-07-20 13:05:00] [INFO] [products_sync.php:216->unknown] 画像URL更新処理を開始します
+[2025-07-20 13:05:00] [INFO] [products_sync.php:218->unknown] 画像URL更新完了: 処理=0, 更新=0, エラー=0
+[2025-07-20 13:05:00] [INFO] [products_sync.php:249->unknown] 同期APIは成功を返しました
+[2025-07-20 13:05:00] [INFO] [products_sync.php:258->unknown] 統計情報形式: 基本統計形式
+[2025-07-20 13:05:00] [INFO] [products_sync.php:279->unknown] 同期統計: 追加 0件, 更新 200件, エラー 0件
+[2025-07-20 13:05:00] [INFO] [products_sync.php:335->unknown] カテゴリ同期情報はレスポンスに含まれていません
+[2025-07-20 13:05:00] [INFO] [products_sync.php:341->unknown] 画像URL更新フェーズを開始
+[2025-07-20 13:05:00] [INFO] [products_sync.php:351->unknown] 画像URL更新: 処理済 0 件, 更新 0 件
+[2025-07-20 13:05:00] [INFO] [products_sync.php:372->unknown] 商品同期処理が完了しました。実行時間: 50.24秒
+[2025-07-20 13:05:00] [INFO] [products_sync.php:396->unknown] 同期詳細を表示用にセッションに保存しました
+[2025-07-20 13:05:00] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-20 13:05:00] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-20 13:05:00] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-20 13:05:00] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-20 13:05:00] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-20 13:05:00] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-20 13:05:00] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-20 13:05:00] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-20 13:36:37] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-20 13:36:37] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-20 13:36:37] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-20 13:36:37] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-20 13:36:39] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-07-20 13:36:39] [INFO] [products_sync.php:192->unknown] ProductServiceを初期化します
+[2025-07-20 13:36:39] [INFO] [products_sync.php:196->unknown] ProductService経由で商品同期を実行します
+[2025-07-20 13:37:17] [INFO] [products_sync.php:202->unknown] 商品同期処理が完了しました: 実行時間: 38.05秒
+[2025-07-20 13:37:17] [INFO] [products_sync.php:206->unknown] 同期結果統計: 追加=0, 更新=167, 無効化=0, エラー=0
+[2025-07-20 13:37:17] [INFO] [products_sync.php:216->unknown] 画像URL更新処理を開始します
+[2025-07-20 13:37:17] [INFO] [products_sync.php:218->unknown] 画像URL更新完了: 処理=0, 更新=0, エラー=0
+[2025-07-20 13:37:17] [INFO] [products_sync.php:249->unknown] 同期APIは成功を返しました
+[2025-07-20 13:37:17] [INFO] [products_sync.php:258->unknown] 統計情報形式: 基本統計形式
+[2025-07-20 13:37:17] [INFO] [products_sync.php:279->unknown] 同期統計: 追加 0件, 更新 167件, エラー 0件
+[2025-07-20 13:37:17] [INFO] [products_sync.php:335->unknown] カテゴリ同期情報はレスポンスに含まれていません
+[2025-07-20 13:37:17] [INFO] [products_sync.php:341->unknown] 画像URL更新フェーズを開始
+[2025-07-20 13:37:17] [INFO] [products_sync.php:351->unknown] 画像URL更新: 処理済 0 件, 更新 0 件
+[2025-07-20 13:37:17] [INFO] [products_sync.php:372->unknown] 商品同期処理が完了しました。実行時間: 38.05秒
+[2025-07-20 13:37:17] [INFO] [products_sync.php:396->unknown] 同期詳細を表示用にセッションに保存しました
+[2025-07-20 13:37:17] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-20 13:37:17] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-20 13:37:17] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-20 13:37:17] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-22 10:05:04] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-22 10:05:04] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-22 10:05:04] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-22 10:05:04] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-29 11:54:04] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-29 11:54:04] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-29 11:54:04] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-29 11:54:04] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-29 11:54:05] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-07-29 11:54:05] [INFO] [products_sync.php:192->unknown] ProductServiceを初期化します
+[2025-07-29 11:54:05] [INFO] [products_sync.php:196->unknown] ProductService経由で商品同期を実行します
+[2025-07-29 11:54:46] [INFO] [products_sync.php:202->unknown] 商品同期処理が完了しました: 実行時間: 40.99秒
+[2025-07-29 11:54:46] [INFO] [products_sync.php:206->unknown] 同期結果統計: 追加=0, 更新=177, 無効化=0, エラー=0
+[2025-07-29 11:54:46] [INFO] [products_sync.php:216->unknown] 画像URL更新処理を開始します
+[2025-07-29 11:54:46] [INFO] [products_sync.php:218->unknown] 画像URL更新完了: 処理=0, 更新=0, エラー=0
+[2025-07-29 11:54:46] [INFO] [products_sync.php:249->unknown] 同期APIは成功を返しました
+[2025-07-29 11:54:46] [INFO] [products_sync.php:258->unknown] 統計情報形式: 基本統計形式
+[2025-07-29 11:54:46] [INFO] [products_sync.php:279->unknown] 同期統計: 追加 0件, 更新 177件, エラー 0件
+[2025-07-29 11:54:46] [INFO] [products_sync.php:335->unknown] カテゴリ同期情報はレスポンスに含まれていません
+[2025-07-29 11:54:46] [INFO] [products_sync.php:341->unknown] 画像URL更新フェーズを開始
+[2025-07-29 11:54:46] [INFO] [products_sync.php:351->unknown] 画像URL更新: 処理済 0 件, 更新 0 件
+[2025-07-29 11:54:46] [INFO] [products_sync.php:372->unknown] 商品同期処理が完了しました。実行時間: 40.99秒
+[2025-07-29 11:54:46] [INFO] [products_sync.php:396->unknown] 同期詳細を表示用にセッションに保存しました
+[2025-07-29 11:54:46] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-29 11:54:46] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-07-29 11:54:46] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-07-29 11:54:46] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-05 19:45:23] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-05 19:45:23] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-05 19:45:23] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-05 19:45:23] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-05 19:45:24] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-08-05 19:45:24] [INFO] [products_sync.php:192->unknown] ProductServiceを初期化します
+[2025-08-05 19:45:24] [INFO] [products_sync.php:196->unknown] ProductService経由で商品同期を実行します
+[2025-08-05 19:46:04] [INFO] [products_sync.php:202->unknown] 商品同期処理が完了しました: 実行時間: 39.83秒
+[2025-08-05 19:46:04] [INFO] [products_sync.php:206->unknown] 同期結果統計: 追加=0, 更新=184, 無効化=0, エラー=0
+[2025-08-05 19:46:04] [INFO] [products_sync.php:216->unknown] 画像URL更新処理を開始します
+[2025-08-05 19:46:04] [INFO] [products_sync.php:218->unknown] 画像URL更新完了: 処理=0, 更新=0, エラー=0
+[2025-08-05 19:46:04] [INFO] [products_sync.php:249->unknown] 同期APIは成功を返しました
+[2025-08-05 19:46:04] [INFO] [products_sync.php:258->unknown] 統計情報形式: 基本統計形式
+[2025-08-05 19:46:04] [INFO] [products_sync.php:279->unknown] 同期統計: 追加 0件, 更新 184件, エラー 0件
+[2025-08-05 19:46:04] [INFO] [products_sync.php:335->unknown] カテゴリ同期情報はレスポンスに含まれていません
+[2025-08-05 19:46:04] [INFO] [products_sync.php:341->unknown] 画像URL更新フェーズを開始
+[2025-08-05 19:46:04] [INFO] [products_sync.php:351->unknown] 画像URL更新: 処理済 0 件, 更新 0 件
+[2025-08-05 19:46:04] [INFO] [products_sync.php:372->unknown] 商品同期処理が完了しました。実行時間: 39.83秒
+[2025-08-05 19:46:04] [INFO] [products_sync.php:396->unknown] 同期詳細を表示用にセッションに保存しました
+[2025-08-05 19:46:04] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-05 19:46:04] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-05 19:46:04] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-05 19:46:04] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-05 19:54:39] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-05 19:54:39] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-05 19:54:39] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-05 19:54:39] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-05 19:54:41] [INFO] [products_sync.php:188->unknown] 商品同期処理を開始します: ユーザー 'fabula' からの手動実行
+[2025-08-05 19:54:41] [INFO] [products_sync.php:192->unknown] ProductServiceを初期化します
+[2025-08-05 19:54:41] [INFO] [products_sync.php:196->unknown] ProductService経由で商品同期を実行します
+[2025-08-05 19:55:21] [INFO] [products_sync.php:202->unknown] 商品同期処理が完了しました: 実行時間: 40.43秒
+[2025-08-05 19:55:21] [INFO] [products_sync.php:206->unknown] 同期結果統計: 追加=0, 更新=180, 無効化=0, エラー=0
+[2025-08-05 19:55:21] [INFO] [products_sync.php:216->unknown] 画像URL更新処理を開始します
+[2025-08-05 19:55:21] [INFO] [products_sync.php:218->unknown] 画像URL更新完了: 処理=0, 更新=0, エラー=0
+[2025-08-05 19:55:21] [INFO] [products_sync.php:249->unknown] 同期APIは成功を返しました
+[2025-08-05 19:55:21] [INFO] [products_sync.php:258->unknown] 統計情報形式: 基本統計形式
+[2025-08-05 19:55:21] [INFO] [products_sync.php:279->unknown] 同期統計: 追加 0件, 更新 180件, エラー 0件
+[2025-08-05 19:55:21] [INFO] [products_sync.php:335->unknown] カテゴリ同期情報はレスポンスに含まれていません
+[2025-08-05 19:55:21] [INFO] [products_sync.php:341->unknown] 画像URL更新フェーズを開始
+[2025-08-05 19:55:21] [INFO] [products_sync.php:351->unknown] 画像URL更新: 処理済 0 件, 更新 0 件
+[2025-08-05 19:55:21] [INFO] [products_sync.php:372->unknown] 商品同期処理が完了しました。実行時間: 40.43秒
+[2025-08-05 19:55:21] [INFO] [products_sync.php:396->unknown] 同期詳細を表示用にセッションに保存しました
+[2025-08-05 19:55:21] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-05 19:55:21] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-05 19:55:21] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-05 19:55:21] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-06 10:36:39] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-06 10:36:39] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-06 10:36:39] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-06 10:36:39] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-06 11:41:00] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-06 11:41:00] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-06 11:41:00] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-06 11:41:00] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-07 18:50:26] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-07 18:50:26] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-07 18:50:26] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-07 18:50:26] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-08 23:04:50] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-08 23:04:50] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-08 23:04:50] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-08 23:04:50] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-09 10:30:59] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-09 10:30:59] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-09 10:30:59] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-09 10:30:59] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-09 15:52:59] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-09 15:52:59] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-09 15:52:59] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-09 15:52:59] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-09 16:17:22] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-09 16:17:22] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-09 16:17:22] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-09 16:17:22] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-10 09:21:39] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-10 09:21:39] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-10 09:21:39] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-10 09:21:39] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-10 16:47:08] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-10 16:47:08] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-10 16:47:08] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-10 16:47:08] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-11 12:25:23] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-11 12:25:23] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-11 12:25:23] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-11 12:25:23] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-11 18:44:43] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-11 18:44:43] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-11 18:44:43] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-11 18:44:43] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-13 16:17:45] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-13 16:17:45] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました
+[2025-08-13 16:17:45] [INFO] [adminsetting_registrer.php:72->loadSettings] 設定ファイル読み込み開始: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminpagesetting/adminsetting.json
+[2025-08-13 16:17:45] [INFO] [adminsetting_registrer.php:122->loadSettings] 設定ファイルの読み込みが完了しました

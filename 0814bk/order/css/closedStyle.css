@@ -1,0 +1,73 @@
+/* ===== 営業時間外スタイル ===== */
+/* 営業時間外表示に関するスタイル定義 */
+
+/* 営業時間外の場合のスタイル */
+.category-item.closed {
+    color: #999;
+    background-color: #f0f0f0;
+}
+
+.closed-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 2px 4px;
+    margin-left: 5px;
+    background-color: #ff6b6b;
+    color: white;
+    border-radius: 4px;
+}
+
+.closed-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    text-align: center;
+    color: #666;
+}
+
+.closed-message i {
+    font-size: 3rem;
+    color: #ff6b6b;
+    margin-bottom: 15px;
+}
+
+.closed-message h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ff6b6b;
+}
+
+.closed-message p {
+    font-size: 1rem;
+    line-height: 1.5;
+    max-width: 500px;
+}
+
+/* 営業時間外モーダル */
+.closed-message-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    color: #666;
+}
+
+.closed-message-modal i {
+    font-size: 4rem;
+    color: #ff6b6b;
+    margin-bottom: 20px;
+}
+
+.closed-message-modal p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.closed-time-modal-content {
+    max-width: 500px;
+} 

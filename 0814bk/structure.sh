@@ -1,0 +1,9 @@
+mkdir -p api/v1
+mkdir -p api/config
+mkdir -p api/lib
+mkdir -p api/webhook
+mkdir -p api/database
+mkdir -p app/src/components
+mkdir -p app/src/screens
+mkdir -p app/src/utils
+mkdir -p app/assets 

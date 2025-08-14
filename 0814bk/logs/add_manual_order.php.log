@@ -1,0 +1,278 @@
+[2025-06-07 13:09:40] [INFO] === 手動注文追加API開始 ===
+[2025-06-07 13:09:40] [INFO] 管理者: fabula
+[2025-06-07 13:09:40] [INFO] 受信データ: {"session_id":"250607124153547268966","room_number":"fg#09","items":[{"id":"custom_1749269376458","square_item_id":null,"name":"割引","price":-28599,"quantity":1,"type":"custom"}],"memo":""}
+[2025-06-07 13:09:40] [INFO] パラメータ - SessionID: 250607124153547268966, Room: fg#09, Items: 1
+[2025-06-07 13:09:40] [INFO] データベース接続成功
+[2025-06-07 13:09:40] [INFO] トランザクション開始
+[2025-06-07 13:09:40] [INFO] セッション確認 - ID: 250607124153547268966, Room: fg#09
+[2025-06-07 13:09:40] [INFO] セッション確認成功
+[2025-06-07 13:09:40] [INFO] 生成された注文ID: mo_20250607130940167
+[2025-06-07 13:09:40] [INFO] 合計金額: -28599
+[2025-06-07 13:09:40] [INFO] 注文INSERT実行 - ID: mo_20250607130940167, Params: ["mo_20250607130940167","250607124153547268966","fg#09","fabula (\u624b\u52d5)",-28599,"OPEN","[\u624b\u52d5\u8ffd\u52a0: fabula]"]
+[2025-06-07 13:09:40] [INFO] 注文INSERT成功
+[2025-06-07 13:09:40] [INFO] 注文明細作成開始 - 明細数: 1
+[2025-06-07 13:09:40] [INFO] 明細INSERT[0] - ["mo_20250607130940167","mobes_order_9999","\u5272\u5f15",1,-28599,-28599]
+[2025-06-07 13:09:40] [ERROR] [Database] クエリ実行エラー: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`LAA1207717-fgsquare`.`order_details`, CONSTRAINT `fk_od_order` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE) - クエリ: INSERT INTO order_details (order_id, square_item_id, product_name, quantity, unit_price, subtotal, created_at) 
+                    VALUES (?, ?, ?, ?, ?, ?, NOW()) - パラメータ: ["mo_20250607130940167","mobes_order_9999","\u5272\u5f15",1,-28599,-28599]
+[2025-06-07 13:09:40] [ERROR] [Database] Stack trace: #0 /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php(280): PDOStatement->execute(Array)
+#1 /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/api/add_manual_order.php(246): Database->execute('INSERT INTO ord...', Array)
+#2 {main}
+[2025-06-07 13:09:40] [ERROR] 明細INSERT[0]失敗: データベースクエリの実行に失敗しました: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`LAA1207717-fgsquare`.`order_details`, CONSTRAINT `fk_od_order` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE)
+[2025-06-07 13:09:40] [ERROR] トランザクションロールバック実行
+[2025-06-07 13:09:40] [ERROR] エラー発生: データベースクエリの実行に失敗しました: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`LAA1207717-fgsquare`.`order_details`, CONSTRAINT `fk_od_order` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE)
+[2025-06-07 13:09:40] [ERROR] スタックトレース: #0 /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/api/add_manual_order.php(246): Database->execute('INSERT INTO ord...', Array)
+#1 {main}
+[2025-06-07 13:09:40] [ERROR] === 手動注文追加APIエラー終了 ===
+[2025-06-07 13:17:21] [INFO] === 手動注文追加API開始 ===
+[2025-06-07 13:17:21] [INFO] 管理者: fabula
+[2025-06-07 13:17:21] [INFO] 受信データ: {"session_id":"250607124153547268966","room_number":"fg#09","items":[{"id":"custom_1749269837486","square_item_id":null,"name":"割引","price":-28599,"quantity":1,"type":"custom"}],"memo":""}
+[2025-06-07 13:17:21] [INFO] パラメータ - SessionID: 250607124153547268966, Room: fg#09, Items: 1
+[2025-06-07 13:17:21] [INFO] データベース接続成功
+[2025-06-07 13:17:21] [INFO] Autocommit状態: ON
+[2025-06-07 13:17:21] [INFO] トランザクション開始
+[2025-06-07 13:17:21] [INFO] トランザクション状態: アクティブ
+[2025-06-07 13:17:21] [INFO] セッション確認 - ID: 250607124153547268966, Room: fg#09
+[2025-06-07 13:17:21] [INFO] セッション確認成功
+[2025-06-07 13:17:21] [INFO] 生成された注文ID: mo_20250607131721
+[2025-06-07 13:17:21] [INFO] 生成された注文IDの長さ: 17文字
+[2025-06-07 13:17:21] [INFO] orders.idカラムの最大長: 
+[2025-06-07 13:17:21] [WARNING] IDカラム情報取得エラー: 生成されたIDが長すぎます（mo_20250607131721: 17文字 > 最大文字）
+[2025-06-07 13:17:21] [INFO] 合計金額: -28599
+[2025-06-07 13:17:21] [INFO] 注文INSERT実行 - ID: mo_20250607131721, Params: ["mo_20250607131721","250607124153547268966","fg#09","fabula (\u624b\u52d5)",-28599,"OPEN","[\u624b\u52d5\u8ffd\u52a0: fabula]"]
+[2025-06-07 13:17:21] [INFO] 注文INSERT実行結果 - 影響行数: 1
+[2025-06-07 13:17:21] [INFO] 注文INSERT成功
+[2025-06-07 13:17:21] [WARNING] FLUSH TABLES失敗（無視）: SQLSTATE[42000]: Syntax error or access violation: 1227 Access denied; you need (at least one of) the RELOAD or FLUSH_TABLES privilege(s) for this operation
+[2025-06-07 13:17:21] [ERROR] 警告: 注文INSERTは成功したが、レコードが見つかりません
+[2025-06-07 13:17:21] [WARNING] 外部キー制約情報: [{"CONSTRAINT_NAME":"fk_od_order","TABLE_NAME":"order_details","COLUMN_NAME":"order_id","REFERENCED_TABLE_NAME":"orders","REFERENCED_COLUMN_NAME":"id"},{"CONSTRAINT_NAME":"order_details_ibfk_1","TABLE_NAME":"order_details","COLUMN_NAME":"order_id","REFERENCED_TABLE_NAME":"orders","REFERENCED_COLUMN_NAME":"id"}]
+[2025-06-07 13:17:21] [WARNING] orders.idカラム情報: {"COLUMN_NAME":"id","DATA_TYPE":"int","CHARACTER_MAXIMUM_LENGTH":null,"COLUMN_TYPE":"int"}
+[2025-06-07 13:17:21] [ERROR] 注文INSERT失敗: 注文の作成に失敗しました（レコードが見つかりません）
+[2025-06-07 13:17:21] [ERROR] トランザクションロールバック実行
+[2025-06-07 13:17:21] [ERROR] エラー発生: 注文の作成に失敗しました（レコードが見つかりません）
+[2025-06-07 13:17:21] [ERROR] スタックトレース: #0 {main}
+[2025-06-07 13:17:21] [ERROR] === 手動注文追加APIエラー終了 ===
+[2025-06-07 13:37:07] [INFO] === 手動注文追加API開始 ===
+[2025-06-07 13:37:07] [INFO] 管理者: fabula
+[2025-06-07 13:37:07] [INFO] 受信データ: {"session_id":"250607124153547268966","room_number":"fg#09","items":[{"id":"custom_1749271024758","square_item_id":null,"name":"割引","price":-28599,"quantity":1,"type":"custom"}],"memo":""}
+[2025-06-07 13:37:07] [INFO] パラメータ - SessionID: 250607124153547268966, Room: fg#09, Items: 1
+[2025-06-07 13:37:07] [INFO] OrderService初期化成功
+[2025-06-07 13:37:07] [INFO] 商品追加: {"square_item_id":"mobes_order_999999","name":"\u5272\u5f15","price":-28599,"quantity":1,"note":""}
+[2025-06-07 13:37:07] [INFO] OrderService::createOrder実行開始
+[2025-06-07 13:37:07] [WARNING] [ProductService] Square商品ID mobes_order_999999 の商品がデータベースに見つかりません
+[2025-06-07 13:37:08] [ERROR] [ProductService] Square APIからも商品が見つかりませんでした: mobes_order_999999
+[2025-06-07 13:37:09] [ERROR] [LineService] LINE API Error: 401 {"message":"Authentication failed. Confirm that the access token in the authorization header is valid."}
+[2025-06-07 13:37:10] [INFO] OrderService::createOrder成功: {"id":"237","square_order_id":null,"room_number":"fg#09","total_amount":-28599,"status":"OPEN","created_at":"2025-06-07 13:37:09","order_session_id":"250607124153547268966","square_item_id":"Y6WSYHATAMXJ4KMDO4FB55GE","note":"[\u624b\u52d5\u8ffd\u52a0: fabula]"}
+[2025-06-07 13:37:10] [INFO] === 手動注文追加API正常終了 ===
+[2025-06-27 19:11:00] [INFO] === 手動注文追加API開始 ===
+[2025-06-27 19:11:00] [INFO] 管理者: fabula
+[2025-06-27 19:11:00] [INFO] 受信データ: {"session_id":"250627190911001839363","room_number":"fg#99","items":[{"id":"custom_1751019038993","square_item_id":null,"name":"waribiki","price":-30000,"quantity":1,"type":"custom"}],"memo":""}
+[2025-06-27 19:11:00] [INFO] パラメータ - SessionID: 250627190911001839363, Room: fg#99, Items: 1
+[2025-06-27 19:11:00] [INFO] OrderService初期化成功
+[2025-06-27 19:11:00] [INFO] 商品追加: {"square_item_id":"mobes_order_999999","name":"waribiki","price":-30000,"quantity":1,"note":""}
+[2025-06-27 19:11:00] [INFO] OrderService::createOrder実行開始
+[2025-06-27 19:11:00] [WARNING] [ProductService] Square商品ID mobes_order_999999 の商品がデータベースに見つかりません
+[2025-06-27 19:11:00] [ERROR] [ProductService] Square APIからも商品が見つかりませんでした: mobes_order_999999
+[2025-06-27 19:11:02] [ERROR] [LineService] LINE API Error: 401 {"message":"Authentication failed. Confirm that the access token in the authorization header is valid."}
+[2025-06-27 19:11:02] [INFO] OrderService::createOrder成功: {"id":"254","square_order_id":null,"room_number":"fg#99","total_amount":-30000,"status":"OPEN","created_at":"2025-06-27 19:11:02","order_session_id":"250627190911001839363","square_item_id":"QQPQEHFCXO774UFEFANB4QZ4","note":"[\u624b\u52d5\u8ffd\u52a0: fabula]"}
+[2025-06-27 19:11:02] [INFO] === 手動注文追加API正常終了 ===
+[2025-06-27 19:12:58] [INFO] === 手動注文追加API開始 ===
+[2025-06-27 19:12:58] [INFO] 管理者: fabula
+[2025-06-27 19:12:58] [INFO] 受信データ: {"session_id":"250627190911001839363","room_number":"fg#99","items":[{"id":"prod_1751019149658","square_item_id":"YUCDROGNQDGFV5H6HKUX7JDQ","name":"ビア缶チキン","price":2500,"quantity":1,"type":"product"},{"id":"custom_1751019171837","square_item_id":null,"name":"ごめんなさい","price":-2300,"quantity":1,"type":"custom"}],"memo":""}
+[2025-06-27 19:12:58] [INFO] パラメータ - SessionID: 250627190911001839363, Room: fg#99, Items: 2
+[2025-06-27 19:12:58] [INFO] OrderService初期化成功
+[2025-06-27 19:12:58] [INFO] 商品追加: {"square_item_id":"YUCDROGNQDGFV5H6HKUX7JDQ","name":"\u30d3\u30a2\u7f36\u30c1\u30ad\u30f3","price":2500,"quantity":1,"note":""}
+[2025-06-27 19:12:58] [INFO] 商品追加: {"square_item_id":"mobes_order_999999","name":"\u3054\u3081\u3093\u306a\u3055\u3044","price":-2300,"quantity":1,"note":""}
+[2025-06-27 19:12:58] [INFO] OrderService::createOrder実行開始
+[2025-06-27 19:12:58] [WARNING] [ProductService] Square商品ID mobes_order_999999 の商品がデータベースに見つかりません
+[2025-06-27 19:12:59] [ERROR] [ProductService] Square APIからも商品が見つかりませんでした: mobes_order_999999
+[2025-06-27 19:13:00] [ERROR] [LineService] LINE API Error: 401 {"message":"Authentication failed. Confirm that the access token in the authorization header is valid."}
+[2025-06-27 19:13:01] [INFO] OrderService::createOrder成功: {"id":"255","square_order_id":null,"room_number":"fg#99","total_amount":200,"status":"OPEN","created_at":"2025-06-27 19:13:00","order_session_id":"250627190911001839363","square_item_id":"JYRQZ3RNSJNCI7CRASVMARMG","note":"[\u624b\u52d5\u8ffd\u52a0: fabula]"}
+[2025-06-27 19:13:01] [INFO] === 手動注文追加API正常終了 ===
+[2025-07-07 19:14:31] [INFO] === 手動注文追加API開始 ===
+[2025-07-07 19:14:31] [INFO] 管理者: fabula
+[2025-07-07 19:14:31] [INFO] 受信データ: {"session_id":"250707162659763787821","room_number":"fg#02","items":[{"id":"prod_1751883250564","square_item_id":"D3JR7CXOKHTEUFFI6NARHACM","name":"出汁醤油の大きな焼きおにぎり","price":400,"quantity":2,"type":"product"},{"id":"prod_1751883267132","square_item_id":"YMXVW5XAKWUD5CLHSLZ7GFRR","name":"オレンジジュース","price":500,"quantity":1,"type":"product"}],"memo":""}
+[2025-07-07 19:14:31] [INFO] パラメータ - SessionID: 250707162659763787821, Room: fg#02, Items: 2
+[2025-07-07 19:14:31] [INFO] OrderService初期化成功
+[2025-07-07 19:14:31] [INFO] 商品追加: {"square_item_id":"D3JR7CXOKHTEUFFI6NARHACM","name":"\u51fa\u6c41\u91a4\u6cb9\u306e\u5927\u304d\u306a\u713c\u304d\u304a\u306b\u304e\u308a","price":400,"quantity":2,"note":""}
+[2025-07-07 19:14:31] [INFO] 商品追加: {"square_item_id":"YMXVW5XAKWUD5CLHSLZ7GFRR","name":"\u30aa\u30ec\u30f3\u30b8\u30b8\u30e5\u30fc\u30b9","price":500,"quantity":1,"note":""}
+[2025-07-07 19:14:31] [INFO] OrderService::createOrder実行開始
+[2025-07-07 19:14:32] [ERROR] [LineService] LINE API Error: 401 {"message":"Authentication failed. Confirm that the access token in the authorization header is valid."}
+[2025-07-07 19:14:33] [INFO] OrderService::createOrder成功: {"id":"259","square_order_id":null,"room_number":"fg#02","total_amount":1300,"status":"OPEN","created_at":"2025-07-07 19:14:32","order_session_id":"250707162659763787821","square_item_id":"INKQKVZP4YDDQUVCJZJNXWCM","note":"[\u624b\u52d5\u8ffd\u52a0: fabula]"}
+[2025-07-07 19:14:33] [INFO] === 手動注文追加API正常終了 ===
+[2025-07-13 17:54:05] [INFO] === 手動注文追加API開始 ===
+[2025-07-13 17:54:05] [INFO] 管理者: fabula
+[2025-07-13 17:54:05] [INFO] 受信データ: {"session_id":"250713171704456656329","room_number":"fg#04","items":[{"id":"prod_1752396828880","square_item_id":"H65Z4MOLJEQASLIJOBDEFJOF","name":"生ハムチーズの盛り合わせ","price":1500,"quantity":1,"type":"product"}],"memo":""}
+[2025-07-13 17:54:05] [INFO] パラメータ - SessionID: 250713171704456656329, Room: fg#04, Items: 1
+[2025-07-13 17:54:05] [INFO] OrderService初期化成功
+[2025-07-13 17:54:05] [INFO] 商品追加: {"square_item_id":"H65Z4MOLJEQASLIJOBDEFJOF","name":"\u751f\u30cf\u30e0\u30c1\u30fc\u30ba\u306e\u76db\u308a\u5408\u308f\u305b","price":1500,"quantity":1,"note":""}
+[2025-07-13 17:54:05] [INFO] OrderService::createOrder実行開始
+[2025-07-13 17:54:06] [ERROR] [LineService] LINE API Error: 401 {"message":"Authentication failed. Confirm that the access token in the authorization header is valid."}
+[2025-07-13 17:54:08] [INFO] OrderService::createOrder成功: {"id":"263","square_order_id":null,"room_number":"fg#04","total_amount":1500,"status":"OPEN","created_at":"2025-07-13 17:54:06","order_session_id":"250713171704456656329","square_item_id":"SWLVHWLMBYBLWFIVRPMGUUCN","note":"[\u624b\u52d5\u8ffd\u52a0: fabula]"}
+[2025-07-13 17:54:08] [INFO] === 手動注文追加API正常終了 ===
+[2025-07-13 17:55:02] [INFO] === 手動注文追加API開始 ===
+[2025-07-13 17:55:02] [INFO] 管理者: fabula
+[2025-07-13 17:55:02] [INFO] 受信データ: {"session_id":"250713171704456656329","room_number":"fg#04","items":[{"id":"prod_1752396879103","square_item_id":"XMPDSORIZAHI4SIENXULD6Z3","name":"塩豚塊肉のグリル","price":2800,"quantity":1,"type":"product"},{"id":"prod_1752396886763","square_item_id":"RSR47XH3BR6UQZYYMO4YQLUG","name":"焚き火パン","price":600,"quantity":1,"type":"product"},{"id":"prod_1752396894589","square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"薪","price":1500,"quantity":1,"type":"product"}],"memo":""}
+[2025-07-13 17:55:02] [INFO] パラメータ - SessionID: 250713171704456656329, Room: fg#04, Items: 3
+[2025-07-13 17:55:02] [INFO] OrderService初期化成功
+[2025-07-13 17:55:02] [INFO] 商品追加: {"square_item_id":"XMPDSORIZAHI4SIENXULD6Z3","name":"\u5869\u8c5a\u584a\u8089\u306e\u30b0\u30ea\u30eb","price":2800,"quantity":1,"note":""}
+[2025-07-13 17:55:02] [INFO] 商品追加: {"square_item_id":"RSR47XH3BR6UQZYYMO4YQLUG","name":"\u711a\u304d\u706b\u30d1\u30f3","price":600,"quantity":1,"note":""}
+[2025-07-13 17:55:02] [INFO] 商品追加: {"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"\u85aa","price":1500,"quantity":1,"note":""}
+[2025-07-13 17:55:02] [INFO] OrderService::createOrder実行開始
+[2025-07-13 17:55:03] [ERROR] [LineService] LINE API Error: 401 {"message":"Authentication failed. Confirm that the access token in the authorization header is valid."}
+[2025-07-13 17:55:04] [INFO] OrderService::createOrder成功: {"id":"264","square_order_id":null,"room_number":"fg#04","total_amount":4900,"status":"OPEN","created_at":"2025-07-13 17:55:03","order_session_id":"250713171704456656329","square_item_id":"IYQ5FFNILIHBOJPW6E62APLF","note":"[\u624b\u52d5\u8ffd\u52a0: fabula]"}
+[2025-07-13 17:55:04] [INFO] === 手動注文追加API正常終了 ===
+[2025-07-20 20:28:45] [INFO] === 手動注文追加API開始 ===
+[2025-07-20 20:28:45] [INFO] 管理者: fabula
+[2025-07-20 20:28:45] [INFO] 受信データ: {"session_id":"250720182046788058022","room_number":"fg#02","items":[{"id":"prod_1753010912108","square_item_id":"ELLVXKZQKMMHMLQYRI7GL4TJ","name":"ミルキーシェイク（チョコ）","price":600,"quantity":2,"type":"product"},{"id":"prod_1753010921373","square_item_id":"AYITTTV5QN3TBDJWB2ZYOYQG","name":"ミルキーシェイク（バニラ）","price":600,"quantity":2,"type":"product"}],"memo":""}
+[2025-07-20 20:28:45] [INFO] パラメータ - SessionID: 250720182046788058022, Room: fg#02, Items: 2
+[2025-07-20 20:28:45] [INFO] OrderService初期化成功
+[2025-07-20 20:28:45] [INFO] 商品追加: {"square_item_id":"ELLVXKZQKMMHMLQYRI7GL4TJ","name":"\u30df\u30eb\u30ad\u30fc\u30b7\u30a7\u30a4\u30af\uff08\u30c1\u30e7\u30b3\uff09","price":600,"quantity":2,"note":""}
+[2025-07-20 20:28:45] [INFO] 商品追加: {"square_item_id":"AYITTTV5QN3TBDJWB2ZYOYQG","name":"\u30df\u30eb\u30ad\u30fc\u30b7\u30a7\u30a4\u30af\uff08\u30d0\u30cb\u30e9\uff09","price":600,"quantity":2,"note":""}
+[2025-07-20 20:28:45] [INFO] OrderService::createOrder実行開始
+[2025-07-20 20:28:46] [ERROR] [LineService] LINE API Error: 401 {"message":"Authentication failed. Confirm that the access token in the authorization header is valid."}
+[2025-07-20 20:28:47] [INFO] OrderService::createOrder成功: {"id":"276","square_order_id":null,"room_number":"fg#02","total_amount":2400,"status":"OPEN","created_at":"2025-07-20 20:28:46","order_session_id":"250720182046788058022","square_item_id":"JLPWD4NJGZN4KJCLJZS5VLRO","note":"[\u624b\u52d5\u8ffd\u52a0: fabula]"}
+[2025-07-20 20:28:47] [INFO] === 手動注文追加API正常終了 ===
+[2025-07-21 09:48:09] [INFO] === 手動注文追加API開始 ===
+[2025-07-21 09:48:09] [INFO] 管理者: fabula
+[2025-07-21 09:48:09] [INFO] 受信データ: {"session_id":"250720190824698731410","room_number":"fg#03","items":[{"id":"prod_1753058885724","square_item_id":"HH2ZF77A5EUT4AXCCUD4ICNB","name":"炭酸水","price":200,"quantity":2,"type":"product"}],"memo":""}
+[2025-07-21 09:48:09] [INFO] パラメータ - SessionID: 250720190824698731410, Room: fg#03, Items: 1
+[2025-07-21 09:48:09] [INFO] OrderService初期化成功
+[2025-07-21 09:48:09] [INFO] 商品追加: {"square_item_id":"HH2ZF77A5EUT4AXCCUD4ICNB","name":"\u70ad\u9178\u6c34","price":200,"quantity":2,"note":""}
+[2025-07-21 09:48:09] [INFO] OrderService::createOrder実行開始
+[2025-07-21 09:48:11] [ERROR] [LineService] LINE API Error: 401 {"message":"Authentication failed. Confirm that the access token in the authorization header is valid."}
+[2025-07-21 09:48:12] [INFO] OrderService::createOrder成功: {"id":"278","square_order_id":null,"room_number":"fg#03","total_amount":400,"status":"OPEN","created_at":"2025-07-21 09:48:11","order_session_id":"250720190824698731410","square_item_id":"VUN6T4WC52G4PIKVFB27QEIY","note":"[\u624b\u52d5\u8ffd\u52a0: fabula]"}
+[2025-07-21 09:48:12] [INFO] === 手動注文追加API正常終了 ===
+[2025-07-31 17:02:18] [INFO] === 手動注文追加API開始 ===
+[2025-07-31 17:02:18] [INFO] 管理者: fabula
+[2025-07-31 17:02:18] [INFO] 受信データ: {"session_id":"250731143815826121773","room_number":"fg#02","items":[{"id":"prod_1753948862373","square_item_id":"MMCUCAUEGE57TRA2WQ47APHY","name":"BBQバーガー","price":1600,"quantity":1,"type":"product"},{"id":"prod_1753948869523","square_item_id":"XFR2AAEYQ6M75SK4NFKTD4UB","name":"奥房総ジビエバーガー","price":2600,"quantity":1,"type":"product"},{"id":"prod_1753948877312","square_item_id":"KZPHTBTY3BFZXB4ANM6J2S3H","name":"さつま芋のブリュレ","price":300,"quantity":1,"type":"product"},{"id":"prod_1753948892807","square_item_id":"FOPCGOZ72YMLDIUQNSF6TC2A","name":"厚焼きパンケーキ","price":700,"quantity":1,"type":"product"},{"id":"prod_1753948900963","square_item_id":"QJPT3DMX6TNAS4DRHTULGVHA","name":"チーズケーキ","price":700,"quantity":1,"type":"product"},{"id":"prod_1753948918472","square_item_id":"XMPDSORIZAHI4SIENXULD6Z3","name":"塩豚塊肉のグリル","price":2800,"quantity":1,"type":"product"}],"memo":""}
+[2025-07-31 17:02:18] [INFO] パラメータ - SessionID: 250731143815826121773, Room: fg#02, Items: 6
+[2025-07-31 17:02:18] [INFO] OrderService初期化成功
+[2025-07-31 17:02:18] [INFO] 商品追加: {"square_item_id":"MMCUCAUEGE57TRA2WQ47APHY","name":"BBQ\u30d0\u30fc\u30ac\u30fc","price":1600,"quantity":1,"note":""}
+[2025-07-31 17:02:18] [INFO] 商品追加: {"square_item_id":"XFR2AAEYQ6M75SK4NFKTD4UB","name":"\u5965\u623f\u7dcf\u30b8\u30d3\u30a8\u30d0\u30fc\u30ac\u30fc","price":2600,"quantity":1,"note":""}
+[2025-07-31 17:02:18] [INFO] 商品追加: {"square_item_id":"KZPHTBTY3BFZXB4ANM6J2S3H","name":"\u3055\u3064\u307e\u828b\u306e\u30d6\u30ea\u30e5\u30ec","price":300,"quantity":1,"note":""}
+[2025-07-31 17:02:18] [INFO] 商品追加: {"square_item_id":"FOPCGOZ72YMLDIUQNSF6TC2A","name":"\u539a\u713c\u304d\u30d1\u30f3\u30b1\u30fc\u30ad","price":700,"quantity":1,"note":""}
+[2025-07-31 17:02:18] [INFO] 商品追加: {"square_item_id":"QJPT3DMX6TNAS4DRHTULGVHA","name":"\u30c1\u30fc\u30ba\u30b1\u30fc\u30ad","price":700,"quantity":1,"note":""}
+[2025-07-31 17:02:18] [INFO] 商品追加: {"square_item_id":"XMPDSORIZAHI4SIENXULD6Z3","name":"\u5869\u8c5a\u584a\u8089\u306e\u30b0\u30ea\u30eb","price":2800,"quantity":1,"note":""}
+[2025-07-31 17:02:18] [INFO] OrderService::createOrder実行開始
+[2025-07-31 17:02:19] [ERROR] [LineService] LINE API Error: 401 {"message":"Authentication failed. Confirm that the access token in the authorization header is valid."}
+[2025-07-31 17:02:20] [INFO] OrderService::createOrder成功: {"id":"281","square_order_id":null,"room_number":"fg#02","total_amount":8700,"status":"OPEN","created_at":"2025-07-31 17:02:19","order_session_id":"250731143815826121773","square_item_id":"BZGPCDLLNRBAHCVOVCC42NYX","note":"[\u624b\u52d5\u8ffd\u52a0: fabula]"}
+[2025-07-31 17:02:20] [INFO] === 手動注文追加API正常終了 ===
+[2025-07-31 18:02:01] [INFO] === 手動注文追加API開始 ===
+[2025-07-31 18:02:01] [INFO] 管理者: fabula
+[2025-07-31 18:02:01] [INFO] 受信データ: {"session_id":"250731143815826121773","room_number":"fg#02","items":[{"id":"prod_1753952516960","square_item_id":"E5LCY5RDRH7FVFXDHRBZLMAB","name":"レイトチェックアウト(1時間)","price":2000,"quantity":3,"type":"product"}],"memo":""}
+[2025-07-31 18:02:01] [INFO] パラメータ - SessionID: 250731143815826121773, Room: fg#02, Items: 1
+[2025-07-31 18:02:01] [INFO] OrderService初期化成功
+[2025-07-31 18:02:01] [INFO] 商品追加: {"square_item_id":"E5LCY5RDRH7FVFXDHRBZLMAB","name":"\u30ec\u30a4\u30c8\u30c1\u30a7\u30c3\u30af\u30a2\u30a6\u30c8(1\u6642\u9593)","price":2000,"quantity":3,"note":""}
+[2025-07-31 18:02:01] [INFO] OrderService::createOrder実行開始
+[2025-07-31 18:02:02] [ERROR] [LineService] LINE API Error: 401 {"message":"Authentication failed. Confirm that the access token in the authorization header is valid."}
+[2025-07-31 18:02:03] [INFO] OrderService::createOrder成功: {"id":"282","square_order_id":null,"room_number":"fg#02","total_amount":6000,"status":"OPEN","created_at":"2025-07-31 18:02:02","order_session_id":"250731143815826121773","square_item_id":"7OTIX4LCK7O3OAQDE6IX7YMR","note":"[\u624b\u52d5\u8ffd\u52a0: fabula]"}
+[2025-07-31 18:02:03] [INFO] === 手動注文追加API正常終了 ===
+[2025-08-01 03:50:28] [INFO] === 手動注文追加API開始 ===
+[2025-08-01 03:50:28] [INFO] 管理者: fabula
+[2025-08-01 03:50:28] [INFO] 受信データ: {"session_id":"250731143815826121773","room_number":"fg#02","items":[{"id":"prod_1753987752732","square_item_id":"IT6IVD2WXUNMXB2ROX5NKEMD","name":"キンミヤ生レモンサワー","price":500,"quantity":2,"type":"product"},{"id":"prod_1753987769363","square_item_id":"HH2ZF77A5EUT4AXCCUD4ICNB","name":"炭酸水","price":200,"quantity":1,"type":"product"},{"id":"prod_1753987786929","square_item_id":"JWAHYW6VUOQOJGGR7JK3FVBH","name":"クラフトコーラ","price":600,"quantity":1,"type":"product"},{"id":"prod_1753987804612","square_item_id":"VWOSR3F3JUP6DPQFHJ4SEFUR","name":"アップルジュース","price":500,"quantity":1,"type":"product"},{"id":"prod_1753987817713","square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"薪","price":1500,"quantity":1,"type":"product"}],"memo":""}
+[2025-08-01 03:50:28] [INFO] パラメータ - SessionID: 250731143815826121773, Room: fg#02, Items: 5
+[2025-08-01 03:50:28] [INFO] OrderService初期化成功
+[2025-08-01 03:50:28] [INFO] 商品追加: {"square_item_id":"IT6IVD2WXUNMXB2ROX5NKEMD","name":"\u30ad\u30f3\u30df\u30e4\u751f\u30ec\u30e2\u30f3\u30b5\u30ef\u30fc","price":500,"quantity":2,"note":""}
+[2025-08-01 03:50:28] [INFO] 商品追加: {"square_item_id":"HH2ZF77A5EUT4AXCCUD4ICNB","name":"\u70ad\u9178\u6c34","price":200,"quantity":1,"note":""}
+[2025-08-01 03:50:28] [INFO] 商品追加: {"square_item_id":"JWAHYW6VUOQOJGGR7JK3FVBH","name":"\u30af\u30e9\u30d5\u30c8\u30b3\u30fc\u30e9","price":600,"quantity":1,"note":""}
+[2025-08-01 03:50:28] [INFO] 商品追加: {"square_item_id":"VWOSR3F3JUP6DPQFHJ4SEFUR","name":"\u30a2\u30c3\u30d7\u30eb\u30b8\u30e5\u30fc\u30b9","price":500,"quantity":1,"note":""}
+[2025-08-01 03:50:28] [INFO] 商品追加: {"square_item_id":"A6VEQLSSUSRSIZ35IX3PXTEO","name":"\u85aa","price":1500,"quantity":1,"note":""}
+[2025-08-01 03:50:28] [INFO] OrderService::createOrder実行開始
+[2025-08-01 03:50:29] [ERROR] [LineService] LINE API Error: 401 {"message":"Authentication failed. Confirm that the access token in the authorization header is valid."}
+[2025-08-01 03:50:30] [INFO] OrderService::createOrder成功: {"id":"283","square_order_id":null,"room_number":"fg#02","total_amount":3800,"status":"OPEN","created_at":"2025-08-01 03:50:29","order_session_id":"250731143815826121773","square_item_id":"7OTIX4LCK7O3OAQDE6IX7YMR","note":"[\u624b\u52d5\u8ffd\u52a0: fabula]"}
+[2025-08-01 03:50:30] [INFO] === 手動注文追加API正常終了 ===
+[2025-08-04 22:13:40] [INFO] === 手動注文追加API開始 ===
+[2025-08-04 22:13:40] [INFO] 管理者: fabula
+[2025-08-04 22:13:40] [INFO] 受信データ: {"session_id":"250804182523577578304","room_number":"fg#04","items":[{"id":"prod_1754313194568","square_item_id":"QLA4E4VYKAYAF552MQ2LHMRH","name":"ハーバルグリーン","price":800,"quantity":2,"type":"product"},{"id":"prod_1754313206771","square_item_id":"SSOV22DVOSZOHMWNL5FQ2SSX","name":"濃厚ガトーショコラ","price":700,"quantity":1,"type":"product"},{"id":"prod_1754313215250","square_item_id":"QFCRL67GJ45MYABXFGTUPLCL","name":"アイスアフォガード","price":700,"quantity":1,"type":"product"}],"memo":""}
+[2025-08-04 22:13:40] [INFO] パラメータ - SessionID: 250804182523577578304, Room: fg#04, Items: 3
+[2025-08-04 22:13:40] [INFO] OrderService初期化成功
+[2025-08-04 22:13:40] [INFO] 商品追加: {"square_item_id":"QLA4E4VYKAYAF552MQ2LHMRH","name":"\u30cf\u30fc\u30d0\u30eb\u30b0\u30ea\u30fc\u30f3","price":800,"quantity":2,"note":""}
+[2025-08-04 22:13:40] [INFO] 商品追加: {"square_item_id":"SSOV22DVOSZOHMWNL5FQ2SSX","name":"\u6fc3\u539a\u30ac\u30c8\u30fc\u30b7\u30e7\u30b3\u30e9","price":700,"quantity":1,"note":""}
+[2025-08-04 22:13:40] [INFO] 商品追加: {"square_item_id":"QFCRL67GJ45MYABXFGTUPLCL","name":"\u30a2\u30a4\u30b9\u30a2\u30d5\u30a9\u30ac\u30fc\u30c9","price":700,"quantity":1,"note":""}
+[2025-08-04 22:13:40] [INFO] OrderService::createOrder実行開始
+[2025-08-04 22:13:42] [ERROR] [LineService] LINE API Error: 401 {"message":"Authentication failed. Confirm that the access token in the authorization header is valid."}
+[2025-08-04 22:13:43] [INFO] OrderService::createOrder成功: {"id":"290","square_order_id":null,"room_number":"fg#04","total_amount":3000,"status":"OPEN","created_at":"2025-08-04 22:13:42","order_session_id":"250804182523577578304","square_item_id":"BGLHUGIKUOSVSDM33EYDW25F","note":"[\u624b\u52d5\u8ffd\u52a0: fabula]"}
+[2025-08-04 22:13:43] [INFO] === 手動注文追加API正常終了 ===
+[2025-08-06 10:29:27] [INFO] === 手動注文追加API開始 ===
+[2025-08-06 10:29:27] [INFO] 管理者: fabula
+[2025-08-06 10:29:27] [INFO] 受信データ: {"session_id":"250804182523577578304","room_number":"fg#04","items":[{"id":"prod_1754443760008","square_item_id":"E5LCY5RDRH7FVFXDHRBZLMAB","name":"レイトチェックアウト(1時間)","price":2000,"quantity":1,"type":"product"}],"memo":""}
+[2025-08-06 10:29:27] [INFO] パラメータ - SessionID: 250804182523577578304, Room: fg#04, Items: 1
+[2025-08-06 10:29:27] [INFO] OrderService初期化成功
+[2025-08-06 10:29:27] [INFO] 商品追加: {"square_item_id":"E5LCY5RDRH7FVFXDHRBZLMAB","name":"\u30ec\u30a4\u30c8\u30c1\u30a7\u30c3\u30af\u30a2\u30a6\u30c8(1\u6642\u9593)","price":2000,"quantity":1,"note":""}
+[2025-08-06 10:29:27] [INFO] OrderService::createOrder実行開始
+[2025-08-06 10:29:28] [ERROR] [LineService] LINE API Error: 401 {"message":"Authentication failed. Confirm that the access token in the authorization header is valid."}
+[2025-08-06 10:29:29] [INFO] OrderService::createOrder成功: {"id":"291","square_order_id":null,"room_number":"fg#04","total_amount":2000,"status":"OPEN","created_at":"2025-08-06 10:29:28","order_session_id":"250804182523577578304","square_item_id":"UFPTE7OFVXVE7QGNEADAEQ5B","note":"[\u624b\u52d5\u8ffd\u52a0: fabula]"}
+[2025-08-06 10:29:29] [INFO] === 手動注文追加API正常終了 ===
+[2025-08-06 11:32:51] [INFO] === 手動注文追加API開始 ===
+[2025-08-06 11:32:51] [INFO] 管理者: fabula
+[2025-08-06 11:32:51] [INFO] 受信データ: {"session_id":"250804182523577578304","room_number":"fg#04","items":[{"id":"prod_1754447563543","square_item_id":"E5LCY5RDRH7FVFXDHRBZLMAB","name":"レイトチェックアウト(1時間)","price":2000,"quantity":1,"type":"product"}],"memo":""}
+[2025-08-06 11:32:51] [INFO] パラメータ - SessionID: 250804182523577578304, Room: fg#04, Items: 1
+[2025-08-06 11:32:51] [INFO] OrderService初期化成功
+[2025-08-06 11:32:51] [INFO] 商品追加: {"square_item_id":"E5LCY5RDRH7FVFXDHRBZLMAB","name":"\u30ec\u30a4\u30c8\u30c1\u30a7\u30c3\u30af\u30a2\u30a6\u30c8(1\u6642\u9593)","price":2000,"quantity":1,"note":""}
+[2025-08-06 11:32:51] [INFO] OrderService::createOrder実行開始
+[2025-08-06 11:32:52] [ERROR] [LineService] LINE API Error: 401 {"message":"Authentication failed. Confirm that the access token in the authorization header is valid."}
+[2025-08-06 11:32:53] [INFO] OrderService::createOrder成功: {"id":"292","square_order_id":null,"room_number":"fg#04","total_amount":2000,"status":"OPEN","created_at":"2025-08-06 11:32:52","order_session_id":"250804182523577578304","square_item_id":"UFPTE7OFVXVE7QGNEADAEQ5B","note":"[\u624b\u52d5\u8ffd\u52a0: fabula]"}
+[2025-08-06 11:32:53] [INFO] === 手動注文追加API正常終了 ===
+[2025-08-10 15:54:21] [INFO] === 手動注文追加API開始 ===
+[2025-08-10 15:54:21] [INFO] 管理者: fabula
+[2025-08-10 15:54:21] [INFO] 受信データ: {"session_id":"250809180133962345651","room_number":"fg#02","items":[{"id":"prod_1754808857469","square_item_id":"E5LCY5RDRH7FVFXDHRBZLMAB","name":"レイトチェックアウト(1時間)","price":2000,"quantity":1,"type":"product"}],"memo":""}
+[2025-08-10 15:54:21] [INFO] パラメータ - SessionID: 250809180133962345651, Room: fg#02, Items: 1
+[2025-08-10 15:54:21] [INFO] OrderService初期化成功
+[2025-08-10 15:54:21] [INFO] 商品追加: {"square_item_id":"E5LCY5RDRH7FVFXDHRBZLMAB","name":"\u30ec\u30a4\u30c8\u30c1\u30a7\u30c3\u30af\u30a2\u30a6\u30c8(1\u6642\u9593)","price":2000,"quantity":1,"note":""}
+[2025-08-10 15:54:21] [INFO] OrderService::createOrder実行開始
+[2025-08-10 15:54:22] [ERROR] [LineService] LINE API Error: 401 {"message":"Authentication failed. Confirm that the access token in the authorization header is valid."}
+[2025-08-10 15:54:23] [INFO] OrderService::createOrder成功: {"id":"321","square_order_id":null,"room_number":"fg#02","total_amount":2000,"status":"OPEN","created_at":"2025-08-10 15:54:22","order_session_id":"250810155421340724588","square_item_id":"EHXUFVBKB63REPPOHPBMSHVK","note":"[\u624b\u52d5\u8ffd\u52a0: fabula]"}
+[2025-08-10 15:54:23] [INFO] === 手動注文追加API正常終了 ===
+[2025-08-10 20:44:34] [INFO] === 手動注文追加API開始 ===
+[2025-08-10 20:44:34] [INFO] 管理者: fabula
+[2025-08-10 20:44:34] [INFO] 受信データ: {"session_id":"250810155421340724588","room_number":"fg#02","items":[{"id":"prod_1754826249978","square_item_id":"XWM7SBB5AKVO3XPSTEIOPF63","name":"イエローツイスト","price":600,"quantity":1,"type":"product"},{"id":"prod_1754826256683","square_item_id":"ARYWO2FZTZ23YTRQTKQGOJT6","name":"クラフトジンジャーエール","price":600,"quantity":1,"type":"product"},{"id":"prod_1754826266073","square_item_id":"HBQ6MH6USXES5DNCYKGSUT6G","name":"山崎ハイボール","price":1500,"quantity":1,"type":"product"},{"id":"prod_1754826269217","square_item_id":"EGO34KW7DVASMW2DJD4GCMOL","name":"山崎ロック","price":1500,"quantity":1,"type":"product"}],"memo":""}
+[2025-08-10 20:44:34] [INFO] パラメータ - SessionID: 250810155421340724588, Room: fg#02, Items: 4
+[2025-08-10 20:44:34] [INFO] OrderService初期化成功
+[2025-08-10 20:44:34] [INFO] 商品追加: {"square_item_id":"XWM7SBB5AKVO3XPSTEIOPF63","name":"\u30a4\u30a8\u30ed\u30fc\u30c4\u30a4\u30b9\u30c8","price":600,"quantity":1,"note":""}
+[2025-08-10 20:44:34] [INFO] 商品追加: {"square_item_id":"ARYWO2FZTZ23YTRQTKQGOJT6","name":"\u30af\u30e9\u30d5\u30c8\u30b8\u30f3\u30b8\u30e3\u30fc\u30a8\u30fc\u30eb","price":600,"quantity":1,"note":""}
+[2025-08-10 20:44:34] [INFO] 商品追加: {"square_item_id":"HBQ6MH6USXES5DNCYKGSUT6G","name":"\u5c71\u5d0e\u30cf\u30a4\u30dc\u30fc\u30eb","price":1500,"quantity":1,"note":""}
+[2025-08-10 20:44:34] [INFO] 商品追加: {"square_item_id":"EGO34KW7DVASMW2DJD4GCMOL","name":"\u5c71\u5d0e\u30ed\u30c3\u30af","price":1500,"quantity":1,"note":""}
+[2025-08-10 20:44:34] [INFO] OrderService::createOrder実行開始
+[2025-08-10 20:44:34] [WARNING] [ProductService] Square商品ID EGO34KW7DVASMW2DJD4GCMOL の商品がデータベースに見つかりません
+[2025-08-10 20:44:35] [ERROR] [ProductService] Square APIからも商品が見つかりませんでした: EGO34KW7DVASMW2DJD4GCMOL
+[2025-08-10 20:44:36] [ERROR] [LineService] LINE API Error: 401 {"message":"Authentication failed. Confirm that the access token in the authorization header is valid."}
+[2025-08-10 20:44:37] [INFO] OrderService::createOrder成功: {"id":"326","square_order_id":null,"room_number":"fg#02","total_amount":4200,"status":"OPEN","created_at":"2025-08-10 20:44:36","order_session_id":"250810155421340724588","square_item_id":"EHXUFVBKB63REPPOHPBMSHVK","note":"[\u624b\u52d5\u8ffd\u52a0: fabula]"}
+[2025-08-10 20:44:37] [INFO] === 手動注文追加API正常終了 ===
+[2025-08-13 15:55:38] [INFO] === 手動注文追加API開始 ===
+[2025-08-13 15:55:38] [INFO] 管理者: fabula
+[2025-08-13 15:55:38] [INFO] 受信データ: {"session_id":"250812180043079923447","room_number":"fg#06","items":[{"id":"prod_1755068135598","square_item_id":"BBXK7EFABEYPVFATECE4ZC2C","name":"ヒューガルデンホワイト","price":800,"quantity":1,"type":"product"}],"memo":""}
+[2025-08-13 15:55:38] [INFO] パラメータ - SessionID: 250812180043079923447, Room: fg#06, Items: 1
+[2025-08-13 15:55:38] [INFO] OrderService初期化成功
+[2025-08-13 15:55:38] [INFO] 商品追加: {"square_item_id":"BBXK7EFABEYPVFATECE4ZC2C","name":"\u30d2\u30e5\u30fc\u30ac\u30eb\u30c7\u30f3\u30db\u30ef\u30a4\u30c8","price":800,"quantity":1,"note":""}
+[2025-08-13 15:55:38] [INFO] OrderService::createOrder実行開始
+[2025-08-13 15:55:40] [ERROR] [LineService] LINE API Error: 401 {"message":"Authentication failed. Confirm that the access token in the authorization header is valid."}
+[2025-08-13 15:55:40] [INFO] OrderService::createOrder成功: {"id":"345","square_order_id":null,"room_number":"fg#06","total_amount":800,"status":"OPEN","created_at":"2025-08-13 15:55:40","order_session_id":"250812180043079923447","square_item_id":"MSLTJSRKXYJMLWY3BW5OICIJ","note":"[\u624b\u52d5\u8ffd\u52a0: fabula]"}
+[2025-08-13 15:55:40] [INFO] === 手動注文追加API正常終了 ===
+[2025-08-13 19:48:16] [INFO] === 手動注文追加API開始 ===
+[2025-08-13 19:48:16] [INFO] 管理者: fabula
+[2025-08-13 19:48:16] [INFO] 受信データ: {"session_id":"250812170846933239129","room_number":"fg#08","items":[{"id":"prod_1755082049055","square_item_id":"MZI2KM4GD7MDTMNIY44KGO2O","name":"サニーレッド","price":600,"quantity":1,"type":"product"},{"id":"prod_1755082066993","square_item_id":"KUSTSD7SXDZ3I7WW43YZFUJT","name":"ハーバルグリーン","price":600,"quantity":1,"type":"product"},{"id":"prod_1755082073925","square_item_id":"5ZWYWPRB5ZV5JDQWYFK262NB","name":"イエローツイスト","price":800,"quantity":1,"type":"product"},{"id":"prod_1755082089626","square_item_id":"CPXSDRJO3ZHACO3HZ2NTBYS3","name":"ピルスナーウルケル","price":800,"quantity":1,"type":"product"}],"memo":""}
+[2025-08-13 19:48:16] [INFO] パラメータ - SessionID: 250812170846933239129, Room: fg#08, Items: 4
+[2025-08-13 19:48:16] [INFO] OrderService初期化成功
+[2025-08-13 19:48:16] [INFO] 商品追加: {"square_item_id":"MZI2KM4GD7MDTMNIY44KGO2O","name":"\u30b5\u30cb\u30fc\u30ec\u30c3\u30c9","price":600,"quantity":1,"note":""}
+[2025-08-13 19:48:16] [INFO] 商品追加: {"square_item_id":"KUSTSD7SXDZ3I7WW43YZFUJT","name":"\u30cf\u30fc\u30d0\u30eb\u30b0\u30ea\u30fc\u30f3","price":600,"quantity":1,"note":""}
+[2025-08-13 19:48:16] [INFO] 商品追加: {"square_item_id":"5ZWYWPRB5ZV5JDQWYFK262NB","name":"\u30a4\u30a8\u30ed\u30fc\u30c4\u30a4\u30b9\u30c8","price":800,"quantity":1,"note":""}
+[2025-08-13 19:48:16] [INFO] 商品追加: {"square_item_id":"CPXSDRJO3ZHACO3HZ2NTBYS3","name":"\u30d4\u30eb\u30b9\u30ca\u30fc\u30a6\u30eb\u30b1\u30eb","price":800,"quantity":1,"note":""}
+[2025-08-13 19:48:16] [INFO] OrderService::createOrder実行開始
+[2025-08-13 19:48:16] [WARNING] [ProductService] Square商品ID 5ZWYWPRB5ZV5JDQWYFK262NB の商品がデータベースに見つかりません
+[2025-08-13 19:48:16] [ERROR] [ProductService] Square APIからも商品が見つかりませんでした: 5ZWYWPRB5ZV5JDQWYFK262NB
+[2025-08-13 19:48:18] [ERROR] [LineService] LINE API Error: 401 {"message":"Authentication failed. Confirm that the access token in the authorization header is valid."}
+[2025-08-13 19:48:19] [INFO] OrderService::createOrder成功: {"id":"361","square_order_id":null,"room_number":"fg#08","total_amount":2800,"status":"OPEN","created_at":"2025-08-13 19:48:18","order_session_id":"250812170846933239129","square_item_id":"4TTBU637P2QUQSZ43FJVGJCM","note":"[\u624b\u52d5\u8ffd\u52a0: fabula]"}
+[2025-08-13 19:48:19] [INFO] === 手動注文追加API正常終了 ===
+[2025-08-13 21:09:47] [INFO] === 手動注文追加API開始 ===
+[2025-08-13 21:09:47] [INFO] 管理者: fabula
+[2025-08-13 21:09:47] [INFO] 受信データ: {"session_id":"250812180043079923447","room_number":"fg#06","items":[{"id":"prod_1755086953635","square_item_id":"RSR47XH3BR6UQZYYMO4YQLUG","name":"焚き火パン","price":600,"quantity":2,"type":"product"},{"id":"prod_1755086958027","square_item_id":"YUCDROGNQDGFV5H6HKUX7JDQ","name":"ビア缶チキン","price":2500,"quantity":1,"type":"product"},{"id":"prod_1755086961955","square_item_id":"LK2ZLCO7J3ZRTBWU2YMYFZ5L","name":"ハンバーグ（網脂巻き）","price":800,"quantity":1,"type":"product"},{"id":"prod_1755086969364","square_item_id":"AXAGY2HW2P447LIEFPN7RCJL","name":"野菜のホイル焼き","price":500,"quantity":1,"type":"product"},{"id":"prod_1755086976867","square_item_id":"SMMKUIGQXYJLNUNKFBKTRGF7","name":"ベーコンと茸のアヒージョ(セルフ)","price":1100,"quantity":1,"type":"product"}],"memo":""}
+[2025-08-13 21:09:47] [INFO] パラメータ - SessionID: 250812180043079923447, Room: fg#06, Items: 5
+[2025-08-13 21:09:47] [INFO] OrderService初期化成功
+[2025-08-13 21:09:47] [INFO] 商品追加: {"square_item_id":"RSR47XH3BR6UQZYYMO4YQLUG","name":"\u711a\u304d\u706b\u30d1\u30f3","price":600,"quantity":2,"note":""}
+[2025-08-13 21:09:47] [INFO] 商品追加: {"square_item_id":"YUCDROGNQDGFV5H6HKUX7JDQ","name":"\u30d3\u30a2\u7f36\u30c1\u30ad\u30f3","price":2500,"quantity":1,"note":""}
+[2025-08-13 21:09:47] [INFO] 商品追加: {"square_item_id":"LK2ZLCO7J3ZRTBWU2YMYFZ5L","name":"\u30cf\u30f3\u30d0\u30fc\u30b0\uff08\u7db2\u8102\u5dfb\u304d\uff09","price":800,"quantity":1,"note":""}
+[2025-08-13 21:09:47] [INFO] 商品追加: {"square_item_id":"AXAGY2HW2P447LIEFPN7RCJL","name":"\u91ce\u83dc\u306e\u30db\u30a4\u30eb\u713c\u304d","price":500,"quantity":1,"note":""}
+[2025-08-13 21:09:47] [INFO] 商品追加: {"square_item_id":"SMMKUIGQXYJLNUNKFBKTRGF7","name":"\u30d9\u30fc\u30b3\u30f3\u3068\u8338\u306e\u30a2\u30d2\u30fc\u30b8\u30e7(\u30bb\u30eb\u30d5)","price":1100,"quantity":1,"note":""}
+[2025-08-13 21:09:47] [INFO] OrderService::createOrder実行開始
+[2025-08-13 21:09:48] [ERROR] [LineService] LINE API Error: 401 {"message":"Authentication failed. Confirm that the access token in the authorization header is valid."}
+[2025-08-13 21:09:49] [INFO] OrderService::createOrder成功: {"id":"368","square_order_id":null,"room_number":"fg#06","total_amount":6100,"status":"OPEN","created_at":"2025-08-13 21:09:48","order_session_id":"250812180043079923447","square_item_id":"V2CVU4RKRHXA2ZXCKFTMTWT2","note":"[\u624b\u52d5\u8ffd\u52a0: fabula]"}
+[2025-08-13 21:09:49] [INFO] === 手動注文追加API正常終了 ===

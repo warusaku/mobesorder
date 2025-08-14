@@ -1,0 +1,951 @@
+[2025-05-05 05:51:03] [INFO] ログファイル作成
+[2025-05-05 05:51:03] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-05 05:51:03] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-05 05:51:06] [INFO] [RoomTicketService.php:292->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#02, items: ["{\"square_item_id\":\"dummy_6817d3387a4f1\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"dummy_6817d33a03995\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"dummy_6817d33a86f10\",\"quantity\":1,\"note\":\"\"}"]
+[2025-05-05 05:51:06] [INFO] [RoomTicketService.php:214->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-05 05:51:06] [INFO] [RoomTicketService.php:222->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-05 05:51:06] [INFO] [RoomTicketService.php:297->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-05 05:51:06] [INFO] [RoomTicketService.php:301->addItemToRoomTicket] Room fg#02 の保留伝票が存在しないため、新規作成します
+[2025-05-05 05:51:06] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#02, guestName=
+[2025-05-05 05:51:06] [INFO] [RoomTicketService.php:214->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-05 05:51:06] [INFO] [RoomTicketService.php:222->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-05 06:02:51] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-05 06:02:51] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-05 06:02:53] [INFO] [RoomTicketService.php:292->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#02, items: ["{\"square_item_id\":\"dummy_6817d5fbafd4c\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"dummy_6817d5fcce5f5\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"dummy_6817d5fd73caa\",\"quantity\":1,\"note\":\"\"}"]
+[2025-05-05 06:02:53] [INFO] [RoomTicketService.php:214->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-05 06:02:53] [INFO] [RoomTicketService.php:222->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-05 06:02:53] [INFO] [RoomTicketService.php:297->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-05 06:02:53] [INFO] [RoomTicketService.php:301->addItemToRoomTicket] Room fg#02 の保留伝票が存在しないため、新規作成します
+[2025-05-05 06:02:53] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#02, guestName=
+[2025-05-05 06:02:53] [INFO] [RoomTicketService.php:214->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-05 06:02:53] [INFO] [RoomTicketService.php:222->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-05 06:26:29] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-05 06:26:29] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-05 06:26:31] [INFO] [RoomTicketService.php:292->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#02, items: ["{\"square_item_id\":\"dummy_6817db862a074\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"dummy_6817db86bb88a\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"dummy_6817db8777bfd\",\"quantity\":1,\"note\":\"\"}"]
+[2025-05-05 06:26:31] [INFO] [RoomTicketService.php:214->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-05 06:26:31] [INFO] [RoomTicketService.php:222->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-05 06:26:31] [INFO] [RoomTicketService.php:297->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-05 06:26:31] [INFO] [RoomTicketService.php:301->addItemToRoomTicket] Room fg#02 の保留伝票が存在しないため、新規作成します
+[2025-05-05 06:26:31] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#02, guestName=
+[2025-05-05 06:26:31] [INFO] [RoomTicketService.php:214->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-05 06:26:31] [INFO] [RoomTicketService.php:222->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-05 06:31:46] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-05 06:31:46] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-05 06:31:49] [INFO] [RoomTicketService.php:292->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#02, items: ["{\"square_item_id\":\"dummy_6817dcc34b813\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"dummy_6817dcc3d8aa2\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"dummy_6817dcc5051a5\",\"quantity\":1,\"note\":\"\"}"]
+[2025-05-05 06:31:49] [INFO] [RoomTicketService.php:214->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-05 06:31:49] [INFO] [RoomTicketService.php:222->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-05 06:31:49] [INFO] [RoomTicketService.php:297->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-05 06:31:49] [INFO] [RoomTicketService.php:301->addItemToRoomTicket] Room fg#02 の保留伝票が存在しないため、新規作成します
+[2025-05-05 06:31:49] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#02, guestName=
+[2025-05-05 06:31:49] [INFO] [RoomTicketService.php:214->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-05 06:31:49] [INFO] [RoomTicketService.php:222->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-05 06:33:52] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-05 06:33:52] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-05 06:33:54] [INFO] [RoomTicketService.php:292->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#02, items: ["{\"square_item_id\":\"126\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"127\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"5\",\"quantity\":1,\"note\":\"\"}"]
+[2025-05-05 06:33:54] [INFO] [RoomTicketService.php:214->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-05 06:33:54] [INFO] [RoomTicketService.php:222->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-05 06:33:54] [INFO] [RoomTicketService.php:297->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-05 06:33:54] [INFO] [RoomTicketService.php:301->addItemToRoomTicket] Room fg#02 の保留伝票が存在しないため、新規作成します
+[2025-05-05 06:33:54] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#02, guestName=
+[2025-05-05 06:33:54] [INFO] [RoomTicketService.php:214->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-05 06:33:54] [INFO] [RoomTicketService.php:222->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-05 06:34:40] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-05 06:34:40] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-05 06:34:43] [INFO] [RoomTicketService.php:292->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#02, items: ["{\"square_item_id\":\"126\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"127\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"5\",\"quantity\":1,\"note\":\"\"}"]
+[2025-05-05 06:34:43] [INFO] [RoomTicketService.php:214->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-05 06:34:43] [INFO] [RoomTicketService.php:222->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-05 06:34:43] [INFO] [RoomTicketService.php:297->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-05 06:34:43] [INFO] [RoomTicketService.php:301->addItemToRoomTicket] Room fg#02 の保留伝票が存在しないため、新規作成します
+[2025-05-05 06:34:43] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#02, guestName=
+[2025-05-05 06:34:43] [INFO] [RoomTicketService.php:214->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-05 06:34:43] [INFO] [RoomTicketService.php:222->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-05 06:37:30] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-05 06:37:30] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-05 06:37:30] [INFO] [RoomTicketService.php:292->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#02, items: ["{\"square_item_id\":\"O6LRSOUX437W7P4TRUF42E6Y\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"ETHFY2D2T5XFALF6MSC3WUIT\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"quantity\":1,\"note\":\"\"}"]
+[2025-05-05 06:37:30] [INFO] [RoomTicketService.php:214->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-05 06:37:30] [INFO] [RoomTicketService.php:222->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-05 06:37:30] [INFO] [RoomTicketService.php:297->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-05 06:37:30] [INFO] [RoomTicketService.php:301->addItemToRoomTicket] Room fg#02 の保留伝票が存在しないため、新規作成します
+[2025-05-05 06:37:30] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#02, guestName=
+[2025-05-05 06:37:30] [INFO] [RoomTicketService.php:214->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-05 06:37:30] [INFO] [RoomTicketService.php:222->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-05 06:37:47] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-05 06:37:47] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-05 06:37:47] [INFO] [RoomTicketService.php:292->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#02, items: ["{\"square_item_id\":\"O6LRSOUX437W7P4TRUF42E6Y\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"ETHFY2D2T5XFALF6MSC3WUIT\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"quantity\":1,\"note\":\"\"}"]
+[2025-05-05 06:37:47] [INFO] [RoomTicketService.php:214->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-05 06:37:47] [INFO] [RoomTicketService.php:222->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-05 06:37:47] [INFO] [RoomTicketService.php:297->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-05 06:37:47] [INFO] [RoomTicketService.php:301->addItemToRoomTicket] Room fg#02 の保留伝票が存在しないため、新規作成します
+[2025-05-05 06:37:47] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#02, guestName=
+[2025-05-05 06:37:47] [INFO] [RoomTicketService.php:214->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-05 06:37:47] [INFO] [RoomTicketService.php:222->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-05 06:56:44] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-05 06:56:44] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-05 06:56:44] [INFO] [RoomTicketService.php:327->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#02, items: ["{\"square_item_id\":\"O6LRSOUX437W7P4TRUF42E6Y\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"ETHFY2D2T5XFALF6MSC3WUIT\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"quantity\":1,\"note\":\"\"}"]
+[2025-05-05 06:56:44] [INFO] [RoomTicketService.php:359->addItemToRoomTicket] 処理済み商品アイテム: ["{\"square_item_id\":\"O6LRSOUX437W7P4TRUF42E6Y\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"ETHFY2D2T5XFALF6MSC3WUIT\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"quantity\":1,\"note\":\"\"}"]
+[2025-05-05 06:56:44] [INFO] [RoomTicketService.php:235->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-05 06:56:44] [INFO] [RoomTicketService.php:243->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-05 06:56:44] [INFO] [RoomTicketService.php:363->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-05 06:56:44] [INFO] [RoomTicketService.php:367->addItemToRoomTicket] Room fg#02 の保留伝票が存在しないため、新規作成します
+[2025-05-05 06:56:44] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#02, guestName=
+[2025-05-05 06:56:44] [INFO] [RoomTicketService.php:235->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-05 06:56:44] [INFO] [RoomTicketService.php:243->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-05 07:20:29] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-05 07:20:29] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-05 07:20:29] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#02, items: ["{\"square_item_id\":\"O6LRSOUX437W7P4TRUF42E6Y\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"ETHFY2D2T5XFALF6MSC3WUIT\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"quantity\":1,\"note\":\"\"}"]
+[2025-05-05 07:20:29] [INFO] [RoomTicketService.php:466->addItemToRoomTicket] 処理済み商品アイテム: ["{\"square_item_id\":\"O6LRSOUX437W7P4TRUF42E6Y\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"ETHFY2D2T5XFALF6MSC3WUIT\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"quantity\":1,\"note\":\"\"}"]
+[2025-05-05 07:20:29] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-05 07:20:29] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-05 07:20:29] [INFO] [RoomTicketService.php:470->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-05 07:20:29] [INFO] [RoomTicketService.php:474->addItemToRoomTicket] Room fg#02 の保留伝票が存在しないため、新規作成します
+[2025-05-05 07:20:29] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#02, guestName=
+[2025-05-05 07:20:29] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-05 07:20:29] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-05 07:47:19] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-05 07:47:19] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-05 07:47:19] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#02, items: ["{\"square_item_id\":\"O6LRSOUX437W7P4TRUF42E6Y\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"ETHFY2D2T5XFALF6MSC3WUIT\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"quantity\":2,\"note\":\"\"}"]
+[2025-05-05 07:47:19] [INFO] [RoomTicketService.php:506->addItemToRoomTicket] 最終的な処理済み商品アイテム: ["{\"square_item_id\":\"O6LRSOUX437W7P4TRUF42E6Y\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"ETHFY2D2T5XFALF6MSC3WUIT\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"quantity\":2,\"note\":\"\"}"]
+[2025-05-05 07:47:19] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-05 07:47:19] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-05 07:47:19] [INFO] [RoomTicketService.php:510->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-05 07:47:19] [INFO] [RoomTicketService.php:514->addItemToRoomTicket] Room fg#02 の保留伝票が存在しないため、新規作成します
+[2025-05-05 07:47:19] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#02, guestName=
+[2025-05-05 07:47:19] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-05 07:47:19] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-05 13:59:20] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-05 13:59:20] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-05 13:59:20] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#01, items: ["{\"square_item_id\":\"O6LRSOUX437W7P4TRUF42E6Y\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"ETHFY2D2T5XFALF6MSC3WUIT\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"quantity\":2,\"note\":\"\"}"]
+[2025-05-05 13:59:20] [INFO] [RoomTicketService.php:506->addItemToRoomTicket] 最終的な処理済み商品アイテム: ["{\"square_item_id\":\"O6LRSOUX437W7P4TRUF42E6Y\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"ETHFY2D2T5XFALF6MSC3WUIT\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"quantity\":2,\"note\":\"\"}"]
+[2025-05-05 13:59:20] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#01
+[2025-05-05 13:59:20] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#01 のアクティブなチケットが見つかりません
+[2025-05-05 13:59:20] [INFO] [RoomTicketService.php:510->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-05 13:59:20] [INFO] [RoomTicketService.php:514->addItemToRoomTicket] Room fg#01 の保留伝票が存在しないため、新規作成します
+[2025-05-05 13:59:20] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#01, guestName=
+[2025-05-05 13:59:20] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#01
+[2025-05-05 13:59:20] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#01 のアクティブなチケットが見つかりません
+[2025-05-05 14:02:34] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-05 14:02:34] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-05 14:02:34] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#01, items: ["{\"square_item_id\":\"O6LRSOUX437W7P4TRUF42E6Y\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"ETHFY2D2T5XFALF6MSC3WUIT\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"quantity\":2,\"note\":\"\"}"]
+[2025-05-05 14:02:34] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array","array","array"]
+[2025-05-05 14:02:34] [INFO] [RoomTicketService.php:486->addItemToRoomTicket] 処理済み商品アイテム: [{"square_item_id":"O6LRSOUX437W7P4TRUF42E6Y","quantity":1,"note":""},{"square_item_id":"ETHFY2D2T5XFALF6MSC3WUIT","quantity":1,"note":""},{"square_item_id":"5ZWYWPRB5ZV5JDQWYFK262NB","quantity":2,"note":""}]
+[2025-05-05 14:02:34] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#01
+[2025-05-05 14:02:34] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#01 のアクティブなチケットが見つかりません
+[2025-05-05 14:02:34] [INFO] [RoomTicketService.php:490->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-05 14:02:34] [INFO] [RoomTicketService.php:494->addItemToRoomTicket] Room fg#01 の保留伝票が存在しないため、新規作成します
+[2025-05-05 14:02:34] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#01, guestName=
+[2025-05-05 14:02:34] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#01
+[2025-05-05 14:02:34] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#01 のアクティブなチケットが見つかりません
+[2025-05-05 14:22:19] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-05 14:22:19] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-05 14:22:19] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#01, items: ["{\"square_item_id\":\"O6LRSOUX437W7P4TRUF42E6Y\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"ETHFY2D2T5XFALF6MSC3WUIT\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"quantity\":2,\"note\":\"\"}"]
+[2025-05-05 14:22:19] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array","array","array"]
+[2025-05-05 14:22:19] [INFO] [RoomTicketService.php:486->addItemToRoomTicket] 処理済み商品アイテム: [{"square_item_id":"O6LRSOUX437W7P4TRUF42E6Y","quantity":1,"note":""},{"square_item_id":"ETHFY2D2T5XFALF6MSC3WUIT","quantity":1,"note":""},{"square_item_id":"5ZWYWPRB5ZV5JDQWYFK262NB","quantity":2,"note":""}]
+[2025-05-05 14:22:19] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#01
+[2025-05-05 14:22:19] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#01 のアクティブなチケットが見つかりません
+[2025-05-05 14:22:19] [INFO] [RoomTicketService.php:490->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-05 14:22:19] [INFO] [RoomTicketService.php:494->addItemToRoomTicket] Room fg#01 の保留伝票が存在しないため、新規作成します
+[2025-05-05 14:22:19] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#01, guestName=
+[2025-05-05 14:22:19] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#01
+[2025-05-05 14:22:19] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#01 のアクティブなチケットが見つかりません
+[2025-05-05 14:32:11] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-05 14:32:11] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-05 14:32:11] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#01, items: ["{\"square_item_id\":\"O6LRSOUX437W7P4TRUF42E6Y\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"ETHFY2D2T5XFALF6MSC3WUIT\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"quantity\":2,\"note\":\"\"}"]
+[2025-05-05 14:32:11] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array","array","array"]
+[2025-05-05 14:32:11] [INFO] [RoomTicketService.php:486->addItemToRoomTicket] 処理済み商品アイテム: [{"square_item_id":"O6LRSOUX437W7P4TRUF42E6Y","quantity":1,"note":""},{"square_item_id":"ETHFY2D2T5XFALF6MSC3WUIT","quantity":1,"note":""},{"square_item_id":"5ZWYWPRB5ZV5JDQWYFK262NB","quantity":2,"note":""}]
+[2025-05-05 14:32:11] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#01
+[2025-05-05 14:32:11] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#01 のアクティブなチケットが見つかりません
+[2025-05-05 14:32:11] [INFO] [RoomTicketService.php:490->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-05 14:32:11] [INFO] [RoomTicketService.php:494->addItemToRoomTicket] Room fg#01 の保留伝票が存在しないため、新規作成します
+[2025-05-05 14:32:11] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#01, guestName=
+[2025-05-05 14:32:11] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#01
+[2025-05-05 14:32:11] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#01 のアクティブなチケットが見つかりません
+[2025-05-05 14:52:56] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-05 14:52:56] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-05 14:52:56] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: test-room-20250505-145256, items: ["{\"square_item_id\":\"MY3ZCX6BO5N3ED7XE3ULZFI2\",\"quantity\":1,\"note\":\"テスト注文アイテム\"}","{\"square_item_id\":\"H5PMKOKELZ3NCXBGGYPC3NN3\",\"quantity\":1,\"note\":\"テスト注文アイテム\"}"]
+[2025-05-05 14:52:56] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array","array"]
+[2025-05-05 14:52:56] [INFO] [RoomTicketService.php:486->addItemToRoomTicket] 処理済み商品アイテム: [{"square_item_id":"MY3ZCX6BO5N3ED7XE3ULZFI2","quantity":1,"note":"\u30c6\u30b9\u30c8\u6ce8\u6587\u30a2\u30a4\u30c6\u30e0"},{"square_item_id":"H5PMKOKELZ3NCXBGGYPC3NN3","quantity":1,"note":"\u30c6\u30b9\u30c8\u6ce8\u6587\u30a2\u30a4\u30c6\u30e0"}]
+[2025-05-05 14:52:56] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=test-room-20250505-145256
+[2025-05-05 14:52:56] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 test-room-20250505-145256 のアクティブなチケットが見つかりません
+[2025-05-05 14:52:56] [INFO] [RoomTicketService.php:490->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-05 14:52:56] [INFO] [RoomTicketService.php:494->addItemToRoomTicket] Room test-room-20250505-145256 の保留伝票が存在しないため、新規作成します
+[2025-05-05 14:52:56] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=test-room-20250505-145256, guestName=
+[2025-05-05 14:52:56] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=test-room-20250505-145256
+[2025-05-05 14:52:56] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 test-room-20250505-145256 のアクティブなチケットが見つかりません
+[2025-05-05 14:56:35] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-05 14:56:35] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-05 14:56:35] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: test-room-20250505-145635, items: ["{\"square_item_id\":\"MY3ZCX6BO5N3ED7XE3ULZFI2\",\"quantity\":1,\"note\":\"テスト注文アイテム\"}","{\"square_item_id\":\"H5PMKOKELZ3NCXBGGYPC3NN3\",\"quantity\":1,\"note\":\"テスト注文アイテム\"}"]
+[2025-05-05 14:56:35] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array","array"]
+[2025-05-05 14:56:35] [INFO] [RoomTicketService.php:486->addItemToRoomTicket] 処理済み商品アイテム: [{"square_item_id":"MY3ZCX6BO5N3ED7XE3ULZFI2","quantity":1,"note":"\u30c6\u30b9\u30c8\u6ce8\u6587\u30a2\u30a4\u30c6\u30e0"},{"square_item_id":"H5PMKOKELZ3NCXBGGYPC3NN3","quantity":1,"note":"\u30c6\u30b9\u30c8\u6ce8\u6587\u30a2\u30a4\u30c6\u30e0"}]
+[2025-05-05 14:56:35] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=test-room-20250505-145635
+[2025-05-05 14:56:35] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 test-room-20250505-145635 のアクティブなチケットが見つかりません
+[2025-05-05 14:56:35] [INFO] [RoomTicketService.php:490->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-05 14:56:35] [INFO] [RoomTicketService.php:494->addItemToRoomTicket] Room test-room-20250505-145635 の保留伝票が存在しないため、新規作成します
+[2025-05-05 14:56:35] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=test-room-20250505-145635, guestName=
+[2025-05-05 14:56:35] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=test-room-20250505-145635
+[2025-05-05 14:56:35] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 test-room-20250505-145635 のアクティブなチケットが見つかりません
+[2025-05-05 15:26:10] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-05 15:26:10] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-05 15:26:10] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#01, items: ["{\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"quantity\":114,\"note\":\"\"}","{\"square_item_id\":\"AKX56WRW6IA7OY2DM25SWSEH\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"ETSEU27VSKV7KXZ74T4P3DAM\",\"quantity\":1,\"note\":\"\"}","{\"square_item_id\":\"R5UKCS2MSCRQG5TZHOIXYGEY\",\"quantity\":4,\"note\":\"\"}"]
+[2025-05-05 15:26:10] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array","array","array","array"]
+[2025-05-05 15:26:10] [INFO] [RoomTicketService.php:486->addItemToRoomTicket] 処理済み商品アイテム: [{"square_item_id":"5ZWYWPRB5ZV5JDQWYFK262NB","quantity":114,"note":""},{"square_item_id":"AKX56WRW6IA7OY2DM25SWSEH","quantity":1,"note":""},{"square_item_id":"ETSEU27VSKV7KXZ74T4P3DAM","quantity":1,"note":""},{"square_item_id":"R5UKCS2MSCRQG5TZHOIXYGEY","quantity":4,"note":""}]
+[2025-05-05 15:26:10] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#01
+[2025-05-05 15:26:10] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#01 のアクティブなチケットが見つかりません
+[2025-05-05 15:26:10] [INFO] [RoomTicketService.php:490->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-05 15:26:10] [INFO] [RoomTicketService.php:494->addItemToRoomTicket] Room fg#01 の保留伝票が存在しないため、新規作成します
+[2025-05-05 15:26:10] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#01, guestName=
+[2025-05-05 15:26:10] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#01
+[2025-05-05 15:26:10] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#01 のアクティブなチケットが見つかりません
+[2025-05-05 16:56:13] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-05 16:56:13] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-05 16:56:13] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#01, items: ["{\"square_item_id\":\"SGC55HS2PL4FIK4HPVLZHXRE\",\"quantity\":3,\"note\":\"\"}"]
+[2025-05-05 16:56:13] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-05 16:56:13] [INFO] [RoomTicketService.php:486->addItemToRoomTicket] 処理済み商品アイテム: [{"square_item_id":"SGC55HS2PL4FIK4HPVLZHXRE","quantity":3,"note":""}]
+[2025-05-05 16:56:13] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#01
+[2025-05-05 16:56:13] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#01 のアクティブなチケットが見つかりません
+[2025-05-05 16:56:13] [INFO] [RoomTicketService.php:490->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-05 16:56:13] [INFO] [RoomTicketService.php:494->addItemToRoomTicket] Room fg#01 の保留伝票が存在しないため、新規作成します
+[2025-05-05 16:56:13] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#01, guestName=
+[2025-05-05 16:56:13] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#01
+[2025-05-05 16:56:13] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#01 のアクティブなチケットが見つかりません
+[2025-05-05 17:05:30] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-05 17:05:30] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-05 17:13:18] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-05 17:13:18] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-05 20:24:24] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-05 20:24:24] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-05 20:26:01] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-05 20:26:01] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-05 20:52:48] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-05 20:52:48] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-05 20:52:48] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#13, items: ["{\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"quantity\":1,\"note\":\"\"}"]
+[2025-05-05 20:52:48] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-05 20:52:48] [INFO] [RoomTicketService.php:486->addItemToRoomTicket] 処理済み商品アイテム: [{"square_item_id":"5ZWYWPRB5ZV5JDQWYFK262NB","quantity":1,"note":""}]
+[2025-05-05 20:52:48] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#13
+[2025-05-05 20:52:48] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#13 のアクティブなチケットが見つかりません
+[2025-05-05 20:52:48] [INFO] [RoomTicketService.php:490->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-05 20:52:48] [INFO] [RoomTicketService.php:494->addItemToRoomTicket] Room fg#13 の保留伝票が存在しないため、新規作成します
+[2025-05-05 20:52:48] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#13, guestName=
+[2025-05-05 20:52:48] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#13
+[2025-05-05 20:52:48] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#13 のアクティブなチケットが見つかりません
+[2025-05-05 21:47:00] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-05 21:47:00] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-05 21:47:00] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#12, items: ["{\"square_item_id\":\"7SR2LEU5PM5XRYI5PTAPJV6E\",\"quantity\":2,\"note\":\"\"}"]
+[2025-05-05 21:47:00] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-05 21:47:00] [INFO] [RoomTicketService.php:486->addItemToRoomTicket] 処理済み商品アイテム: [{"square_item_id":"7SR2LEU5PM5XRYI5PTAPJV6E","quantity":2,"note":""}]
+[2025-05-05 21:47:00] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-05 21:47:00] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-05 21:47:00] [INFO] [RoomTicketService.php:490->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-05 21:47:00] [INFO] [RoomTicketService.php:494->addItemToRoomTicket] Room fg#12 の保留伝票が存在しないため、新規作成します
+[2025-05-05 21:47:00] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#12, guestName=
+[2025-05-05 21:47:00] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-05 21:47:00] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 00:11:47] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 00:11:47] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 00:11:47] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#12, items: ["{\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"quantity\":1,\"note\":\"\"}"]
+[2025-05-06 00:11:47] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-06 00:11:47] [INFO] [RoomTicketService.php:486->addItemToRoomTicket] 処理済み商品アイテム: [{"square_item_id":"5ZWYWPRB5ZV5JDQWYFK262NB","quantity":1,"note":""}]
+[2025-05-06 00:11:47] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 00:11:47] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 00:11:47] [INFO] [RoomTicketService.php:490->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 00:11:47] [INFO] [RoomTicketService.php:494->addItemToRoomTicket] Room fg#12 の保留伝票が存在しないため、新規作成します
+[2025-05-06 00:11:47] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#12, guestName=
+[2025-05-06 00:11:47] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 00:11:47] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 00:12:20] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 00:12:20] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 00:12:20] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#12, items: ["{\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"quantity\":2,\"note\":\"\"}"]
+[2025-05-06 00:12:20] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-06 00:12:20] [INFO] [RoomTicketService.php:486->addItemToRoomTicket] 処理済み商品アイテム: [{"square_item_id":"5ZWYWPRB5ZV5JDQWYFK262NB","quantity":2,"note":""}]
+[2025-05-06 00:12:20] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 00:12:20] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 00:12:20] [INFO] [RoomTicketService.php:490->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 00:12:20] [INFO] [RoomTicketService.php:494->addItemToRoomTicket] Room fg#12 の保留伝票が存在しないため、新規作成します
+[2025-05-06 00:12:20] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#12, guestName=
+[2025-05-06 00:12:20] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 00:12:20] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 03:14:21] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 03:14:21] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 03:14:21] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#12, items: ["{\"square_item_id\":\"7SR2LEU5PM5XRYI5PTAPJV6E\",\"quantity\":2,\"note\":\"\"}","{\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"quantity\":3,\"note\":\"\"}","{\"square_item_id\":\"IAQSK35E5HCVNQLAB76CXJ7Y\",\"quantity\":4,\"note\":\"\"}","{\"square_item_id\":\"3OERTMTCZPKHD4OECEVOOZVU\",\"quantity\":6,\"note\":\"\"}"]
+[2025-05-06 03:14:21] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array","array","array","array"]
+[2025-05-06 03:14:21] [INFO] [RoomTicketService.php:486->addItemToRoomTicket] 処理済み商品アイテム: [{"square_item_id":"7SR2LEU5PM5XRYI5PTAPJV6E","quantity":2,"note":""},{"square_item_id":"5ZWYWPRB5ZV5JDQWYFK262NB","quantity":3,"note":""},{"square_item_id":"IAQSK35E5HCVNQLAB76CXJ7Y","quantity":4,"note":""},{"square_item_id":"3OERTMTCZPKHD4OECEVOOZVU","quantity":6,"note":""}]
+[2025-05-06 03:14:21] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 03:14:21] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 03:14:21] [INFO] [RoomTicketService.php:490->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 03:14:21] [INFO] [RoomTicketService.php:494->addItemToRoomTicket] Room fg#12 の保留伝票が存在しないため、新規作成します
+[2025-05-06 03:14:21] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#12, guestName=
+[2025-05-06 03:14:21] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 03:14:21] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 03:14:29] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 03:14:29] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 03:14:29] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#12, items: ["{\"square_item_id\":\"7SR2LEU5PM5XRYI5PTAPJV6E\",\"quantity\":2,\"note\":\"\"}","{\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"quantity\":3,\"note\":\"\"}","{\"square_item_id\":\"IAQSK35E5HCVNQLAB76CXJ7Y\",\"quantity\":4,\"note\":\"\"}","{\"square_item_id\":\"3OERTMTCZPKHD4OECEVOOZVU\",\"quantity\":6,\"note\":\"\"}"]
+[2025-05-06 03:14:29] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array","array","array","array"]
+[2025-05-06 03:14:29] [INFO] [RoomTicketService.php:486->addItemToRoomTicket] 処理済み商品アイテム: [{"square_item_id":"7SR2LEU5PM5XRYI5PTAPJV6E","quantity":2,"note":""},{"square_item_id":"5ZWYWPRB5ZV5JDQWYFK262NB","quantity":3,"note":""},{"square_item_id":"IAQSK35E5HCVNQLAB76CXJ7Y","quantity":4,"note":""},{"square_item_id":"3OERTMTCZPKHD4OECEVOOZVU","quantity":6,"note":""}]
+[2025-05-06 03:14:29] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 03:14:29] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 03:14:29] [INFO] [RoomTicketService.php:490->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 03:14:29] [INFO] [RoomTicketService.php:494->addItemToRoomTicket] Room fg#12 の保留伝票が存在しないため、新規作成します
+[2025-05-06 03:14:29] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#12, guestName=
+[2025-05-06 03:14:29] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 03:14:29] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 03:14:52] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 03:14:52] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 03:14:52] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#12, items: ["{\"square_item_id\":\"7SR2LEU5PM5XRYI5PTAPJV6E\",\"quantity\":2,\"note\":\"\"}","{\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"quantity\":3,\"note\":\"\"}","{\"square_item_id\":\"IAQSK35E5HCVNQLAB76CXJ7Y\",\"quantity\":4,\"note\":\"\"}","{\"square_item_id\":\"3OERTMTCZPKHD4OECEVOOZVU\",\"quantity\":6,\"note\":\"\"}"]
+[2025-05-06 03:14:52] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array","array","array","array"]
+[2025-05-06 03:14:52] [INFO] [RoomTicketService.php:486->addItemToRoomTicket] 処理済み商品アイテム: [{"square_item_id":"7SR2LEU5PM5XRYI5PTAPJV6E","quantity":2,"note":""},{"square_item_id":"5ZWYWPRB5ZV5JDQWYFK262NB","quantity":3,"note":""},{"square_item_id":"IAQSK35E5HCVNQLAB76CXJ7Y","quantity":4,"note":""},{"square_item_id":"3OERTMTCZPKHD4OECEVOOZVU","quantity":6,"note":""}]
+[2025-05-06 03:14:52] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 03:14:52] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 03:14:52] [INFO] [RoomTicketService.php:490->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 03:14:52] [INFO] [RoomTicketService.php:494->addItemToRoomTicket] Room fg#12 の保留伝票が存在しないため、新規作成します
+[2025-05-06 03:14:52] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#12, guestName=
+[2025-05-06 03:14:52] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 03:14:52] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 03:15:30] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 03:15:30] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 03:15:30] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#12, items: ["{\"square_item_id\":\"7SR2LEU5PM5XRYI5PTAPJV6E\",\"quantity\":2,\"note\":\"\"}","{\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"quantity\":3,\"note\":\"\"}","{\"square_item_id\":\"IAQSK35E5HCVNQLAB76CXJ7Y\",\"quantity\":4,\"note\":\"\"}","{\"square_item_id\":\"3OERTMTCZPKHD4OECEVOOZVU\",\"quantity\":6,\"note\":\"\"}"]
+[2025-05-06 03:15:30] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array","array","array","array"]
+[2025-05-06 03:15:30] [INFO] [RoomTicketService.php:486->addItemToRoomTicket] 処理済み商品アイテム: [{"square_item_id":"7SR2LEU5PM5XRYI5PTAPJV6E","quantity":2,"note":""},{"square_item_id":"5ZWYWPRB5ZV5JDQWYFK262NB","quantity":3,"note":""},{"square_item_id":"IAQSK35E5HCVNQLAB76CXJ7Y","quantity":4,"note":""},{"square_item_id":"3OERTMTCZPKHD4OECEVOOZVU","quantity":6,"note":""}]
+[2025-05-06 03:15:30] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 03:15:30] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 03:15:30] [INFO] [RoomTicketService.php:490->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 03:15:30] [INFO] [RoomTicketService.php:494->addItemToRoomTicket] Room fg#12 の保留伝票が存在しないため、新規作成します
+[2025-05-06 03:15:30] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#12, guestName=
+[2025-05-06 03:15:30] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 03:15:30] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 03:15:38] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 03:15:38] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 03:15:38] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#12, items: ["{\"square_item_id\":\"7SR2LEU5PM5XRYI5PTAPJV6E\",\"quantity\":2,\"note\":\"\"}","{\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"quantity\":3,\"note\":\"\"}","{\"square_item_id\":\"IAQSK35E5HCVNQLAB76CXJ7Y\",\"quantity\":4,\"note\":\"\"}","{\"square_item_id\":\"3OERTMTCZPKHD4OECEVOOZVU\",\"quantity\":6,\"note\":\"\"}"]
+[2025-05-06 03:15:38] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array","array","array","array"]
+[2025-05-06 03:15:38] [INFO] [RoomTicketService.php:486->addItemToRoomTicket] 処理済み商品アイテム: [{"square_item_id":"7SR2LEU5PM5XRYI5PTAPJV6E","quantity":2,"note":""},{"square_item_id":"5ZWYWPRB5ZV5JDQWYFK262NB","quantity":3,"note":""},{"square_item_id":"IAQSK35E5HCVNQLAB76CXJ7Y","quantity":4,"note":""},{"square_item_id":"3OERTMTCZPKHD4OECEVOOZVU","quantity":6,"note":""}]
+[2025-05-06 03:15:38] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 03:15:38] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 03:15:38] [INFO] [RoomTicketService.php:490->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 03:15:38] [INFO] [RoomTicketService.php:494->addItemToRoomTicket] Room fg#12 の保留伝票が存在しないため、新規作成します
+[2025-05-06 03:15:38] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#12, guestName=
+[2025-05-06 03:15:38] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 03:15:38] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 03:15:42] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 03:15:42] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 03:15:42] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#12, items: ["{\"square_item_id\":\"7SR2LEU5PM5XRYI5PTAPJV6E\",\"quantity\":2,\"note\":\"\"}","{\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"quantity\":3,\"note\":\"\"}","{\"square_item_id\":\"IAQSK35E5HCVNQLAB76CXJ7Y\",\"quantity\":4,\"note\":\"\"}","{\"square_item_id\":\"3OERTMTCZPKHD4OECEVOOZVU\",\"quantity\":6,\"note\":\"\"}"]
+[2025-05-06 03:15:42] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array","array","array","array"]
+[2025-05-06 03:15:42] [INFO] [RoomTicketService.php:486->addItemToRoomTicket] 処理済み商品アイテム: [{"square_item_id":"7SR2LEU5PM5XRYI5PTAPJV6E","quantity":2,"note":""},{"square_item_id":"5ZWYWPRB5ZV5JDQWYFK262NB","quantity":3,"note":""},{"square_item_id":"IAQSK35E5HCVNQLAB76CXJ7Y","quantity":4,"note":""},{"square_item_id":"3OERTMTCZPKHD4OECEVOOZVU","quantity":6,"note":""}]
+[2025-05-06 03:15:42] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 03:15:42] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 03:15:42] [INFO] [RoomTicketService.php:490->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 03:15:42] [INFO] [RoomTicketService.php:494->addItemToRoomTicket] Room fg#12 の保留伝票が存在しないため、新規作成します
+[2025-05-06 03:15:42] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#12, guestName=
+[2025-05-06 03:15:42] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 03:15:42] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 03:15:49] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 03:15:49] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 03:15:49] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#12, items: ["{\"square_item_id\":\"7SR2LEU5PM5XRYI5PTAPJV6E\",\"quantity\":2,\"note\":\"\"}","{\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"quantity\":3,\"note\":\"\"}","{\"square_item_id\":\"IAQSK35E5HCVNQLAB76CXJ7Y\",\"quantity\":4,\"note\":\"\"}","{\"square_item_id\":\"3OERTMTCZPKHD4OECEVOOZVU\",\"quantity\":6,\"note\":\"\"}"]
+[2025-05-06 03:15:49] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array","array","array","array"]
+[2025-05-06 03:15:49] [INFO] [RoomTicketService.php:486->addItemToRoomTicket] 処理済み商品アイテム: [{"square_item_id":"7SR2LEU5PM5XRYI5PTAPJV6E","quantity":2,"note":""},{"square_item_id":"5ZWYWPRB5ZV5JDQWYFK262NB","quantity":3,"note":""},{"square_item_id":"IAQSK35E5HCVNQLAB76CXJ7Y","quantity":4,"note":""},{"square_item_id":"3OERTMTCZPKHD4OECEVOOZVU","quantity":6,"note":""}]
+[2025-05-06 03:15:49] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 03:15:49] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 03:15:49] [INFO] [RoomTicketService.php:490->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 03:15:49] [INFO] [RoomTicketService.php:494->addItemToRoomTicket] Room fg#12 の保留伝票が存在しないため、新規作成します
+[2025-05-06 03:15:49] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#12, guestName=
+[2025-05-06 03:15:49] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 03:15:49] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 03:29:39] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 03:29:39] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 03:29:39] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#12, items: ["{\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"quantity\":3,\"note\":\"\"}"]
+[2025-05-06 03:29:39] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-06 03:29:39] [INFO] [RoomTicketService.php:486->addItemToRoomTicket] 処理済み商品アイテム: [{"square_item_id":"5ZWYWPRB5ZV5JDQWYFK262NB","quantity":3,"note":""}]
+[2025-05-06 03:29:39] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 03:29:39] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 03:29:39] [INFO] [RoomTicketService.php:490->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 03:29:39] [INFO] [RoomTicketService.php:494->addItemToRoomTicket] Room fg#12 の保留伝票が存在しないため、新規作成します
+[2025-05-06 03:29:39] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#12, guestName=
+[2025-05-06 03:29:39] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 03:29:39] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 03:43:34] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 03:43:34] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 03:44:57] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 03:44:57] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 03:44:57] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 03:44:57] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 03:44:57] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#12, items: ["{\"quantity\":3,\"square_item_id\":\"5ZWYWPRB5ZV5JDQWYFK262NB\",\"name\":\"イエローツイスト\",\"price\":800}"]
+[2025-05-06 03:44:57] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-06 03:44:57] [INFO] [RoomTicketService.php:486->addItemToRoomTicket] 処理済み商品アイテム: [{"square_item_id":"5ZWYWPRB5ZV5JDQWYFK262NB","quantity":3,"note":""}]
+[2025-05-06 03:44:57] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 03:44:57] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 03:44:57] [INFO] [RoomTicketService.php:490->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 03:44:57] [INFO] [RoomTicketService.php:494->addItemToRoomTicket] Room fg#12 の保留伝票が存在しないため、新規作成します
+[2025-05-06 03:44:57] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#12, guestName=
+[2025-05-06 03:44:57] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 03:44:57] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 03:46:26] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 03:46:26] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 03:46:33] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 03:46:33] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 03:53:34] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 03:53:34] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 03:53:34] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 03:53:34] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 04:40:49] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 04:40:49] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 04:40:49] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 04:40:49] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 04:40:49] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#12, items: ["{\"quantity\":3,\"name\":\"イエローツイスト\",\"price\":800}"]
+[2025-05-06 04:40:49] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-06 04:40:49] [ERROR] [RoomTicketService.php:457->addItemToRoomTicket] アイテム[0]にsquare_item_idがありません
+[2025-05-06 04:40:49] [ERROR] [RoomTicketService.php:482->addItemToRoomTicket] 処理可能な商品がありません
+[2025-05-06 04:40:51] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#12, items: ["{\"quantity\":3,\"name\":\"イエローツイスト\",\"price\":800}"]
+[2025-05-06 04:40:51] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-06 04:40:51] [ERROR] [RoomTicketService.php:457->addItemToRoomTicket] アイテム[0]にsquare_item_idがありません
+[2025-05-06 04:40:51] [ERROR] [RoomTicketService.php:482->addItemToRoomTicket] 処理可能な商品がありません
+[2025-05-06 04:46:05] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 04:46:05] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 04:46:05] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 04:46:05] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 04:46:05] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#12, items: ["{\"quantity\":3,\"name\":\"イエローツイスト\",\"price\":800}"]
+[2025-05-06 04:46:05] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-06 04:46:05] [ERROR] [RoomTicketService.php:457->addItemToRoomTicket] アイテム[0]にsquare_item_idがありません
+[2025-05-06 04:46:05] [ERROR] [RoomTicketService.php:482->addItemToRoomTicket] 処理可能な商品がありません
+[2025-05-06 04:46:07] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#12, items: ["{\"quantity\":3,\"name\":\"イエローツイスト\",\"price\":800}"]
+[2025-05-06 04:46:07] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-06 04:46:07] [ERROR] [RoomTicketService.php:457->addItemToRoomTicket] アイテム[0]にsquare_item_idがありません
+[2025-05-06 04:46:07] [ERROR] [RoomTicketService.php:482->addItemToRoomTicket] 処理可能な商品がありません
+[2025-05-06 04:50:58] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 04:50:58] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 04:50:58] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 04:50:58] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 04:50:58] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#12, items: ["{\"quantity\":3,\"name\":\"イエローツイスト\",\"price\":800}"]
+[2025-05-06 04:50:58] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-06 04:50:58] [INFO] [RoomTicketService.php:501->addItemToRoomTicket] 処理済み商品アイテム: [{"quantity":3,"note":"","name":"\u30a4\u30a8\u30ed\u30fc\u30c4\u30a4\u30b9\u30c8","price":800}]
+[2025-05-06 04:50:58] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 04:50:58] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 04:50:58] [INFO] [RoomTicketService.php:505->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 04:50:58] [INFO] [RoomTicketService.php:509->addItemToRoomTicket] Room fg#12 の保留伝票が存在しないため、新規作成します
+[2025-05-06 04:50:58] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#12, guestName=
+[2025-05-06 04:50:58] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 04:50:58] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 05:13:59] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 05:13:59] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 05:13:59] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 05:13:59] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 05:13:59] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#12, items: ["{\"quantity\":3,\"name\":\"イエローツイスト\",\"price\":800}"]
+[2025-05-06 05:13:59] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-06 05:13:59] [INFO] [RoomTicketService.php:501->addItemToRoomTicket] 処理済み商品アイテム: [{"quantity":3,"note":"","name":"\u30a4\u30a8\u30ed\u30fc\u30c4\u30a4\u30b9\u30c8","price":800}]
+[2025-05-06 05:13:59] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 05:13:59] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 05:13:59] [INFO] [RoomTicketService.php:505->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 05:13:59] [INFO] [RoomTicketService.php:509->addItemToRoomTicket] Room fg#12 の保留伝票が存在しないため、新規作成します
+[2025-05-06 05:13:59] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#12, guestName=
+[2025-05-06 05:13:59] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 05:13:59] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 05:18:22] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 05:18:22] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 05:18:22] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 05:18:22] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 05:18:22] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#12, items: ["{\"quantity\":3,\"name\":\"イエローツイスト\",\"price\":800}"]
+[2025-05-06 05:18:22] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-06 05:18:22] [INFO] [RoomTicketService.php:501->addItemToRoomTicket] 処理済み商品アイテム: [{"quantity":3,"note":"","name":"\u30a4\u30a8\u30ed\u30fc\u30c4\u30a4\u30b9\u30c8","price":800}]
+[2025-05-06 05:18:22] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 05:18:22] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 05:18:22] [INFO] [RoomTicketService.php:505->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 05:18:22] [INFO] [RoomTicketService.php:509->addItemToRoomTicket] Room fg#12 の保留伝票が存在しないため、新規作成します
+[2025-05-06 05:18:22] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#12, guestName=
+[2025-05-06 05:18:22] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 05:18:22] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 05:22:20] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 05:22:20] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 05:22:20] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 05:22:20] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 05:22:20] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#12, items: ["{\"quantity\":3,\"name\":\"イエローツイスト\",\"price\":800}"]
+[2025-05-06 05:22:20] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-06 05:22:20] [INFO] [RoomTicketService.php:501->addItemToRoomTicket] 処理済み商品アイテム: [{"quantity":3,"note":"","name":"\u30a4\u30a8\u30ed\u30fc\u30c4\u30a4\u30b9\u30c8","price":800}]
+[2025-05-06 05:22:20] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 05:22:20] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 05:22:20] [INFO] [RoomTicketService.php:505->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 05:22:20] [INFO] [RoomTicketService.php:509->addItemToRoomTicket] Room fg#12 の保留伝票が存在しないため、新規作成します
+[2025-05-06 05:22:20] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#12, guestName=
+[2025-05-06 05:22:20] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#12
+[2025-05-06 05:22:20] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#12 のアクティブなチケットが見つかりません
+[2025-05-06 05:51:32] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 05:51:32] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 05:51:32] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 05:51:32] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 05:51:32] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#02, items: ["{\"quantity\":3,\"name\":\"イエローツイスト\",\"price\":800}"]
+[2025-05-06 05:51:32] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-06 05:51:32] [INFO] [RoomTicketService.php:501->addItemToRoomTicket] 処理済み商品アイテム: [{"quantity":3,"note":"","name":"\u30a4\u30a8\u30ed\u30fc\u30c4\u30a4\u30b9\u30c8","price":800}]
+[2025-05-06 05:51:32] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-06 05:51:32] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-06 05:51:32] [INFO] [RoomTicketService.php:505->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 05:51:32] [INFO] [RoomTicketService.php:509->addItemToRoomTicket] Room fg#02 の保留伝票が存在しないため、新規作成します
+[2025-05-06 05:51:32] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#02, guestName=
+[2025-05-06 05:51:32] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-06 05:51:32] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-06 05:55:09] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 05:55:09] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 05:55:09] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 05:55:09] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 05:55:09] [INFO] [RoomTicketService.php:375->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#02, items: ["{\"quantity\":3,\"name\":\"イエローツイスト\",\"price\":800}"]
+[2025-05-06 05:55:09] [INFO] [RoomTicketService.php:406->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-06 05:55:09] [INFO] [RoomTicketService.php:501->addItemToRoomTicket] 処理済み商品アイテム: [{"quantity":3,"note":"","name":"\u30a4\u30a8\u30ed\u30fc\u30c4\u30a4\u30b9\u30c8","price":800}]
+[2025-05-06 05:55:09] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-06 05:55:09] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-06 05:55:09] [INFO] [RoomTicketService.php:505->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 05:55:09] [INFO] [RoomTicketService.php:509->addItemToRoomTicket] Room fg#02 の保留伝票が存在しないため、新規作成します
+[2025-05-06 05:55:09] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#02, guestName=
+[2025-05-06 05:55:09] [INFO] [RoomTicketService.php:283->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-06 05:55:09] [INFO] [RoomTicketService.php:291->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-06 06:11:01] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 06:11:01] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 06:11:01] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 06:11:01] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 06:11:01] [INFO] [RoomTicketService.php:421->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#02, items: ["{\"quantity\":3,\"name\":\"イエローツイスト\",\"price\":800}"]
+[2025-05-06 06:11:01] [INFO] [RoomTicketService.php:452->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-06 06:11:01] [INFO] [RoomTicketService.php:547->addItemToRoomTicket] 処理済み商品アイテム: [{"quantity":3,"note":"","name":"\u30a4\u30a8\u30ed\u30fc\u30c4\u30a4\u30b9\u30c8","price":800}]
+[2025-05-06 06:11:01] [INFO] [RoomTicketService.php:329->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-06 06:11:01] [INFO] [RoomTicketService.php:337->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-06 06:11:01] [INFO] [RoomTicketService.php:551->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 06:11:01] [INFO] [RoomTicketService.php:555->addItemToRoomTicket] Room fg#02 の保留伝票が存在しないため、新規作成します
+[2025-05-06 06:11:01] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#02, guestName=
+[2025-05-06 06:11:01] [INFO] [RoomTicketService.php:329->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-06 06:11:01] [INFO] [RoomTicketService.php:337->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-06 06:23:59] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 06:23:59] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 06:23:59] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 06:23:59] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 06:23:59] [INFO] [RoomTicketService.php:421->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#02, items: ["{\"quantity\":3,\"name\":\"イエローツイスト\",\"price\":800}"]
+[2025-05-06 06:23:59] [INFO] [RoomTicketService.php:452->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-06 06:23:59] [INFO] [RoomTicketService.php:547->addItemToRoomTicket] 処理済み商品アイテム: [{"quantity":3,"note":"","name":"\u30a4\u30a8\u30ed\u30fc\u30c4\u30a4\u30b9\u30c8","price":800}]
+[2025-05-06 06:23:59] [INFO] [RoomTicketService.php:329->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-06 06:23:59] [INFO] [RoomTicketService.php:337->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-06 06:23:59] [INFO] [RoomTicketService.php:551->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 06:23:59] [INFO] [RoomTicketService.php:555->addItemToRoomTicket] Room fg#02 の保留伝票が存在しないため、新規作成します
+[2025-05-06 06:23:59] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#02, guestName=
+[2025-05-06 06:23:59] [INFO] [RoomTicketService.php:329->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-06 06:23:59] [INFO] [RoomTicketService.php:337->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-06 06:39:26] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 06:39:26] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 06:39:26] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 06:39:26] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 06:39:26] [INFO] [RoomTicketService.php:421->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#02, items: ["{\"quantity\":3,\"name\":\"イエローツイスト\",\"price\":800}"]
+[2025-05-06 06:39:26] [INFO] [RoomTicketService.php:452->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-06 06:39:26] [INFO] [RoomTicketService.php:547->addItemToRoomTicket] 処理済み商品アイテム: [{"quantity":3,"note":"","name":"\u30a4\u30a8\u30ed\u30fc\u30c4\u30a4\u30b9\u30c8","price":800}]
+[2025-05-06 06:39:26] [INFO] [RoomTicketService.php:329->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-06 06:39:26] [INFO] [RoomTicketService.php:337->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-06 06:39:26] [INFO] [RoomTicketService.php:551->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 06:39:26] [INFO] [RoomTicketService.php:555->addItemToRoomTicket] Room fg#02 の保留伝票が存在しないため、新規作成します
+[2025-05-06 06:39:26] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#02, guestName=
+[2025-05-06 06:39:26] [INFO] [RoomTicketService.php:329->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-06 06:39:26] [INFO] [RoomTicketService.php:337->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-06 06:50:49] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 06:50:49] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 06:50:49] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 06:50:49] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 06:50:49] [INFO] [RoomTicketService.php:421->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#02, items: ["{\"quantity\":3,\"name\":\"イエローツイスト\",\"price\":800}"]
+[2025-05-06 06:50:49] [INFO] [RoomTicketService.php:452->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-06 06:50:49] [INFO] [RoomTicketService.php:547->addItemToRoomTicket] 処理済み商品アイテム: [{"quantity":3,"note":"","name":"\u30a4\u30a8\u30ed\u30fc\u30c4\u30a4\u30b9\u30c8","price":800}]
+[2025-05-06 06:50:49] [INFO] [RoomTicketService.php:329->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-06 06:50:49] [INFO] [RoomTicketService.php:337->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-06 06:50:49] [INFO] [RoomTicketService.php:551->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 06:50:49] [INFO] [RoomTicketService.php:555->addItemToRoomTicket] Room fg#02 の保留伝票が存在しないため、新規作成します
+[2025-05-06 06:50:49] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#02, guestName=
+[2025-05-06 06:50:49] [INFO] [RoomTicketService.php:329->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-06 06:50:49] [INFO] [RoomTicketService.php:337->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-06 06:58:00] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 06:58:00] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 06:58:00] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 06:58:00] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 06:58:00] [INFO] [RoomTicketService.php:421->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#02, items: ["{\"quantity\":3,\"name\":\"イエローツイスト\",\"price\":800}"]
+[2025-05-06 06:58:00] [INFO] [RoomTicketService.php:452->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-06 06:58:00] [INFO] [RoomTicketService.php:547->addItemToRoomTicket] 処理済み商品アイテム: [{"quantity":3,"note":"","name":"\u30a4\u30a8\u30ed\u30fc\u30c4\u30a4\u30b9\u30c8","price":800}]
+[2025-05-06 06:58:00] [INFO] [RoomTicketService.php:329->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-06 06:58:00] [INFO] [RoomTicketService.php:337->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-06 06:58:00] [INFO] [RoomTicketService.php:551->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 06:58:00] [INFO] [RoomTicketService.php:555->addItemToRoomTicket] Room fg#02 の保留伝票が存在しないため、新規作成します
+[2025-05-06 06:58:00] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#02, guestName=
+[2025-05-06 06:58:00] [INFO] [RoomTicketService.php:329->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-06 06:58:00] [INFO] [RoomTicketService.php:337->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-06 06:58:05] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 06:58:05] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 06:58:05] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 06:58:05] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 06:58:05] [INFO] [RoomTicketService.php:421->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#02, items: ["{\"quantity\":3,\"name\":\"イエローツイスト\",\"price\":800}"]
+[2025-05-06 06:58:05] [INFO] [RoomTicketService.php:452->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-06 06:58:05] [INFO] [RoomTicketService.php:547->addItemToRoomTicket] 処理済み商品アイテム: [{"quantity":3,"note":"","name":"\u30a4\u30a8\u30ed\u30fc\u30c4\u30a4\u30b9\u30c8","price":800}]
+[2025-05-06 06:58:05] [INFO] [RoomTicketService.php:329->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-06 06:58:05] [INFO] [RoomTicketService.php:337->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-06 06:58:05] [INFO] [RoomTicketService.php:551->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 06:58:05] [INFO] [RoomTicketService.php:555->addItemToRoomTicket] Room fg#02 の保留伝票が存在しないため、新規作成します
+[2025-05-06 06:58:05] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#02, guestName=
+[2025-05-06 06:58:05] [INFO] [RoomTicketService.php:329->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-06 06:58:05] [INFO] [RoomTicketService.php:337->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-06 07:01:26] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 07:01:26] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 07:01:26] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 07:01:26] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 07:01:26] [INFO] [RoomTicketService.php:412->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#02, items: ["{\"quantity\":3,\"name\":\"イエローツイスト\",\"price\":800}"]
+[2025-05-06 07:01:26] [INFO] [RoomTicketService.php:443->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-06 07:01:26] [INFO] [RoomTicketService.php:538->addItemToRoomTicket] 処理済み商品アイテム: [{"quantity":3,"note":"","name":"\u30a4\u30a8\u30ed\u30fc\u30c4\u30a4\u30b9\u30c8","price":800}]
+[2025-05-06 07:01:26] [INFO] [RoomTicketService.php:320->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-06 07:01:26] [INFO] [RoomTicketService.php:328->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-06 07:01:26] [INFO] [RoomTicketService.php:542->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 07:01:26] [INFO] [RoomTicketService.php:546->addItemToRoomTicket] Room fg#02 の保留伝票が存在しないため、新規作成します
+[2025-05-06 07:01:26] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#02, guestName=
+[2025-05-06 07:01:26] [INFO] [RoomTicketService.php:143->createRoomTicket] === デバッグ: 処理フロー開始 ===
+[2025-05-06 07:01:26] [INFO] [RoomTicketService.php:157->createRoomTicket] デバッグ: SquareService初期化完了
+[2025-05-06 07:01:26] [INFO] [RoomTicketService.php:320->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-06 07:01:26] [INFO] [RoomTicketService.php:328->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-06 07:01:26] [INFO] [RoomTicketService.php:162->createRoomTicket] デバッグ: 既存チケットチェック完了 - 結果: チケットなし
+[2025-05-06 07:01:35] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 07:01:35] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 07:01:35] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 07:01:35] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 07:01:35] [INFO] [RoomTicketService.php:412->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#02, items: ["{\"quantity\":3,\"name\":\"イエローツイスト\",\"price\":800}"]
+[2025-05-06 07:01:35] [INFO] [RoomTicketService.php:443->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-06 07:01:35] [INFO] [RoomTicketService.php:538->addItemToRoomTicket] 処理済み商品アイテム: [{"quantity":3,"note":"","name":"\u30a4\u30a8\u30ed\u30fc\u30c4\u30a4\u30b9\u30c8","price":800}]
+[2025-05-06 07:01:35] [INFO] [RoomTicketService.php:320->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-06 07:01:35] [INFO] [RoomTicketService.php:328->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-06 07:01:35] [INFO] [RoomTicketService.php:542->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 07:01:35] [INFO] [RoomTicketService.php:546->addItemToRoomTicket] Room fg#02 の保留伝票が存在しないため、新規作成します
+[2025-05-06 07:01:35] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#02, guestName=
+[2025-05-06 07:01:35] [INFO] [RoomTicketService.php:143->createRoomTicket] === デバッグ: 処理フロー開始 ===
+[2025-05-06 07:01:35] [INFO] [RoomTicketService.php:157->createRoomTicket] デバッグ: SquareService初期化完了
+[2025-05-06 07:01:35] [INFO] [RoomTicketService.php:320->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#02
+[2025-05-06 07:01:35] [INFO] [RoomTicketService.php:328->getRoomTicketByRoomNumber] 部屋番号 fg#02 のアクティブなチケットが見つかりません
+[2025-05-06 07:01:35] [INFO] [RoomTicketService.php:162->createRoomTicket] デバッグ: 既存チケットチェック完了 - 結果: チケットなし
+[2025-05-06 07:09:05] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 07:09:05] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 07:09:05] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-06 07:09:05] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-06 07:09:05] [INFO] [RoomTicketService.php:432->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#01, items: ["{\"quantity\":2,\"name\":\"ハーバルグリーン\",\"price\":660}","{\"quantity\":3,\"name\":\"イエローツイスト\",\"price\":800}","{\"quantity\":4,\"name\":\"クラフトコークハイ\",\"price\":770}","{\"quantity\":6,\"name\":\"サニーレッド\",\"price\":1100}"]
+[2025-05-06 07:09:05] [INFO] [RoomTicketService.php:463->addItemToRoomTicket] 商品データの型: ["array","array","array","array"]
+[2025-05-06 07:09:05] [INFO] [RoomTicketService.php:558->addItemToRoomTicket] 処理済み商品アイテム: [{"quantity":2,"note":"","name":"\u30cf\u30fc\u30d0\u30eb\u30b0\u30ea\u30fc\u30f3","price":660},{"quantity":3,"note":"","name":"\u30a4\u30a8\u30ed\u30fc\u30c4\u30a4\u30b9\u30c8","price":800},{"quantity":4,"note":"","name":"\u30af\u30e9\u30d5\u30c8\u30b3\u30fc\u30af\u30cf\u30a4","price":770},{"quantity":6,"note":"","name":"\u30b5\u30cb\u30fc\u30ec\u30c3\u30c9","price":1100}]
+[2025-05-06 07:09:05] [INFO] [RoomTicketService.php:340->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#01
+[2025-05-06 07:09:05] [INFO] [RoomTicketService.php:348->getRoomTicketByRoomNumber] 部屋番号 fg#01 のアクティブなチケットが見つかりません
+[2025-05-06 07:09:05] [INFO] [RoomTicketService.php:562->addItemToRoomTicket] 現在の部屋チケット: false
+[2025-05-06 07:09:05] [INFO] [RoomTicketService.php:566->addItemToRoomTicket] Room fg#01 の保留伝票が存在しないため、新規作成します
+[2025-05-06 07:09:05] [INFO] [RoomTicketService.php:137->createRoomTicket] createRoomTicket 開始: roomNumber=fg#01, guestName=
+[2025-05-06 07:09:05] [INFO] [RoomTicketService.php:143->createRoomTicket] === デバッグ: 処理フロー開始 ===
+[2025-05-06 07:09:05] [INFO] [RoomTicketService.php:157->createRoomTicket] デバッグ: SquareService初期化完了
+[2025-05-06 07:09:05] [INFO] [RoomTicketService.php:340->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#01
+[2025-05-06 07:09:05] [INFO] [RoomTicketService.php:348->getRoomTicketByRoomNumber] 部屋番号 fg#01 のアクティブなチケットが見つかりません
+[2025-05-06 07:09:05] [INFO] [RoomTicketService.php:162->createRoomTicket] デバッグ: 既存チケットチェック完了 - 結果: チケットなし
+[2025-05-12 22:36:34] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-12 22:36:34] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-12 22:36:34] [INFO] [RoomTicketService.php:327->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#10
+[2025-05-12 22:36:34] [INFO] [RoomTicketService.php:335->getRoomTicketByRoomNumber] 部屋番号 fg#10 のアクティブなチケットが見つかりません
+[2025-05-12 22:36:34] [INFO] [RoomTicketService.php:138->createRoomTicket] createRoomTicket 開始: roomNumber=fg#10, guestName=, lineUserId=U4d777614158c719515a7be91a41bc382
+[2025-05-12 22:36:34] [INFO] [RoomTicketService.php:144->createRoomTicket] === デバッグ: 処理フロー開始 ===
+[2025-05-12 22:36:34] [INFO] [RoomTicketService.php:164->createRoomTicket] デバッグ: SquareService初期化完了
+[2025-05-12 22:36:34] [INFO] [RoomTicketService.php:327->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#10
+[2025-05-12 22:36:34] [INFO] [RoomTicketService.php:335->getRoomTicketByRoomNumber] 部屋番号 fg#10 のアクティブなチケットが見つかりません
+[2025-05-12 22:36:34] [INFO] [RoomTicketService.php:169->createRoomTicket] デバッグ: 既存チケットチェック完了 - 結果: チケットなし
+[2025-05-12 22:36:34] [INFO] [RoomTicketService.php:205->createRoomTicket] 新規チケットID生成: dd2c5569-62ee-4f41-b8f6-5614f6468420
+[2025-05-12 22:36:34] [INFO] [RoomTicketService.php:210->createRoomTicket] デバッグ: Square API呼び出し前
+[2025-05-12 22:36:34] [INFO] [RoomTicketService.php:214->createRoomTicket] Square APIでの保留伝票作成を試行します
+[2025-05-12 22:36:34] [INFO] [RoomTicketService.php:218->createRoomTicket] デバッグ: Square API createRoomTicket呼び出し前
+[2025-05-12 22:36:35] [INFO] [RoomTicketService.php:224->createRoomTicket] デバッグ: Square API createRoomTicket呼び出し完了
+[2025-05-12 22:36:35] [INFO] [RoomTicketService.php:228->createRoomTicket] デバッグ: API呼び出し成功 - 返り値: {"square_order_id":"RSuxL60WptKjh3jCydgawZQdFkOZY","room_number":"fg#10","status":"OPEN","created_at":"2025-05-12T13:36:35.060Z"}
+[2025-05-12 22:36:35] [INFO] [RoomTicketService.php:234->createRoomTicket] Square API保留伝票作成成功: square_order_id=RSuxL60WptKjh3jCydgawZQdFkOZY
+[2025-05-12 22:36:35] [INFO] [RoomTicketService.php:247->createRoomTicket] デバッグ: Square API呼び出し後、データベース保存前
+[2025-05-12 22:36:35] [INFO] [RoomTicketService.php:257->createRoomTicket] Square注文ID取得成功: RSuxL60WptKjh3jCydgawZQdFkOZY
+[2025-05-12 22:36:35] [INFO] [RoomTicketService.php:269->createRoomTicket] 新規チケットデータ: {"id":"dd2c5569-62ee-4f41-b8f6-5614f6468420","room_number":"fg#10","guest_name":"","status":"OPEN","square_order_id":"RSuxL60WptKjh3jCydgawZQdFkOZY","created_at":"2025-05-12 22:36:34","updated_at":"2025-05-12 22:36:34"}
+[2025-05-12 22:36:35] [INFO] [RoomTicketService.php:272->createRoomTicket] デバッグ: データベース保存開始
+[2025-05-12 22:36:35] [INFO] [RoomTicketService.php:293->createRoomTicket] チケット作成成功: {"id":"dd2c5569-62ee-4f41-b8f6-5614f6468420","room_number":"fg#10","guest_name":"","status":"OPEN","square_order_id":"RSuxL60WptKjh3jCydgawZQdFkOZY","created_at":"2025-05-12 22:36:34","updated_at":"2025-05-12 22:36:34"}
+[2025-05-12 22:36:35] [INFO] [RoomTicketService.php:299->createRoomTicket] デバッグ: 処理完了 - 正常終了
+[2025-05-12 22:36:35] [INFO] [RoomTicketService.php:327->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#10
+[2025-05-12 22:36:35] [INFO] [RoomTicketService.php:351->getRoomTicketByRoomNumber] Square APIから注文情報を取得します: RSuxL60WptKjh3jCydgawZQdFkOZY
+[2025-05-12 22:36:35] [INFO] [RoomTicketService.php:374->getRoomTicketByRoomNumber] 部屋番号 fg#10 のチケット取得成功: {"id":13,"room_number":"fg#10","square_order_id":"RSuxL60WptKjh3jCydgawZQdFkOZY","status":"OPEN","created_at":"2025-05-12 22:36:34","updated_at":"2025-05-12 22:36:34","guest_name":""}
+[2025-05-12 22:36:35] [INFO] [RoomTicketService.php:419->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#10, items: ["{\"product_id\":37,\"quantity\":1,\"price\":\"660.00\"}","{\"product_id\":121,\"quantity\":8,\"price\":\"800.00\"}","{\"product_id\":117,\"quantity\":1,\"price\":\"500.00\"}"]
+[2025-05-12 22:36:35] [INFO] [RoomTicketService.php:450->addItemToRoomTicket] 商品データの型: ["array","array","array"]
+[2025-05-12 22:36:35] [ERROR] [RoomTicketService.php:515->addItemToRoomTicket] アイテム[0]に必要な識別情報がありません。square_item_idまたはname+priceの組み合わせが必要です
+[2025-05-12 22:36:35] [ERROR] [RoomTicketService.php:515->addItemToRoomTicket] アイテム[1]に必要な識別情報がありません。square_item_idまたはname+priceの組み合わせが必要です
+[2025-05-12 22:36:35] [ERROR] [RoomTicketService.php:515->addItemToRoomTicket] アイテム[2]に必要な識別情報がありません。square_item_idまたはname+priceの組み合わせが必要です
+[2025-05-12 22:36:35] [ERROR] [RoomTicketService.php:561->addItemToRoomTicket] 処理可能な商品がありません
+[2025-05-12 22:37:31] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-12 22:37:31] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-12 22:37:31] [INFO] [RoomTicketService.php:327->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#10
+[2025-05-12 22:37:31] [INFO] [RoomTicketService.php:351->getRoomTicketByRoomNumber] Square APIから注文情報を取得します: RSuxL60WptKjh3jCydgawZQdFkOZY
+[2025-05-12 22:37:31] [INFO] [RoomTicketService.php:374->getRoomTicketByRoomNumber] 部屋番号 fg#10 のチケット取得成功: {"id":13,"room_number":"fg#10","square_order_id":"RSuxL60WptKjh3jCydgawZQdFkOZY","status":"OPEN","created_at":"2025-05-12 22:36:34","updated_at":"2025-05-12 22:36:34","guest_name":""}
+[2025-05-12 22:37:31] [INFO] [RoomTicketService.php:419->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#10, items: ["{\"product_id\":37,\"quantity\":1,\"price\":\"660.00\"}","{\"product_id\":121,\"quantity\":8,\"price\":\"800.00\"}","{\"product_id\":117,\"quantity\":1,\"price\":\"500.00\"}"]
+[2025-05-12 22:37:31] [INFO] [RoomTicketService.php:450->addItemToRoomTicket] 商品データの型: ["array","array","array"]
+[2025-05-12 22:37:31] [ERROR] [RoomTicketService.php:515->addItemToRoomTicket] アイテム[0]に必要な識別情報がありません。square_item_idまたはname+priceの組み合わせが必要です
+[2025-05-12 22:37:31] [ERROR] [RoomTicketService.php:515->addItemToRoomTicket] アイテム[1]に必要な識別情報がありません。square_item_idまたはname+priceの組み合わせが必要です
+[2025-05-12 22:37:31] [ERROR] [RoomTicketService.php:515->addItemToRoomTicket] アイテム[2]に必要な識別情報がありません。square_item_idまたはname+priceの組み合わせが必要です
+[2025-05-12 22:37:31] [ERROR] [RoomTicketService.php:561->addItemToRoomTicket] 処理可能な商品がありません
+[2025-05-12 22:45:21] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-12 22:45:21] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-12 22:45:21] [INFO] [RoomTicketService.php:327->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#10
+[2025-05-12 22:45:21] [INFO] [RoomTicketService.php:351->getRoomTicketByRoomNumber] Square APIから注文情報を取得します: RSuxL60WptKjh3jCydgawZQdFkOZY
+[2025-05-12 22:45:22] [INFO] [RoomTicketService.php:374->getRoomTicketByRoomNumber] 部屋番号 fg#10 のチケット取得成功: {"id":13,"room_number":"fg#10","square_order_id":"RSuxL60WptKjh3jCydgawZQdFkOZY","status":"OPEN","created_at":"2025-05-12 22:36:34","updated_at":"2025-05-12 22:36:34","guest_name":""}
+[2025-05-12 22:45:22] [INFO] [RoomTicketService.php:419->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#10, items: ["{\"product_id\":37,\"name\":\"クラフトジンジャー\",\"quantity\":1,\"price\":\"660.00\",\"square_item_id\":null}","{\"product_id\":121,\"name\":\"特製お子様カレー\",\"quantity\":8,\"price\":\"800.00\",\"square_item_id\":null}","{\"product_id\":117,\"name\":\"しゃかポテ\",\"quantity\":1,\"price\":\"500.00\",\"square_item_id\":null}"]
+[2025-05-12 22:45:22] [INFO] [RoomTicketService.php:450->addItemToRoomTicket] 商品データの型: ["array","array","array"]
+[2025-05-12 22:45:22] [INFO] [RoomTicketService.php:565->addItemToRoomTicket] 処理済み商品アイテム: [{"quantity":1,"note":"","name":"\u30af\u30e9\u30d5\u30c8\u30b8\u30f3\u30b8\u30e3\u30fc","price":660},{"quantity":8,"note":"","name":"\u7279\u88fd\u304a\u5b50\u69d8\u30ab\u30ec\u30fc","price":800},{"quantity":1,"note":"","name":"\u3057\u3083\u304b\u30dd\u30c6","price":500}]
+[2025-05-12 22:45:22] [INFO] [RoomTicketService.php:327->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#10
+[2025-05-12 22:45:22] [INFO] [RoomTicketService.php:351->getRoomTicketByRoomNumber] Square APIから注文情報を取得します: RSuxL60WptKjh3jCydgawZQdFkOZY
+[2025-05-12 22:45:22] [INFO] [RoomTicketService.php:374->getRoomTicketByRoomNumber] 部屋番号 fg#10 のチケット取得成功: {"id":13,"room_number":"fg#10","square_order_id":"RSuxL60WptKjh3jCydgawZQdFkOZY","status":"OPEN","created_at":"2025-05-12 22:36:34","updated_at":"2025-05-12 22:36:34","guest_name":""}
+[2025-05-12 22:45:22] [INFO] [RoomTicketService.php:578->addItemToRoomTicket] 現在の部屋チケット: {"id":13,"room_number":"fg#10","square_order_id":"RSuxL60WptKjh3jCydgawZQdFkOZY","status":"OPEN","created_at":"2025-05-12 22:36:34","updated_at":"2025-05-12 22:36:34","guest_name":"","square_data":"{\"square_order_id\":\"RSuxL60WptKjh3jCydgawZQdFkOZY\",\"total_amount\":0,\"status\":\"OPEN\",\"created_at\":\"2025-05-12T13:36:35.060Z\",\"updated_at\":\"2025-05-12T13:36:35.060Z\"}"}
+[2025-05-12 22:45:22] [INFO] [RoomTicketService.php:649->addItemToRoomTicket] Square APIで商品を追加します: ["{\"quantity\":1,\"note\":\"\",\"name\":\"クラフトジンジャー\",\"price\":660}","{\"quantity\":8,\"note\":\"\",\"name\":\"特製お子様カレー\",\"price\":800}","{\"quantity\":1,\"note\":\"\",\"name\":\"しゃかポテ\",\"price\":500}"]
+[2025-05-12 22:45:28] [INFO] [RoomTicketService.php:666->addItemToRoomTicket] Square APIで商品が正常に追加されました: {"square_order_id":"lyDWH8IXNs9FzfkqnYuEnDYrKqfZY","status":"OPEN","updated_at":"2025-05-12T13:45:28.617Z"}
+[2025-05-13 07:20:15] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-13 07:20:15] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-13 07:20:15] [INFO] [RoomTicketService.php:327->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#10
+[2025-05-13 07:20:15] [INFO] [RoomTicketService.php:351->getRoomTicketByRoomNumber] Square APIから注文情報を取得します: RSuxL60WptKjh3jCydgawZQdFkOZY
+[2025-05-13 07:20:15] [INFO] [RoomTicketService.php:374->getRoomTicketByRoomNumber] 部屋番号 fg#10 のチケット取得成功: {"id":13,"room_number":"fg#10","square_order_id":"RSuxL60WptKjh3jCydgawZQdFkOZY","status":"OPEN","created_at":"2025-05-12 22:36:34","updated_at":"2025-05-12 22:36:34","guest_name":""}
+[2025-05-13 07:20:15] [INFO] [RoomTicketService.php:419->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#10, items: ["{\"product_id\":117,\"name\":\"しゃかポテ\",\"quantity\":4,\"price\":\"500.00\",\"square_item_id\":null}","{\"product_id\":121,\"name\":\"特製お子様カレー\",\"quantity\":3,\"price\":\"800.00\",\"square_item_id\":null}","{\"product_id\":25,\"name\":\"さくらチップの燻製ナッツ\",\"quantity\":1,\"price\":\"500.00\",\"square_item_id\":null}"]
+[2025-05-13 07:20:15] [INFO] [RoomTicketService.php:450->addItemToRoomTicket] 商品データの型: ["array","array","array"]
+[2025-05-13 07:20:15] [INFO] [RoomTicketService.php:565->addItemToRoomTicket] 処理済み商品アイテム: [{"quantity":4,"note":"","name":"\u3057\u3083\u304b\u30dd\u30c6","price":500},{"quantity":3,"note":"","name":"\u7279\u88fd\u304a\u5b50\u69d8\u30ab\u30ec\u30fc","price":800},{"quantity":1,"note":"","name":"\u3055\u304f\u3089\u30c1\u30c3\u30d7\u306e\u71fb\u88fd\u30ca\u30c3\u30c4","price":500}]
+[2025-05-13 07:20:15] [INFO] [RoomTicketService.php:327->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#10
+[2025-05-13 07:20:15] [INFO] [RoomTicketService.php:351->getRoomTicketByRoomNumber] Square APIから注文情報を取得します: RSuxL60WptKjh3jCydgawZQdFkOZY
+[2025-05-13 07:20:15] [INFO] [RoomTicketService.php:374->getRoomTicketByRoomNumber] 部屋番号 fg#10 のチケット取得成功: {"id":13,"room_number":"fg#10","square_order_id":"RSuxL60WptKjh3jCydgawZQdFkOZY","status":"OPEN","created_at":"2025-05-12 22:36:34","updated_at":"2025-05-12 22:36:34","guest_name":""}
+[2025-05-13 07:20:15] [INFO] [RoomTicketService.php:578->addItemToRoomTicket] 現在の部屋チケット: {"id":13,"room_number":"fg#10","square_order_id":"RSuxL60WptKjh3jCydgawZQdFkOZY","status":"OPEN","created_at":"2025-05-12 22:36:34","updated_at":"2025-05-12 22:36:34","guest_name":"","square_data":"{\"square_order_id\":\"RSuxL60WptKjh3jCydgawZQdFkOZY\",\"total_amount\":0,\"status\":\"OPEN\",\"created_at\":\"2025-05-12T13:36:35.060Z\",\"updated_at\":\"2025-05-12T13:36:35.060Z\"}"}
+[2025-05-13 07:20:15] [INFO] [RoomTicketService.php:649->addItemToRoomTicket] Square APIで商品を追加します: ["{\"quantity\":4,\"note\":\"\",\"name\":\"しゃかポテ\",\"price\":500}","{\"quantity\":3,\"note\":\"\",\"name\":\"特製お子様カレー\",\"price\":800}","{\"quantity\":1,\"note\":\"\",\"name\":\"さくらチップの燻製ナッツ\",\"price\":500}"]
+[2025-05-13 07:20:20] [INFO] [RoomTicketService.php:666->addItemToRoomTicket] Square APIで商品が正常に追加されました: {"square_order_id":"x0nbG1pTy0tecthXeeRegm8RO6KZY","status":"OPEN","updated_at":"2025-05-12T22:20:20.569Z"}
+[2025-05-13 07:40:54] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-13 07:40:54] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-13 08:01:36] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-13 08:01:36] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-13 08:01:36] [INFO] [RoomTicketService.php:327->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#10
+[2025-05-13 08:01:36] [INFO] [RoomTicketService.php:351->getRoomTicketByRoomNumber] Square APIから注文情報を取得します: RSuxL60WptKjh3jCydgawZQdFkOZY
+[2025-05-13 08:01:37] [INFO] [RoomTicketService.php:374->getRoomTicketByRoomNumber] 部屋番号 fg#10 のチケット取得成功: {"id":13,"room_number":"fg#10","square_order_id":"RSuxL60WptKjh3jCydgawZQdFkOZY","status":"OPEN","created_at":"2025-05-12 22:36:34","updated_at":"2025-05-12 22:36:34","guest_name":""}
+[2025-05-13 08:01:37] [INFO] [RoomTicketService.php:419->addItemToRoomTicket] addItemToRoomTicket called - roomNumber: fg#10, items: ["{\"product_id\":24,\"name\":\"チーズの盛り合わせ\",\"quantity\":1,\"price\":\"1500.00\",\"square_item_id\":null}"]
+[2025-05-13 08:01:37] [INFO] [RoomTicketService.php:450->addItemToRoomTicket] 商品データの型: ["array"]
+[2025-05-13 08:01:37] [INFO] [RoomTicketService.php:565->addItemToRoomTicket] 処理済み商品アイテム: [{"quantity":1,"note":"","name":"\u30c1\u30fc\u30ba\u306e\u76db\u308a\u5408\u308f\u305b","price":1500}]
+[2025-05-13 08:01:37] [INFO] [RoomTicketService.php:327->getRoomTicketByRoomNumber] getRoomTicketByRoomNumber 開始: roomNumber=fg#10
+[2025-05-13 08:01:37] [INFO] [RoomTicketService.php:351->getRoomTicketByRoomNumber] Square APIから注文情報を取得します: RSuxL60WptKjh3jCydgawZQdFkOZY
+[2025-05-13 08:01:37] [INFO] [RoomTicketService.php:374->getRoomTicketByRoomNumber] 部屋番号 fg#10 のチケット取得成功: {"id":13,"room_number":"fg#10","square_order_id":"RSuxL60WptKjh3jCydgawZQdFkOZY","status":"OPEN","created_at":"2025-05-12 22:36:34","updated_at":"2025-05-12 22:36:34","guest_name":""}
+[2025-05-13 08:01:37] [INFO] [RoomTicketService.php:578->addItemToRoomTicket] 現在の部屋チケット: {"id":13,"room_number":"fg#10","square_order_id":"RSuxL60WptKjh3jCydgawZQdFkOZY","status":"OPEN","created_at":"2025-05-12 22:36:34","updated_at":"2025-05-12 22:36:34","guest_name":"","square_data":"{\"square_order_id\":\"RSuxL60WptKjh3jCydgawZQdFkOZY\",\"total_amount\":0,\"status\":\"OPEN\",\"created_at\":\"2025-05-12T13:36:35.060Z\",\"updated_at\":\"2025-05-12T13:36:35.060Z\"}"}
+[2025-05-13 08:01:37] [INFO] [RoomTicketService.php:649->addItemToRoomTicket] Square APIで商品を追加します: ["{\"quantity\":1,\"note\":\"\",\"name\":\"チーズの盛り合わせ\",\"price\":1500}"]
+[2025-05-13 08:01:42] [INFO] [RoomTicketService.php:666->addItemToRoomTicket] Square APIで商品が正常に追加されました: {"square_order_id":"xo5Dg5o9K2e9eJHDJtSClQwmK3KZY","status":"OPEN","updated_at":"2025-05-12T23:01:42.817Z"}
+[2025-05-13 08:28:35] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-13 08:28:35] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-13 08:35:17] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-13 08:35:17] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-13 09:23:40] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-13 09:23:40] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-13 09:46:31] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-13 09:46:31] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-13 10:00:04] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-13 10:00:04] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-13 10:01:12] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-13 10:01:12] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-13 10:56:15] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-13 10:56:15] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-13 11:12:48] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-13 11:12:48] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-13 11:25:13] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-13 11:25:13] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-13 23:29:36] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-13 23:29:36] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-13 23:41:35] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-13 23:41:35] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-14 01:09:35] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-14 01:09:35] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-14 01:28:14] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-14 01:28:14] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-14 02:34:41] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-14 02:34:41] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-14 02:45:49] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-14 02:45:49] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-14 02:49:05] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-14 02:49:05] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-14 02:49:05] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-14 02:49:05] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-14 02:58:49] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-14 02:58:49] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-14 02:59:13] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-14 02:59:13] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-14 03:00:40] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-14 03:00:40] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-14 03:09:32] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-14 03:09:32] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-14 03:14:30] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-14 03:14:30] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-14 03:20:29] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-14 03:20:29] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-14 18:01:42] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-14 18:01:42] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-16 18:32:54] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-16 18:32:54] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-16 19:18:39] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-16 19:18:39] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-16 19:24:12] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-16 19:24:12] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-16 19:38:33] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-16 19:38:33] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 12:43:06] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 12:43:06] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 12:47:44] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 12:47:44] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 12:50:09] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 12:50:09] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 12:50:50] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 12:50:50] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 13:03:21] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 13:03:21] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 13:35:46] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 13:35:46] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 13:37:43] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 13:37:43] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 13:38:25] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 13:38:25] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 13:45:41] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 13:45:41] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 13:46:10] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 13:46:10] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 13:50:27] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 13:50:27] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 13:55:52] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 13:55:52] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 14:08:03] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 14:08:03] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 14:10:30] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 14:10:30] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 14:16:01] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 14:16:01] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 14:18:37] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 14:18:37] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 14:22:36] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 14:22:36] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 14:23:32] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 14:23:32] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 14:35:30] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 14:35:30] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 14:35:51] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 14:35:51] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 14:58:10] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 14:58:10] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 15:15:45] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 15:15:45] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 15:25:42] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 15:25:42] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 15:26:24] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 15:26:24] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 15:42:14] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 15:42:14] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 16:02:31] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 16:02:31] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 16:04:56] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 16:04:56] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 17:34:00] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 17:34:00] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 18:01:34] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 18:01:34] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 18:35:34] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 18:35:34] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 18:43:45] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 18:43:45] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 18:47:03] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 18:47:03] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 18:48:57] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 18:48:57] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 18:49:48] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 18:49:48] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 18:50:45] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 18:50:45] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 18:52:15] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 18:52:15] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 18:54:18] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 18:54:18] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 18:58:43] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 18:58:43] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 19:06:05] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 19:06:05] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 19:13:17] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 19:13:17] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 19:15:13] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 19:15:13] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 19:21:43] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 19:21:43] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 19:22:21] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 19:22:21] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 19:24:51] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 19:24:51] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 20:27:28] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 20:27:28] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 20:32:40] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 20:32:40] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 21:06:15] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 21:06:15] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 21:17:22] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 21:17:22] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 21:28:32] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 21:28:32] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 21:29:12] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 21:29:12] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 21:32:18] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 21:32:18] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 21:34:30] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 21:34:30] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 21:53:28] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 21:53:28] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 22:00:50] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 22:00:50] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 22:07:39] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 22:07:39] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 22:09:15] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 22:09:15] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 22:17:01] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 22:17:01] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 22:23:03] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 22:23:03] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 22:29:25] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 22:29:25] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 22:46:24] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 22:46:24] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-25 23:12:58] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-25 23:12:58] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-26 06:37:23] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-26 06:37:23] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-26 06:42:21] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-26 06:42:21] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-26 06:48:16] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-26 06:48:16] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-26 07:04:46] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-26 07:04:46] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-26 07:13:50] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-26 07:13:50] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-26 07:22:38] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-26 07:22:38] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-26 07:23:45] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-26 07:23:45] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-26 07:29:40] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-26 07:29:40] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-26 07:42:31] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-26 07:42:31] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-26 08:03:06] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-26 08:03:06] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-26 08:06:17] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-26 08:06:17] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-26 08:09:26] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-26 08:09:26] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-26 08:14:27] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-26 08:14:27] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-26 08:27:58] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-26 08:27:58] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-26 08:38:40] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-26 08:38:40] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-26 08:51:00] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-26 08:51:00] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-26 08:57:03] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-26 08:57:03] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-26 09:03:14] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-26 09:03:14] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-26 18:51:40] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-26 18:51:40] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-26 18:55:26] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-26 18:55:26] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 14:39:46] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 14:39:46] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 16:42:28] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 16:42:28] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 16:42:30] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 16:42:30] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 16:43:01] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 16:43:01] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 16:43:02] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 16:43:02] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 16:43:37] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 16:43:37] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 17:34:48] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 17:34:48] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 17:35:19] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 17:35:19] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 17:35:37] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 17:35:37] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了

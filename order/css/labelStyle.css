@@ -1,0 +1,76 @@
+/* ===== ラベルスタイル ===== */
+/* 商品のラベル表示に関するスタイル */
+
+/* ===== Product Labels ===== */
+.product-label, .product-detail-label {
+    display: inline-block;
+    font-size: 0.75rem;
+    padding: 2px 4px;
+    margin-right: 0px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 4px;
+    line-height: 1.2;
+    vertical-align: middle;
+    white-space: nowrap;    /* 改行なし */
+    overflow: visible;      /* はみ出し許可 */
+}
+
+/* 商品詳細ページのラベルスタイルを修正 */
+.product-detail-label {
+    font-size: 0.8rem;
+    padding: 3px 10px;
+    border-radius: 16px;
+    margin-right: 12px;
+}
+
+/* 商品ラベル表示を確実にするためのスタイル */
+.product-item .product-price-container .product-label {
+    display: inline-block !important;
+    color: white !important;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.product-item .product-labels {
+    display: flex;
+    flex-wrap: nowrap;    /* 改行なし */
+    gap: 6px;
+    margin-left: auto;
+    padding-right: 5px;
+    overflow: visible;    /* はみ出し許可 */
+}
+
+.product-item .product-labels .product-label {
+    display: inline-block !important;
+    color: white !important;
+    vertical-align: middle;
+}
+
+/* ピックアップ商品のラベル配置修正 */
+.product-item.pickup .product-labels {
+    display: flex;
+    flex-wrap: nowrap;    /* 改行なし */
+    margin-left: auto;
+    padding-right: 5px;
+    overflow: visible;    /* はみ出し許可 */
+}
+
+/* 商品価格ラベルコンテナ */
+.product-price-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+    position: relative;
+    width: 100%;
+}
+
+/* ラベルは右寄せで配置調整 */
+.product-price-container .product-labels {
+    margin-left: auto;
+    padding-right: 5px;
+    flex-wrap: nowrap;    /* 改行なし */
+    overflow: visible;    /* はみ出し許可 */
+} 

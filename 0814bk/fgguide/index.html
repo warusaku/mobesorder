@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>FG Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 50px;
+        }
+        
+        body {
+            background-color: white;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        }
+        
+        /* ヘッダースタイル */
+        .header {
+            background-color: #658BC1;
+            padding: 7px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .header-content {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 0 16px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        
+        .header-logo {
+            height: 24px;
+            width: auto;
+        }
+        
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 0;
+        }
+        
+        .image-item {
+            margin: 0;
+        }
+        
+        .image-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        /* オーバーレイボタンスタイル */
+        .image-item {
+            position: relative;
+        }
+        
+        .overlay-button {
+            position: absolute;
+            top: 8%;
+            right: 8%;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            z-index: 10;
+            transition: all 0.2s ease;
+        }
+        
+        .overlay-button:hover {
+            background: rgba(101, 139, 193, 0.2);
+        }
+        
+        .overlay-button:active {
+            background: rgba(101, 139, 193, 0.4);
+        }
+        
+        /* モバイル最適化されたFAQセクション */
+        .faq-section {
+            padding: 20px 16px;
+            background: white;
+        }
+        
+        .faq-section h2 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #222;
+            margin-bottom: 16px;
+            line-height: 1.4;
+        }
+        
+        .faq-section h3 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+            margin: 20px 0 12px 0;
+            line-height: 1.4;
+        }
+        
+        .faq-section p {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #444;
+            margin-bottom: 20px;
+        }
+        
+        .faq-section ul {
+            margin: 16px 0;
+            padding-left: 20px;
+        }
+        
+        .faq-section li {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #444;
+            margin-bottom: 8px;
+        }
+        
+        .faq-image {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin: 16px auto;
+            display: block;
+        }
+        
+        .highlight-box {
+            background: #f8f9fa;
+            border-left: 4px solid #658BC1;
+            padding: 16px;
+            margin: 16px 0;
+            border-radius: 4px;
+        }
+        
+        .highlight-box p {
+            margin-bottom: 0;
+            font-weight: 500;
+        }
+        
+        hr {
+            border: none;
+            border-top: 1px solid #666;
+            margin: 20px 0;
+        }
+        
+        /* 目次スタイル */
+        .table-of-contents {
+            padding: 12px;
+            margin: 15px 12px;
+        }
+        
+        .table-of-contents h2 {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 9px;
+            font-weight: bold;
+        }
+        
+        .table-of-contents ul {
+            list-style: none;
+            padding-left: 0;
+            margin: 0;
+        }
+        
+        .table-of-contents li {
+            margin-bottom: 7px;
+            line-height: 1.4;
+            position: relative;
+            padding-left: 9px;
+            padding-bottom: 7px;
+            border-bottom: 1px dashed #e0e0e0;
+        }
+        
+        .table-of-contents li:last-child {
+            border-bottom: none;
+        }
+        
+        .table-of-contents li:before {
+            content: "•";
+            color: #666;
+            position: absolute;
+            left: 0;
+        }
+        
+        .table-of-contents a {
+            color: #666;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        
+        .table-of-contents a:hover,
+        .table-of-contents a:active {
+            color: #658BC1;
+        }
+        
+        /* 画像オーバーレイボタン */
+        .image-container-with-button {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+        }
+        
+        .image-container-with-button img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .order-button {
+            position: absolute;
+            top: 7.5%;
+            right: 13.5%;
+            width: 30%;
+            height: calc(30% / 1.414);
+            background-color: transparent;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: transparent;
+            transition: all 0.2s ease;
+            z-index: 10;
+        }
+        
+
+        
+        .order-button span {
+            display: none;
+        }
+        
+        /* 右下ボタン（faq7用） */
+        .order-button-bottom-right {
+            position: absolute;
+            bottom: 8.2%;
+            right: 11.6%;
+            width: 30%;
+            height: calc(30% / 1.414);
+            background-color: transparent;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: transparent;
+            transition: all 0.2s ease;
+            z-index: 10;
+        }
+        
+
+        
+        .order-button-bottom-right span {
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="header-content">
+            <img src="images/FGLOGO.webp" alt="Fabula Glamping" class="header-logo">
+        </div>
+    </header>
+    
+                        <!-- 目次セクション -->
+                        <div class="table-of-contents">
+                            <h2>MENU</h2>
+                            <ul>
+                                <li><a href="#emergency">よくある質問</a></li>
+                                <li><a href="#wifi">Wi-Fiについて</a></li>
+                                <li><a href="#trash">ゴミ分別について</a></li>
+                                <li><a href="#notices">注意事項のご案内</a></li>
+                                <li><a href="#coffee-mill">コーヒーミルの使い方</a></li>
+                                <li><a href="#coffee-dripper">コーヒードリッパーの使い方</a></li>
+                                <li><a href="#bbq-box">BBQレンタルBOX</a></li>
+                                <li><a href="#bonfire">焚き火の組み方</a></li>
+                            </ul>
+                        </div>
+
+    <div class="container">
+        <!-- FAQ 1セクション - モバイル最適化版 -->
+        <div class="faq-section" id="faq-general">
+            <h2>よくある質問とご案内</h2>
+            <p>この度は「fabula glamping」にご宿泊いただきありがとうございます。</p>
+            <p>自然の中で、心地よく、安心してお過ごしいただくために、設備のご案内をさせていただきます。滞在中はこちらの資料をご参照ください。</p>
+            <p>その他ご不明点がありましたら、公式LINEにてお問い合わせくださいませ。</p>
+        </div>
+
+        <div class="faq-section" id="faq-general">
+            <h3 id="emergency">Q.緊急時は？</h3>
+            <p>A.公式LINEからお問合せください。</p>
+            <p style="color: red;">※夜間スタッフ不在となる為、不明な点は23:30までにお尋ねください。 23:30以降は緊急時のみの対応とさせていただきます。</p>
+            
+            <h3>Q.レイトチェックアウトは？</h3>
+            <p>A.受付にて10:00までで承ります。（モバイルオーダーからもご注文頂けます）チェックアウト時に受付スタッフにお声がけください。  お帰りの際は、お忘れ物のないようご注意くださいませ。</p>
+
+            <h3>Q.施設案内・アメニティは？</h3>
+            <p>A.案内マップをご参照ください。</p>
+            <p>※シャンプー、コンディショナー、ボディソープ フェイス&ハンドソープ、バスマット、バスタオル、フェイスタオルは常設されています。 </p>
+
+            <h3>Q.お食事は？</h3>
+            <p>A. セプション兼カフェバーのvesteliaにてお承ります。<br>CAFE：10:00～17:00 ( last order 16:00) <br>BAR：17:00～24:00 ( last order 23:30) <br>メニュー内容は公式LINEの<b>Mobile order</b>をご覧ください。</p>
+
+        </div>
+
+        <!-- FAQ 2セクション - モバイル最適化版 -->
+        <div class="faq-section" id="wifi">
+            <h3>Wi-fiについて</h3>
+            <p><b>SSID: fabulawifi</b><br><b>Pass: fg12345@</b></p>
+            <p>以下のQRコードを読み取っていただくと、すぐに接続可能でございます。</p>
+
+            <img src="images/fgwifiQR.webp" alt="FG_WIFI_QR" class="faq-image">
+            
+            <h3 id="trash">ゴミ分別について</h3>
+            
+            <img src="images/fgtrash_2.webp" alt="ブース外のごみ箱_写真" class="faq-image">
+            <img src="images/fgtrash_4.webp" alt="ブース外のごみ箱_表示" class="faq-image">
+
+            <p>ブース外でゴミ箱を捨てる際は、燃えるゴミとペットボトルを青いゴミ箱に。カンとビンをグレーのゴミ箱にお願いいたします。</p>
+            
+            <img src="images/fgtrash_3.webp" alt="ブース内のごみ箱" class="faq-image">
+            <img src="images/fgtrash_4.webp" alt="ブース内のごみ箱_表示" class="faq-image">
+            <p>ブース内でゴミ箱を捨てる際は、燃えるゴミとペットボトルはブース内のゴミ箱に。カンとビンはブース内のシンクの上にまとめていただくようお願いいたします</p>
+        </div>
+
+        <!-- FAQ 3セクション - モバイル最適化版 -->
+        <div class="faq-section" id="notices">
+            <h2>注意事項のご案内</h2>
+            <h3>騒音防止条例遵守へのご協力のお願い</h3>
+            <p>当施設がございます地域では、「騒音防止条例」が制定されております。
+                <br>つきましては、<b>22時以降のスピーカーのご利用はご遠慮いただいております。</b>また、<b>21時以降はすべてのBGMのご利用をお控えいただき、屋外での会話につきましてもお声のボリュームをおさえ、</b>隣接するブースおよび近隣の住宅にご迷惑がかからぬようご配慮をお願い申し上げます。</p>
+            
+            <hr>
+
+            <h3>感染症対策について</h3>
+            <p>・各テント内には通気口がございます。<b>通気口を開け、サーキュレーターを回していただきますと、1～2分程度で換気が可能です。</b>
+            <br> ※雨天時は通気口から水が入り込む可能性がございますので、ご注意ください。
+            <br>・各ブースにはハンドソープを設置しております。どうぞ適宜ご利用くださいませ。</p>
+            
+            <hr>
+
+            <h3>夏季の虫対策について </h3>
+            <p>・当施設は自然豊かな環境に立地しており、<b>夏季は気温の上昇に伴い虫の発生が増える傾向にございます。</b> 
+                <br>虫よけスプレー等をご活用いただき、虫刺されには十分ご注意ください。
+                <br>・万全を期しておりますが、<b>稀に蜂が巣を作る場合がございます。</b>蜂や蜂の巣を見かけた際は、<b>決して近づかず、速やかにスタッフまでお知らせください。</b></p>
+
+            <hr>
+
+            <h3>冬季の防寒対策について</h3>
+            <p>・冬季には、各テント内に<b>薪ストーブを設置しております。</b>必要に応じてご使用ください。 <br>
+                ・着火時には一時的に<b>強い臭いが発生する場合がございます。</b>また、<b>一酸化炭素中毒の危険を避けるため、設置している一酸化炭素チェッカーをご確認のうえ、換気に十分ご注意ください。</b> <br>
+                ・ストーブは使用中および使用直後に<b>高温となりますので、火傷や火災にはくれぐれもご注意ください。</b>テント生地や毛布・衣類などがストーブに近づきすぎないよう、十分ご配慮をお願いいたします。 <br>
+                ・また、<b>冬季は水道管が凍結する恐れがございますため、夜間はキッチンシンク・バスタブ・シャワーの蛇口から少量の水を出した状態でご使用ください。</b></p>
+        </div>
+
+        <!-- FAQ 4以降は画像のまま -->
+        <div class="image-item" id="coffee-mill">
+            <img src="images/faq4.png" alt="コーヒーミルの使い方" loading="lazy">
+        </div>
+        <div class="image-item" id="coffee-dripper">
+            <img src="images/faq5.png" alt="コーヒードリッパーの使い方" loading="lazy">
+        </div>
+        <div class="image-item" id="bbq-box">
+            <div class="image-container-with-button">
+                <img src="images/faq6.png" alt="BBQレンタルBOX" loading="lazy">
+                <a href="https://mobes.online/order?item=244ZDIIZFR67AIBEOOKC7L5B" class="order-button" target="_blank" title="BBQレンタルBOXのご注文">
+                    <span>ご注文はこちら</span>
+                </a>
+            </div>
+        </div>
+        <div class="image-item" id="bonfire">
+            <div class="image-container-with-button">
+                <img src="images/faq7.png" alt="焚き火の組み方" loading="lazy">
+                <a href="https://mobes.online/order?item=A6VEQLSSUSRSIZ35IX3PXTEO" class="order-button-bottom-right" target="_blank" title="焚き火セットのご注文">
+                    <span>ご注文はこちら</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

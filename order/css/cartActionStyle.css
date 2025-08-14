@@ -1,0 +1,58 @@
+/* ===== カート操作スタイル ===== */
+/* カート内の商品操作に関するスタイル定義 */
+
+/* カート内商品の数量調整と削除ボタン */
+.cart-item-actions {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.cart-quantity-control {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.cart-quantity-btn {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.cart-quantity-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.cart-quantity-value {
+    margin: 0 8px;
+    min-width: 16px;
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+.cart-item-delete {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    color: var(--error-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.cart-item-delete:hover {
+    background-color: #ffebee;
+} 

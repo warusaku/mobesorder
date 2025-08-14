@@ -1,0 +1,43 @@
+# APIリクエストをindex.phpにルーティング
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /api/
+    
+    # products ディレクトリへのアクセスを明示的に許可
+    <Directory "v1/products">
+        Order allow,deny
+        Allow from all
+        Require all granted
+    </Directory>
+    
+    # 実際のファイルやディレクトリが存在する場合は、それを使用
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    
+    # v1/products/categories.phpへのリダイレクトを削除
+    # RewriteRule ^v1/products/categories\.php$ v1/index.php [L,QSA]
+    
+    # v1/で始まるリクエストをv1/index.phpにルーティング（ただし、実際のファイルが存在する場合は除く）
+    RewriteRule ^v1(/.*)?$ v1/index.php [L,QSA]
+    
+    # webhook/square へのリクエストを処理
+    RewriteRule ^webhook/square$ webhook/square.php [L,QSA]
+    
+    # webhook/line へのリクエストを処理
+    RewriteRule ^webhook/line$ webhook/line.php [L,QSA]
+</IfModule>
+
+# PHPエラー表示設定
+php_flag display_errors off
+php_value error_reporting E_ALL & ~E_NOTICE & ~E_DEPRECATED
+
+# セキュリティヘッダー
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</IfModule>
+
+# ディレクトリリスティングを無効化
+Options -Indexes 

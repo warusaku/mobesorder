@@ -1,0 +1,84 @@
+# キャッシュ無効化の設定
+<IfModule mod_headers.c>
+    # すべてのファイルに対してキャッシュを無効化
+    Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+    Header set Pragma "no-cache"
+    Header set Expires "0"
+</IfModule>
+
+# PHP ファイルのキャッシュ無効化
+<FilesMatch "\.(php)$">
+    <IfModule mod_headers.c>
+        Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+        Header set Pragma "no-cache"
+        Header set Expires "0"
+    </IfModule>
+</FilesMatch>
+
+# 静的ファイルに対しても短いキャッシュ時間を設定（開発時に便利）
+<FilesMatch "\.(html|htm|js|css|json|svg)$">
+    <IfModule mod_headers.c>
+        Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+        Header set Pragma "no-cache"
+        Header set Expires "0"
+    </IfModule>
+</FilesMatch>
+
+# ETags無効化（Apacheのバージョンによって効果が異なる）
+<IfModule mod_headers.c>
+    Header unset ETag
+</IfModule>
+FileETag None
+
+# プロキシサーバーに対してキャッシュしないよう指示
+<IfModule mod_headers.c>
+    Header set Cache-Control "private, no-cache, no-store, proxy-revalidate, no-transform"
+    Header set Pragma "no-cache"
+</IfModule>
+
+# URLパラメータを保持するためのリダイレクト設定（QSA=クエリ文字列を追加）
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    # 基本設定：URIに変更がなくても、モジュールを有効化
+    Options -MultiViews +FollowSymLinks
+
+    RewriteBase /order/
+
+    # ========== ルートディレクトリアクセスを捕捉 ==========
+    # /order または /order/ （空パス）は 1 行目で確定させ、それ以降のルールへ流さない
+    RewriteRule ^$ index.php [L,QSA]
+
+    # LINEリダイレクト後のパラメータ（code, state, liff.state等）を保持するための設定
+    # LINEリダイレクト用のパラメータ対策 - 末尾がスラッシュの場合、index.phpを内部的に呼び出し
+    RewriteCond %{QUERY_STRING} ^(.*)code=([^&]+)(.*)$ [OR]
+    RewriteCond %{QUERY_STRING} ^(.*)state=([^&]+)(.*)$ [OR]
+    RewriteCond %{QUERY_STRING} ^(.*)liff\.state=([^&]+)(.*)$ [OR]
+    RewriteCond %{QUERY_STRING} ^(.*)line_user_id=([^&]+)(.*)$
+    RewriteCond %{REQUEST_URI} ^/order/?$
+    RewriteRule ^(.*)$ /order/index.php [QSA,L]
+    
+    # ディレクトリにアクセスした場合（/order/）、末尾にindex.phpを追加するのではなく
+    # クエリ文字列を保持したままindex.phpにリダイレクト
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteCond %{REQUEST_URI} !(.*)/$
+    RewriteRule ^(.*)$ $1/ [L,R=301,QSA]
+    
+    # ディレクトリへのアクセスでindex.phpが存在する場合、内部的にリダイレクト
+    # QSAフラグでクエリ文字列を保持
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteCond %{REQUEST_URI} (.*)/$
+    RewriteCond %{DOCUMENT_ROOT}%1/index.php -f
+    RewriteRule ^(.+)$ $1/index.php [QSA,L]
+    
+    # LINEからのコールバックやリダイレクトを処理
+    # 特にcode/stateパラメータを含むURLに対して最適化
+    RewriteCond %{REQUEST_URI} ^/order$
+    RewriteCond %{QUERY_STRING} code=
+    RewriteRule ^(.*)$ /order/index.php [QSA,L]
+</IfModule>
+
+<IfModule mod_dir.c>
+    # ディレクトリアクセス時に index.php を優先
+    DirectoryIndex index.php index.html
+</IfModule> 

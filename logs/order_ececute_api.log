@@ -1,0 +1,589 @@
+[2025-08-14 07:13:02] [INFO] log rotated
+-08-13 18:00:35] [INFO] LINE User ID: U02fdc001a665373d26b284c471151d17
+[2025-08-13 18:00:35] [INFO] 使用する部屋番号: fg#06
+[2025-08-13 18:00:38] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"350","session_id":"250812180043079923447"}
+[2025-08-13 18:00:38] [INFO] --- Request END POST /api/v1/orders/?_=1755075635597 ---
+[2025-08-13 18:20:15] [INFO] --- Request START POST /api/v1/orders/?_=1755076815095 ---
+[2025-08-13 18:20:15] [INFO] Orders API: リクエスト受信 - 2025-08-13 18:20:15
+[2025-08-13 18:20:15] [INFO] リクエストURI: /api/v1/orders/?_=1755076815095
+[2025-08-13 18:20:15] [INFO] 認証成功 - 部屋番号: fg#04
+[2025-08-13 18:20:15] [INFO] リクエストボディ: {"line_user_id":"U5a35e52911f818ac982c9fc7d3f3e8e8","room_number":"fg#04","items":[{"product_id":117,"name":"しゃかポテ","quantity":1,"price":"500.00","square_item_id":null},{"product_id":122,"name":"fabula特製ソーセージプレート","quantity":1,"price":"1600.00","square_item_id":null},{"product_id":107,"name":"豚肩ロースのシュラスコ","quantity":1,"price":"2500.00","square_item_id":null},{"product_id":123,"name":"ガーリックシュリンプフライ","quantity":1,"price":"1200.00","square_item_id":null},{"product_id":113,"name":"野菜のホイル焼き","quantity":2,"price":"500.00","square_item_id":null},{"product_id":110,"name":"ガーリックオイルのグリルバケット","quantity":2,"price":"400.00","square_item_id":null},{"product_id":14,"name":"ピルスナーウルケル","quantity":3,"price":"800.00","square_item_id":null},{"product_id":54,"name":"アップルジュース","quantity":1,"price":"500.00","square_item_id":null},{"product_id":57,"name":"カルピス","quantity":1,"price":"500.00","square_item_id":null}],"subtotal":11000,"tax":1100,"total":12100,"notes":""}
+[2025-08-13 18:20:15] [INFO] LINE User ID: U5a35e52911f818ac982c9fc7d3f3e8e8
+[2025-08-13 18:20:15] [INFO] 使用する部屋番号: fg#04
+[2025-08-13 18:20:16] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"351","session_id":"250813182015138244729"}
+[2025-08-13 18:20:16] [INFO] --- Request END POST /api/v1/orders/?_=1755076815095 ---
+[2025-08-13 18:27:21] [INFO] --- Request START POST /api/v1/orders/?_=1755077241456 ---
+[2025-08-13 18:27:21] [INFO] Orders API: リクエスト受信 - 2025-08-13 18:27:21
+[2025-08-13 18:27:21] [INFO] リクエストURI: /api/v1/orders/?_=1755077241456
+[2025-08-13 18:27:21] [INFO] 認証成功 - 部屋番号: fg#05
+[2025-08-13 18:27:21] [INFO] リクエストボディ: {"line_user_id":"U5bebb936f776968973c18a81bc617f47","room_number":"fg#05","items":[{"product_id":107,"name":"豚肩ロースのシュラスコ","quantity":1,"price":"2500.00","square_item_id":null},{"product_id":113,"name":"野菜のホイル焼き","quantity":1,"price":"500.00","square_item_id":null},{"product_id":108,"name":"ハンバーグ（網脂巻き）","quantity":1,"price":"800.00","square_item_id":null}],"subtotal":3800,"tax":380,"total":4180,"notes":"焚き火パンのメニューが見つからなかったのですが、焚き火パンもお願い出来れば幸いです"}
+[2025-08-13 18:27:21] [INFO] LINE User ID: U5bebb936f776968973c18a81bc617f47
+[2025-08-13 18:27:21] [INFO] 使用する部屋番号: fg#05
+[2025-08-13 18:27:23] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"352","session_id":"250812175124802854238"}
+[2025-08-13 18:27:23] [INFO] --- Request END POST /api/v1/orders/?_=1755077241456 ---
+[2025-08-13 18:51:40] [INFO] --- Request START POST /api/v1/orders/?_=1755078702645 ---
+[2025-08-13 18:51:40] [INFO] Orders API: リクエスト受信 - 2025-08-13 18:51:40
+[2025-08-13 18:51:40] [INFO] リクエストURI: /api/v1/orders/?_=1755078702645
+[2025-08-13 18:51:40] [INFO] 認証成功 - 部屋番号: fg#02
+[2025-08-13 18:51:40] [INFO] リクエストボディ: {"line_user_id":"Uc298ae555b0dc63c4c2831cd801b989a","room_number":"fg#02","items":[{"product_id":106,"name":"ビア缶チキン","quantity":1,"price":"2500.00","square_item_id":null},{"product_id":113,"name":"野菜のホイル焼き","quantity":1,"price":"500.00","square_item_id":null},{"product_id":116,"name":"ベーコンと茸のアヒージョ(セルフ)","quantity":1,"price":"1100.00","square_item_id":null},{"product_id":39,"name":"クラフトコークハイ","quantity":1,"price":"800.00","square_item_id":null},{"product_id":122,"name":"fabula特製ソーセージプレート","quantity":1,"price":"1600.00","square_item_id":null},{"product_id":108,"name":"ハンバーグ（網脂巻き）","quantity":1,"price":"800.00","square_item_id":null},{"product_id":110,"name":"ガーリックオイルのグリルバケット","quantity":1,"price":"400.00","square_item_id":null},{"product_id":30,"name":"山崎ハイボール","quantity":2,"price":"1500.00","square_item_id":null},{"product_id":4,"name":"パープルショット","quantity":1,"price":"800.00","square_item_id":null}],"subtotal":11500,"tax":1150,"total":12650,"notes":""}
+[2025-08-13 18:51:40] [INFO] LINE User ID: Uc298ae555b0dc63c4c2831cd801b989a
+[2025-08-13 18:51:40] [INFO] 使用する部屋番号: fg#02
+[2025-08-13 18:51:42] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"353","session_id":"250812204506720358723"}
+[2025-08-13 18:51:42] [INFO] --- Request END POST /api/v1/orders/?_=1755078702645 ---
+[2025-08-13 18:52:28] [INFO] --- Request START POST /api/v1/orders/?_=1755078748746 ---
+[2025-08-13 18:52:28] [INFO] Orders API: リクエスト受信 - 2025-08-13 18:52:28
+[2025-08-13 18:52:28] [INFO] リクエストURI: /api/v1/orders/?_=1755078748746
+[2025-08-13 18:52:28] [INFO] 認証成功 - 部屋番号: fg#05
+[2025-08-13 18:52:28] [INFO] リクエストボディ: {"line_user_id":"U5bebb936f776968973c18a81bc617f47","room_number":"fg#05","items":[{"product_id":190,"name":"薪","quantity":1,"price":"1500.00","square_item_id":null}],"subtotal":1500,"tax":150,"total":1650,"notes":""}
+[2025-08-13 18:52:28] [INFO] LINE User ID: U5bebb936f776968973c18a81bc617f47
+[2025-08-13 18:52:28] [INFO] 使用する部屋番号: fg#05
+[2025-08-13 18:52:30] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"354","session_id":"250812175124802854238"}
+[2025-08-13 18:52:30] [INFO] --- Request END POST /api/v1/orders/?_=1755078748746 ---
+[2025-08-13 18:53:01] [INFO] --- Request START POST /api/v1/orders/?_=1755078781798 ---
+[2025-08-13 18:53:01] [INFO] Orders API: リクエスト受信 - 2025-08-13 18:53:01
+[2025-08-13 18:53:01] [INFO] リクエストURI: /api/v1/orders/?_=1755078781798
+[2025-08-13 18:53:01] [INFO] 認証成功 - 部屋番号: fg#04
+[2025-08-13 18:53:01] [INFO] リクエストボディ: {"line_user_id":"U5a35e52911f818ac982c9fc7d3f3e8e8","room_number":"fg#04","items":[{"product_id":190,"name":"薪","quantity":1,"price":"1500.00","square_item_id":null},{"product_id":278,"name":"BBQレンタルBOX","quantity":1,"price":"700.00","square_item_id":null}],"subtotal":2200,"tax":220,"total":2420,"notes":""}
+[2025-08-13 18:53:01] [INFO] LINE User ID: U5a35e52911f818ac982c9fc7d3f3e8e8
+[2025-08-13 18:53:01] [INFO] 使用する部屋番号: fg#04
+[2025-08-13 18:53:02] [ERROR] Orders API Error (500): 注文作成に失敗しました
+[2025-08-13 18:53:02] [ERROR] 詳細: #0 {main}
+[2025-08-13 18:53:02] [INFO] 失敗したリクエスト: {"line_user_id":"U5a35e52911f818ac982c9fc7d3f3e8e8","room_number":"fg#04","items":[{"product_id":190,"name":"薪","quantity":1,"price":"1500.00","square_item_id":null},{"product_id":278,"name":"BBQレンタルBOX","quantity":1,"price":"700.00","square_item_id":null}],"subtotal":2200,"tax":220,"total":2420,"notes":""}
+[2025-08-13 18:53:02] [INFO] RoomTicketService.log の最新ログ: [2025-05-26 18:55:26] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-26 18:55:26] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 14:39:46] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 14:39:46] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 16:42:28] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 16:42:28] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 16:42:30] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 16:42:30] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 16:43:01] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 16:43:01] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 16:43:02] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 16:43:02] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 16:43:37] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 16:43:37] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 17:34:48] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 17:34:48] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 17:35:19] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 17:35:19] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 17:35:37] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 17:35:37] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+
+[2025-08-13 18:53:02] [INFO] SquareService.log の最新ログ: [2025-08-13 18:53:01] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-13 18:53:01] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-13 18:53:01] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-13 18:53:01] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-13 18:53:01] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-13 18:53:01] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-13 18:53:01] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-13 18:53:01] [INFO] [SquareService_cat_Catalog.php:74->SquareService_cat_Catalog::getItems] Square APIから配列形式で商品を取得: 200件
+[2025-08-13 18:53:01] [INFO] [SquareService_Base.php:25->SquareService_Base::__construct] SquareService_Base::__construct - Square API接続初期化開始
+[2025-08-13 18:53:01] [INFO] [SquareService_Base.php:47->SquareService_Base::__construct] Square API設定情報: accessToken=EAAAl..., environment=production, timeout=10, connectTimeout=3, locationId=L7161EYN8GM9H
+[2025-08-13 18:53:01] [INFO] [SquareService_Base.php:52->SquareService_Base::__construct] SquareService_Base::__construct - Square API接続初期化完了 (環境: production)
+[2025-08-13 18:53:01] [INFO] [SquareService_Base.php:25->SquareService_Base::__construct] SquareService_Base::__construct - Square API接続初期化開始
+[2025-08-13 18:53:01] [INFO] [SquareService_Base.php:47->SquareService_Base::__construct] Square API設定情報: accessToken=EAAAl..., environment=production, timeout=10, connectTimeout=3, locationId=L7161EYN8GM9H
+[2025-08-13 18:53:01] [INFO] [SquareService_Base.php:52->SquareService_Base::__construct] SquareService_Base::__construct - Square API接続初期化完了 (環境: production)
+[2025-08-13 18:53:01] [INFO] [SquareService_Session.php:37->SquareService_Session::createOrUpdateSessionProduct] createOrUpdateSessionProduct: session=250813182015138244729, total=12800, existing=NUDWHSMBCL7WBLSONYB4G4NC
+[2025-08-13 18:53:02] [INFO] [SquareService_Session.php:188->SquareService_Session::createOrUpdateSessionProduct] CATEGORY created on Square: mobesOrder id=QWFS3REE6RI4HMU2CED5DUEW
+[2025-08-13 18:53:02] [WARNING] [SquareService_Session.php:202->SquareService_Session::createOrUpdateSessionProduct] CatalogItem に metadata セッターが存在しません (SDK ver?). order_session_id は未設定
+[2025-08-13 18:53:02] [INFO] [SquareService_Session.php:224->SquareService_Session::createOrUpdateSessionProduct] UpsertCatalogObjectRequest prepared: item=#689c607e3751e, variation=#689c607e3751c
+[2025-08-13 18:53:02] [ERROR] [SquareService_Session.php:307->SquareService_Session::createOrUpdateSessionProduct] Catalog upsert error: [{"category":"RATE_LIMIT_ERROR","code":"RATE_LIMITED","detail":"Exceeded rate limit for merchant MLFP5X4SFQ4VD"}]
+[2025-08-13 18:53:02] [WARNING] [SquareService_Webhook.php:106->SquareService_Webhook::sendWebhookEvent] Webhook URL の設定がありません: event=catalog_update_failed
+
+[2025-08-13 18:53:02] [INFO] OrderService.log の最新ログ: [2025-08-13 18:27:21] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 18:27:21] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 18:27:21] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 18:27:21] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 18:27:21] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 18:51:40] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 18:51:40] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 18:51:40] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 18:51:40] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 18:51:40] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 18:52:28] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 18:52:28] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 18:52:28] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 18:52:28] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 18:52:28] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 18:53:01] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 18:53:01] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 18:53:01] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 18:53:01] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 18:53:01] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+
+[2025-08-13 18:53:02] [INFO] --- Request END POST /api/v1/orders/?_=1755078781798 ---
+[2025-08-13 18:53:17] [INFO] --- Request START POST /api/v1/orders/?_=1755078797500 ---
+[2025-08-13 18:53:17] [INFO] Orders API: リクエスト受信 - 2025-08-13 18:53:17
+[2025-08-13 18:53:17] [INFO] リクエストURI: /api/v1/orders/?_=1755078797500
+[2025-08-13 18:53:17] [INFO] 認証成功 - 部屋番号: fg#04
+[2025-08-13 18:53:17] [INFO] リクエストボディ: {"line_user_id":"U5a35e52911f818ac982c9fc7d3f3e8e8","room_number":"fg#04","items":[{"product_id":278,"name":"BBQレンタルBOX","quantity":1,"price":"700.00","square_item_id":null}],"subtotal":700,"tax":70,"total":770,"notes":""}
+[2025-08-13 18:53:17] [INFO] LINE User ID: U5a35e52911f818ac982c9fc7d3f3e8e8
+[2025-08-13 18:53:17] [INFO] 使用する部屋番号: fg#04
+[2025-08-13 18:53:20] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"355","session_id":"250813182015138244729"}
+[2025-08-13 18:53:20] [INFO] --- Request END POST /api/v1/orders/?_=1755078797500 ---
+[2025-08-13 18:55:33] [INFO] --- Request START POST /api/v1/orders/?_=1755078933549 ---
+[2025-08-13 18:55:33] [INFO] Orders API: リクエスト受信 - 2025-08-13 18:55:33
+[2025-08-13 18:55:33] [INFO] リクエストURI: /api/v1/orders/?_=1755078933549
+[2025-08-13 18:55:33] [INFO] 認証成功 - 部屋番号: fg#04
+[2025-08-13 18:55:33] [INFO] リクエストボディ: {"line_user_id":"U5a35e52911f818ac982c9fc7d3f3e8e8","room_number":"fg#04","items":[{"product_id":15,"name":"ヒューガルデンホワイト","quantity":3,"price":"800.00","square_item_id":null}],"subtotal":2400,"tax":240,"total":2640,"notes":""}
+[2025-08-13 18:55:33] [INFO] LINE User ID: U5a35e52911f818ac982c9fc7d3f3e8e8
+[2025-08-13 18:55:33] [INFO] 使用する部屋番号: fg#04
+[2025-08-13 18:55:36] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"356","session_id":"250813182015138244729"}
+[2025-08-13 18:55:36] [INFO] --- Request END POST /api/v1/orders/?_=1755078933549 ---
+[2025-08-13 19:01:44] [INFO] --- Request START POST /api/v1/orders/?_=1755079304136 ---
+[2025-08-13 19:01:44] [INFO] Orders API: リクエスト受信 - 2025-08-13 19:01:44
+[2025-08-13 19:01:44] [INFO] リクエストURI: /api/v1/orders/?_=1755079304136
+[2025-08-13 19:01:44] [INFO] 認証成功 - 部屋番号: fg#04
+[2025-08-13 19:01:44] [INFO] リクエストボディ: {"line_user_id":"U5a35e52911f818ac982c9fc7d3f3e8e8","room_number":"fg#04","items":[{"product_id":117,"name":"しゃかポテ","quantity":1,"price":"500.00","square_item_id":null},{"product_id":187,"name":"燻製チーズピザ","quantity":1,"price":"1300.00","square_item_id":null}],"subtotal":1800,"tax":180,"total":1980,"notes":""}
+[2025-08-13 19:01:44] [INFO] LINE User ID: U5a35e52911f818ac982c9fc7d3f3e8e8
+[2025-08-13 19:01:44] [INFO] 使用する部屋番号: fg#04
+[2025-08-13 19:01:46] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"357","session_id":"250813182015138244729"}
+[2025-08-13 19:01:46] [INFO] --- Request END POST /api/v1/orders/?_=1755079304136 ---
+[2025-08-13 19:05:37] [INFO] --- Request START POST /api/v1/orders/?_=1755079537882 ---
+[2025-08-13 19:05:37] [INFO] Orders API: リクエスト受信 - 2025-08-13 19:05:37
+[2025-08-13 19:05:37] [INFO] リクエストURI: /api/v1/orders/?_=1755079537882
+[2025-08-13 19:05:37] [INFO] 認証成功 - 部屋番号: fg#06
+[2025-08-13 19:05:37] [INFO] リクエストボディ: {"line_user_id":"U02fdc001a665373d26b284c471151d17","room_number":"fg#06","items":[{"product_id":34,"name":"キンミヤ生レモンサワー","quantity":1,"price":"500.00","square_item_id":null}],"subtotal":500,"tax":50,"total":550,"notes":""}
+[2025-08-13 19:05:37] [INFO] LINE User ID: U02fdc001a665373d26b284c471151d17
+[2025-08-13 19:05:37] [INFO] 使用する部屋番号: fg#06
+[2025-08-13 19:05:39] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"358","session_id":"250812180043079923447"}
+[2025-08-13 19:05:39] [INFO] --- Request END POST /api/v1/orders/?_=1755079537882 ---
+[2025-08-13 19:09:11] [INFO] --- Request START POST /api/v1/orders/?_=1755079751614 ---
+[2025-08-13 19:09:11] [INFO] Orders API: リクエスト受信 - 2025-08-13 19:09:11
+[2025-08-13 19:09:11] [INFO] リクエストURI: /api/v1/orders/?_=1755079751614
+[2025-08-13 19:09:11] [INFO] 認証成功 - 部屋番号: fg#03
+[2025-08-13 19:09:11] [INFO] リクエストボディ: {"line_user_id":"U61eef2c7ed92910555b670370357818c","room_number":"fg#03","items":[{"product_id":278,"name":"BBQレンタルBOX","quantity":1,"price":"700.00","square_item_id":null}],"subtotal":700,"tax":70,"total":770,"notes":""}
+[2025-08-13 19:09:11] [INFO] LINE User ID: U61eef2c7ed92910555b670370357818c
+[2025-08-13 19:09:11] [INFO] 使用する部屋番号: fg#03
+[2025-08-13 19:09:13] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"359","session_id":"250812213521676699650"}
+[2025-08-13 19:09:13] [INFO] --- Request END POST /api/v1/orders/?_=1755079751614 ---
+[2025-08-13 19:27:49] [INFO] --- Request START POST /api/v1/orders/?_=1755080869624 ---
+[2025-08-13 19:27:49] [INFO] Orders API: リクエスト受信 - 2025-08-13 19:27:49
+[2025-08-13 19:27:49] [INFO] リクエストURI: /api/v1/orders/?_=1755080869624
+[2025-08-13 19:27:49] [INFO] 認証成功 - 部屋番号: fg#04
+[2025-08-13 19:27:49] [INFO] リクエストボディ: {"line_user_id":"U5a35e52911f818ac982c9fc7d3f3e8e8","room_number":"fg#04","items":[{"product_id":106,"name":"ビア缶チキン","quantity":1,"price":"2500.00","square_item_id":null}],"subtotal":2500,"tax":250,"total":2750,"notes":""}
+[2025-08-13 19:27:49] [INFO] LINE User ID: U5a35e52911f818ac982c9fc7d3f3e8e8
+[2025-08-13 19:27:49] [INFO] 使用する部屋番号: fg#04
+[2025-08-13 19:27:51] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"360","session_id":"250813182015138244729"}
+[2025-08-13 19:27:51] [INFO] --- Request END POST /api/v1/orders/?_=1755080869624 ---
+[2025-08-13 19:50:08] [INFO] --- Request START POST /api/v1/orders/?_=1755082211165 ---
+[2025-08-13 19:50:08] [INFO] Orders API: リクエスト受信 - 2025-08-13 19:50:08
+[2025-08-13 19:50:08] [INFO] リクエストURI: /api/v1/orders/?_=1755082211165
+[2025-08-13 19:50:08] [INFO] 認証成功 - 部屋番号: fg#02
+[2025-08-13 19:50:08] [INFO] リクエストボディ: {"line_user_id":"Uc298ae555b0dc63c4c2831cd801b989a","room_number":"fg#02","items":[{"product_id":65,"name":"まるごと燻製バーガー","quantity":1,"price":"1900.00","square_item_id":null},{"product_id":180,"name":"マルゲリータ(セルフ)","quantity":1,"price":"1300.00","square_item_id":null}],"subtotal":3200,"tax":320,"total":3520,"notes":""}
+[2025-08-13 19:50:08] [INFO] LINE User ID: Uc298ae555b0dc63c4c2831cd801b989a
+[2025-08-13 19:50:08] [INFO] 使用する部屋番号: fg#02
+[2025-08-13 19:50:11] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"362","session_id":"250812204506720358723"}
+[2025-08-13 19:50:11] [INFO] --- Request END POST /api/v1/orders/?_=1755082211165 ---
+[2025-08-13 19:57:25] [INFO] --- Request START POST /api/v1/orders/?_=1755082645289 ---
+[2025-08-13 19:57:25] [INFO] Orders API: リクエスト受信 - 2025-08-13 19:57:25
+[2025-08-13 19:57:25] [INFO] リクエストURI: /api/v1/orders/?_=1755082645289
+[2025-08-13 19:57:25] [INFO] 認証成功 - 部屋番号: fg#04
+[2025-08-13 19:57:25] [INFO] リクエストボディ: {"line_user_id":"U5a35e52911f818ac982c9fc7d3f3e8e8","room_number":"fg#04","items":[{"product_id":25,"name":"さくらチップの燻製ナッツ","quantity":1,"price":"500.00","square_item_id":null}],"subtotal":500,"tax":50,"total":550,"notes":""}
+[2025-08-13 19:57:25] [INFO] LINE User ID: U5a35e52911f818ac982c9fc7d3f3e8e8
+[2025-08-13 19:57:25] [INFO] 使用する部屋番号: fg#04
+[2025-08-13 19:57:27] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"363","session_id":"250813182015138244729"}
+[2025-08-13 19:57:27] [INFO] --- Request END POST /api/v1/orders/?_=1755082645289 ---
+[2025-08-13 20:16:40] [INFO] --- Request START POST /api/v1/orders/?_=1755083803348 ---
+[2025-08-13 20:16:40] [INFO] Orders API: リクエスト受信 - 2025-08-13 20:16:40
+[2025-08-13 20:16:40] [INFO] リクエストURI: /api/v1/orders/?_=1755083803348
+[2025-08-13 20:16:40] [INFO] 認証成功 - 部屋番号: fg#02
+[2025-08-13 20:16:40] [INFO] リクエストボディ: {"line_user_id":"Uc298ae555b0dc63c4c2831cd801b989a","room_number":"fg#02","items":[{"product_id":30,"name":"山崎ハイボール","quantity":1,"price":"1500.00","square_item_id":null},{"product_id":31,"name":"ザ マッカラン12年 ハイボール","quantity":1,"price":"1500.00","square_item_id":null}],"subtotal":3000,"tax":300,"total":3300,"notes":""}
+[2025-08-13 20:16:40] [INFO] LINE User ID: Uc298ae555b0dc63c4c2831cd801b989a
+[2025-08-13 20:16:40] [INFO] 使用する部屋番号: fg#02
+[2025-08-13 20:16:43] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"364","session_id":"250812204506720358723"}
+[2025-08-13 20:16:43] [INFO] --- Request END POST /api/v1/orders/?_=1755083803348 ---
+[2025-08-13 20:19:02] [INFO] --- Request START POST /api/v1/orders/?_=1755083943059 ---
+[2025-08-13 20:19:02] [INFO] Orders API: リクエスト受信 - 2025-08-13 20:19:02
+[2025-08-13 20:19:02] [INFO] リクエストURI: /api/v1/orders/?_=1755083943059
+[2025-08-13 20:19:02] [INFO] 認証成功 - 部屋番号: fg#05
+[2025-08-13 20:19:02] [INFO] リクエストボディ: {"line_user_id":"U5bebb936f776968973c18a81bc617f47","room_number":"fg#05","items":[{"product_id":122,"name":"fabula特製ソーセージプレート","quantity":1,"price":"1600.00","square_item_id":null}],"subtotal":1600,"tax":160,"total":1760,"notes":""}
+[2025-08-13 20:19:02] [INFO] LINE User ID: U5bebb936f776968973c18a81bc617f47
+[2025-08-13 20:19:02] [INFO] 使用する部屋番号: fg#05
+[2025-08-13 20:19:05] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"365","session_id":"250812175124802854238"}
+[2025-08-13 20:19:05] [INFO] --- Request END POST /api/v1/orders/?_=1755083943059 ---
+[2025-08-13 20:28:57] [INFO] --- Request START POST /api/v1/orders/?_=1755084537080 ---
+[2025-08-13 20:28:57] [INFO] Orders API: リクエスト受信 - 2025-08-13 20:28:57
+[2025-08-13 20:28:57] [INFO] リクエストURI: /api/v1/orders/?_=1755084537080
+[2025-08-13 20:28:57] [INFO] 認証成功 - 部屋番号: fg#06
+[2025-08-13 20:28:57] [INFO] リクエストボディ: {"line_user_id":"U02fdc001a665373d26b284c471151d17","room_number":"fg#06","items":[{"product_id":39,"name":"クラフトコークハイ","quantity":1,"price":"800.00","square_item_id":null}],"subtotal":800,"tax":80,"total":880,"notes":""}
+[2025-08-13 20:28:57] [INFO] LINE User ID: U02fdc001a665373d26b284c471151d17
+[2025-08-13 20:28:57] [INFO] 使用する部屋番号: fg#06
+[2025-08-13 20:28:59] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"366","session_id":"250812180043079923447"}
+[2025-08-13 20:28:59] [INFO] --- Request END POST /api/v1/orders/?_=1755084537080 ---
+[2025-08-13 20:44:35] [INFO] --- Request START POST /api/v1/orders/?_=1755085475545 ---
+[2025-08-13 20:44:35] [INFO] Orders API: リクエスト受信 - 2025-08-13 20:44:35
+[2025-08-13 20:44:35] [INFO] リクエストURI: /api/v1/orders/?_=1755085475545
+[2025-08-13 20:44:35] [INFO] 認証成功 - 部屋番号: fg#06
+[2025-08-13 20:44:35] [INFO] リクエストボディ: {"line_user_id":"U02fdc001a665373d26b284c471151d17","room_number":"fg#06","items":[{"product_id":190,"name":"薪","quantity":1,"price":"1500.00","square_item_id":null}],"subtotal":1500,"tax":150,"total":1650,"notes":""}
+[2025-08-13 20:44:35] [INFO] LINE User ID: U02fdc001a665373d26b284c471151d17
+[2025-08-13 20:44:35] [INFO] 使用する部屋番号: fg#06
+[2025-08-13 20:44:37] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"367","session_id":"250812180043079923447"}
+[2025-08-13 20:44:37] [INFO] --- Request END POST /api/v1/orders/?_=1755085475545 ---
+[2025-08-14 05:19:37] [INFO] --- Request START POST /api/v1/orders/?_=1755116377197 ---
+[2025-08-14 05:19:37] [INFO] Orders API: リクエスト受信 - 2025-08-14 05:19:37
+[2025-08-14 05:19:37] [INFO] リクエストURI: /api/v1/orders/?_=1755116377197
+[2025-08-14 05:19:37] [INFO] 認証成功 - 部屋番号: fg#12
+[2025-08-14 05:19:37] [INFO] リクエストボディ: {"line_user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","items":[{"product_id":122,"name":"fabula特製ソーセージプレート","quantity":15,"price":"1600.00","square_item_id":null}],"subtotal":24000,"tax":2400,"total":26400,"notes":"テスト用です。"}
+[2025-08-14 05:19:37] [INFO] LINE User ID: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 05:19:37] [INFO] 使用する部屋番号: fg#12
+[2025-08-14 05:19:39] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"369","session_id":"250814051937211997348"}
+[2025-08-14 05:19:39] [INFO] --- Request END POST /api/v1/orders/?_=1755116377197 ---
+[2025-08-14 07:07:13] [INFO] --- Request START POST /api/v1/orders/?_=1755122833775 ---
+[2025-08-14 07:07:13] [INFO] Orders API: リクエスト受信 - 2025-08-14 07:07:13
+[2025-08-14 07:07:13] [INFO] リクエストURI: /api/v1/orders/?_=1755122833775
+[2025-08-14 07:07:13] [INFO] 認証成功 - 部屋番号: fg#12
+[2025-08-14 07:07:13] [INFO] リクエストボディ: {"line_user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","items":[{"product_id":122,"name":"fabula特製ソーセージプレート","quantity":7,"price":"1600.00","square_item_id":null}],"subtotal":11200,"tax":1120,"total":12320,"notes":"テスト"}
+[2025-08-14 07:07:13] [INFO] LINE User ID: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:07:13] [INFO] 使用する部屋番号: fg#12
+[2025-08-14 07:07:13] [ERROR] Orders API Error (500): 注文作成に失敗しました
+[2025-08-14 07:07:13] [ERROR] 詳細: #0 {main}
+[2025-08-14 07:07:13] [INFO] 失敗したリクエスト: {"line_user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","items":[{"product_id":122,"name":"fabula特製ソーセージプレート","quantity":7,"price":"1600.00","square_item_id":null}],"subtotal":11200,"tax":1120,"total":12320,"notes":"テスト"}
+[2025-08-14 07:07:13] [INFO] RoomTicketService.log の最新ログ: [2025-05-26 18:55:26] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-26 18:55:26] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 14:39:46] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 14:39:46] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 16:42:28] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 16:42:28] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 16:42:30] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 16:42:30] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 16:43:01] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 16:43:01] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 16:43:02] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 16:43:02] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 16:43:37] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 16:43:37] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 17:34:48] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 17:34:48] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 17:35:19] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 17:35:19] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 17:35:37] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 17:35:37] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+
+[2025-08-14 07:07:13] [INFO] SquareService.log の最新ログ: [2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:74->SquareService_cat_Catalog::getItems] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 07:00:54] [INFO] [SquareService_Base.php:25->SquareService_Base::__construct] SquareService_Base::__construct - Square API接続初期化開始
+[2025-08-14 07:00:54] [INFO] [SquareService_Base.php:47->SquareService_Base::__construct] Square API設定情報: accessToken=EAAAl..., environment=production, timeout=10, connectTimeout=3, locationId=L7161EYN8GM9H
+[2025-08-14 07:00:54] [INFO] [SquareService_Base.php:52->SquareService_Base::__construct] SquareService_Base::__construct - Square API接続初期化完了 (環境: production)
+[2025-08-14 07:00:54] [INFO] [SquareService_cat_Category.php:20->SquareService_cat_Category::getCategories] Square APIからカテゴリ取得開始
+[2025-08-14 07:00:55] [INFO] [SquareService_cat_Category.php:46->SquareService_cat_Category::getCategories] Square APIからカテゴリ取得成功: 23件
+
+[2025-08-14 07:07:13] [INFO] OrderService.log の最新ログ: [2025-08-13 20:44:35] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 20:44:35] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 20:44:35] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 20:44:35] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 20:44:35] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-13 21:09:47] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 21:09:47] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 21:09:47] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 21:09:47] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 21:09:47] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 05:19:37] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 05:19:37] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 05:19:37] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 05:19:37] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 05:19:37] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 07:07:13] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:07:13] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 07:07:13] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 07:07:13] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 07:07:13] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+
+[2025-08-14 07:07:13] [INFO] --- Request END POST /api/v1/orders/?_=1755122833775 ---
+[2025-08-14 07:07:17] [INFO] --- Request START POST /api/v1/orders/?_=1755122837636 ---
+[2025-08-14 07:07:17] [INFO] Orders API: リクエスト受信 - 2025-08-14 07:07:17
+[2025-08-14 07:07:17] [INFO] リクエストURI: /api/v1/orders/?_=1755122837636
+[2025-08-14 07:07:17] [INFO] 認証成功 - 部屋番号: fg#12
+[2025-08-14 07:07:17] [INFO] リクエストボディ: {"line_user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","items":[{"product_id":122,"name":"fabula特製ソーセージプレート","quantity":7,"price":"1600.00","square_item_id":null}],"subtotal":11200,"tax":1120,"total":12320,"notes":"テスト"}
+[2025-08-14 07:07:17] [INFO] LINE User ID: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:07:17] [INFO] 使用する部屋番号: fg#12
+[2025-08-14 07:07:17] [ERROR] Orders API Error (500): 注文作成に失敗しました
+[2025-08-14 07:07:17] [ERROR] 詳細: #0 {main}
+[2025-08-14 07:07:17] [INFO] 失敗したリクエスト: {"line_user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","items":[{"product_id":122,"name":"fabula特製ソーセージプレート","quantity":7,"price":"1600.00","square_item_id":null}],"subtotal":11200,"tax":1120,"total":12320,"notes":"テスト"}
+[2025-08-14 07:07:17] [INFO] RoomTicketService.log の最新ログ: [2025-05-26 18:55:26] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-26 18:55:26] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 14:39:46] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 14:39:46] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 16:42:28] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 16:42:28] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 16:42:30] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 16:42:30] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 16:43:01] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 16:43:01] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 16:43:02] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 16:43:02] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 16:43:37] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 16:43:37] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 17:34:48] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 17:34:48] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 17:35:19] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 17:35:19] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 17:35:37] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 17:35:37] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+
+[2025-08-14 07:07:17] [INFO] SquareService.log の最新ログ: [2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:74->SquareService_cat_Catalog::getItems] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 07:00:54] [INFO] [SquareService_Base.php:25->SquareService_Base::__construct] SquareService_Base::__construct - Square API接続初期化開始
+[2025-08-14 07:00:54] [INFO] [SquareService_Base.php:47->SquareService_Base::__construct] Square API設定情報: accessToken=EAAAl..., environment=production, timeout=10, connectTimeout=3, locationId=L7161EYN8GM9H
+[2025-08-14 07:00:54] [INFO] [SquareService_Base.php:52->SquareService_Base::__construct] SquareService_Base::__construct - Square API接続初期化完了 (環境: production)
+[2025-08-14 07:00:54] [INFO] [SquareService_cat_Category.php:20->SquareService_cat_Category::getCategories] Square APIからカテゴリ取得開始
+[2025-08-14 07:00:55] [INFO] [SquareService_cat_Category.php:46->SquareService_cat_Category::getCategories] Square APIからカテゴリ取得成功: 23件
+
+[2025-08-14 07:07:17] [INFO] OrderService.log の最新ログ: [2025-08-13 21:09:47] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-13 21:09:47] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-13 21:09:47] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-13 21:09:47] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-13 21:09:47] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 05:19:37] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 05:19:37] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 05:19:37] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 05:19:37] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 05:19:37] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 07:07:13] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:07:13] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 07:07:13] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 07:07:13] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 07:07:13] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 07:07:17] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:07:17] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 07:07:17] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 07:07:17] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 07:07:17] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+
+[2025-08-14 07:07:17] [INFO] --- Request END POST /api/v1/orders/?_=1755122837636 ---
+[2025-08-14 07:07:20] [INFO] --- Request START POST /api/v1/orders/?_=1755122840408 ---
+[2025-08-14 07:07:20] [INFO] Orders API: リクエスト受信 - 2025-08-14 07:07:20
+[2025-08-14 07:07:20] [INFO] リクエストURI: /api/v1/orders/?_=1755122840408
+[2025-08-14 07:07:20] [INFO] 認証成功 - 部屋番号: fg#12
+[2025-08-14 07:07:20] [INFO] リクエストボディ: {"line_user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","items":[{"product_id":122,"name":"fabula特製ソーセージプレート","quantity":7,"price":"1600.00","square_item_id":null}],"subtotal":11200,"tax":1120,"total":12320,"notes":"テスト"}
+[2025-08-14 07:07:20] [INFO] LINE User ID: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:07:20] [INFO] 使用する部屋番号: fg#12
+[2025-08-14 07:07:20] [ERROR] Orders API Error (500): 注文作成に失敗しました
+[2025-08-14 07:07:20] [ERROR] 詳細: #0 {main}
+[2025-08-14 07:07:20] [INFO] 失敗したリクエスト: {"line_user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","items":[{"product_id":122,"name":"fabula特製ソーセージプレート","quantity":7,"price":"1600.00","square_item_id":null}],"subtotal":11200,"tax":1120,"total":12320,"notes":"テスト"}
+[2025-08-14 07:07:20] [INFO] RoomTicketService.log の最新ログ: [2025-05-26 18:55:26] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-26 18:55:26] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 14:39:46] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 14:39:46] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 16:42:28] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 16:42:28] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 16:42:30] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 16:42:30] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 16:43:01] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 16:43:01] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 16:43:02] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 16:43:02] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 16:43:37] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 16:43:37] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 17:34:48] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 17:34:48] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 17:35:19] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 17:35:19] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+[2025-05-30 17:35:37] [INFO] [RoomTicketService.php:23->__construct] RoomTicketService::__construct - チケットサービス初期化開始
+[2025-05-30 17:35:37] [INFO] [RoomTicketService.php:28->__construct] RoomTicketService::__construct - チケットサービス初期化完了
+
+[2025-08-14 07:07:20] [INFO] SquareService.log の最新ログ: [2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#02-250809180133962345651
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#05-250809190840511462387
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#03-250809200052325557887
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#06-250809203951609581242
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810055452057421794
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810084419324851493
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#12-250810092251124639899
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#06-250810153948988196384
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:164->SquareService_cat_Catalog::extractImageIds] No image IDs found for item: fg#02-250810155421340724588
+[2025-08-14 07:00:03] [INFO] [SquareService_cat_Catalog.php:74->SquareService_cat_Catalog::getItems] Square APIから配列形式で商品を取得: 200件
+[2025-08-14 07:00:54] [INFO] [SquareService_Base.php:25->SquareService_Base::__construct] SquareService_Base::__construct - Square API接続初期化開始
+[2025-08-14 07:00:54] [INFO] [SquareService_Base.php:47->SquareService_Base::__construct] Square API設定情報: accessToken=EAAAl..., environment=production, timeout=10, connectTimeout=3, locationId=L7161EYN8GM9H
+[2025-08-14 07:00:54] [INFO] [SquareService_Base.php:52->SquareService_Base::__construct] SquareService_Base::__construct - Square API接続初期化完了 (環境: production)
+[2025-08-14 07:00:54] [INFO] [SquareService_cat_Category.php:20->SquareService_cat_Category::getCategories] Square APIからカテゴリ取得開始
+[2025-08-14 07:00:55] [INFO] [SquareService_cat_Category.php:46->SquareService_cat_Category::getCategories] Square APIからカテゴリ取得成功: 23件
+
+[2025-08-14 07:07:20] [INFO] OrderService.log の最新ログ: [2025-08-14 05:19:37] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 05:19:37] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 05:19:37] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 05:19:37] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 05:19:37] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 07:07:13] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:07:13] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 07:07:13] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 07:07:13] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 07:07:13] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 07:07:17] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:07:17] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 07:07:17] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 07:07:17] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 07:07:17] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+[2025-08-14 07:07:20] [INFO] [OrderService.php:364->getSquareSettings] adminsetting_registrer.php を読み込み: /home/users/2/but.jp-test-mijeos/web/fgsquare/admin/adminsetting_registrer.php
+[2025-08-14 07:07:20] [INFO] [OrderService.php:27->__construct] OrderService::__construct - 注文サービス初期化開始
+[2025-08-14 07:07:20] [INFO] [OrderService.php:38->__construct] カタログ商品モードで動作します
+[2025-08-14 07:07:20] [INFO] [OrderService.php:42->__construct] OrderService::__construct - 注文サービス初期化完了
+[2025-08-14 07:07:20] [INFO] [OrderService.php:113->createOrder] createOrder - モード: カタログ商品モード
+
+[2025-08-14 07:07:20] [INFO] --- Request END POST /api/v1/orders/?_=1755122840408 ---
+[2025-08-14 07:13:02] [INFO] --- Request START POST /api/v1/orders/?_=1755123182645 ---
+[2025-08-14 07:13:02] [INFO] Orders API: リクエスト受信 - 2025-08-14 07:13:02
+[2025-08-14 07:13:02] [INFO] リクエストURI: /api/v1/orders/?_=1755123182645
+[2025-08-14 07:13:02] [INFO] 認証成功 - 部屋番号: fg#12
+[2025-08-14 07:13:02] [INFO] リクエストボディ: {"line_user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","items":[{"product_id":122,"name":"fabula特製ソーセージプレート","quantity":7,"price":"1600.00","square_item_id":null}],"subtotal":11200,"tax":1120,"total":12320,"notes":""}
+[2025-08-14 07:13:02] [INFO] LINE User ID: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:13:02] [INFO] 使用する部屋番号: fg#12
+[2025-08-14 07:13:04] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"370","session_id":"250814051937211997348"}
+[2025-08-14 07:13:04] [INFO] --- Request END POST /api/v1/orders/?_=1755123182645 ---
+[2025-08-14 07:14:10] [INFO] --- Request START POST /api/v1/orders/?_=1755123250502 ---
+[2025-08-14 07:14:10] [INFO] Orders API: リクエスト受信 - 2025-08-14 07:14:10
+[2025-08-14 07:14:10] [INFO] リクエストURI: /api/v1/orders/?_=1755123250502
+[2025-08-14 07:14:10] [INFO] 認証成功 - 部屋番号: fg#12
+[2025-08-14 07:14:10] [INFO] リクエストボディ: {"line_user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","items":[{"product_id":122,"name":"fabula特製ソーセージプレート","quantity":2,"price":"1600.00","square_item_id":null}],"subtotal":3200,"tax":320,"total":3520,"notes":"テスト"}
+[2025-08-14 07:14:10] [INFO] LINE User ID: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:14:10] [INFO] 使用する部屋番号: fg#12
+[2025-08-14 07:14:12] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"371","session_id":"250814051937211997348"}
+[2025-08-14 07:14:12] [INFO] --- Request END POST /api/v1/orders/?_=1755123250502 ---
+[2025-08-14 07:14:40] [INFO] --- Request START POST /api/v1/orders/?_=1755123280457 ---
+[2025-08-14 07:14:40] [INFO] Orders API: リクエスト受信 - 2025-08-14 07:14:40
+[2025-08-14 07:14:40] [INFO] リクエストURI: /api/v1/orders/?_=1755123280457
+[2025-08-14 07:14:40] [INFO] 認証成功 - 部屋番号: fg#12
+[2025-08-14 07:14:40] [INFO] リクエストボディ: {"line_user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","items":[{"product_id":122,"name":"fabula特製ソーセージプレート","quantity":3,"price":"1600.00","square_item_id":null}],"subtotal":4800,"tax":480,"total":5280,"notes":""}
+[2025-08-14 07:14:40] [INFO] LINE User ID: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:14:40] [INFO] 使用する部屋番号: fg#12
+[2025-08-14 07:14:42] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"372","session_id":"250814051937211997348"}
+[2025-08-14 07:14:42] [INFO] --- Request END POST /api/v1/orders/?_=1755123280457 ---
+[2025-08-14 07:19:33] [INFO] --- Request START POST /api/v1/orders/?_=1755123573187 ---
+[2025-08-14 07:19:33] [INFO] Orders API: リクエスト受信 - 2025-08-14 07:19:33
+[2025-08-14 07:19:33] [INFO] リクエストURI: /api/v1/orders/?_=1755123573187
+[2025-08-14 07:19:33] [INFO] 認証成功 - 部屋番号: fg#12
+[2025-08-14 07:19:33] [INFO] リクエストボディ: {"line_user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","items":[{"product_id":122,"name":"fabula特製ソーセージプレート","quantity":5,"price":"1600.00","square_item_id":null}],"subtotal":8000,"tax":800,"total":8800,"notes":""}
+[2025-08-14 07:19:33] [INFO] LINE User ID: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:19:33] [INFO] 使用する部屋番号: fg#12
+[2025-08-14 07:19:35] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"373","session_id":"250814051937211997348"}
+[2025-08-14 07:19:35] [INFO] --- Request END POST /api/v1/orders/?_=1755123573187 ---
+[2025-08-14 07:20:58] [INFO] --- Request START POST /api/v1/orders/?_=1755123658032 ---
+[2025-08-14 07:20:58] [INFO] Orders API: リクエスト受信 - 2025-08-14 07:20:58
+[2025-08-14 07:20:58] [INFO] リクエストURI: /api/v1/orders/?_=1755123658032
+[2025-08-14 07:20:58] [INFO] 認証成功 - 部屋番号: fg#12
+[2025-08-14 07:20:58] [INFO] リクエストボディ: {"line_user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","items":[{"product_id":122,"name":"fabula特製ソーセージプレート","quantity":3,"price":"1600.00","square_item_id":null}],"subtotal":4800,"tax":480,"total":5280,"notes":"テスト"}
+[2025-08-14 07:20:58] [INFO] LINE User ID: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:20:58] [INFO] 使用する部屋番号: fg#12
+[2025-08-14 07:20:59] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"374","session_id":"250814051937211997348"}
+[2025-08-14 07:20:59] [INFO] --- Request END POST /api/v1/orders/?_=1755123658032 ---
+[2025-08-14 07:27:51] [INFO] --- Request START POST /api/v1/orders/?_=1755124071816 ---
+[2025-08-14 07:27:51] [INFO] Orders API: リクエスト受信 - 2025-08-14 07:27:51
+[2025-08-14 07:27:51] [INFO] リクエストURI: /api/v1/orders/?_=1755124071816
+[2025-08-14 07:27:51] [INFO] 認証成功 - 部屋番号: fg#12
+[2025-08-14 07:27:51] [INFO] リクエストボディ: {"line_user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","items":[{"product_id":122,"name":"fabula特製ソーセージプレート","quantity":1,"price":"1600.00","square_item_id":null}],"subtotal":1600,"tax":160,"total":1760,"notes":""}
+[2025-08-14 07:27:51] [INFO] LINE User ID: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:27:51] [INFO] 使用する部屋番号: fg#12
+[2025-08-14 07:27:54] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"375","session_id":"250814051937211997348"}
+[2025-08-14 07:27:54] [INFO] --- Request END POST /api/v1/orders/?_=1755124071816 ---
+[2025-08-14 07:28:54] [INFO] --- Request START POST /api/v1/orders/?_=1755124134407 ---
+[2025-08-14 07:28:54] [INFO] Orders API: リクエスト受信 - 2025-08-14 07:28:54
+[2025-08-14 07:28:54] [INFO] リクエストURI: /api/v1/orders/?_=1755124134407
+[2025-08-14 07:28:54] [INFO] 認証成功 - 部屋番号: fg#12
+[2025-08-14 07:28:54] [INFO] リクエストボディ: {"line_user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","items":[{"product_id":122,"name":"fabula特製ソーセージプレート","quantity":1,"price":"1600.00","square_item_id":null}],"subtotal":1600,"tax":160,"total":1760,"notes":""}
+[2025-08-14 07:28:54] [INFO] LINE User ID: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:28:54] [INFO] 使用する部屋番号: fg#12
+[2025-08-14 07:28:56] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"376","session_id":"250814051937211997348"}
+[2025-08-14 07:28:56] [INFO] --- Request END POST /api/v1/orders/?_=1755124134407 ---
+[2025-08-14 07:31:01] [INFO] --- Request START POST /api/v1/orders/?_=1755124261133 ---
+[2025-08-14 07:31:01] [INFO] Orders API: リクエスト受信 - 2025-08-14 07:31:01
+[2025-08-14 07:31:01] [INFO] リクエストURI: /api/v1/orders/?_=1755124261133
+[2025-08-14 07:31:01] [INFO] 認証成功 - 部屋番号: fg#12
+[2025-08-14 07:31:01] [INFO] リクエストボディ: {"line_user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","items":[{"product_id":122,"name":"fabula特製ソーセージプレート","quantity":1,"price":"1600.00","square_item_id":null}],"subtotal":1600,"tax":160,"total":1760,"notes":""}
+[2025-08-14 07:31:01] [INFO] LINE User ID: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:31:01] [INFO] 使用する部屋番号: fg#12
+[2025-08-14 07:31:03] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"377","session_id":"250814051937211997348"}
+[2025-08-14 07:31:03] [INFO] --- Request END POST /api/v1/orders/?_=1755124261133 ---
+[2025-08-14 07:49:17] [INFO] --- Request START POST /api/v1/orders/?_=1755125357353 ---
+[2025-08-14 07:49:17] [INFO] Orders API: リクエスト受信 - 2025-08-14 07:49:17
+[2025-08-14 07:49:17] [INFO] リクエストURI: /api/v1/orders/?_=1755125357353
+[2025-08-14 07:49:17] [INFO] 認証成功 - 部屋番号: fg#12
+[2025-08-14 07:49:17] [INFO] リクエストボディ: {"line_user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","items":[{"product_id":122,"name":"fabula特製ソーセージプレート","quantity":1,"price":"1600.00","square_item_id":null}],"subtotal":1600,"tax":160,"total":1760,"notes":""}
+[2025-08-14 07:49:17] [INFO] LINE User ID: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:49:17] [INFO] 使用する部屋番号: fg#12
+[2025-08-14 07:49:19] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"378","session_id":"250814051937211997348"}
+[2025-08-14 07:49:19] [INFO] --- Request END POST /api/v1/orders/?_=1755125357353 ---
+[2025-08-14 07:55:24] [INFO] --- Request START POST /api/v1/orders/?_=1755125724122 ---
+[2025-08-14 07:55:24] [INFO] Orders API: リクエスト受信 - 2025-08-14 07:55:24
+[2025-08-14 07:55:24] [INFO] リクエストURI: /api/v1/orders/?_=1755125724122
+[2025-08-14 07:55:24] [INFO] 認証成功 - 部屋番号: fg#12
+[2025-08-14 07:55:24] [INFO] リクエストボディ: {"line_user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","items":[{"product_id":120,"name":"じっくり煮込んだスペアリブカレー","quantity":5,"price":"1200.00","square_item_id":null}],"subtotal":6000,"tax":600,"total":6600,"notes":""}
+[2025-08-14 07:55:24] [INFO] LINE User ID: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:55:24] [INFO] 使用する部屋番号: fg#12
+[2025-08-14 07:55:26] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"379","session_id":"250814051937211997348"}
+[2025-08-14 07:55:26] [INFO] --- Request END POST /api/v1/orders/?_=1755125724122 ---
+[2025-08-14 07:56:03] [INFO] --- Request START POST /api/v1/orders/?_=1755125763061 ---
+[2025-08-14 07:56:03] [INFO] Orders API: リクエスト受信 - 2025-08-14 07:56:03
+[2025-08-14 07:56:03] [INFO] リクエストURI: /api/v1/orders/?_=1755125763061
+[2025-08-14 07:56:03] [INFO] 認証成功 - 部屋番号: fg#12
+[2025-08-14 07:56:03] [INFO] リクエストボディ: {"line_user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","items":[{"product_id":122,"name":"fabula特製ソーセージプレート","quantity":1,"price":"1600.00","square_item_id":null}],"subtotal":1600,"tax":160,"total":1760,"notes":""}
+[2025-08-14 07:56:03] [INFO] LINE User ID: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 07:56:03] [INFO] 使用する部屋番号: fg#12
+[2025-08-14 07:56:06] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"380","session_id":"250814051937211997348"}
+[2025-08-14 07:56:06] [INFO] --- Request END POST /api/v1/orders/?_=1755125763061 ---
+[2025-08-14 10:16:56] [INFO] --- Request START POST /api/v1/orders/?_=1755134216259 ---
+[2025-08-14 10:16:56] [INFO] Orders API: リクエスト受信 - 2025-08-14 10:16:56
+[2025-08-14 10:16:56] [INFO] リクエストURI: /api/v1/orders/?_=1755134216259
+[2025-08-14 10:16:56] [INFO] 認証成功 - 部屋番号: fg#12
+[2025-08-14 10:16:56] [INFO] リクエストボディ: {"line_user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","items":[{"product_id":122,"name":"fabula特製ソーセージプレート","quantity":1,"price":"1600.00","square_item_id":null}],"subtotal":1600,"tax":160,"total":1760,"notes":""}
+[2025-08-14 10:16:56] [INFO] LINE User ID: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 10:16:56] [INFO] 使用する部屋番号: fg#12
+[2025-08-14 10:16:58] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"381","session_id":"250814051937211997348"}
+[2025-08-14 10:16:58] [INFO] --- Request END POST /api/v1/orders/?_=1755134216259 ---
+[2025-08-14 10:20:17] [INFO] --- Request START POST /api/v1/orders/?_=1755134417880 ---
+[2025-08-14 10:20:17] [INFO] Orders API: リクエスト受信 - 2025-08-14 10:20:17
+[2025-08-14 10:20:17] [INFO] リクエストURI: /api/v1/orders/?_=1755134417880
+[2025-08-14 10:20:17] [INFO] 認証成功 - 部屋番号: fg#12
+[2025-08-14 10:20:17] [INFO] リクエストボディ: {"line_user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#12","items":[{"product_id":122,"name":"fabula特製ソーセージプレート","quantity":1,"price":"1600.00","square_item_id":null}],"subtotal":1600,"tax":160,"total":1760,"notes":"テスト用です。無視してください"}
+[2025-08-14 10:20:17] [INFO] LINE User ID: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 10:20:17] [INFO] 使用する部屋番号: fg#12
+[2025-08-14 10:20:19] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"382","session_id":"250814051937211997348"}
+[2025-08-14 10:20:19] [INFO] --- Request END POST /api/v1/orders/?_=1755134417880 ---
+[2025-08-14 10:22:22] [INFO] --- Request START POST /api/v1/orders/?_=1755134542536 ---
+[2025-08-14 10:22:22] [INFO] Orders API: リクエスト受信 - 2025-08-14 10:22:22
+[2025-08-14 10:22:22] [INFO] リクエストURI: /api/v1/orders/?_=1755134542536
+[2025-08-14 10:22:22] [INFO] 認証成功 - 部屋番号: fg#10
+[2025-08-14 10:22:22] [INFO] リクエストボディ: {"line_user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#10","items":[{"product_id":122,"name":"fabula特製ソーセージプレート","quantity":9,"price":"1600.00","square_item_id":null}],"subtotal":14400,"tax":1440,"total":15840,"notes":"テスト用注文です。無視してください"}
+[2025-08-14 10:22:22] [INFO] LINE User ID: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 10:22:22] [INFO] 使用する部屋番号: fg#10
+[2025-08-14 10:22:24] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"383","session_id":"250814102222553726941"}
+[2025-08-14 10:22:24] [INFO] --- Request END POST /api/v1/orders/?_=1755134542536 ---
+[2025-08-14 10:30:45] [INFO] --- Request START POST /api/v1/orders/?_=1755135045108 ---
+[2025-08-14 10:30:45] [INFO] Orders API: リクエスト受信 - 2025-08-14 10:30:45
+[2025-08-14 10:30:45] [INFO] リクエストURI: /api/v1/orders/?_=1755135045108
+[2025-08-14 10:30:45] [INFO] 認証成功 - 部屋番号: fg#10
+[2025-08-14 10:30:45] [INFO] リクエストボディ: {"line_user_id":"U9e1f5c66b4a26fd0c33c890ad826b192","room_number":"fg#10","items":[{"product_id":122,"name":"fabula特製ソーセージプレート","quantity":3,"price":"1600.00","square_item_id":null}],"subtotal":4800,"tax":480,"total":5280,"notes":"テスト用です"}
+[2025-08-14 10:30:45] [INFO] LINE User ID: U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-08-14 10:30:45] [INFO] 使用する部屋番号: fg#10
+[2025-08-14 10:30:47] [INFO] レスポンス: {"success":true,"mode":"product","order_id":"384","session_id":"250814102222553726941"}
+[2025-08-14 10:30:47] [INFO] --- Request END POST /api/v1/orders/?_=1755135045108 ---

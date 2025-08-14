@@ -1,0 +1,77 @@
+/* ===== 基本設定 ===== */
+:root {
+    --primary-color: #4CAF50;
+    --primary-dark: #388E3C;
+    --primary-light: #C8E6C9;
+    --accent-color: #FF9800;
+    --text-primary: #212121;
+    --text-secondary: #757575;
+    --text-white: #FFFFFF;
+    --divider-color: #BDBDBD;
+    --error-color: #F44336;
+    --success-color: #4CAF50;
+    --warning-color: #FF9800;
+    --bg-color: #F5F5F5;
+    --card-color: #FFFFFF;
+    --header-height: 75px;
+    --footer-height: 70px;
+    --sidebar-width: 100px;
+    --side-padding: 16px;
+    --border-radius: 8px;
+    --shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+    --content-max-width: 600px;
+    --grid-gap: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: var(--text-primary);
+    background-color: #FEFAFC;
+    line-height: 1.6;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+    font-family: 'Noto Sans JP', sans-serif;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* === スタイル分割状況 ===
+- スタイルは下記のように分割しました：
+  - 基本設定：style.css（このファイル）
+  - ヘッダー関連：header.css
+  - フッター関連：footer.css
+  - ページレイアウト関連：pageStyle.css
+  - カード関連：cardStyle.css
+  - モーダル関連：modalStyle.css
+  - 商品詳細関連：productDetailStyle.css
+  - ラベル関連：labelStyle.css
+  - ピックアップ商品関連：pickupStyle.css
+  - 注文履歴関連：historyStyle.css
+  - レスポンシブ関連：responsiveStyle.css
+  - 営業時間外表示関連：closedStyle.css
+  - カート操作関連：cartActionStyle.css
+  - タブ関連：tabStyle.css
+  - カート関連：cartStyle.css
+  - ローディング関連：loadingStyle.css
+=== style.cssには基本スタイル定義のみ残しました === */

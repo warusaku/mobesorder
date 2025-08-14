@@ -1,0 +1,294 @@
+{
+    "admin_setting": {
+        "user": {
+            "fabula": [
+                "fg12345@",
+                "fg12345@"
+            ],
+            "tetrad": [
+                "tetrad12345@",
+                "tetrad12345@"
+            ]
+        },
+        "adminpage_setting": {
+            "pagedesign": {
+                "header": {
+                    "header_color": "#a9a9a9",
+                    "header_logo": "https:\/\/mobes.online\/admin\/images\/mobes_logo.svg",
+                    "header_height": "50px",
+                    "header_logo_height": "35px",
+                    "header_logo_width": "178px",
+                    "header_title": "管理者ページ",
+                    "header_title_color": "#FFFFFF",
+                    "header_title_font_size": "20px",
+                    "header_title_font_weight": "bold",
+                    "header_title_font_family": "Arial",
+                    "header_title_text_align": "left",
+                    "header_title_position_holizontal(origin_margin_toLofgo)": "50px",
+                    "header_title_position_vertical(origin_header_bottom)": "-10px"
+                },
+                "footer": {
+                    "footer_color": "#a9a9a9",
+                    "footer_text": "© 2025 Mobes.Online",
+                    "footer_text_color": "#FFFFFF",
+                    "footer_text_font_size": "12px",
+                    "footer_text_font_weight": "normal",
+                    "footer_text_font_family": "Arial"
+                }
+            },
+            "page_permission": {
+                "permission_setting": {
+                    "index": {
+                        "php": "0"
+                    },
+                    "products_sync": {
+                        "php": "0"
+                    },
+                    "manage_categories": {
+                        "php": "0"
+                    },
+                    "product_display_util": {
+                        "php": "0"
+                    },
+                    "sales_monitor": {
+                        "php": "0"
+                    },
+                    "roomsetting": {
+                        "php": "0"
+                    },
+                    "global_Settings": {
+                        "php": "0"
+                    }
+                }
+            }
+        }
+    },
+    "product_display_util": {
+        "directlink_baseURL": "https:\/\/mobes.online\/order"
+    },
+    "open_close": {
+        "default_open": "04:00",
+        "default_close": "22:00",
+        "interval": {
+            "interval": {
+                "昼休み": [
+                    "12:00",
+                    "13:00"
+                ],
+                "夕方休憩": [
+                    "15:00",
+                    "16:00"
+                ]
+            }
+        },
+        "Days off": [],
+        "Restrict individual": false
+    },
+    "register_settings": {
+        "Unpaid room change": "0",
+        "Notification of joining a room": "on",
+        "Notification of room change": "on",
+        "base_url": "https:\/\/mobes.online\/register\/index.php"
+    },
+    "order_settings": {
+        "cash on payment": "0",
+        "tax rate": "10",
+        "online payment provider": "stripe",
+        "provider_settings": {
+            "stripe": {
+                "public key": "",
+                "secret key": "",
+                "webhook secret": "",
+                "currency": "jpy",
+                "payment description": "モバイルオーダー"
+            }
+        }
+    },
+    "login_settings": {
+        "line_login_required": "on",
+        "room_link_required": "on",
+        "line_official_account": {
+            "enabled": "on",
+            "official_account_id": "@054tkleg",
+            "official_account_name": "Mobes モバイルオーダー",
+            "add_friend_required": "on",
+            "add_friend_url": "https:\/\/lin.ee\/STOIqwg",
+            "add_friend_message": "ご利用にはLINE公式アカウントの友だち追加が必要です",
+            "add_friend_button_text": "友だち追加する",
+            "qr_code_url": "",
+            "rich_menu_enabled": "on",
+            "welcome_message": "友だち追加ありがとうございます！部屋番号を登録してモバイルオーダーをご利用ください。"
+        }
+    },
+    "inform_modal": {
+        "store_closed": {
+            "icon_type_fontawesome": "fa-solid fa-clock",
+            "icon_size": "50px",
+            "title": "現在全ての商品が営業時間外です。",
+            "message": "現在モバイルオーダーは使用できません。次の営業開始は{NEXT_OPEN_TIME}です。",
+            "background_color": "#FFF4E5",
+            "text_color": "#333333",
+            "button_text": "閉じる",
+            "force_link": "0",
+            "force_link_url": "https:\/\/mobes.online\/register",
+            "force_link_message": "5秒後に登録ページに移動します",
+            "force_link_timeout": "5"
+        },
+        "room_register_alert": {
+            "icon_type_fontawesome": "fa-solid fa-qrcode",
+            "icon_size": "50px",
+            "title": "部屋登録がありません",
+            "message": "ご利用にはQRコードの読み込みが必要です。フロントまたは部屋に設置されたQRコードを読み込んでモバイルオーダーをアクティベートしてください。",
+            "background_color": "#E5F3FF",
+            "text_color": "#333333",
+            "button_text": "OK",
+            "force_link": "on",
+            "force_link_url": "https:\/\/mobes.online\/register",
+            "force_link_message": "5秒後に登録ページに移動します",
+            "force_link_timeout": "5"
+        },
+        "Unpaid room change_alert": {
+            "icon_type_fontawesome": "fa-solid fa-triangle-exclamation",
+            "icon_size": "50px",
+            "title": "現在{room_number}でご利用中です。",
+            "message": "部屋番号の登録変更には現在のお会計の精算が必要となります",
+            "background_color": "#E5F3FF",
+            "text_color": "#333333",
+            "button_text": "OK",
+            "force_link": "0",
+            "force_link_url": "https:\/\/mobes.online\/register",
+            "force_link_message": "5秒後に登録ページに移動します",
+            "force_link_timeout": "5"
+        },
+        "Notification of joining a room": {
+            "icon_type_fontawesome": "fa-solid fa-triangle-exclamation",
+            "icon_size": "50px",
+            "title": "{room_number}にはユーザーがいます。",
+            "message": "現在{room_number}には{number_of_people_in_room}人ご利用中です。{usernames}がご利用中です。",
+            "background_color": "#E5F3FF",
+            "text_color": "#333333",
+            "button_text": "OK",
+            "force_link": "0",
+            "force_link_url": "https:\/\/mobes.online\/register",
+            "force_link_message": "5秒後に登録ページに移動します",
+            "force_link_timeout": "5"
+        },
+        "Notification of room change": {
+            "icon_type_fontawesome": "fa-solid fa-triangle-exclamation",
+            "icon_size": "50px",
+            "title": "部屋番号を{room_number}から変更しますか？",
+            "message": "未精算の注文がある場合変更はできません。",
+            "background_color": "#E5F3FF",
+            "text_color": "#333333",
+            "button_text": "OK",
+            "force_link": "on",
+            "force_link_url": "https:\/\/mobes.online\/register",
+            "force_link_message": "10秒後に登録ページに移動します",
+            "force_link_timeout": "10"
+        }
+    },
+    "square_settings": {
+        "open_ticket": "0",
+        "mobile_order_category": "mobesOrder"
+    },
+    "order_webhooks": {
+        "webhook_url1": "https:\/\/discord.com\/api\/webhooks\/1368565340660957214\/akwiol5m_LphtVCCnQ4J6V4HnZhIqTCP7wDNwQS3bNycow3uQxD8SC3nQClKoEf41DSy",
+        "webhook_url2": "https:\/\/discord.com\/api\/webhooks\/1371892275252166666\/AuKMmOCqs6sdTf7dDWiIkFKf9qEyi-F8MlrKniqOjpK9GIoSn6Z8LnhPwy7sbhXczWoh",
+        "webhook_url3": "",
+        "webhook_url4": "",
+        "webhook_url5": "",
+        "webhook_url6": "",
+        "webhook_url7": "",
+        "webhook_url8": "",
+        "webhook_url9": "",
+        "webhook_url10": ""
+    },
+    "lumos_console": {
+        "poll_interval_sec": "5",
+        "lumos_endpoint": "https:\/\/mobes.online\/api\/lumos_gateway.php"
+    },
+    "mobes_ai": {
+        "prompt": "あなたはMOBESのAIアシスタントです。お客様の好みに合わせて商品を提案してください。",
+        "mode_prompts": {
+            "omakase": "あなたはmobesのAIコンシェルジュです。以下の条件で10品程度のフルコーディネートを作成してください。\n【必須ルール】\n1. フード系カテゴリー('フード','セルフメイドメニュー','バーガー','ピザ')から合計3品以上選ぶ。\n2. お酒カテゴリー('ビール物販','コーディアルカクテル','アルコール','赤ワイン','白ワイン','ホットアルコール','ロゼワイン','シャンパン')からは人数分。\n3. ノンアルコールドリンクカテゴリー('クラフトドリンク','ソフトドリンク')からは飲酒しない人数分を目安に選択。全員飲酒の場合は省略可。\n4. 食後のデザートとして 'スイーツ' または 'セルフメイドメニュー' から1品以上。\n5. 合計でおおむね10品前後になるよう調整し、足りない場合はバランス良く追加。\n6. 出力は1行目にJSON配列(product_id, qty)のみ、2行目に100〜200字の日本語解説とする。",
+            "sommelier": "あなたは熟練のソムリエです。お客様の好みやお料理に最適なワインやシャンパンをご提案します。\n【重要】\n1. ワインやシャンパンを中心に、中価格帯の商品から提案してください。\n2. お客様の好みを伺い、それに合った銘柄を3品程度ご提案ください。\n3. なぜその商品を選んだのか、味わいの特徴や合わせる料理などを簡潔に説明してください。\n4. 出力は必ず1行目にJSON配列(product_id, qty)のみを角括弧で記述し、改行して2行目以降に日本語説明を書くこと。",
+            "suggest": "あなたはmobesのおすすめアシスタントです。\n【ルール】\n1. お客様の希望を2往復以内の会話で聞き出してください。\n2. 気分、予算、好みなどを考慮して最適な商品を提案します。\n3. 最終的に3商品程度を提案してください。\n4. 出力は1行目にJSON配列(product_id, qty)、2行目に提案理由を100〜200字で記載。"
+        },
+        "mode_keywords": {
+            "sommelier": {
+                "category_keywords": [
+                    "wine",
+                    "ワイン",
+                    "シャンパン",
+                    "champagne",
+                    "カクテル",
+                    "cocktail",
+                    "アルコール",
+                    "ハイボール",
+                    "ビール",
+                    "日本酒",
+                    "焼酎",
+                    "ウイスキー",
+                    "赤ワイン",
+                    "白ワイン",
+                    "ロゼワイン",
+                    "スパークリング"
+                ],
+                "name_keywords": [
+                    "ワイン",
+                    "シャンパン",
+                    "カクテル",
+                    "ハイボール",
+                    "ビール",
+                    "酒"
+                ]
+            }
+        },
+        "history_prompts": {
+            "sommelier": {
+                "has_wine_history": "先ほどお選びいただいた{previous_wine}はいかがでしたか？お気に召しましたら、似たタイプの別銘柄もご用意できますし、全く違うタイプもお試しいただけます。",
+                "no_history": "本日はどのようなワインをお探しでしょうか？お料理やお好みの味わいを教えていただければ、最適な1本をご提案いたします。"
+            },
+            "omakase": {
+                "has_history": "以前のご注文を拝見しました。今回も同じような構成がよろしいですか？それとも新しいコーディネートをご提案しましょうか？",
+                "no_history": "初めてのご利用ありがとうございます。人数とお好みを教えていただければ、最適なコーディネートをご提案いたします。"
+            },
+            "suggest": {
+                "has_history": "前回は{previous_items}をお楽しみいただきましたね。今回はどのような気分でしょうか？",
+                "no_history": "本日はどのようなものをお探しでしょうか？お気軽にお申し付けください。"
+            }
+        },
+        "meta_description": {
+            "薪": "当施設では、焚き火や調理にご利用いただける薪として「針葉樹薪」と「広葉樹薪」の2種類をご用意しております。それぞれに特性があり、用途やお好みに応じてお選びいただけます。\n\n▼ 針葉樹薪の特徴\n・軽くて扱いやすく、着火しやすい\n・火付きが早く、すぐに炎が立ち上がるため、焚き火のスタートに最適\n・燃焼時間は短めで、火力の調整がしやすい\n・煙が出やすい傾向があるため、風向きにはご注意ください\n\nおすすめの使い方：\n・焚き火の初期段階に火起こし用として使用\n・短時間で炎を楽しみたい時に最適\n\n▼ 広葉樹薪の特徴\n・密度が高く、重量感がある\n・着火にはやや時間がかかるが、いったん燃え始めると火持ちが良い\n・火力が安定していて、調理にも向いている\n・煙やススが少なく、煙臭さが残りにくい\n\nおすすめの使い方：\n・長時間焚き火を楽しむ場合\n・ビア缶チキンなどの炭火調理に使用する場合\n\n▼ ご注文時のお願い\nご希望の薪の種類がある場合は、ご注文の際に【スタッフへの連絡欄】に「針葉樹薪希望」または「広葉樹薪希望」とご記入ください。\nまた、着火剤や焚き付け用の小枝なども必要な場合は、あわせてご記載いただければ、当日ご用意いたします。\n\n自然の中で過ごすひとときを、快適で安心な焚き火時間にするために、ぜひご活用ください。\n\n\n\n\n\n\n\n",
+            "ビア缶チキン": "豪快さとジューシーさを兼ね備えた、グランピングならではのアウトドア料理「ビア缶チキン」。丸鶏をまるごと1羽使用し、ビールの入った缶をお腹に差し込んで専用スタンドに立たせてじっくりロースト。中からはビールの蒸気でふっくらと、外側は炭火でパリッと香ばしく焼き上がるのが特徴です。\n\n下味にはオリジナルのハーブスパイスミックスを使用。塩、胡椒、ガーリック、ローズマリー、タイムなどをブレンドしたシーズニングが鶏全体にしっかりと染み込み、ビールの苦みと香ばしさが加わることで、豊かな味わいに仕上がります。\n\n作り方はとてもシンプルで、火加減を調整しながらゆっくり焼き上げるだけ。約1時間ほどで、外はパリパリ、中は肉汁たっぷりのチキンが完成します。\nアウトドア初心者の方にも挑戦しやすく、見た目のインパクトも抜群なので、キャンプやグランピングのメインディッシュにぴったりです。\n\n※ビア缶はお子様にも配慮し、アルコール分が調理過程で飛ぶためお子様でも安心してお召し上がりいただけます。ノンアルコールビールへの変更も可能です。\n\n内容物：\n・丸鶏（約1.2〜1.5kg）\n・ビール缶（350ml）またはノンアルコールビール缶\n・専用スタンド\n・ハーブスパイスミックス\n・作り方マニュアル付き\n\nご家族やご友人と一緒に、焼き上がりを待つ時間も楽しめるアクティビティ感覚の一品。自然の中で豪快に味わうビア缶チキンは、きっと忘れられない体験になるでしょう。\n\n\n\n\n\n\n\n\n",
+            "房総ハイボール": "【房総ウイスキー ハイボールのご紹介】\n\n千葉県君津市・久留里の老舗酒蔵「須藤本家」が手がける「房総ウイスキー」は、千葉県発の地ウイスキーとして注目される一本です。使用されている水は、環境省選定「平成の名水百選」にも選ばれた久留里の天然湧水。房総半島の自然が育んだこの湧水は、一日に約1万トンも湧き出ると言われ、ミネラル分を適度に含んだ中硬水でありながら、口当たりは非常にまろやかで酒造りに最適な名水です。\n\n須藤本家はこの恵まれた水をふんだんに使用し、伝統的な酒造りの技術と清酒酵母を活かして、地元ならではの個性を持つウイスキーを丁寧に造り上げています。\n\n房総ウイスキーの特徴は、華やかで軽やかな香り、そして穏やかな甘みとウッディな余韻。スモーキーさは控えめで、日本人の味覚に合うやさしい飲み口が魅力です。モルトの豊かな風味とほのかなバニラ香、スパイシーさがバランスよく調和しています。\n\nハイボールで楽しむことで、炭酸の爽快感とともに香りが引き立ち、さらに軽快な飲み心地に。冷えたウイスキーを炭酸水で1:3〜1:4の比率で割るのが基本ですが、お好みに応じて調整可能です。氷を入れてグラスをしっかり冷やし、炭酸水は静かに注ぐのが美味しく仕上げるコツです。\n\n久留里の清冽な水と、150年以上続く酒蔵の技が織りなす房総ウイスキー。特別なひとときにぴったりな一杯を、ぜひ自然の中でご堪能ください。"
+        },
+        "rate_limit_pm": "100",
+        "lumos_endpoint": "https:\/\/mobes.online\/api\/lumos_gateway.php",
+        "basicstyle": "あなたは20代前半の若い元気な女性ホールスタッフです。あなたは高い商品知識をもち、まだ商品の購入履歴がない時は挨拶と人数、ガッツリ食べたい、ワインを楽しみたい、自分で作る野外料理を行いたいなどの希望を引き出します。あなたは若いなりに元気いっぱいですが礼儀正しさも併せ持つスタッフです。",
+        "prohibitions": {
+            "words": [
+                "\"json\"や\"db\"など機械やシステム的な要素を感じる発言およびシステム内容に関する回答、プログラム要素やdb内容に関する回答は禁止です。productsテーブルでis_activeかつpresenseのない商品は提示しない。他のゲストの情報の提供禁止",
+                "まずい、残念、悪天候などのネガティブワードやゲストを否定するワードの禁止、無い・見当たらないなどの機械感ある応答の禁止",
+                "希望を聞かずに何の脈絡もなく商品提示を行う行為は禁止です。オロポセットはおすすめしない。"
+            ]
+        },
+        "chatrule": {
+            "rules": [
+                "あなたは必ず話しかけられた言語で回答します。",
+                "希望金額や子供向け、辛くない、簡単に作れる、カラフルなカクテルなどゲストの希望を引き出す。基本的には料理やお酒などをお勧めする.特定商品に偏らないように注意する",
+                "emojiを使用してカジュアルな印象をつくること"
+            ]
+        },
+        "gemini_api_key": "AIzaSyANjw_2D81DO_A9hpZKU_ZUefCLp18CqcU",
+        "gemini_api_url": "https:\/\/generativelanguage.googleapis.com\/v1beta\/models\/gemini-pro:generateContent",
+        "gemini_api_timeout": "10",
+        "gemini_model_id": "gemini-2.0-flash",
+        "gemini_api_temperature": "1.0",
+        "gemini_api_max_tokens": "1000",
+        "gemini_api_top_p": "on",
+        "use_mobes_ai": "on",
+        "stock lock": "0",
+        "use_order_history": 1
+    }
+}

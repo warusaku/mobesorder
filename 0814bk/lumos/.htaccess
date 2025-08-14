@@ -1,0 +1,24 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# LINEクライアント用の画像リライトルール
+# 通常サイズ（240, 300, 460, 700, 1040）
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^upload/images/([a-zA-Z0-9]+)/(240|300|460|700|1040)$ upload/images/$1/$2 [L]
+
+# @2xサイズ
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^upload/images/([a-zA-Z0-9]+)/(240|300|460|700|1040)@2x$ upload/images/$1/$2@2x [L]
+
+# キャッシュ無効化
+<IfModule mod_headers.c>
+    Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+    Header set Pragma "no-cache"
+    Header set Expires "0"
+</IfModule>
+
+# 画像のContent-Type設定
+<FilesMatch "\.(jpg|jpeg)$">
+    Header set Content-Type "image/jpeg"
+</FilesMatch> 

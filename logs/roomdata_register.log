@@ -1,0 +1,198 @@
+[2025-05-04 10:00:27] [INFO] RoomDataRegister::__construct - 初期化開始
+[2025-05-04 10:00:30] [INFO] RoomDataRegister::__construct - 初期化開始
+[2025-05-04 10:02:01] [INFO] RoomDataRegister::__construct - 初期化開始
+[2025-05-04 10:02:05] [INFO] RoomDataRegister::__construct - 初期化開始
+[2025-05-04 10:03:45] [INFO] RoomDataRegister::__construct - 初期化開始
+[2025-05-04 10:03:47] [INFO] RoomDataRegister::__construct - 初期化開始
+[2025-05-04 10:03:57] [INFO] RoomDataRegister::__construct - 初期化開始
+[2025-05-04 10:04:00] [INFO] RoomDataRegister::__construct - 初期化開始
+[2025-05-04 10:09:40] [INFO] RoomDataRegister::__construct - 初期化開始
+[2025-05-04 10:09:40] [INFO] Database.phpを読み込みます: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-05-04 10:09:40] [INFO] Databaseクラスのインスタンスを取得します
+[2025-05-04 10:09:43] [INFO] RoomDataRegister::__construct - 初期化開始
+[2025-05-04 10:09:43] [INFO] Database.phpを読み込みます: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-05-04 10:09:43] [INFO] Databaseクラスのインスタンスを取得します
+[2025-05-04 10:16:06] [INFO] RoomDataRegister::__construct - 初期化開始
+[2025-05-04 10:16:06] [INFO] Database.phpを読み込みます: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-05-04 10:16:06] [INFO] Databaseクラスのインスタンスを取得します
+[2025-05-04 10:16:06] [INFO] データベース接続を取得します
+[2025-05-04 10:16:06] [INFO] RoomDataRegister::__construct - データベース接続取得完了
+[2025-05-04 10:16:06] [INFO] room.php - 部屋情報取得開始: ユーザーID = U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-05-04 10:16:06] [INFO] getRoomInfoWithToken - ユーザーID: U9e1f5c66b4a26fd0c33c890ad826b192 の部屋情報とトークンを取得
+[2025-05-04 10:16:06] [ERROR] getRoomInfoWithToken - エラー: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'l.user_name' in 'field list'
+[2025-05-04 10:16:06] [ERROR] room.php - エラー: 部屋情報とトークンの取得に失敗しました: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'l.user_name' in 'field list'
+[2025-05-04 10:16:08] [INFO] RoomDataRegister::__construct - 初期化開始
+[2025-05-04 10:16:08] [INFO] Database.phpを読み込みます: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-05-04 10:16:08] [INFO] Databaseクラスのインスタンスを取得します
+[2025-05-04 10:16:08] [INFO] データベース接続を取得します
+[2025-05-04 10:16:08] [INFO] RoomDataRegister::__construct - データベース接続取得完了
+[2025-05-04 10:16:08] [INFO] register.php - LINEユーザー登録開始: ユーザーID = U9e1f5c66b4a26fd0c33c890ad826b192, 部屋番号 = fg#01
+[2025-05-04 10:16:08] [INFO] saveRoomLink - ユーザーID: U9e1f5c66b4a26fd0c33c890ad826b192, 部屋番号: fg#01 の情報を保存開始
+[2025-05-04 10:16:08] [INFO] findRoomByUserId - ユーザーID: U9e1f5c66b4a26fd0c33c890ad826b192 の部屋情報を検索
+[2025-05-04 10:16:08] [INFO] findRoomByUserId - ユーザーID: U9e1f5c66b4a26fd0c33c890ad826b192 の部屋情報は見つかりませんでした
+[2025-05-04 10:16:08] [INFO] saveRoomLink - 新規レコードを挿入します
+[2025-05-04 10:16:08] [ERROR] saveRoomLink - エラー: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_name' in 'field list'
+[2025-05-04 10:16:08] [ERROR] register.php - エラー: 部屋情報の保存に失敗しました: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_name' in 'field list'
+[2025-05-04 10:18:28] [INFO] RoomDataRegister::__construct - 初期化開始
+[2025-05-04 10:18:28] [INFO] Database.phpを読み込みます: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-05-04 10:18:28] [INFO] Databaseクラスのインスタンスを取得します
+[2025-05-04 10:18:28] [INFO] データベース接続を取得します
+[2025-05-04 10:18:28] [INFO] RoomDataRegister::__construct - データベース接続取得完了
+[2025-05-04 10:18:28] [INFO] diagnose - データベース接続診断を開始
+[2025-05-04 10:18:28] [INFO] diagnose - テーブル 'line_room_links' の存在を確認します
+[2025-05-04 10:18:28] [ERROR] diagnose - テーブル 'line_room_links' のチェック中にエラー: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2025-05-04 10:18:28] [INFO] diagnose - テーブル 'room_tokens' の存在を確認します
+[2025-05-04 10:18:28] [ERROR] diagnose - テーブル 'room_tokens' のチェック中にエラー: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2025-05-04 10:18:28] [INFO] diagnose - データベース接続診断を完了: error
+[2025-05-04 10:18:28] [INFO] diagnose.php - テスト用レコードを作成: userId=test_1746321508, roomNumber=test_room_1746321508
+[2025-05-04 10:18:28] [INFO] saveRoomLink - ユーザーID: test_1746321508, 部屋番号: test_room_1746321508 の情報を保存開始
+[2025-05-04 10:18:28] [INFO] findRoomByUserId - ユーザーID: test_1746321508 の部屋情報を検索
+[2025-05-04 10:18:28] [INFO] findRoomByUserId - ユーザーID: test_1746321508 の部屋情報は見つかりませんでした
+[2025-05-04 10:18:28] [INFO] saveRoomLink - 新規レコードを挿入します
+[2025-05-04 10:18:28] [ERROR] saveRoomLink - エラー: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_name' in 'field list'
+[2025-05-04 10:18:28] [ERROR] diagnose.php - テスト中にエラーが発生: 部屋情報の保存に失敗しました: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_name' in 'field list'
+[2025-05-04 10:24:15] [INFO] RoomDataRegister::__construct - 初期化開始
+[2025-05-04 10:24:15] [INFO] Database.phpを読み込みます: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-05-04 10:24:15] [INFO] Databaseクラスのインスタンスを取得します
+[2025-05-04 10:24:17] [INFO] RoomDataRegister::__construct - 初期化開始
+[2025-05-04 10:24:17] [INFO] Database.phpを読み込みます: /home/users/2/but.jp-test-mijeos/web/fgsquare/api/lib/Database.php
+[2025-05-04 10:24:17] [INFO] Databaseクラスのインスタンスを取得します
+[2025-05-04 13:32:40] [INFO] RoomDataRegister::__construct - 初期化開始
+[2025-05-04 13:32:40] [INFO] データベース接続を確立します: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-05-04 13:32:40] [INFO] RoomDataRegister::__construct - データベース接続確立完了
+[2025-05-04 13:32:40] [INFO] room.php - 部屋情報取得開始: ユーザーID = U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-05-04 13:32:40] [INFO] getRoomInfoWithToken - ユーザーID: U9e1f5c66b4a26fd0c33c890ad826b192 の部屋情報とトークンを取得
+[2025-05-04 13:32:40] [INFO] getRoomInfoWithToken - user_nameカラムの存在確認: 存在しません
+[2025-05-04 13:32:40] [INFO] getRoomInfoWithToken - 実行するSQL: 
+                SELECT l.line_user_id, l.room_number, l.check_in_date, l.check_out_date, t.token, t.expires_at
+                FROM line_room_links l
+                LEFT JOIN room_tokens t ON l.room_number = t.room_number
+                WHERE l.line_user_id = :userId
+                AND t.expires_at > NOW()
+            
+[2025-05-04 13:32:40] [ERROR] getRoomInfoWithToken - エラー: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'l.check_in_date' in 'field list'
+[2025-05-04 13:32:40] [ERROR] room.php - エラー: 部屋情報とトークンの取得に失敗しました: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'l.check_in_date' in 'field list'
+[2025-05-04 13:32:42] [INFO] RoomDataRegister::__construct - 初期化開始
+[2025-05-04 13:32:42] [INFO] データベース接続を確立します: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-05-04 13:32:42] [INFO] RoomDataRegister::__construct - データベース接続確立完了
+[2025-05-04 13:32:42] [INFO] register.php - LINEユーザー登録開始: ユーザーID = U9e1f5c66b4a26fd0c33c890ad826b192, 部屋番号 = fg#01
+[2025-05-04 13:32:42] [INFO] saveRoomLink - ユーザーID: U9e1f5c66b4a26fd0c33c890ad826b192, 部屋番号: fg#01 の情報を保存開始
+[2025-05-04 13:32:42] [INFO] saveRoomLink - user_nameカラムの存在確認: 存在しません
+[2025-05-04 13:32:42] [INFO] findRoomByUserId - ユーザーID: U9e1f5c66b4a26fd0c33c890ad826b192 の部屋情報を検索
+[2025-05-04 13:32:42] [INFO] findRoomByUserId - ユーザーID: U9e1f5c66b4a26fd0c33c890ad826b192 の部屋情報は見つかりませんでした
+[2025-05-04 13:32:42] [INFO] saveRoomLink - 新規レコードを挿入します
+[2025-05-04 13:32:42] [ERROR] saveRoomLink - エラー: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'check_in_date' in 'field list'
+[2025-05-04 13:32:42] [ERROR] register.php - エラー: 部屋情報の保存に失敗しました: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'check_in_date' in 'field list'
+[2025-05-04 13:47:49] [INFO] RoomDataRegister::__construct - 初期化開始
+[2025-05-04 13:47:49] [INFO] データベース接続を確立します: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-05-04 13:47:49] [INFO] RoomDataRegister::__construct - データベース接続確立完了
+[2025-05-04 13:47:49] [INFO] room.php - 部屋情報取得開始: ユーザーID = U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-05-04 13:47:49] [INFO] getRoomInfoWithToken - ユーザーID: U9e1f5c66b4a26fd0c33c890ad826b192 の部屋情報とトークンを取得
+[2025-05-04 13:47:49] [INFO] getRoomInfoWithToken - user_nameカラムの存在確認: 存在します
+[2025-05-04 13:47:49] [INFO] getRoomInfoWithToken - 実行するSQL: 
+                SELECT l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, t.token, t.expires_at
+                FROM line_room_links l
+                LEFT JOIN room_tokens t ON l.room_number = t.room_number
+                WHERE l.line_user_id = :userId
+                AND t.expires_at > NOW()
+            
+[2025-05-04 13:47:49] [INFO] getRoomInfoWithToken - 代替SQLを実行: 
+                    SELECT l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, t.access_token as token, NOW() as expires_at
+                    FROM line_room_links l
+                    LEFT JOIN room_tokens t ON l.room_number = t.room_number
+                    WHERE l.line_user_id = :userId
+                
+[2025-05-04 13:47:49] [INFO] getRoomInfoWithToken - ユーザーID: U9e1f5c66b4a26fd0c33c890ad826b192 の部屋情報とトークンは見つかりませんでした
+[2025-05-04 13:47:49] [INFO] room.php - 部屋情報なし: ユーザーID = U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-05-04 13:47:51] [INFO] RoomDataRegister::__construct - 初期化開始
+[2025-05-04 13:47:51] [INFO] データベース接続を確立します: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-05-04 13:47:51] [INFO] RoomDataRegister::__construct - データベース接続確立完了
+[2025-05-04 13:47:51] [INFO] register.php - LINEユーザー登録開始: ユーザーID = U9e1f5c66b4a26fd0c33c890ad826b192, 部屋番号 = fg#01
+[2025-05-04 13:47:51] [INFO] saveRoomLink - ユーザーID: U9e1f5c66b4a26fd0c33c890ad826b192, 部屋番号: fg#01 の情報を保存開始
+[2025-05-04 13:47:51] [INFO] saveRoomLink - user_nameカラムの存在確認: 存在します
+[2025-05-04 13:47:51] [INFO] findRoomByUserId - ユーザーID: U9e1f5c66b4a26fd0c33c890ad826b192 の部屋情報を検索
+[2025-05-04 13:47:51] [INFO] findRoomByUserId - ユーザーID: U9e1f5c66b4a26fd0c33c890ad826b192 の部屋情報は見つかりませんでした
+[2025-05-04 13:47:51] [INFO] saveRoomLink - 新規レコードを挿入します
+[2025-05-04 13:47:51] [INFO] saveRoomLink - 新規レコードの挿入が完了しました
+[2025-05-04 13:47:51] [INFO] saveRoomToken - 部屋番号: fg#01 のトークンを保存開始
+[2025-05-04 13:47:51] [INFO] findTokenByRoomNumber - 部屋番号: fg#01 のトークン情報を検索
+[2025-05-04 13:47:51] [INFO] findTokenByRoomNumber - 部屋番号: fg#01 のトークン情報は見つかりませんでした
+[2025-05-04 13:47:51] [INFO] saveRoomToken - tokenカラムの存在確認: 存在します
+[2025-05-04 13:47:51] [INFO] saveRoomToken - expires_atカラムの存在確認: 存在します
+[2025-05-04 13:47:51] [INFO] saveRoomToken - 新規トークンを挿入します
+[2025-05-04 13:47:51] [INFO] saveRoomToken - 新規トークンの挿入が完了しました
+[2025-05-04 13:47:51] [INFO] register.php - LINEユーザー登録完了: ユーザーID = U9e1f5c66b4a26fd0c33c890ad826b192, トークン = ebbbb0b5c22a2e53674bf1586b126be1
+[2025-05-04 13:47:51] [INFO] cleanupExpiredTokens - 有効期限切れのトークンをクリーンアップ開始
+[2025-05-04 13:47:51] [INFO] cleanupExpiredTokens - 0件の有効期限切れトークンを削除しました
+[2025-05-05 07:00:14] [INFO] RoomDataRegister::__construct - 初期化開始
+[2025-05-05 07:00:14] [INFO] データベース接続を確立します: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-05-05 07:00:14] [INFO] RoomDataRegister::__construct - データベース接続確立完了
+[2025-05-05 07:00:14] [INFO] room.php - 部屋情報取得開始: ユーザーID = U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-05-05 07:00:14] [INFO] getRoomInfoWithToken - ユーザーID: U9e1f5c66b4a26fd0c33c890ad826b192 の部屋情報とトークンを取得
+[2025-05-05 07:00:14] [INFO] getRoomInfoWithToken - user_nameカラムの存在確認: 存在します
+[2025-05-05 07:00:14] [INFO] getRoomInfoWithToken - 実行するSQL: 
+                SELECT l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, t.token, t.expires_at
+                FROM line_room_links l
+                LEFT JOIN room_tokens t ON l.room_number = t.room_number
+                WHERE l.line_user_id = :userId
+                AND t.expires_at > NOW()
+            
+[2025-05-05 07:00:14] [INFO] getRoomInfoWithToken - ユーザーID: U9e1f5c66b4a26fd0c33c890ad826b192 の部屋情報とトークンが見つかりました
+[2025-05-05 07:00:14] [INFO] room.php - 部屋情報取得成功: ユーザーID = U9e1f5c66b4a26fd0c33c890ad826b192, 部屋番号 = fg#02
+[2025-05-05 07:01:06] [INFO] RoomDataRegister::__construct - 初期化開始
+[2025-05-05 07:01:06] [INFO] データベース接続を確立します: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-05-05 07:01:06] [INFO] RoomDataRegister::__construct - データベース接続確立完了
+[2025-05-05 07:01:06] [INFO] room.php - 部屋情報取得開始: ユーザーID = U9e1f5c66b4a26fd0c33c890ad826b192
+[2025-05-05 07:01:06] [INFO] getRoomInfoWithToken - ユーザーID: U9e1f5c66b4a26fd0c33c890ad826b192 の部屋情報とトークンを取得
+[2025-05-05 07:01:06] [INFO] getRoomInfoWithToken - user_nameカラムの存在確認: 存在します
+[2025-05-05 07:01:06] [INFO] getRoomInfoWithToken - 実行するSQL: 
+                SELECT l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, t.token, t.expires_at
+                FROM line_room_links l
+                LEFT JOIN room_tokens t ON l.room_number = t.room_number
+                WHERE l.line_user_id = :userId
+                AND t.expires_at > NOW()
+            
+[2025-05-05 07:01:06] [INFO] getRoomInfoWithToken - ユーザーID: U9e1f5c66b4a26fd0c33c890ad826b192 の部屋情報とトークンが見つかりました
+[2025-05-05 07:01:06] [INFO] room.php - 部屋情報取得成功: ユーザーID = U9e1f5c66b4a26fd0c33c890ad826b192, 部屋番号 = fg#02
+[2025-05-05 07:02:23] [INFO] RoomDataRegister::__construct - 初期化開始
+[2025-05-05 07:02:23] [INFO] データベース接続を確立します: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-05-05 07:02:23] [INFO] RoomDataRegister::__construct - データベース接続確立完了
+[2025-05-05 07:02:23] [INFO] room.php - 部屋情報取得開始: ユーザーID = U4d777614158c719515a7be91a41bc382
+[2025-05-05 07:02:23] [INFO] getRoomInfoWithToken - ユーザーID: U4d777614158c719515a7be91a41bc382 の部屋情報とトークンを取得
+[2025-05-05 07:02:23] [INFO] getRoomInfoWithToken - user_nameカラムの存在確認: 存在します
+[2025-05-05 07:02:23] [INFO] getRoomInfoWithToken - 実行するSQL: 
+                SELECT l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, t.token, t.expires_at
+                FROM line_room_links l
+                LEFT JOIN room_tokens t ON l.room_number = t.room_number
+                WHERE l.line_user_id = :userId
+                AND t.expires_at > NOW()
+            
+[2025-05-05 07:02:23] [INFO] getRoomInfoWithToken - 代替SQLを実行: 
+                    SELECT l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, t.access_token as token, NOW() as expires_at
+                    FROM line_room_links l
+                    LEFT JOIN room_tokens t ON l.room_number = t.room_number
+                    WHERE l.line_user_id = :userId
+                
+[2025-05-05 07:02:23] [INFO] getRoomInfoWithToken - ユーザーID: U4d777614158c719515a7be91a41bc382 の部屋情報とトークンは見つかりませんでした
+[2025-05-05 07:02:23] [INFO] room.php - 部屋情報なし: ユーザーID = U4d777614158c719515a7be91a41bc382
+[2025-05-06 00:39:49] [INFO] RoomDataRegister::__construct - 初期化開始
+[2025-05-06 00:39:49] [INFO] データベース接続を確立します: DSN=mysql:host=mysql320.phy.lolipop.lan;dbname=LAA1207717-fgsquare;charset=utf8mb4
+[2025-05-06 00:39:49] [INFO] RoomDataRegister::__construct - データベース接続確立完了
+[2025-05-06 00:39:49] [INFO] room.php - 部屋情報取得開始: ユーザーID = U4d777614158c719515a7be91a41bc382
+[2025-05-06 00:39:49] [INFO] getRoomInfoWithToken - ユーザーID: U4d777614158c719515a7be91a41bc382 の部屋情報とトークンを取得
+[2025-05-06 00:39:49] [INFO] getRoomInfoWithToken - user_nameカラムの存在確認: 存在します
+[2025-05-06 00:39:49] [INFO] getRoomInfoWithToken - 実行するSQL: 
+                SELECT l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, t.token, t.expires_at
+                FROM line_room_links l
+                LEFT JOIN room_tokens t ON l.room_number = t.room_number
+                WHERE l.line_user_id = :userId
+                AND t.expires_at > NOW()
+            
+[2025-05-06 00:39:49] [INFO] getRoomInfoWithToken - 代替SQLを実行: 
+                    SELECT l.line_user_id, l.room_number, l.user_name, l.check_in_date, l.check_out_date, t.access_token as token, NOW() as expires_at
+                    FROM line_room_links l
+                    LEFT JOIN room_tokens t ON l.room_number = t.room_number
+                    WHERE l.line_user_id = :userId
+                
+[2025-05-06 00:39:49] [INFO] getRoomInfoWithToken - 代替方法でユーザーID: U4d777614158c719515a7be91a41bc382 の部屋情報とトークンが見つかりました
+[2025-05-06 00:39:49] [INFO] room.php - 部屋情報取得成功: ユーザーID = U4d777614158c719515a7be91a41bc382, 部屋番号 = fg#01

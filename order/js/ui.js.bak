@@ -1,0 +1,1787 @@
+/**
+ * UI操作とイベント処理を管理するモジュール
+ */
+
+// 選択中のカテゴリID
+let selectedCategoryId = null;
+
+// グローバル変数を追加
+let currentDetailProduct = null;
+let currentQuantity = 1;
+
+// ラベル情報をキャッシュするオブジェクト
+/* 
+ * 【重要】商品情報・ラベル情報のハードコードは禁止
+ * すべての商品情報とラベル情報はデータベースから動的に取得すること
+ * 特定の商品IDに依存した処理も禁止
+ * - 商品ID、商品名、ラベル情報などの値をコード内に直接記述してはならない
+ * - すべての情報はAPIを通じてDBから取得すること
+ */
+const labelInfoCache = {};  // 実行時に動的に構築されるキャッシュ
+
+// ラベル情報を取得する関数（キャッシュからのみ取得）
+function getLabelInfo(labelId) {
+    if (!labelId) return null;
+    // キャッシュにない場合はnullを返す（フォールバックなし）
+    return labelInfoCache[labelId] || null;
+}
+
+// ラベル情報をキャッシュに追加
+function addLabelInfoToCache(labelId, labelInfo) {
+    if (labelId && labelInfo && labelInfo.text && labelInfo.color) {
+        labelInfoCache[labelId] = labelInfo;
+        console.log(`ラベル情報をキャッシュに追加: ID=${labelId}, テキスト=${labelInfo.text}`);
+    }
+}
+
+/**
+ * カテゴリ一覧を取得するヘルパー関数
+ * APIインスタンスのgetCategoriesメソッドを呼び出す
+ * @returns {Promise<Array>} カテゴリ一覧
+ */
+async function getCategories() {
+    if (!window.apiClient) {
+        window.apiClient = new API();
+    }
+    return await window.apiClient.getCategories();
+}
+
+/**
+ * カテゴリ別商品一覧を取得するヘルパー関数
+ * @param {string} categoryId カテゴリID
+ * @returns {Promise<Array>} 商品一覧
+ */
+async function getProductsByCategory(categoryId) {
+    try {
+        console.log(`カテゴリ別商品取得開始: カテゴリID=${categoryId}`);
+        
+    if (!window.apiClient) {
+            console.log('APIクライアントがないため新規作成します');
+        window.apiClient = new API();
+        }
+        
+        const startTime = performance.now();
+        const products = await window.apiClient.getProductsByCategory(categoryId);
+        const endTime = performance.now();
+        
+        console.log(`カテゴリ別商品取得完了: カテゴリID=${categoryId}, 件数=${products ? products.length : 0}, 実行時間=${Math.round(endTime - startTime)}ms`);
+        
+        if (!products || products.length === 0) {
+            console.warn(`カテゴリ ${categoryId} の商品がありません`);
+        } else {
+            console.log(`商品サンプル:`, products[0]);
+        }
+        
+        return products;
+    } catch (error) {
+        console.error(`カテゴリ別商品取得エラー: カテゴリID=${categoryId}`, error);
+        throw error;
+    }
+}
+
+/**
+ * カテゴリ一覧を読み込み表示
+ */
+async function loadCategories() {
+    try {
+        // カテゴリ一覧を取得
+        const categories = await getCategories();
+        
+        // カテゴリリストを表示
+        displayCategories(categories);
+        
+        // 最初のカテゴリを選択
+        if (categories && categories.length > 0) {
+            selectCategory(categories[0].id);
+        }
+    } catch (error) {
+        console.error('カテゴリ読み込みエラー:', error);
+        showError('商品カテゴリの読み込みに失敗しました。ページを再読み込みしてください。');
+    }
+}
+
+/**
+ * カテゴリリストを表示
+ * @param {Array} categories - カテゴリ一覧
+ */
+function displayCategories(categories) {
+    const categoryList = document.getElementById('category-list');
+    if (!categoryList) return;
+    
+    // 既存のスケルトンローディングをクリア
+    categoryList.innerHTML = '';
+    
+    // カテゴリ要素を追加
+    categories.forEach(category => {
+        const listItem = document.createElement('li');
+        listItem.className = 'category-item';
+        listItem.setAttribute('data-id', category.id);
+        
+        // アイコンの代わりにテキストのみ表示
+        listItem.innerHTML = `
+            <div class="category-name">${category.name}</div>
+        `;
+        
+        // クリックイベントの追加
+        listItem.addEventListener('click', () => {
+            selectCategory(category.id);
+        });
+        
+        categoryList.appendChild(listItem);
+    });
+}
+
+/**
+ * カテゴリを選択
+ * @param {string} categoryId - カテゴリID
+ */
+async function selectCategory(categoryId) {
+    try {
+        console.log(`カテゴリID ${categoryId} を選択しました`);
+    selectedCategoryId = categoryId;
+    
+    // カテゴリの見た目を更新
+    updateCategorySelection();
+    
+    try {
+        // 選択されたカテゴリの商品を読み込み
+        const products = await getProductsByCategory(categoryId);
+        
+        // 商品リストを表示
+        displayProducts(products);
+    } catch (error) {
+        console.error(`カテゴリID ${categoryId} の商品読み込みエラー:`, error);
+            const productList = document.getElementById('product-list');
+            const noProductsMessage = document.getElementById('no-products-message');
+            
+            if (noProductsMessage) {
+                noProductsMessage.style.display = 'block';
+            } else if (productList) {
+                productList.innerHTML = `
+            <div class="error-message">
+                <i class="fas fa-exclamation-circle"></i>
+                <p>商品の読み込みに失敗しました</p>
+            </div>
+        `;
+            }
+        }
+    } catch (error) {
+        console.error('カテゴリ選択処理でエラーが発生しました:', error);
+    }
+}
+
+/**
+ * カテゴリ選択状態の表示を更新
+ */
+function updateCategorySelection() {
+    const categoryItems = document.querySelectorAll('.category-item');
+    
+    categoryItems.forEach(item => {
+        const itemId = item.getAttribute('data-id');
+        if (itemId === selectedCategoryId) {
+            item.classList.add('active');
+        } else {
+            item.classList.remove('active');
+        }
+    });
+}
+
+/**
+ * 商品リストを表示
+ * @param {Array} products - 商品一覧
+ */
+function displayProducts(products) {
+    const productList = document.getElementById('product-list');
+    if (!productList) return;
+    
+    // 既存のスケルトンローディングをクリア
+    productList.innerHTML = '';
+    
+    if (!products || products.length === 0) {
+        productList.innerHTML = `
+            <div class="empty-products">
+                <i class="fas fa-search"></i>
+                <p>商品が見つかりませんでした</p>
+            </div>
+        `;
+        return;
+    }
+    
+    // 商品データをフィルタリングして表示順にソート
+    let displayProducts = products
+        // order_dsp=0の商品を除外（非表示設定）
+        .filter(product => product.order_dsp !== 0 && product.order_dsp !== '0')
+        // sort_order でソート（nullや未定義の場合は大きな数値として扱う）
+        .sort((a, b) => {
+            const sortA = a.sort_order !== null && a.sort_order !== undefined ? Number(a.sort_order) : 999999;
+            const sortB = b.sort_order !== null && b.sort_order !== undefined ? Number(b.sort_order) : 999999;
+            return sortA - sortB;
+        });
+    
+    if (displayProducts.length === 0) {
+        productList.innerHTML = `
+            <div class="empty-products">
+                <i class="fas fa-search"></i>
+                <p>表示可能な商品がありません</p>
+            </div>
+        `;
+        return;
+    }
+    
+    // ラベル情報が欠けている商品を収集
+    const labelsToFetch = [];
+    displayProducts.forEach(product => {
+        // ラベル情報が欠けている商品を収集
+        if ((product.item_label1 && !product.label1_info) || (product.item_label2 && !product.label2_info)) {
+            labelsToFetch.push(product);
+        }
+    });
+    
+    if (labelsToFetch.length > 0) {
+        console.log(`${labelsToFetch.length}個の商品にラベル情報の補完が必要です`);
+        // ラベル情報を補完するための非同期処理
+        const fetchPromises = labelsToFetch.map(product => {
+            return fetchProductDetails(product.id)
+                .then(detailProduct => {
+                    if (detailProduct) {
+                        // デバッグ: 受信した詳細データをログ
+                        console.log(`商品ID=${product.id}の詳細データを受信:`, JSON.stringify(detailProduct));
+                        
+                        // 詳細情報からラベル情報をコピー
+                        if (product.item_label1 && detailProduct.label1_info) {
+                            console.log(`商品ID=${product.id}: ラベル1情報をコピーします`);
+                            // ディープコピーを使用して確実にコピー
+                            product.label1_info = JSON.parse(JSON.stringify(detailProduct.label1_info));
+                            console.log(`商品ID ${product.id} のラベル1情報を設定: `, product.label1_info);
+                            // グローバルキャッシュにも追加
+                            addLabelInfoToCache(product.item_label1, product.label1_info);
+                        } else if (product.item_label1 && !detailProduct.label1_info) {
+                            console.error(`エラー: ラベルID=${product.item_label1}の情報が取得できません(商品ID:${product.id}, 商品名:${product.name})`);
+                        }
+                        
+                        if (product.item_label2 && detailProduct.label2_info) {
+                            console.log(`商品ID=${product.id}: ラベル2情報をコピーします`);
+                            // ディープコピーを使用して確実にコピー
+                            product.label2_info = JSON.parse(JSON.stringify(detailProduct.label2_info));
+                            console.log(`商品ID ${product.id} のラベル2情報を設定: `, product.label2_info);
+                            // グローバルキャッシュにも追加
+                            addLabelInfoToCache(product.item_label2, product.label2_info);
+                        } else if (product.item_label2 && !detailProduct.label2_info) {
+                            console.error(`エラー: ラベルID=${product.item_label2}の情報が取得できません(商品ID:${product.id}, 商品名:${product.name})`);
+                        }
+                    }
+                    return product;
+                })
+                .catch(err => {
+                    console.error(`商品ID ${product.id} のラベル情報取得エラー:`, err);
+                    return product;
+                });
+        });
+        
+        // 全ての商品情報取得が完了してから表示処理を行う
+        Promise.all(fetchPromises)
+            .then(() => {
+                console.log('すべての商品のラベル情報取得が完了しました。表示処理を開始します。');
+                
+                // すべての商品のラベル情報を詳細に出力
+                console.log('===== すべての商品のラベル情報 =====');
+                displayProducts.forEach(product => {
+                    console.log(`商品ID:${product.id}, 名前:${product.name}`);
+                    console.log(`  ラベル1(ID:${product.item_label1}): ${product.label1_info ? JSON.stringify(product.label1_info) : 'undefined'}`);
+                    console.log(`  ラベル2(ID:${product.item_label2}): ${product.label2_info ? JSON.stringify(product.label2_info) : 'undefined'}`);
+                });
+                console.log('=================================');
+                
+                // すべてのラベル情報取得が完了した後、商品を表示
+                displayProductElements(displayProducts, productList);
+            })
+            .catch(err => {
+                console.error('ラベル情報補完エラー:', err);
+                // エラーが発生しても商品は表示する
+                displayProductElements(displayProducts, productList);
+            });
+    } else {
+        // ラベル情報の補完が不要な場合は直ちに表示
+        displayProductElements(displayProducts, productList);
+    }
+}
+
+/**
+ * 商品要素を実際に表示する処理（displayProductsの補助関数）
+ * @param {Array} products - 商品一覧
+ * @param {HTMLElement} container - 商品を追加する親要素
+ */
+function displayProductElements(products, container) {
+    // 商品要素を追加
+    products.forEach(product => {
+        const productElement = createProductElement(product);
+        container.appendChild(productElement);
+    });
+    
+    // 遅延読み込みを再初期化（新しく追加された画像を監視するため）
+    if (window.IntersectionObserver) {
+        const lazyImageObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const lazyImage = entry.target;
+                    
+                    // 画像が読み込み完了したらフェードイン
+                    lazyImage.onload = function() {
+                        lazyImage.classList.add('fade-in');
+                    };
+                    
+                    // すでに読み込み済みの場合（キャッシュから）
+                    if (lazyImage.complete) {
+                        lazyImage.classList.add('fade-in');
+                    }
+                    
+                    // 監視を終了
+                    observer.unobserve(lazyImage);
+                }
+            });
+        });
+        
+        const lazyImages = container.querySelectorAll('img.lazy-image');
+        lazyImages.forEach(lazyImage => {
+            lazyImageObserver.observe(lazyImage);
+        });
+    }
+}
+
+/**
+ * 商品要素を作成する
+ * @param {Object} product 商品データ
+ * @returns {HTMLElement} 商品表示用のDOM要素
+ */
+function createProductElement(product) {
+    const productElement = document.createElement('div');
+    productElement.className = 'product-item';
+    
+    // デバッグ: ラベル情報を確認
+    console.log('ラベル情報:', {
+        productId: product.id,
+        productName: product.name,
+        item_label1: product.item_label1,
+        label1_info: product.label1_info,
+        item_label2: product.item_label2,
+        label2_info: product.label2_info,
+        pickup: product.item_pickup
+    });
+    
+    // ピックアップ商品の場合はクラスを追加
+    if (product.item_pickup === '1' || product.item_pickup === 1) {
+        productElement.classList.add('pickup');
+        
+        // ラベル情報が欠落している場合、または説明文がない場合は詳細情報を取得
+        const needsLabels = (product.item_label1 && !product.label1_info) || (product.item_label2 && !product.label2_info);
+        const needsDescription = !product.description;
+        
+        if ((needsLabels || needsDescription) && product.id) {
+            console.log(`商品ID=${product.id}: 詳細情報を取得します（ラベル情報欠落:${needsLabels}, 説明文欠落:${needsDescription}）`);
+            
+            fetchProductDetails(product.id)
+                .then(detailProduct => {
+                    console.log(`商品ID=${product.id}: 詳細情報取得完了`);
+                    
+                    if (detailProduct && detailProduct.description && needsDescription) {
+                        // 説明文を取得したら更新
+                        const descElem = productElement.querySelector('.product-description');
+                        if (descElem) {
+                            descElem.textContent = detailProduct.description;
+                        }
+                    }
+                    
+                    // ラベル情報も更新
+                    if (detailProduct) {
+                        // ラベル1の処理
+                        if (product.item_label1 && detailProduct.label1_info) {
+                            console.log(`商品ID=${product.id}: ラベル1情報を取得`, detailProduct.label1_info);
+                            
+                            // ディープコピーを使用して確実にコピー
+                            product.label1_info = JSON.parse(JSON.stringify(detailProduct.label1_info));
+                            addLabelInfoToCache(product.item_label1, product.label1_info);
+                            
+                            // ラベル1の表示を更新
+                            const label1Elem = productElement.querySelector('.label1');
+                            if (label1Elem && product.label1_info) {
+                                label1Elem.style.backgroundColor = `#${product.label1_info.color}`;
+                                label1Elem.textContent = product.label1_info.text;
+                            }
+                        } else if (product.item_label1) {
+                            console.error(`エラー: ラベルID=${product.item_label1}の情報が取得できません(商品ID:${product.id}, 商品名:${product.name})`);
+                        }
+                        
+                        // ラベル2の処理
+                        if (product.item_label2 && detailProduct.label2_info) {
+                            console.log(`商品ID=${product.id}: ラベル2情報を取得`, detailProduct.label2_info);
+                            
+                            // ディープコピーを使用して確実にコピー
+                            product.label2_info = JSON.parse(JSON.stringify(detailProduct.label2_info));
+                            addLabelInfoToCache(product.item_label2, product.label2_info);
+                            
+                            // ラベル2の表示を更新または追加
+                            let label2Elem = productElement.querySelector('.label2');
+                            const labelsContainer = productElement.querySelector('.product-labels');
+                            
+                            if (!label2Elem && labelsContainer && product.label2_info) {
+                                // ラベル2が存在しない場合は新規作成
+                                label2Elem = document.createElement('div');
+                                label2Elem.className = 'product-label label2';
+                                label2Elem.style.backgroundColor = `#${product.label2_info.color}`;
+                                label2Elem.textContent = product.label2_info.text;
+                                labelsContainer.appendChild(label2Elem);
+                            } else if (label2Elem && product.label2_info) {
+                                // 既存のラベル2を更新
+                                label2Elem.style.backgroundColor = `#${product.label2_info.color}`;
+                                label2Elem.textContent = product.label2_info.text;
+                            }
+                        } else if (product.item_label2) {
+                            console.error(`エラー: ラベルID=${product.item_label2}の情報が取得できません(商品ID:${product.id}, 商品名:${product.name})`);
+                        }
+                    }
+                })
+                .catch(err => {
+                    console.error(`商品ID=${product.id}の詳細情報取得エラー:`, err);
+                });
+        }
+    }
+    
+    productElement.dataset.id = product.id;
+    if (product.square_item_id) {
+        productElement.dataset.squareId = product.square_item_id;
+    }
+    
+    // 画像URLを処理
+    let imageUrl = product.image_url || '';
+    const defaultImageUrl = '/fgsquare/order/images/no-image.png'; // 正しいパスに修正
+    
+    // 画像URLが空または無効な文字列値の場合はデフォルト画像を使用
+    if (imageUrl === 'null' || imageUrl === 'undefined' || !imageUrl || imageUrl === '') {
+        imageUrl = defaultImageUrl;
+    }
+    
+    // ラベル要素を生成
+    let labelsHtml = '';
+    
+    // ラベル1が存在する場合
+    if (product.item_label1) {
+        // ラベル情報を取得（キャッシュまたはAPI応答から）
+        const labelInfo = product.label1_info || getLabelInfo(product.item_label1);
+        
+        // ラベル情報があればキャッシュに追加してラベルを表示
+        if (labelInfo) {
+            // キャッシュに追加
+            if (product.label1_info) {
+                addLabelInfoToCache(product.item_label1, product.label1_info);
+            }
+            
+            labelsHtml += `
+                <div class="product-label label1" style="background-color: #${labelInfo.color}">
+                    ${labelInfo.text}
+                </div>
+            `;
+        } else {
+            // ラベル情報が取得できない場合はエラーログのみ
+            console.error(`エラー: ラベルID=${product.item_label1}の情報が取得できません(商品ID:${product.id}, 商品名:${product.name})`);
+        }
+    }
+    
+    // ラベル2が存在する場合
+    if (product.item_label2) {
+        // ラベル情報を取得（キャッシュまたはAPI応答から）
+        const labelInfo = product.label2_info || getLabelInfo(product.item_label2);
+        
+        // ラベル情報があればキャッシュに追加してラベルを表示
+        if (labelInfo) {
+            // キャッシュに追加
+            if (product.label2_info) {
+                addLabelInfoToCache(product.item_label2, product.label2_info);
+            }
+            
+            labelsHtml += `
+                <div class="product-label label2" style="background-color: #${labelInfo.color}">
+                    ${labelInfo.text}
+                </div>
+            `;
+        } else {
+            // ラベル情報が取得できない場合はエラーログのみ
+            console.error(`エラー: ラベルID=${product.item_label2}の情報が取得できません(商品ID:${product.id}, 商品名:${product.name})`);
+        }
+    }
+    
+    // 画像のHTMLを生成 (ラベルは削除)
+    const imageHtml = `
+        <div class="product-image">
+            <img src="${imageUrl}" 
+                 alt="${product.name || '商品'}" 
+                 loading="lazy"
+                 class="lazy-image fade-in"
+                 onerror="this.onerror=null;this.src='${defaultImageUrl}';">
+        </div>
+    `;
+    
+    // カート内商品数を取得
+    const cartItem = findCartItemById(product.id);
+    const cartQty = cartItem ? cartItem.quantity : 0;
+    
+    // 商品情報のHTMLを生成 (ピックアップ商品とそれ以外で表示が異なる)
+    if (product.item_pickup === '1' || product.item_pickup === 1) {
+        // ピックアップ商品の場合 - ボタンは左側に、ラベルは右側に配置
+        const productHtml = `
+            ${imageHtml}
+            <div class="product-info">
+                <div class="product-name">${product.name || '商品名なし'}</div>
+                <div class="product-price">¥${Number(product.price || 0).toLocaleString()}</div>
+                <div class="product-description">${product.description || '商品の説明はありません。'}</div>
+                <div class="product-button-container">
+                    <button class="view-detail-btn" data-id="${product.id}" onclick="handleViewDetail(this)">商品詳細</button>
+                    <div class="product-labels">
+                        ${labelsHtml}
+                    </div>
+                </div>
+                ${cartQty > 0 ? `<span class="product-cart-badge">${cartQty}</span>` : ''}
+            </div>
+        `;
+        productElement.innerHTML = productHtml;
+    } else {
+        // 通常商品の場合 - 価格の横にラベル1のみを表示
+        let label1Html = '';
+        if (product.item_label1) {
+            // ラベル情報を取得（キャッシュまたはAPI応答から）
+            const labelInfo = product.label1_info || getLabelInfo(product.item_label1);
+            
+            // ラベル情報があればキャッシュに追加してラベルを表示
+            if (labelInfo) {
+                // キャッシュに追加
+                if (product.label1_info) {
+                    addLabelInfoToCache(product.item_label1, product.label1_info);
+                }
+                
+                label1Html = `
+                    <div class="product-label label1" style="background-color: #${labelInfo.color}">
+                        ${labelInfo.text}
+                    </div>
+                `;
+            } else {
+                // ラベル情報が取得できない場合はエラーログのみ
+                console.error(`エラー: ラベルID=${product.item_label1}の情報が取得できません(商品ID:${product.id}, 商品名:${product.name})`);
+            }
+        }
+        
+        const productHtml = `
+            ${imageHtml}
+            <div class="product-info">
+                <div class="product-name">${product.name || '商品名なし'}</div>
+                <div class="product-price-container">
+                    <div class="product-price">¥${Number(product.price || 0).toLocaleString()}</div>
+                    ${label1Html}
+                </div>
+                <div class="product-button-container">
+                    <button class="view-detail-btn" data-id="${product.id}" onclick="handleViewDetail(this)">商品詳細</button>
+                </div>
+                ${cartQty > 0 ? `<span class="product-cart-badge">${cartQty}</span>` : ''}
+            </div>
+        `;
+        productElement.innerHTML = productHtml;
+    }
+    
+    // 商品タップでも詳細を表示するイベントを追加
+    productElement.addEventListener('click', function(event) {
+        // ボタンクリックの場合はハンドラに任せる
+        if (event.target.classList.contains('view-detail-btn')) {
+            return;
+        }
+        
+        const detailBtn = this.querySelector('.view-detail-btn');
+        if (detailBtn) {
+            handleViewDetail(detailBtn);
+        }
+    });
+    
+    return productElement;
+}
+
+/**
+ * カートに商品を追加した時のアニメーション
+ * @param {HTMLElement} productElement - 商品要素
+ */
+function showAddToCartAnimation(productElement) {
+    // アニメーション効果の追加
+    const button = productElement.querySelector('.view-detail-btn');
+    if (button) {
+        // ボタンにアニメーション効果を付与
+        button.innerHTML = '<i class="fas fa-check"></i> 追加しました';
+        button.style.backgroundColor = 'var(--success-color)';
+        
+        // 元に戻すタイマー
+        setTimeout(() => {
+            button.innerHTML = '商品詳細';
+            button.style.backgroundColor = '';
+            
+            // カートに追加された後に、商品一覧を更新
+            updateProductCartBadges();
+        }, 1000);
+    }
+}
+
+/**
+ * 商品詳細を表示するハンドラー関数
+ * @param {HTMLElement} button - クリックされたボタン要素 
+ */
+function handleViewDetail(button) {
+    const productId = button.getAttribute('data-id');
+    console.log('商品詳細を表示: 商品ID=' + productId);
+    
+    // 商品データを取得
+    let product = null;
+    
+    // API経由で取得した商品データをキャッシュから探す
+    if (window.apiClient && window.apiClient.getCachedProduct) {
+        product = window.apiClient.getCachedProduct(productId);
+    }
+    
+    // キャッシュにない場合は個別に商品データを取得する必要がある
+    if (!product) {
+        // このサンプルでは、HTML要素から情報を取得する方法を示す
+        // 実際のプロジェクトでは、APIを呼び出して商品情報を取得するべき
+        const productElement = button.closest('.product-item');
+        
+        product = {
+            id: productId,
+            name: productElement.querySelector('.product-name').textContent,
+            price: parseInt(productElement.querySelector('.product-price').textContent.replace(/[^\d]/g, '')),
+            image_url: productElement.querySelector('img').src,
+            description: '', // 詳細情報は別途取得が必要
+            category_name: '' // カテゴリ名は別途取得が必要
+        };
+        
+        // 商品詳細をAPIから取得
+        fetchProductDetails(productId)
+            .then(detailProduct => {
+                if (detailProduct) {
+                    // 詳細情報を上書き
+                    Object.assign(product, detailProduct);
+                    // 詳細モーダルの内容を更新
+                    updateProductDetailModal(product);
+                }
+            })
+            .catch(error => {
+                console.error('商品詳細の取得に失敗しました:', error);
+            });
+    }
+    
+    // 詳細モーダルの内容を更新
+    updateProductDetailModal(product);
+    
+    // モーダルを表示
+    const modal = document.getElementById('product-detail-modal');
+    modal.style.display = 'block';
+    
+    // 現在の詳細表示商品を保存
+    currentDetailProduct = product;
+    
+    // 数量をリセット
+    currentQuantity = 1;
+    document.getElementById('quantity-value').textContent = currentQuantity;
+    
+    // URLにitemパラメータを追加（ディープリンク対応）
+    if (product.square_item_id) {
+        updateUrlWithItemId(product.square_item_id);
+    }
+}
+
+/**
+ * 商品詳細APIの呼び出し
+ * @param {string} productId - 商品ID
+ * @returns {Promise<Object>} 詳細情報
+ */
+async function fetchProductDetails(productId) {
+    try {
+        console.log(`商品ID=${productId}の詳細情報をリクエスト開始`);
+        
+        if (!window.apiClient) {
+            window.apiClient = new API();
+        }
+        
+        // APIクライアントが存在する場合はそれを呼び出す
+        if (window.apiClient.getProductDetails) {
+            try {
+                const result = await window.apiClient.getProductDetails(productId);
+                
+                if (result) {
+                    console.log(`商品ID=${productId}の詳細情報を取得しました`);
+                    
+                    // ラベル情報のログ（デバッグ用）
+                    if (result.label1_info) {
+                        console.log(`商品ID=${productId} ラベル1情報:`, result.label1_info);
+                    }
+                    if (result.label2_info) {
+                        console.log(`商品ID=${productId} ラベル2情報:`, result.label2_info);
+                    }
+                } else {
+                    console.warn(`商品ID=${productId}の詳細情報が取得できませんでした`);
+                }
+                
+                return result;
+            } catch (apiError) {
+                console.error(`商品ID=${productId}のAPI呼び出しエラー:`, apiError);
+                return null;
+            }
+        }
+        
+        // APIが存在しない場合はnullを返す
+        console.warn(`商品詳細APIが未定義です`);
+        return null;
+    } catch (error) {
+        console.error(`商品ID=${productId}の詳細取得中にエラー発生:`, error);
+        return null;
+    }
+}
+
+/**
+ * URLを更新して商品IDをクエリパラメータとして追加
+ * @param {string} squareItemId - Square商品ID
+ */
+function updateUrlWithItemId(squareItemId) {
+    if (!history.pushState) return;
+    
+    const url = new URL(window.location.href);
+    url.searchParams.set('item', squareItemId);
+    
+    // URLを更新（ページ遷移なし）
+    history.pushState({itemId: squareItemId}, '', url.toString());
+}
+
+/**
+ * URL変更時に商品詳細を表示
+ */
+function handleUrlItemParam() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const itemId = urlParams.get('item');
+    
+    if (itemId) {
+        console.log('URLパラメータから商品詳細を表示: ' + itemId);
+        
+        // 商品リストが読み込まれるのを待つ
+        setTimeout(() => {
+            // square_item_idから商品を検索
+            const productElement = document.querySelector(`.product-item[data-square-id="${itemId}"]`);
+            
+            if (productElement) {
+                const detailBtn = productElement.querySelector('.view-detail-btn');
+                if (detailBtn) {
+                    handleViewDetail(detailBtn);
+                }
+            } else {
+                console.warn('指定されたIDの商品が見つかりません: ' + itemId);
+                // 必要に応じてAPIで直接商品情報を取得する処理を追加
+            }
+        }, 1000); // 商品リスト読み込み後に実行
+    }
+}
+
+/**
+ * 商品詳細モーダルを更新
+ * @param {Object} product - 表示する商品データ
+ */
+function updateProductDetailModal(product) {
+    // 現在表示中の商品を保存
+    currentDetailProduct = product;
+    
+    // モーダル内の要素を更新
+    const detailImg = document.getElementById('product-detail-img');
+    if (detailImg) {
+        detailImg.src = product.image_url || 'images/no-image.png';
+    }
+    
+    const detailName = document.getElementById('product-detail-name');
+    if (detailName) {
+        detailName.textContent = product.name;
+    }
+    
+    const detailCategory = document.getElementById('product-detail-category');
+    if (detailCategory) {
+        detailCategory.textContent = product.category_name || '';
+    }
+    
+    // ラベル表示の準備
+    let labelHtmlContent = '';
+    
+    // ラベル1が存在する場合
+    if (product.item_label1) {
+        // ラベル情報を取得（キャッシュまたはAPI応答から）
+        const labelInfo = product.label1_info || getLabelInfo(product.item_label1);
+        
+        // ラベル情報があればキャッシュに追加してラベルを表示
+        if (labelInfo) {
+            // キャッシュに追加
+            if (product.label1_info) {
+                addLabelInfoToCache(product.item_label1, product.label1_info);
+            }
+            
+            labelHtmlContent += `
+                <span class="product-detail-label label1" style="background-color: #${labelInfo.color}">
+                    ${labelInfo.text}
+                </span>
+            `;
+        } else {
+            // ラベル情報が取得できない場合はエラーログのみ
+            console.error(`エラー: ラベルID=${product.item_label1}の情報が取得できません(商品ID:${product.id}, 商品名:${product.name})`);
+        }
+    }
+    
+    // ラベル2が存在する場合
+    if (product.item_label2) {
+        // ラベル情報を取得（キャッシュまたはAPI応答から）
+        const labelInfo = product.label2_info || getLabelInfo(product.item_label2);
+        
+        // ラベル情報があればキャッシュに追加してラベルを表示
+        if (labelInfo) {
+            // キャッシュに追加
+            if (product.label2_info) {
+                addLabelInfoToCache(product.item_label2, product.label2_info);
+            }
+            
+            labelHtmlContent += `
+                <span class="product-detail-label label2" style="background-color: #${labelInfo.color}">
+                    ${labelInfo.text}
+                </span>
+            `;
+        } else {
+            // ラベル情報が取得できない場合はエラーログのみ
+            console.error(`エラー: ラベルID=${product.item_label2}の情報が取得できません(商品ID:${product.id}, 商品名:${product.name})`);
+        }
+    }
+    
+    // 詳細説明を設定
+    const detailDescription = document.getElementById('product-detail-description');
+    if (detailDescription) {
+        detailDescription.textContent = product.description || '商品の説明はありません。';
+    }
+    
+    // 価格とラベルを表示
+    const detailPrice = document.getElementById('product-detail-price');
+    if (detailPrice) {
+        // 価格とラベルをコンテナで包む
+        detailPrice.innerHTML = `
+            <div class="product-detail-price-container">
+                <span class="price-value">¥${Number(product.price || 0).toLocaleString()}</span>
+                ${labelHtmlContent}
+            </div>
+        `;
+    }
+    
+    // 数量をリセット
+    currentQuantity = 1;
+    const quantityValue = document.getElementById('quantity-value');
+    if (quantityValue) {
+        quantityValue.textContent = currentQuantity;
+    }
+    
+    // カート内の商品数を表示
+    updateCartInfoInDetailModal(product.id);
+}
+
+/**
+ * 詳細モーダルでカート内商品数の情報を更新
+ * @param {string|number} productId - 商品ID
+ */
+function updateCartInfoInDetailModal(productId) {
+    // カートに既に商品がある場合のメッセージ表示
+    const cartItem = findCartItemById(productId);
+    
+    // 既存のメッセージがあれば削除
+    const cartInfoElement = document.querySelector('.cart-info-message');
+    if (cartInfoElement) {
+        cartInfoElement.remove();
+    }
+    
+    // カートにある場合はメッセージを表示
+    if (cartItem && cartItem.quantity > 0) {
+        const infoMessage = document.createElement('p');
+        infoMessage.className = 'cart-info-message';
+        infoMessage.textContent = `現在カートにこの商品は${cartItem.quantity}つ入っています`;
+        
+        // メッセージを価格と数量コントロールの間に挿入
+        const priceElement = document.getElementById('product-detail-price');
+        const quantityControl = document.querySelector('.quantity-control');
+        if (priceElement && quantityControl && priceElement.parentNode) {
+            priceElement.parentNode.insertBefore(infoMessage, quantityControl);
+        }
+    }
+    
+    // ボタンのラベルを「カートに入れる」に戻し、スタイルをリセット
+    const addToCartBtn = document.getElementById('add-to-cart-detail');
+    if (addToCartBtn) {
+        addToCartBtn.innerHTML = 'カートに入れる';
+        addToCartBtn.style.backgroundColor = '';
+    }
+}
+
+/**
+ * 商品詳細モーダルの初期化
+ */
+function initProductDetailModal() {
+    const modal = document.getElementById('product-detail-modal');
+    const closeBtn = modal.querySelector('.close');
+    const minusBtn = document.getElementById('quantity-minus');
+    const plusBtn = document.getElementById('quantity-plus');
+    const addToCartBtn = document.getElementById('add-to-cart-detail');
+    
+    // モーダル表示前にバッジを保持するための処理
+    modal.addEventListener('show', function() {
+        // 既存のバッジの状態を保持
+        console.log('モーダル表示前: バッジ状態を保持');
+    });
+    
+    // 閉じるボタンでモーダルを非表示
+    closeBtn.addEventListener('click', () => {
+        modal.style.display = 'none';
+        
+        // URLからitemパラメータを削除
+        if (history.pushState) {
+            const url = new URL(window.location.href);
+            url.searchParams.delete('item');
+            history.pushState({}, '', url.toString());
+        }
+        
+        // 少し遅延させてからカートバッジを更新（DOM更新後）
+        setTimeout(() => {
+            updateProductCartBadges();
+        }, 100);
+    });
+    
+    // 背景クリックでモーダルを閉じる
+    window.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+            
+            // URLからitemパラメータを削除
+            if (history.pushState) {
+                const url = new URL(window.location.href);
+                url.searchParams.delete('item');
+                history.pushState({}, '', url.toString());
+            }
+            
+            // 少し遅延させてからカートバッジを更新（DOM更新後）
+            setTimeout(() => {
+                updateProductCartBadges();
+            }, 100);
+        }
+    });
+    
+    // 数量減少ボタン
+    minusBtn.addEventListener('click', () => {
+        if (currentQuantity > 1) {
+            currentQuantity--;
+            document.getElementById('quantity-value').textContent = currentQuantity;
+        }
+    });
+    
+    // 数量増加ボタン
+    plusBtn.addEventListener('click', () => {
+        currentQuantity++;
+        document.getElementById('quantity-value').textContent = currentQuantity;
+    });
+    
+    // カートに追加ボタン
+    addToCartBtn.addEventListener('click', () => {
+        if (currentDetailProduct && currentQuantity > 0) {
+            // カートに追加
+            if (typeof window.addToCart === 'function') {
+                window.addToCart(currentDetailProduct, currentQuantity);
+            
+                // 追加アニメーション
+                addToCartBtn.innerHTML = '<i class="fas fa-check"></i> 追加しました';
+                addToCartBtn.style.backgroundColor = 'var(--success-color)';
+                
+                // 一定時間後にモーダルをスライドアウトして閉じる
+                setTimeout(() => {
+                    // アニメーションクラスを追加
+                    modal.querySelector('.modal-content').classList.add('slide-out-up');
+                    
+                    // アニメーション完了後にモーダルを閉じる
+                    setTimeout(() => {
+                        modal.style.display = 'none';
+                        modal.querySelector('.modal-content').classList.remove('slide-out-up');
+                        
+                        // ボタンを元に戻す
+                        addToCartBtn.innerHTML = 'カートに入れる';
+                        addToCartBtn.style.backgroundColor = '';
+                        
+                        // URLからitemパラメータを削除
+                        if (history.pushState) {
+                            const url = new URL(window.location.href);
+                            url.searchParams.delete('item');
+                            history.pushState({}, '', url.toString());
+                        }
+                        
+                        // 商品一覧のバッジを確実に更新
+                        setTimeout(() => {
+                            updateProductCartBadges();
+                        }, 100);
+                    }, 500);
+                }, 1000);
+            } else {
+                console.error('addToCart関数が見つかりません');
+            }
+        }
+    });
+}
+
+/**
+ * カート内商品を商品IDで検索
+ * @param {string|number} productId - 検索する商品ID
+ * @returns {Object|null} 見つかった商品またはnull
+ */
+function findCartItemById(productId) {
+    if (typeof cartItems === 'undefined' || !Array.isArray(cartItems)) {
+        return null;
+    }
+    
+    // 商品IDを文字列として比較して検索
+    return cartItems.find(item => String(item.id) === String(productId)) || null;
+}
+
+/**
+ * 商品カードにカート内数量バッジを更新
+ */
+function updateProductCartBadges() {
+    console.log('カートバッジ更新を実行');
+    
+    try {
+        // まず、すべての古いバッジを削除
+        document.querySelectorAll('.product-cart-badge').forEach(badge => {
+            badge.remove();
+        });
+        
+        // 商品カードごとにバッジを追加
+        document.querySelectorAll('.product-item').forEach(productElement => {
+            const productId = productElement.getAttribute('data-id');
+            if (!productId) return;
+            
+            // カート内の対応する商品を検索（文字列として比較）
+            const cartItem = findCartItemById(productId);
+            
+            // カートに存在する場合のみバッジを追加
+            if (cartItem && cartItem.quantity > 0) {
+                const badge = document.createElement('span');
+                badge.className = 'product-cart-badge';
+                badge.textContent = cartItem.quantity;
+                
+                // 要素が相対位置指定を持っていることを確認
+                productElement.style.position = 'relative';  // 常に相対位置を設定
+                
+                // バッジを商品カードに追加
+                productElement.appendChild(badge);
+                console.log(`商品ID ${productId} にバッジを追加しました (数量: ${cartItem.quantity})`);
+            }
+        });
+    } catch (error) {
+        console.error('カートバッジ更新中にエラーが発生しました:', error);
+    }
+}
+
+/**
+ * カートモーダルの初期化
+ */
+function initCartModal() {
+    const modal = document.getElementById('cart-modal');
+    const orderButton = document.getElementById('order-button');
+    const closeBtn = modal.querySelector('.close');
+    const backButton = document.getElementById('back-button');
+    const checkoutButton = document.getElementById('checkout-button');
+    
+    // 注文ボタンクリックでモーダルを表示
+    orderButton.addEventListener('click', () => {
+        updateCartModal();
+        modal.style.display = 'block';
+    });
+    
+    // 閉じるボタンでモーダルを非表示
+    closeBtn.addEventListener('click', () => {
+        modal.style.display = 'none';
+        // モーダルを閉じた後にバッジを更新
+        setTimeout(() => updateProductCartBadges(), 100);
+    });
+    
+    // 戻るボタンでモーダルを非表示
+    backButton.addEventListener('click', () => {
+        modal.style.display = 'none';
+        // モーダルを閉じた後にバッジを更新
+        setTimeout(() => updateProductCartBadges(), 100);
+    });
+    
+    // 注文確定ボタンのイベント処理
+    checkoutButton.addEventListener('click', async () => {
+        const notes = document.getElementById('order-notes').value;
+        
+        // 注文処理中の表示
+        checkoutButton.disabled = true;
+        checkoutButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> 処理中...';
+        
+        try {
+            // 注文データを作成
+            const orderData = createOrderData(notes);
+            
+            // APIクライアントインスタンスを取得または作成
+            if (!window.apiClient) {
+                window.apiClient = new API();
+            }
+            
+            // 注文APIを呼び出し
+            const order = await window.apiClient.createOrder(orderData);
+            
+            // 注文完了処理
+            handleOrderSuccess(order);
+        } catch (error) {
+            console.error('注文処理エラー:', error);
+            
+            // エラー表示
+            checkoutButton.innerHTML = '<i class="fas fa-exclamation-circle"></i> エラーが発生しました';
+            
+            setTimeout(() => {
+                checkoutButton.disabled = false;
+                checkoutButton.innerHTML = '注文を確定する';
+            }, 2000);
+        }
+    });
+    
+    // 背景クリックでモーダルを閉じる（オプション）
+    window.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+            // モーダルを閉じた後にバッジを更新
+            setTimeout(() => updateProductCartBadges(), 100);
+        }
+    });
+}
+
+/**
+ * 注文完了モーダルの初期化
+ */
+function initOrderCompleteModal() {
+    const modal = document.getElementById('order-complete-modal');
+    const closeButtons = modal.querySelectorAll('#continue-shopping, #view-orders');
+    
+    // 閉じるボタンのイベントリスナー
+    closeButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            modal.style.display = 'none';
+            
+            // 注文履歴を表示するボタンの場合
+            if (this.id === 'view-orders') {
+                document.getElementById('order-history-modal').style.display = 'block';
+                loadOrderHistory();
+            }
+        });
+    });
+    
+    // モーダル外クリックで閉じる
+    window.addEventListener('click', function(event) {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+}
+
+/**
+ * 注文成功時の処理
+ * @param {Object} order - 作成された注文データ
+ */
+function handleOrderSuccess(order) {
+    // カートモーダルを閉じる
+    document.getElementById('cart-modal').style.display = 'none';
+    
+    // 注文番号をセット
+    document.getElementById('order-number').textContent = order.id;
+    
+    // 注文完了モーダルを表示
+    document.getElementById('order-complete-modal').style.display = 'block';
+    
+    // カートをクリア
+    clearCart();
+}
+
+/**
+ * 営業時間外モーダルの初期化
+ */
+function initClosedTimeModal() {
+    const modal = document.getElementById('closed-time-modal');
+    const closeButton = document.getElementById('close-closed-time-button');
+    const closeX = modal.querySelector('.close');
+    
+    // 閉じるボタンのイベントリスナー
+    if (closeButton) {
+        closeButton.addEventListener('click', function() {
+            modal.style.display = 'none';
+        });
+    }
+    
+    // ×ボタンのイベントリスナー
+    if (closeX) {
+        closeX.addEventListener('click', function() {
+            modal.style.display = 'none';
+        });
+    }
+    
+    // モーダル外クリックで閉じる
+    window.addEventListener('click', function(event) {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+}
+
+/**
+ * 営業時間外モーダル表示
+ * @param {string} message - 表示するメッセージ
+ */
+function showClosedTimeModal(message) {
+    const modal = document.getElementById('closed-time-modal');
+    const messageElement = document.getElementById('closed-time-message');
+    
+    // メッセージがあれば表示内容を更新
+    if (message && messageElement) {
+        messageElement.textContent = message;
+    }
+    
+    // モーダルを表示
+    if (modal) {
+        modal.style.display = 'block';
+    }
+}
+
+// ページ読み込み時の初期化処理
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOM fully loaded');
+    // アプリケーションの初期化
+    initApp();
+    // 遅延読み込みのセットアップ
+    setupLazyLoading();
+    // 更新ボタン初期化
+    initRefreshButton();
+    // カテゴリの読み込み
+    loadCategories();
+    
+    // DOM読み込み完了時にカートバッジを確実に表示
+    setTimeout(function() {
+        updateProductCartBadges();
+    }, 500);
+    
+    // カートが変更されたときにバッジを確実に更新するイベントリスナーを追加
+    window.addEventListener('cart-updated', function() {
+        console.log('カート更新イベント検出');
+        setTimeout(() => updateProductCartBadges(), 100);
+    });
+});
+
+/**
+ * カートに商品を追加するハンドラー関数（グローバルスコープ）
+ * ボタンのonclick属性から直接呼び出される
+ * @param {HTMLElement} button - クリックされたボタン要素
+ */
+function handleAddToCart(button) {
+    const productId = button.getAttribute('data-id');
+    console.log('カートに追加: 商品ID=' + productId);
+    
+    // 商品データを取得（すでに読み込まれている商品リストから）
+    const productElement = button.closest('.product-item');
+    let product = null;
+    
+    // API経由で取得した商品データをキャッシュから探す
+    if (window.apiClient && window.apiClient.getCachedProduct) {
+        product = window.apiClient.getCachedProduct(productId);
+    }
+    
+    // キャッシュにない場合はHTML要素から必要な情報を取得
+    if (!product) {
+        product = {
+            id: productId,
+            name: productElement.querySelector('.product-name').textContent,
+            price: parseInt(productElement.querySelector('.product-price').textContent.replace(/[^\d]/g, '')),
+            image_url: productElement.querySelector('img').src
+        };
+    }
+    
+    // カートに追加
+    if (typeof window.addToCart === 'function') {
+        window.addToCart(product);
+        
+        // 追加アニメーション
+        showAddToCartAnimation(productElement);
+        
+        // 現在詳細モーダルを表示中の場合、モーダル内のカート情報も更新
+        if (currentDetailProduct && currentDetailProduct.id === productId) {
+            updateCartInfoInDetailModal(productId);
+        }
+    } else {
+        console.error('addToCart関数が見つかりません');
+        // エラーアラートは表示せず、コンソールのみにログを残す
+        
+        // 応急処置：カート更新関数が見つからない場合でもUIのフィードバックだけは提供
+        showAddToCartAnimation(productElement);
+    }
+}
+
+// 部屋番号のセット処理を修正
+function setRoomNumber(roomId) {
+    const roomNumberElement = document.getElementById('room-number');
+    if (roomNumberElement) {
+        // 取得できない場合は「未設定」と表示
+        roomNumberElement.textContent = roomId || '未設定';
+    }
+}
+
+// 更新ボタンのイベントリスナーを追加
+function initRefreshButton() {
+    const refreshButton = document.getElementById('refresh-button');
+    if (refreshButton) {
+        refreshButton.addEventListener('click', async () => {
+            try {
+                // クリック時の視覚的フィードバック
+                const icon = refreshButton.querySelector('i');
+                if (icon) {
+                    icon.classList.add('fa-spin');
+                }
+                
+                // 再読み込み処理
+                await loadCategories();
+                // その他の必要な再読み込み処理
+                
+                // スピン停止
+                setTimeout(() => {
+                    if (icon) {
+                        icon.classList.remove('fa-spin');
+                    }
+                }, 500);
+            } catch (error) {
+                console.error('更新エラー:', error);
+                showError('データの更新に失敗しました');
+                const icon = refreshButton.querySelector('i');
+                if (icon) {
+                    icon.classList.remove('fa-spin');
+                }
+            }
+        });
+    }
+}
+
+/**
+ * 遅延読み込み機能のセットアップ
+ */
+function setupLazyLoading() {
+    // IntersectionObserverのサポートをチェック
+    if ('IntersectionObserver' in window) {
+        console.log('Initializing lazy loading with IntersectionObserver');
+        
+        const lazyImageObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const lazyImage = entry.target;
+                    
+                    // 画像が読み込み完了したらフェードイン
+                    lazyImage.onload = function() {
+                        lazyImage.classList.add('fade-in');
+                    };
+                    
+                    // すでに読み込み済みの場合（キャッシュから）
+                    if (lazyImage.complete) {
+                        lazyImage.classList.add('fade-in');
+                    }
+                    
+                    // 監視を終了
+                    observer.unobserve(lazyImage);
+                }
+            });
+        });
+        
+        // 遅延読み込み対象の画像を取得して監視を開始
+        document.querySelectorAll('img.lazy-image').forEach(img => {
+            lazyImageObserver.observe(img);
+        });
+    } else {
+        // IntersectionObserverがサポートされていない場合
+        console.log('IntersectionObserver not supported, loading all images immediately');
+        document.querySelectorAll('img.lazy-image').forEach(img => {
+            img.classList.add('fade-in');
+        });
+    }
+}
+
+/**
+ * 遅延読み込み機能の初期化
+ */
+function initLazyLoading() {
+    // IntersectionObserverのサポートをチェック
+    if ('IntersectionObserver' in window) {
+        const lazyImageObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const lazyImage = entry.target;
+                    
+                    // 画像のロード完了時の処理
+                    lazyImage.onload = function() {
+                        // フェードイン処理
+                        this.classList.add('fade-in');
+                    };
+                    
+                    // 画像のエラー時の処理
+                    lazyImage.onerror = function() {
+                        // フォールバック画像を設定し、フェードイン処理
+                        this.src = '/fgsquare/order/images/no-image.png';
+                        this.classList.add('fade-in');
+                    };
+                    
+                    // 既に読み込み済みの場合はクラスを追加
+                    if (lazyImage.complete) {
+                        lazyImage.classList.add('fade-in');
+                    }
+                    
+                    // 監視を解除
+                    observer.unobserve(lazyImage);
+                }
+            });
+        });
+        
+        // ページ内のすべての遅延読み込み画像を監視
+        const lazyImages = document.querySelectorAll('img.lazy-image');
+        lazyImages.forEach(lazyImage => {
+            lazyImageObserver.observe(lazyImage);
+        });
+    } else {
+        // IntersectionObserverがサポートされていない環境での対応
+        const lazyImages = document.querySelectorAll('img.lazy-image');
+        lazyImages.forEach(img => {
+            img.classList.add('fade-in');
+        });
+    }
+}
+
+/**
+ * アプリケーションの初期化
+ */
+function initApp() {
+    try {
+        // ローディング状態を設定
+        showLoadingIndicator();
+        
+        // トップに戻るボタンの初期化
+        initScrollToTopButton();
+        
+        // カート機能の初期化
+        restoreCartFromLocalStorage();
+        
+        // 部屋情報をURLクエリパラメータから取得
+        handleUrlRoomParam();
+        
+        // 更新ボタンの設定
+        initRefreshButton();
+        
+        // モーダルの初期化
+        initCartModal();
+        initProductDetailModal();
+        initOrderCompleteModal();
+        initOrderHistoryModal();
+        initClosedTimeModal();
+        
+        // ヘッダーのスクロール処理設定
+        setupHeaderScroll();
+        
+        // 画像の遅延読み込み設定
+        initLazyLoading();
+        
+        // 商品データをURLパラメータから処理
+        handleUrlItemParam();
+        
+        // カテゴリと商品データの読み込み
+        if (!selectedCategoryId) {
+            loadCategories().then(() => {
+                hideLoadingIndicator();
+            }).catch(error => {
+                console.error('初期カテゴリ読み込みエラー:', error);
+                showError('データの読み込みに失敗しました。ページを再読み込みしてください。');
+            });
+        }
+        
+        // コンテンツを表示
+        document.getElementById('content-container').style.display = 'block';
+    } catch (error) {
+        console.error('アプリ初期化エラー:', error);
+        showError('アプリケーションの初期化中にエラーが発生しました。ページを再読み込みしてください。');
+    }
+}
+
+/**
+ * 注文履歴モーダルの初期化
+ */
+function initOrderHistoryModal() {
+    const button = document.getElementById('order-history-button');
+    const modal = document.getElementById('order-history-modal');
+    const closeBtn = modal.querySelector('.close');
+    const closeButton = document.getElementById('close-history-button');
+    
+    // 注文履歴ボタンクリックでモーダルを表示
+    button.addEventListener('click', () => {
+        modal.style.display = 'block';
+        loadOrderHistory();
+    });
+    
+    // 閉じるボタンでモーダルを非表示
+    closeBtn.addEventListener('click', () => {
+        modal.style.display = 'none';
+    });
+    
+    // 閉じるボタン（フッター）でモーダルを非表示
+    closeButton.addEventListener('click', () => {
+        modal.style.display = 'none';
+    });
+    
+    // 背景クリックでモーダルを閉じる
+    window.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+}
+
+/**
+ * 注文履歴を読み込み
+ */
+async function loadOrderHistory() {
+    const historyList = document.getElementById('order-history-list');
+    
+    // ローディング表示
+    historyList.innerHTML = `
+        <div class="loading-indicator">
+            <div class="spinner"></div>
+            <p>履歴を読み込み中...</p>
+        </div>
+    `;
+    
+    try {
+        // 部屋番号を取得
+        let roomNumber = '';
+        if (typeof roomInfo !== 'undefined' && roomInfo && roomInfo.room_number) {
+            roomNumber = roomInfo.room_number;
+        } else {
+            // 部屋番号が取得できない場合はエラー表示
+            throw new Error('部屋番号が取得できません。');
+        }
+        
+        // 注文履歴APIを呼び出し
+        const url = `/fgsquare/order/api/get-orders.php?room_number=${encodeURIComponent(roomNumber)}&limit=10`;
+        const response = await fetch(url);
+        
+        if (!response.ok) {
+            throw new Error(`API error: ${response.status}`);
+        }
+        
+        const data = await response.json();
+        
+        if (data && data.success && Array.isArray(data.orders)) {
+            // 注文履歴を表示
+            displayOrderHistory(data.orders);
+        } else {
+            // フォールバック: 既存のAPIクライアントを使用
+            console.log('標準APIからの取得に失敗、getOrderHistory APIを使用します');
+            if (!window.apiClient) {
+                window.apiClient = new API();
+            }
+            const orders = await window.apiClient.getOrderHistory();
+            displayOrderHistory(orders);
+        }
+    } catch (error) {
+        console.error('注文履歴取得エラー:', error);
+        historyList.innerHTML = `
+            <div class="error-message">
+                <i class="fas fa-exclamation-circle"></i>
+                <p>注文履歴の読み込みに失敗しました</p>
+                <p class="error-details">${error.message}</p>
+            </div>
+        `;
+    }
+}
+
+/**
+ * 注文履歴を表示
+ * @param {Array} orders - 注文履歴一覧
+ */
+function displayOrderHistory(orders) {
+    const historyList = document.getElementById('order-history-list');
+    
+    if (!orders || orders.length === 0) {
+        historyList.innerHTML = `
+            <div class="empty-history">
+                <i class="fas fa-history"></i>
+                <p>注文履歴がありません</p>
+            </div>
+        `;
+        return;
+    }
+    
+    // 履歴をHTMLに変換
+    let historyHtml = '';
+    
+    orders.forEach(order => {
+        // 日付フォーマット
+        const orderDate = new Date(order.order_datetime);
+        const formattedDate = `${orderDate.getFullYear()}/${(orderDate.getMonth() + 1).toString().padStart(2, '0')}/${orderDate.getDate().toString().padStart(2, '0')} ${orderDate.getHours().toString().padStart(2, '0')}:${orderDate.getMinutes().toString().padStart(2, '0')}`;
+        
+        // ステータスクラス
+        const statusClass = order.order_status.toLowerCase();
+        
+        // ステータスの日本語表示
+        let statusText = '処理中';
+        if (order.order_status === 'COMPLETED') statusText = '完了';
+        if (order.order_status === 'CANCELED') statusText = 'キャンセル';
+        
+        // 注文詳細の表示
+        let itemsHtml = '';
+        if (order.items && order.items.length > 0) {
+            itemsHtml = '<ul class="order-items-list">';
+            order.items.forEach(item => {
+                itemsHtml += `<li>${item.product_name} × ${item.quantity}</li>`;
+            });
+            itemsHtml += '</ul>';
+        }
+        
+        historyHtml += `
+            <div class="order-history-item">
+                <div class="order-history-header">
+                    <div class="order-date">${formattedDate}</div>
+                    <div class="order-status ${statusClass}">${statusText}</div>
+                </div>
+                <div class="order-id">注文番号: ${order.id}</div>
+                <div class="order-total">合計: ¥${Number(order.total_amount).toLocaleString()}</div>
+                ${itemsHtml}
+            </div>
+        `;
+    });
+    
+    historyList.innerHTML = historyHtml;
+}
+
+/**
+ * ヘルパー関数：カート内容が変更された場合のバッジ更新
+ * cart.js側の関数から呼ばれることを想定
+ */
+function onCartUpdated() {
+    console.log('カート更新後のバッジ更新を実行');
+    // バッジの更新
+    updateProductCartBadges();
+}
+
+/**
+ * ローディング表示を表示
+ */
+function showLoadingIndicator() {
+    const loadingElement = document.getElementById('loading');
+    if (loadingElement) {
+        loadingElement.style.display = 'flex';
+    }
+}
+
+/**
+ * ローディング表示を非表示
+ */
+function hideLoadingIndicator() {
+    const loadingElement = document.getElementById('loading');
+    if (loadingElement) {
+        loadingElement.style.display = 'none';
+    }
+}
+
+/**
+ * トップに戻るボタンの初期化
+ * 必要に応じて実装
+ */
+function initScrollToTopButton() {
+    // 現在の実装には「トップに戻る」ボタンが特に存在しないため、空実装
+    console.log('スクロールトップボタン初期化（機能なし）');
+}
+
+/**
+ * ヘッダースクロール処理の設定
+ */
+function setupHeaderScroll() {
+    // 現在の実装にはヘッダースクロール処理が特になし
+    console.log('ヘッダースクロール処理初期化（機能なし）');
+}
+
+/**
+ * ローカルストレージからカートを復元
+ */
+function restoreCartFromLocalStorage() {
+    // カート機能はcart.jsで実装されているため、連携
+    if (typeof loadCartFromStorage === 'function') {
+        loadCartFromStorage();
+    } else {
+        console.log('loadCartFromStorage関数が見つかりません');
+    }
+}
+
+/**
+ * URLパラメータから部屋情報を処理
+ */
+function handleUrlRoomParam() {
+    // 部屋情報関連の処理
+    const urlParams = new URLSearchParams(window.location.search);
+    const roomParam = urlParams.get('room');
+    
+    if (roomParam) {
+        console.log('部屋情報パラメータ検出:', roomParam);
+        // 必要に応じて部屋情報を設定
+    }
+}
+
+/**
+ * エラーメッセージを表示
+ * @param {string} message - 表示するエラーメッセージ
+ */
+function showError(message) {
+    const errorContainer = document.getElementById('error-container');
+    const errorMessage = document.getElementById('error-message');
+    
+    if (errorContainer && errorMessage) {
+        errorMessage.textContent = message;
+        errorContainer.style.display = 'flex';
+        
+        // ローディング表示を非表示
+        const loadingElement = document.getElementById('loading');
+        if (loadingElement) {
+            loadingElement.style.display = 'none';
+        }
+        
+        // コンテンツコンテナを非表示
+        const contentContainer = document.getElementById('content-container');
+        if (contentContainer) {
+            contentContainer.style.display = 'none';
+        }
+    } else {
+        // DOM要素が見つからない場合はコンソールにエラーを出力
+        console.error('エラー表示エレメントが見つかりません。エラーメッセージ:', message);
+    }
+}
+
+// グローバルスコープに関数を追加
+window.handleViewDetail = handleViewDetail;
+window.handleAddToCart = handleAddToCart;
+window.showAddToCartAnimation = showAddToCartAnimation;
+window.showError = showError;
+window.setRoomNumber = setRoomNumber;
+window.initRefreshButton = initRefreshButton;
+window.setupLazyLoading = setupLazyLoading;
+window.initLazyLoading = initLazyLoading;
+window.initApp = initApp;
+window.handleUrlItemParam = handleUrlItemParam;
+window.findCartItemById = findCartItemById;
+window.updateProductCartBadges = updateProductCartBadges;
+window.loadCategories = loadCategories;
+window.onCartUpdated = onCartUpdated;
+window.showLoadingIndicator = showLoadingIndicator;
+window.hideLoadingIndicator = hideLoadingIndicator;
+window.initScrollToTopButton = initScrollToTopButton;
+window.setupHeaderScroll = setupHeaderScroll;
+window.restoreCartFromLocalStorage = restoreCartFromLocalStorage;
+window.handleUrlRoomParam = handleUrlRoomParam; 

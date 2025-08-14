@@ -1,0 +1,78 @@
+/*
+ Version: 0.2.0 (2025-05-31)
+ File Description: AI モーダル UI のチャット形式スタイル
+*/
+
+/* TODO: モーダルレイアウト・バブルスタイルを実装 */
+
+/* モーダル基礎 */
+.mobes-ai-modal{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.4);z-index:1080;display:flex;justify-content:center;align-items:center;}
+.mobes-ai-card{background:#fff;width:90%;max-width:480px;height:80%;border-radius:8px;display:flex;flex-direction:column;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,.2);}
+.mobes-ai-header{padding:12px 16px;border-bottom:1px solid #ddd;display:flex;justify-content:space-between;align-items:center;background:#f8f9fa;}
+.mobes-ai-header h5{margin:0;font-size:18px;color:#333;}
+.mobes-ai-close{background:none;border:none;font-size:24px;color:#666;cursor:pointer;padding:0;width:30px;height:30px;display:flex;align-items:center;justify-content:center;border-radius:50%;transition:background .2s;}
+.mobes-ai-close:hover{background:rgba(0,0,0,.1);}
+
+/* チャットエリア */
+.mobes-ai-body{flex:1;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:12px;background:#f5f5f5;}
+
+/* メッセージバブル */
+.mobes-ai-message{display:flex;align-items:flex-end;gap:8px;}
+.mobes-ai-message.user{justify-content:flex-end;}
+.mobes-ai-message.assistant{justify-content:flex-start;}
+
+.mobes-ai-bubble{max-width:70%;padding:10px 14px;border-radius:18px;word-wrap:break-word;box-shadow:0 1px 2px rgba(0,0,0,.1);}
+.mobes-ai-message.user .mobes-ai-bubble{background:#007bff;color:#fff;border-bottom-right-radius:4px;}
+.mobes-ai-message.assistant .mobes-ai-bubble{background:#fff;color:#333;border-bottom-left-radius:4px;border:1px solid #e0e0e0;}
+
+.typing .mobes-ai-bubble{background:#f1f1f1;color:#555;}
+.dotting{display:inline-block;width:4px;height:4px;border-radius:50%;background:#777;box-shadow:6px 0 0 #777,12px 0 0 #777;animation:dotting 1s infinite steps(6);
+}
+@keyframes dotting{0%{box-shadow:6px 0 0 #777,12px 0 0 #777;}16%{box-shadow:6px 0 0 #777,12px 0 0 #777;}33%{box-shadow:0 0 0 #777,12px 0 0 #777;}50%{box-shadow:0 0 0 #777,6px 0 0 #777;}66%{box-shadow:0 0 0 #777,0 0 0 #777;}83%{box-shadow:6px 0 0 #777,0 0 0 #777;}100%{box-shadow:6px 0 0 #777,12px 0 0 #777;}}
+
+/* 商品カード（推薦時のみ表示） */
+.product-recommendations{display:flex;flex-direction:column;gap:8px;margin-top:8px;}
+.product-card{background:#fff;border:1px solid #ddd;border-radius:8px;display:flex;gap:12px;padding:10px;box-shadow:0 2px 4px rgba(0,0,0,.1);}
+.product-card img{width:60px;height:60px;object-fit:cover;border-radius:6px;}
+.product-info{flex:1;}
+.product-info h6{margin:0 0 4px;font-size:14px;color:#333;}
+.product-info p{margin:0;font-size:12px;color:#666;}
+.product-controls{display:flex;align-items:center;gap:8px;}
+.qty-control{display:flex;align-items:center;gap:4px;}
+.qty-control button{width:24px;height:24px;border:1px solid #ddd;background:#fff;border-radius:4px;cursor:pointer;font-size:14px;display:flex;align-items:center;justify-content:center;}
+.qty-control button:hover{background:#f0f0f0;}
+.qty-control span{min-width:20px;text-align:center;font-size:14px;}
+
+/* 入力エリア */
+.mobes-ai-footer{border-top:1px solid #ddd;padding:12px 16px;background:#fff;}
+.mobes-ai-input{display:flex;gap:8px;align-items:flex-end;}
+.mobes-ai-input textarea{flex:1;resize:none;padding:8px 12px;border:1px solid #ddd;border-radius:20px;font-size:14px;line-height:1.4;max-height:80px;font-family:inherit;}
+.mobes-ai-input textarea:focus{outline:none;border-color:#007bff;}
+.mobes-ai-input button{padding:8px 16px;border:none;border-radius:20px;background:#007bff;color:#fff;cursor:pointer;font-size:14px;transition:background .2s;}
+.mobes-ai-input button:hover{background:#0056b3;}
+.mobes-ai-input button:disabled{background:#ccc;cursor:not-allowed;}
+
+/* カートに追加ボタン（推薦時のみ表示） */
+.add-to-cart-btn{margin-top:8px;padding:10px 20px;border:none;border-radius:6px;background:#28a745;color:#fff;cursor:pointer;font-size:14px;width:100%;transition:background .2s;}
+.add-to-cart-btn:hover{background:#218838;}
+.add-to-cart-btn:disabled{background:#ccc;cursor:not-allowed;}
+
+/* ローディング */
+.loading-overlay{position:absolute;top:0;left:0;width:100%;height:100%;display:flex;justify-content:center;align-items:center;background:rgba(255,255,255,.8);z-index:10;}
+.spinner{width:32px;height:32px;border:3px solid #f3f3f3;border-top:3px solid #007bff;border-radius:50%;animation:spin 1s linear infinite;}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* タイムスタンプ */
+.message-time{font-size:11px;color:#999;margin-top:4px;}
+
+/* 85φ AI アイコン */
+#mobesAiButton{position:fixed;bottom:80px;right:16px;width:85px;height:85px;border:none;border-radius:50%;background:#fff url('../images/icon.svg') center/100% no-repeat;box-shadow:0 4px 10px rgba(0,0,0,.3);z-index:1080;cursor:pointer;transition:transform .2s,box-shadow .2s;}
+#mobesAiButton:hover{transform:scale(1.05);box-shadow:0 6px 14px rgba(0,0,0,.35);}
+
+@media (min-width:600px){.mobes-ai-card{max-width:540px;}}
+
+/* タブ */
+.ai-tabs{display:flex;gap:12px;list-style:none;margin:0;padding:0;}
+.ai-tabs li{padding:6px 12px;border-radius:16px;cursor:pointer;font-size:13px;color:#555;transition:background .2s,color .2s;}
+.ai-tabs li.active{background:#007bff;color:#fff;}
+.ai-tabs li:hover:not(.active){background:#e9ecef;} 
